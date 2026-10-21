@@ -67,6 +67,12 @@ python3 report_coverage.py         # 运行结束后验证并导出结果
 
 [评分与缺失记录口径](experiments/coverage_scoring.md) 明确 246 对分母、失败处理、无自动重试、micro/macro 和作者对照。缺失的时间、token、失败正文和早期实现快照明确标记，不用 0 或当前版本代替。完整输入/响应仅保存在本地，被 Git 忽略；GitHub 保存脚本、固定抽样清单和实验说明。
 
+## 已授权的失败补调
+
+首轮结束后，`retry_coverage.py` 只对首轮失败样本各补调一次；先核对实际生成参数一致，原始文件不变，第二次尝试存入 `outputs/coverage-20261021/retry-attempt-002/`。记录实际开始/结束时间、原始请求响应和脚本快照，4 并发，无自动再次重试。此阶段用户已授权解除旧 ¥20 阈值，仅执行固定失败清单；已有补调目录时拒绝重复付费调用。
+
+补调结束后运行 `python3 report_coverage_retry.py`，核对两轮原始记录、生成参数和计分，生成 `experiments/coverage_retry_report.md` 与 `coverage_retry_results.json`。保留首轮指标；优先采用首轮有效结果，只在首轮失败时采用第二次有效结果。未知调用费用继续单列，不当作 0。
+
 ## 后续评测
 
 1. 固定官方代码版本，核对样本、提示词、推理参数和评分口径。
