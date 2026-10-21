@@ -1,0 +1,18 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# Downloaded papers, data, and experiment outputs
+*.pdf
+data/
+outputs/
+logs/
