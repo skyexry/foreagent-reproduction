@@ -61,6 +61,12 @@ python3 report_coverage.py         # 运行结束后验证并导出结果
 
 作者同样本对照是一次公开运行，不等于论文三次运行平均值。近似等量抽样改变了任务权重，不能直接将这批样本的准确率与论文全量 micro accuracy 比较。
 
+## 审计记录与评分
+
+`python3 export_coverage_audit.py` 从原始记录生成本地 `outputs/coverage-20261021/audit/` 下的三份主文件：实际配置 `run_config.json`、固定样本与标签 `pairs_manifest.json`、逐次实际请求与响应 `attempts.jsonl`。完整输入文件及当前代码快照一并保留并校验哈希；不调用 API，不改变评分。加 `--follow` 可跟随当前批次更新，批次停止后生成结果报告；它不会启动或恢复付费请求。
+
+[评分与缺失记录口径](experiments/coverage_scoring.md) 明确 246 对分母、失败处理、无自动重试、micro/macro 和作者对照。缺失的时间、token、失败正文和早期实现快照明确标记，不用 0 或当前版本代替。完整输入/响应仅保存在本地，被 Git 忽略；GitHub 保存脚本、固定抽样清单和实验说明。
+
 ## 后续评测
 
 1. 固定官方代码版本，核对样本、提示词、推理参数和评分口径。

@@ -4,6 +4,7 @@ from pathlib import Path
 
 from prepare_coverage import ROOT
 from run_coverage import OUTPUT
+from export_coverage_audit import aggregate_tokens, main as export_audit
 
 
 def main():
@@ -29,8 +30,9 @@ def main():
     assert len(results) == summary['completed_pairs'] and len({r['index'] for r in results}) == len(results)
     valid = [r for r in results if r['error'] is None]
     paired = [r for r in valid if r['author_prediction'] is not None]
-    usage = {k: sum(r['usage'].get(k, 0) for r in results if r['usage'])
-             for k in ['prompt_tokens', 'completion_tokens', 'total_tokens', 'prompt_cache_hit_tokens', 'prompt_cache_miss_tokens']}
+    usage = aggregate_tokens(results)
+    selected = len(manifest['groups'])
+    correct = sum(r['correct'] for r in valid)
     comparison = {'matched_valid_pairs': len(paired), 'ours_correct': sum(r['correct'] for r in paired),
                   'author_correct': sum(r['author_correct'] for r in paired),
                   'both_correct': sum(r['correct'] and r['author_correct'] for r in paired),
@@ -49,6 +51,9 @@ def main():
     export = {**summary, 'aggregate_usage': usage, 'paired_comparison': comparison,
               'accuracy_valid_only': sum(r['correct'] for r in valid) / len(valid) if valid else None,
               'accuracy_attempted_invalid_as_wrong': sum(r['correct'] for r in results) / len(results) if results else None,
+              'valid_output_rate': len(valid) / selected,
+              'accuracy_full_sample': correct / selected,
+              'macro_accuracy_full_sample': sum(t['correct'] / t['selected_pairs'] for t in per_task) / len(per_task),
               'per_task': per_task, 'results': results}
     (ROOT / 'experiments/coverage_results.json').write_text(json.dumps(export, ensure_ascii=False, indent=2))
     rows = [f"| {t['task']} | {t['available_pairs']} | {t['selected_pairs']} | {t['attempted']} | {t['correct']}/{t['valid']} | {t['author_correct_on_valid']}/{t['author_matched_valid']} |" for t in per_task]
@@ -59,12 +64,14 @@ def main():
 
 - 请求结束：{len(results)}/246；有效解析：{len(valid)}；待运行：{summary['pending_pairs']}。
 - 有效答案正确数：{sum(r['correct'] for r in valid)}/{len(valid)}（{rate}）。
+- 有效输出率：{len(valid)}/{selected}（{export['valid_output_rate']:.2%}）；全样本正确率：{correct}/{selected}（{export['accuracy_full_sample']:.2%}）。
+- 全样本每任务等权平均正确率：{export['macro_accuracy_full_sample']:.2%}。
 - API/网络或输出错误：{len(results)-len(valid)}。无自动重试。
 - 同样本有效答案对照：本轮 {comparison['ours_correct']}/{len(paired)}，作者一次公开运行 {comparison['author_correct']}/{len(paired)}。
 - 配对差异：双方均对 {comparison['both_correct']}；仅本轮对 {comparison['ours_only_correct']}；仅作者对 {comparison['author_only_correct']}；双方均错 {comparison['both_wrong']}。
 - 本轮用时：{summary['elapsed_seconds']/60:.1f} 分钟；最多 {summary['workers']} 个并发请求。
 - 本轮已知 token 的估算费用：¥{summary['estimated_cost_cny']:.4f}；包含前次 ¥0.43 预留及未知用量保守记账的累计预算占用：¥{summary['budget_accounted_cny_including_prior']:.4f}。
-- 输入 tokens：{usage['prompt_tokens']:,}；输出 tokens：{usage['completion_tokens']:,}；总计：{usage['total_tokens']:,}。输出已包含思考 tokens。
+- 输入 tokens：{usage['input']['known_sum']}；输出 tokens：{usage['output']['known_sum']}；总计：{usage['total']['known_sum']}。输出已包含思考 tokens。这些是已知量合计；输入/输出/总量分别有 {usage['input']['missing_calls']}/{usage['output']['missing_calls']}/{usage['total']['missing_calls']} 次缺失，未按 0 补齐。
 - 停止原因：`{summary['stop_reason']}`。`None` 表示未触发错误或预算停止。
 
 ## 各任务结果
@@ -88,6 +95,7 @@ def main():
 - 模型：SiliconFlow `{summary['model']}`，温度 1.0，开启 Thinking。
 - 思考上限 32768、回答上限 8192；作者 CLI 未显式固定同样的输出限制。服务商、服务端模型快照和默认采样参数仍可能有差异。
 - Python {summary['python']}，标准库 HTTP + certifi；与作者推荐 Python 3.10 + OpenAI SDK 环境不同。
+- 初期非流式调用出现长请求超时，随后改为流式接收并继续未派发样本，已结束的成功或失败请求均未重试。接收方式变更不改变模型、提示和采样参数；分阶段设置见结果 JSON 的 `transport_history`。本轮共有 {sum(r['error'] == 'TimeoutError' for r in results)} 个超时记录，其未知用量保留保守费用预留。
 - 作者参考：`{reference['author_run']}`。使用有序文件名后缀及真实分数唯一匹配，并核对真实标签。
 - 累计预算 ¥20；派发前预留在途请求的保守最大费用，按实际 token 释放预留；未知用量保留预留。API 错误后停止新增请求，已发送的请求仍可能完成并产生费用。估价不等同代金券或现金账单。
 
@@ -101,6 +109,7 @@ def main():
 来源：[官方代码](https://github.com/zjunlp/predict-before-execute)、[固定版数据](https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/tree/{summary['dataset_revision']})、[SiliconFlow 定价](https://www.siliconflow.cn/pricing)。
 '''
     (ROOT / 'experiments/coverage_report.md').write_text(report)
+    export_audit()
     print(json.dumps({'attempted': len(results), 'valid': len(valid), 'comparison': comparison, 'cost_cny': summary['estimated_cost_cny']}, ensure_ascii=False))
 
 
