@@ -1,0 +1,209 @@
+{
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "seed": 20261021,
+  "groups": [
+    {
+      "task": "leaf-classification",
+      "source_group_index": 2,
+      "paths": [
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_ace89f60e7d847d280f3eed0e7ce22ac.py",
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_1396ca725df147999e68167586d22abe.py"
+      ],
+      "scores": [
+        0.32012,
+        0.35379
+      ],
+      "best_index": 0,
+      "full_ranking": [
+        0,
+        1
+      ],
+      "is_lower_better": true
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 80,
+      "paths": [
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_1396ca725df147999e68167586d22abe.py",
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_bcf629cd39c54104bd9e03b71fa7fb21.py"
+      ],
+      "scores": [
+        0.35379,
+        1.86693
+      ],
+      "best_index": 0,
+      "full_ranking": [
+        0,
+        1
+      ],
+      "is_lower_better": true
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 97,
+      "paths": [
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_c1bcd52793414272b084b18a8e4862ad.py",
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_ace89f60e7d847d280f3eed0e7ce22ac.py"
+      ],
+      "scores": [
+        0.35959,
+        0.32012
+      ],
+      "best_index": 1,
+      "full_ranking": [
+        1,
+        0
+      ],
+      "is_lower_better": true
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 98,
+      "paths": [
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_c1bcd52793414272b084b18a8e4862ad.py",
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_b2d2b9621e364bb88605c01f8d373979.py"
+      ],
+      "scores": [
+        0.35959,
+        0.6719
+      ],
+      "best_index": 0,
+      "full_ranking": [
+        0,
+        1
+      ],
+      "is_lower_better": true
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 103,
+      "paths": [
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_fa6b50f3480d45a5a2f87ad1c5a31968.py",
+        "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_c1bcd52793414272b084b18a8e4862ad.py"
+      ],
+      "scores": [
+        0.55398,
+        0.35959
+      ],
+      "best_index": 1,
+      "full_ranking": [
+        1,
+        0
+      ],
+      "is_lower_better": true
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 119,
+      "paths": [
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_41aba674d1974053baeecb1ef8d84814.py",
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_5fb5ee18b9004093b5fd86b20c6029ea.py"
+      ],
+      "scores": [
+        0.93187,
+        0.95056
+      ],
+      "best_index": 1,
+      "full_ranking": [
+        1,
+        0
+      ],
+      "is_lower_better": false
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 204,
+      "paths": [
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_d565ef92bb80420db550e9921d38c06d.py",
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_a105f66b989b45c79e9f282ddca97cf0.py"
+      ],
+      "scores": [
+        0.94956,
+        0.52102
+      ],
+      "best_index": 0,
+      "full_ranking": [
+        0,
+        1
+      ],
+      "is_lower_better": false
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 246,
+      "paths": [
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_b204abbe7d504cf1b69bfe04d954c86c.py",
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_41aba674d1974053baeecb1ef8d84814.py"
+      ],
+      "scores": [
+        0.94642,
+        0.93187
+      ],
+      "best_index": 0,
+      "full_ranking": [
+        0,
+        1
+      ],
+      "is_lower_better": false
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 326,
+      "paths": [
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_ee67a16cd48d439ab17bf617a08e4257.py",
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_2a7ad7aab9564a69968edc75e281fae4.py"
+      ],
+      "scores": [
+        0.94565,
+        0.93243
+      ],
+      "best_index": 0,
+      "full_ranking": [
+        0,
+        1
+      ],
+      "is_lower_better": false
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 329,
+      "paths": [
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_ee67a16cd48d439ab17bf617a08e4257.py",
+        "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_3d1c29f5f72f4f349793460bcd53c2e5.py"
+      ],
+      "scores": [
+        0.94565,
+        0.94891
+      ],
+      "best_index": 1,
+      "full_ranking": [
+        1,
+        0
+      ],
+      "is_lower_better": false
+    }
+  ],
+  "sha256": {
+    "tasks/description/description_leaf_classification.md": "4d5525f6f6575e8730e14b8a333c27a3045ca37054a480f0449e5d8a02861f6c",
+    "tasks/description/description_detecting_insults_in_social_commentary.md": "8e883f1061fbf0f3c0026c7bf87e1e640143676cec14bca3238752a32a0ccc3e",
+    "tasks/data_analysis/result/da_result_leaf-classification.txt": "2c05b31fb753ea3be2c615e7038aa4f1b096f420b95327ce322b1f640faaf10b",
+    "tasks/data_analysis/result/da_result_detecting-insults-in-social-commentary.txt": "7b35a302707579c0571495526cd3fabe543758727d72e2b27b63d7efa76b152c",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_b204abbe7d504cf1b69bfe04d954c86c.py": "406fcfddfe03c04ed3b996f90ddf1b1b10494bde54fbcfa833abe07ee51f5ed2",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_d565ef92bb80420db550e9921d38c06d.py": "69f5eb9a7020608f76850c8ddd62ab827b613a75f79032fcb2319f6549aff312",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_ee67a16cd48d439ab17bf617a08e4257.py": "a336e956ac6d82623e0d2ee6b8207c547171179c3422189b20357a69e0154afb",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_3d1c29f5f72f4f349793460bcd53c2e5.py": "7704d08921d968486449ce369107258f5dad5eec1c38288e7e2f9fcd65d8eaaa",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_5fb5ee18b9004093b5fd86b20c6029ea.py": "55ff4f478eeb973303285782eb22f440e0dea7e184f1be0a5c4270b9c06fc6e7",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_2a7ad7aab9564a69968edc75e281fae4.py": "f994187781a460d97a43c9c7a1d0215b81393367f72153549e976775859048af",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_41aba674d1974053baeecb1ef8d84814.py": "62d7b97507eb7a38a0eae8260ff3da4db675db421fdb993a011aacb621c3d416",
+    "solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_a105f66b989b45c79e9f282ddca97cf0.py": "fb7961a441e6b94592d2825c7e164a65189845270d3d40b99cf4b31ba65bd9fb",
+    "solutions_subset_50/detecting-insults-in-social-commentary/ground_truth/groups_detecting-insults-in-social-commentary_n2.json": "ca6657be206443e6d8d09518917c00314a7342a2691753307e88c6bcb79f87a1",
+    "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_b2d2b9621e364bb88605c01f8d373979.py": "fa70432c21a5f272f7363706b4258be31fb68badfd06225ff9e20356a79cdc0d",
+    "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_1396ca725df147999e68167586d22abe.py": "feecf4b59b7bc62018657316f3a36f230a3bb9302920e41d8ddf8312da51f981",
+    "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_fa6b50f3480d45a5a2f87ad1c5a31968.py": "513c9f7b48163d82030aa0de7bbbd884d53bca180404c860648bfb36d6849b89",
+    "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_ace89f60e7d847d280f3eed0e7ce22ac.py": "c6d2d04131dc3ec8cde15c51772d82bde5adedb44e45b36de3119dc4a8837d2e",
+    "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_bcf629cd39c54104bd9e03b71fa7fb21.py": "6bc0acc2487e89076ad28d646f5e4e6a0625a03a3c12bc58a579cad52feb0fe8",
+    "solutions_subset_50/leaf-classification/code/solution_Automind_v3_leaf-classification_b0048660-b848-45e4-a1c9-0f7a8a4726b4_run_c1bcd52793414272b084b18a8e4862ad.py": "61324916cd49c8f322bc265aaa01c9f4508a56c9c6ca023a7ba34eb1bc450f2d",
+    "solutions_subset_50/leaf-classification/ground_truth/groups_leaf-classification_n2.json": "b28554d0c89b526fff301b6556100a5580b28d8c9a02f343a64d9f7ee7198942"
+  }
+}

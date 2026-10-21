@@ -1,0 +1,346 @@
+{
+  "model": "Pro/deepseek-ai/DeepSeek-V3.2",
+  "python": "3.12.5",
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "temperature": 1.0,
+  "thinking_budget": 32768,
+  "max_tokens": 8192,
+  "allow_cot": true,
+  "prompt_boost": true,
+  "retries": 0,
+  "budget_cny": 20,
+  "conservative_allowance_cny": 4.522752,
+  "pricing_url": "https://www.siliconflow.cn/pricing",
+  "rates_per_million_cny": {
+    "input": 4.0,
+    "output": 6.0,
+    "cached_input": 0.4
+  },
+  "requested_pairs": 10,
+  "completed_pairs": 10,
+  "valid_pairs": 10,
+  "correct": 9,
+  "accuracy_on_completed_counting_invalid_as_wrong": 0.9,
+  "estimated_cost_cny": 0.4209564,
+  "elapsed_seconds": 943.3922054169234,
+  "results": [
+    {
+      "index": 0,
+      "task": "leaf-classification",
+      "source_group_index": 2,
+      "best_index": 0,
+      "parsed": {
+        "predicted_best_index": 0,
+        "confidence": 0.75
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 19884,
+        "completion_tokens": 2094,
+        "total_tokens": 21978,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1714
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 19884
+      },
+      "estimated_cost_cny": 0.0921,
+      "seconds": 113.27342750015669,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "index": 1,
+      "task": "leaf-classification",
+      "source_group_index": 80,
+      "best_index": 0,
+      "parsed": {
+        "predicted_best_index": 0,
+        "confidence": 0.85
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 19710,
+        "completion_tokens": 2049,
+        "total_tokens": 21759,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1445
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 15872
+        },
+        "prompt_cache_hit_tokens": 15872,
+        "prompt_cache_miss_tokens": 3838
+      },
+      "estimated_cost_cny": 0.033994800000000006,
+      "seconds": 94.31072279205546,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "index": 2,
+      "task": "leaf-classification",
+      "source_group_index": 97,
+      "best_index": 1,
+      "parsed": {
+        "predicted_best_index": 1,
+        "confidence": 0.65
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 19861,
+        "completion_tokens": 2082,
+        "total_tokens": 21943,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1767
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 15872
+        },
+        "prompt_cache_hit_tokens": 15872,
+        "prompt_cache_miss_tokens": 3989
+      },
+      "estimated_cost_cny": 0.0347968,
+      "seconds": 104.27602658304386,
+      "author_prediction": 0,
+      "author_correct": 0
+    },
+    {
+      "index": 3,
+      "task": "leaf-classification",
+      "source_group_index": 98,
+      "best_index": 0,
+      "parsed": {
+        "predicted_best_index": 0,
+        "confidence": 0.6
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 20044,
+        "completion_tokens": 2128,
+        "total_tokens": 22172,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1821
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 18176
+        },
+        "prompt_cache_hit_tokens": 18176,
+        "prompt_cache_miss_tokens": 1868
+      },
+      "estimated_cost_cny": 0.0275104,
+      "seconds": 99.85887174983509,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "index": 4,
+      "task": "leaf-classification",
+      "source_group_index": 103,
+      "best_index": 1,
+      "parsed": {
+        "predicted_best_index": 1,
+        "confidence": 0.7
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 20487,
+        "completion_tokens": 1548,
+        "total_tokens": 22035,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1398
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 15872
+        },
+        "prompt_cache_hit_tokens": 15872,
+        "prompt_cache_miss_tokens": 4615
+      },
+      "estimated_cost_cny": 0.034096800000000003,
+      "seconds": 71.39717308385298,
+      "author_prediction": 1,
+      "author_correct": 1
+    },
+    {
+      "index": 5,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 119,
+      "best_index": 1,
+      "parsed": {
+        "predicted_best_index": 0,
+        "confidence": 0.7
+      },
+      "error": null,
+      "correct": 0,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9754,
+        "completion_tokens": 1933,
+        "total_tokens": 11687,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1612
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 9754
+      },
+      "estimated_cost_cny": 0.050614,
+      "seconds": 87.66715724999085,
+      "author_prediction": 1,
+      "author_correct": 1
+    },
+    {
+      "index": 6,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 204,
+      "best_index": 0,
+      "parsed": {
+        "predicted_best_index": 0
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11686,
+        "completion_tokens": 1778,
+        "total_tokens": 13464,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1524
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 3584
+        },
+        "prompt_cache_hit_tokens": 3584,
+        "prompt_cache_miss_tokens": 8102
+      },
+      "estimated_cost_cny": 0.044509599999999996,
+      "seconds": 80.68041512486525,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "index": 7,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 246,
+      "best_index": 0,
+      "parsed": {
+        "predicted_best_index": 0,
+        "confidence": 0.7
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8041,
+        "completion_tokens": 2643,
+        "total_tokens": 10684,
+        "completion_tokens_details": {
+          "reasoning_tokens": 2390
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 3584
+        },
+        "prompt_cache_hit_tokens": 3584,
+        "prompt_cache_miss_tokens": 4457
+      },
+      "estimated_cost_cny": 0.0351196,
+      "seconds": 118.33794025005773,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "index": 8,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 326,
+      "best_index": 0,
+      "parsed": {
+        "predicted_best_index": 0,
+        "confidence": 0.7
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9822,
+        "completion_tokens": 1859,
+        "total_tokens": 11681,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1721
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 3584
+        },
+        "prompt_cache_hit_tokens": 3584,
+        "prompt_cache_miss_tokens": 6238
+      },
+      "estimated_cost_cny": 0.0375396,
+      "seconds": 84.40259445784613,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "index": 9,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 329,
+      "best_index": 1,
+      "parsed": {
+        "predicted_best_index": 1,
+        "confidence": 0.7
+      },
+      "error": null,
+      "correct": 1,
+      "reasoning_present": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11584,
+        "completion_tokens": 1921,
+        "total_tokens": 13505,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1648
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "prompt_cache_hit_tokens": 7552,
+        "prompt_cache_miss_tokens": 4032
+      },
+      "estimated_cost_cny": 0.0306748,
+      "seconds": 89.15957941696979,
+      "author_prediction": 1,
+      "author_correct": 1
+    }
+  ],
+  "aggregate_usage": {
+    "prompt_tokens": 150873,
+    "completion_tokens": 20035,
+    "total_tokens": 170908,
+    "prompt_cache_hit_tokens": 84096,
+    "prompt_cache_miss_tokens": 66777
+  },
+  "reasoning_tokens": 17040
+}
