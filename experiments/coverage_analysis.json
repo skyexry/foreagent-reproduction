@@ -1,0 +1,5368 @@
+{
+  "n": 246,
+  "label_counts": {
+    "0": 131,
+    "1": 115
+  },
+  "prediction_counts": {
+    "ours": {
+      "0": 125,
+      "1": 121
+    },
+    "author": {
+      "0": 133,
+      "1": 113
+    }
+  },
+  "baselines": {
+    "always_0": {
+      "correct": 131,
+      "accuracy": 0.532520325203252
+    },
+    "always_1": {
+      "correct": 115,
+      "accuracy": 0.46747967479674796
+    },
+    "fair_random": {
+      "expected_accuracy": 0.5,
+      "observed_run": false
+    }
+  },
+  "ours_correct": 136,
+  "author_correct": 130,
+  "ours_gain_over_always_0": 5,
+  "paired_vs_always_0": {
+    "ours_only_correct": 63,
+    "baseline_only_correct": 58
+  },
+  "conditional_accuracy": {
+    "0": {
+      "n": 131,
+      "correct": 73
+    },
+    "1": {
+      "n": 115,
+      "correct": 63
+    }
+  },
+  "categories": {
+    "both_correct": 106,
+    "both_wrong": 86,
+    "ours_only": 30,
+    "author_only": 24
+  },
+  "agreement": 0.7804878048780488,
+  "code_length_proxy": {
+    "unequal_length_pairs": 243,
+    "ours_choose_longer": 133,
+    "longer_is_true_winner": 135,
+    "limitation": "Post-hoc descriptive proxy only; source lines are not architecture complexity or compute."
+  },
+  "review_selection": {
+    "indices": [
+      26,
+      54,
+      64,
+      32,
+      37,
+      56,
+      1,
+      12,
+      20,
+      43,
+      84
+    ],
+    "rule": "First three distinct tasks by manifest index in each of ours_only, author_only, both_wrong; plus first pair in each of top two tasks by both_wrong count (ties alphabetical). Exploratory, not a random sample."
+  },
+  "per_task": [
+    {
+      "task": "aptos2019-blindness-detection",
+      "n": 10,
+      "always_0_correct": 7,
+      "always_1_correct": 3,
+      "ours_correct": 6,
+      "author_correct": 6,
+      "ours_choose_0": 5,
+      "categories": {
+        "both_correct": 6,
+        "both_wrong": 4
+      }
+    },
+    {
+      "task": "denoising-dirty-documents",
+      "n": 10,
+      "always_0_correct": 4,
+      "always_1_correct": 6,
+      "ours_correct": 6,
+      "author_correct": 6,
+      "ours_choose_0": 4,
+      "categories": {
+        "both_correct": 6,
+        "both_wrong": 4
+      }
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "n": 10,
+      "always_0_correct": 4,
+      "always_1_correct": 6,
+      "ours_correct": 8,
+      "author_correct": 5,
+      "ours_choose_0": 4,
+      "categories": {
+        "both_wrong": 2,
+        "both_correct": 5,
+        "ours_only": 3
+      }
+    },
+    {
+      "task": "dog-breed-identification",
+      "n": 3,
+      "always_0_correct": 2,
+      "always_1_correct": 1,
+      "ours_correct": 2,
+      "author_correct": 3,
+      "ours_choose_0": 1,
+      "categories": {
+        "both_correct": 2,
+        "author_only": 1
+      }
+    },
+    {
+      "task": "google-quest-challenge",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 5,
+      "author_correct": 8,
+      "ours_choose_0": 4,
+      "categories": {
+        "both_correct": 5,
+        "both_wrong": 2,
+        "author_only": 3
+      }
+    },
+    {
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 2,
+      "author_correct": 2,
+      "ours_choose_0": 7,
+      "categories": {
+        "both_wrong": 8,
+        "both_correct": 2
+      }
+    },
+    {
+      "task": "leaf-classification",
+      "n": 10,
+      "always_0_correct": 4,
+      "always_1_correct": 6,
+      "ours_correct": 7,
+      "author_correct": 7,
+      "ours_choose_0": 5,
+      "categories": {
+        "both_wrong": 2,
+        "ours_only": 1,
+        "both_correct": 6,
+        "author_only": 1
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 6,
+      "author_correct": 6,
+      "ours_choose_0": 6,
+      "categories": {
+        "both_correct": 4,
+        "ours_only": 2,
+        "author_only": 2,
+        "both_wrong": 2
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "n": 10,
+      "always_0_correct": 7,
+      "always_1_correct": 3,
+      "ours_correct": 7,
+      "author_correct": 7,
+      "ours_choose_0": 6,
+      "categories": {
+        "both_correct": 6,
+        "both_wrong": 2,
+        "author_only": 1,
+        "ours_only": 1
+      }
+    },
+    {
+      "task": "mlsp-2013-birds",
+      "n": 10,
+      "always_0_correct": 3,
+      "always_1_correct": 7,
+      "ours_correct": 2,
+      "author_correct": 4,
+      "ours_choose_0": 7,
+      "categories": {
+        "both_correct": 2,
+        "both_wrong": 6,
+        "author_only": 2
+      }
+    },
+    {
+      "task": "new-york-city-taxi-fare-prediction",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 4,
+      "author_correct": 5,
+      "ours_choose_0": 6,
+      "categories": {
+        "author_only": 1,
+        "both_wrong": 5,
+        "both_correct": 4
+      }
+    },
+    {
+      "task": "nomad2018-predict-transparent-conductors",
+      "n": 3,
+      "always_0_correct": 2,
+      "always_1_correct": 1,
+      "ours_correct": 3,
+      "author_correct": 3,
+      "ours_choose_0": 2,
+      "categories": {
+        "both_correct": 3
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 7,
+      "author_correct": 5,
+      "ours_choose_0": 3,
+      "categories": {
+        "both_wrong": 3,
+        "both_correct": 5,
+        "ours_only": 2
+      }
+    },
+    {
+      "task": "plant-pathology-2020-fgvc7",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 5,
+      "author_correct": 6,
+      "ours_choose_0": 8,
+      "categories": {
+        "author_only": 1,
+        "both_wrong": 4,
+        "both_correct": 5
+      }
+    },
+    {
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 5,
+      "author_correct": 4,
+      "ours_choose_0": 6,
+      "categories": {
+        "author_only": 2,
+        "both_wrong": 3,
+        "ours_only": 3,
+        "both_correct": 2
+      }
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 6,
+      "author_correct": 6,
+      "ours_choose_0": 5,
+      "categories": {
+        "both_wrong": 3,
+        "both_correct": 5,
+        "author_only": 1,
+        "ours_only": 1
+      }
+    },
+    {
+      "task": "spooky-author-identification",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 5,
+      "author_correct": 5,
+      "ours_choose_0": 5,
+      "categories": {
+        "both_wrong": 5,
+        "both_correct": 5
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 5,
+      "author_correct": 6,
+      "ours_choose_0": 5,
+      "categories": {
+        "ours_only": 1,
+        "both_correct": 4,
+        "author_only": 2,
+        "both_wrong": 3
+      }
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 3,
+      "author_correct": 4,
+      "ours_choose_0": 6,
+      "categories": {
+        "ours_only": 2,
+        "author_only": 3,
+        "both_correct": 1,
+        "both_wrong": 4
+      }
+    },
+    {
+      "task": "tabular-playground-series-dec-2021",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 4,
+      "author_correct": 3,
+      "ours_choose_0": 4,
+      "categories": {
+        "both_wrong": 6,
+        "both_correct": 3,
+        "ours_only": 1
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "n": 10,
+      "always_0_correct": 4,
+      "always_1_correct": 6,
+      "ours_correct": 6,
+      "author_correct": 4,
+      "ours_choose_0": 4,
+      "categories": {
+        "both_wrong": 4,
+        "ours_only": 2,
+        "both_correct": 4
+      }
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "n": 10,
+      "always_0_correct": 8,
+      "always_1_correct": 2,
+      "ours_correct": 6,
+      "author_correct": 5,
+      "ours_choose_0": 6,
+      "categories": {
+        "both_correct": 4,
+        "both_wrong": 3,
+        "ours_only": 2,
+        "author_only": 1
+      }
+    },
+    {
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "n": 10,
+      "always_0_correct": 4,
+      "always_1_correct": 6,
+      "ours_correct": 4,
+      "author_correct": 2,
+      "ours_choose_0": 2,
+      "categories": {
+        "both_correct": 1,
+        "ours_only": 3,
+        "both_wrong": 5,
+        "author_only": 1
+      }
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 6,
+      "author_correct": 5,
+      "ours_choose_0": 5,
+      "categories": {
+        "both_wrong": 3,
+        "ours_only": 2,
+        "both_correct": 4,
+        "author_only": 1
+      }
+    },
+    {
+      "task": "us-patent-phrase-to-phrase-matching",
+      "n": 10,
+      "always_0_correct": 5,
+      "always_1_correct": 5,
+      "ours_correct": 8,
+      "author_correct": 8,
+      "ours_choose_0": 3,
+      "categories": {
+        "both_correct": 8,
+        "both_wrong": 2
+      }
+    },
+    {
+      "task": "ventilator-pressure-prediction",
+      "n": 10,
+      "always_0_correct": 6,
+      "always_1_correct": 4,
+      "ours_correct": 8,
+      "author_correct": 5,
+      "ours_choose_0": 6,
+      "categories": {
+        "both_correct": 4,
+        "ours_only": 4,
+        "author_only": 1,
+        "both_wrong": 1
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "index": 0,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 92,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.91243,
+        0.86101
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05141999999999991,
+      "candidate_lines": [
+        262,
+        181
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 1,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 178,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.8616,
+        0.85794
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0036599999999999966,
+      "candidate_lines": [
+        198,
+        180
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 2,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 189,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.8754,
+        0.88673
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.011330000000000062,
+      "candidate_lines": [
+        196,
+        190
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 3,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 233,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.87583,
+        0.90636
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.030530000000000057,
+      "candidate_lines": [
+        191,
+        269
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 4,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 238,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.87583,
+        0.78837
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.08745999999999998,
+      "candidate_lines": [
+        191,
+        206
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 5,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 486,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.90338,
+        0.84866
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05471999999999999,
+      "candidate_lines": [
+        204,
+        221
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 6,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 774,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.91545,
+        0.91476
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0006899999999999684,
+      "candidate_lines": [
+        269,
+        264
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 7,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 824,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.92454,
+        0.89218
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.032360000000000055,
+      "candidate_lines": [
+        272,
+        194
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 8,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 1001,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.75518,
+        0.83482
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.07964000000000004,
+      "candidate_lines": [
+        208,
+        255
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 9,
+      "task": "aptos2019-blindness-detection",
+      "source_group_index": 1082,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.90208,
+        0.7375
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.16457999999999995,
+      "candidate_lines": [
+        273,
+        231
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 10,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 181,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.22163,
+        0.05719
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.16444,
+      "candidate_lines": [
+        297,
+        252
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 11,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 277,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.31935,
+        0.1554
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.16395,
+      "candidate_lines": [
+        356,
+        306
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 12,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 400,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.29491,
+        0.57001
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.2751,
+      "candidate_lines": [
+        590,
+        522
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 13,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 521,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.5787,
+        0.10309
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.47561,
+      "candidate_lines": [
+        483,
+        235
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 14,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 526,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.08183,
+        0.5787
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.49687,
+      "candidate_lines": [
+        266,
+        483
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 15,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 594,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.08045,
+        0.25758
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.17712999999999998,
+      "candidate_lines": [
+        394,
+        281
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 16,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 683,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.14068,
+        0.09942
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.041260000000000005,
+      "candidate_lines": [
+        264,
+        346
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 17,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 804,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.12311,
+        0.30242
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.17931000000000002,
+      "candidate_lines": [
+        272,
+        294
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 18,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 909,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.12311,
+        0.08045
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.042660000000000003,
+      "candidate_lines": [
+        272,
+        394
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 19,
+      "task": "denoising-dirty-documents",
+      "source_group_index": 943,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.57001,
+        0.03907
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.53094,
+      "candidate_lines": [
+        513,
+        408
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 20,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 10,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.94972,
+        0.94967
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 4.999999999999449e-05,
+      "candidate_lines": [
+        537,
+        479
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 21,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 22,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.95353,
+        0.94972
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.00380999999999998,
+      "candidate_lines": [
+        696,
+        537
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 22,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 29,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.5,
+        0.947
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.44699999999999995,
+      "candidate_lines": [
+        392,
+        523
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 23,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 57,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.6759,
+        0.95386
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.2779600000000001,
+      "candidate_lines": [
+        387,
+        483
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 24,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 59,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.94211,
+        0.95386
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.011750000000000038,
+      "candidate_lines": [
+        515,
+        483
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 25,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 82,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.95056,
+        0.94427
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.006289999999999907,
+      "candidate_lines": [
+        494,
+        497
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 26,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 101,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.94402,
+        0.95056
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.00653999999999999,
+      "candidate_lines": [
+        923,
+        494
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 27,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 146,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.95353,
+        0.94967
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0038599999999999746,
+      "candidate_lines": [
+        696,
+        479
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 28,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 247,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.94427,
+        0.94642
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0021499999999999853,
+      "candidate_lines": [
+        497,
+        311
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 29,
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 283,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.94891,
+        0.9495
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0005899999999999794,
+      "candidate_lines": [
+        494,
+        522
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 30,
+      "task": "dog-breed-identification",
+      "source_group_index": 0,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.53584,
+        4.66835
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 4.13251,
+      "candidate_lines": [
+        450,
+        531
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 31,
+      "task": "dog-breed-identification",
+      "source_group_index": 1,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        1.02272,
+        0.53584
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.4868800000000001,
+      "candidate_lines": [
+        261,
+        450
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 32,
+      "task": "dog-breed-identification",
+      "source_group_index": 2,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        1.02272,
+        4.66835
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 3.64563,
+      "candidate_lines": [
+        261,
+        531
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 33,
+      "task": "google-quest-challenge",
+      "source_group_index": 90,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.34245,
+        0.31447
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.02797999999999995,
+      "candidate_lines": [
+        323,
+        121
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 34,
+      "task": "google-quest-challenge",
+      "source_group_index": 137,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.31664,
+        0.37133
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.054690000000000016,
+      "candidate_lines": [
+        89,
+        583
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 35,
+      "task": "google-quest-challenge",
+      "source_group_index": 208,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.30279,
+        0.26398
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.03881000000000001,
+      "candidate_lines": [
+        71,
+        390
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 36,
+      "task": "google-quest-challenge",
+      "source_group_index": 242,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.31308,
+        0.15897
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.15411000000000002,
+      "candidate_lines": [
+        101,
+        85
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 37,
+      "task": "google-quest-challenge",
+      "source_group_index": 370,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.37053,
+        0.23443
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.13610000000000003,
+      "candidate_lines": [
+        337,
+        399
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 38,
+      "task": "google-quest-challenge",
+      "source_group_index": 517,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.2472,
+        0.30282
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.055619999999999975,
+      "candidate_lines": [
+        397,
+        63
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 39,
+      "task": "google-quest-challenge",
+      "source_group_index": 535,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.2472,
+        0.34723
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.10002999999999998,
+      "candidate_lines": [
+        397,
+        405
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 40,
+      "task": "google-quest-challenge",
+      "source_group_index": 939,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.15897,
+        0.27844
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.11947000000000002,
+      "candidate_lines": [
+        85,
+        414
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 41,
+      "task": "google-quest-challenge",
+      "source_group_index": 963,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.27844,
+        0.34723
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06878999999999996,
+      "candidate_lines": [
+        414,
+        405
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 42,
+      "task": "google-quest-challenge",
+      "source_group_index": 986,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.3673,
+        0.34723
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.020070000000000032,
+      "candidate_lines": [
+        362,
+        405
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 43,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 0,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.9832,
+        0.98297
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.00022999999999995246,
+      "candidate_lines": [
+        351,
+        321
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 44,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 1,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.98297,
+        0.98326
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.00029000000000001247,
+      "candidate_lines": [
+        321,
+        282
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 45,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 2,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.98297,
+        0.97017
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.012800000000000034,
+      "candidate_lines": [
+        321,
+        245
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 46,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 3,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.98297,
+        0.98399
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0010200000000000209,
+      "candidate_lines": [
+        321,
+        430
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 47,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 4,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.98326,
+        0.9832
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 6.0000000000060005e-05,
+      "candidate_lines": [
+        282,
+        351
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 48,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 5,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.97017,
+        0.98326
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.013090000000000046,
+      "candidate_lines": [
+        245,
+        282
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 49,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 6,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.98399,
+        0.98326
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0007300000000000084,
+      "candidate_lines": [
+        430,
+        282
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 50,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 7,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.97017,
+        0.9832
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.013029999999999986,
+      "candidate_lines": [
+        245,
+        351
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 51,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 8,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.98399,
+        0.9832
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0007900000000000684,
+      "candidate_lines": [
+        430,
+        351
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 52,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_group_index": 9,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.97017,
+        0.98399
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.013820000000000054,
+      "candidate_lines": [
+        245,
+        430
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 53,
+      "task": "leaf-classification",
+      "source_group_index": 11,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.32012,
+        0.30292
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.017199999999999993,
+      "candidate_lines": [
+        187,
+        234
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 54,
+      "task": "leaf-classification",
+      "source_group_index": 63,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        2.4694,
+        0.82331
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 1.6460899999999998,
+      "candidate_lines": [
+        565,
+        276
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 55,
+      "task": "leaf-classification",
+      "source_group_index": 75,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.78879,
+        0.32626
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.46253,
+      "candidate_lines": [
+        226,
+        213
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 56,
+      "task": "leaf-classification",
+      "source_group_index": 84,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.32626,
+        1.86693
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 1.54067,
+      "candidate_lines": [
+        213,
+        172
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 57,
+      "task": "leaf-classification",
+      "source_group_index": 92,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.35959,
+        0.82331
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.46371999999999997,
+      "candidate_lines": [
+        265,
+        276
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 58,
+      "task": "leaf-classification",
+      "source_group_index": 103,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.55398,
+        0.35959
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.19439,
+      "candidate_lines": [
+        267,
+        265
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 59,
+      "task": "leaf-classification",
+      "source_group_index": 108,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.34848,
+        0.37662
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.02814,
+      "candidate_lines": [
+        285,
+        303
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 60,
+      "task": "leaf-classification",
+      "source_group_index": 112,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.37662,
+        0.6719
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.29528000000000004,
+      "candidate_lines": [
+        303,
+        219
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 61,
+      "task": "leaf-classification",
+      "source_group_index": 117,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.38965,
+        0.35379
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.03586,
+      "candidate_lines": [
+        117,
+        265
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 62,
+      "task": "leaf-classification",
+      "source_group_index": 123,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        4.61754,
+        0.38965
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 4.22789,
+      "candidate_lines": [
+        731,
+        117
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 63,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 19,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.0,
+        0.71834
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.71834,
+      "candidate_lines": [
+        687,
+        460
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 64,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 28,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        0.73647,
+        0.71834
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.01812999999999998,
+      "candidate_lines": [
+        332,
+        460
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 65,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 51,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.05091,
+        0.11725
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06634,
+      "candidate_lines": [
+        385,
+        571
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 66,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 108,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.62331,
+        0.5216
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.10171000000000008,
+      "candidate_lines": [
+        793,
+        613
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 67,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 113,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.5216,
+        0.64408
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.12248000000000003,
+      "candidate_lines": [
+        613,
+        580
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 68,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 118,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        0.78649,
+        0.5216
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.26489000000000007,
+      "candidate_lines": [
+        345,
+        613
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 69,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 129,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.05091,
+        0.58519
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.53428,
+      "candidate_lines": [
+        385,
+        61
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 70,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 174,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.78923,
+        0.75695
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.032279999999999975,
+      "candidate_lines": [
+        353,
+        287
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 71,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 182,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.78649,
+        0.62331
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.16318,
+      "candidate_lines": [
+        345,
+        793
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 72,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_group_index": 188,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.78923,
+        0.78649
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0027399999999999647,
+      "candidate_lines": [
+        353,
+        345
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 73,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 36,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        1.07926,
+        1.12784
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.048579999999999846,
+      "candidate_lines": [
+        252,
+        111
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 74,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 154,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        1.03428,
+        1.04099
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.006709999999999994,
+      "candidate_lines": [
+        323,
+        281
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 75,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 206,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        1.05081,
+        1.05969
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.008879999999999999,
+      "candidate_lines": [
+        204,
+        116
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 76,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 253,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        1.10443,
+        1.09695
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.007479999999999931,
+      "candidate_lines": [
+        298,
+        333
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 77,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 404,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        1.05955,
+        1.09706
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.03750999999999993,
+      "candidate_lines": [
+        92,
+        493
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 78,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 447,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        1.12784,
+        1.03428
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.09355999999999987,
+      "candidate_lines": [
+        111,
+        323
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 79,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 532,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        1.04228,
+        1.0523
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.010019999999999918,
+      "candidate_lines": [
+        352,
+        145
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 80,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 808,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        1.04986,
+        1.79316
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.7433000000000001,
+      "candidate_lines": [
+        145,
+        499
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 81,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 997,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        1.04087,
+        1.02492
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.01594999999999991,
+      "candidate_lines": [
+        353,
+        653
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 82,
+      "task": "lmsys-chatbot-arena",
+      "source_group_index": 1134,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        1.04099,
+        1.10974
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.06874999999999987,
+      "candidate_lines": [
+        293,
+        373
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 83,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 154,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.76634,
+        0.70879
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05754999999999999,
+      "candidate_lines": [
+        279,
+        391
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 84,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 179,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.76578,
+        0.8126
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.04681999999999997,
+      "candidate_lines": [
+        204,
+        449
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 85,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 332,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.8126,
+        0.64706
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.16554000000000002,
+      "candidate_lines": [
+        449,
+        283
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 86,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 541,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.67635,
+        0.89255
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.21619999999999995,
+      "candidate_lines": [
+        140,
+        383
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 87,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 836,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.72075,
+        0.72072
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 2.999999999997449e-05,
+      "candidate_lines": [
+        609,
+        634
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 88,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 841,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.72075,
+        0.7854
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06464999999999999,
+      "candidate_lines": [
+        609,
+        444
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 89,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 993,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.78812,
+        0.79688
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.00875999999999999,
+      "candidate_lines": [
+        265,
+        270
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 90,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 1043,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.72618,
+        0.73535
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0091699999999999,
+      "candidate_lines": [
+        421,
+        250
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 91,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 1063,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.70959,
+        0.74931
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.03971999999999998,
+      "candidate_lines": [
+        312,
+        447
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 92,
+      "task": "mlsp-2013-birds",
+      "source_group_index": 1083,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.72076,
+        0.80669
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.08593000000000006,
+      "candidate_lines": [
+        613,
+        494
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 93,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 45,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        24.57236,
+        5.35864
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 19.21372,
+      "candidate_lines": [
+        259,
+        175
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 94,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 69,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        5.44244,
+        5.05737
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.3850700000000007,
+      "candidate_lines": [
+        167,
+        323
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 95,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 142,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        4.94293,
+        5.51023
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.5673000000000004,
+      "candidate_lines": [
+        247,
+        160
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 96,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 154,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        5.49851,
+        5.51042
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.01191000000000031,
+      "candidate_lines": [
+        160,
+        163
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 97,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 155,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        5.51042,
+        5.51023
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.00018999999999991246,
+      "candidate_lines": [
+        163,
+        160
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 98,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 194,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        5.16912,
+        5.49971
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.33058999999999994,
+      "candidate_lines": [
+        185,
+        160
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 99,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 238,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        5.48933,
+        11.13025
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 5.64092,
+      "candidate_lines": [
+        289,
+        235
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 100,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 293,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        50.7425,
+        6.66168
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 44.08082,
+      "candidate_lines": [
+        309,
+        220
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 101,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 320,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        5.05737,
+        5.82856
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.7711900000000007,
+      "candidate_lines": [
+        323,
+        227
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 102,
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_group_index": 328,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        5.51042,
+        18.85687
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 13.34645,
+      "candidate_lines": [
+        161,
+        190
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 103,
+      "task": "nomad2018-predict-transparent-conductors",
+      "source_group_index": 0,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.06282,
+        0.06641
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.003589999999999996,
+      "candidate_lines": [
+        525,
+        463
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 104,
+      "task": "nomad2018-predict-transparent-conductors",
+      "source_group_index": 1,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.06282,
+        0.0624
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.0004200000000000037,
+      "candidate_lines": [
+        525,
+        382
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 105,
+      "task": "nomad2018-predict-transparent-conductors",
+      "source_group_index": 2,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.0624,
+        0.06641
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.00401,
+      "candidate_lines": [
+        382,
+        463
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 106,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 24,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        20.12512,
+        20.14076
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.01564000000000121,
+      "candidate_lines": [
+        65,
+        85
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 107,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 44,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        20.07251,
+        20.07284
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.0003299999999981651,
+      "candidate_lines": [
+        73,
+        85
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 108,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 60,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        20.07284,
+        20.12512
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.05227999999999966,
+      "candidate_lines": [
+        84,
+        65
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 109,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 68,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        18.50765,
+        20.07284
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 1.5651899999999976,
+      "candidate_lines": [
+        131,
+        84
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 110,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 93,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        20.18489,
+        20.07284
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.11204999999999998,
+      "candidate_lines": [
+        88,
+        84
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 111,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 99,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        20.18489,
+        20.07284
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.11204999999999998,
+      "candidate_lines": [
+        88,
+        87
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 112,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 128,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        18.50765,
+        20.07251
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 1.5648599999999995,
+      "candidate_lines": [
+        131,
+        87
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 113,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 192,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        20.07251,
+        20.07284
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.0003299999999981651,
+      "candidate_lines": [
+        89,
+        85
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 114,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 197,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        20.09234,
+        20.07251
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.019829999999998904,
+      "candidate_lines": [
+        244,
+        89
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 115,
+      "task": "petfinder-pawpularity-score",
+      "source_group_index": 215,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        20.09234,
+        20.07284
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.01950000000000074,
+      "candidate_lines": [
+        244,
+        84
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 116,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 2,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.93966,
+        0.92827
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.011390000000000011,
+      "candidate_lines": [
+        578,
+        534
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 117,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 3,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.88267,
+        0.95308
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.07041000000000008,
+      "candidate_lines": [
+        340,
+        344
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 118,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 5,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.93966,
+        0.95308
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.013419999999999987,
+      "candidate_lines": [
+        578,
+        344
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 119,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 6,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.95308,
+        0.80691
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.14617000000000002,
+      "candidate_lines": [
+        344,
+        271
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 120,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 7,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.87268,
+        0.95308
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.08040000000000003,
+      "candidate_lines": [
+        286,
+        344
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 121,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 8,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.88267,
+        0.80691
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.07575999999999994,
+      "candidate_lines": [
+        340,
+        271
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 122,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 9,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.80691,
+        0.92827
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.12136000000000002,
+      "candidate_lines": [
+        271,
+        534
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 123,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 12,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.92827,
+        0.87268
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05559000000000003,
+      "candidate_lines": [
+        534,
+        286
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 124,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 13,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.87268,
+        0.93966
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06698000000000004,
+      "candidate_lines": [
+        286,
+        578
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 125,
+      "task": "plant-pathology-2020-fgvc7",
+      "source_group_index": 14,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.87268,
+        0.80691
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06577,
+      "candidate_lines": [
+        286,
+        271
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 126,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 62,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        5293014.0,
+        24402200.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 19109186.0,
+      "candidate_lines": [
+        99,
+        446
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 127,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 156,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        4659722.0,
+        17014540.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 12354818.0,
+      "candidate_lines": [
+        90,
+        279
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 128,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 275,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        17090346.0,
+        5371159.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 11719187.0,
+      "candidate_lines": [
+        193,
+        139
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 129,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 320,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        5051337.0,
+        11538192.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 6486855.0,
+      "candidate_lines": [
+        115,
+        443
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 130,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 589,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        17897239.0,
+        4633770.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 13263469.0,
+      "candidate_lines": [
+        303,
+        90
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 131,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 648,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        15683596.0,
+        21773345.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 6089749.0,
+      "candidate_lines": [
+        287,
+        227
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 132,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 778,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        4849576.0,
+        24402200.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 19552624.0,
+      "candidate_lines": [
+        284,
+        299
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 133,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 851,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        27103276.0,
+        2593397.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 24509879.0,
+      "candidate_lines": [
+        349,
+        313
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 134,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 1073,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        24402200.0,
+        3083911.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 21318289.0,
+      "candidate_lines": [
+        299,
+        207
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 135,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_group_index": 1107,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        24138847.0,
+        4849576.0
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 19289271.0,
+      "candidate_lines": [
+        234,
+        284
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 136,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 61,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.63206,
+        0.66836
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0363,
+      "candidate_lines": [
+        296,
+        91
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 137,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 213,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.58452,
+        0.60261
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.01808999999999994,
+      "candidate_lines": [
+        401,
+        259
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 138,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 234,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.65456,
+        0.56749
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.08706999999999998,
+      "candidate_lines": [
+        134,
+        375
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 139,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 382,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.6543,
+        0.59798
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05632000000000004,
+      "candidate_lines": [
+        377,
+        488
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 140,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 441,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.56429,
+        0.56749
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0032000000000000917,
+      "candidate_lines": [
+        334,
+        375
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 141,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 834,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        0.64724,
+        0.58363
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06361000000000006,
+      "candidate_lines": [
+        387,
+        410
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 142,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 887,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.52546,
+        0.6323
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.10683999999999994,
+      "candidate_lines": [
+        303,
+        351
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 143,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 940,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.63993,
+        0.56699
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.07294,
+      "candidate_lines": [
+        326,
+        386
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 144,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 1080,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.62493,
+        0.62148
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.003449999999999953,
+      "candidate_lines": [
+        436,
+        419
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 145,
+      "task": "random-acts-of-pizza",
+      "source_group_index": 1119,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.60901,
+        0.61417
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.005159999999999942,
+      "candidate_lines": [
+        164,
+        203
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 146,
+      "task": "spooky-author-identification",
+      "source_group_index": 169,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.59228,
+        0.58562
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.006659999999999999,
+      "candidate_lines": [
+        99,
+        103
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 147,
+      "task": "spooky-author-identification",
+      "source_group_index": 599,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.46861,
+        0.33658
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.13203000000000004,
+      "candidate_lines": [
+        186,
+        334
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 148,
+      "task": "spooky-author-identification",
+      "source_group_index": 718,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.40479,
+        0.57351
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.16871999999999998,
+      "candidate_lines": [
+        623,
+        58
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 149,
+      "task": "spooky-author-identification",
+      "source_group_index": 722,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.40479,
+        0.52148
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.11669000000000007,
+      "candidate_lines": [
+        623,
+        50
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 150,
+      "task": "spooky-author-identification",
+      "source_group_index": 749,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.57351,
+        0.47278
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.10072999999999999,
+      "candidate_lines": [
+        66,
+        241
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 151,
+      "task": "spooky-author-identification",
+      "source_group_index": 758,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.47278,
+        1.22581
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.7530300000000001,
+      "candidate_lines": [
+        241,
+        93
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 152,
+      "task": "spooky-author-identification",
+      "source_group_index": 989,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.74039,
+        0.47486
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.26553,
+      "candidate_lines": [
+        400,
+        63
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 153,
+      "task": "spooky-author-identification",
+      "source_group_index": 1028,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.37163,
+        0.45825
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.08661999999999997,
+      "candidate_lines": [
+        95,
+        232
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 154,
+      "task": "spooky-author-identification",
+      "source_group_index": 1060,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.57351,
+        1.09861
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.5251000000000001,
+      "candidate_lines": [
+        58,
+        377
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 155,
+      "task": "spooky-author-identification",
+      "source_group_index": 1202,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.43976,
+        0.58129
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.14153,
+      "candidate_lines": [
+        332,
+        219
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 156,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 199,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.39435,
+        0.31863
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.07571999999999995,
+      "candidate_lines": [
+        242,
+        172
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 157,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 292,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.30926,
+        0.47906
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.1698,
+      "candidate_lines": [
+        652,
+        131
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 158,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 385,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.32672,
+        0.28641
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.04031000000000001,
+      "candidate_lines": [
+        401,
+        453
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 159,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 470,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.28253,
+        0.39383
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.11130000000000001,
+      "candidate_lines": [
+        446,
+        146
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 160,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 473,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.31691,
+        0.28253
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.03438000000000002,
+      "candidate_lines": [
+        471,
+        446
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 161,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 764,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.29448,
+        0.31691
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.022430000000000005,
+      "candidate_lines": [
+        595,
+        471
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 162,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 768,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.26138,
+        0.29448
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.03310000000000002,
+      "candidate_lines": [
+        703,
+        595
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 163,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 773,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.66564,
+        0.29448
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.37116,
+      "candidate_lines": [
+        516,
+        595
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 164,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 924,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.29579,
+        0.30926
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.013469999999999982,
+      "candidate_lines": [
+        472,
+        652
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 165,
+      "task": "stanford-covid-vaccine",
+      "source_group_index": 978,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.25394,
+        0.29581
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.04187000000000002,
+      "candidate_lines": [
+        541,
+        470
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 166,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 190,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        0.31697,
+        0.38256
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.06559000000000004,
+      "candidate_lines": [
+        287,
+        109
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 167,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 335,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.39332,
+        0.18543
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.20789,
+      "candidate_lines": [
+        377,
+        267
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 168,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 420,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.20481,
+        0.38239
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.17758000000000002,
+      "candidate_lines": [
+        277,
+        96
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 169,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 442,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.38239,
+        0.70806
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.32567,
+      "candidate_lines": [
+        96,
+        551
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 170,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 755,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.6955,
+        0.69486
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.0006399999999999739,
+      "candidate_lines": [
+        361,
+        490
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 171,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 771,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.38962,
+        0.26615
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.12347000000000002,
+      "candidate_lines": [
+        213,
+        393
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 172,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 938,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.63821,
+        0.70806
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.06984999999999997,
+      "candidate_lines": [
+        396,
+        551
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 173,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 1106,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.27154,
+        0.60987
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.33833,
+      "candidate_lines": [
+        452,
+        443
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 174,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 1113,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.27154,
+        0.26963
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.0019100000000000228,
+      "candidate_lines": [
+        452,
+        352
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 175,
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_group_index": 1209,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.64615,
+        0.2823
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.36385,
+      "candidate_lines": [
+        546,
+        274
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 176,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 4,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.96019,
+        0.95904
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0011499999999999844,
+      "candidate_lines": [
+        302,
+        285
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 177,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 14,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.96194,
+        0.95904
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0029000000000000137,
+      "candidate_lines": [
+        329,
+        285
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 178,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 43,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.91305,
+        0.9514
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.038349999999999995,
+      "candidate_lines": [
+        310,
+        244
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 179,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 48,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.96246,
+        0.9514
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.011059999999999959,
+      "candidate_lines": [
+        316,
+        244
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 180,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 114,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.96123,
+        0.95679
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0044399999999999995,
+      "candidate_lines": [
+        305,
+        184
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 181,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 119,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.96127,
+        0.9623
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0010300000000000864,
+      "candidate_lines": [
+        329,
+        299
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 182,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 220,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.95882,
+        0.95542
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0033999999999999586,
+      "candidate_lines": [
+        322,
+        341
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 183,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 224,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.96229,
+        0.96194
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.00034999999999996145,
+      "candidate_lines": [
+        293,
+        329
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 184,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 243,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.96135,
+        0.96144
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 8.999999999992347e-05,
+      "candidate_lines": [
+        355,
+        325
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 185,
+      "task": "tabular-playground-series-dec-2021",
+      "source_group_index": 271,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.9554,
+        0.95882
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0034199999999999786,
+      "candidate_lines": [
+        104,
+        322
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 186,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 47,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.0,
+        0.05562
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05562,
+      "candidate_lines": [
+        388,
+        134
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 187,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 107,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.16577,
+        0.31855
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.15278,
+      "candidate_lines": [
+        151,
+        193
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 188,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 204,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.16252,
+        0.04913
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.11338999999999999,
+      "candidate_lines": [
+        132,
+        161
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 189,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 319,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.04866,
+        0.30372
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.25506,
+      "candidate_lines": [
+        160,
+        291
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 190,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 413,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.01576,
+        0.04913
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.03337,
+      "candidate_lines": [
+        121,
+        170
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 191,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 494,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.05562,
+        0.04866
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.006960000000000001,
+      "candidate_lines": [
+        108,
+        158
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 192,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 533,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.0,
+        0.22076
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.22076,
+      "candidate_lines": [
+        333,
+        236
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 193,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 620,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        0.31855,
+        0.04866
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.26989,
+      "candidate_lines": [
+        193,
+        158
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 194,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 882,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.35239,
+        0.16577
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.18661999999999998,
+      "candidate_lines": [
+        437,
+        153
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 195,
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_group_index": 989,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.05562,
+        0.22432
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.1687,
+      "candidate_lines": [
+        108,
+        442
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 196,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 14,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.6396,
+        0.5221
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.11749999999999994,
+      "candidate_lines": [
+        515,
+        732
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 197,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 142,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.4428,
+        0.1301
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.31270000000000003,
+      "candidate_lines": [
+        352,
+        333
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 198,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 274,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.584,
+        0.1301
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.45389999999999997,
+      "candidate_lines": [
+        366,
+        360
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 199,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 366,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.6933,
+        0.5221
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.17120000000000002,
+      "candidate_lines": [
+        447,
+        633
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 200,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 446,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.7363,
+        0.5221
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.21419999999999995,
+      "candidate_lines": [
+        671,
+        658
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 201,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 481,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.1301,
+        0.5221
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.392,
+      "candidate_lines": [
+        388,
+        597
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 202,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 484,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        0.5221,
+        0.1301
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.392,
+      "candidate_lines": [
+        597,
+        333
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 203,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 645,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.5221,
+        0.7706
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.24849999999999994,
+      "candidate_lines": [
+        600,
+        464
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 204,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 770,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.7456,
+        0.5221
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.22350000000000003,
+      "candidate_lines": [
+        441,
+        585
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 205,
+      "task": "tgs-salt-identification-challenge",
+      "source_group_index": 812,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.7134,
+        0.2055
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.5079,
+      "candidate_lines": [
+        461,
+        400
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 206,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 57,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.57432,
+        0.59157
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.017249999999999988,
+      "candidate_lines": [
+        441,
+        301
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 207,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 59,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.57432,
+        0.60363
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.029309999999999947,
+      "candidate_lines": [
+        441,
+        341
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 208,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 64,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.84251,
+        0.57432
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.26818999999999993,
+      "candidate_lines": [
+        174,
+        441
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 209,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 70,
+      "true_index": 0,
+      "ours": 1,
+      "author": 0,
+      "category": "author_only",
+      "scores": [
+        0.6278,
+        0.50653
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.12126999999999999,
+      "candidate_lines": [
+        287,
+        287
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 210,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 84,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.93171,
+        0.60363
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.32808000000000004,
+      "candidate_lines": [
+        436,
+        341
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 211,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 99,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.49998,
+        0.61051
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.11053000000000002,
+      "candidate_lines": [
+        626,
+        445
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 212,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 117,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.60363,
+        0.84251
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.23887999999999998,
+      "candidate_lines": [
+        341,
+        174
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 213,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 128,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.81343,
+        0.59157
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.22185999999999995,
+      "candidate_lines": [
+        132,
+        301
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 214,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 147,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.55982,
+        0.6081
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.04827999999999999,
+      "candidate_lines": [
+        353,
+        379
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 215,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_group_index": 265,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.50653,
+        0.81343
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.30689999999999995,
+      "candidate_lines": [
+        287,
+        278
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 216,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 0,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.25674,
+        0.22051
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.03623000000000001,
+      "candidate_lines": [
+        447,
+        415
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 217,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 23,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.25674,
+        0.31921
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.06246999999999997,
+      "candidate_lines": [
+        447,
+        393
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 218,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 25,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        0.22051,
+        0.31921
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.09869999999999998,
+      "candidate_lines": [
+        415,
+        393
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 219,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 40,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.3361,
+        0.25535
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.08074999999999999,
+      "candidate_lines": [
+        510,
+        447
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 220,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 46,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.25535,
+        0.25325
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0021000000000000463,
+      "candidate_lines": [
+        447,
+        447
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 221,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 62,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.25375,
+        0.22051
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.033239999999999964,
+      "candidate_lines": [
+        447,
+        415
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 222,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 149,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        0.25182,
+        0.28801
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.03619,
+      "candidate_lines": [
+        447,
+        453
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 223,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 165,
+      "true_index": 1,
+      "ours": 0,
+      "author": 0,
+      "category": "both_wrong",
+      "scores": [
+        0.25048,
+        0.25148
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0010000000000000009,
+      "candidate_lines": [
+        447,
+        447
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 224,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 176,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.30474,
+        0.25109
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05365000000000003,
+      "candidate_lines": [
+        449,
+        447
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 225,
+      "task": "tweet-sentiment-extraction",
+      "source_group_index": 177,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.25048,
+        0.30474
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.05426000000000003,
+      "candidate_lines": [
+        447,
+        449
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 226,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 31,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.47879,
+        0.62194
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.14315000000000005,
+      "candidate_lines": [
+        85,
+        313
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 227,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 111,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.56193,
+        0.83081
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.26888,
+      "candidate_lines": [
+        191,
+        296
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 228,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 152,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.51429,
+        0.51304
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.0012499999999999734,
+      "candidate_lines": [
+        130,
+        82
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 229,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 504,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.81343,
+        0.465
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.34842999999999996,
+      "candidate_lines": [
+        314,
+        75
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 230,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 509,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.59955,
+        0.81343
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.21387999999999996,
+      "candidate_lines": [
+        329,
+        314
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 231,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 548,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.81189,
+        0.72882
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.08306999999999998,
+      "candidate_lines": [
+        266,
+        137
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 232,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 808,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.80453,
+        0.63379
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.17074,
+      "candidate_lines": [
+        169,
+        283
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 233,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 836,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.82367,
+        0.47879
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.34488,
+      "candidate_lines": [
+        418,
+        85
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 234,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 893,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.55831,
+        0.81545
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.25714000000000004,
+      "candidate_lines": [
+        187,
+        317
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 235,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_group_index": 941,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        0.51414,
+        0.78813
+      ],
+      "is_lower_better": false,
+      "absolute_score_gap_within_metric": 0.27398999999999996,
+      "candidate_lines": [
+        111,
+        450
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 236,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 256,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        1.39605,
+        1.71433
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.3182799999999999,
+      "candidate_lines": [
+        204,
+        197
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 237,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 428,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        2.01304,
+        4.66861
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 2.65557,
+      "candidate_lines": [
+        192,
+        329
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 238,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 446,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        1.30899,
+        4.66861
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 3.35962,
+      "candidate_lines": [
+        332,
+        329
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 239,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 509,
+      "true_index": 1,
+      "ours": 0,
+      "author": 1,
+      "category": "author_only",
+      "scores": [
+        1.3456,
+        0.96494
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.3806599999999999,
+      "candidate_lines": [
+        194,
+        435
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 240,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 516,
+      "true_index": 0,
+      "ours": 1,
+      "author": 1,
+      "category": "both_wrong",
+      "scores": [
+        0.96494,
+        1.15998
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.19504,
+      "candidate_lines": [
+        435,
+        321
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 241,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 613,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        1.49358,
+        0.78745
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.7061299999999999,
+      "candidate_lines": [
+        271,
+        373
+      ],
+      "adopted_attempt": 2
+    },
+    {
+      "index": 242,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 722,
+      "true_index": 0,
+      "ours": 0,
+      "author": 1,
+      "category": "ours_only",
+      "scores": [
+        1.22191,
+        1.30899
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 0.08708000000000005,
+      "candidate_lines": [
+        297,
+        332
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 243,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 812,
+      "true_index": 0,
+      "ours": 0,
+      "author": 0,
+      "category": "both_correct",
+      "scores": [
+        0.52797,
+        4.1776
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 3.64963,
+      "candidate_lines": [
+        362,
+        323
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 244,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 835,
+      "true_index": 1,
+      "ours": 1,
+      "author": 0,
+      "category": "ours_only",
+      "scores": [
+        17.65293,
+        2.57115
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 15.081780000000002,
+      "candidate_lines": [
+        314,
+        671
+      ],
+      "adopted_attempt": 1
+    },
+    {
+      "index": 245,
+      "task": "ventilator-pressure-prediction",
+      "source_group_index": 1027,
+      "true_index": 1,
+      "ours": 1,
+      "author": 1,
+      "category": "both_correct",
+      "scores": [
+        12.93127,
+        0.86794
+      ],
+      "is_lower_better": true,
+      "absolute_score_gap_within_metric": 12.063329999999999,
+      "candidate_lines": [
+        470,
+        353
+      ],
+      "adopted_attempt": 1
+    }
+  ]
+}
