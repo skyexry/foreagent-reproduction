@@ -1,0 +1,2183 @@
+{
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "author_run": "deepseek-reasoner_1p0_pboost_cot_20251209_164656",
+  "note": "One released run, not the paper three-run average; sampling fixed before lookup.",
+  "tasks": [
+    {
+      "task": "aptos2019-blindness-detection",
+      "source_path": "solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "17f5001805debff90c6fb1b3c3d7f29ab63d23966325e7ac33efc5c789c4b740",
+      "author_source_records": 1225,
+      "matches": [
+        {
+          "source_group_index": 92,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 178,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 189,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 233,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 238,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 486,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 774,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 824,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1001,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1082,
+          "task": "aptos2019-blindness-detection",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "denoising-dirty-documents",
+      "source_path": "solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "75b8804e66fbf30f9cb696dc5d1b38fad4c57a1ff692a7daea642db6fca02072",
+      "author_source_records": 974,
+      "matches": [
+        {
+          "source_group_index": 181,
+          "task": "denoising-dirty-documents",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 277,
+          "task": "denoising-dirty-documents",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 400,
+          "task": "denoising-dirty-documents",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 521,
+          "task": "denoising-dirty-documents",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 526,
+          "task": "denoising-dirty-documents",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 594,
+          "task": "denoising-dirty-documents",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 683,
+          "task": "denoising-dirty-documents",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 804,
+          "task": "denoising-dirty-documents",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 909,
+          "task": "denoising-dirty-documents",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 943,
+          "task": "denoising-dirty-documents",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "34de4fa89de0b4c7c2dcd082bfa5b1dd2bafcd1f60d5f0ea89753b37c1ea0917",
+      "author_source_records": 350,
+      "matches": [
+        {
+          "source_group_index": 10,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 22,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 29,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 57,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 59,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 82,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 101,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 146,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 247,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 283,
+          "task": "detecting-insults-in-social-commentary",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "dog-breed-identification",
+      "source_path": "solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "72f9a92bbbdcf3e7791a3ce08f114523b0cfdd38cf4795e83042373305005726",
+      "author_source_records": 3,
+      "matches": [
+        {
+          "source_group_index": 0,
+          "task": "dog-breed-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1,
+          "task": "dog-breed-identification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 2,
+          "task": "dog-breed-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "google-quest-challenge",
+      "source_path": "solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "f9397c1ac721f8ea8424aeaab062f1e4d41d831ad7583c2482cca4e60ac3eba8",
+      "author_source_records": 1224,
+      "matches": [
+        {
+          "source_group_index": 90,
+          "task": "google-quest-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 137,
+          "task": "google-quest-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 208,
+          "task": "google-quest-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 242,
+          "task": "google-quest-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 370,
+          "task": "google-quest-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 517,
+          "task": "google-quest-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 535,
+          "task": "google-quest-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 939,
+          "task": "google-quest-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 963,
+          "task": "google-quest-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 986,
+          "task": "google-quest-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_path": "solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "1dacc162bff1599e40f61a246b9ae03944c51a40ee9da75d4d3ce220a9a2eae5",
+      "author_source_records": 10,
+      "matches": [
+        {
+          "source_group_index": 0,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 2,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 3,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 4,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 5,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 6,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 7,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 8,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 9,
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "leaf-classification",
+      "source_path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "1fea23aa8af45a1e808c01cb74147bf3314031f1af1a21eb47e5c428331ba54f",
+      "author_source_records": 136,
+      "matches": [
+        {
+          "source_group_index": 11,
+          "task": "leaf-classification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 63,
+          "task": "leaf-classification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 75,
+          "task": "leaf-classification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 84,
+          "task": "leaf-classification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 92,
+          "task": "leaf-classification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 103,
+          "task": "leaf-classification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 108,
+          "task": "leaf-classification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 112,
+          "task": "leaf-classification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 117,
+          "task": "leaf-classification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 123,
+          "task": "leaf-classification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_path": "solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "bafcb86fb6e9d44984366830d838d16da4b83e7aa144c95d76009f5c91782958",
+      "author_source_records": 190,
+      "matches": [
+        {
+          "source_group_index": 19,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 28,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 51,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 108,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 113,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 118,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 129,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 174,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 182,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 188,
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "source_path": "solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "7431edf2022accfe2a498cf2ce9af318eb0538d63a93b831e66ca0254bd19f9f",
+      "author_source_records": 1220,
+      "matches": [
+        {
+          "source_group_index": 36,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 154,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 206,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 253,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 404,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 447,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 532,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 808,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 997,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1134,
+          "task": "lmsys-chatbot-arena",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "mlsp-2013-birds",
+      "source_path": "solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "59e1cbff934a4e56a68460fcc4e8798b8d6db267f7a091160a310e890dc5ce6e",
+      "author_source_records": 1221,
+      "matches": [
+        {
+          "source_group_index": 154,
+          "task": "mlsp-2013-birds",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 179,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 332,
+          "task": "mlsp-2013-birds",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 541,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 836,
+          "task": "mlsp-2013-birds",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 841,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 993,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1043,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1063,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1083,
+          "task": "mlsp-2013-birds",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_path": "solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "b734ed23b5f367ebd500295c5cd64eb8f2e0eb98a8fcef03045e4cb37cebba19",
+      "author_source_records": 429,
+      "matches": [
+        {
+          "source_group_index": 45,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 69,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 142,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 154,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 155,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 194,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 238,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 293,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 320,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 328,
+          "task": "new-york-city-taxi-fare-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "nomad2018-predict-transparent-conductors",
+      "source_path": "solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "891a80257be1893ca83a4a567217d3b2e62e48915f6fc185a17c567043ea1349",
+      "author_source_records": 3,
+      "matches": [
+        {
+          "source_group_index": 0,
+          "task": "nomad2018-predict-transparent-conductors",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1,
+          "task": "nomad2018-predict-transparent-conductors",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 2,
+          "task": "nomad2018-predict-transparent-conductors",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "source_path": "solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "6610248aada42b95847967264d971697c8cb76d2cc370a5a13f56eeada9a13cc",
+      "author_source_records": 239,
+      "matches": [
+        {
+          "source_group_index": 24,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 44,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 60,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 68,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 93,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 99,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 128,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 192,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 197,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 215,
+          "task": "petfinder-pawpularity-score",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "plant-pathology-2020-fgvc7",
+      "source_path": "solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "5fbff571fe100606a6c7f2d167f649d356ca55de9cee5dd6758618d51e0c15d6",
+      "author_source_records": 15,
+      "matches": [
+        {
+          "source_group_index": 2,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 3,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 5,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 6,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 7,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 8,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 9,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 12,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 13,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 14,
+          "task": "plant-pathology-2020-fgvc7",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_path": "solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "729192215dc6088ab0d8a2ada5280857036399306540ff02fa36ab5694cc9a09",
+      "author_source_records": 1213,
+      "matches": [
+        {
+          "source_group_index": 62,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 156,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 275,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 320,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 589,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 648,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 778,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 851,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1073,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1107,
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "source_path": "solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "daf44f89e90c395abe7cb270d367d33add024ff9e0f05118bb64ffdd715706fc",
+      "author_source_records": 1225,
+      "matches": [
+        {
+          "source_group_index": 61,
+          "task": "random-acts-of-pizza",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 213,
+          "task": "random-acts-of-pizza",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 234,
+          "task": "random-acts-of-pizza",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 382,
+          "task": "random-acts-of-pizza",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 441,
+          "task": "random-acts-of-pizza",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 834,
+          "task": "random-acts-of-pizza",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 887,
+          "task": "random-acts-of-pizza",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 940,
+          "task": "random-acts-of-pizza",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1080,
+          "task": "random-acts-of-pizza",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1119,
+          "task": "random-acts-of-pizza",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "spooky-author-identification",
+      "source_path": "solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "9530e106fd5b2b8900f7893b947be99fe7bc44681f9ab465b0f1ee80a644b082",
+      "author_source_records": 1220,
+      "matches": [
+        {
+          "source_group_index": 169,
+          "task": "spooky-author-identification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 599,
+          "task": "spooky-author-identification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 718,
+          "task": "spooky-author-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 722,
+          "task": "spooky-author-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 749,
+          "task": "spooky-author-identification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 758,
+          "task": "spooky-author-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 989,
+          "task": "spooky-author-identification",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1028,
+          "task": "spooky-author-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1060,
+          "task": "spooky-author-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1202,
+          "task": "spooky-author-identification",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "source_path": "solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "4536e71d795255ec3b558b019cf6b9fdc625eb6fddeb590d7842eb105a684d74",
+      "author_source_records": 1222,
+      "matches": [
+        {
+          "source_group_index": 199,
+          "task": "stanford-covid-vaccine",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 292,
+          "task": "stanford-covid-vaccine",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 385,
+          "task": "stanford-covid-vaccine",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 470,
+          "task": "stanford-covid-vaccine",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 473,
+          "task": "stanford-covid-vaccine",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 764,
+          "task": "stanford-covid-vaccine",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 768,
+          "task": "stanford-covid-vaccine",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 773,
+          "task": "stanford-covid-vaccine",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 924,
+          "task": "stanford-covid-vaccine",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 978,
+          "task": "stanford-covid-vaccine",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_path": "solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "32916183eb4418c310c7ef69c50f7ebb76cafff22e45b1aaa2dfd0cf87816b5e",
+      "author_source_records": 1223,
+      "matches": [
+        {
+          "source_group_index": 190,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 335,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 420,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 442,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 755,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 771,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 938,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1106,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1113,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 1209,
+          "task": "statoil-iceberg-classifier-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "tabular-playground-series-dec-2021",
+      "source_path": "solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "15319fb8dca73e588a7a987119d07bf8b4a930929a9b5bda997bb83c486fb17c",
+      "author_source_records": 275,
+      "matches": [
+        {
+          "source_group_index": 4,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 14,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 43,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 48,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 114,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 119,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 220,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 224,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 243,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 271,
+          "task": "tabular-playground-series-dec-2021",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_path": "solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "8c7eb046e501353cc42c28b05a242f56c92f8f698df16183196212f161f9d29e",
+      "author_source_records": 1011,
+      "matches": [
+        {
+          "source_group_index": 47,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 107,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 204,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 319,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 413,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 494,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 533,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 620,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 882,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 989,
+          "task": "tensorflow-speech-recognition-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "source_path": "solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "9ff53c29d23558ae9d024e1d268f9de42f293e61e844a0429692f34baa457b0a",
+      "author_source_records": 880,
+      "matches": [
+        {
+          "source_group_index": 14,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 142,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 274,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 366,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 446,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 481,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 484,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 645,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 770,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 812,
+          "task": "tgs-salt-identification-challenge",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_path": "solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "cde85aa13df286bb02788969e161bebc5ff48ec3633e9fd98cb6900e443b4d71",
+      "author_source_records": 275,
+      "matches": [
+        {
+          "source_group_index": 57,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 59,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 64,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 70,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 84,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 99,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 117,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 128,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 147,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 265,
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        }
+      ]
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "source_path": "solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "cf88a832c2d8b4a59b3e8c168bfb315b59caa643f73de381b088e70d99fca9e2",
+      "author_source_records": 210,
+      "matches": [
+        {
+          "source_group_index": 0,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 23,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 25,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 40,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 46,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 62,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 149,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 165,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 176,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 177,
+          "task": "tweet-sentiment-extraction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_path": "solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "693b54dcc5ca3d828f54841a66e03ce1393769544eaeb38bc8b16b7459ad16a6",
+      "author_source_records": 1223,
+      "matches": [
+        {
+          "source_group_index": 31,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 111,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 152,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 504,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 509,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 548,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 808,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 836,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 893,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 941,
+          "task": "us-patent-phrase-to-phrase-matching",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    },
+    {
+      "task": "ventilator-pressure-prediction",
+      "source_path": "solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "a538bdb9687a54bf9f52e6c42e4e38835b7ff286a0c8aa58b01fe98a6ae959bb",
+      "author_source_records": 1222,
+      "matches": [
+        {
+          "source_group_index": 256,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 428,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 446,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 509,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 516,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 613,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 722,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 812,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 0,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 1
+        },
+        {
+          "source_group_index": 835,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 0,
+          "author_correct": 0
+        },
+        {
+          "source_group_index": 1027,
+          "task": "ventilator-pressure-prediction",
+          "best_index": 1,
+          "match_count": 1,
+          "author_prediction": 1,
+          "author_correct": 1
+        }
+      ]
+    }
+  ]
+}
