@@ -1,0 +1,236 @@
+[
+  {
+    "task": "aptos2019-blindness-detection",
+    "candidates": 50,
+    "pairs": 1225,
+    "possible": 1225,
+    "author_rows": 1225,
+    "missing_confidence": 160,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "denoising-dirty-documents",
+    "candidates": 45,
+    "pairs": 974,
+    "possible": 990,
+    "author_rows": 974,
+    "missing_confidence": 132,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "detecting-insults-in-social-commentary",
+    "candidates": 27,
+    "pairs": 350,
+    "possible": 351,
+    "author_rows": 350,
+    "missing_confidence": 6,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "dog-breed-identification",
+    "candidates": 3,
+    "pairs": 3,
+    "possible": 3,
+    "author_rows": 3,
+    "missing_confidence": 1,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "google-quest-challenge",
+    "candidates": 50,
+    "pairs": 1224,
+    "possible": 1225,
+    "author_rows": 1224,
+    "missing_confidence": 75,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "jigsaw-toxic-comment-classification-challenge",
+    "candidates": 5,
+    "pairs": 10,
+    "possible": 10,
+    "author_rows": 10,
+    "missing_confidence": 1,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "leaf-classification",
+    "candidates": 17,
+    "pairs": 136,
+    "possible": 136,
+    "author_rows": 136,
+    "missing_confidence": 7,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "learning-agency-lab-automated-essay-scoring-2",
+    "candidates": 20,
+    "pairs": 190,
+    "possible": 190,
+    "author_rows": 190,
+    "missing_confidence": 11,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "lmsys-chatbot-arena",
+    "candidates": 50,
+    "pairs": 1220,
+    "possible": 1225,
+    "author_rows": 1220,
+    "missing_confidence": 135,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "mlsp-2013-birds",
+    "candidates": 50,
+    "pairs": 1221,
+    "possible": 1225,
+    "author_rows": 1221,
+    "missing_confidence": 133,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "new-york-city-taxi-fare-prediction",
+    "candidates": 30,
+    "pairs": 429,
+    "possible": 435,
+    "author_rows": 429,
+    "missing_confidence": 66,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "nomad2018-predict-transparent-conductors",
+    "candidates": 3,
+    "pairs": 3,
+    "possible": 3,
+    "author_rows": 3,
+    "missing_confidence": 1,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "petfinder-pawpularity-score",
+    "candidates": 30,
+    "pairs": 239,
+    "possible": 435,
+    "author_rows": 239,
+    "missing_confidence": 22,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "plant-pathology-2020-fgvc7",
+    "candidates": 6,
+    "pairs": 15,
+    "possible": 15,
+    "author_rows": 15,
+    "missing_confidence": 3,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "predict-volcanic-eruptions-ingv-oe",
+    "candidates": 50,
+    "pairs": 1213,
+    "possible": 1225,
+    "author_rows": 1213,
+    "missing_confidence": 126,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "random-acts-of-pizza",
+    "candidates": 50,
+    "pairs": 1225,
+    "possible": 1225,
+    "author_rows": 1225,
+    "missing_confidence": 150,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "spooky-author-identification",
+    "candidates": 50,
+    "pairs": 1220,
+    "possible": 1225,
+    "author_rows": 1220,
+    "missing_confidence": 164,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "stanford-covid-vaccine",
+    "candidates": 50,
+    "pairs": 1222,
+    "possible": 1225,
+    "author_rows": 1222,
+    "missing_confidence": 87,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "statoil-iceberg-classifier-challenge",
+    "candidates": 50,
+    "pairs": 1223,
+    "possible": 1225,
+    "author_rows": 1223,
+    "missing_confidence": 155,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "tabular-playground-series-dec-2021",
+    "candidates": 24,
+    "pairs": 275,
+    "possible": 276,
+    "author_rows": 275,
+    "missing_confidence": 57,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "tensorflow-speech-recognition-challenge",
+    "candidates": 46,
+    "pairs": 1011,
+    "possible": 1035,
+    "author_rows": 1011,
+    "missing_confidence": 71,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "tgs-salt-identification-challenge",
+    "candidates": 44,
+    "pairs": 880,
+    "possible": 946,
+    "author_rows": 880,
+    "missing_confidence": 149,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "the-icml-2013-whale-challenge-right-whale-redux",
+    "candidates": 24,
+    "pairs": 275,
+    "possible": 276,
+    "author_rows": 275,
+    "missing_confidence": 22,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "tweet-sentiment-extraction",
+    "candidates": 21,
+    "pairs": 210,
+    "possible": 210,
+    "author_rows": 210,
+    "missing_confidence": 29,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "us-patent-phrase-to-phrase-matching",
+    "candidates": 50,
+    "pairs": 1223,
+    "possible": 1225,
+    "author_rows": 1223,
+    "missing_confidence": 97,
+    "conflicting_candidate_scores": 0
+  },
+  {
+    "task": "ventilator-pressure-prediction",
+    "candidates": 50,
+    "pairs": 1222,
+    "possible": 1225,
+    "author_rows": 1222,
+    "missing_confidence": 118,
+    "conflicting_candidate_scores": 0
+  }
+]
