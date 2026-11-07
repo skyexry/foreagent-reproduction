@@ -1,0 +1,25 @@
+test_api_failure_stops_new_calls (test_coverage_budget.CoverageBudgetTests.test_api_failure_stops_new_calls) ... ok
+test_budget_reserves_inflight_cost (test_coverage_budget.CoverageBudgetTests.test_budget_reserves_inflight_cost) ... ok
+test_incomplete_stream_is_rejected (test_coverage_budget.CoverageBudgetTests.test_incomplete_stream_is_rejected) ... ok
+test_resume_skips_successes_and_failed_requests (test_coverage_budget.CoverageBudgetTests.test_resume_skips_successes_and_failed_requests) ... ok
+test_stream_collects_final_usage_without_choices (test_coverage_budget.CoverageBudgetTests.test_stream_collects_final_usage_without_choices) ... ok
+test_agent_routes_ties_probability_and_forced_execution (test_foreagent_mechanisms.MechanismTests.test_agent_routes_ties_probability_and_forced_execution) ... ok
+test_gate_boundaries_malformed_responses_and_cache_scope (test_foreagent_mechanisms.MechanismTests.test_gate_boundaries_malformed_responses_and_cache_scope) ... ok
+test_pending_byes_stopping_and_display_ranks (test_foreagent_mechanisms.MechanismTests.test_pending_byes_stopping_and_display_ranks) ... ok
+test_released_configuration_matches_audit (test_foreagent_mechanisms.MechanismTests.test_released_configuration_matches_audit) ... ok
+test_concurrent_reversed_queries_use_one_feedback (test_foreagent_selection.SelectionTests.test_concurrent_reversed_queries_use_one_feedback) ... ok
+test_high_confidence_tournament_uses_nine_feedbacks (test_foreagent_selection.SelectionTests.test_high_confidence_tournament_uses_nine_feedbacks) ... ok
+test_instances_do_not_share_task_feedback (test_foreagent_selection.SelectionTests.test_instances_do_not_share_task_feedback) ... ok
+test_low_confidence_and_missing_confidence_stay_inconclusive (test_foreagent_selection.SelectionTests.test_low_confidence_and_missing_confidence_stay_inconclusive) ... ok
+test_low_confidence_safety_exit_and_tie (test_foreagent_selection.SelectionTests.test_low_confidence_safety_exit_and_tie) ... ok
+test_metric_direction_and_tied_best (test_foreagent_selection.SelectionTests.test_metric_direction_and_tied_best) ... ok
+test_original_cache_prevents_fresh_judgment_without_replay (test_foreagent_selection.SelectionTests.test_original_cache_prevents_fresh_judgment_without_replay) ... ok
+test_original_retains_known_direction_bug (test_foreagent_selection.SelectionTests.test_original_retains_known_direction_bug) ... ok
+test_real_feedback_replay_is_deterministic_and_cache_fixed (test_foreagent_selection.SelectionTests.test_real_feedback_replay_is_deterministic_and_cache_fixed) ... ok
+test_replay_matches_original_threaded_tournament_control_flow (test_foreagent_selection.SelectionTests.test_replay_matches_original_threaded_tournament_control_flow) ... ok
+test_reversal_preserves_winner_loser_round_and_first_prompt (test_foreagent_selection.SelectionTests.test_reversal_preserves_winner_loser_round_and_first_prompt) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.269s
+
+OK

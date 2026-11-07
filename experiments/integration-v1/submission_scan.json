@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "method": "scripts/scan_submission.py regex scan of Git candidate files; attachment entries decompressed before scan",
+  "candidate_scan": {
+    "files": 118,
+    "findings": []
+  },
+  "attachment_scan": [
+    {
+      "archive": "ForeAgent_Real_Author_Batches_Replay.zip",
+      "files": 60,
+      "findings": []
+    },
+    {
+      "archive": "ForeAgent_Full_Execution_Paired_Replay_v2.zip",
+      "files": 28,
+      "findings": []
+    },
+    {
+      "archive": "pairwise-246-evidence.zip",
+      "files": 269,
+      "findings": []
+    }
+  ],
+  "scope": "credential literals/private-key blocks/service token formats and account-config filenames; source path references retained as provenance"
+}

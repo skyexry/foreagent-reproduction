@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-07",
+  "status": "passed",
+  "validated_code_commit": "148dbf8ebf09e57ee887699eb47ab1b1b98bd9ed",
+  "fresh_clone": "/private/tmp/foreagent-reproduction-v1-7k9sw6ir",
+  "clone_method": "git clone --no-hardlinks from local integration checkpoint",
+  "environment": {
+    "python": "Python 3.12.5",
+    "certifi": "2025.1.31",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "venv_system_site_packages": false
+  },
+  "installation": "pip install -r requirements-reproduction.txt; isolated venv",
+  "git_status_after_all_replays": "",
+  "public_download_smoke": {
+    "corpus_files": 1,
+    "historical_files": 1,
+    "retrieval": "fixed public Hugging Face URLs; exact uncompressed SHA-256 and size matched"
+  },
+  "full_core_data": {
+    "corpus_files": 52,
+    "historical_files": 45,
+    "method": "explicit local cache import using README options; downloaded smoke inputs reused",
+    "verification": "all 97 hashes and sizes matched"
+  },
+  "pairwise_attachment": {
+    "files": 269,
+    "sha256": "b2302988988e75911fae236de724793b3b59999c8315ebe50cbbd9f2a70f5391"
+  },
+  "freeze_verified_files": 85,
+  "unittest": {
+    "passed": 20,
+    "failed": 0
+  },
+  "experiments_verified": [
+    "selection",
+    "pairwise",
+    "five-task",
+    "mechanisms",
+    "historical",
+    "corpus"
+  ],
+  "pairwise": {
+    "reparsed_adopted_responses": 246,
+    "historical_api_calls": 266,
+    "new_api_calls": 0,
+    "correct": 136,
+    "denominator": 246,
+    "expected_summary": "exact match"
+  },
+  "historical": {
+    "raw_source_files_hash_and_size_checked": 45,
+    "runs": 15,
+    "batches": 129,
+    "candidate_rank_round_pairs_independently_checked": 1290,
+    "final_execution_sets_independently_checked": 129,
+    "excluded_batches": 11,
+    "excluded_categories": {
+      "unfinished_log_batch": 6,
+      "generated_nodes_absent_from_final_journal": 5
+    },
+    "original_world_model_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "original_agent_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+  },
+  "corpus": {
+    "original": {
+      "replays": 7800,
+      "independent_scoring": "passed",
+      "frozen_fingerprints": "matched",
+      "comparison_records": 627026,
+      "cache_reads": 525002,
+      "unique_feedback_within_replay_summed": 102024,
+      "distinct_feedback_across_experiment": 13595,
+      "direction_mismatches": 7457,
+      "actual_api_calls": 0,
+      "candidate_training_runs": 0,
+      "forced_fallbacks": 5776,
+      "final_empty": 0
+    },
+    "cache-fixed": {
+      "replays": 7800,
+      "independent_scoring": "passed",
+      "frozen_fingerprints": "matched",
+      "comparison_records": 614747,
+      "cache_reads": 512274,
+      "unique_feedback_within_replay_summed": 102473,
+      "distinct_feedback_across_experiment": 13592,
+      "direction_mismatches": 0,
+      "actual_api_calls": 0,
+      "candidate_training_runs": 0,
+      "forced_fallbacks": 5735,
+      "final_empty": 0
+    }
+  },
+  "five_task_trace_sha256": "b12a924e90c80b62e4dbf0629d5a3d9cd36ae966feaa01c336a968c643c53075",
+  "new_api_calls": 0,
+  "candidate_training_runs": 0,
+  "evidence": {
+    "clean_clone_replay.log": "b87b396bb0db04f38768ca0fb946631f83327c1b665df87911688de67f96340e",
+    "clean_clone_unittest.log": "cb497f5dbdea1ca082ab8c228d189336f23014b83f0267ebec2c73906ac4575b"
+  }
+}

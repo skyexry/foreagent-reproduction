@@ -1,6 +1,6 @@
 # 当前状态
 
-版本：`baseline-reproduction-v1` 本地冻结候选，原版固定提交 `c4d52cf99bd870d830b456ac7c0684aec1aef375`；研究仓库基点 `9442373ad020a06b691700592b0c83281b31d8c9`。工作分支为 `codex/baseline-reproduction-v1` 的归集检查点；原 main 中既有未提交工作有初始清单和迁移前快照。
+版本：`baseline-reproduction-v1` 本地冻结候选，原版固定提交 `c4d52cf99bd870d830b456ac7c0684aec1aef375`；研究仓库基点 `9442373ad020a06b691700592b0c83281b31d8c9`。归集检查点保存在本地 `codex/baseline-reproduction-v1` 分支；主项目 main 工作区保留待审阅文件，既有未提交工作有初始清单和迁移前快照。
 
 ## 已完成与证据
 
@@ -9,7 +9,7 @@
 - 26 任务完整执行策略：原版与 canonical 缓存方向修正版各 7,800 次，保存汇总见 `experiments/corpus26-v2/`。两者均含概率空选后的强制执行回退。
 - 五任务筛选实验、机制审计和实例隔离/加锁缓存修复独立保存；版本区别见 README 和 EXPERIMENTS。
 - 原固定源码、公开数据下载 URL、输入校验值、来源对应关系、HW3 NeurIPS TeX/PDF 已归集。核心脚本使用仓库相对路径；原有来源文件留存。
-- 迁移预检已通过 20 项测试与全部离线复现；最终新克隆验证结果记录于 `experiments/integration-v1/validation.json`。
+- 独立新克隆已通过 20 项测试与全部离线复现；运行后 Git 工作区干净，85 项冻结文件及 97 个核心输入均校验通过。验证基于代码检查点 `148dbf8ebf09e57ee887699eb47ab1b1b98bd9ed`，结果记录于 `experiments/integration-v1/validation.json`。
 
 ## 待验证范围
 
@@ -17,6 +17,6 @@
 
 ## 当前唯一下一步
 
-完成最终独立新克隆验证，回填验证记录后，请用户审阅本地差异并确认 GitHub 推送/标签及附件发布。
+请用户审阅本地归集差异，确认 GitHub 推送、冻结标签与独立附件发布。当前代码和实验结果已完成本地冻结；发布准备见 `experiments/integration-v1/publication_plan.md`。
 
 完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。
