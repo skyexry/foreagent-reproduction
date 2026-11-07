@@ -1,0 +1,7 @@
+# Baseline environment audit and development-only calibration
+
+Repeat the original frozen pipeline at fd55d93 from a fresh install. Independently validate tied utilities, flat pools, unique scenario identities, and the recorded hit/regret/percentile for every actual replay. Preserve the published result files. Pass before calibration.
+
+Calibration target: the original tournament, with published cache semantics. Predict the optimum may remain at the default under joint constraints. Grid of confidence gates 0.50, 0.60, 0.70, 0.80, 0.90, 1.00. Fix top-k=1, execution probability=0.2, native execution fallback, worker count=1, and existing seeds/feedback/pools. Temperature is fixed in the saved responses. Scoring and seeds are design settings. A single gate experiment has 7,800 jobs. Six gates total 46,800, including the default positive control. No new model or training calls.
+
+Order tasks by SHA256 of task name; first 18 development, remaining eight validation. All 26 tasks have been seen historically. Select once on the 18 task means: minimize normalized regret, requiring mean uniform-tie hit at least default and both average unique feedback lookups and average expected executions (including fallback) at most default. These are mean budgets, not per-scenario equality. Resolve regret ties by proximity to 0.70 then lower gate. Compare that one choice on eight tasks, report constraints again, no reselection. This is finite-grid development sensitivity, not a global optimum or external test. Do not promote settings or proceed to a new method.
