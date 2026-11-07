@@ -1,0 +1,90 @@
+{
+  "development_tasks": [
+    "tweet-sentiment-extraction",
+    "denoising-dirty-documents",
+    "new-york-city-taxi-fare-prediction",
+    "plant-pathology-2020-fgvc7",
+    "aptos2019-blindness-detection",
+    "random-acts-of-pizza",
+    "ventilator-pressure-prediction",
+    "the-icml-2013-whale-challenge-right-whale-redux",
+    "lmsys-chatbot-arena",
+    "mlsp-2013-birds",
+    "detecting-insults-in-social-commentary",
+    "spooky-author-identification",
+    "learning-agency-lab-automated-essay-scoring-2",
+    "us-patent-phrase-to-phrase-matching",
+    "nomad2018-predict-transparent-conductors",
+    "statoil-iceberg-classifier-challenge",
+    "google-quest-challenge",
+    "leaf-classification"
+  ],
+  "validation_tasks": [
+    "tgs-salt-identification-challenge",
+    "tabular-playground-series-dec-2021",
+    "dog-breed-identification",
+    "stanford-covid-vaccine",
+    "jigsaw-toxic-comment-classification-challenge",
+    "petfinder-pawpularity-score",
+    "tensorflow-speech-recognition-challenge",
+    "predict-volcanic-eruptions-ingv-oe"
+  ],
+  "development": {
+    "0.5": {
+      "normalized_regret": 0.2209320738042739,
+      "uniform_tie_best_hit": 0.22013888888888888,
+      "unique_feedback_queries": 8.469259259259259,
+      "expected_execution_count": 1.011698074074074
+    },
+    "0.6": {
+      "normalized_regret": 0.22694346429538387,
+      "uniform_tie_best_hit": 0.2157283950617284,
+      "unique_feedback_queries": 10.14611111111111,
+      "expected_execution_count": 1.014187922962963
+    },
+    "0.7": {
+      "normalized_regret": 0.24012788497421272,
+      "uniform_tie_best_hit": 0.19852226631393297,
+      "unique_feedback_queries": 13.764074074074074,
+      "expected_execution_count": 1.0291735339614814
+    },
+    "0.8": {
+      "normalized_regret": 0.3104798014257443,
+      "uniform_tie_best_hit": 0.15583619929453263,
+      "unique_feedback_queries": 17.527037037037037,
+      "expected_execution_count": 1.5226813206755556
+    },
+    "0.9": {
+      "normalized_regret": 0.3375312282031399,
+      "uniform_tie_best_hit": 0.13144135802469137,
+      "unique_feedback_queries": 15.242962962962963,
+      "expected_execution_count": 1.7956217060124444
+    },
+    "1.0": {
+      "normalized_regret": 0.3565105856295464,
+      "uniform_tie_best_hit": 0.11666666666666667,
+      "unique_feedback_queries": 12.11111111111111,
+      "expected_execution_count": 2.016229495466667
+    }
+  },
+  "eligible": [
+    0.5,
+    0.6,
+    0.7
+  ],
+  "selected_gate": 0.5,
+  "validation": {
+    "normalized_regret": 0.3230265439314774,
+    "uniform_tie_best_hit": 0.2875,
+    "unique_feedback_queries": 7.2825,
+    "expected_execution_count": 1.0083833333333334
+  },
+  "validation_control": {
+    "normalized_regret": 0.37296386816227833,
+    "uniform_tie_best_hit": 0.21718551587301588,
+    "unique_feedback_queries": 11.540833333333333,
+    "expected_execution_count": 1.028264857984
+  },
+  "validation_constraints": true,
+  "control_matches_frozen_per_task": true
+}

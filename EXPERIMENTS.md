@@ -67,3 +67,6 @@
 - 运行前预测、数据划分、唯一主指标、预算和停止规则：下一轮运行前写定；现有 corpus 已查看，需设计独立验证范围。
 - 设置/结果/解释：由未来实验协议补充。
 - 下一步：基线发布后，由用户选择下一项研究问题。
+
+## Environment audit of baseline-reproduction-v1
+Registered threshold study at 826f4c1. Six gate values on the original controller; 18 development tasks and 8 previously seen validation tasks. Audit, results, limits, and runtime setup are in experiments/environment-audit/report.md.

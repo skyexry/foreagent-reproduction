@@ -1,0 +1,15 @@
+# Sources used to check the baseline
+
+Scope is the eight papers and one dataset in the project's annotated bibliography. This is a methods-and-evaluation reading. Particulars below identify the sections actually used.
+
+| Source examined | Consequence for the evaluation |
+| --- | --- |
+| [ForeAgent, §3, §6 and Appendix C.6/Table 15](https://aclanthology.org/2026.acl-long.182.pdf) | The paper separates pair preference prediction from the five-task AIDE comparison. It reports a 10-candidate generation step, a 0.7 gate, and top-1 verification. The k=2 ablation explores more nodes but has a lower mean score than k=1. The released code and history specify the probability and fallback details. Report three outcomes separately: pair accuracy, choice quality in a pool, and actual agent execution. |
+| [Preference corpus, dataset card](https://huggingface.co/datasets/zjunlp/PredictBeforeExecute) | The full set, 50-candidate subset and 15-candidate subset serve different purposes. The replay uses pinned pair and utility records from the 50-candidate source. A pool and a pair have different denominators. |
+| [MLE-bench, §§2.2–2.3](https://arxiv.org/html/2410.07095) | Medal rate is calculated on competition submissions. The benchmark uses a competition-specific grader. For a stored pool, orient the score first and normalize regret within that pool. Record hardware and time budgets for an online claim. |
+| [AIDE, Algorithm 1 and §3.2](https://arxiv.org/html/2502.13138) | Executing a node changes the search tree and which solutions can be proposed next. A stored fixed pool measures selection conditional on those candidates. A timed AIDE control is needed for an agent-level comparison. |
+| [LLM-as-a-Judge, Table 2](https://arxiv.org/pdf/2306.05685) | Swapping the input positions and eliciting two judgments tests order sensitivity. Remapping a single stored winner into the reverse cache direction tests implementation correctness. These require different data. |
+| [Bradley and Terry, 1952](https://doi.org/10.1093/biomet/39.3-4.324) | Publisher bibliographic record checked. JSTOR/PDF redirected to a metadata page. Original full text outstanding. |
+| [Caron and Doucet, introduction and §2](https://arxiv.org/pdf/1011.1761) | Each candidate has a positive strength. The win probability depends on the ratio of strengths. Estimation and Bayesian uncertainty introduce modeling and prior assumptions. This is a potential ranking method outside the frozen tournament. |
+| [Active Ranking, §1 and problem formulation](https://arxiv.org/pdf/1606.08842) | The ranking target is win probability against a uniformly drawn opponent. The theory assumes independent comparison outcomes. Cache reads reuse observations and the tournament chooses opponents adaptively. Treat unique responses and cache reads separately. |
+| [DAGent, Fig. 2 and §3.1](https://arxiv.org/html/2609.39154v1) | Each executed layer produces evidence to expand or refine a dependency graph. The transferable idea concerns budgeted decisions. Citing this paper supplies no empirical result for candidate selection. |

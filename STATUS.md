@@ -20,3 +20,6 @@
 请用户审阅本地归集差异，确认 GitHub 推送、冻结标签与独立附件发布。当前代码和实验结果已完成本地冻结；发布准备见 `experiments/integration-v1/publication_plan.md`。
 
 完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。
+
+## Active baseline audit
+The current task returns to environment and baseline validation. See experiments/environment-audit/report.md, verification.json and calibration.json. Both offline environments and the constrained threshold study are documented there. The remaining system-level gate is an end-to-end container smoke test on the intended host. New method experiments are on hold.

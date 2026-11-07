@@ -1,0 +1,129 @@
+{
+  "host": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.5",
+  "baseline_tag": "baseline-reproduction-v1",
+  "baseline_commit": "fd55d93a1ea063e64620de4c4c87c49f517eff66",
+  "source_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "registered_protocol": "826f4c1",
+  "frozen_checks": {
+    "freeze_id": "baseline-reproduction-v1",
+    "verified_files": 85
+  },
+  "data": {
+    "groups": [
+      "corpus",
+      "historical"
+    ],
+    "verified_files": 97,
+    "complete_group": true
+  },
+  "tests_summary": "Ran 20 tests in 1.003s\n\nOK",
+  "pipeline": [
+    "VERIFIED selection",
+    "VERIFIED pairwise",
+    "VERIFIED five-task",
+    "VERIFIED mechanisms",
+    "VERIFIED historical",
+    "VERIFIED corpus"
+  ],
+  "pairwise": {
+    "reparsed_adopted_responses": 246,
+    "historical_api_calls": 266,
+    "new_api_calls": 0,
+    "correct": 136,
+    "denominator": 246,
+    "expected_summary": "exact match"
+  },
+  "corpus": {
+    "original": {
+      "replays": 7800,
+      "independent_scoring": "passed",
+      "frozen_fingerprints": "matched",
+      "comparison_records": 627026,
+      "cache_reads": 525002,
+      "unique_feedback_within_replay_summed": 102024,
+      "distinct_feedback_across_experiment": 13595,
+      "direction_mismatches": 7457,
+      "actual_api_calls": 0,
+      "candidate_training_runs": 0,
+      "forced_fallbacks": 5776,
+      "final_empty": 0
+    },
+    "cache-fixed": {
+      "replays": 7800,
+      "independent_scoring": "passed",
+      "frozen_fingerprints": "matched",
+      "comparison_records": 614747,
+      "cache_reads": 512274,
+      "unique_feedback_within_replay_summed": 102473,
+      "distinct_feedback_across_experiment": 13592,
+      "direction_mismatches": 0,
+      "actual_api_calls": 0,
+      "candidate_training_runs": 0,
+      "forced_fallbacks": 5735,
+      "final_empty": 0
+    }
+  },
+  "extra_score_checks": {
+    "original": {
+      "scenarios": 7800,
+      "pools_with_ties_counted_per_replay": 0
+    },
+    "cache-fixed": {
+      "scenarios": 7800,
+      "pools_with_ties_counted_per_replay": 0
+    }
+  },
+  "checked_grids": 6,
+  "validation_task_differences": {
+    "tgs-salt-identification-challenge": {
+      "normalized_regret": 0.032747657853638534,
+      "uniform_tie_best_hit": -0.004166666666666652,
+      "unique_feedback_queries": -5.949999999999999,
+      "expected_execution_count": -0.006591999999999931
+    },
+    "tabular-playground-series-dec-2021": {
+      "normalized_regret": 0.037787518634082695,
+      "uniform_tie_best_hit": -0.03166666666666666,
+      "unique_feedback_queries": -6.513333333333334,
+      "expected_execution_count": -0.013082666666666576
+    },
+    "dog-breed-identification": {
+      "normalized_regret": -0.10665703571598538,
+      "uniform_tie_best_hit": 0.05666666666666664,
+      "unique_feedback_queries": -0.33999999999999986,
+      "expected_execution_count": -0.024480000000000057
+    },
+    "stanford-covid-vaccine": {
+      "normalized_regret": -0.03388262311404305,
+      "uniform_tie_best_hit": -0.034999999999999996,
+      "unique_feedback_queries": -3.8433333333333337,
+      "expected_execution_count": -0.005199999999999871
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "normalized_regret": 0.10338880849011123,
+      "uniform_tie_best_hit": -0.01666666666666667,
+      "unique_feedback_queries": -1.876666666666667,
+      "expected_execution_count": 0.0007999999999999119
+    },
+    "petfinder-pawpularity-score": {
+      "normalized_regret": -0.45607752278579344,
+      "uniform_tie_best_hit": 0.56,
+      "unique_feedback_queries": -3.126666666666667,
+      "expected_execution_count": -0.020320000000000116
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "normalized_regret": -0.032106234275125545,
+      "uniform_tie_best_hit": 0.02334920634920635,
+      "unique_feedback_queries": -7.196666666666667,
+      "expected_execution_count": -0.0820441972053334
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "normalized_regret": 0.05530083706670741,
+      "uniform_tie_best_hit": 0.009999999999999981,
+      "unique_feedback_queries": -5.220000000000001,
+      "expected_execution_count": -0.008133333333333326
+    }
+  },
+  "leaderboards": "30/30 leaderboard objects verified"
+}
