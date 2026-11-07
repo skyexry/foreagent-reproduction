@@ -1,0 +1,277 @@
+{
+  "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+  "records": [
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "candidate_pair": [
+        "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+        "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+      ],
+      "group_index": 23,
+      "paths_order": [
+        "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py",
+        "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': '相同的请求之前已经失败，请修改请求后重试; Same request has failed before, please modify the request and try again (request id: 20251210154650127523257Uwnn7gBf)', 'type': 'rix_api_error', 'param': '', 'code': ''}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "20ad1bc0ca88432ccc95aeeaeffb7c9bbc65a352f6265c422f27adb0fc4226cc",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_learning-agency-lab-automated-essay-scoring-2_n2.json",
+      "raw_record_sha256": "b25c421eaefce67b7b88e1166513bbbbd65e630ef114815026fc3ee82f9a2974",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "lmsys-chatbot-arena",
+      "candidate_pair": [
+        "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+        "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+      ],
+      "group_index": 465,
+      "paths_order": [
+        "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py",
+        "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': '相同的请求之前已经失败，请修改请求后重试; Same request has failed before, please modify the request and try again (request id: 20251210155319169776885pAEro5zf)', 'type': 'rix_api_error', 'param': '', 'code': ''}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "f05381e66d9cda40f27d24f008694d6b139e1fd0d395160fe9c4d34a3adf3216",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_lmsys-chatbot-arena_n2.json",
+      "raw_record_sha256": "2f14b0eccf291500a155641b63ef823c2bade457bffa12a7f939a911e8e3537b",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "lmsys-chatbot-arena",
+      "candidate_pair": [
+        "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+        "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+      ],
+      "group_index": 862,
+      "paths_order": [
+        "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+        "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': \"Invalid request: 无效的请求, invalid character '_' looking for beginning of value  (request id: 2025121015561012027107900309253)\", 'type': 'rix_api_error', 'param': '', 'code': None}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "f05381e66d9cda40f27d24f008694d6b139e1fd0d395160fe9c4d34a3adf3216",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_lmsys-chatbot-arena_n2.json",
+      "raw_record_sha256": "69e00787776362e7d61d4924da80bdf6dcc99693d695505870ec9e0c5cf9a9d0",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "petfinder-pawpularity-score",
+      "candidate_pair": [
+        "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+        "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+      ],
+      "group_index": 164,
+      "paths_order": [
+        "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py",
+        "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': 'Unable to read request body: http: invalid Read on closed Body  (request id: 2025121015481516497143696389995)', 'type': 'rix_api_error', 'param': '', 'code': None}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "edcfa357d019b7762d3bc1466b29b94a8be6560e94e57844a798432080d9c737",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_petfinder-pawpularity-score_n2.json",
+      "raw_record_sha256": "62446cee44c8a55326c0ecb665c19f8c3cd4a911c469f43b3b78152e9cb00779",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "random-acts-of-pizza",
+      "candidate_pair": [
+        "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_89e43a09d4f74e3cb9bd29069561be20.py",
+        "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_a59141955aa7498682a6bdf856df1b6a.py"
+      ],
+      "group_index": 869,
+      "paths_order": [
+        "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_89e43a09d4f74e3cb9bd29069561be20.py",
+        "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_a59141955aa7498682a6bdf856df1b6a.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': '相同的请求之前已经失败，请修改请求后重试; Same request has failed before, please modify the request and try again (request id: 20251210154733375310544npmPAM4J)', 'type': 'rix_api_error', 'param': '', 'code': ''}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "5254ee2a85514d0cb32785de23a088cd8ca5bb0770f8803fbd48fcd1d9fe3a46",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_random-acts-of-pizza_n2.json",
+      "raw_record_sha256": "44ebd0dd403831259c6117abf254fb34cff5d8412e984e7e048dd120ecee8c7d",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "stanford-covid-vaccine",
+      "candidate_pair": [
+        "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+        "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+      ],
+      "group_index": 1153,
+      "paths_order": [
+        "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py",
+        "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': '相同的请求之前已经失败，请修改请求后重试; Same request has failed before, please modify the request and try again (request id: 202512101603222399599002KsgEXu6)', 'type': 'rix_api_error', 'param': '', 'code': ''}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "c92062181b2325f698ac99edea224d4fd62d87c69d30734d3f63541c5574d3aa",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_stanford-covid-vaccine_n2.json",
+      "raw_record_sha256": "e3ce20551080d40a4a0f9360301af7a4223644829814f523105c02df1745fa3e",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tensorflow-speech-recognition-challenge",
+      "candidate_pair": [
+        "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_9961989c-9820-4e84-9c2a-18767382f5ba_run_ce3bec51a32f4a45af95e08c9a814cd4.py",
+        "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_0ed9d52e154b4d8bab4af420bd556cda.py"
+      ],
+      "group_index": 922,
+      "paths_order": [
+        "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_0ed9d52e154b4d8bab4af420bd556cda.py",
+        "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_9961989c-9820-4e84-9c2a-18767382f5ba_run_ce3bec51a32f4a45af95e08c9a814cd4.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': '相同的请求之前已经失败，请修改请求后重试; Same request has failed before, please modify the request and try again (request id: 20251210154849467914626u0OfNFyq)', 'type': 'rix_api_error', 'param': '', 'code': ''}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "9a700007b7de6cba680a0592b387f7cbbddbab53ddf665463d5cf65943cb3569",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_tensorflow-speech-recognition-challenge_n2.json",
+      "raw_record_sha256": "660c043945896eeaceb8d46c6fcf8d30b369f75bb1c35a11cece3d451bf886dc",
+      "error_field_types": {},
+      "raw_response_count": 0
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tensorflow-speech-recognition-challenge",
+      "candidate_pair": [
+        "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+        "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+      ],
+      "group_index": 955,
+      "paths_order": [
+        "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+        "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+      ],
+      "parsed": {
+        "error": "Error code: 400 - {'error': {'message': '相同的请求之前已经失败，请修改请求后重试; Same request has failed before, please modify the request and try again (request id: 202512101549472802247157EsPTv13)', 'type': 'rix_api_error', 'param': '', 'code': ''}}"
+      },
+      "normalized": {
+        "winner": null,
+        "confidence": 0.0,
+        "confidence_fallback": true,
+        "invalid_winner": true
+      },
+      "record_keys": [
+        "group_file",
+        "group_index",
+        "paths",
+        "parsed",
+        "n"
+      ],
+      "source_sha256": "9a700007b7de6cba680a0592b387f7cbbddbab53ddf665463d5cf65943cb3569",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/per_task_results/grade_results_tensorflow-speech-recognition-challenge_n2.json",
+      "raw_record_sha256": "b680a9ff8c0a6de33907cfb1aafbf704decd5caece72b89acbc9727386d7713a",
+      "error_field_types": {},
+      "raw_response_count": 0
+    }
+  ]
+}
