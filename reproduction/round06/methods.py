@@ -4,6 +4,7 @@ import math
 
 
 def unique_feedback(candidates, comparisons, threshold=0.7):
+    assert type(threshold) in (int, float) and 0 < threshold <= 1
     ids = set(candidates)
     assert len(ids) == len(candidates) and ids
     observed = {}
@@ -11,7 +12,7 @@ def unique_feedback(candidates, comparisons, threshold=0.7):
         a, b = c['a'], c['b']
         assert a in ids and b in ids and a != b
         confidence = c['confidence']
-        assert isinstance(confidence, (int, float)) and math.isfinite(confidence)
+        assert type(confidence) in (int, float) and math.isfinite(confidence) and 0 <= confidence <= 1
         assert isinstance(c['valid'], bool) and c['valid'] == (confidence >= threshold)
         winner = c['winner']
         assert winner in (a, b) if c['valid'] else winner is None
@@ -25,9 +26,9 @@ def unique_feedback(candidates, comparisons, threshold=0.7):
     return list(observed.values())
 
 
-def win_rate_select(candidates, feedback):
+def win_rate_select(candidates, feedback, *, threshold=0.7):
     """Input contains only IDs and queried feedback; real scores stay external."""
-    unique = unique_feedback(candidates, feedback)
+    unique = unique_feedback(candidates, feedback, threshold)
     wins = dict.fromkeys(candidates, 0)
     losses = dict.fromkeys(candidates, 0)
     neighbors = {x: set() for x in candidates}

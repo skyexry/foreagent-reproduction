@@ -58,11 +58,11 @@ def saved_response_query(table, calls):
     return query
 
 
-def run_tournament(module, candidates, table, seed, task):
+def run_tournament(module, candidates, table, seed, task, *, threshold=0.7):
     module.random.seed(seed); module.WorldModel._comparison_cache.clear()
     calls = []; module.query = saved_response_query(table, calls)
     wm = module.WorldModel(task, '', config=module.WorldModelConfig(
-        confidence_threshold=.7, temperature=1., exec_probability=.2, max_concurrent_requests=1))
+        confidence_threshold=threshold, temperature=1., exec_probability=.2, max_concurrent_requests=1))
     nodes = [types.SimpleNamespace(id=x, code=x) for x in candidates]
     trace = []; batch = wm._batch_predict_pairwise
     def traced(pairs, max_workers=None):
@@ -76,7 +76,7 @@ def run_tournament(module, candidates, table, seed, task):
     ranked, comparisons, meta = wm.tournament_rank(nodes)
     top = [x.id for x in ranked if meta[x.id]['rank'] == 0]
     assert len(trace) == len(comparisons)
-    feedback = unique_feedback(candidates, trace)
+    feedback = unique_feedback(candidates, trace, threshold)
     assert len(calls) == len(set(calls)) == len(feedback)
     assert set(calls) == {(e['a'], e['b']) for e in feedback}
     for e in feedback:

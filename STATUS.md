@@ -25,9 +25,7 @@
 
 ## 当前唯一下一步
 
-核对R6/R7之外任务的候选代码和可比真实分数，先形成下一轮数据可用性清单，再决定新反馈预算。R7作为跨反馈点估计通过的候选保留，原基线与全部实验记录保持。
+在目标 Docker/GPU 机器上验证一次端到端生成、选择、执行、评分。跨新任务效果仍需独立数据。
 
-完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。
-
-## Active baseline audit
-The current task returns to environment and baseline validation. See experiments/environment-audit/report.md, verification.json and calibration.json. Both offline environments and the constrained threshold study are documented there. The remaining system-level gate is an end-to-end container smoke test on the intended host. New method experiments are on hold.
+## 审稿复核
+当前分支 audit/icml-baselines 整合环境核验和 R6–R8。实验协议在 890d688 先行提交。六档门槛、共享判断、每场单选预算下，三方法在开发集均选 0.50；八个验证任务上的 R6/R7 平均损失相同，高于修正版淘汰赛。审稿意见、修正、复跑方式和范围见 experiments/icml-review/review.md。作者基线仍为 0.70。

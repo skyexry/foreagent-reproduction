@@ -49,8 +49,11 @@ def native_check(module, row, trace):
 
 def main():
     import os
+    if not __debug__:
+        raise SystemExit("Verification requires Python assertions enabled")
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--output', type=Path, default=ROOT/'runs/round08')
+    p.add_argument('--all-native', action='store_true')
     args = p.parse_args(); out = args.output
     assert os.environ.get('PYTHONHASHSEED') == '0'
     check_registration(); config = json.loads((E/'protocol.json').read_text())
@@ -70,8 +73,11 @@ def main():
             assert all(r[k] == v for k, v in job.items())
             assert trace_row['job_id'] == job['job_id'] and trace_row['feedback_run'] == run and trace_row['task'] == task
             ids = r['candidates']; assert hashlib.sha256(json.dumps(ids, separators=(',', ':')).encode()).hexdigest() == job['candidate_order_sha256']
+            assert len(ids) == len(set(ids))
+            assert set(r['rank_meta']) == set(r['statistics']) == set(ids)
             trace = trace_row['comparisons']; first = {}; table = tables[run, task]
             for c in trace:
+                assert c['a'] in ids and c['b'] in ids and c['a'] != c['b']
                 key = tuple(sorted((c['a'], c['b']))); saved = table[key]
                 assert c['confidence'] == saved['confidence']
                 valid = saved['winner'] is not None and saved['confidence'] >= .7
@@ -121,10 +127,10 @@ def main():
                 tournament_safety_exit=max((c['round'] for c in trace), default=0) > 2*len(ids)))
             expected_audit = job['pool_id'] == 0 and job['repeat'] == 0
             assert r['native_audit_case'] == expected_audit
-            if expected_audit:
+            if expected_audit or args.all_native:
                 native_check(module, r, trace); audits += 1
             count += 1
-    assert count == summary['scenarios'] == 23400 and audits == 78
+    assert count == summary['scenarios'] == 23400 and audits == (count if args.all_native else 78)
     per_run_task = {}; run_deltas = []
     for run in config['feedback_runs']:
         saved = next(x for x in summary['per_feedback_run'] if x['feedback_run'] == run)
@@ -175,6 +181,7 @@ def main():
     assert summary['hit_constraint_supported'] == (d['uniform_tie_best_hit'] >= 0)
     assert summary['point_robustness_rule_met'] == (d['normalized_regret'] < 0 and d['uniform_tie_best_hit'] >= 0 and sum(x < 0 for x in run_deltas)>=2)
     assert summary['interval_evidence_rule_met'] == (ci['normalized_regret']['high'] < 0 and ci['uniform_tie_best_hit']['low'] >= 0)
+    assert set(summary['content_hashes']) == {'runs.jsonl.gz', 'traces.jsonl.gz'}
     for name, expected in summary['content_hashes'].items():
         h = hashlib.sha256()
         with gzip.open(out/name, 'rb') as f:

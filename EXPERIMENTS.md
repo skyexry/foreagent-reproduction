@@ -97,3 +97,6 @@
 - 下一步：核对新任务候选与可比真实分数，先形成下一轮数据可用性清单，再决定反馈预算。
 ## Environment audit of baseline-reproduction-v1
 Registered threshold study at 826f4c1. Six gate values on the original controller; 18 development tasks and 8 previously seen validation tasks. Audit, results, limits, and runtime setup are in experiments/environment-audit/report.md.
+
+## Baseline peer review · 890d688
+统一三个选择器的门槛和调参预算，完成六档对照。范围、结果、局限及剩余验证见 experiments/icml-review/review.md。

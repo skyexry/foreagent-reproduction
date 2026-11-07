@@ -18,6 +18,11 @@ def close(a, b):
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError('Research checks require assertions enabled')
+    registration_path = Path(__file__).resolve().parents[2]/'experiments/round-07/registration.json'
+    if hashlib.sha256(registration_path.read_bytes()).hexdigest() != '0c11ff5229af73531ab8f1b9f574768f0fac9ce042f39fbfe509a392a75a483e':
+        raise ValueError('Original round 07 registration mismatch')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--r6-archive', type=Path, required=True)
     parser.add_argument('--output', type=Path, default=ROOT/'runs/round07')

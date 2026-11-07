@@ -17,25 +17,18 @@ E = ROOT/'experiments/round-08'
 
 
 def check_registration():
-    reg = json.loads((E/'registration.json').read_text())
-    for name, digest in reg['files'].items():
-        assert hashlib.sha256((E/name).read_bytes()).hexdigest() == digest, name
-    commit = subprocess.check_output(['git', 'log', '-1', '--format=%H', '--',
-                       'experiments/round-08/registration.json'], cwd=ROOT, text=True).strip()
-    subprocess.run(['git', 'merge-base', '--is-ancestor', commit, 'HEAD'], cwd=ROOT, check=True)
-    for name, digest in reg['files'].items():
-        content = subprocess.check_output(['git', 'show', commit+':experiments/round-08/'+name], cwd=ROOT)
-        assert hashlib.sha256(content).hexdigest() == digest
-    addendum_path = E/'data_addendum_registration.json'
-    if addendum_path.exists():
-        addendum = json.loads(addendum_path.read_text())
-        extra_commit = subprocess.check_output(['git', 'log', '-1', '--format=%H', '--',
-                         'experiments/round-08/data_addendum_registration.json'], cwd=ROOT, text=True).strip()
-        subprocess.run(['git', 'merge-base', '--is-ancestor', extra_commit, 'HEAD'], cwd=ROOT, check=True)
-        for name, expected in addendum['files'].items():
-            assert hashlib.sha256((E/name).read_bytes()).hexdigest() == expected
-            registered = subprocess.check_output(['git', 'show', extra_commit+':experiments/round-08/'+name], cwd=ROOT)
-            assert hashlib.sha256(registered).hexdigest() == expected
+    if not __debug__:
+        raise RuntimeError('R8 checks require assertions enabled')
+    commit = 'f7c94406c83915ee21341bff81fe64ac272d445f'
+    extra_commit = '9eb25eb155f786f8372a47714a4c2b37e4dcf68f'
+    for revision, name in [(commit, 'registration.json'), (extra_commit, 'data_addendum_registration.json')]:
+        subprocess.run(['git', 'merge-base', '--is-ancestor', revision, 'HEAD'], cwd=ROOT, check=True)
+        registered = subprocess.check_output(['git', 'show', f'{revision}:experiments/round-08/{name}'], cwd=ROOT)
+        if registered != (E/name).read_bytes():
+            raise ValueError(f'Registration changed: {name}')
+        for filename, expected in json.loads(registered)['files'].items():
+            if hashlib.sha256((E/filename).read_bytes()).hexdigest() != expected:
+                raise ValueError(f'Registered input changed: {filename}')
     return commit
 
 

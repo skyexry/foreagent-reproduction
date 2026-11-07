@@ -1,0 +1,30 @@
+{
+  "DeepSeek saved run": {
+    "pairs": 18389,
+    "accepted": 10495,
+    "accepted_correct": 6870,
+    "coverage": 0.5707216270596552,
+    "accuracy_among_accepted": 0.6545974273463554
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "pairs": 18389,
+    "accepted": 14886,
+    "accepted_correct": 9064,
+    "coverage": 0.8095056827451194,
+    "accuracy_among_accepted": 0.608894263065968
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "pairs": 18389,
+    "accepted": 14798,
+    "accepted_correct": 9092,
+    "coverage": 0.8047202131709174,
+    "accuracy_among_accepted": 0.6144073523449115
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "pairs": 18389,
+    "accepted": 14825,
+    "accepted_correct": 9060,
+    "coverage": 0.8061884822448203,
+    "accuracy_among_accepted": 0.6111298482293424
+  }
+}

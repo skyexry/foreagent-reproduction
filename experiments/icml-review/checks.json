@@ -1,0 +1,60 @@
+{
+  "grid_sha256": "c3afecf77894ccf4b47f4b7999021ec73d7cc7f49c2126504797e5a89eba5a7d",
+  "repeat_grid_sha256": "c3afecf77894ccf4b47f4b7999021ec73d7cc7f49c2126504797e5a89eba5a7d",
+  "default_comparison": "all 26 task means, hit and regret for three methods",
+  "baseline_freeze_files": 85,
+  "tests": 49,
+  "previous_runs_verified": {
+    "r6": {
+      "status": "passed",
+      "paired_jobs": 7800,
+      "independent_vote_and_top_group_checks": 7800,
+      "independent_candidate_selection_scores": 15600,
+      "task_means_checked": 26,
+      "bootstrap_checked": true,
+      "feedback_matches_pinned_control_trace": true,
+      "registered_input_hashes_match": true,
+      "new_feedback_queries": 0,
+      "actual_api_calls": 0,
+      "candidate_training_runs": 0,
+      "runs_content_sha256": "02ecfe8c9e288b1027d7ad00b8f8ae5d2c34e07c61d13ebcadc08899f5d933bf",
+      "protocol_commit": "084ad53be4609a2bf0e57c2ac11b97c988f84ef3",
+      "implementation_commit": "68a20ad9205e409fbd1e10437abab4d07587749b"
+    },
+    "r7": {
+      "status": "passed",
+      "paired_jobs": 7800,
+      "independent_vote_rate_and_support_checks": 7800,
+      "independent_selection_scores": 15600,
+      "task_means_checked": 26,
+      "bootstrap_checked": true,
+      "registered_protocol_and_jobs_unchanged": true,
+      "r6_feedback_counts_and_winners_unchanged": true,
+      "treatment_is_subset_of_r6_top_group": true,
+      "new_feedback_queries": 0,
+      "actual_api_calls": 0,
+      "candidate_training_runs": 0,
+      "protocol_commit": "bab4052bdfe6e05ccbde901852a29a8159b53b49",
+      "implementation_commit": "865b9094cdbfa61dee9d641ca2c70661056f63af",
+      "runs_content_sha256": "d3e4bb267fc137023f06e6ce2d93454512fa54b8f8c9c6b0f3408306d7161bc4"
+    },
+    "r8": {
+      "status": "passed",
+      "scenarios": 23400,
+      "independent_method_scores": 70200,
+      "feedback_task_blocks_checked": 78,
+      "pooled_task_blocks_checked": 26,
+      "native_control_audits": 23400,
+      "bootstrap_preserves_feedback_runs_within_tasks": true,
+      "budgets_checked": true,
+      "protocol_commit": "f7c94406c83915ee21341bff81fe64ac272d445f",
+      "implementation_commit": "f0bc0996236e034aeacba6231367351c9356b679",
+      "new_model_calls": 0,
+      "candidate_training_runs": 0,
+      "content_hashes": {
+        "runs.jsonl.gz": "c638ff7f97f1170b6b95982a4ea572fb532e03a53822ecf0a429da8bc2fc60dc",
+        "traces.jsonl.gz": "ddee1cd125a6c782230d3c42bdf9692390f9f181b7f846b8b95fb3a8d4d4aae7"
+      }
+    }
+  }
+}

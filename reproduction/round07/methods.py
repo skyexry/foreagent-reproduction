@@ -2,8 +2,8 @@
 from reproduction.round06.methods import win_rate_select
 
 
-def evidence_tiebreak_select(candidates, feedback):
-    top, stats, graph = win_rate_select(candidates, feedback)
+def evidence_tiebreak_select(candidates, feedback, *, threshold=0.7):
+    top, stats, graph = win_rate_select(candidates, feedback, threshold=threshold)
     support = {x: stats[x]['wins'] + stats[x]['losses'] for x in top}
     maximum = max(support.values())
     selected = [x for x in top if support[x] == maximum]

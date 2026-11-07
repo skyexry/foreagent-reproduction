@@ -19,8 +19,10 @@ def fetch(path):
     pointer = subprocess.check_output(['git', '-C', str(root), 'show', f'{commit}:{relative}']).decode().splitlines()
     digest = pointer[1].removeprefix('oid sha256:')
     size = int(pointer[2].removeprefix('size '))
-    if hashlib.sha256(path.read_bytes()).hexdigest() == digest:
+    if path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == digest:
         return True
+    if path.exists() and path.read_text(errors='replace').splitlines() != pointer:
+        raise ValueError(f'Unexpected local leaderboard contents: {relative}')
     urls = [f'https://media.githubusercontent.com/media/zjunlp/predict-before-execute/{commit}/{relative}',
             'https://media.githubusercontent.com/media/openai/mle-bench/main/' + relative.removeprefix('mle-bench/')]
     for url in urls:
@@ -30,13 +32,18 @@ def fetch(path):
         except (URLError, TimeoutError):
             continue
         if len(data) == size and hashlib.sha256(data).hexdigest() == digest:
+            path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(data)
             return True
     print('Unavailable:', relative, flush=True)
     return False
 
 
-paths = sorted(root.glob('mle-bench/mlebench/competitions/*/leaderboard.csv'))
+tracked = subprocess.check_output(['git', '-C', str(root), 'ls-tree', '-r', '--name-only', commit], text=True)
+paths = [root/name for name in tracked.splitlines()
+         if name.startswith('mle-bench/mlebench/competitions/') and name.endswith('/leaderboard.csv')]
+if len(paths) != 30:
+    raise RuntimeError('Expected 30 pinned leaderboard paths')
 with ThreadPoolExecutor(max_workers=5) as pool:
     verified = sum(pool.map(fetch, paths))
 print(f'{verified}/{len(paths)} leaderboard objects verified')

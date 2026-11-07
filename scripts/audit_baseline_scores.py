@@ -46,7 +46,10 @@ def audit(folder):
             u = utilities[row['task']]
             values = [u[i] for i in row['candidate_order']]
             ties += len(set(values)) < len(values)
-            result = scores(values, [u[i] for i in row['top_group']])
+            top = row['top_group']
+            assert top and len(top) == len(set(top)) and set(top) <= set(row['candidate_order']), key
+            assert set(top) == {i for i, meta in row['rank_meta'].items() if meta['rank'] == 0}, key
+            result = scores(values, [u[i] for i in top])
             for name, value in zip(('uniform_tie_best_hit', 'normalized_regret', 'selected_percentile'), result, strict=True):
                 assert math.isclose(row['metrics'][name], value, abs_tol=1e-12), (key, name)
     assert seen == expected.keys()

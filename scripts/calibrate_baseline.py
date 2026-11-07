@@ -10,6 +10,7 @@ import subprocess
 import sys
 
 from audit_baseline_scores import ROOT, audit
+from review_preflight import preflight
 
 FROZEN = ROOT/'runs/corpus'
 OUTPUT = ROOT/'runs/environment-calibration'
@@ -83,6 +84,7 @@ def main():
 
 
 if __name__ == '__main__':
+    preflight()
     if len(sys.argv) == 2:
         experiment(float(sys.argv[1]))
     else:

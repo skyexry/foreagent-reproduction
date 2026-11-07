@@ -43,7 +43,7 @@ git checkout baseline-reproduction-v1
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-reproduction.txt
-python scripts/verify_freeze.py
+python scripts/review_preflight.py
 python scripts/fetch_data.py --group corpus --group historical
 python scripts/fetch_data.py --group corpus --group historical --check-only
 ```
@@ -67,7 +67,7 @@ python scripts/fetch_data.py --group historical --local-root /path/to/author-rea
 
 ```bash
 python -m unittest discover -s tests -v
-python scripts/reproduce.py all
+python scripts/review_preflight.py all
 ```
 
 `all` 依次核验 selection、pairwise、five-task、mechanisms、historical、corpus。输入包括前述公开数据及 pairwise 附件；真实 API 调用和候选训练均为 0。仅使用公开数据时可依次执行：
@@ -105,3 +105,6 @@ R6 本地实验分支为 `codex/r6-winrate`，注册提交 `084ad53` 先于实�
 ## R8：三份GPT-5.1反馈验证
 
 本地分支`codex/r8-gpt-feedback`：注册f7c9440先于数据下载与方法评分，来源补充9eb25eb恢复同次8条API失败，实现f0bc099后运行23,400场。合并R6→R7命中率25.6843%→26.3705%，regret 0.294116→0.293416；点估计稳健性通过，regret区间跨0，保留联合区间标准未通过的结论。45测试、全量独立核验和78原生控制重演通过，新增模型调用/训练0。完整协议、数据与来源修订、三份分别结果、预算和复现命令见[R8报告](experiments/round-08/report.md)。这是原26任务上的跨反馈模型验证。
+
+## 基线审稿分支
+本分支用 `python scripts/review_preflight.py all` 复现冻结基线；该入口检查固定清单并要求启用 Python 断言。匹配门槛的六档对照、原生重演和已知限制见 [审稿报告](experiments/icml-review/review.md)。

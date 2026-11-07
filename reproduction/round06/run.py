@@ -83,7 +83,9 @@ def load_task(task, expected):
             confidence = .5
         key = tuple(sorted((a, b)))
         assert key not in feedback
-        feedback[key] = dict(winner=(a, b)[int(pred['best_index'])], confidence=confidence)
+        index = pred["best_index"]
+        assert type(index) in (int, float) and index in (0, 1), (task, "invalid winner", index)
+        feedback[key] = dict(winner=(a, b)[int(index)], confidence=confidence)
     return utility, feedback
 
 
@@ -117,6 +119,11 @@ def check_archive(archive, config):
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError('Research checks require assertions enabled')
+    registration_path = Path(__file__).resolve().parents[2]/'experiments/round-06/registration.json'
+    if hashlib.sha256(registration_path.read_bytes()).hexdigest() != 'f636f256fff40784193d5f08f68ce82de6c3e8afb82385d194ee0e12fa9fe2d6':
+        raise ValueError('Original round 06 registration mismatch')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--control-archive', required=True, type=Path)
     parser.add_argument('--output', type=Path, default=ROOT/'runs/round06')
