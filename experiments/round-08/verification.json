@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scenarios": 23400,
+  "independent_method_scores": 70200,
+  "feedback_task_blocks_checked": 78,
+  "pooled_task_blocks_checked": 26,
+  "native_control_audits": 78,
+  "bootstrap_preserves_feedback_runs_within_tasks": true,
+  "budgets_checked": true,
+  "protocol_commit": "f7c94406c83915ee21341bff81fe64ac272d445f",
+  "implementation_commit": "f0bc0996236e034aeacba6231367351c9356b679",
+  "new_model_calls": 0,
+  "candidate_training_runs": 0,
+  "content_hashes": {
+    "runs.jsonl.gz": "c638ff7f97f1170b6b95982a4ea572fb532e03a53822ecf0a429da8bc2fc60dc",
+    "traces.jsonl.gz": "ddee1cd125a6c782230d3c42bdf9692390f9f181b7f846b8b95fb3a8d4d4aae7"
+  }
+}

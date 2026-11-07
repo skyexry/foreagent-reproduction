@@ -1,0 +1,13 @@
+{
+  "protocol_commit": "bab4052bdfe6e05ccbde901852a29a8159b53b49",
+  "implementation_commit": "865b9094cdbfa61dee9d641ca2c70661056f63af",
+  "started_at_utc": "2026-11-07T12:58:45.046874+00:00",
+  "python": "3.12.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "registration": {
+    "protocol.md": "a00ba583de6930e10e2f711ddd865b34f91522112ecaac222aeb35b0b9ea995a",
+    "protocol.json": "281b4062fbae3bdcbe669477d64f97a53b11548b5f883980e4215339926ebdc7",
+    "jobs.jsonl": "7c4e5bcec014204ad48fa87c90a345617e380269ba70e9891d1be8d3a6ed1b7e"
+  },
+  "input_archive_sha256": "45df582cc9a7c659c208913c488fbf25f805d39bee0dc825535605d4ff16fe76"
+}

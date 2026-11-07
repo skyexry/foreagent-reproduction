@@ -59,14 +59,41 @@
 - 设置：CPython 3.12.5，隔离 venv、固定 certifi；从本地 Git checkpoint 再克隆；数据通过显式缓存与 SHA-256 验证，另测试固定公开 URL 获取。
 - 结果：独立新克隆的 20 项测试与全部六类核验通过；corpus 15,600 次、历史 129 批及五任务 1,000 次结果匹配；Git 工作区干净。97 个核心输入全量校验，两个固定公开 URL 下载测试通过。证据在 `experiments/integration-v1/validation.json` 与对应日志。
 - 解释：安装/输入/源码/轨迹均有独立核验；本轮新增真实 API 调用和候选训练为 0。
-- 下一步：审阅本地冻结差异，确认后推送与发布附件。
+- 发布：用户确认后，分支与标签已推送，[Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1) 已发布；三份附件下载后均匹配固定哈希，证据见 `provenance/release.json`。下一步由用户选择单一研究问题。
 
-## R6 · 后续策略 · 尚未运行
+## R6 · 相同反馈下的简单胜率汇总 · 运行前注册
 
-- 问题：固定反馈和比较预算下，全局汇总或主动比较能否提高选择质量？早停是否减少反馈请求而维持质量？
-- 运行前预测、数据划分、唯一主指标、预算和停止规则：下一轮运行前写定；现有 corpus 已查看，需设计独立验证范围。
-- 设置/结果/解释：由未来实验协议补充。
-- 下一步：基线发布后，由用户选择下一项研究问题。
+- 问题：在 canonical 缓存修正版淘汰赛已经查询的同一反馈图上，简单胜率重排是否改善选择？
+- 预测：task-macro uniform-tie best-hit 差值 >0；实用推进门槛为至少 +1pp 且 normalized regret 持平或下降。
+- 设置：协议 `experiments/round-06/protocol.md`，机器设置 `protocol.json`，7,800 场配对作业 `jobs.jsonl`。共同使用每场 q_j 条唯一已查询反馈，合计 102,473；新增 API/训练均0。confidence>=0.7；无有效比较候选赋0.5。
+- 指标：唯一主指标为并列均匀单选最佳命中率；辅助 regret、percentile、并列大小、反馈图诊断；配对任务簇 bootstrap。
+- 注册记录：协议与作业先提交 `084ad53`，实现和29项测试随后提交 `68a20ad`；之后执行一次正式全量比较。原预测与注册文件校验值保持。
+- 结果：7,800配对场景全部通过独立核验。主指标21.2000%→22.4997%，+1.2997pp；任务簇95%区间[-0.5291,+3.7006]pp。regret 0.277534→0.279248。方向预测得到点估计支持，实用联合标准未达到；13任务改善、1持平、12下降。
+- 证据：`experiments/round-06/summary.json`、`report.md`、`verification.json`和独立轨迹附件校验值；本轮新增反馈/API/训练均0。现有corpus为已查看的探索性开发数据。
+- 下一步：审阅R6收益与regret代价，为R7选择一个单独诊断问题并事先注册。新早停/主动比较/BT由其他轮次协议定义。
 
+## R7 · 同胜率按有效比较次数打破并列 · 运行前注册
+
+- 问题：在R6最高胜率组内优先有效比较次数更多者，能否降低regret并维持命中率？
+- 预测：R7-R6 regret <0，命中率差>=0；实用标准为恢复至冻结淘汰赛regret且保留R6命中率。
+- 设置：`experiments/round-07/protocol.md`、`protocol.json`、7,800场`jobs.jsonl`；只改并列处理，同一反馈、门槛、预算与评分。
+- 预算：共同102,473条唯一反馈（跨场累加），新增请求/API/训练均0。
+- 注册与执行：协议和清单提交 `bab4052` 先于实现提交 `865b909`；36项测试通过后运行一次正式全量比较，7,800场全部通过独立核验。注册文件与R6保持固定。
+- 结果：R6→R7 regret 0.279248→0.269499，命中率22.4997%→22.8971%；两方向预测与实用联合门槛均通过点估计判定。regret差值95%任务簇区间[-0.026304,+0.011597]，命中率差值区间[-0.6814,+1.4528]pp，保留探索性范围。
+- 机制与证据：并列组平均1.9618→1.2860，3,981场选择改变；`experiments/round-07/report.md`、`summary.json`、`verification.json`及独立轨迹附件登记。新增反馈/API/训练均0。
+- 下一步：为R8写定独立验证范围和单一研究问题，固定R7规则后检验泛化。
+
+## R8 · 三份GPT-5.1反馈稳健性验证 · 运行前注册
+
+- 问题：固定R7后，换用三份此前R6/R7未用的GPT-5.1反馈，R7-R6收益是否复现？
+- 预测：任务内等权合并三份反馈后regret下降且命中率不降，至少2/3份反馈regret下降；区间证据另列。
+- 对照/范围：同份反馈下重新运行canonical淘汰赛获取共享反馈，比较R6和R7；仍是原26任务，称跨反馈模型稳健性。
+- 预算：23,400场景、70,200选择评分；唯一反馈逐场上限C(n,2)，总上限903,600；新增模型调用/训练0。
+- 注册材料：`experiments/round-08/protocol.md`、`protocol.json`、固定78文件`data_manifest.json`与23,400场`jobs.jsonl`。
+- 注册/数据：注册f7c9440先于新反馈下载；初次结构核验缺8对。来源补充9eb25eb在任何方法结果前提交，从同次原始备份恢复8条API失败，5,099共有记录逐条对齐。78文件恢复完整覆盖；方法、26任务、场景、预测和预算保持。
+- 执行：实现与核验收据提交f0bc099后正式运行一次，23,400场、70,200评分、78原生控制重演及全量独立核验通过。
+- 结果：GPT合并R6→R7命中率25.6843%→26.3705%，regret 0.294116→0.293416；三份中2份regret下降，3份命中率提高。点估计稳健性条件通过，联合区间标准未通过：regret差值95%区间[-0.006279,+0.005918]；命中率差值区间[+0.1477,+1.3031]pp。
+- 证据：`experiments/round-08/report.md`、`summary.json`、`verification.json`及独立轨迹附件；45测试、原85冻结文件及R6/R7保持，新增模型调用/训练0。
+- 下一步：核对新任务候选与可比真实分数，先形成下一轮数据可用性清单，再决定反馈预算。
 ## Environment audit of baseline-reproduction-v1
 Registered threshold study at 826f4c1. Six gate values on the original controller; 18 development tasks and 8 previously seen validation tasks. Audit, results, limits, and runtime setup are in experiments/environment-audit/report.md.

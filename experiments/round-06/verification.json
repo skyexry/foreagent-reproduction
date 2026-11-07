@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "paired_jobs": 7800,
+  "independent_vote_and_top_group_checks": 7800,
+  "independent_candidate_selection_scores": 15600,
+  "task_means_checked": 26,
+  "bootstrap_checked": true,
+  "feedback_matches_pinned_control_trace": true,
+  "registered_input_hashes_match": true,
+  "new_feedback_queries": 0,
+  "actual_api_calls": 0,
+  "candidate_training_runs": 0,
+  "runs_content_sha256": "02ecfe8c9e288b1027d7ad00b8f8ae5d2c34e07c61d13ebcadc08899f5d933bf",
+  "protocol_commit": "084ad53be4609a2bf0e57c2ac11b97c988f84ef3",
+  "implementation_commit": "68a20ad9205e409fbd1e10437abab4d07587749b"
+}

@@ -1,0 +1,22 @@
+{
+  "registration_commit": "084ad53be4609a2bf0e57c2ac11b97c988f84ef3",
+  "implementation_commit": "68a20ad9205e409fbd1e10437abab4d07587749b",
+  "registered_protocol_and_jobs_unchanged": true,
+  "unit_tests": {
+    "passed": 29,
+    "failed": 0,
+    "r6_new": 9,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "baseline_freeze": {
+    "files_verified": 85,
+    "command": "python scripts/verify_freeze.py"
+  },
+  "independent_full_verification": "verification.json",
+  "new_attachment_scan": {
+    "files": 20,
+    "findings": []
+  },
+  "new_api_calls": 0,
+  "candidate_training_runs": 0
+}

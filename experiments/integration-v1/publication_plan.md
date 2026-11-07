@@ -16,3 +16,7 @@
 确认后推送归集分支/选定主分支与标签至已配置远端；Release 说明附上本轮范围、已知缺口和校验值，并上传 `pairwise-246-evidence.zip`、历史原记录包、完整 corpus 轨迹包。随后将附件的公开 URL 补充到获取说明及附件登记，作为单独的发布元数据提交。原始归档哈希保持。
 
 GitHub 推送、可见性修改和 Release 发布均在用户审阅本地成果后确认。
+
+## 执行记录
+
+用户已明确确认发布。归集分支及带注释标签已推送；标签固定在 `fd55d93`；[Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1) 附三份原始附件，API digest、字节数及下载后的 SHA-256 全部匹配。附件登记和验证记录见 `provenance/release.json` 与同目录 `release_attachment_verification.json`。本轮推送归集分支，仓库默认分支和私有可见性保持原设置。

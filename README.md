@@ -1,6 +1,8 @@
 # ForeAgent reproduction
 
-复现 ForeAgent 的 pairwise 判断和候选筛选控制逻辑，为后续固定比较预算下的排序研究建立可核验基线。当前冻结候选版本为 `baseline-reproduction-v1`；原版与两种缓存修正版分别记录。
+复现 ForeAgent 的 pairwise 判断和候选筛选控制逻辑，为后续固定比较预算下的排序研究建立可核验基线。当前已发布冻结版本为 `baseline-reproduction-v1`；原版与两种缓存修正版分别记录。
+
+已发布 [baseline-reproduction-v1](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1)，附三份实验附件。发布记录及固定下载地址见 `provenance/release.json`；标签固定在 `fd55d93`，后续发布元数据提交保持核心冻结文件的内容。
 
 ## 结果与证据范围
 
@@ -37,7 +39,7 @@ Corpus 回放使用固定候选池、顺序及初始随机种子；反馈来自�
 ```bash
 git clone https://github.com/skyexry/foreagent-reproduction.git
 cd foreagent-reproduction
-# 发布冻结标签后：git checkout baseline-reproduction-v1
+git checkout baseline-reproduction-v1
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-reproduction.txt
@@ -48,7 +50,7 @@ python scripts/fetch_data.py --group corpus --group historical --check-only
 
 源码固定到 `zjunlp/predict-before-execute@c4d52cf99bd870d830b456ac7c0684aec1aef375`；数据固定到 `zjunlp/PredictBeforeExecute@6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06`。每个文件的固定下载 URL、大小和 SHA-256 见 `provenance/data_manifest.json`。gzip 条目校验解压后的内容。核心输入为 52 个 corpus 文件和 45 个历史文件；大型原始记录约数百 MB，以固定来源下载。
 
-246 对本项目 API 原始响应由独立附件 `pairwise-246-evidence.zip` 提供。附件校验值、大小和当前获取位置见 `provenance/attachments.json`；公开 Release URL 在发布获确认后补充。收到附件后运行：
+246 对本项目 API 原始响应由独立附件 `pairwise-246-evidence.zip` 提供。附件校验值、大小和冻结时的本地来源见 `provenance/attachments.json`；已发布的下载地址见 [Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1) 与 `provenance/release.json`。收到附件后运行：
 
 ```bash
 python scripts/fetch_data.py --attachment pairwise --archive /path/to/pairwise-246-evidence.zip
@@ -91,3 +93,15 @@ python scripts/reproduce.py corpus
 完整固定值见 `BASELINE_FREEZE.json`。报告对应 `reports/hw3/VERSION.md`，交接从 `STATUS.md` 开始，实验历史见 `EXPERIMENTS.md`，聊天协作规则见 `AGENTS.md`。
 
 组织方式借鉴 [vukrosic/llm-memory-env](https://github.com/vukrosic/llm-memory-env) 的逐轮实验记录、预测与结果分开、保留旧口径、快速阅读已有结果与运行入口分开的方式。这里只采用文件组织原则。原作者代码及数据来源见 `THIRD_PARTY_NOTICES.md`。
+
+## R6：同一反馈上的简单胜率汇总
+
+R6 本地实验分支为 `codex/r6-winrate`，注册提交 `084ad53` 先于实现与正式运行。7,800 场配对比较的主指标为21.2000%→22.4997%，regret略升，事前联合推进标准未达到。协议、作业、完整结果与独立验证见 [R6报告](experiments/round-06/report.md)。基线Release和冻结内容保留。R6复跑从干净的该分支提交开始，仅需corpus数据及已发布baseline完整轨迹附件；命令见R6报告。
+
+## R7：同胜率按有效比较次数打破并列
+
+本地分支 `codex/r7-evidence-tiebreak`，先注册 `bab4052` 再实现 `865b909`。7,800配对场景中R6→R7 regret 0.279248→0.269499，命中率22.4997%→22.8971%，通过事前点估计推进门槛；任务级区间仍跨0，作为探索性候选留存。协议、运行清单与完整结果见 [R7报告](experiments/round-07/report.md)。36项测试及独立全量核验通过，新增API/训练0。复跑使用干净R7提交、固定corpus输入及R6本地完整附件。
+
+## R8：三份GPT-5.1反馈验证
+
+本地分支`codex/r8-gpt-feedback`：注册f7c9440先于数据下载与方法评分，来源补充9eb25eb恢复同次8条API失败，实现f0bc099后运行23,400场。合并R6→R7命中率25.6843%→26.3705%，regret 0.294116→0.293416；点估计稳健性通过，regret区间跨0，保留联合区间标准未通过的结论。45测试、全量独立核验和78原生控制重演通过，新增模型调用/训练0。完整协议、数据与来源修订、三份分别结果、预算和复现命令见[R8报告](experiments/round-08/report.md)。这是原26任务上的跨反馈模型验证。

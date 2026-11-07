@@ -1,0 +1,81 @@
+{
+  "experiment_id": "round-08",
+  "version": "r8-gpt-feedback-v1",
+  "base_commit": "a469bd20aad268710130378b7073acb8d475b397",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "feedback_runs": [
+    "gpt-5_1_1p0_pboost_cot_20251210_154406",
+    "gpt-5_1_1p0_pboost_cot_20251211_161746",
+    "gpt-5_1_1p0_pboost_cot_20251211_171620"
+  ],
+  "methods": [
+    "cache_direction_canonical-v1",
+    "simple_winrate-v1",
+    "winrate_evidence_tiebreak-v1"
+  ],
+  "control": "simple_winrate-v1",
+  "treatment": "winrate_evidence_tiebreak-v1",
+  "acquisition": "Fresh canonical-cache-fixed tournament per scenario under the new saved feedback; R6/R7 use exactly its queried unique responses.",
+  "canonical_source": "vendor/foreagent_variants/world_model_cache_direction_canonical.py",
+  "canonical_source_sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536",
+  "confidence_threshold": 0.7,
+  "confidence_missing_or_unparseable_fallback": 0.5,
+  "invalid_winner_policy": "Retain the unordered pair and return a local backend failure, yielding invalid confidence 0; count its lookup against budget.",
+  "confidence_out_of_range_or_nonfinite": "Stop structural validation",
+  "primary_metric": "pooled_task_macro_normalized_regret_delta_R7_minus_R6",
+  "hit_constraint": "pooled_task_macro_uniform_tie_best_hit_delta_R7_minus_R6 >= 0",
+  "direction_prediction": {
+    "pooled_regret_delta_less_than": 0.0,
+    "pooled_hit_delta_at_least": 0.0
+  },
+  "point_robustness_rule": {
+    "pooled_regret_delta_less_than": 0.0,
+    "pooled_hit_delta_at_least": 0.0,
+    "minimum_runs_with_regret_delta_less_than_zero": 2,
+    "integrity_checks_required": true
+  },
+  "interval_evidence_rule": {
+    "regret_ci_upper_less_than": 0.0,
+    "hit_ci_lower_at_least": 0.0,
+    "interpretation": "Reported separately from point robustness; no noninferiority margin is inferred."
+  },
+  "secondary_metrics": [
+    "selected_percentile",
+    "top_group_size",
+    "contains_best",
+    "R7_minus_fresh_tournament"
+  ],
+  "pooling": "Average 300 scenarios per feedback/task, average all three feedback runs within task, then average 26 tasks equally.",
+  "bootstrap": {
+    "unit": "task",
+    "paired": true,
+    "replicates": 10000,
+    "seed": 2026110708,
+    "confidence_level": 0.95,
+    "quantile": "linear interpolation at (n-1)*p",
+    "keep_all_feedback_runs_in_each_task_cluster": true
+  },
+  "budget": {
+    "scenarios": 23400,
+    "feedback_runs": 3,
+    "tasks": 26,
+    "pools_per_feedback_run": 2600,
+    "seeds_per_pool": 3,
+    "method_selection_scores": 70200,
+    "unique_feedback_cap_summed": 903600,
+    "max_unique_pairs_in_ten_candidate_pool": 45,
+    "new_model_calls": 0,
+    "candidate_training_runs": 0,
+    "native_control_audit_cases": 78,
+    "max_wall_seconds_per_attempt": 3600
+  },
+  "corpus_protocol_sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+  "prior_jobs_sha256": "7c4e5bcec014204ad48fa87c90a345617e380269ba70e9891d1be8d3a6ed1b7e",
+  "feedback_eligibility": "All 78 files must match pinned source bytes and contain exactly the original task unordered ground-truth pairs; duplicate, ambiguous or unknown identities stop validation. Invalid/missing best_index is retained as failed feedback, not excluded.",
+  "scope": "External feedback-model robustness on the same inspected 26 tasks/candidates/labels; no claim of unseen-task or end-to-end Agent validation.",
+  "commands": [
+    "python reproduction/round08/data.py --fetch",
+    "PYTHONHASHSEED=0 python reproduction/round08/run.py --output runs/round08",
+    "PYTHONHASHSEED=0 python reproduction/round08/verify.py --output runs/round08"
+  ]
+}

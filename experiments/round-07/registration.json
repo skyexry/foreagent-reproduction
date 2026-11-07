@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-11-07T12:55:57.374970+00:00",
+  "stage": "prospective, before R7 implementation and comparison",
+  "base_commit": "4a35fd16508ee103e81220c84d905c295672d484",
+  "files": {
+    "protocol.md": "a00ba583de6930e10e2f711ddd865b34f91522112ecaac222aeb35b0b9ea995a",
+    "protocol.json": "281b4062fbae3bdcbe669477d64f97a53b11548b5f883980e4215339926ebdc7",
+    "jobs.jsonl": "7c4e5bcec014204ad48fa87c90a345617e380269ba70e9891d1be8d3a6ed1b7e"
+  },
+  "jobs": 7800,
+  "budget": {
+    "jobs": 7800,
+    "methods_per_job": 2,
+    "selection_evaluations": 15600,
+    "tasks": 26,
+    "pools": 2600,
+    "repeats_per_pool": 3,
+    "shared_unique_feedback_total": 102473,
+    "valid_unique_feedback_total": 51593,
+    "distinct_feedback_across_experiment": 13592,
+    "new_feedback_queries": 0,
+    "actual_api_calls": 0,
+    "candidate_training_runs": 0,
+    "max_wall_seconds_per_attempt": 1800
+  }
+}
