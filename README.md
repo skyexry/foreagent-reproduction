@@ -1,6 +1,8 @@
 # ForeAgent reproduction
 
-复现 ForeAgent 的 pairwise 判断和候选筛选控制逻辑，为后续固定比较预算下的排序研究建立可核验基线。当前冻结候选版本为 `baseline-reproduction-v1`；原版与两种缓存修正版分别记录。
+复现 ForeAgent 的 pairwise 判断和候选筛选控制逻辑，为后续固定比较预算下的排序研究建立可核验基线。当前已发布冻结版本为 `baseline-reproduction-v1`；原版与两种缓存修正版分别记录。
+
+已发布 [baseline-reproduction-v1](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1)，附三份实验附件。发布记录及固定下载地址见 `provenance/release.json`；标签固定在 `fd55d93`，后续发布元数据提交保持核心冻结文件的内容。
 
 ## 结果与证据范围
 
@@ -37,7 +39,7 @@ Corpus 回放使用固定候选池、顺序及初始随机种子；反馈来自�
 ```bash
 git clone https://github.com/skyexry/foreagent-reproduction.git
 cd foreagent-reproduction
-# 发布冻结标签后：git checkout baseline-reproduction-v1
+git checkout baseline-reproduction-v1
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-reproduction.txt
@@ -48,7 +50,7 @@ python scripts/fetch_data.py --group corpus --group historical --check-only
 
 源码固定到 `zjunlp/predict-before-execute@c4d52cf99bd870d830b456ac7c0684aec1aef375`；数据固定到 `zjunlp/PredictBeforeExecute@6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06`。每个文件的固定下载 URL、大小和 SHA-256 见 `provenance/data_manifest.json`。gzip 条目校验解压后的内容。核心输入为 52 个 corpus 文件和 45 个历史文件；大型原始记录约数百 MB，以固定来源下载。
 
-246 对本项目 API 原始响应由独立附件 `pairwise-246-evidence.zip` 提供。附件校验值、大小和当前获取位置见 `provenance/attachments.json`；公开 Release URL 在发布获确认后补充。收到附件后运行：
+246 对本项目 API 原始响应由独立附件 `pairwise-246-evidence.zip` 提供。附件校验值、大小和冻结时的本地来源见 `provenance/attachments.json`；已发布的下载地址见 [Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1) 与 `provenance/release.json`。收到附件后运行：
 
 ```bash
 python scripts/fetch_data.py --attachment pairwise --archive /path/to/pairwise-246-evidence.zip

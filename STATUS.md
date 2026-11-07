@@ -1,6 +1,6 @@
 # 当前状态
 
-版本：`baseline-reproduction-v1` 本地冻结候选，原版固定提交 `c4d52cf99bd870d830b456ac7c0684aec1aef375`；研究仓库基点 `9442373ad020a06b691700592b0c83281b31d8c9`。归集检查点保存在本地 `codex/baseline-reproduction-v1` 分支；主项目 main 工作区保留待审阅文件，既有未提交工作有初始清单和迁移前快照。
+版本：`baseline-reproduction-v1` 已发布冻结版本，原版固定提交 `c4d52cf99bd870d830b456ac7c0684aec1aef375`；研究仓库基点 `9442373ad020a06b691700592b0c83281b31d8c9`。已推送分支 `codex/baseline-reproduction-v1` 与标签；标签指向已审阅的 `fd55d93a1ea063e64620de4c4c87c49f517eff66`。主项目 main 工作区保留归集副本，既有未提交工作有初始清单和迁移前快照。
 
 ## 已完成与证据
 
@@ -11,12 +11,14 @@
 - 原固定源码、公开数据下载 URL、输入校验值、来源对应关系、HW3 NeurIPS TeX/PDF 已归集。核心脚本使用仓库相对路径；原有来源文件留存。
 - 独立新克隆已通过 20 项测试与全部离线复现；运行后 Git 工作区干净，85 项冻结文件及 97 个核心输入均校验通过。验证基于代码检查点 `148dbf8ebf09e57ee887699eb47ab1b1b98bd9ed`，结果记录于 `experiments/integration-v1/validation.json`。
 
+- 发布完成：[baseline-reproduction-v1](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1)；三份附件均从 GitHub 下载后匹配原 SHA-256 和大小。`provenance/release.json` 保存下载 URL、GitHub digest 与发布时间；`experiments/integration-v1/release_attachment_verification.json` 保存验证记录。
+
 ## 待验证范围
 
-原历史 RNG 状态与真实复赛对手身份；11 个结构不完整批次；独立实时 LLM 重预测；新比较/汇总/早停策略；完整在线 Agent 训练及时间收益。Corpus 已查看，后续算法实验需另设评测范围。附件公开下载位置待发布时补充。
+原历史 RNG 状态与真实复赛对手身份；11 个结构不完整批次；独立实时 LLM 重预测；新比较/汇总/早停策略；完整在线 Agent 训练及时间收益。Corpus 已查看，后续算法实验需另设评测范围。附件下载位置已登记在发布记录。
 
 ## 当前唯一下一步
 
-请用户审阅本地归集差异，确认 GitHub 推送、冻结标签与独立附件发布。当前代码和实验结果已完成本地冻结；发布准备见 `experiments/integration-v1/publication_plan.md`。
+由用户选择下一轮的单一研究问题，并在运行前写定评测范围与实验协议。当前原版、缓存变体、历史重演及 corpus 回放作为已发布基线保留。
 
 完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。
