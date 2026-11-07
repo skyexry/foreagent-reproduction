@@ -1,5 +1,7 @@
 # 当前状态
 
+Environment & Baselines 只验收作者 ForeAgent（提交 `c4d52cf`）及其发布配置：原始缓存行为、confidence 门槛 0.70、10 个候选、top-k=1、执行概率 0.20 和原始强制执行回退。缓存修正、R6–R8 与门槛调优统一归入后续改进实验。
+
 版本：`baseline-reproduction-v1` 已发布冻结版本，原版固定提交 `c4d52cf99bd870d830b456ac7c0684aec1aef375`；研究仓库基点 `9442373ad020a06b691700592b0c83281b31d8c9`。已推送分支 `codex/baseline-reproduction-v1` 与标签；标签指向已审阅的 `fd55d93a1ea063e64620de4c4c87c49f517eff66`。主项目 main 工作区保留归集副本，既有未提交工作有初始清单和迁移前快照。
 
 ## 已完成与证据
@@ -25,7 +27,7 @@
 
 ## 当前唯一下一步
 
-在目标 Docker/GPU 机器上验证一次端到端生成、选择、执行、评分。跨新任务效果仍需独立数据。
+在获准使用的 Docker/GPU 主机运行作者原版的 `stanford-covid-vaccine` 单任务，用本次生成的 submission 和官方评分器取得真实分数，并核对生成、筛选和执行日志。当前状态为等待可用主机，真实分数待取得。
 
 ## 审稿复核
 当前分支 audit/icml-baselines 整合环境核验和 R6–R8。实验协议在 890d688 先行提交。六档门槛、共享判断、每场单选预算下，三方法在开发集均选 0.50；八个验证任务上的 R6/R7 平均损失相同，高于修正版淘汰赛。审稿意见、修正、复跑方式和范围见 experiments/icml-review/review.md。作者基线仍为 0.70。

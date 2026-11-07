@@ -1,5 +1,7 @@
 # ForeAgent reproduction
 
+Environment & Baselines 只验收作者 ForeAgent（提交 `c4d52cf`）及其发布配置：原始缓存行为、confidence 门槛 0.70、10 个候选、top-k=1、执行概率 0.20 和原始强制执行回退。缓存修正、R6–R8 与门槛调优统一归入后续改进实验。
+
 复现 ForeAgent 的 pairwise 判断和候选筛选控制逻辑，为后续固定比较预算下的排序研究建立可核验基线。当前已发布冻结版本为 `baseline-reproduction-v1`；原版与两种缓存修正版分别记录。
 
 已发布 [baseline-reproduction-v1](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1)，附三份实验附件。发布记录及固定下载地址见 `provenance/release.json`；标签固定在 `fd55d93`，后续发布元数据提交保持核心冻结文件的内容。
