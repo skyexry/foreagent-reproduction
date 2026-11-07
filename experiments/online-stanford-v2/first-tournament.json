@@ -141,5 +141,40 @@
     "question": "Did a real candidate group pass through generation, pairwise ranking, execution and the official task scorer?",
     "observation": "Use the first completed live tournament batch in chronological order. Count generated, ranked, executed and skipped candidates and comparator API receipts. Grade each executed submission from this batch on the Mac; record missing or invalid submissions too. If all are invalid, preserve the failure and identify the first subsequent successful full chain separately.",
     "holdout_isolation": "All scores outside agent workspace. No score changes selection, hyperparameters, stopping time, or the final best-node rule."
+  },
+  "interim_analysis": {
+    "predicted_positions": 25680,
+    "scored_positions": 16320,
+    "three_submission_results": {
+      "initial_valid": {
+        "official_score": 0.37879,
+        "rmse_by_target": {
+          "reactivity": 0.335,
+          "deg_Mg_pH10": 0.422669,
+          "deg_Mg_50C": 0.378688
+        }
+      },
+      "parent_incumbent": {
+        "official_score": 0.27231,
+        "rmse_by_target": {
+          "reactivity": 0.24157,
+          "deg_Mg_pH10": 0.310392,
+          "deg_Mg_50C": 0.264955
+        }
+      },
+      "tournament_selected": {
+        "official_score": 0.29349,
+        "rmse_by_target": {
+          "reactivity": 0.257707,
+          "deg_Mg_pH10": 0.333406,
+          "deg_Mg_50C": 0.289344
+        }
+      }
+    },
+    "parent_internal_metric": 0.4635,
+    "child_internal_metric": 0.4712,
+    "threshold_passing_comparison_records": 4,
+    "rank_zero_ties": 2,
+    "interpretation": "The batch winner produced a gold-threshold submission but did not outperform its parent. The original best-node rule retained the parent. The other nine codes were not executed; this batch does not establish top-1 accuracy or a causal effect of selection."
   }
 }
