@@ -15,12 +15,14 @@
 
 - R6已完成：注册提交 `084ad53` 先于实现提交 `68a20ad`；7,800场同反馈配对比较，胜率汇总命中率21.2000%→22.4997%，regret 0.277534→0.279248，未达事前实用联合标准。29项测试及独立逐场/评分/区间核验通过；新增反馈/API/训练均0。证据 `experiments/round-06/report.md`、`summary.json`、`verification.json`。实验分支 `codex/r6-winrate`，本轮工作目录 `/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-r6`；跨工作目录用该分支提交衔接，复跑使用干净的已提交目录。
 
+- R7已完成：注册 `bab4052` 先于实现 `865b909`；相同反馈7,800配对场景，regret 0.279248→0.269499，命中率22.4997%→22.8971%，通过事前点估计联合门槛。36测试、独立投票/证据次序/15,600评分及区间核验通过；95%任务区间仍跨0。证据 `experiments/round-07/report.md`、`summary.json`、`verification.json`。分支 `codex/r7-evidence-tiebreak`，工作目录 `/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-r7`；复跑使用该分支干净的已提交目录，跨worktree按提交衔接。
+
 ## 待验证范围
 
 原历史 RNG 状态与真实复赛对手身份；11 个结构不完整批次；独立实时 LLM 重预测；新比较/汇总/早停策略；完整在线 Agent 训练及时间收益。Corpus 已查看，后续算法实验需另设评测范围。附件下载位置已登记在发布记录。
 
 ## 当前唯一下一步
 
-执行已授权R7：先提交同胜率证据次数规则的协议、预测、指标及7,800作业清单，再实现并对比R6。当前处于运行前注册阶段；基线和R6保持固定。
+为R8写定独立验证范围和单一研究问题，固定R7规则后再检验泛化。R7作为通过探索性点估计门槛的候选方法留存；冻结基线与R6保持。
 
 完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。

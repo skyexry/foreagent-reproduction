@@ -1,0 +1,30 @@
+{
+  "experiment": "round-07",
+  "protocol_commit": "bab4052bdfe6e05ccbde901852a29a8159b53b49",
+  "implementation_commit": "865b9094cdbfa61dee9d641ca2c70661056f63af",
+  "archive": {
+    "filename": "ForeAgent_R7_Evidence_Tiebreak_v1.zip",
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/round07-evidence-tiebreak-v1/ForeAgent_R7_Evidence_Tiebreak_v1.zip",
+    "bytes": 1647952,
+    "sha256": "5c192d4eea5aa1fa0a82461b77b4b4078876aae6b7c45db79195fede5bdb13ee",
+    "availability": "independent local attachment; no new remote publication in this round"
+  },
+  "trace": {
+    "gzip_sha256": "c06ec9b61b6b5b5ea421879625bf69d25d1a7d7eea99d345d64e19f4efc2e547",
+    "uncompressed_sha256": "d3e4bb267fc137023f06e6ce2d93454512fa54b8f8c9c6b0f3408306d7161bc4"
+  },
+  "files": {
+    "checks.json": "97c10c490b61765f6055518315c9a329455eed9e32aba57b5266a2fa86a49ee0",
+    "execution.json": "5f55d353faa74a08e7a5bd1708310a7bde4e4b6209d204b5a07415e0b38c985d",
+    "jobs.jsonl": "7c4e5bcec014204ad48fa87c90a345617e380269ba70e9891d1be8d3a6ed1b7e",
+    "per_task.csv": "a27efc24595029179ab0dbc5947ba3a2484d6ed2fd025470c627ae701c50a6b0",
+    "protocol.json": "281b4062fbae3bdcbe669477d64f97a53b11548b5f883980e4215339926ebdc7",
+    "protocol.md": "a00ba583de6930e10e2f711ddd865b34f91522112ecaac222aeb35b0b9ea995a",
+    "registration.json": "0c11ff5229af73531ab8f1b9f574768f0fac9ce042f39fbfe509a392a75a483e",
+    "report.md": "555dfcd9b6b1f9851eef119c44a0c3e9cda20a28ee8871ee898fa0ef0190fdd7",
+    "started.json": "c4dfb1c44e50d95ce189342f443278a6cf540599dac845a5f465b1bb681e5d64",
+    "summary.json": "65bf974cc21a325421d9e45781d50c56aa08295d321ecb03c4336c2c2d1aa090",
+    "verification.json": "544640765da055014f7a99216a2f666acd56e34aac47d6d5352098a43caa9887"
+  },
+  "dependency": "Run inside the matching repository commit with the registered R6 attachment and pinned corpus inputs."
+}

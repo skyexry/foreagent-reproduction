@@ -1,0 +1,13 @@
+{
+  "unit_tests": {
+    "passed": 36,
+    "failed": 0,
+    "new_r7": 7
+  },
+  "baseline_frozen_files_verified": 85,
+  "r6_code_protocol_results_unchanged": true,
+  "r7_registered_protocol_and_jobs_unchanged": true,
+  "independent_full_verification": "verification.json",
+  "new_api_calls": 0,
+  "candidate_training_runs": 0
+}
