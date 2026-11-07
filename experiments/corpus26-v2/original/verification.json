@@ -1,0 +1,18 @@
+{
+  "original_source_hash_verified": true,
+  "original_tournament_toy_case": "passed",
+  "variant_cache_behavior": "passed",
+  "variant": "original",
+  "complete_execution_policy": {
+    "author_policy_ast_exact": true,
+    "policy_source_lines": [
+      700,
+      767
+    ],
+    "two_tied_candidates_all_four_probability_outcomes_passed": 4,
+    "rank_outside_top_group_never_sampled": true,
+    "fallback_uses_first_rank_zero_without_extra_random_draw": true
+  },
+  "confidence_fallback": "passed",
+  "tie_adjusted_metric": "passed"
+}

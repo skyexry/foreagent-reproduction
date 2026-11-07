@@ -1,0 +1,67 @@
+{
+  "freeze_id": "foreagent_original_historical_replay_v1",
+  "status": "frozen",
+  "frozen_date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "scope": "Conditional replay of original ranking and complete execution control on released historical batches; responses supplied by batch/position and probability decisions taken from logs.",
+  "code_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "settings": {
+    "model": "DeepSeek-V3.2-Thinking",
+    "temperature": 1.0,
+    "confidence_threshold": 0.7,
+    "exec_probability": 0.2,
+    "num_candidates": 10,
+    "top_k": 1,
+    "explicit_controller_seed_fields": []
+  },
+  "replay_mode": "Historical-response-sequence control-flow replay with log-observed probability decisions.",
+  "randomness_note": "Revival opponent identities are synthetic because original RNG state is unavailable. Normal pair identities and pending-node identities are independently log-checked. Stored responses are supplied by batch/position, not synthetic pair identity.",
+  "results": {
+    "runs_checked": 15,
+    "batches_replayed": 129,
+    "candidates_replayed": 1290,
+    "comparison_records_replayed": 23873,
+    "matches": {
+      "rank_and_round_match": 129,
+      "sorted_order_matches_log": 129,
+      "probability_decisions_match_log": 129,
+      "forced_fallback_match_log": 129,
+      "final_execution_matches_journal": 129,
+      "final_execution_order_matches_log": 129
+    },
+    "candidate_rank_round_matches": 1290,
+    "forced_fallback_batches": 87,
+    "logged_batches_outside_final_journal_or_incomplete": 11,
+    "network_calls": 0,
+    "candidate_training_runs": 0
+  },
+  "verification": {
+    "raw_source_files_hash_and_size_checked": 45,
+    "runs": 15,
+    "batches": 129,
+    "candidate_rank_round_pairs_independently_checked": 1290,
+    "final_execution_sets_independently_checked": 129,
+    "excluded_batches": 11,
+    "excluded_categories": {
+      "unfinished_log_batch": 6,
+      "generated_nodes_absent_from_final_journal": 5
+    },
+    "original_world_model_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "original_agent_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+  },
+  "python_runtime_at_freeze": "3.12.12",
+  "artifact_manifest": {
+    "file": "artifact_manifest.json",
+    "sha256": "2d23771924aebf0135d314c07a3f30d40ac8f0f49f3fa05c2609fc976126b6b3",
+    "tracked_files": 59
+  },
+  "replay_script_sha256": "8cdabe981a04c518ef775192350c6b07a474a1079fa065b10df36667b6a08e49",
+  "verification_script_sha256": "54cd405ecbb12ceba981e4b596a20059f2614a60941ef75cda096fa0f34d6805",
+  "baseline_archive": {
+    "file": "ForeAgent_Real_Author_Batches_Replay.zip",
+    "bytes": 73612647,
+    "sha256": "9069e8161cbef6f159f5a2a9fe9fd205de9d30c6f98a7b19e551e7029d03bf84"
+  },
+  "subsequent_experiments": "Cache corrections, alternative ranking methods, and independently generated LLM judgments are versioned separately from this baseline."
+}

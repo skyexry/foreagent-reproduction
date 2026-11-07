@@ -1,0 +1,80 @@
+\section{Baseline Reproduction}
+\label{sec:reproduction}
+
+\subsection{Objective and frozen scope}
+
+This reproduction examines whether ForeAgent's released ranking and execution control logic reproduces its recorded historical outputs when supplied with the original candidate batches, generation order, and saved observations. The baseline is the original implementation at commit \texttt{c4d52cf}, with the original cache implementation preserved \citep{foreagentcode}. The comparison backend supplies recorded responses by batch position, and the execution branch receives the probability outcomes recorded in the logs. The resulting experiment is a \emph{conditional historical-trace replay}: it verifies the state updates produced from those observations.
+
+The experiment is frozen as \texttt{foreagent\_original\_historical\_replay\_v1}, dated November~7, 2026. The freeze record binds the source snapshots, input manifests, scripts, verification outputs, and archive using SHA-256 checksums. Subsequent cache corrections and alternative aggregation methods belong to separately versioned experiments. The frozen result in this section concerns the original control logic.
+
+\subsection{Released records and experimental setup}
+
+The inputs come from the authors' public \texttt{agent\_runs/ForeAgent/} release, fixed at dataset revision \texttt{6b322cb} \citep{foreagentdata}. All 15 released ForeAgent runs were inspected: three runs for each of five MLE-bench tasks. For each run, the inputs include its actual \texttt{config.yaml}, full \texttt{journal.json}, and full \texttt{aide.log}. These 45 original text files were checked against their recorded sizes and hashes. Table~\ref{tab:coverage} summarizes recovery coverage.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Coverage of the released historical runs. Logged batches include interrupted generation and batches with final-journal gaps. Each recovered batch contains ten candidates.}
+  \label{tab:coverage}
+  \small
+  \begin{tabular}{lrrrr}
+    \toprule
+    Task & Runs & Logged batches & Recovered & Candidates \\
+    \midrule
+    Aerial Cactus Identification & 3 & 14 & 12 & 120 \\
+    Histopathologic Cancer Detection & 3 & 5 & 4 & 40 \\
+    Stanford COVID Vaccine & 3 & 45 & 42 & 420 \\
+    Statoil Iceberg Classification & 3 & 60 & 57 & 570 \\
+    Ventilator Pressure Prediction & 3 & 16 & 14 & 140 \\
+    \midrule
+    Total & 15 & 140 & 129 & 1,290 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The saved configurations agree on the relevant settings: ten improvement candidates, confidence threshold $0.7$, Top-$k=1$, execution probability $0.2$, and a 12-hour agent time limit. The comparison-model label is DeepSeek-V3.2-Thinking with temperature $1.0$. These model settings describe the source runs; this replay consumes their saved responses. Local callbacks record execution decisions, while training and inference observations come from the archived runs. Additional model API calls and candidate-training runs both equal zero.
+
+Recovery uses record availability as the eligibility criterion. Of 140 logged batches, 129 have completed comparison histories and corresponding final-journal nodes. The remaining 11 are retained in a separate coverage ledger: six end during generation, and five contain generated nodes absent from the final journal. This rule was applied using structural completeness, independently of candidate scores or agreement results.
+
+\subsection{Recovery and replay procedure}
+
+\paragraph{Candidate identity, grouping, and order.}
+Messages of the form \texttt{Generated improvement candidate i/10} identify the original generation order. Candidate IDs are resolved to their full journal entries and actual source code. The \texttt{node2parent} map verifies a shared parent within each recovered batch. Creation-time ordering provides a second check on the logged sequence. The journal's stored list reflects post-selection saving and re-appending, so generation logs and timestamps establish the replay input order.
+
+\paragraph{Historical comparisons.}
+Each candidate in a batch stores the same \texttt{wm\_comparison\_results} sequence, containing winner position, confidence, round, and validity. A local provider supplies these archived results to the original \texttt{tournament\_rank()} calls in their recorded order. The replay checks response counts, round indices, and agreement between confidence and the $0.7$ validity gate. It also checks 8,725 ordinary comparisons against the logged participant IDs and outcomes, and 15,148 revival comparisons against the logged pending-candidate identities and outcomes.
+
+The original controller's random seed or RNG state remains an open recovery item. For revival matches, the advanced opponent is represented by an explicitly marked placeholder choice generated with demonstration seed~0. Responses are supplied by recorded batch position. The checked historical information identifies the pending candidate and outcome; it supplies partial evidence about the advanced opponent. Consequently, the agreement claim concerns control-flow replay conditional on the recorded responses, with exact original revival-pair reconstruction reserved for further log analysis.
+
+\paragraph{Execution decisions and mandatory fallback.}
+The original execution statements are extracted directly from \texttt{agent.py}, lines 700--767, and checked for AST equality. Logged probability-trigger outcomes drive the eligible candidates' execution tests. The original code then applies its mandatory fallback: whenever this stage selects an empty execution set, the first rank-0 candidate in sorted order is executed. Local callbacks record selected identities. The resulting execution set is checked against journal \texttt{is\_skipped} flags, and its order is checked against execution-parsing log messages. Supplying observed probability outcomes conditions this check on the historical draws; the verified behavior is Top-$k$ handling, candidate selection, and fallback processing.
+
+\subsection{Results and agreement with the released traces}
+
+For all 129 recovered batches, the original implementation reproduces the recorded candidate ranks, round metadata, sorted order, and final execution decisions. Table~\ref{tab:agreement} reports the comparison units explicitly. Across these batches, the replay consumes 23,873 comparison records, including repeated rounds and cached observations. These records are observations from the historical trajectory, with repeated comparisons contributing to the recorded control flow.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Agreement conditional on archived comparison responses and logged probability outcomes. Candidate-level and batch-level denominators measure different units.}
+  \label{tab:agreement}
+  \begin{tabular}{lrr}
+    \toprule
+    Checked output & Agreement & Rate \\
+    \midrule
+    Candidate displayed rank & 1,290 / 1,290 & 100\% \\
+    Candidate round metadata & 1,290 / 1,290 & 100\% \\
+    Complete sorted candidate order & 129 / 129 batches & 100\% \\
+    Final execution set & 129 / 129 batches & 100\% \\
+    Final execution order & 129 / 129 batches & 100\% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Mandatory execution fallback occurs in 87 of the recovered batches, matching the log events. For example, in the first recovered batch of the Aerial Cactus run with UUID prefix \texttt{c5d8f2ae}, candidate \texttt{69daaf39} receives rank~0. Its probability test is recorded as skipped, after which the original fallback selects that candidate. Both the resulting execution identity and the final journal flag agree with the replay.
+
+The 100\% values represent \emph{historical-output agreement}. The recorded winner positions are supplied as observations; true candidate-performance scores play no role in recovering ranks. Thus the result establishes faithful processing of these observed histories. Pairwise prediction accuracy, selection quality against executed scores, and end-to-end agent efficiency are separate evaluation questions.
+
+\subsection{Interpretation and reproducibility artifacts}
+
+The replay establishes an implementation baseline for the candidate-selection component: the recovered historical observations lead to the same ranking and execution outputs under the released control rules. The paper's full-corpus prediction accuracy and its five-task online performance results provide broader reference experiments, while this section contributes a direct consistency check against the released agent trajectories \citep{zheng2026predict}. The archived responses already reflect the source runs' inference and cache behavior; fresh model judgments and original revival-opponent reconstruction require their own experimental conditions.
+
+The accompanying \texttt{baseline\_freeze.json} pins the source, data, scripts, and verified outputs by SHA-256. The archive contains full logs and journals, the coverage ledger, and per-batch comparisons. Its \texttt{replay\_author.py} and \texttt{verify\_and\_report.py} scripts reproduce and check these results.

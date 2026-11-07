@@ -3,22 +3,24 @@ import ast
 from collections import defaultdict
 import hashlib
 import json
+import os
+import os
 import logging
 from pathlib import Path
-import subprocess
 import sys
 import types
 
 ROOT = Path(__file__).resolve().parent
-UPSTREAM = Path('/tmp/foreagent-upstream')
+UPSTREAM = ROOT / 'vendor/foreagent_upstream'
 COMMIT = 'c4d52cf99bd870d830b456ac7c0684aec1aef375'
 
 
 def main():
-    assert subprocess.check_output(['git','-C',str(UPSTREAM),'rev-parse','HEAD'],text=True).strip()==COMMIT
+    Path(os.environ.get("FOREAGENT_RUN_DIR", str(ROOT / "runs/selection"))).mkdir(parents=True, exist_ok=True)
+    Path(os.environ.get("FOREAGENT_RUN_DIR", str(ROOT / "runs/selection"))).mkdir(parents=True, exist_ok=True)
     relative = 'mle-bench/agents/aide/aide/world_model.py'
     source = (UPSTREAM/relative).read_bytes()
-    assert source == subprocess.check_output(['git','-C',str(UPSTREAM),'show',f'{COMMIT}:{relative}'])
+    assert hashlib.sha256(source).hexdigest() == 'df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79'
     tree = ast.parse(source)
     # Remove only package imports: backend and Node are replaced below. The original
     # parser, pairwise method, cache, tournament and execution predicate run unchanged.
@@ -65,7 +67,7 @@ def main():
             'cache_reversal_check':cache,'fully_confident_tournament':decisive,
             'all_low_confidence_check':uncertain_case,
             'execution_probability_check':{'configured_probability':0.2,'draw_0_19':True,'draw_0_21':False}}
-    (ROOT/'experiments/foreagent_selection_checks.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
+    (Path(os.environ.get('FOREAGENT_RUN_DIR', str(ROOT / 'runs/selection'))) / 'foreagent_selection_checks.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
     manifest = json.loads((ROOT/'experiments/coverage_manifest.json').read_text())
     coverage = []
     for task_entry in manifest['tasks']:
@@ -80,7 +82,7 @@ def main():
         coverage.append({'task':task,'candidates':len(ids),'pairs':len(edges),'possible':len(ids)*(len(ids)-1)//2,
                          'author_rows':len(raw),'missing_confidence':sum(r['prediction'].get('confidence') is None for r in raw),
                          'conflicting_candidate_scores':sum(len(v)>1 for v in scores.values())})
-    (ROOT/'experiments/foreagent_replay_coverage_check.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2))
+    (Path(os.environ.get('FOREAGENT_RUN_DIR', str(ROOT / 'runs/selection'))) / 'foreagent_replay_coverage_check.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2))
     print(json.dumps(result,ensure_ascii=False))
 
 

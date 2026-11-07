@@ -1,0 +1,275 @@
+[
+  {
+    "source": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/README.md",
+    "source_sha256": "80fd7df43e18b7e7176d28681c1f12593a726d275a4d8dd4dd9f3e18fd88a37a",
+    "destination": "provenance/pre-integration/README.md",
+    "copied_sha256": "80fd7df43e18b7e7176d28681c1f12593a726d275a4d8dd4dd9f3e18fd88a37a",
+    "integrated_sha256": "80fd7df43e18b7e7176d28681c1f12593a726d275a4d8dd4dd9f3e18fd88a37a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/foreagent_selection.py",
+    "source_sha256": "26c9a12649ad271f4dcb0569e2421cf5562e03d7d8ac6c9231e1dc83aa5d8566",
+    "destination": "provenance/pre-integration/foreagent_selection.py",
+    "copied_sha256": "26c9a12649ad271f4dcb0569e2421cf5562e03d7d8ac6c9231e1dc83aa5d8566",
+    "integrated_sha256": "26c9a12649ad271f4dcb0569e2421cf5562e03d7d8ac6c9231e1dc83aa5d8566"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/verify_foreagent_selection.py",
+    "source_sha256": "6a92893e4932b659d859b60413458388e14aeed03e5f8805876965e05957c2da",
+    "destination": "provenance/pre-integration/verify_foreagent_selection.py",
+    "copied_sha256": "6a92893e4932b659d859b60413458388e14aeed03e5f8805876965e05957c2da",
+    "integrated_sha256": "6a92893e4932b659d859b60413458388e14aeed03e5f8805876965e05957c2da"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/audit_foreagent_mechanisms.py",
+    "source_sha256": "6d553b94646fd8bea88a441fc1e5fbe8ec4d8570a83377e1c7c1b24f44c2529e",
+    "destination": "provenance/pre-integration/audit_foreagent_mechanisms.py",
+    "copied_sha256": "6d553b94646fd8bea88a441fc1e5fbe8ec4d8570a83377e1c7c1b24f44c2529e",
+    "integrated_sha256": "6d553b94646fd8bea88a441fc1e5fbe8ec4d8570a83377e1c7c1b24f44c2529e"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/replay_foreagent_selection.py",
+    "source_sha256": "6dd06eac2c3ed1aee33798c24ffc305f68834ffaa73519300613e716925a257d",
+    "destination": "provenance/pre-integration/replay_foreagent_selection.py",
+    "copied_sha256": "6dd06eac2c3ed1aee33798c24ffc305f68834ffaa73519300613e716925a257d",
+    "integrated_sha256": "6dd06eac2c3ed1aee33798c24ffc305f68834ffaa73519300613e716925a257d"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/world_model_original.py",
+    "source_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "destination": "vendor/foreagent_upstream/mle-bench/agents/aide/aide/world_model.py",
+    "copied_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "integrated_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/agent_original.py",
+    "source_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de",
+    "destination": "vendor/foreagent_upstream/mle-bench/agents/aide/aide/agent.py",
+    "copied_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de",
+    "integrated_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+  },
+  {
+    "source": "https://github.com/zjunlp/predict-before-execute/blob/c4d52cf99bd870d830b456ac7c0684aec1aef375/mle-bench/agents/aide/aide/utils/config.yaml",
+    "source_sha256": "c5e481edf7c012277e75d358c0de8d923e7c9f6f66781dfe64158cd7449af78a",
+    "destination": "vendor/foreagent_upstream/mle-bench/agents/aide/aide/utils/config.yaml",
+    "copied_sha256": "c5e481edf7c012277e75d358c0de8d923e7c9f6f66781dfe64158cd7449af78a",
+    "integrated_sha256": "c5e481edf7c012277e75d358c0de8d923e7c9f6f66781dfe64158cd7449af78a"
+  },
+  {
+    "source": "https://github.com/zjunlp/predict-before-execute/blob/c4d52cf99bd870d830b456ac7c0684aec1aef375/LICENSE",
+    "source_sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b",
+    "destination": "vendor/foreagent_upstream/LICENSE",
+    "copied_sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b",
+    "integrated_sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/world_model_cache_fixed.py",
+    "source_sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536",
+    "destination": "vendor/foreagent_variants/world_model_cache_direction_canonical.py",
+    "copied_sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536",
+    "integrated_sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/replay_author.py",
+    "source_sha256": "8cdabe981a04c518ef775192350c6b07a474a1079fa065b10df36667b6a08e49",
+    "destination": "reproduction/historical/replay_author.py",
+    "copied_sha256": "8cdabe981a04c518ef775192350c6b07a474a1079fa065b10df36667b6a08e49",
+    "integrated_sha256": "afb31670eb666a470641fb8a33790bb2b8058f8662afe292a8f2d675171f554a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/execution_policy.py",
+    "source_sha256": "636f172cfc0c017403c938303414050a8807ec5b1f4a63ef00c5966edd557675",
+    "destination": "reproduction/historical/execution_policy.py",
+    "copied_sha256": "636f172cfc0c017403c938303414050a8807ec5b1f4a63ef00c5966edd557675",
+    "integrated_sha256": "713b68d249980120aaaebd02a52884aea2b6ad93ad2d2da04924b05799cb4146"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/verify_and_report.py",
+    "source_sha256": "54cd405ecbb12ceba981e4b596a20059f2614a60941ef75cda096fa0f34d6805",
+    "destination": "reproduction/historical/verify_and_report.py",
+    "copied_sha256": "54cd405ecbb12ceba981e4b596a20059f2614a60941ef75cda096fa0f34d6805",
+    "integrated_sha256": "5a9dffe97b0f2780cddb0861cb0c79bd931ca88c32efc9d25abd499ded244765"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/replay_full.py",
+    "source_sha256": "84c36605b845cbadb73df7d9529ba5f7ba006a9df0631a95f06ab38073f97494",
+    "destination": "reproduction/corpus/replay_full.py",
+    "copied_sha256": "84c36605b845cbadb73df7d9529ba5f7ba006a9df0631a95f06ab38073f97494",
+    "integrated_sha256": "fcb5c8c1d278622dc62748ed3a82004bbe88386eba4eebcfb535a49664804b52"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/execution_policy.py",
+    "source_sha256": "636f172cfc0c017403c938303414050a8807ec5b1f4a63ef00c5966edd557675",
+    "destination": "reproduction/corpus/execution_policy.py",
+    "copied_sha256": "636f172cfc0c017403c938303414050a8807ec5b1f4a63ef00c5966edd557675",
+    "integrated_sha256": "713b68d249980120aaaebd02a52884aea2b6ad93ad2d2da04924b05799cb4146"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/protocol.json",
+    "source_sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+    "destination": "experiments/corpus26-v2/protocol.json",
+    "copied_sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+    "integrated_sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/v2_spec.json",
+    "source_sha256": "0500fd6af081c585bec03d5a2e74ce795bb856b61dd6b0cc27850d9e809bafa7",
+    "destination": "experiments/corpus26-v2/v2_spec.json",
+    "copied_sha256": "0500fd6af081c585bec03d5a2e74ce795bb856b61dd6b0cc27850d9e809bafa7",
+    "integrated_sha256": "0500fd6af081c585bec03d5a2e74ce795bb856b61dd6b0cc27850d9e809bafa7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/paired_comparison.json",
+    "source_sha256": "37b8dc5fd6dfbc43f0965b107a1c951a288a7f3da98344c1902913b4db0c2bc2",
+    "destination": "experiments/corpus26-v2/paired_comparison.json",
+    "copied_sha256": "37b8dc5fd6dfbc43f0965b107a1c951a288a7f3da98344c1902913b4db0c2bc2",
+    "integrated_sha256": "37b8dc5fd6dfbc43f0965b107a1c951a288a7f3da98344c1902913b4db0c2bc2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/paired_per_task.csv",
+    "source_sha256": "338c0a0ce2ecb105d92e6a865de98c4b644ba8029aa0238e63677676e8e91e83",
+    "destination": "experiments/corpus26-v2/paired_per_task.csv",
+    "copied_sha256": "338c0a0ce2ecb105d92e6a865de98c4b644ba8029aa0238e63677676e8e91e83",
+    "integrated_sha256": "338c0a0ce2ecb105d92e6a865de98c4b644ba8029aa0238e63677676e8e91e83"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/verification.json",
+    "source_sha256": "3d8e46393cc0b1aa7641a9b7dcab0f36ce142250cfcd3288d0bf9ad0e675025a",
+    "destination": "experiments/corpus26-v2/verification.json",
+    "copied_sha256": "3d8e46393cc0b1aa7641a9b7dcab0f36ce142250cfcd3288d0bf9ad0e675025a",
+    "integrated_sha256": "3d8e46393cc0b1aa7641a9b7dcab0f36ce142250cfcd3288d0bf9ad0e675025a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/results.json",
+    "source_sha256": "2a1a131e33d3621e3b09691c4507b67d124f03501d656e4a5e62729748ede3b8",
+    "destination": "experiments/corpus26-v2/original/results.json",
+    "copied_sha256": "2a1a131e33d3621e3b09691c4507b67d124f03501d656e4a5e62729748ede3b8",
+    "integrated_sha256": "2a1a131e33d3621e3b09691c4507b67d124f03501d656e4a5e62729748ede3b8"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/verification.json",
+    "source_sha256": "229d8def781728871fc1bddf5e477237cce8b8f34c3e95c4274eecf6217cca81",
+    "destination": "experiments/corpus26-v2/original/verification.json",
+    "copied_sha256": "229d8def781728871fc1bddf5e477237cce8b8f34c3e95c4274eecf6217cca81",
+    "integrated_sha256": "229d8def781728871fc1bddf5e477237cce8b8f34c3e95c4274eecf6217cca81"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/per_task.csv",
+    "source_sha256": "ea07ffb09ab03748c1876608294c1ab23af5d65e697a631ad51c3cfc486e0c12",
+    "destination": "experiments/corpus26-v2/original/per_task.csv",
+    "copied_sha256": "ea07ffb09ab03748c1876608294c1ab23af5d65e697a631ad51c3cfc486e0c12",
+    "integrated_sha256": "ea07ffb09ab03748c1876608294c1ab23af5d65e697a631ad51c3cfc486e0c12"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/results.json",
+    "source_sha256": "42d36067e919197b0af47e3a2349618c66eb35f3423714372771a4c4202952a7",
+    "destination": "experiments/corpus26-v2/cache-fixed/results.json",
+    "copied_sha256": "42d36067e919197b0af47e3a2349618c66eb35f3423714372771a4c4202952a7",
+    "integrated_sha256": "42d36067e919197b0af47e3a2349618c66eb35f3423714372771a4c4202952a7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/verification.json",
+    "source_sha256": "184fdd0e8192a4af5923b534d17933e139fb6b8015c26092fa60ef8d0f0fdab2",
+    "destination": "experiments/corpus26-v2/cache-fixed/verification.json",
+    "copied_sha256": "184fdd0e8192a4af5923b534d17933e139fb6b8015c26092fa60ef8d0f0fdab2",
+    "integrated_sha256": "184fdd0e8192a4af5923b534d17933e139fb6b8015c26092fa60ef8d0f0fdab2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/per_task.csv",
+    "source_sha256": "4963b0e04bdc6e2b30e70d04a5ade7a34637cb5ec402de2bf121550cb1f423b0",
+    "destination": "experiments/corpus26-v2/cache-fixed/per_task.csv",
+    "copied_sha256": "4963b0e04bdc6e2b30e70d04a5ade7a34637cb5ec402de2bf121550cb1f423b0",
+    "integrated_sha256": "4963b0e04bdc6e2b30e70d04a5ade7a34637cb5ec402de2bf121550cb1f423b0"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/summary.json",
+    "source_sha256": "9b14491bad67186a8964fcc8f66f0979d08bafd217d14b4fc3670ad776010c84",
+    "destination": "experiments/historical-v1/summary.json",
+    "copied_sha256": "9b14491bad67186a8964fcc8f66f0979d08bafd217d14b4fc3670ad776010c84",
+    "integrated_sha256": "9b14491bad67186a8964fcc8f66f0979d08bafd217d14b4fc3670ad776010c84"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/per_run.csv",
+    "source_sha256": "6f16ac03c55fe480d7f83e38988feedeff83e389c08fcbf4c8776a30479d44cb",
+    "destination": "experiments/historical-v1/per_run.csv",
+    "copied_sha256": "6f16ac03c55fe480d7f83e38988feedeff83e389c08fcbf4c8776a30479d44cb",
+    "integrated_sha256": "6f16ac03c55fe480d7f83e38988feedeff83e389c08fcbf4c8776a30479d44cb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/excluded_log_batches.json",
+    "source_sha256": "046a44b5b26ff3d1e9f14edd5d36dae8848f52378ccef6f8f2df941bdee39b0c",
+    "destination": "experiments/historical-v1/excluded_log_batches.json",
+    "copied_sha256": "046a44b5b26ff3d1e9f14edd5d36dae8848f52378ccef6f8f2df941bdee39b0c",
+    "integrated_sha256": "046a44b5b26ff3d1e9f14edd5d36dae8848f52378ccef6f8f2df941bdee39b0c"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/verification.json",
+    "source_sha256": "2f9e58c5a0c2c89ed58fee2a9918c7d2b670f9e7ad34be298f6390a22f05ac6a",
+    "destination": "experiments/historical-v1/verification.json",
+    "copied_sha256": "2f9e58c5a0c2c89ed58fee2a9918c7d2b670f9e7ad34be298f6390a22f05ac6a",
+    "integrated_sha256": "2f9e58c5a0c2c89ed58fee2a9918c7d2b670f9e7ad34be298f6390a22f05ac6a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/FREEZE.json",
+    "source_sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697",
+    "destination": "experiments/historical-v1/FREEZE.json",
+    "copied_sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697",
+    "integrated_sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_manifest.json",
+    "source_sha256": "a28eeffc0f8750eaf8e3914b5064d05f37401846489228e775f90758a8e07b94",
+    "destination": "experiments/historical-v1/source_manifest.json",
+    "copied_sha256": "a28eeffc0f8750eaf8e3914b5064d05f37401846489228e775f90758a8e07b94",
+    "integrated_sha256": "a28eeffc0f8750eaf8e3914b5064d05f37401846489228e775f90758a8e07b94"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/main.tex",
+    "source_sha256": "a2ce5409831ee074e4f4888e8e3cf7ce5ede6e47e0c81d64a0fc16a62c6ad5cc",
+    "destination": "reports/hw3/main.tex",
+    "copied_sha256": "a2ce5409831ee074e4f4888e8e3cf7ce5ede6e47e0c81d64a0fc16a62c6ad5cc",
+    "integrated_sha256": "a2ce5409831ee074e4f4888e8e3cf7ce5ede6e47e0c81d64a0fc16a62c6ad5cc"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_reproduction.tex",
+    "source_sha256": "2d0312e50317edd4d6be4498c1d5f3cdf0c00a6042dc71cdbac4b15183f47542",
+    "destination": "reports/hw3/baseline_reproduction.tex",
+    "copied_sha256": "2d0312e50317edd4d6be4498c1d5f3cdf0c00a6042dc71cdbac4b15183f47542",
+    "integrated_sha256": "2d0312e50317edd4d6be4498c1d5f3cdf0c00a6042dc71cdbac4b15183f47542"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/neurips_2025.sty",
+    "source_sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2",
+    "destination": "reports/hw3/neurips_2025.sty",
+    "copied_sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2",
+    "integrated_sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/AI_USAGE.txt",
+    "source_sha256": "f524f50c3126c1e3894c76f3aa85c148250292250a9ed4555914deb84baa424b",
+    "destination": "reports/hw3/AI_USAGE.txt",
+    "copied_sha256": "f524f50c3126c1e3894c76f3aa85c148250292250a9ed4555914deb84baa424b",
+    "integrated_sha256": "f524f50c3126c1e3894c76f3aa85c148250292250a9ed4555914deb84baa424b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_freeze.json",
+    "source_sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697",
+    "destination": "reports/hw3/baseline_freeze.json",
+    "copied_sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697",
+    "integrated_sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/DM_HW3_Baseline_Reproduction_v2.pdf",
+    "source_sha256": "292a8481e1fd136c93483c929c6840e9d7e2ce1ced28d55db351f49c58d24fd4",
+    "destination": "reports/hw3/DM_HW3_Baseline_Reproduction_v2.pdf",
+    "copied_sha256": "292a8481e1fd136c93483c929c6840e9d7e2ce1ced28d55db351f49c58d24fd4",
+    "integrated_sha256": "292a8481e1fd136c93483c929c6840e9d7e2ce1ced28d55db351f49c58d24fd4"
+  },
+  {
+    "source": "https://github.com/zjunlp/predict-before-execute/blob/c4d52cf99bd870d830b456ac7c0684aec1aef375/mle-bench/agents/aide/config.yaml",
+    "source_sha256": "9390e04c04e7c2eeb91171bc9b41a12ece8d2061641d9d79ca2f6bf5e0e3a348",
+    "destination": "vendor/foreagent_upstream/mle-bench/agents/aide/config.yaml",
+    "copied_sha256": "9390e04c04e7c2eeb91171bc9b41a12ece8d2061641d9d79ca2f6bf5e0e3a348",
+    "integrated_sha256": "9390e04c04e7c2eeb91171bc9b41a12ece8d2061641d9d79ca2f6bf5e0e3a348"
+  }
+]

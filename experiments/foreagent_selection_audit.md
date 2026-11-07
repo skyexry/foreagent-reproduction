@@ -25,7 +25,7 @@
 4. pending 候选随机挑选一个已晋级候选再比较。如果没有已晋级者，先让一个 pending 直接晋级。复赛赢了则 pending 晋级，输了则淘汰；仍不确定则继续保留。pending 赢了不会移除已经晋级的对手。
 5. 重复直到剩一个候选，或轮数大于 `2*n` 时安全退出。没有显式的固定 LLM 调用次数上限。缓存会使比较记录数和新调用数不同。
 6. 最终按“未淘汰优先、胜场降序、轮次降序”排列。显示名次按连续的 `(wins, round)` 组递增，相同组并列；稳定排序可能保留输入顺序。
-7. Agent 按 `wm_predicted_rank < improve_top_k` 判断 Top-K，因此 k=1 不保证只有一个候选。Top-K 内的每个候选再以 `exec_probability=0.2` 决定执行，Top-K 外跳过。函数注释中说概率用于 Top-K 外，与实际调用路径不符，应以代码控制流为准。
+7. Agent 按 `wm_predicted_rank < improve_top_k` 判断 Top-K，因此 k=1 不保证只有一个候选。Top-K 内的每个候选先以 `exec_probability=0.2` 决定执行，Top-K 外跳过。若概率检查后执行数为 0，代码会强制执行第一个 rank=0 候选（找不到则取排序第一项）。因此唯一 rank=0 候选最终仍会执行，并列 rank=0 时可能执行多个。函数注释中说概率用于 Top-K 外，与实际调用路径不符，应以代码控制流为准。2026-11-07 已用原 Agent 方法和假执行回调补验，见 `foreagent_mechanism_audit.md`。
 
 [淘汰赛源码](https://github.com/zjunlp/predict-before-execute/blob/c4d52cf99bd870d830b456ac7c0684aec1aef375/mle-bench/agents/aide/aide/world_model.py#L455-L658)；[执行策略](https://github.com/zjunlp/predict-before-execute/blob/c4d52cf99bd870d830b456ac7c0684aec1aef375/mle-bench/agents/aide/aide/agent.py#L633-L736)。
 

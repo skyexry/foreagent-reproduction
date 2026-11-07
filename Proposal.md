@@ -42,3 +42,13 @@ ForeAgent 的 Preference Corpus 收录了 AIDE 和 AutoMind 生成的候选代�
 
 第一阶段可用公开的 [Preference Corpus](https://huggingface.co/datasets/zjunlp/PredictBeforeExecute) 做离线评测：在相同候选集合与 LLM 调用预算下，比较 Top-1 选择准确率、选错最佳方案的损失和判断成本；若研究稳定性，再报告顺序交换后的结果变化。若方法与资源允许，再在少量 [MLE-bench](https://arxiv.org/abs/2410.07095) 任务上做端到端验证。离线效果不等于 Agent 最终效果，具体运行时间与 GPU 需求需在跑通基线后测量。
 
+### 当前执行顺序（2026-11-07，用户确认）
+
+当前优先复现并检查 ForeAgent baseline 的置信度门控与复赛停止机制：核对门槛、confidence 缺失/异常处理、pending 复赛、缓存复用、轮数上限、并列输出，以及比较尝试数与唯一反馈数。结合已有真实反馈与可控响应，区分固定原代码行为、离线适配条件和待验证的实时 Agent 行为。
+
+“低置信度后优先比较新候选对、无新证据时停止、按固定判断预算选择”的改进记录为备选方向，实施顺序放在基线复现与机制检查完成之后；后续根据检查结果再确定是否开展 B1（无新证据停止）和 B2（未比较优先）实验。现有缓存方向修复与上述新策略分别记录。
+
+已有机制归因证据见 [低置信度复赛核验](experiments/tournament_replay_attribution.md)；目前约 96% 的轮数安全退出率仅对应已运行的离线场景。
+
+进度补记（2026-11-07）：门控边界、异常响应、pending/停止、显示名次和原 Agent 执行路由的本地验证已补齐，并核对了已有真实判断的置信度分层及原生批处理回放一致性，见 [机制验收报告](experiments/foreagent_mechanism_audit.md)。实时 Agent prompt 下的置信度分布与完整 Agent 效果仍为后续验证范围；新比较/停止策略继续保留为备选。
+

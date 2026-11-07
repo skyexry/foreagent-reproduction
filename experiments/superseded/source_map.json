@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/results.json",
+    "sha256": "3b513037d405b83cc59d02a0e841cda6bf1943799eced90037f3e8280c9290d6",
+    "destination": "experiments/superseded/tournament-replay/results.json"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/protocol.json",
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+    "destination": "experiments/corpus26-v2/protocol.json"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/results.json",
+    "sha256": "db3d67e815d123657f721999c7aafa9395ee157fc9d239d109bcd0f84d4213c7",
+    "destination": "experiments/superseded/tournament-cache-fixed/results.json"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/protocol.json",
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+    "destination": "experiments/corpus26-v2/protocol.json"
+  }
+]

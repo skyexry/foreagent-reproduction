@@ -1,0 +1,30 @@
+{
+  "original": {
+    "replays": 7800,
+    "independent_scoring": "passed",
+    "frozen_fingerprints": "matched",
+    "comparison_records": 627026,
+    "cache_reads": 525002,
+    "unique_feedback_within_replay_summed": 102024,
+    "distinct_feedback_across_experiment": 13595,
+    "direction_mismatches": 7457,
+    "actual_api_calls": 0,
+    "candidate_training_runs": 0,
+    "forced_fallbacks": 5776,
+    "final_empty": 0
+  },
+  "cache-fixed": {
+    "replays": 7800,
+    "independent_scoring": "passed",
+    "frozen_fingerprints": "matched",
+    "comparison_records": 614747,
+    "cache_reads": 512274,
+    "unique_feedback_within_replay_summed": 102473,
+    "distinct_feedback_across_experiment": 13592,
+    "direction_mismatches": 0,
+    "actual_api_calls": 0,
+    "candidate_training_runs": 0,
+    "forced_fallbacks": 5735,
+    "final_empty": 0
+  }
+}

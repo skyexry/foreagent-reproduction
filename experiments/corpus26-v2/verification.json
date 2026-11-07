@@ -1,0 +1,22 @@
+{
+  "original": {
+    "matched_previous_and_protocol_runs": 7800,
+    "all_ranking_metadata_and_probability_draws_match_previous": true,
+    "full_policy_matches_independent_fallback_calculation": true,
+    "independent_scoring_and_analytic_expectations": "passed",
+    "ranking_trace_records_identical_to_previous": 627026,
+    "cache_direction_mismatch_records": 7457,
+    "final_empty_executions": 0,
+    "forced_fallback_runs": 5776
+  },
+  "cache-fixed": {
+    "matched_previous_and_protocol_runs": 7800,
+    "all_ranking_metadata_and_probability_draws_match_previous": true,
+    "full_policy_matches_independent_fallback_calculation": true,
+    "independent_scoring_and_analytic_expectations": "passed",
+    "ranking_trace_records_identical_to_previous": 614747,
+    "cache_direction_mismatch_records": 0,
+    "final_empty_executions": 0,
+    "forced_fallback_runs": 5735
+  }
+}

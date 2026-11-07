@@ -16,3 +16,8 @@ __pycache__/
 data/
 outputs/
 logs/
+
+runs/
+!.python-version
+!reports/hw3/*.pdf
+reports/hw3/build/

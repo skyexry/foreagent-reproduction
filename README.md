@@ -1,88 +1,93 @@
-# ForeAgent 第一阶段复现
+# ForeAgent reproduction
 
-目标：复现已有候选代码的离线两两比较，对照真实标签计算准确率，再开展预算受限的比较与排序实验。
+复现 ForeAgent 的 pairwise 判断和候选筛选控制逻辑，为后续固定比较预算下的排序研究建立可核验基线。当前冻结候选版本为 `baseline-reproduction-v1`；原版与两种缓存修正版分别记录。
 
-## 当前状态（2026-10-21）
+## 结果与证据范围
 
-- 研究方案：`Proposal.md`。
-- 已通过 SiliconFlow 调通 `Pro/deepseek-ai/DeepSeek-V3.2`，启用 Thinking。
-- 用户提供的首次测试结果：17 × 23 = 391；结束原因 `stop`；输入 15 tokens、输出 109 tokens（其中思考 101 tokens），总计 124 tokens。
-- 已完成 10 对真实样本联调：9/10 正确，10/10 正常解析，估算费用 ¥0.42；完整对照见 [首轮报告](experiments/smoke_report.md)。尚未完成全量论文复现。
-- 作者实际使用的 API 服务商尚未确认，实验应记录本项目使用的服务商和参数。
+| 实验 ID | 范围 | 保存结果 | 证据 |
+| --- | --- | --- | --- |
+| pairwise246-v1 | 26 任务、246 对；首轮加失败补调共 266 次真实 API 调用 | 136/246 = 55.28%；同样样本上作者单次公开结果 130/246 | `experiments/coverage_retry_results.json` |
+| historical-v1 | 作者 15 次真实运行；129 完整批次、1,290 候选 | rank/round、排序及最终执行均 129/129 批一致；87 批触发强制回退 | `experiments/historical-v1/` |
+| corpus26-v2 | 26 任务；每版本 7,800 次离线回放；完整执行策略 | 并列均匀选一命中 20.43% → 21.20%；最终执行集合包含最佳 21.60% → 22.44% | `experiments/corpus26-v2/` |
+| five-task-v1 | 5 完整图任务；每版本 500 次；只测筛选 | 排序首个候选命中 17.4% → 16.4% | `experiments/tournament_replay_results.json` |
+| mechanisms-v1 | 门控、pending、缓存、停止、并列排名、执行回退 | 18 门控案例、14 停止案例、6 路由案例、100 原生回放核对 | `experiments/mechanisms-v1/audit.json` |
 
-## 本地 API 检查
+历史重演给定已保存判断序列及日志中的概率结果，再核对原代码输出。普通比较双方和 pending 节点身份有日志交叉核验；复赛对手采用标明的演示 RNG，原 RNG 状态仍待恢复。140 个日志批次中，6 个未完成、5 个缺失最终 journal 节点，单独列账。它证明条件控制流程一致。
 
-`check_api.py` 仅依赖 Python 标准库。
+Corpus 回放使用固定候选池、顺序及初始随机种子；反馈来自作者的一次公开 pairwise 运行。候选以文件名代替代码文本作唯一标识，反馈模型、prompt 与历史 Agent 轨迹的设置有区别。21 个任务池大小为 10，其余为 3/3/5/6/8；候选池重叠、重复回放相关，结果为描述性宏平均。跨版本路径变化也会改变后续 RNG 消耗。
 
-```bash
-# 交互输入并保存密钥；此操作不调用 API
-python3 check_api.py --save-key
+缓存修正对这些数据的提升约为 **0.77 个百分点筛选命中、0.83 个百分点最终执行命中**。五任务实验使用另一修复实现、另一抽样和首位 tie-break 口径，单独解释。完整在线生成—筛选—训练循环、训练时间收益、新比较策略和早停策略留待后续验证。
 
-# 读取已保存密钥，发起一次小额接口测试
-python3 check_api.py
-```
+## 目录
 
-密钥保存在 `~/.config/foreagent/siliconflow.key`，是权限为 `600` 的本地明文文件，不属于仓库。未保存时，测试脚本会交互请求密钥。不要提交密钥或包含密钥的日志。
+- 根目录：已有 pairwise 工具、选择适配器、机制核验和研究提案。
+- `vendor/foreagent_upstream/`：固定作者提交的原始控制代码、配置和 MIT 许可证。
+- `vendor/foreagent_variants/`：明确命名的 canonical 缓存方向修正版。
+- `reproduction/{historical,corpus}/`：迁移后的回放及独立评分核验。
+- `scripts/`：数据获取、统一离线复现、冻结校验和提交内容扫描。
+- `experiments/`：协议、冻结输入、汇总结果；`superseded/` 保存旧执行口径说明。
+- `reports/hw3/`：现有 NeurIPS TeX、模板、PDF 和实验版本对应说明。
+- `provenance/`：来源映射、数据/附件校验值、迁移前快照、初始工作区状态。
+- `data/`、`outputs/`：按说明获取的原始数据/附件；`runs/`：新生成的完整轨迹，均由 Git 忽略。
 
-测试使用 `enable_thinking=True`、`thinking_budget=1024`、`max_tokens=256`，仅验证接口，不作为正式论文复现参数。
+## 安装与数据
 
-## 真实样本联调
-
-```bash
-python3 -m pip install -r requirements-smoke.txt
-python3 prepare_smoke.py
-python3 run_smoke.py        # 只检查输入，不调用 API
-python3 run_smoke.py --run  # 付费调用固定的 10 对样本
-```
-
-准备脚本需要系统提供 `curl`。联调实际使用 Python 3.12.5 和标准库网络接口，而非官方建议的 Python 3.10 / OpenAI SDK 环境；作者的提示词、响应解析及准确率函数原样复用，来源见 `vendor/foreagent/README.md`。
-
-固定抽样：`leaf-classification` 和 `detecting-insults-in-social-commentary` 各 5 对，随机种子 `20261021`，保留原候选顺序。数据版本和文件校验值保存在 `experiments/smoke_manifest.json`。标签与分数只用于本地评分，不传给 LLM。
-
-请求使用温度 `1.0`、Thinking 开启、`--cot` 和 `--prompt-boost` 对应提示设置。为限制本次调用开销，显式设定思考上限 `32768`、回答上限 `8192`，无自动重试；这些限制及服务商差异必须在正式复现时说明。启动前按输入 UTF-8 字节数和输出上限保守预估费用，10 对总额须低于 ¥20；实际估价使用响应 token 数和公开单价，不等同平台账单。
-
-完整请求和响应保存在被 Git 忽略的 `outputs/smoke-20261021/`。已有运行记录时脚本拒绝再次付费调用，避免误操作重复扣费。**这 10 对用于联调，不能直接与论文全量 61.5% 作复现结论比较。**
-
-## 26 任务覆盖评测
+核验环境为 CPython **3.12.5**，macOS；核心回放使用标准库。既有 API 工具和测试使用固定版本的 certifi。完整 Agent 的 CUDA/训练环境属于后续范围。
 
 ```bash
-python3 prepare_coverage.py        # 固定抽样并核对数据，不调用 LLM
-python3 run_coverage.py            # 只检查完整输入及费用预留
-python3 compare_coverage.py        # 匹配作者公开预测，不调用 LLM
-python3 run_coverage.py --run --workers 16
-python3 report_coverage.py         # 运行结束后验证并导出结果
+git clone https://github.com/skyexry/foreagent-reproduction.git
+cd foreagent-reproduction
+# 发布冻结标签后：git checkout baseline-reproduction-v1
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-reproduction.txt
+python scripts/verify_freeze.py
+python scripts/fetch_data.py --group corpus --group historical
+python scripts/fetch_data.py --group corpus --group historical --check-only
 ```
 
-官方任务清单包含 26 个任务、18,438 对候选。本轮每任务抽取最多 10 对，两个任务各只有 3 对，因此合计 246 对。输入与抽样版本见 `experiments/coverage_manifest.json`。采用任务轮流派发，避免预算提前耗尽时只测到前几个任务。
+源码固定到 `zjunlp/predict-before-execute@c4d52cf99bd870d830b456ac7c0684aec1aef375`；数据固定到 `zjunlp/PredictBeforeExecute@6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06`。每个文件的固定下载 URL、大小和 SHA-256 见 `provenance/data_manifest.json`。gzip 条目校验解压后的内容。核心输入为 52 个 corpus 文件和 45 个历史文件；大型原始记录约数百 MB，以固定来源下载。
 
-累计费用上限为 ¥20，包括前次测试向上取整的 ¥0.43。并发请求在发送前预留保守费用，返回后依据用量结算；未知用量保留预留。余额、网络等 API 错误会停止新增请求，已发送的请求仍可能完成并产生费用。没有自动充值或自动重试。预算和错误停止行为通过无网络模拟测试验证：`python3 -m unittest discover -s tests -v`。
+246 对本项目 API 原始响应由独立附件 `pairwise-246-evidence.zip` 提供。附件校验值、大小和当前获取位置见 `provenance/attachments.json`；公开 Release URL 在发布获确认后补充。收到附件后运行：
 
-完整请求与响应保存在本地 `outputs/coverage-20261021/`；已有记录时默认拒绝重复运行。确认上一进程结束后，可用 `--run --resume` 只继续尚未派发的样本；成功和失败的已记录请求均不会自动重试。采用流式接收，避免生成期间长时间没有返回数据而超时；分块接收测试、预算测试和恢复去重测试均不调用真实 API。初期非流式请求及后续流式请求分别保存在原始记录中，模型和提示参数不变。
+```bash
+python scripts/fetch_data.py --attachment pairwise --archive /path/to/pairwise-246-evidence.zip
+```
 
-作者同样本对照是一次公开运行，不等于论文三次运行平均值。近似等量抽样改变了任务权重，不能直接将这批样本的准确率与论文全量 micro accuracy 比较。
+另有历史日志完整包及 corpus 完整逐次轨迹包，分别保留独立附件及校验值；核心复现会重新生成轨迹。可显式使用本地缓存加速，所有输入仍逐个校验：
 
-## 审计记录与评分
+```bash
+python scripts/fetch_data.py --group corpus --local-root /path/to/previous-repository
+python scripts/fetch_data.py --group historical --local-root /path/to/author-real-batch-replay --layout historical
+```
 
-`python3 export_coverage_audit.py` 从原始记录生成本地 `outputs/coverage-20261021/audit/` 下的三份主文件：实际配置 `run_config.json`、固定样本与标签 `pairs_manifest.json`、逐次实际请求与响应 `attempts.jsonl`。完整输入文件及当前代码快照一并保留并校验哈希；不调用 API，不改变评分。加 `--follow` 可跟随当前批次更新，批次停止后生成结果报告；它不会启动或恢复付费请求。
+## 离线运行与核验
 
-[评分与缺失记录口径](experiments/coverage_scoring.md) 明确 246 对分母、失败处理、无自动重试、micro/macro 和作者对照。缺失的时间、token、失败正文和早期实现快照明确标记，不用 0 或当前版本代替。完整输入/响应仅保存在本地，被 Git 忽略；GitHub 保存脚本、固定抽样清单和实验说明。
+```bash
+python -m unittest discover -s tests -v
+python scripts/reproduce.py all
+```
 
-## 已授权的失败补调
+`all` 依次核验 selection、pairwise、five-task、mechanisms、historical、corpus。输入包括前述公开数据及 pairwise 附件；真实 API 调用和候选训练均为 0。仅使用公开数据时可依次执行：
 
-首轮结束后，`retry_coverage.py` 只对首轮失败样本各补调一次；先核对实际生成参数一致，原始文件不变，第二次尝试存入 `outputs/coverage-20261021/retry-attempt-002/`。记录实际开始/结束时间、原始请求响应和脚本快照，4 并发，无自动再次重试。此阶段用户已授权解除旧 ¥20 阈值，仅执行固定失败清单；已有补调目录时拒绝重复付费调用。
+```bash
+python scripts/reproduce.py selection
+python scripts/reproduce.py five-task
+python scripts/reproduce.py mechanisms
+python scripts/reproduce.py historical
+python scripts/reproduce.py corpus
+```
 
-补调结束后运行 `python3 report_coverage_retry.py`，核对两轮原始记录、生成参数和计分，生成 `experiments/coverage_retry_report.md` 与 `coverage_retry_results.json`。保留首轮指标；优先采用首轮有效结果，只在首轮失败时采用第二次有效结果。未知调用费用继续单列，不当作 0。
+每个实验输出到 `runs/<experiment>/`。重跑前先将已有输出移动留存，统一入口要求新目录。独立核验逐次评分、强制回退公式、宏平均和保存结果；corpus 的 runs、解压后 traces、汇总 JSON 与原保存内容 SHA-256 全部相同，历史结果也逐文件匹配。`runs/corpus/verification_portable.json` 分开统计比较记录、缓存读取、每场唯一反馈数之和、全实验去重反馈数、真实 API 调用数。
 
-## 后续评测
+既有 `run_coverage.py` 等脚本用于此前的有偿服务实验，具体记录在原协议中。本轮统一复现入口全部使用已有反馈。重建原 pairwise prompt 输入可额外运行 `fetch_data.py --group pairwise-inputs`，该组含任务说明、分析报告和所选代码。
 
-1. 固定官方代码版本，核对样本、提示词、推理参数和评分口径。
-2. 首轮 10 对真实样本联调已完成，扩大任务覆盖前保留固定抽样和版本记录。
-3. 估算费用后扩大评测，并记录模型、样本范围和实验结果。
+## 版本与接续
 
-## 来源
+- `original@c4d52cf`：作者原始 `world_model.py`，SHA-256 `df85087f…d79`；缓存方向等原行为保留。
+- `cache_direction_canonical-v1`：`vendor/foreagent_variants/world_model_cache_direction_canonical.py`，用于 corpus26-v2，只修正缓存存取时的方向映射。
+- `cache_fixed_instance_locked-v1`：`foreagent_selection.CacheFixedWorldModel`，用于 five-task-v1，同时包含实例隔离和成对并发锁。
 
-- [官方代码](https://github.com/zjunlp/predict-before-execute)
-- [论文](https://aclanthology.org/2026.acl-long.182/)
-- [Preference Corpus](https://huggingface.co/datasets/zjunlp/PredictBeforeExecute)
+完整固定值见 `BASELINE_FREEZE.json`。报告对应 `reports/hw3/VERSION.md`，交接从 `STATUS.md` 开始，实验历史见 `EXPERIMENTS.md`，聊天协作规则见 `AGENTS.md`。
 
-下载的论文、数据和运行输出默认不纳入版本控制。
+组织方式借鉴 [vukrosic/llm-memory-env](https://github.com/vukrosic/llm-memory-env) 的逐轮实验记录、预测与结果分开、保留旧口径、快速阅读已有结果与运行入口分开的方式。这里只采用文件组织原则。原作者代码及数据来源见 `THIRD_PARTY_NOTICES.md`。
