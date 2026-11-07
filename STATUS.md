@@ -13,12 +13,14 @@
 
 - 发布完成：[baseline-reproduction-v1](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1)；三份附件均从 GitHub 下载后匹配原 SHA-256 和大小。`provenance/release.json` 保存下载 URL、GitHub digest 与发布时间；`experiments/integration-v1/release_attachment_verification.json` 保存验证记录。
 
+- R6已完成：注册提交 `084ad53` 先于实现提交 `68a20ad`；7,800场同反馈配对比较，胜率汇总命中率21.2000%→22.4997%，regret 0.277534→0.279248，未达事前实用联合标准。29项测试及独立逐场/评分/区间核验通过；新增反馈/API/训练均0。证据 `experiments/round-06/report.md`、`summary.json`、`verification.json`。实验分支 `codex/r6-winrate`，本轮工作目录 `/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-r6`；跨工作目录用该分支提交衔接，复跑使用干净的已提交目录。
+
 ## 待验证范围
 
 原历史 RNG 状态与真实复赛对手身份；11 个结构不完整批次；独立实时 LLM 重预测；新比较/汇总/早停策略；完整在线 Agent 训练及时间收益。Corpus 已查看，后续算法实验需另设评测范围。附件下载位置已登记在发布记录。
 
 ## 当前唯一下一步
 
-执行已授权的 R6：先提交 `experiments/round-06/` 的预测、协议和 7,800 场作业清单，再实现 simple_winrate-v1，与 canonical 缓存修正版淘汰赛在同一已查询反馈上做配对比较。当前阶段为运行前注册，处理组结果待生成；基线保持冻结。
+审阅R6的主指标收益、regret代价与任务差异，再为R7选择一个单独诊断问题并提前注册。冻结淘汰赛维持主基线，R6胜率方法作为探索性结果留存。
 
 完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。

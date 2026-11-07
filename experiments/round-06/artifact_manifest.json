@@ -1,0 +1,31 @@
+{
+  "experiment": "round-06",
+  "protocol_commit": "084ad53be4609a2bf0e57c2ac11b97c988f84ef3",
+  "implementation_commit": "68a20ad9205e409fbd1e10437abab4d07587749b",
+  "archive": {
+    "filename": "ForeAgent_R6_Same_Feedback_Winrate_v1.zip",
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/round06-winrate-v1/ForeAgent_R6_Same_Feedback_Winrate_v1.zip",
+    "bytes": 1689530,
+    "sha256": "45df582cc9a7c659c208913c488fbf25f805d39bee0dc825535605d4ff16fe76",
+    "availability": "local independent attachment; no new GitHub publication requested this round"
+  },
+  "trace": {
+    "filename": "runs.jsonl.gz",
+    "gzip_sha256": "02dc0caefa4cd11347073a4ae07193ecbdf12e673a8818b95c4821c7b77a067b",
+    "uncompressed_sha256": "02ecfe8c9e288b1027d7ad00b8f8ae5d2c34e07c61d13ebcadc08899f5d933bf"
+  },
+  "files": {
+    "execution.json": "eb9ff3883a1ee0a83b562451be704d56ab66bd1538a3d98b39f437cfc5cdd005",
+    "jobs.jsonl": "74b224fe8fd87752181b5c9b173a91ebe404974e5ddf010518f2c175c2795ff7",
+    "per_task.csv": "0fa96a3672b836682944c44b939087a27a41b798cc993f9c9765cc5f5a465878",
+    "protocol.json": "196db393dc5018ac5220acc4c572de1c6842013a889e177ce84d8b30aa1123bd",
+    "protocol.md": "09f67a1e9ab3dbc786be7a89e5c98224aac33fbcc8e9ed06541baa4a607078d6",
+    "registration.json": "f636f256fff40784193d5f08f68ce82de6c3e8afb82385d194ee0e12fa9fe2d6",
+    "report.md": "58613e0a8a5efb9f54bf369264610b609cd1773a681e58eedffb99386009d089",
+    "started.json": "21817aaff75b880da875c780fbd564942d7ea93a30159d3242cc49e64f81ba04",
+    "summary.json": "888ad801c27537dfb39a182f40ad4ed4473f7db6ca897461ef1daa410451a106",
+    "verification.json": "98f5e60dde3ce6efbd5ad870609a8361d74ef03ef3d87ff7282f41c9fbfcb67a"
+  },
+  "csv_note": "Repository per_task.csv normalizes generated CRLF to LF; raw generated CSV is retained in the attachment.",
+  "checks_file": "checks.json"
+}

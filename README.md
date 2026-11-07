@@ -93,3 +93,7 @@ python scripts/reproduce.py corpus
 完整固定值见 `BASELINE_FREEZE.json`。报告对应 `reports/hw3/VERSION.md`，交接从 `STATUS.md` 开始，实验历史见 `EXPERIMENTS.md`，聊天协作规则见 `AGENTS.md`。
 
 组织方式借鉴 [vukrosic/llm-memory-env](https://github.com/vukrosic/llm-memory-env) 的逐轮实验记录、预测与结果分开、保留旧口径、快速阅读已有结果与运行入口分开的方式。这里只采用文件组织原则。原作者代码及数据来源见 `THIRD_PARTY_NOTICES.md`。
+
+## R6：同一反馈上的简单胜率汇总
+
+R6 本地实验分支为 `codex/r6-winrate`，注册提交 `084ad53` 先于实现与正式运行。7,800 场配对比较的主指标为21.2000%→22.4997%，regret略升，事前联合推进标准未达到。协议、作业、完整结果与独立验证见 [R6报告](experiments/round-06/report.md)。基线Release和冻结内容保留。R6复跑从干净的该分支提交开始，仅需corpus数据及已发布baseline完整轨迹附件；命令见R6报告。
