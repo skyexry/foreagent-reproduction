@@ -1,0 +1,786 @@
+{
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "scope": "Metadata pinned before downloading prediction contents; SHA-256 computed and recorded during validation.",
+  "files": [
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "aptos2019-blindness-detection",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/aptos2019-blindness-detection.json",
+      "bytes": 4757079,
+      "git_blob_oid": "ddb4a997f6cc9416fa2365113931355d3db869f5",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "denoising-dirty-documents",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/denoising-dirty-documents.json",
+      "bytes": 4520137,
+      "git_blob_oid": "68f4897604b3d15997f422ad571f7069cb81fbf4",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "detecting-insults-in-social-commentary",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/detecting-insults-in-social-commentary.json",
+      "bytes": 1668167,
+      "git_blob_oid": "221deb0aea2b554e3d3655c2327851ff4dbeb345",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "dog-breed-identification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/dog-breed-identification.json",
+      "bytes": 12076,
+      "git_blob_oid": "78a022947ff240a0283827ec08106f8369b13aaa",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "google-quest-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/google-quest-challenge.json",
+      "bytes": 5087027,
+      "git_blob_oid": "fee09935f53c8d564e62bbc81dc9c0c7cfba713f",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/jigsaw-toxic-comment-classification-challenge.json",
+      "bytes": 41142,
+      "git_blob_oid": "b1a4959b015d5bfdc51a4f276f62095a5b531fb0",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "leaf-classification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/leaf-classification.json",
+      "bytes": 507507,
+      "git_blob_oid": "c3b85917d39ca0308f60831dab8633ee832186d1",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/learning-agency-lab-automated-essay-scoring-2.json",
+      "bytes": 603574,
+      "git_blob_oid": "14ad997723561f29f8f3438dee3bbfe8c4cd056c",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "lmsys-chatbot-arena",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/lmsys-chatbot-arena.json",
+      "bytes": 4112401,
+      "git_blob_oid": "01f854e64ce4a27ff8fe18fed403dd4898a7d6bf",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "mlsp-2013-birds",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/mlsp-2013-birds.json",
+      "bytes": 4770866,
+      "git_blob_oid": "6c3745d7df14cf8c846f9c694332e39fc2195b42",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "new-york-city-taxi-fare-prediction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/new-york-city-taxi-fare-prediction.json",
+      "bytes": 1864818,
+      "git_blob_oid": "13e61a3116934c5bb22092d2c3ee1e507fb01bfa",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "nomad2018-predict-transparent-conductors",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/nomad2018-predict-transparent-conductors.json",
+      "bytes": 12262,
+      "git_blob_oid": "d0a159dcc4457ebe51fca6d906b3e6dc4a31d102",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "petfinder-pawpularity-score",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/petfinder-pawpularity-score.json",
+      "bytes": 750010,
+      "git_blob_oid": "ae7c71808ad3af53f3ff2e7a0c9e9522331a30db",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "plant-pathology-2020-fgvc7",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/plant-pathology-2020-fgvc7.json",
+      "bytes": 61172,
+      "git_blob_oid": "3754c3fe7a4f7bd79a990d598ab4a3e6d46e18f3",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/predict-volcanic-eruptions-ingv-oe.json",
+      "bytes": 5638656,
+      "git_blob_oid": "5e413762cb75732a90e37bb73cabf1ba10823d27",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "random-acts-of-pizza",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/random-acts-of-pizza.json",
+      "bytes": 4822067,
+      "git_blob_oid": "25371ab50357b534ae7a7de8051d5ced14fea465",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "spooky-author-identification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/spooky-author-identification.json",
+      "bytes": 4206495,
+      "git_blob_oid": "3dc586c82cbf46339a397da6cab2538af96d004f",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "stanford-covid-vaccine",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/stanford-covid-vaccine.json",
+      "bytes": 5713753,
+      "git_blob_oid": "7a6cb5b0cfdce4546a6e0c6a930e8e8394717efb",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "statoil-iceberg-classifier-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/statoil-iceberg-classifier-challenge.json",
+      "bytes": 5176156,
+      "git_blob_oid": "3fe682dac344fe8b485b2a871b758a12b6197c77",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tabular-playground-series-dec-2021",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/tabular-playground-series-dec-2021.json",
+      "bytes": 1156867,
+      "git_blob_oid": "80701326ac8f90f7437322c4acdf375e54bde78e",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tensorflow-speech-recognition-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/tensorflow-speech-recognition-challenge.json",
+      "bytes": 5118203,
+      "git_blob_oid": "6cd3597a0f7f883176920dbe5dab6fe823162a32",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tgs-salt-identification-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/tgs-salt-identification-challenge.json",
+      "bytes": 4390015,
+      "git_blob_oid": "b6bddfed14e466ae1eee54577eb4837ef9d5d455",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/the-icml-2013-whale-challenge-right-whale-redux.json",
+      "bytes": 1111968,
+      "git_blob_oid": "ed8189ff89df851ac8f6aec3bad90f84f1031b3d",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tweet-sentiment-extraction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/tweet-sentiment-extraction.json",
+      "bytes": 884620,
+      "git_blob_oid": "a204d93bb22cd20723f57b2969ea7676fbc2723a",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/us-patent-phrase-to-phrase-matching.json",
+      "bytes": 4624752,
+      "git_blob_oid": "08cd80317d6d7e98ce45514b9b8c0bcb8867a232",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "ventilator-pressure-prediction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "source_path": "solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251210_154406.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251210_154406/ventilator-pressure-prediction.json",
+      "bytes": 4675295,
+      "git_blob_oid": "f2024fa1fcafbb41827a3a17ab62a4068bbdba16",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "aptos2019-blindness-detection",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/aptos2019-blindness-detection.json",
+      "bytes": 4047163,
+      "git_blob_oid": "5f2f7103c93e6e81741e9bfdd5eeeb606f2945a6",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "denoising-dirty-documents",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/denoising-dirty-documents.json",
+      "bytes": 4104719,
+      "git_blob_oid": "2ec4c0716d097276ecba51ddaae6d26b0781e114",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "detecting-insults-in-social-commentary",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/detecting-insults-in-social-commentary.json",
+      "bytes": 1465579,
+      "git_blob_oid": "d36553ed66943c4fb3521e7a758644c3117af12d",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "dog-breed-identification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/dog-breed-identification.json",
+      "bytes": 10327,
+      "git_blob_oid": "5c02232f60acfeb8183e33b8adea1a47d678671d",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "google-quest-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/google-quest-challenge.json",
+      "bytes": 4542682,
+      "git_blob_oid": "ff66502e2787680f73e61cf04e712535957d4bbc",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/jigsaw-toxic-comment-classification-challenge.json",
+      "bytes": 44031,
+      "git_blob_oid": "5d2dd3c6799e7dbd778049fd6fbf830d0891ccd9",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "leaf-classification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/leaf-classification.json",
+      "bytes": 445667,
+      "git_blob_oid": "1dea827b9454e1411886105590019ff874b015dd",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/learning-agency-lab-automated-essay-scoring-2.json",
+      "bytes": 579375,
+      "git_blob_oid": "492c41357df2a7f10f39e6867ad5db060271b0e5",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "lmsys-chatbot-arena",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/lmsys-chatbot-arena.json",
+      "bytes": 3857979,
+      "git_blob_oid": "b4b6ca2c1372f1f9464737ac7180034a77553eb8",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "mlsp-2013-birds",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/mlsp-2013-birds.json",
+      "bytes": 4799376,
+      "git_blob_oid": "88129efa0f9df0c9dbc1bee849a4a405fe921799",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "new-york-city-taxi-fare-prediction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/new-york-city-taxi-fare-prediction.json",
+      "bytes": 1562172,
+      "git_blob_oid": "35a34d69850f0e2d0c2159677d57e9414609f1c5",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "nomad2018-predict-transparent-conductors",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/nomad2018-predict-transparent-conductors.json",
+      "bytes": 8632,
+      "git_blob_oid": "abbdb823dad0da07edb85808339b8a888f67da93",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "petfinder-pawpularity-score",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/petfinder-pawpularity-score.json",
+      "bytes": 696760,
+      "git_blob_oid": "8fad044aeb00e22419a715c83cacee2270f65199",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "plant-pathology-2020-fgvc7",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/plant-pathology-2020-fgvc7.json",
+      "bytes": 53197,
+      "git_blob_oid": "59ce9153979a432854ecd79425e3a9b583a1dea2",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/predict-volcanic-eruptions-ingv-oe.json",
+      "bytes": 5002362,
+      "git_blob_oid": "443d31ff65254b7ab788a5cd45e84dbb8a1284cf",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "random-acts-of-pizza",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/random-acts-of-pizza.json",
+      "bytes": 4212941,
+      "git_blob_oid": "0e7af4acb7612a8eaa01b292e6862fdedc5c6133",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "spooky-author-identification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/spooky-author-identification.json",
+      "bytes": 3857998,
+      "git_blob_oid": "7927db56541f8310138fd1c0a8ec3861028d727c",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "stanford-covid-vaccine",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/stanford-covid-vaccine.json",
+      "bytes": 5296803,
+      "git_blob_oid": "c3348d6c92df1b87258ce4e7d62c7b5ceec4194c",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "statoil-iceberg-classifier-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/statoil-iceberg-classifier-challenge.json",
+      "bytes": 4594000,
+      "git_blob_oid": "9f5484b1ad4150df3c3347603c7251f2d7d81747",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tabular-playground-series-dec-2021",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/tabular-playground-series-dec-2021.json",
+      "bytes": 1085081,
+      "git_blob_oid": "a5277a0822c1e6cdf427fcb883a234a85fd4213a",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tensorflow-speech-recognition-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/tensorflow-speech-recognition-challenge.json",
+      "bytes": 4537782,
+      "git_blob_oid": "479eebcf28ead704f1c5e084e735c60f644f77fe",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tgs-salt-identification-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/tgs-salt-identification-challenge.json",
+      "bytes": 3863232,
+      "git_blob_oid": "14283ce6ec98ead5056a39850c19a2d5561c43f1",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/the-icml-2013-whale-challenge-right-whale-redux.json",
+      "bytes": 1071634,
+      "git_blob_oid": "550b89ea00a13649fd9f66633b7d5764657669e4",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tweet-sentiment-extraction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/tweet-sentiment-extraction.json",
+      "bytes": 826535,
+      "git_blob_oid": "68a34a691308503286d8f627483b56dd648a136b",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/us-patent-phrase-to-phrase-matching.json",
+      "bytes": 4446461,
+      "git_blob_oid": "962e52c0044b23595adae35b0d35e860fbfc62c3",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "ventilator-pressure-prediction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "source_path": "solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_161746.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_161746/ventilator-pressure-prediction.json",
+      "bytes": 4464767,
+      "git_blob_oid": "13804c65a5b56aac11c200543fa8f0879efc058d",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "aptos2019-blindness-detection",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/aptos2019-blindness-detection.json",
+      "bytes": 4056702,
+      "git_blob_oid": "7a3dd1061b12ae33439b876540358a6aa92c9601",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "denoising-dirty-documents",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/denoising-dirty-documents.json",
+      "bytes": 4093630,
+      "git_blob_oid": "b9e63748b168d52637405fa6fa8e741288236e8c",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "detecting-insults-in-social-commentary",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/detecting-insults-in-social-commentary.json",
+      "bytes": 1422125,
+      "git_blob_oid": "9903bcafc473ec873421cb1712783b8441b894e3",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "dog-breed-identification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/dog-breed-identification.json",
+      "bytes": 9391,
+      "git_blob_oid": "7125d10d7b3bc7584d79e25a03e553aff1ae538e",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "google-quest-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/google-quest-challenge.json",
+      "bytes": 4727873,
+      "git_blob_oid": "866f0a1e51a41e4fedc7dc89fe399cd78b3613d3",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/jigsaw-toxic-comment-classification-challenge.json",
+      "bytes": 40199,
+      "git_blob_oid": "1665c7ec78aeef0cfebfc1dcf7fee35e167fbbe0",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "leaf-classification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/leaf-classification.json",
+      "bytes": 456852,
+      "git_blob_oid": "2819c6b794ef3be5a812bb46dd0b0642e4315e80",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/learning-agency-lab-automated-essay-scoring-2.json",
+      "bytes": 574988,
+      "git_blob_oid": "d617c0f4f160a978923f7947fb02637e9714f540",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "lmsys-chatbot-arena",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/lmsys-chatbot-arena.json",
+      "bytes": 3846195,
+      "git_blob_oid": "1cf58c717a4604000e0007f57c5ac99db5a1ad4a",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "mlsp-2013-birds",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/mlsp-2013-birds.json",
+      "bytes": 4879237,
+      "git_blob_oid": "c7338807bf8138dfddb489d8c884daa798626592",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "new-york-city-taxi-fare-prediction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/new-york-city-taxi-fare-prediction.json",
+      "bytes": 1603590,
+      "git_blob_oid": "b4d9d7562797cc869fd075304268f62df318d004",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "nomad2018-predict-transparent-conductors",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/nomad2018-predict-transparent-conductors.json",
+      "bytes": 11037,
+      "git_blob_oid": "e2e1c716199fd831435ee6f712184cb0c09086b7",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "petfinder-pawpularity-score",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/petfinder-pawpularity-score.json",
+      "bytes": 692197,
+      "git_blob_oid": "2d41990d36ed28b00ce927d23b4a29634d01815e",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "plant-pathology-2020-fgvc7",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/plant-pathology-2020-fgvc7.json",
+      "bytes": 51750,
+      "git_blob_oid": "906bee7d73095015b6e29ca6fb3d08a3b721a25d",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/predict-volcanic-eruptions-ingv-oe.json",
+      "bytes": 4901669,
+      "git_blob_oid": "e9c6470d41aca17937c94a4bee33b998eea26caf",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "random-acts-of-pizza",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/random-acts-of-pizza.json",
+      "bytes": 4218293,
+      "git_blob_oid": "80b3e3d6b9528819c7e00d0ea3061f4e6796e770",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "spooky-author-identification",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/spooky-author-identification.json",
+      "bytes": 3894350,
+      "git_blob_oid": "652b9cb78e4ddfb1da04673511e504d19cb95efe",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "stanford-covid-vaccine",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/stanford-covid-vaccine.json",
+      "bytes": 5290888,
+      "git_blob_oid": "58a9a33b8bc0531fffdb3592b30ef89f3d18294f",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "statoil-iceberg-classifier-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/statoil-iceberg-classifier-challenge.json",
+      "bytes": 4543104,
+      "git_blob_oid": "8789eedeb6a601518eab8ea9da3abfb85cebb025",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tabular-playground-series-dec-2021",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/tabular-playground-series-dec-2021.json",
+      "bytes": 1090424,
+      "git_blob_oid": "69b7c76cf463d508e12052c8c6436ba325872d86",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tensorflow-speech-recognition-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/tensorflow-speech-recognition-challenge.json",
+      "bytes": 4522308,
+      "git_blob_oid": "ee162dc172d8137c141a72ec57b86f3f58736b23",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tgs-salt-identification-challenge",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/tgs-salt-identification-challenge.json",
+      "bytes": 3952803,
+      "git_blob_oid": "ca38029ba03bfacb9a59d26795251f58b2752990",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/the-icml-2013-whale-challenge-right-whale-redux.json",
+      "bytes": 1054206,
+      "git_blob_oid": "aecc5c00211b300da2029082fad5b49050ca98e5",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tweet-sentiment-extraction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/tweet-sentiment-extraction.json",
+      "bytes": 824216,
+      "git_blob_oid": "d8b3ef9a30174c4e15a48e4e963a682882353f74",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/us-patent-phrase-to-phrase-matching.json",
+      "bytes": 4367150,
+      "git_blob_oid": "509b7c28d3b73b80643df4a1dad91cc4407e76a8",
+      "lfs": null
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "ventilator-pressure-prediction",
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "source_path": "solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_gpt-5_1_1p0_pboost_cot_20251211_171620.json",
+      "target": "data/round08/gpt-5_1_1p0_pboost_cot_20251211_171620/ventilator-pressure-prediction.json",
+      "bytes": 4402343,
+      "git_blob_oid": "5537c90f7ca8f00f30cce051fab6a0b715cf320d",
+      "lfs": null
+    }
+  ]
+}
