@@ -61,9 +61,11 @@
 - 解释：安装/输入/源码/轨迹均有独立核验；本轮新增真实 API 调用和候选训练为 0。
 - 发布：用户确认后，分支与标签已推送，[Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1) 已发布；三份附件下载后均匹配固定哈希，证据见 `provenance/release.json`。下一步由用户选择单一研究问题。
 
-## R6 · 后续策略 · 尚未运行
+## R6 · 相同反馈下的简单胜率汇总 · 运行前注册
 
-- 问题：固定反馈和比较预算下，全局汇总或主动比较能否提高选择质量？早停是否减少反馈请求而维持质量？
-- 运行前预测、数据划分、唯一主指标、预算和停止规则：下一轮运行前写定；现有 corpus 已查看，需设计独立验证范围。
-- 设置/结果/解释：由未来实验协议补充。
-- 下一步：由用户选择下一项研究问题。
+- 问题：在 canonical 缓存修正版淘汰赛已经查询的同一反馈图上，简单胜率重排是否改善选择？
+- 预测：task-macro uniform-tie best-hit 差值 >0；实用推进门槛为至少 +1pp 且 normalized regret 持平或下降。
+- 设置：协议 `experiments/round-06/protocol.md`，机器设置 `protocol.json`，7,800 场配对作业 `jobs.jsonl`。共同使用每场 q_j 条唯一已查询反馈，合计 102,473；新增 API/训练均0。confidence>=0.7；无有效比较候选赋0.5。
+- 指标：唯一主指标为并列均匀单选最佳命中率；辅助 regret、percentile、并列大小、反馈图诊断；配对任务簇 bootstrap。
+- 状态：先提交注册文件，随后实现、合成测试与全量运行；本行在提交时尚无处理组结果。现有 corpus 为已查看的探索性开发数据。
+- 下一步：按注册协议实现 simple_winrate-v1 并完成配对比较。新早停/主动比较/BT 留待其他轮次。
