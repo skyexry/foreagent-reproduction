@@ -1,10 +1,10 @@
 # 研究仓库协作
 
-每个聊天开始时执行 `pwd`、`git branch --show-current`、`git status --short --branch`；读取 `STATUS.md`、`BASELINE_FREEZE.json`、`EXPERIMENTS.md` 中相关轮次及所涉协议。以当前文件与运行证据确认状态。
+每个聊天开始时执行 `pwd`、`git branch --show-current`、`git status --short --branch`；读取当前阶段的 `README.md` 和 `STATUS.md`。以当前文件与运行证据确认状态。
 
 采用最小必要修改。原版固定源码、冻结池和保存反馈按版本留存；实验口径或算法改变时建立新的实验 ID，并说明与旧版差异。新实验先记录问题、预测、控制项、评分和停止规则，再执行。历史补记明确标注事后归档。
 
-默认入口为 `scripts/reproduce.py` 的已有反馈离线回放。在线有偿 API、完整训练、远端推送、可见性调整和 Release 按本轮用户授权执行；基线 `baseline-reproduction-v1` 已经用户确认完成发布；后续操作继续依各轮明确授权执行。
+Environment & Baselines 的运行入口为 README 指定的作者独立检出及其中的 `mle-bench/run_agent.py`。在线有偿 API、完整训练、远端推送、可见性调整和 Release 按本轮用户授权执行；基线 `baseline-reproduction-v1` 已经用户确认完成发布；后续操作继续依各轮明确授权执行。
 
 跨 worktree 用明确 Git 提交衔接，记录分支、提交和实验 ID，再开始后续修改。同一目录同时工作时，先在聊天中声明各自修改的文件；已有未提交内容通过 `git diff` 核对归属。
 
