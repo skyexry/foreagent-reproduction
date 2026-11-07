@@ -17,12 +17,14 @@
 
 - R7已完成：注册 `bab4052` 先于实现 `865b909`；相同反馈7,800配对场景，regret 0.279248→0.269499，命中率22.4997%→22.8971%，通过事前点估计联合门槛。36测试、独立投票/证据次序/15,600评分及区间核验通过；95%任务区间仍跨0。证据 `experiments/round-07/report.md`、`summary.json`、`verification.json`。分支 `codex/r7-evidence-tiebreak`，工作目录 `/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-r7`；复跑使用该分支干净的已提交目录，跨worktree按提交衔接。
 
+- R8已完成：注册f7c9440→来源补充9eb25eb（评分前恢复8条同次原API失败）→实现f0bc099→一次正式全量比较。78反馈表和6原始备份核验通过，26任务/23,400场景/70,200评分及78原生控制重演通过。GPT合并R6→R7命中率25.6843%→26.3705%，regret 0.294116→0.293416；点估计稳健性通过，regret区间跨0使联合区间标准未通过。45测试、冻结85文件及R6/R7保持；新增模型调用/训练0。证据 `experiments/round-08/report.md`、`summary.json`、`verification.json`；分支`codex/r8-gpt-feedback`，工作目录`/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-r8`。
+
 ## 待验证范围
 
 原历史 RNG 状态与真实复赛对手身份；11 个结构不完整批次；独立实时 LLM 重预测；新比较/汇总/早停策略；完整在线 Agent 训练及时间收益。Corpus 已查看，后续算法实验需另设评测范围。附件下载位置已登记在发布记录。
 
 ## 当前唯一下一步
 
-R8注册已提交f7c9440，来源补充9eb25eb在方法评分前恢复8条原始API失败；78文件及6份备份核验通过，45项测试通过。下一步按固定清单正式运行23,400场并独立核验；R7规则、原注册协议和范围保持。
+核对R6/R7之外任务的候选代码和可比真实分数，先形成下一轮数据可用性清单，再决定新反馈预算。R7作为跨反馈点估计通过的候选保留，原基线与全部实验记录保持。
 
 完整验证命令见 README。后续聊天先读本文件、相关实验轮次与冻结清单，以 Git 提交或实验版本衔接，运行输出保存在忽略目录 `runs/`。

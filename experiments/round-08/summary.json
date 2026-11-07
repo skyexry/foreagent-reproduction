@@ -1,0 +1,3983 @@
+{
+  "experiment_id": "round-08",
+  "provenance": {
+    "protocol_commit": "f7c94406c83915ee21341bff81fe64ac272d445f",
+    "implementation_commit": "f0bc0996236e034aeacba6231367351c9356b679",
+    "started_at_utc": "2026-11-07T13:38:35.797350+00:00",
+    "python": "3.12.5",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "canonical_sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536",
+    "data_validation_sha256": "b7d4564e02ee9a251cf394f7dfe946d375eb59a3396254f45d36b6680c938f8d",
+    "data_source_addendum_commit": "9eb25eb155f786f8372a47714a4c2b37e4dcf68f"
+  },
+  "scenarios": 23400,
+  "method_selection_scores": 70200,
+  "per_feedback_run": [
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "scenarios": 7800,
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.252474358974359,
+          "normalized_regret": 0.28836650302152045,
+          "selected_percentile": 0.5957577838827839,
+          "top_group_size": 1.3196153846153846,
+          "contains_best": 0.31038461538461537
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.26379700854700855,
+          "normalized_regret": 0.2858387356282097,
+          "selected_percentile": 0.6036339031339031,
+          "top_group_size": 1.5208974358974359,
+          "contains_best": 0.33589743589743587
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.2720192307692308,
+          "normalized_regret": 0.28322259651229464,
+          "selected_percentile": 0.6069928774928774,
+          "top_group_size": 1.1435897435897435,
+          "contains_best": 0.2903846153846154
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.008222222222222242,
+        "normalized_regret": -0.0026161391159150726,
+        "selected_percentile": 0.003358974358974365,
+        "top_group_size": -0.37730769230769234,
+        "contains_best": -0.04551282051282046
+      },
+      "per_task": [
+        {
+          "task": "aptos2019-blindness-detection",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0625,
+              "normalized_regret": 0.5406430960384453,
+              "selected_percentile": 0.33737654320987653,
+              "top_group_size": 1.41,
+              "contains_best": 0.09
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.056777777777777774,
+              "normalized_regret": 0.5208485806312051,
+              "selected_percentile": 0.3448456790123457,
+              "top_group_size": 1.91,
+              "contains_best": 0.10666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.07166666666666667,
+              "normalized_regret": 0.5759875610310309,
+              "selected_percentile": 0.31462962962962965,
+              "top_group_size": 1.23,
+              "contains_best": 0.08
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.014888888888888896,
+            "normalized_regret": 0.05513898039982579,
+            "selected_percentile": -0.030216049382716048,
+            "top_group_size": -0.6799999999999999,
+            "contains_best": -0.026666666666666672
+          }
+        },
+        {
+          "task": "denoising-dirty-documents",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.305,
+              "normalized_regret": 0.4001717114332299,
+              "selected_percentile": 0.5438888888888889,
+              "top_group_size": 1.2166666666666666,
+              "contains_best": 0.36666666666666664
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.3433333333333333,
+              "normalized_regret": 0.37685975988867243,
+              "selected_percentile": 0.5685802469135802,
+              "top_group_size": 1.3533333333333333,
+              "contains_best": 0.44
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.32166666666666666,
+              "normalized_regret": 0.3935525011090301,
+              "selected_percentile": 0.5492592592592592,
+              "top_group_size": 1.0966666666666667,
+              "contains_best": 0.3566666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.021666666666666667,
+            "normalized_regret": 0.016692741220357687,
+            "selected_percentile": -0.019320987654320998,
+            "top_group_size": -0.2566666666666666,
+            "contains_best": -0.08333333333333331
+          }
+        },
+        {
+          "task": "detecting-insults-in-social-commentary",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.1527777777777778,
+              "normalized_regret": 0.1086886486378346,
+              "selected_percentile": 0.6738888888888889,
+              "top_group_size": 1.39,
+              "contains_best": 0.20666666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.13622222222222222,
+              "normalized_regret": 0.12228140873191388,
+              "selected_percentile": 0.6627839506172839,
+              "top_group_size": 2.12,
+              "contains_best": 0.2733333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.13333333333333333,
+              "normalized_regret": 0.09416563342815283,
+              "selected_percentile": 0.6848148148148148,
+              "top_group_size": 1.33,
+              "contains_best": 0.17
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.0028888888888888853,
+            "normalized_regret": -0.028115775303761054,
+            "selected_percentile": 0.022030864197530864,
+            "top_group_size": -0.79,
+            "contains_best": -0.1033333333333333
+          }
+        },
+        {
+          "task": "dog-breed-identification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.83,
+              "normalized_regret": 0.17000000000000004,
+              "selected_percentile": 0.83,
+              "top_group_size": 1.34,
+              "contains_best": 1.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "google-quest-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.44416666666666665,
+              "normalized_regret": 0.1888256221134852,
+              "selected_percentile": 0.7478703703703704,
+              "top_group_size": 1.2766666666666666,
+              "contains_best": 0.52
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.43166666666666664,
+              "normalized_regret": 0.19958762812848282,
+              "selected_percentile": 0.7387654320987654,
+              "top_group_size": 1.4533333333333334,
+              "contains_best": 0.5733333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.47833333333333333,
+              "normalized_regret": 0.18680801215844253,
+              "selected_percentile": 0.7570370370370371,
+              "top_group_size": 1.1133333333333333,
+              "contains_best": 0.5
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.04666666666666669,
+            "normalized_regret": -0.012779615970040292,
+            "selected_percentile": 0.018271604938271624,
+            "top_group_size": -0.3400000000000001,
+            "contains_best": -0.07333333333333336
+          }
+        },
+        {
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.015,
+              "normalized_regret": 0.7808212735166443,
+              "selected_percentile": 0.07625,
+              "top_group_size": 1.46,
+              "contains_best": 0.03
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.003333333333333333,
+              "normalized_regret": 0.9935238784370478,
+              "selected_percentile": 0.005,
+              "top_group_size": 1.02,
+              "contains_best": 0.01
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.003333333333333333,
+              "normalized_regret": 0.9935238784370478,
+              "selected_percentile": 0.005,
+              "top_group_size": 1.02,
+              "contains_best": 0.01
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0.0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "leaf-classification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.14666666666666667,
+              "normalized_regret": 0.022289778710811017,
+              "selected_percentile": 0.6993209876543209,
+              "top_group_size": 1.28,
+              "contains_best": 0.18666666666666668
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.15166666666666667,
+              "normalized_regret": 0.023250857534199573,
+              "selected_percentile": 0.7037654320987654,
+              "top_group_size": 1.5633333333333332,
+              "contains_best": 0.23
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.15055555555555555,
+              "normalized_regret": 0.022309213405071884,
+              "selected_percentile": 0.697716049382716,
+              "top_group_size": 1.15,
+              "contains_best": 0.17666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.0011111111111111183,
+            "normalized_regret": -0.0009416441291276896,
+            "selected_percentile": -0.0060493827160493785,
+            "top_group_size": -0.41333333333333333,
+            "contains_best": -0.053333333333333344
+          }
+        },
+        {
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.6105555555555555,
+              "normalized_regret": 0.07748693157286422,
+              "selected_percentile": 0.8516049382716049,
+              "top_group_size": 1.29,
+              "contains_best": 0.7166666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.49772222222222223,
+              "normalized_regret": 0.0983289758627202,
+              "selected_percentile": 0.8095555555555556,
+              "top_group_size": 1.9233333333333333,
+              "contains_best": 0.84
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.6211111111111111,
+              "normalized_regret": 0.05870321687259725,
+              "selected_percentile": 0.8720987654320987,
+              "top_group_size": 1.1866666666666668,
+              "contains_best": 0.6933333333333334
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.12338888888888883,
+            "normalized_regret": -0.03962575899012295,
+            "selected_percentile": 0.06254320987654316,
+            "top_group_size": -0.7366666666666666,
+            "contains_best": -0.1466666666666666
+          }
+        },
+        {
+          "task": "lmsys-chatbot-arena",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.10966666666666666,
+              "normalized_regret": 0.5051337993915699,
+              "selected_percentile": 0.39371604938271604,
+              "top_group_size": 1.2733333333333334,
+              "contains_best": 0.13666666666666666
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.08555555555555555,
+              "normalized_regret": 0.49823461566084537,
+              "selected_percentile": 0.3874074074074074,
+              "top_group_size": 1.44,
+              "contains_best": 0.11
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.08833333333333333,
+              "normalized_regret": 0.5125373804162298,
+              "selected_percentile": 0.3827777777777778,
+              "top_group_size": 1.0833333333333333,
+              "contains_best": 0.09333333333333334
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.002777777777777782,
+            "normalized_regret": 0.01430276475538439,
+            "selected_percentile": -0.00462962962962965,
+            "top_group_size": -0.3566666666666667,
+            "contains_best": -0.016666666666666663
+          }
+        },
+        {
+          "task": "mlsp-2013-birds",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.09166666666666666,
+              "normalized_regret": 0.29392935198261994,
+              "selected_percentile": 0.5958333333333333,
+              "top_group_size": 1.2633333333333334,
+              "contains_best": 0.11666666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.10611111111111111,
+              "normalized_regret": 0.28109763661172826,
+              "selected_percentile": 0.6074691358024691,
+              "top_group_size": 1.4033333333333333,
+              "contains_best": 0.16666666666666666
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.09333333333333334,
+              "normalized_regret": 0.2866925280954027,
+              "selected_percentile": 0.595,
+              "top_group_size": 1.07,
+              "contains_best": 0.10333333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.012777777777777777,
+            "normalized_regret": 0.005594891483674425,
+            "selected_percentile": -0.012469135802469111,
+            "top_group_size": -0.33333333333333326,
+            "contains_best": -0.06333333333333332
+          }
+        },
+        {
+          "task": "new-york-city-taxi-fare-prediction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.2972222222222222,
+              "normalized_regret": 0.09674773465850513,
+              "selected_percentile": 0.5244444444444445,
+              "top_group_size": 1.2733333333333334,
+              "contains_best": 0.3466666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.32,
+              "normalized_regret": 0.09300579895637444,
+              "selected_percentile": 0.5348148148148149,
+              "top_group_size": 1.28,
+              "contains_best": 0.32
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.32,
+              "normalized_regret": 0.08281174407086744,
+              "selected_percentile": 0.5375925925925926,
+              "top_group_size": 1.0666666666666667,
+              "contains_best": 0.32
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": -0.010194054885506995,
+            "selected_percentile": 0.002777777777777768,
+            "top_group_size": -0.21333333333333337,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "nomad2018-predict-transparent-conductors",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.7866666666666666,
+              "normalized_regret": 0.11783873649210318,
+              "selected_percentile": 0.84,
+              "top_group_size": 1.64,
+              "contains_best": 1.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "petfinder-pawpularity-score",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.7916666666666666,
+              "normalized_regret": 0.19246714963011433,
+              "selected_percentile": 0.8392857142857143,
+              "top_group_size": 1.3366666666666667,
+              "contains_best": 0.96
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.835,
+              "normalized_regret": 0.16500000000000029,
+              "selected_percentile": 0.835,
+              "top_group_size": 1.33,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.8566666666666667,
+              "normalized_regret": 0.14333333333333345,
+              "selected_percentile": 0.8566666666666667,
+              "top_group_size": 1.1466666666666667,
+              "contains_best": 0.93
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.021666666666666723,
+            "normalized_regret": -0.021666666666666834,
+            "selected_percentile": 0.021666666666666723,
+            "top_group_size": -0.18333333333333335,
+            "contains_best": -0.06999999999999995
+          }
+        },
+        {
+          "task": "plant-pathology-2020-fgvc7",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.09895384369797715,
+              "selected_percentile": 0.7816666666666667,
+              "top_group_size": 1.1833333333333333,
+              "contains_best": 0.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0033333333333333335,
+              "normalized_regret": 0.11657343428124017,
+              "selected_percentile": 0.7436666666666667,
+              "top_group_size": 1.5766666666666667,
+              "contains_best": 0.006666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0033333333333333335,
+              "normalized_regret": 0.09839140878581246,
+              "selected_percentile": 0.7903333333333333,
+              "top_group_size": 1.11,
+              "contains_best": 0.006666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": -0.018182025495427717,
+            "selected_percentile": 0.046666666666666634,
+            "top_group_size": -0.46666666666666656,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.49833333333333335,
+              "normalized_regret": 0.26795770271248426,
+              "selected_percentile": 0.6305555555555555,
+              "top_group_size": 1.17,
+              "contains_best": 0.55
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.485,
+              "normalized_regret": 0.2789841949281468,
+              "selected_percentile": 0.635432098765432,
+              "top_group_size": 1.3633333333333333,
+              "contains_best": 0.57
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.5388888888888889,
+              "normalized_regret": 0.25187913892173464,
+              "selected_percentile": 0.6574691358024691,
+              "top_group_size": 1.08,
+              "contains_best": 0.5533333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.053888888888888875,
+            "normalized_regret": -0.027105056006412165,
+            "selected_percentile": 0.022037037037037077,
+            "top_group_size": -0.2833333333333332,
+            "contains_best": -0.016666666666666607
+          }
+        },
+        {
+          "task": "random-acts-of-pizza",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.025277777777777777,
+              "normalized_regret": 0.4150265316770044,
+              "selected_percentile": 0.5014197530864197,
+              "top_group_size": 1.2766666666666666,
+              "contains_best": 0.04
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.02288888888888889,
+              "normalized_regret": 0.4118389527277073,
+              "selected_percentile": 0.5066913580246913,
+              "top_group_size": 1.68,
+              "contains_best": 0.05333333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.011666666666666667,
+              "normalized_regret": 0.41432556019396877,
+              "selected_percentile": 0.4985802469135802,
+              "top_group_size": 1.1733333333333333,
+              "contains_best": 0.016666666666666666
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.011222222222222222,
+            "normalized_regret": 0.002486607466261448,
+            "selected_percentile": -0.008111111111111124,
+            "top_group_size": -0.5066666666666666,
+            "contains_best": -0.03666666666666667
+          }
+        },
+        {
+          "task": "spooky-author-identification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.27666666666666667,
+              "normalized_regret": 0.13342525322945534,
+              "selected_percentile": 0.7842592592592592,
+              "top_group_size": 1.2666666666666666,
+              "contains_best": 0.3466666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.26166666666666666,
+              "normalized_regret": 0.14128991067881733,
+              "selected_percentile": 0.7755555555555556,
+              "top_group_size": 1.19,
+              "contains_best": 0.31666666666666665
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.25833333333333336,
+              "normalized_regret": 0.13455016060948083,
+              "selected_percentile": 0.7814814814814814,
+              "top_group_size": 1.0266666666666666,
+              "contains_best": 0.2633333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.0033333333333332993,
+            "normalized_regret": -0.0067397500693364976,
+            "selected_percentile": 0.00592592592592589,
+            "top_group_size": -0.16333333333333333,
+            "contains_best": -0.053333333333333344
+          }
+        },
+        {
+          "task": "stanford-covid-vaccine",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.17444444444444446,
+              "normalized_regret": 0.18391533265599075,
+              "selected_percentile": 0.6396296296296297,
+              "top_group_size": 1.3533333333333333,
+              "contains_best": 0.24
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.17166666666666666,
+              "normalized_regret": 0.169465809556659,
+              "selected_percentile": 0.6517901234567901,
+              "top_group_size": 1.62,
+              "contains_best": 0.27
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.16111111111111112,
+              "normalized_regret": 0.174832677353635,
+              "selected_percentile": 0.639320987654321,
+              "top_group_size": 1.2066666666666668,
+              "contains_best": 0.19
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.01055555555555554,
+            "normalized_regret": 0.00536686779697601,
+            "selected_percentile": -0.012469135802469111,
+            "top_group_size": -0.41333333333333333,
+            "contains_best": -0.08000000000000002
+          }
+        },
+        {
+          "task": "statoil-iceberg-classifier-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.16,
+              "normalized_regret": 0.1587599233475037,
+              "selected_percentile": 0.7111111111111111,
+              "top_group_size": 1.22,
+              "contains_best": 0.2
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.185,
+              "normalized_regret": 0.15806163710238164,
+              "selected_percentile": 0.7219753086419752,
+              "top_group_size": 1.5766666666666667,
+              "contains_best": 0.30666666666666664
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.15611111111111112,
+              "normalized_regret": 0.16868909962086506,
+              "selected_percentile": 0.7077777777777777,
+              "top_group_size": 1.13,
+              "contains_best": 0.18666666666666668
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.02888888888888888,
+            "normalized_regret": 0.010627462518483427,
+            "selected_percentile": -0.014197530864197505,
+            "top_group_size": -0.44666666666666677,
+            "contains_best": -0.11999999999999997
+          }
+        },
+        {
+          "task": "tabular-playground-series-dec-2021",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0016666666666666668,
+              "normalized_regret": 0.34770224840200215,
+              "selected_percentile": 0.24944444444444444,
+              "top_group_size": 1.2833333333333334,
+              "contains_best": 0.0033333333333333335
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.011666666666666667,
+              "normalized_regret": 0.3555178322964044,
+              "selected_percentile": 0.2458641975308642,
+              "top_group_size": 1.4033333333333333,
+              "contains_best": 0.023333333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0033333333333333335,
+              "normalized_regret": 0.35374112118275264,
+              "selected_percentile": 0.24419753086419752,
+              "top_group_size": 1.1233333333333333,
+              "contains_best": 0.006666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.008333333333333333,
+            "normalized_regret": -0.001776711113651741,
+            "selected_percentile": -0.0016666666666666774,
+            "top_group_size": -0.28,
+            "contains_best": -0.016666666666666666
+          }
+        },
+        {
+          "task": "tensorflow-speech-recognition-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.1313888888888889,
+              "normalized_regret": 0.31351390278739594,
+              "selected_percentile": 0.6657716049382716,
+              "top_group_size": 1.3166666666666667,
+              "contains_best": 0.18666666666666668
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.13027777777777777,
+              "normalized_regret": 0.3303618629255991,
+              "selected_percentile": 0.649104938271605,
+              "top_group_size": 1.5633333333333332,
+              "contains_best": 0.21666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.1461111111111111,
+              "normalized_regret": 0.3110834061028526,
+              "selected_percentile": 0.6708641975308642,
+              "top_group_size": 1.1466666666666667,
+              "contains_best": 0.16333333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.015833333333333338,
+            "normalized_regret": -0.01927845682274648,
+            "selected_percentile": 0.021759259259259256,
+            "top_group_size": -0.4166666666666665,
+            "contains_best": -0.053333333333333344
+          }
+        },
+        {
+          "task": "tgs-salt-identification-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.17616666666666667,
+              "normalized_regret": 0.3502648430044013,
+              "selected_percentile": 0.44775925925925925,
+              "top_group_size": 1.22,
+              "contains_best": 0.22666666666666666
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.19027777777777777,
+              "normalized_regret": 0.3423405303183437,
+              "selected_percentile": 0.46175925925925926,
+              "top_group_size": 1.3233333333333333,
+              "contains_best": 0.27
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.19777777777777777,
+              "normalized_regret": 0.3378414198333005,
+              "selected_percentile": 0.4664506172839506,
+              "top_group_size": 1.1033333333333333,
+              "contains_best": 0.22
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.007500000000000007,
+            "normalized_regret": -0.004499110485043201,
+            "selected_percentile": 0.004691358024691339,
+            "top_group_size": -0.21999999999999997,
+            "contains_best": -0.05000000000000002
+          }
+        },
+        {
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.059166666666666666,
+              "normalized_regret": 0.7212553386123455,
+              "selected_percentile": 0.37834567901234567,
+              "top_group_size": 1.41,
+              "contains_best": 0.08
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.05138888888888889,
+              "normalized_regret": 0.716174649279698,
+              "selected_percentile": 0.37269135802469133,
+              "top_group_size": 2.216666666666667,
+              "contains_best": 0.1
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.07222222222222222,
+              "normalized_regret": 0.740976658305173,
+              "selected_percentile": 0.35388888888888886,
+              "top_group_size": 1.4066666666666667,
+              "contains_best": 0.08333333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.02083333333333333,
+            "normalized_regret": 0.024802009025475025,
+            "selected_percentile": -0.01880246913580247,
+            "top_group_size": -0.81,
+            "contains_best": -0.016666666666666677
+          }
+        },
+        {
+          "task": "tweet-sentiment-extraction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.09011111111111111,
+              "normalized_regret": 0.7804771143593766,
+              "selected_percentile": 0.4181913580246914,
+              "top_group_size": 1.5866666666666667,
+              "contains_best": 0.1
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.05361111111111111,
+              "normalized_regret": 0.8062348057645128,
+              "selected_percentile": 0.39901234567901234,
+              "top_group_size": 2.5366666666666666,
+              "contains_best": 0.1
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.07083333333333333,
+              "normalized_regret": 0.7926283804121862,
+              "selected_percentile": 0.40367283950617283,
+              "top_group_size": 1.58,
+              "contains_best": 0.08666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.017222222222222222,
+            "normalized_regret": -0.01360642535232659,
+            "selected_percentile": 0.0046604938271604945,
+            "top_group_size": -0.9566666666666666,
+            "contains_best": -0.013333333333333336
+          }
+        },
+        {
+          "task": "us-patent-phrase-to-phrase-matching",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.2708888888888889,
+              "normalized_regret": 0.12281843601128799,
+              "selected_percentile": 0.7395493827160494,
+              "top_group_size": 1.2833333333333334,
+              "contains_best": 0.33666666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.2673333333333333,
+              "normalized_regret": 0.11915755837621152,
+              "selected_percentile": 0.7523333333333333,
+              "top_group_size": 1.3333333333333333,
+              "contains_best": 0.34
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.26611111111111113,
+              "normalized_regret": 0.1226781008936281,
+              "selected_percentile": 0.740432098765432,
+              "top_group_size": 1.07,
+              "contains_best": 0.2833333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.0012222222222221801,
+            "normalized_regret": 0.0035205425174165833,
+            "selected_percentile": -0.011901234567901264,
+            "top_group_size": -0.2633333333333332,
+            "contains_best": -0.0566666666666667
+          }
+        },
+        {
+          "task": "ventilator-pressure-prediction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.056666666666666664,
+              "normalized_regret": 0.10841477388407937,
+              "selected_percentile": 0.5885185185185186,
+              "top_group_size": 1.29,
+              "contains_best": 0.08333333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.05722222222222222,
+              "normalized_regret": 0.11378680765454091,
+              "selected_percentile": 0.5806172839506173,
+              "top_group_size": 1.3633333333333333,
+              "contains_best": 0.09
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.04833333333333333,
+              "normalized_regret": 0.11174537474706457,
+              "selected_percentile": 0.5747530864197531,
+              "top_group_size": 1.0833333333333333,
+              "contains_best": 0.056666666666666664
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.00888888888888889,
+            "normalized_regret": -0.00204143290747634,
+            "selected_percentile": -0.005864197530864201,
+            "top_group_size": -0.28,
+            "contains_best": -0.03333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "scenarios": 7800,
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.2594465811965812,
+          "normalized_regret": 0.2868263705388239,
+          "selected_percentile": 0.5986024623524624,
+          "top_group_size": 1.3144871794871795,
+          "contains_best": 0.31064102564102564
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.2647905982905983,
+          "normalized_regret": 0.28696894824347347,
+          "selected_percentile": 0.6003547008547009,
+          "top_group_size": 1.576025641025641,
+          "contains_best": 0.3403846153846154
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.27047863247863246,
+          "normalized_regret": 0.2862085142054689,
+          "selected_percentile": 0.6016274928774928,
+          "top_group_size": 1.182948717948718,
+          "contains_best": 0.2966666666666667
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.005688034188034152,
+        "normalized_regret": -0.000760434038004576,
+        "selected_percentile": 0.0012727920227919576,
+        "top_group_size": -0.3930769230769231,
+        "contains_best": -0.04371794871794871
+      },
+      "per_task": [
+        {
+          "task": "aptos2019-blindness-detection",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.049166666666666664,
+              "normalized_regret": 0.568918340150066,
+              "selected_percentile": 0.3267901234567901,
+              "top_group_size": 1.45,
+              "contains_best": 0.07666666666666666
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.06861111111111111,
+              "normalized_regret": 0.514918109780886,
+              "selected_percentile": 0.37206172839506174,
+              "top_group_size": 1.9266666666666667,
+              "contains_best": 0.11333333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.056666666666666664,
+              "normalized_regret": 0.5816714294316591,
+              "selected_percentile": 0.31938271604938273,
+              "top_group_size": 1.21,
+              "contains_best": 0.06
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.011944444444444445,
+            "normalized_regret": 0.06675331965077302,
+            "selected_percentile": -0.05267901234567901,
+            "top_group_size": -0.7166666666666668,
+            "contains_best": -0.05333333333333333
+          }
+        },
+        {
+          "task": "denoising-dirty-documents",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.2725,
+              "normalized_regret": 0.4683815148202941,
+              "selected_percentile": 0.47314814814814815,
+              "top_group_size": 1.21,
+              "contains_best": 0.32
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.2891666666666667,
+              "normalized_regret": 0.45653970860149634,
+              "selected_percentile": 0.4891358024691358,
+              "top_group_size": 1.3333333333333333,
+              "contains_best": 0.3433333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.28444444444444444,
+              "normalized_regret": 0.46656705887620215,
+              "selected_percentile": 0.47672839506172837,
+              "top_group_size": 1.0633333333333332,
+              "contains_best": 0.29333333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.004722222222222239,
+            "normalized_regret": 0.010027350274705804,
+            "selected_percentile": -0.012407407407407423,
+            "top_group_size": -0.27,
+            "contains_best": -0.04999999999999999
+          }
+        },
+        {
+          "task": "detecting-insults-in-social-commentary",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.17055555555555554,
+              "normalized_regret": 0.12557295894703607,
+              "selected_percentile": 0.5937037037037037,
+              "top_group_size": 1.46,
+              "contains_best": 0.23
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.15044444444444444,
+              "normalized_regret": 0.13260427636689395,
+              "selected_percentile": 0.5825555555555555,
+              "top_group_size": 2.3233333333333333,
+              "contains_best": 0.3333333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.16733333333333333,
+              "normalized_regret": 0.11939612291658534,
+              "selected_percentile": 0.5870925925925926,
+              "top_group_size": 1.3833333333333333,
+              "contains_best": 0.21
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.016888888888888898,
+            "normalized_regret": -0.01320815345030861,
+            "selected_percentile": 0.004537037037037117,
+            "top_group_size": -0.94,
+            "contains_best": -0.12333333333333332
+          }
+        },
+        {
+          "task": "dog-breed-identification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.83,
+              "normalized_regret": 0.17000000000000004,
+              "selected_percentile": 0.83,
+              "top_group_size": 1.34,
+              "contains_best": 1.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "google-quest-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.46166666666666667,
+              "normalized_regret": 0.22666030594128792,
+              "selected_percentile": 0.7193827160493828,
+              "top_group_size": 1.32,
+              "contains_best": 0.56
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.47888888888888886,
+              "normalized_regret": 0.2142209027085143,
+              "selected_percentile": 0.7362962962962963,
+              "top_group_size": 1.3133333333333332,
+              "contains_best": 0.5866666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.5022222222222222,
+              "normalized_regret": 0.20122663419479908,
+              "selected_percentile": 0.743641975308642,
+              "top_group_size": 1.1,
+              "contains_best": 0.5333333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.023333333333333373,
+            "normalized_regret": -0.012994268513715213,
+            "selected_percentile": 0.007345679012345618,
+            "top_group_size": -0.21333333333333315,
+            "contains_best": -0.053333333333333344
+          }
+        },
+        {
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.22,
+              "normalized_regret": 0.671500241196335,
+              "selected_percentile": 0.25583333333333336,
+              "top_group_size": 1.36,
+              "contains_best": 0.2833333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.165,
+              "normalized_regret": 0.8047491558128329,
+              "selected_percentile": 0.17916666666666667,
+              "top_group_size": 1.41,
+              "contains_best": 0.3333333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.185,
+              "normalized_regret": 0.7894633381572604,
+              "selected_percentile": 0.19666666666666666,
+              "top_group_size": 1.2066666666666668,
+              "contains_best": 0.25666666666666665
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.01999999999999999,
+            "normalized_regret": -0.015285817655572465,
+            "selected_percentile": 0.017499999999999988,
+            "top_group_size": -0.20333333333333314,
+            "contains_best": -0.07666666666666666
+          }
+        },
+        {
+          "task": "leaf-classification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.39666666666666667,
+              "normalized_regret": 0.026614050206677137,
+              "selected_percentile": 0.7706172839506172,
+              "top_group_size": 1.3466666666666667,
+              "contains_best": 0.48
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.38055555555555554,
+              "normalized_regret": 0.03137239764397659,
+              "selected_percentile": 0.7639197530864198,
+              "top_group_size": 1.5833333333333333,
+              "contains_best": 0.47
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.43222222222222223,
+              "normalized_regret": 0.02634202183719791,
+              "selected_percentile": 0.7762962962962963,
+              "top_group_size": 1.17,
+              "contains_best": 0.45
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.051666666666666694,
+            "normalized_regret": -0.005030375806778682,
+            "selected_percentile": 0.012376543209876467,
+            "top_group_size": -0.41333333333333333,
+            "contains_best": -0.019999999999999962
+          }
+        },
+        {
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.6425,
+              "normalized_regret": 0.04262264563100713,
+              "selected_percentile": 0.909074074074074,
+              "top_group_size": 1.2066666666666668,
+              "contains_best": 0.7266666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.6513888888888889,
+              "normalized_regret": 0.06110840865995793,
+              "selected_percentile": 0.8917283950617284,
+              "top_group_size": 1.5,
+              "contains_best": 0.8333333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.6577777777777778,
+              "normalized_regret": 0.035694580390996725,
+              "selected_percentile": 0.9191975308641975,
+              "top_group_size": 1.1133333333333333,
+              "contains_best": 0.7033333333333334
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.006388888888888888,
+            "normalized_regret": -0.025413828268961207,
+            "selected_percentile": 0.027469135802469125,
+            "top_group_size": -0.3866666666666667,
+            "contains_best": -0.13
+          }
+        },
+        {
+          "task": "lmsys-chatbot-arena",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.1358888888888889,
+              "normalized_regret": 0.41585643024407437,
+              "selected_percentile": 0.4702098765432099,
+              "top_group_size": 1.33,
+              "contains_best": 0.18333333333333332
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.14972222222222223,
+              "normalized_regret": 0.42849020619677564,
+              "selected_percentile": 0.4737654320987654,
+              "top_group_size": 1.65,
+              "contains_best": 0.25
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.13833333333333334,
+              "normalized_regret": 0.4266408610866255,
+              "selected_percentile": 0.46839506172839507,
+              "top_group_size": 1.1733333333333333,
+              "contains_best": 0.17
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.011388888888888893,
+            "normalized_regret": -0.0018493451101501135,
+            "selected_percentile": -0.005370370370370359,
+            "top_group_size": -0.47666666666666657,
+            "contains_best": -0.07999999999999999
+          }
+        },
+        {
+          "task": "mlsp-2013-birds",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.10055555555555555,
+              "normalized_regret": 0.28370547383096395,
+              "selected_percentile": 0.6361111111111111,
+              "top_group_size": 1.2666666666666666,
+              "contains_best": 0.13666666666666666
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.10277777777777777,
+              "normalized_regret": 0.2838023905342067,
+              "selected_percentile": 0.6346296296296297,
+              "top_group_size": 1.45,
+              "contains_best": 0.15333333333333332
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.10666666666666667,
+              "normalized_regret": 0.28507366935586065,
+              "selected_percentile": 0.6351851851851852,
+              "top_group_size": 1.1,
+              "contains_best": 0.11666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0038888888888889,
+            "normalized_regret": 0.001271278821653954,
+            "selected_percentile": 0.0005555555555555314,
+            "top_group_size": -0.34999999999999987,
+            "contains_best": -0.03666666666666665
+          }
+        },
+        {
+          "task": "new-york-city-taxi-fare-prediction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.2966666666666667,
+              "normalized_regret": 0.07964478503621827,
+              "selected_percentile": 0.5225925925925926,
+              "top_group_size": 1.22,
+              "contains_best": 0.32666666666666666
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.31166666666666665,
+              "normalized_regret": 0.0758332489925354,
+              "selected_percentile": 0.5267901234567901,
+              "top_group_size": 1.2033333333333334,
+              "contains_best": 0.32
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.31833333333333336,
+              "normalized_regret": 0.0806113732109919,
+              "selected_percentile": 0.5270370370370371,
+              "top_group_size": 1.0333333333333334,
+              "contains_best": 0.32
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.00666666666666671,
+            "normalized_regret": 0.0047781242184565115,
+            "selected_percentile": 0.00024691358024697685,
+            "top_group_size": -0.16999999999999993,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "nomad2018-predict-transparent-conductors",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.47,
+              "normalized_regret": 0.05551122194513765,
+              "selected_percentile": 0.735,
+              "top_group_size": 1,
+              "contains_best": 0.47
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.485,
+              "normalized_regret": 0.05394014962593564,
+              "selected_percentile": 0.7425,
+              "top_group_size": 1.39,
+              "contains_best": 0.68
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.485,
+              "normalized_regret": 0.05394014962593564,
+              "selected_percentile": 0.7425,
+              "top_group_size": 1.39,
+              "contains_best": 0.68
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0.0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "petfinder-pawpularity-score",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.8166666666666667,
+              "normalized_regret": 0.16714982595604994,
+              "selected_percentile": 0.8652380952380953,
+              "top_group_size": 1.32,
+              "contains_best": 0.9766666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.8333333333333334,
+              "normalized_regret": 0.16666666666666696,
+              "selected_percentile": 0.8333333333333334,
+              "top_group_size": 1.3333333333333333,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.8533333333333334,
+              "normalized_regret": 0.14666666666666678,
+              "selected_percentile": 0.8533333333333334,
+              "top_group_size": 1.1266666666666667,
+              "contains_best": 0.9166666666666666
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.020000000000000018,
+            "normalized_regret": -0.020000000000000184,
+            "selected_percentile": 0.020000000000000018,
+            "top_group_size": -0.20666666666666655,
+            "contains_best": -0.08333333333333337
+          }
+        },
+        {
+          "task": "plant-pathology-2020-fgvc7",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.006944444444444444,
+              "normalized_regret": 0.3522511079184818,
+              "selected_percentile": 0.5106666666666667,
+              "top_group_size": 1.6266666666666667,
+              "contains_best": 0.02
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0016666666666666668,
+              "normalized_regret": 0.32283437093794914,
+              "selected_percentile": 0.533,
+              "top_group_size": 2.05,
+              "contains_best": 0.0033333333333333335
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0016666666666666668,
+              "normalized_regret": 0.3524685107903281,
+              "selected_percentile": 0.5083333333333333,
+              "top_group_size": 1.7433333333333334,
+              "contains_best": 0.0033333333333333335
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.02963413985237895,
+            "selected_percentile": -0.024666666666666726,
+            "top_group_size": -0.3066666666666664,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.5033333333333333,
+              "normalized_regret": 0.27528865400611613,
+              "selected_percentile": 0.6726543209876543,
+              "top_group_size": 1.2133333333333334,
+              "contains_best": 0.55
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.4975,
+              "normalized_regret": 0.27991547468304645,
+              "selected_percentile": 0.665,
+              "top_group_size": 1.34,
+              "contains_best": 0.56
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.5158333333333334,
+              "normalized_regret": 0.2686856174915484,
+              "selected_percentile": 0.6766666666666666,
+              "top_group_size": 1.1,
+              "contains_best": 0.5366666666666666
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.018333333333333368,
+            "normalized_regret": -0.01122985719149805,
+            "selected_percentile": 0.011666666666666603,
+            "top_group_size": -0.24,
+            "contains_best": -0.023333333333333428
+          }
+        },
+        {
+          "task": "random-acts-of-pizza",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.041666666666666664,
+              "normalized_regret": 0.3401848542043975,
+              "selected_percentile": 0.5903086419753086,
+              "top_group_size": 1.2133333333333334,
+              "contains_best": 0.05
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.041666666666666664,
+              "normalized_regret": 0.3577941568984407,
+              "selected_percentile": 0.5747407407407408,
+              "top_group_size": 1.61,
+              "contains_best": 0.07
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.03833333333333333,
+              "normalized_regret": 0.3493577830453541,
+              "selected_percentile": 0.5819753086419753,
+              "top_group_size": 1.11,
+              "contains_best": 0.043333333333333335
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.003333333333333334,
+            "normalized_regret": -0.008436373853086598,
+            "selected_percentile": 0.0072345679012345565,
+            "top_group_size": -0.5,
+            "contains_best": -0.026666666666666672
+          }
+        },
+        {
+          "task": "spooky-author-identification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.325,
+              "normalized_regret": 0.1398583501448876,
+              "selected_percentile": 0.7688888888888888,
+              "top_group_size": 1.2633333333333334,
+              "contains_best": 0.4
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.2816666666666667,
+              "normalized_regret": 0.14396543853660393,
+              "selected_percentile": 0.7588888888888888,
+              "top_group_size": 1.14,
+              "contains_best": 0.31333333333333335
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.295,
+              "normalized_regret": 0.13981433648752659,
+              "selected_percentile": 0.7672222222222222,
+              "top_group_size": 1.02,
+              "contains_best": 0.2966666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.013333333333333308,
+            "normalized_regret": -0.004151102049077343,
+            "selected_percentile": 0.008333333333333415,
+            "top_group_size": -0.11999999999999988,
+            "contains_best": -0.016666666666666663
+          }
+        },
+        {
+          "task": "stanford-covid-vaccine",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.14944444444444444,
+              "normalized_regret": 0.17378920149495009,
+              "selected_percentile": 0.6382716049382716,
+              "top_group_size": 1.3033333333333332,
+              "contains_best": 0.18
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.155,
+              "normalized_regret": 0.16718150580623653,
+              "selected_percentile": 0.6348148148148148,
+              "top_group_size": 1.52,
+              "contains_best": 0.27
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.16444444444444445,
+              "normalized_regret": 0.17208968224808066,
+              "selected_percentile": 0.6319135802469136,
+              "top_group_size": 1.1233333333333333,
+              "contains_best": 0.19333333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.00944444444444445,
+            "normalized_regret": 0.004908176441844131,
+            "selected_percentile": -0.0029012345679012563,
+            "top_group_size": -0.3966666666666667,
+            "contains_best": -0.07666666666666669
+          }
+        },
+        {
+          "task": "statoil-iceberg-classifier-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.19833333333333333,
+              "normalized_regret": 0.14410250640690558,
+              "selected_percentile": 0.73,
+              "top_group_size": 1.21,
+              "contains_best": 0.25333333333333335
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.22611111111111112,
+              "normalized_regret": 0.16295195765882667,
+              "selected_percentile": 0.7301234567901235,
+              "top_group_size": 1.6066666666666667,
+              "contains_best": 0.3433333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.19333333333333333,
+              "normalized_regret": 0.14584009292521802,
+              "selected_percentile": 0.7329629629629629,
+              "top_group_size": 1.1233333333333333,
+              "contains_best": 0.21666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.032777777777777795,
+            "normalized_regret": -0.01711186473360865,
+            "selected_percentile": 0.0028395061728394566,
+            "top_group_size": -0.4833333333333334,
+            "contains_best": -0.12666666666666665
+          }
+        },
+        {
+          "task": "tabular-playground-series-dec-2021",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0016666666666666668,
+              "normalized_regret": 0.37317826240065805,
+              "selected_percentile": 0.23592592592592593,
+              "top_group_size": 1.2366666666666666,
+              "contains_best": 0.0033333333333333335
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.37040933065264736,
+              "selected_percentile": 0.22950617283950617,
+              "top_group_size": 1.41,
+              "contains_best": 0.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.37146391612978924,
+              "selected_percentile": 0.22555555555555554,
+              "top_group_size": 1.1066666666666667,
+              "contains_best": 0.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0010545854771418783,
+            "selected_percentile": -0.00395061728395063,
+            "top_group_size": -0.30333333333333323,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "tensorflow-speech-recognition-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.077,
+              "normalized_regret": 0.3754986295593877,
+              "selected_percentile": 0.613179012345679,
+              "top_group_size": 1.3166666666666667,
+              "contains_best": 0.1
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.08555555555555555,
+              "normalized_regret": 0.3890642437298203,
+              "selected_percentile": 0.605216049382716,
+              "top_group_size": 1.6866666666666668,
+              "contains_best": 0.11666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.08666666666666667,
+              "normalized_regret": 0.36612038557607807,
+              "selected_percentile": 0.6166666666666667,
+              "top_group_size": 1.14,
+              "contains_best": 0.09666666666666666
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0011111111111111183,
+            "normalized_regret": -0.022943858153742225,
+            "selected_percentile": 0.011450617283950693,
+            "top_group_size": -0.5466666666666669,
+            "contains_best": -0.020000000000000004
+          }
+        },
+        {
+          "task": "tgs-salt-identification-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.107,
+              "normalized_regret": 0.34056094917535357,
+              "selected_percentile": 0.42877777777777776,
+              "top_group_size": 1.29,
+              "contains_best": 0.15666666666666668
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.09666666666666666,
+              "normalized_regret": 0.3554945862932774,
+              "selected_percentile": 0.42339506172839503,
+              "top_group_size": 1.3433333333333333,
+              "contains_best": 0.12333333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.10333333333333333,
+              "normalized_regret": 0.3548188362937173,
+              "selected_percentile": 0.4209259259259259,
+              "top_group_size": 1.09,
+              "contains_best": 0.11
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.006666666666666668,
+            "normalized_regret": -0.0006757499995601046,
+            "selected_percentile": -0.0024691358024691024,
+            "top_group_size": -0.2533333333333332,
+            "contains_best": -0.013333333333333336
+          }
+        },
+        {
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.043944444444444446,
+              "normalized_regret": 0.6974559013488447,
+              "selected_percentile": 0.40013580246913577,
+              "top_group_size": 1.4066666666666667,
+              "contains_best": 0.06333333333333334
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.022555555555555554,
+              "normalized_regret": 0.7107730754952197,
+              "selected_percentile": 0.380320987654321,
+              "top_group_size": 2.2333333333333334,
+              "contains_best": 0.06
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0295,
+              "normalized_regret": 0.7524678772168552,
+              "selected_percentile": 0.35291358024691355,
+              "top_group_size": 1.39,
+              "contains_best": 0.04666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.006944444444444444,
+            "normalized_regret": 0.04169480172163542,
+            "selected_percentile": -0.027407407407407436,
+            "top_group_size": -0.8433333333333335,
+            "contains_best": -0.013333333333333329
+          }
+        },
+        {
+          "task": "tweet-sentiment-extraction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.04811111111111111,
+              "normalized_regret": 0.7440554006460768,
+              "selected_percentile": 0.4938641975308642,
+              "top_group_size": 1.78,
+              "contains_best": 0.06666666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.024055555555555556,
+              "normalized_regret": 0.7837783212062915,
+              "selected_percentile": 0.4610864197530864,
+              "top_group_size": 2.8566666666666665,
+              "contains_best": 0.06666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.032,
+              "normalized_regret": 0.758560700887598,
+              "selected_percentile": 0.4929567901234568,
+              "top_group_size": 1.56,
+              "contains_best": 0.05333333333333334
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.007944444444444445,
+            "normalized_regret": -0.025217620318693568,
+            "selected_percentile": 0.03187037037037038,
+            "top_group_size": -1.2966666666666664,
+            "contains_best": -0.013333333333333329
+          }
+        },
+        {
+          "task": "us-patent-phrase-to-phrase-matching",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.35,
+              "normalized_regret": 0.1076120571002435,
+              "selected_percentile": 0.7896296296296296,
+              "top_group_size": 1.1866666666666668,
+              "contains_best": 0.4033333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.34,
+              "normalized_regret": 0.10057459725503916,
+              "selected_percentile": 0.8001851851851851,
+              "top_group_size": 1.2566666666666666,
+              "contains_best": 0.42
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.35833333333333334,
+              "normalized_regret": 0.10869055807826876,
+              "selected_percentile": 0.7911111111111111,
+              "top_group_size": 1.06,
+              "contains_best": 0.37
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.018333333333333313,
+            "normalized_regret": 0.008115960823229601,
+            "selected_percentile": -0.009074074074074012,
+            "top_group_size": -0.19666666666666655,
+            "contains_best": -0.04999999999999999
+          }
+        },
+        {
+          "task": "ventilator-pressure-prediction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.030333333333333334,
+              "normalized_regret": 0.09151196569797117,
+              "selected_percentile": 0.5836604938271605,
+              "top_group_size": 1.3,
+              "contains_best": 0.06
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.04555555555555556,
+              "normalized_regret": 0.09220997358623333,
+              "selected_percentile": 0.5870617283950618,
+              "top_group_size": 1.5066666666666666,
+              "contains_best": 0.08666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.02666666666666667,
+              "normalized_regret": 0.08774916642104821,
+              "selected_percentile": 0.5976543209876544,
+              "top_group_size": 1.12,
+              "contains_best": 0.03666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.01888888888888889,
+            "normalized_regret": -0.004460807165185113,
+            "selected_percentile": 0.010592592592592598,
+            "top_group_size": -0.3866666666666665,
+            "contains_best": -0.05
+          }
+        }
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "scenarios": 7800,
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.22725747863247864,
+          "normalized_regret": 0.317482959788239,
+          "selected_percentile": 0.5792198310948311,
+          "top_group_size": 1.346794871794872,
+          "contains_best": 0.28717948717948716
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.24194123931623931,
+          "normalized_regret": 0.30954056714039574,
+          "selected_percentile": 0.5941883563966898,
+          "top_group_size": 1.527820512820513,
+          "contains_best": 0.31051282051282053
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.248616452991453,
+          "normalized_regret": 0.31081728005100356,
+          "selected_percentile": 0.5944007427757427,
+          "top_group_size": 1.146153846153846,
+          "contains_best": 0.2684615384615385
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.006675213675213676,
+        "normalized_regret": 0.0012767129106078245,
+        "selected_percentile": 0.00021238637905296454,
+        "top_group_size": -0.3816666666666668,
+        "contains_best": -0.04205128205128206
+      },
+      "per_task": [
+        {
+          "task": "aptos2019-blindness-detection",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.05561111111111111,
+              "normalized_regret": 0.5751419509894622,
+              "selected_percentile": 0.30857407407407406,
+              "top_group_size": 1.4566666666666668,
+              "contains_best": 0.09
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.06305555555555556,
+              "normalized_regret": 0.5708857386167986,
+              "selected_percentile": 0.31146296296296294,
+              "top_group_size": 2.0033333333333334,
+              "contains_best": 0.10333333333333333
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.08777777777777777,
+              "normalized_regret": 0.6136103710508044,
+              "selected_percentile": 0.28924074074074074,
+              "top_group_size": 1.2633333333333334,
+              "contains_best": 0.09333333333333334
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.024722222222222215,
+            "normalized_regret": 0.042724632434005816,
+            "selected_percentile": -0.0222222222222222,
+            "top_group_size": -0.74,
+            "contains_best": -0.009999999999999995
+          }
+        },
+        {
+          "task": "denoising-dirty-documents",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.26666666666666666,
+              "normalized_regret": 0.4296775386529567,
+              "selected_percentile": 0.5133333333333333,
+              "top_group_size": 1.2533333333333334,
+              "contains_best": 0.3433333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.24055555555555555,
+              "normalized_regret": 0.42162684637021053,
+              "selected_percentile": 0.5175925925925926,
+              "top_group_size": 1.4366666666666668,
+              "contains_best": 0.32666666666666666
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.24833333333333332,
+              "normalized_regret": 0.4269213131023774,
+              "selected_percentile": 0.5146913580246913,
+              "top_group_size": 1.1066666666666667,
+              "contains_best": 0.27666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.007777777777777772,
+            "normalized_regret": 0.00529446673216688,
+            "selected_percentile": -0.0029012345679012563,
+            "top_group_size": -0.33000000000000007,
+            "contains_best": -0.04999999999999999
+          }
+        },
+        {
+          "task": "detecting-insults-in-social-commentary",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.1766388888888889,
+              "normalized_regret": 0.08065616649554645,
+              "selected_percentile": 0.6457067901234568,
+              "top_group_size": 1.6066666666666667,
+              "contains_best": 0.2966666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.1614722222222222,
+              "normalized_regret": 0.08840910298506183,
+              "selected_percentile": 0.6466944444444445,
+              "top_group_size": 2.38,
+              "contains_best": 0.39666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.19291666666666665,
+              "normalized_regret": 0.06423100895941995,
+              "selected_percentile": 0.6799845679012345,
+              "top_group_size": 1.4833333333333334,
+              "contains_best": 0.2966666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.03144444444444444,
+            "normalized_regret": -0.024178094025641875,
+            "selected_percentile": 0.033290123456790055,
+            "top_group_size": -0.8966666666666665,
+            "contains_best": -0.09999999999999998
+          }
+        },
+        {
+          "task": "dog-breed-identification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.83,
+              "normalized_regret": 0.17000000000000004,
+              "selected_percentile": 0.83,
+              "top_group_size": 1.34,
+              "contains_best": 1.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "google-quest-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.4633333333333333,
+              "normalized_regret": 0.19968153255175783,
+              "selected_percentile": 0.7405555555555555,
+              "top_group_size": 1.2433333333333334,
+              "contains_best": 0.5233333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.4966111111111111,
+              "normalized_regret": 0.19175679690346667,
+              "selected_percentile": 0.7549567901234567,
+              "top_group_size": 1.25,
+              "contains_best": 0.5833333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.5,
+              "normalized_regret": 0.18704375524193007,
+              "selected_percentile": 0.7585185185185185,
+              "top_group_size": 1.0333333333333334,
+              "contains_best": 0.5133333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0033888888888888857,
+            "normalized_regret": -0.004713041661536604,
+            "selected_percentile": 0.0035617283950617473,
+            "top_group_size": -0.21666666666666656,
+            "contains_best": -0.07000000000000006
+          }
+        },
+        {
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.868206705258081,
+              "selected_percentile": 0.04416666666666667,
+              "top_group_size": 1.2833333333333334,
+              "contains_best": 0.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.9340014471780027,
+              "selected_percentile": 0.035,
+              "top_group_size": 1.14,
+              "contains_best": 0.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.9858574529667149,
+              "selected_percentile": 0.0075,
+              "top_group_size": 1.03,
+              "contains_best": 0.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.05185600578871219,
+            "selected_percentile": -0.027500000000000004,
+            "top_group_size": -0.10999999999999988,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "leaf-classification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.1225,
+              "normalized_regret": 0.022741348998831967,
+              "selected_percentile": 0.6830246913580247,
+              "top_group_size": 1.3266666666666667,
+              "contains_best": 0.18
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.14638888888888887,
+              "normalized_regret": 0.023846626382077508,
+              "selected_percentile": 0.6852469135802469,
+              "top_group_size": 1.8266666666666667,
+              "contains_best": 0.32
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.10944444444444444,
+              "normalized_regret": 0.023691738469847724,
+              "selected_percentile": 0.6619135802469136,
+              "top_group_size": 1.18,
+              "contains_best": 0.14666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.03694444444444443,
+            "normalized_regret": -0.00015488791222978415,
+            "selected_percentile": -0.023333333333333317,
+            "top_group_size": -0.6466666666666667,
+            "contains_best": -0.17333333333333334
+          }
+        },
+        {
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.6888888888888889,
+              "normalized_regret": 0.04194845977242533,
+              "selected_percentile": 0.9077777777777778,
+              "top_group_size": 1.2266666666666666,
+              "contains_best": 0.78
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.6565,
+              "normalized_regret": 0.04261103719549924,
+              "selected_percentile": 0.9005123456790123,
+              "top_group_size": 1.63,
+              "contains_best": 0.9
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.6955555555555556,
+              "normalized_regret": 0.041690658194003895,
+              "selected_percentile": 0.909753086419753,
+              "top_group_size": 1.1866666666666668,
+              "contains_best": 0.76
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.03905555555555562,
+            "normalized_regret": -0.0009203790014953445,
+            "selected_percentile": 0.009240740740740772,
+            "top_group_size": -0.44333333333333313,
+            "contains_best": -0.14
+          }
+        },
+        {
+          "task": "lmsys-chatbot-arena",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.16583333333333333,
+              "normalized_regret": 0.4299700919190341,
+              "selected_percentile": 0.49691358024691357,
+              "top_group_size": 1.3233333333333333,
+              "contains_best": 0.24666666666666667
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.1363888888888889,
+              "normalized_regret": 0.43161799569613046,
+              "selected_percentile": 0.48191358024691355,
+              "top_group_size": 1.35,
+              "contains_best": 0.16666666666666666
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.1411111111111111,
+              "normalized_regret": 0.4501527629634697,
+              "selected_percentile": 0.47450617283950614,
+              "top_group_size": 1.0633333333333332,
+              "contains_best": 0.15
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.004722222222222211,
+            "normalized_regret": 0.018534767267339214,
+            "selected_percentile": -0.007407407407407418,
+            "top_group_size": -0.28666666666666685,
+            "contains_best": -0.016666666666666663
+          }
+        },
+        {
+          "task": "mlsp-2013-birds",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.09,
+              "normalized_regret": 0.29335968307675087,
+              "selected_percentile": 0.5829629629629629,
+              "top_group_size": 1.2333333333333334,
+              "contains_best": 0.11
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.08444444444444445,
+              "normalized_regret": 0.29565673841135454,
+              "selected_percentile": 0.5841358024691358,
+              "top_group_size": 1.34,
+              "contains_best": 0.12
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.095,
+              "normalized_regret": 0.29461874438148933,
+              "selected_percentile": 0.5846296296296296,
+              "top_group_size": 1.0666666666666667,
+              "contains_best": 0.11
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.010555555555555554,
+            "normalized_regret": -0.001037994029865208,
+            "selected_percentile": 0.0004938271604938427,
+            "top_group_size": -0.27333333333333343,
+            "contains_best": -0.009999999999999995
+          }
+        },
+        {
+          "task": "new-york-city-taxi-fare-prediction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.2777777777777778,
+              "normalized_regret": 0.11941965501643768,
+              "selected_percentile": 0.49512345679012343,
+              "top_group_size": 1.2866666666666666,
+              "contains_best": 0.3433333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.32,
+              "normalized_regret": 0.1147605231218217,
+              "selected_percentile": 0.5145679012345679,
+              "top_group_size": 1.24,
+              "contains_best": 0.32
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.32,
+              "normalized_regret": 0.10921091464705639,
+              "selected_percentile": 0.5168518518518519,
+              "top_group_size": 1.0566666666666666,
+              "contains_best": 0.32
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": -0.005549608474765308,
+            "selected_percentile": 0.0022839506172840363,
+            "top_group_size": -0.18333333333333335,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "nomad2018-predict-transparent-conductors",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.7866666666666666,
+              "normalized_regret": 0.11783873649210318,
+              "selected_percentile": 0.84,
+              "top_group_size": 1.64,
+              "contains_best": 1.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 1.0,
+              "normalized_regret": 0.0,
+              "selected_percentile": 1.0,
+              "top_group_size": 1,
+              "contains_best": 1.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.0,
+            "selected_percentile": 0.0,
+            "top_group_size": 0,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "petfinder-pawpularity-score",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.12166666666666667,
+              "normalized_regret": 0.7345857089821667,
+              "selected_percentile": 0.5530952380952381,
+              "top_group_size": 1.4633333333333334,
+              "contains_best": 0.23
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.18,
+              "normalized_regret": 0.6638429823844366,
+              "selected_percentile": 0.6495238095238095,
+              "top_group_size": 1.3733333333333333,
+              "contains_best": 0.36333333333333334
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.15166666666666667,
+              "normalized_regret": 0.686815583234561,
+              "selected_percentile": 0.6364285714285715,
+              "top_group_size": 1.13,
+              "contains_best": 0.21666666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.02833333333333332,
+            "normalized_regret": 0.022972600850124425,
+            "selected_percentile": -0.013095238095238049,
+            "top_group_size": -0.2433333333333334,
+            "contains_best": -0.14666666666666667
+          }
+        },
+        {
+          "task": "plant-pathology-2020-fgvc7",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.4079780392693443,
+              "selected_percentile": 0.4643333333333334,
+              "top_group_size": 1.4133333333333333,
+              "contains_best": 0.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.3666785250051313,
+              "selected_percentile": 0.5046666666666667,
+              "top_group_size": 1.7533333333333334,
+              "contains_best": 0.0
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.4254251898474383,
+              "selected_percentile": 0.452,
+              "top_group_size": 1.3866666666666667,
+              "contains_best": 0.0
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0,
+            "normalized_regret": 0.058746664842307006,
+            "selected_percentile": -0.052666666666666695,
+            "top_group_size": -0.3666666666666667,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.445,
+              "normalized_regret": 0.2956003162537542,
+              "selected_percentile": 0.6235185185185185,
+              "top_group_size": 1.2066666666666668,
+              "contains_best": 0.5
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.435,
+              "normalized_regret": 0.3121007862657702,
+              "selected_percentile": 0.6098148148148148,
+              "top_group_size": 1.3133333333333332,
+              "contains_best": 0.4866666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.465,
+              "normalized_regret": 0.29677963642930955,
+              "selected_percentile": 0.6235802469135803,
+              "top_group_size": 1.08,
+              "contains_best": 0.4766666666666667
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.030000000000000027,
+            "normalized_regret": -0.015321149836460657,
+            "selected_percentile": 0.013765432098765462,
+            "top_group_size": -0.23333333333333317,
+            "contains_best": -0.010000000000000009
+          }
+        },
+        {
+          "task": "random-acts-of-pizza",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.026666666666666665,
+              "normalized_regret": 0.3568797349839672,
+              "selected_percentile": 0.5791975308641976,
+              "top_group_size": 1.2833333333333334,
+              "contains_best": 0.043333333333333335
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0375,
+              "normalized_regret": 0.3755700854379743,
+              "selected_percentile": 0.5647839506172839,
+              "top_group_size": 1.7533333333333334,
+              "contains_best": 0.06666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.026111111111111113,
+              "normalized_regret": 0.3568653670370089,
+              "selected_percentile": 0.5769135802469135,
+              "top_group_size": 1.1633333333333333,
+              "contains_best": 0.03
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.011388888888888886,
+            "normalized_regret": -0.018704718400965437,
+            "selected_percentile": 0.012129629629629601,
+            "top_group_size": -0.5900000000000001,
+            "contains_best": -0.03666666666666667
+          }
+        },
+        {
+          "task": "spooky-author-identification",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.27,
+              "normalized_regret": 0.1284088037501164,
+              "selected_percentile": 0.7861111111111111,
+              "top_group_size": 1.3133333333333332,
+              "contains_best": 0.33
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.25,
+              "normalized_regret": 0.14008098683364945,
+              "selected_percentile": 0.7674074074074074,
+              "top_group_size": 1.1766666666666667,
+              "contains_best": 0.29
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.25333333333333335,
+              "normalized_regret": 0.1353253786508116,
+              "selected_percentile": 0.7712962962962963,
+              "top_group_size": 1.0533333333333332,
+              "contains_best": 0.2633333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.003333333333333355,
+            "normalized_regret": -0.0047556081828378505,
+            "selected_percentile": 0.0038888888888888307,
+            "top_group_size": -0.12333333333333352,
+            "contains_best": -0.026666666666666672
+          }
+        },
+        {
+          "task": "stanford-covid-vaccine",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.1288888888888889,
+              "normalized_regret": 0.18413798208443358,
+              "selected_percentile": 0.6209259259259259,
+              "top_group_size": 1.2866666666666666,
+              "contains_best": 0.16333333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.15222222222222223,
+              "normalized_regret": 0.16988020891173683,
+              "selected_percentile": 0.6404012345679012,
+              "top_group_size": 1.5333333333333334,
+              "contains_best": 0.23666666666666666
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.15833333333333333,
+              "normalized_regret": 0.16584022619815214,
+              "selected_percentile": 0.6309259259259259,
+              "top_group_size": 1.12,
+              "contains_best": 0.18
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.006111111111111095,
+            "normalized_regret": -0.004039982713584689,
+            "selected_percentile": -0.009475308641975322,
+            "top_group_size": -0.41333333333333333,
+            "contains_best": -0.05666666666666667
+          }
+        },
+        {
+          "task": "statoil-iceberg-classifier-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.18444444444444444,
+              "normalized_regret": 0.16269500986552424,
+              "selected_percentile": 0.6867283950617283,
+              "top_group_size": 1.2733333333333334,
+              "contains_best": 0.24
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.1738888888888889,
+              "normalized_regret": 0.17751512696868177,
+              "selected_percentile": 0.6811728395061728,
+              "top_group_size": 1.6333333333333333,
+              "contains_best": 0.30666666666666664
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.15722222222222224,
+              "normalized_regret": 0.1728219129185075,
+              "selected_percentile": 0.677716049382716,
+              "top_group_size": 1.18,
+              "contains_best": 0.2
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": -0.016666666666666663,
+            "normalized_regret": -0.0046932140501742825,
+            "selected_percentile": -0.0034567901234567877,
+            "top_group_size": -0.45333333333333337,
+            "contains_best": -0.10666666666666663
+          }
+        },
+        {
+          "task": "tabular-playground-series-dec-2021",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.0,
+              "normalized_regret": 0.34056528006706216,
+              "selected_percentile": 0.2514814814814815,
+              "top_group_size": 1.23,
+              "contains_best": 0.0
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0011111111111111111,
+              "normalized_regret": 0.3594907026168496,
+              "selected_percentile": 0.2391358024691358,
+              "top_group_size": 1.2366666666666666,
+              "contains_best": 0.0033333333333333335
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.0016666666666666668,
+              "normalized_regret": 0.3458537089558031,
+              "selected_percentile": 0.2446296296296296,
+              "top_group_size": 1.05,
+              "contains_best": 0.0033333333333333335
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0005555555555555557,
+            "normalized_regret": -0.013636993661046537,
+            "selected_percentile": 0.005493827160493819,
+            "top_group_size": -0.18666666666666654,
+            "contains_best": 0.0
+          }
+        },
+        {
+          "task": "tensorflow-speech-recognition-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.10611111111111111,
+              "normalized_regret": 0.3526603038540204,
+              "selected_percentile": 0.6408641975308642,
+              "top_group_size": 1.2666666666666666,
+              "contains_best": 0.14333333333333334
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.10555555555555556,
+              "normalized_regret": 0.36327311525904005,
+              "selected_percentile": 0.6321604938271604,
+              "top_group_size": 1.55,
+              "contains_best": 0.17666666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.10666666666666667,
+              "normalized_regret": 0.33707165234032493,
+              "selected_percentile": 0.6565432098765432,
+              "top_group_size": 1.1433333333333333,
+              "contains_best": 0.12333333333333334
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.0011111111111111183,
+            "normalized_regret": -0.026201462918715113,
+            "selected_percentile": 0.024382716049382802,
+            "top_group_size": -0.40666666666666673,
+            "contains_best": -0.05333333333333333
+          }
+        },
+        {
+          "task": "tgs-salt-identification-challenge",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.17477777777777778,
+              "normalized_regret": 0.3425688508269823,
+              "selected_percentile": 0.4574814814814815,
+              "top_group_size": 1.25,
+              "contains_best": 0.22
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.17916666666666667,
+              "normalized_regret": 0.3522852434597976,
+              "selected_percentile": 0.45978395061728394,
+              "top_group_size": 1.2933333333333332,
+              "contains_best": 0.23666666666666666
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.19111111111111112,
+              "normalized_regret": 0.3632098867009899,
+              "selected_percentile": 0.45080246913580246,
+              "top_group_size": 1.0333333333333334,
+              "contains_best": 0.19666666666666666
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.011944444444444452,
+            "normalized_regret": 0.0109246432411923,
+            "selected_percentile": -0.00898148148148148,
+            "top_group_size": -0.2599999999999998,
+            "contains_best": -0.04000000000000001
+          }
+        },
+        {
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.06972222222222223,
+              "normalized_regret": 0.5962496912765798,
+              "selected_percentile": 0.4812037037037037,
+              "top_group_size": 1.4833333333333334,
+              "contains_best": 0.09333333333333334
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.050222222222222224,
+              "normalized_regret": 0.6352004028689792,
+              "selected_percentile": 0.4545925925925926,
+              "top_group_size": 2.3233333333333333,
+              "contains_best": 0.1
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.06944444444444445,
+              "normalized_regret": 0.59895064567295,
+              "selected_percentile": 0.4888641975308642,
+              "top_group_size": 1.4866666666666666,
+              "contains_best": 0.09
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.019222222222222224,
+            "normalized_regret": -0.036249757196029186,
+            "selected_percentile": 0.03427160493827158,
+            "top_group_size": -0.8366666666666667,
+            "contains_best": -0.010000000000000009
+          }
+        },
+        {
+          "task": "tweet-sentiment-extraction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.03638888888888889,
+              "normalized_regret": 0.8062142134877696,
+              "selected_percentile": 0.4407716049382716,
+              "top_group_size": 1.6333333333333333,
+              "contains_best": 0.043333333333333335
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0215,
+              "normalized_regret": 0.8253641479799825,
+              "selected_percentile": 0.41707407407407404,
+              "top_group_size": 2.6033333333333335,
+              "contains_best": 0.056666666666666664
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.03722222222222222,
+              "normalized_regret": 0.8129012762196051,
+              "selected_percentile": 0.43669753086419755,
+              "top_group_size": 1.28,
+              "contains_best": 0.04
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.01572222222222222,
+            "normalized_regret": -0.012462871760377414,
+            "selected_percentile": 0.019623456790123506,
+            "top_group_size": -1.3233333333333335,
+            "contains_best": -0.016666666666666663
+          }
+        },
+        {
+          "task": "us-patent-phrase-to-phrase-matching",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.34444444444444444,
+              "normalized_regret": 0.10149006146554089,
+              "selected_percentile": 0.7895679012345679,
+              "top_group_size": 1.3,
+              "contains_best": 0.44333333333333336
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.3327777777777778,
+              "normalized_regret": 0.09731333004087604,
+              "selected_percentile": 0.7954320987654321,
+              "top_group_size": 1.3333333333333333,
+              "contains_best": 0.4166666666666667
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.37777777777777777,
+              "normalized_regret": 0.09453242580704142,
+              "selected_percentile": 0.8082098765432099,
+              "top_group_size": 1.1133333333333333,
+              "contains_best": 0.4033333333333333
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.044999999999999984,
+            "normalized_regret": -0.002780904233834619,
+            "selected_percentile": 0.012777777777777777,
+            "top_group_size": -0.21999999999999997,
+            "contains_best": -0.013333333333333364
+          }
+        },
+        {
+          "task": "ventilator-pressure-prediction",
+          "scenarios": 300,
+          "methods": {
+            "tournament": {
+              "uniform_tie_best_hit": 0.07666666666666666,
+              "normalized_regret": 0.09588108910356428,
+              "selected_percentile": 0.5962962962962963,
+              "top_group_size": 1.3933333333333333,
+              "contains_best": 0.10333333333333333
+            },
+            "r6": {
+              "uniform_tie_best_hit": 0.0661111111111111,
+              "normalized_regret": 0.09428624875696025,
+              "selected_percentile": 0.6008641975308642,
+              "top_group_size": 1.25,
+              "contains_best": 0.09666666666666666
+            },
+            "r7": {
+              "uniform_tie_best_hit": 0.07833333333333334,
+              "normalized_regret": 0.09182767133647524,
+              "selected_percentile": 0.6022222222222222,
+              "top_group_size": 1.11,
+              "contains_best": 0.09
+            }
+          },
+          "delta_r7_minus_r6": {
+            "uniform_tie_best_hit": 0.012222222222222232,
+            "normalized_regret": -0.0024585774204850114,
+            "selected_percentile": 0.0013580246913580396,
+            "top_group_size": -0.1399999999999999,
+            "contains_best": -0.006666666666666668
+          }
+        }
+      ]
+    }
+  ],
+  "pooled_per_task": [
+    {
+      "task": "aptos2019-blindness-detection",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.05575925925925926,
+          "normalized_regret": 0.5615677957259911,
+          "selected_percentile": 0.3242469135802469,
+          "top_group_size": 1.4388888888888889,
+          "contains_best": 0.08555555555555555
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.06281481481481481,
+          "normalized_regret": 0.5355508096762965,
+          "selected_percentile": 0.3427901234567901,
+          "top_group_size": 1.9466666666666668,
+          "contains_best": 0.10777777777777778
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.07203703703703704,
+          "normalized_regret": 0.5904231205044981,
+          "selected_percentile": 0.3077510288065844,
+          "top_group_size": 1.2344444444444445,
+          "contains_best": 0.07777777777777778
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.009222222222222229,
+        "normalized_regret": 0.05487231082820154,
+        "selected_percentile": -0.035039094650205715,
+        "top_group_size": -0.7122222222222223,
+        "contains_best": -0.03
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.01627777777777778,
+        "normalized_regret": 0.02885532477850694,
+        "selected_percentile": -0.016495884773662484,
+        "top_group_size": -0.20444444444444443,
+        "contains_best": -0.007777777777777772
+      }
+    },
+    {
+      "task": "denoising-dirty-documents",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.2813888888888889,
+          "normalized_regret": 0.43274358830216025,
+          "selected_percentile": 0.5101234567901234,
+          "top_group_size": 1.2266666666666666,
+          "contains_best": 0.3433333333333333
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.2910185185185185,
+          "normalized_regret": 0.41834210495345975,
+          "selected_percentile": 0.5251028806584362,
+          "top_group_size": 1.3744444444444444,
+          "contains_best": 0.37
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.2848148148148148,
+          "normalized_regret": 0.42901362436253654,
+          "selected_percentile": 0.513559670781893,
+          "top_group_size": 1.0888888888888888,
+          "contains_best": 0.3088888888888889
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": -0.006203703703703711,
+        "normalized_regret": 0.01067151940907679,
+        "selected_percentile": -0.011543209876543226,
+        "top_group_size": -0.28555555555555556,
+        "contains_best": -0.061111111111111116
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.003425925925925888,
+        "normalized_regret": -0.003729963939623715,
+        "selected_percentile": 0.003436213991769632,
+        "top_group_size": -0.13777777777777778,
+        "contains_best": -0.034444444444444444
+      }
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.16665740740740742,
+          "normalized_regret": 0.10497259136013905,
+          "selected_percentile": 0.6377664609053498,
+          "top_group_size": 1.4855555555555555,
+          "contains_best": 0.24444444444444446
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.1493796296296296,
+          "normalized_regret": 0.11443159602795655,
+          "selected_percentile": 0.6306779835390947,
+          "top_group_size": 2.2744444444444443,
+          "contains_best": 0.33444444444444443
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.16452777777777777,
+          "normalized_regret": 0.09259758843471938,
+          "selected_percentile": 0.6506306584362139,
+          "top_group_size": 1.3988888888888888,
+          "contains_best": 0.22555555555555556
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.01514814814814816,
+        "normalized_regret": -0.02183400759323717,
+        "selected_percentile": 0.01995267489711927,
+        "top_group_size": -0.8755555555555554,
+        "contains_best": -0.10888888888888887
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.002129629629629648,
+        "normalized_regret": -0.012375002925419668,
+        "selected_percentile": 0.012864197530864097,
+        "top_group_size": -0.08666666666666667,
+        "contains_best": -0.0188888888888889
+      }
+    },
+    {
+      "task": "dog-breed-identification",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.83,
+          "normalized_regret": 0.17000000000000004,
+          "selected_percentile": 0.83,
+          "top_group_size": 1.34,
+          "contains_best": 1.0
+        },
+        "r6": {
+          "uniform_tie_best_hit": 1.0,
+          "normalized_regret": 0.0,
+          "selected_percentile": 1.0,
+          "top_group_size": 1,
+          "contains_best": 1.0
+        },
+        "r7": {
+          "uniform_tie_best_hit": 1.0,
+          "normalized_regret": 0.0,
+          "selected_percentile": 1.0,
+          "top_group_size": 1,
+          "contains_best": 1.0
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.0,
+        "selected_percentile": 0.0,
+        "top_group_size": 0,
+        "contains_best": 0.0
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.17000000000000004,
+        "normalized_regret": -0.17000000000000004,
+        "selected_percentile": 0.17000000000000004,
+        "top_group_size": -0.3400000000000001,
+        "contains_best": 0.0
+      }
+    },
+    {
+      "task": "google-quest-challenge",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.4563888888888889,
+          "normalized_regret": 0.20505582020217697,
+          "selected_percentile": 0.7359362139917696,
+          "top_group_size": 1.28,
+          "contains_best": 0.5344444444444445
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.46905555555555556,
+          "normalized_regret": 0.20185510924682126,
+          "selected_percentile": 0.7433395061728395,
+          "top_group_size": 1.3388888888888888,
+          "contains_best": 0.5811111111111111
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.4935185185185185,
+          "normalized_regret": 0.19169280053172388,
+          "selected_percentile": 0.7530658436213992,
+          "top_group_size": 1.0822222222222222,
+          "contains_best": 0.5155555555555555
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.024462962962962964,
+        "normalized_regret": -0.010162308715097379,
+        "selected_percentile": 0.009726337448559663,
+        "top_group_size": -0.2566666666666666,
+        "contains_best": -0.06555555555555559
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.037129629629629624,
+        "normalized_regret": -0.013363019670453086,
+        "selected_percentile": 0.017129629629629606,
+        "top_group_size": -0.19777777777777783,
+        "contains_best": -0.018888888888888955
+      }
+    },
+    {
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.07833333333333334,
+          "normalized_regret": 0.7735094066570201,
+          "selected_percentile": 0.12541666666666668,
+          "top_group_size": 1.3677777777777778,
+          "contains_best": 0.10444444444444444
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.05611111111111111,
+          "normalized_regret": 0.9107581604759611,
+          "selected_percentile": 0.07305555555555555,
+          "top_group_size": 1.19,
+          "contains_best": 0.11444444444444443
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.06277777777777778,
+          "normalized_regret": 0.9229482231870078,
+          "selected_percentile": 0.06972222222222221,
+          "top_group_size": 1.0855555555555556,
+          "contains_best": 0.08888888888888888
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.006666666666666668,
+        "normalized_regret": 0.012190062711046612,
+        "selected_percentile": -0.003333333333333341,
+        "top_group_size": -0.10444444444444434,
+        "contains_best": -0.025555555555555554
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.015555555555555559,
+        "normalized_regret": 0.1494388165299877,
+        "selected_percentile": -0.05569444444444446,
+        "top_group_size": -0.28222222222222215,
+        "contains_best": -0.015555555555555559
+      }
+    },
+    {
+      "task": "leaf-classification",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.22194444444444444,
+          "normalized_regret": 0.023881725972106707,
+          "selected_percentile": 0.7176543209876542,
+          "top_group_size": 1.3177777777777777,
+          "contains_best": 0.2822222222222222
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.22620370370370368,
+          "normalized_regret": 0.026156627186751224,
+          "selected_percentile": 0.7176440329218107,
+          "top_group_size": 1.6577777777777778,
+          "contains_best": 0.33999999999999997
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.23074074074074075,
+          "normalized_regret": 0.02411432457070584,
+          "selected_percentile": 0.7119753086419753,
+          "top_group_size": 1.1666666666666665,
+          "contains_best": 0.2577777777777778
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.004537037037037062,
+        "normalized_regret": -0.002042302616045384,
+        "selected_percentile": -0.0056687242798353354,
+        "top_group_size": -0.4911111111111113,
+        "contains_best": -0.0822222222222222
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.008796296296296302,
+        "normalized_regret": 0.0002325985985991326,
+        "selected_percentile": -0.005679012345678913,
+        "top_group_size": -0.1511111111111112,
+        "contains_best": -0.024444444444444435
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.6473148148148148,
+          "normalized_regret": 0.05401934565876556,
+          "selected_percentile": 0.8894855967078189,
+          "top_group_size": 1.241111111111111,
+          "contains_best": 0.7411111111111112
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.6018703703703704,
+          "normalized_regret": 0.06734947390605912,
+          "selected_percentile": 0.8672654320987654,
+          "top_group_size": 1.6844444444444444,
+          "contains_best": 0.8577777777777778
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.6581481481481481,
+          "normalized_regret": 0.04536281848586596,
+          "selected_percentile": 0.9003497942386831,
+          "top_group_size": 1.1622222222222223,
+          "contains_best": 0.7188888888888889
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.05627777777777776,
+        "normalized_regret": -0.021986655420193166,
+        "selected_percentile": 0.03308436213991772,
+        "top_group_size": -0.5222222222222221,
+        "contains_best": -0.13888888888888884
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.010833333333333361,
+        "normalized_regret": -0.008656527172899602,
+        "selected_percentile": 0.010864197530864206,
+        "top_group_size": -0.07888888888888879,
+        "contains_best": -0.022222222222222254
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.13712962962962963,
+          "normalized_regret": 0.4503201071848928,
+          "selected_percentile": 0.4536131687242798,
+          "top_group_size": 1.308888888888889,
+          "contains_best": 0.18888888888888888
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.1238888888888889,
+          "normalized_regret": 0.45278093918458384,
+          "selected_percentile": 0.4476954732510288,
+          "top_group_size": 1.48,
+          "contains_best": 0.17555555555555555
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.12259259259259259,
+          "normalized_regret": 0.46311033482210834,
+          "selected_percentile": 0.4418930041152263,
+          "top_group_size": 1.1066666666666667,
+          "contains_best": 0.13777777777777778
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": -0.0012962962962963093,
+        "normalized_regret": 0.010329395637524497,
+        "selected_percentile": -0.005802469135802513,
+        "top_group_size": -0.3733333333333333,
+        "contains_best": -0.03777777777777777
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.014537037037037043,
+        "normalized_regret": 0.012790227637215545,
+        "selected_percentile": -0.011720164609053507,
+        "top_group_size": -0.2022222222222223,
+        "contains_best": -0.05111111111111111
+      }
+    },
+    {
+      "task": "mlsp-2013-birds",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.09407407407407407,
+          "normalized_regret": 0.2903315029634449,
+          "selected_percentile": 0.6049691358024691,
+          "top_group_size": 1.2544444444444445,
+          "contains_best": 0.12111111111111111
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.09777777777777778,
+          "normalized_regret": 0.2868522551857632,
+          "selected_percentile": 0.6087448559670782,
+          "top_group_size": 1.3977777777777778,
+          "contains_best": 0.14666666666666667
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.09833333333333334,
+          "normalized_regret": 0.2887949806109176,
+          "selected_percentile": 0.6049382716049383,
+          "top_group_size": 1.078888888888889,
+          "contains_best": 0.11
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.0005555555555555591,
+        "normalized_regret": 0.0019427254251543902,
+        "selected_percentile": -0.0038065843621398754,
+        "top_group_size": -0.3188888888888888,
+        "contains_best": -0.03666666666666667
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.004259259259259268,
+        "normalized_regret": -0.0015365223525273253,
+        "selected_percentile": -3.086419753084435e-05,
+        "top_group_size": -0.17555555555555546,
+        "contains_best": -0.011111111111111113
+      }
+    },
+    {
+      "task": "new-york-city-taxi-fare-prediction",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.29055555555555557,
+          "normalized_regret": 0.09860405823705369,
+          "selected_percentile": 0.5140534979423869,
+          "top_group_size": 1.26,
+          "contains_best": 0.3388888888888889
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.31722222222222224,
+          "normalized_regret": 0.0945331903569105,
+          "selected_percentile": 0.5253909465020576,
+          "top_group_size": 1.241111111111111,
+          "contains_best": 0.32
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.3194444444444445,
+          "normalized_regret": 0.09087801064297191,
+          "selected_percentile": 0.5271604938271606,
+          "top_group_size": 1.0522222222222222,
+          "contains_best": 0.32
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.0022222222222222365,
+        "normalized_regret": -0.003655179713938597,
+        "selected_percentile": 0.001769547325102927,
+        "top_group_size": -0.18888888888888888,
+        "contains_best": 0.0
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.02888888888888891,
+        "normalized_regret": -0.0077260475940817835,
+        "selected_percentile": 0.013106995884773709,
+        "top_group_size": -0.20777777777777784,
+        "contains_best": -0.0188888888888889
+      }
+    },
+    {
+      "task": "nomad2018-predict-transparent-conductors",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.6811111111111111,
+          "normalized_regret": 0.09706289830978133,
+          "selected_percentile": 0.8049999999999999,
+          "top_group_size": 1.4266666666666665,
+          "contains_best": 0.8233333333333334
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.8283333333333334,
+          "normalized_regret": 0.01798004987531188,
+          "selected_percentile": 0.9141666666666667,
+          "top_group_size": 1.13,
+          "contains_best": 0.8933333333333333
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.8283333333333334,
+          "normalized_regret": 0.01798004987531188,
+          "selected_percentile": 0.9141666666666667,
+          "top_group_size": 1.13,
+          "contains_best": 0.8933333333333333
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.0,
+        "selected_percentile": 0.0,
+        "top_group_size": 0.0,
+        "contains_best": 0.0
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.14722222222222225,
+        "normalized_regret": -0.07908284843446946,
+        "selected_percentile": 0.10916666666666675,
+        "top_group_size": -0.29666666666666663,
+        "contains_best": 0.06999999999999995
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.5766666666666667,
+          "normalized_regret": 0.3647342281894437,
+          "selected_percentile": 0.7525396825396825,
+          "top_group_size": 1.3733333333333333,
+          "contains_best": 0.7222222222222222
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.616111111111111,
+          "normalized_regret": 0.3318365496837013,
+          "selected_percentile": 0.7726190476190476,
+          "top_group_size": 1.3455555555555556,
+          "contains_best": 0.7877777777777778
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.6205555555555555,
+          "normalized_regret": 0.3256051944115204,
+          "selected_percentile": 0.7821428571428571,
+          "top_group_size": 1.1344444444444444,
+          "contains_best": 0.6877777777777778
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.004444444444444473,
+        "normalized_regret": -0.006231355272180883,
+        "selected_percentile": 0.00952380952380949,
+        "top_group_size": -0.21111111111111125,
+        "contains_best": -0.09999999999999998
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.043888888888888866,
+        "normalized_regret": -0.03912903377792326,
+        "selected_percentile": 0.02960317460317463,
+        "top_group_size": -0.23888888888888893,
+        "contains_best": -0.03444444444444439
+      }
+    },
+    {
+      "task": "plant-pathology-2020-fgvc7",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.0023148148148148147,
+          "normalized_regret": 0.28639433029526773,
+          "selected_percentile": 0.5855555555555556,
+          "top_group_size": 1.4077777777777778,
+          "contains_best": 0.006666666666666667
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.0016666666666666668,
+          "normalized_regret": 0.26869544340810686,
+          "selected_percentile": 0.5937777777777778,
+          "top_group_size": 1.7933333333333332,
+          "contains_best": 0.0033333333333333335
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.0016666666666666668,
+          "normalized_regret": 0.2920950364745263,
+          "selected_percentile": 0.5835555555555556,
+          "top_group_size": 1.4133333333333333,
+          "contains_best": 0.0033333333333333335
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.023399593066419422,
+        "selected_percentile": -0.010222222222222244,
+        "top_group_size": -0.3799999999999999,
+        "contains_best": 0.0
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.0006481481481481479,
+        "normalized_regret": 0.005700706179258552,
+        "selected_percentile": -0.0020000000000000018,
+        "top_group_size": 0.005555555555555536,
+        "contains_best": -0.0033333333333333335
+      }
+    },
+    {
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.4822222222222222,
+          "normalized_regret": 0.27961555765745155,
+          "selected_percentile": 0.6422427983539094,
+          "top_group_size": 1.1966666666666668,
+          "contains_best": 0.5333333333333333
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.4725,
+          "normalized_regret": 0.29033348529232117,
+          "selected_percentile": 0.6367489711934157,
+          "top_group_size": 1.3388888888888888,
+          "contains_best": 0.5388888888888889
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.5065740740740741,
+          "normalized_regret": 0.27244813094753084,
+          "selected_percentile": 0.6525720164609053,
+          "top_group_size": 1.0866666666666667,
+          "contains_best": 0.5222222222222223
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.03407407407407409,
+        "normalized_regret": -0.017885354344790327,
+        "selected_percentile": 0.015823045267489677,
+        "top_group_size": -0.2522222222222221,
+        "contains_best": -0.016666666666666607
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.024351851851851847,
+        "normalized_regret": -0.00716742670992071,
+        "selected_percentile": 0.010329218106995941,
+        "top_group_size": -0.1100000000000001,
+        "contains_best": -0.011111111111111072
+      }
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.031203703703703702,
+          "normalized_regret": 0.37069704028845635,
+          "selected_percentile": 0.5569753086419753,
+          "top_group_size": 1.2577777777777779,
+          "contains_best": 0.044444444444444446
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.03401851851851852,
+          "normalized_regret": 0.38173439835470746,
+          "selected_percentile": 0.548738683127572,
+          "top_group_size": 1.6811111111111112,
+          "contains_best": 0.06333333333333334
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.02537037037037037,
+          "normalized_regret": 0.37351623675877726,
+          "selected_percentile": 0.5524897119341563,
+          "top_group_size": 1.1488888888888888,
+          "contains_best": 0.03
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": -0.008648148148148148,
+        "normalized_regret": -0.008218161595930196,
+        "selected_percentile": 0.003751028806584289,
+        "top_group_size": -0.5322222222222224,
+        "contains_best": -0.03333333333333334
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.005833333333333333,
+        "normalized_regret": 0.002819196470320917,
+        "selected_percentile": -0.004485596707819006,
+        "top_group_size": -0.10888888888888903,
+        "contains_best": -0.014444444444444447
+      }
+    },
+    {
+      "task": "spooky-author-identification",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.29055555555555557,
+          "normalized_regret": 0.13389746904148644,
+          "selected_percentile": 0.779753086419753,
+          "top_group_size": 1.281111111111111,
+          "contains_best": 0.3588888888888889
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.2644444444444444,
+          "normalized_regret": 0.14177877868302358,
+          "selected_percentile": 0.7672839506172839,
+          "top_group_size": 1.1688888888888889,
+          "contains_best": 0.30666666666666664
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.2688888888888889,
+          "normalized_regret": 0.13656329191593966,
+          "selected_percentile": 0.7733333333333333,
+          "top_group_size": 1.0333333333333332,
+          "contains_best": 0.27444444444444444
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.004444444444444473,
+        "normalized_regret": -0.0052154867670839156,
+        "selected_percentile": 0.0060493827160493785,
+        "top_group_size": -0.13555555555555565,
+        "contains_best": -0.03222222222222221
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.021666666666666667,
+        "normalized_regret": 0.0026658228744532164,
+        "selected_percentile": -0.006419753086419733,
+        "top_group_size": -0.24777777777777787,
+        "contains_best": -0.08444444444444449
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.15092592592592594,
+          "normalized_regret": 0.18061417207845815,
+          "selected_percentile": 0.6329423868312757,
+          "top_group_size": 1.3144444444444443,
+          "contains_best": 0.19444444444444445
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.15962962962962962,
+          "normalized_regret": 0.1688425080915441,
+          "selected_percentile": 0.642335390946502,
+          "top_group_size": 1.557777777777778,
+          "contains_best": 0.2588888888888889
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.1612962962962963,
+          "normalized_regret": 0.17092086193328926,
+          "selected_percentile": 0.6340534979423869,
+          "top_group_size": 1.1500000000000001,
+          "contains_best": 0.18777777777777777
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.0016666666666666774,
+        "normalized_regret": 0.002078353841745151,
+        "selected_percentile": -0.008281893004115193,
+        "top_group_size": -0.4077777777777778,
+        "contains_best": -0.07111111111111112
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.010370370370370363,
+        "normalized_regret": -0.009693310145168887,
+        "selected_percentile": 0.0011111111111111738,
+        "top_group_size": -0.16444444444444417,
+        "contains_best": -0.006666666666666682
+      }
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.18092592592592593,
+          "normalized_regret": 0.1551858132066445,
+          "selected_percentile": 0.7092798353909465,
+          "top_group_size": 1.2344444444444445,
+          "contains_best": 0.23111111111111113
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.195,
+          "normalized_regret": 0.16617624057663002,
+          "selected_percentile": 0.7110905349794239,
+          "top_group_size": 1.6055555555555556,
+          "contains_best": 0.3188888888888889
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.1688888888888889,
+          "normalized_regret": 0.16245036848819686,
+          "selected_percentile": 0.7061522633744856,
+          "top_group_size": 1.1444444444444444,
+          "contains_best": 0.20111111111111113
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": -0.026111111111111113,
+        "normalized_regret": -0.0037258720884331686,
+        "selected_percentile": -0.004938271604938316,
+        "top_group_size": -0.46111111111111125,
+        "contains_best": -0.11777777777777776
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.01203703703703704,
+        "normalized_regret": 0.007264555281552343,
+        "selected_percentile": -0.0031275720164609666,
+        "top_group_size": -0.09000000000000008,
+        "contains_best": -0.03
+      }
+    },
+    {
+      "task": "tabular-playground-series-dec-2021",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.0011111111111111111,
+          "normalized_regret": 0.3538152636232408,
+          "selected_percentile": 0.24561728395061727,
+          "top_group_size": 1.25,
+          "contains_best": 0.0022222222222222222
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.0042592592592592595,
+          "normalized_regret": 0.3618059551886338,
+          "selected_percentile": 0.23816872427983538,
+          "top_group_size": 1.3499999999999999,
+          "contains_best": 0.008888888888888889
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.0016666666666666668,
+          "normalized_regret": 0.35701958208944834,
+          "selected_percentile": 0.2381275720164609,
+          "top_group_size": 1.0933333333333333,
+          "contains_best": 0.0033333333333333335
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": -0.0025925925925925925,
+        "normalized_regret": -0.004786373099185448,
+        "selected_percentile": -4.115226337447764e-05,
+        "top_group_size": -0.2566666666666666,
+        "contains_best": -0.005555555555555555
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.0005555555555555557,
+        "normalized_regret": 0.0032043184662075563,
+        "selected_percentile": -0.007489711934156373,
+        "top_group_size": -0.15666666666666673,
+        "contains_best": 0.0011111111111111113
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.10483333333333333,
+          "normalized_regret": 0.34722427873360134,
+          "selected_percentile": 0.6399382716049382,
+          "top_group_size": 1.3,
+          "contains_best": 0.14333333333333334
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.10712962962962963,
+          "normalized_regret": 0.36089974063815317,
+          "selected_percentile": 0.6288271604938271,
+          "top_group_size": 1.6,
+          "contains_best": 0.17
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.11314814814814815,
+          "normalized_regret": 0.3380918146730852,
+          "selected_percentile": 0.6480246913580248,
+          "top_group_size": 1.1433333333333333,
+          "contains_best": 0.12777777777777777
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.00601851851851852,
+        "normalized_regret": -0.022807925965067977,
+        "selected_percentile": 0.01919753086419762,
+        "top_group_size": -0.4566666666666668,
+        "contains_best": -0.042222222222222244
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.008314814814814817,
+        "normalized_regret": -0.009132464060516154,
+        "selected_percentile": 0.008086419753086549,
+        "top_group_size": -0.15666666666666673,
+        "contains_best": -0.015555555555555572
+      }
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.15264814814814814,
+          "normalized_regret": 0.3444648810022457,
+          "selected_percentile": 0.4446728395061728,
+          "top_group_size": 1.2533333333333334,
+          "contains_best": 0.2011111111111111
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.15537037037037038,
+          "normalized_regret": 0.35004012002380624,
+          "selected_percentile": 0.4483127572016461,
+          "top_group_size": 1.3199999999999998,
+          "contains_best": 0.21000000000000002
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.16407407407407407,
+          "normalized_regret": 0.35195671427600256,
+          "selected_percentile": 0.446059670781893,
+          "top_group_size": 1.0755555555555556,
+          "contains_best": 0.17555555555555555
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.008703703703703686,
+        "normalized_regret": 0.001916594252196313,
+        "selected_percentile": -0.002253086419753081,
+        "top_group_size": -0.24444444444444424,
+        "contains_best": -0.03444444444444447
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.011425925925925923,
+        "normalized_regret": 0.007491833273756854,
+        "selected_percentile": 0.0013868312757202017,
+        "top_group_size": -0.1777777777777778,
+        "contains_best": -0.025555555555555554
+      }
+    },
+    {
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.05761111111111111,
+          "normalized_regret": 0.6716536437459233,
+          "selected_percentile": 0.419895061728395,
+          "top_group_size": 1.4333333333333333,
+          "contains_best": 0.0788888888888889
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.04138888888888889,
+          "normalized_regret": 0.6873827092146323,
+          "selected_percentile": 0.4025349794238683,
+          "top_group_size": 2.2577777777777777,
+          "contains_best": 0.08666666666666667
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.057055555555555554,
+          "normalized_regret": 0.697465060398326,
+          "selected_percentile": 0.39855555555555555,
+          "top_group_size": 1.4277777777777778,
+          "contains_best": 0.07333333333333333
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.015666666666666662,
+        "normalized_regret": 0.010082351183693716,
+        "selected_percentile": -0.003979423868312737,
+        "top_group_size": -0.8299999999999998,
+        "contains_best": -0.013333333333333336
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.0005555555555555591,
+        "normalized_regret": 0.02581141665240272,
+        "selected_percentile": -0.021339506172839473,
+        "top_group_size": -0.005555555555555536,
+        "contains_best": -0.005555555555555564
+      }
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.0582037037037037,
+          "normalized_regret": 0.7769155761644077,
+          "selected_percentile": 0.45094238683127574,
+          "top_group_size": 1.6666666666666667,
+          "contains_best": 0.07
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.03305555555555555,
+          "normalized_regret": 0.8051257583169289,
+          "selected_percentile": 0.4257242798353909,
+          "top_group_size": 2.6655555555555557,
+          "contains_best": 0.07444444444444445
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.046685185185185184,
+          "normalized_regret": 0.7880301191731297,
+          "selected_percentile": 0.44444238683127574,
+          "top_group_size": 1.4733333333333334,
+          "contains_best": 0.060000000000000005
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.01362962962962963,
+        "normalized_regret": -0.01709563914379919,
+        "selected_percentile": 0.01871810699588483,
+        "top_group_size": -1.1922222222222223,
+        "contains_best": -0.014444444444444447
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.011518518518518518,
+        "normalized_regret": 0.011114543008722055,
+        "selected_percentile": -0.006500000000000006,
+        "top_group_size": -0.19333333333333336,
+        "contains_best": -0.010000000000000002
+      }
+    },
+    {
+      "task": "us-patent-phrase-to-phrase-matching",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.3217777777777778,
+          "normalized_regret": 0.11064018485902413,
+          "selected_percentile": 0.7729156378600823,
+          "top_group_size": 1.2566666666666668,
+          "contains_best": 0.39444444444444443
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.31337037037037035,
+          "normalized_regret": 0.10568182855737557,
+          "selected_percentile": 0.7826502057613168,
+          "top_group_size": 1.3077777777777777,
+          "contains_best": 0.39222222222222225
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.3340740740740741,
+          "normalized_regret": 0.10863369492631277,
+          "selected_percentile": 0.779917695473251,
+          "top_group_size": 1.0811111111111111,
+          "contains_best": 0.3522222222222222
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": 0.020703703703703724,
+        "normalized_regret": 0.0029518663689371977,
+        "selected_percentile": -0.0027325102880658703,
+        "top_group_size": -0.22666666666666657,
+        "contains_best": -0.040000000000000036
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": 0.012296296296296305,
+        "normalized_regret": -0.0020064899327113667,
+        "selected_percentile": 0.007002057613168633,
+        "top_group_size": -0.1755555555555557,
+        "contains_best": -0.04222222222222222
+      }
+    },
+    {
+      "task": "ventilator-pressure-prediction",
+      "methods": {
+        "tournament": {
+          "uniform_tie_best_hit": 0.05455555555555555,
+          "normalized_regret": 0.09860260956187161,
+          "selected_percentile": 0.5894917695473251,
+          "top_group_size": 1.3277777777777777,
+          "contains_best": 0.08222222222222222
+        },
+        "r6": {
+          "uniform_tie_best_hit": 0.056296296296296296,
+          "normalized_regret": 0.10009434333257816,
+          "selected_percentile": 0.5895144032921811,
+          "top_group_size": 1.3733333333333333,
+          "contains_best": 0.09111111111111111
+        },
+        "r7": {
+          "uniform_tie_best_hit": 0.051111111111111114,
+          "normalized_regret": 0.09710740416819601,
+          "selected_percentile": 0.5915432098765432,
+          "top_group_size": 1.1044444444444446,
+          "contains_best": 0.06111111111111111
+        }
+      },
+      "delta_r7_minus_r6": {
+        "uniform_tie_best_hit": -0.005185185185185182,
+        "normalized_regret": -0.0029869391643821547,
+        "selected_percentile": 0.0020288065843621084,
+        "top_group_size": -0.26888888888888873,
+        "contains_best": -0.030000000000000006
+      },
+      "delta_r7_minus_tournament": {
+        "uniform_tie_best_hit": -0.0034444444444444375,
+        "normalized_regret": -0.0014952053936756055,
+        "selected_percentile": 0.0020514403292181127,
+        "top_group_size": -0.22333333333333316,
+        "contains_best": -0.021111111111111115
+      }
+    }
+  ],
+  "pooled_methods": {
+    "tournament": {
+      "uniform_tie_best_hit": 0.24639280626780627,
+      "normalized_regret": 0.2975586111161944,
+      "selected_percentile": 0.5911933591100258,
+      "top_group_size": 1.3269658119658119,
+      "contains_best": 0.30273504273504276
+    },
+    "r6": {
+      "uniform_tie_best_hit": 0.2568429487179487,
+      "normalized_regret": 0.294116083670693,
+      "selected_percentile": 0.5993923201284312,
+      "top_group_size": 1.5415811965811965,
+      "contains_best": 0.32893162393162395
+    },
+    "r7": {
+      "uniform_tie_best_hit": 0.26370477207977205,
+      "normalized_regret": 0.2934161302562557,
+      "selected_percentile": 0.601007037715371,
+      "top_group_size": 1.1575641025641026,
+      "contains_best": 0.2851709401709402
+    }
+  },
+  "delta_r7_minus_r6": {
+    "uniform_tie_best_hit": 0.006861823361823338,
+    "normalized_regret": -0.0006999534144372932,
+    "selected_percentile": 0.0016147175869397623,
+    "top_group_size": -0.38401709401709394,
+    "contains_best": -0.04376068376068376
+  },
+  "delta_r7_minus_tournament": {
+    "uniform_tie_best_hit": 0.017311965811965785,
+    "normalized_regret": -0.004142480859938735,
+    "selected_percentile": 0.00981367860534521,
+    "top_group_size": -0.1694017094017093,
+    "contains_best": -0.01756410256410257
+  },
+  "paired_task_bootstrap_95": {
+    "uniform_tie_best_hit": {
+      "low": 0.0014771011396011436,
+      "high": 0.01303135683760684,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110708
+    },
+    "normalized_regret": {
+      "low": -0.006278507548245686,
+      "high": 0.005918459108141228,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110708
+    },
+    "selected_percentile": {
+      "low": -0.003533900307511411,
+      "high": 0.006525672963867418,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110708
+    },
+    "top_group_size": {
+      "low": -0.4930352564102564,
+      "high": -0.28670833333333334,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110708
+    },
+    "contains_best": {
+      "low": -0.05940170940170939,
+      "high": -0.02957158119658121,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110708
+    }
+  },
+  "feedback_runs_with_regret_decrease": 2,
+  "regret_prediction_supported": true,
+  "hit_constraint_supported": true,
+  "point_robustness_rule_met": true,
+  "interval_evidence_rule_met": false,
+  "budget": {
+    "unique_feedback": 251128,
+    "unique_feedback_cap": 903600,
+    "comparison_records": 907650,
+    "cache_reads": 656522,
+    "valid_unique_feedback": 180835,
+    "invalid_winner_feedback": 232,
+    "confidence_fallback_feedback": 232,
+    "recovered_original_failure_feedback": 220,
+    "new_model_calls": 0,
+    "candidate_training_runs": 0
+  },
+  "budget_by_feedback_run": {
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "unique_feedback": 82808,
+      "unique_feedback_cap": 301200,
+      "comparison_records": 292295,
+      "cache_reads": 209487,
+      "valid_unique_feedback": 60681,
+      "invalid_winner_feedback": 220,
+      "confidence_fallback_feedback": 220,
+      "recovered_original_failure_feedback": 220,
+      "new_model_calls": 0,
+      "candidate_training_runs": 0
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "unique_feedback": 84387,
+      "unique_feedback_cap": 301200,
+      "comparison_records": 311063,
+      "cache_reads": 226676,
+      "valid_unique_feedback": 60038,
+      "invalid_winner_feedback": 4,
+      "confidence_fallback_feedback": 4,
+      "recovered_original_failure_feedback": 0,
+      "new_model_calls": 0,
+      "candidate_training_runs": 0
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "unique_feedback": 83933,
+      "unique_feedback_cap": 301200,
+      "comparison_records": 304292,
+      "cache_reads": 220359,
+      "valid_unique_feedback": 60116,
+      "invalid_winner_feedback": 8,
+      "confidence_fallback_feedback": 8,
+      "recovered_original_failure_feedback": 0,
+      "new_model_calls": 0,
+      "candidate_training_runs": 0
+    }
+  },
+  "diagnostics_by_feedback_run": {
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "selected_set_changed": 2454,
+      "r6_tie": 3218,
+      "r7_tie": 928,
+      "all_uninformative": 0,
+      "tournament_safety_exit": 3683
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "selected_set_changed": 2452,
+      "r6_tie": 3460,
+      "r7_tie": 1157,
+      "all_uninformative": 0,
+      "tournament_safety_exit": 4063
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "selected_set_changed": 2374,
+      "r6_tie": 3158,
+      "r7_tie": 943,
+      "all_uninformative": 0,
+      "tournament_safety_exit": 3673
+    }
+  },
+  "distinct_source_feedback": 36760,
+  "distinct_candidate_pairs": 14024,
+  "scope": "External feedback-model robustness on the same inspected 26 tasks/candidates/labels; no claim of unseen-task or end-to-end Agent validation.",
+  "content_hashes": {
+    "runs.jsonl.gz": "c638ff7f97f1170b6b95982a4ea572fb532e03a53822ecf0a429da8bc2fc60dc",
+    "traces.jsonl.gz": "ddee1cd125a6c782230d3c42bdf9692390f9f181b7f846b8b95fb3a8d4d4aae7"
+  }
+}
