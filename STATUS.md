@@ -10,4 +10,4 @@
 
 原版重复性与 AIDE 在线比较保留为可选后续研究。评分器行顺序问题登记为 [EVAL-01](IMPROVEMENTS.md)，冻结提交原评分和独立复算一致。执行适配、服务/硬件差异及 Mac 熄屏/VPN 断连等待随结果披露。
 
-本次发布整理使用已有结果，新增 API 调用和候选训练均为 0。完整日志通过 [hw3-phase1-v1 Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1) 获取；发布回读收据在完成远端核验后补入 provenance。
+本次发布整理使用已有结果，新增 API 调用和候选训练均为 0。完整日志通过 [hw3-phase1-v1 Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1) 获取；上传附件已重新下载并校验通过；发布收据见 [provenance/hw3-release.json](provenance/hw3-release.json)。

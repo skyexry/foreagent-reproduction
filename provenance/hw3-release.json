@@ -1,0 +1,31 @@
+{
+  "repository": "skyexry/foreagent-reproduction",
+  "release_url": "https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1",
+  "tag": "hw3-phase1-v1",
+  "tag_commit": "89d428fec8e950266efc5476fb79b59a8cadb0c0",
+  "published_at": "2026-11-08T06:40:13Z",
+  "is_draft": false,
+  "is_prerelease": false,
+  "repository_visibility": "private, preserved",
+  "downloaded_assets_verified": [
+    {
+      "name": "phase1-complete-logs.zip",
+      "bytes": 37531354,
+      "sha256": "1a658a34792befb70a2bdf5c0d2068c4bc6442e1617b865f9473e4315f12809f",
+      "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/hw3-phase1-v1/phase1-complete-logs.zip"
+    },
+    {
+      "name": "DM_HW3_Baseline_Reproduction_v3.pdf",
+      "bytes": 216954,
+      "sha256": "206ce602eed13976a292b2b3bb21c8e3a350f55e2231f0c545799ab9fc050a9e",
+      "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/hw3-phase1-v1/DM_HW3_Baseline_Reproduction_v3.pdf"
+    }
+  ],
+  "sha256sums_roundtrip": "exact match",
+  "restored_original_files": 408,
+  "restored_input_links": 5,
+  "verified_after_restore": 942,
+  "remote_readme_blobs_match_local": true,
+  "new_model_calls": 0,
+  "new_training_runs": 0
+}
