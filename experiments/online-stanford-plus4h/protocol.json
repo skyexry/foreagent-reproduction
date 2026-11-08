@@ -1,0 +1,14 @@
+{
+  "id": "stanford-autodl-v2-plus4h",
+  "parent": "stanford-autodl-v2",
+  "question": "After the original 12-hour result is frozen, does four more wall-clock hours of upstream ForeAgent search change the validation-selected best submission and its official private score?",
+  "prediction_before_extension": "The search should have time for at least one more completed outer iteration if services remain available. Inherited validation best is available throughout; the private score can improve, stay unchanged or worsen.",
+  "budget_seconds": 14400,
+  "prompt_total_budget_seconds": 57600,
+  "stopping": "Four additional wall-clock hours from extension search startup, or the unchanged upstream 5000-node cap; report any earlier infrastructure stop separately.",
+  "inputs": "Last complete parent journal, its graph, validation metrics, candidate code and submissions; verified public task data and parent DA report. Incomplete parent step and its pending API calls are excluded.",
+  "fresh_process": "Fresh model client, random state, pairwise cache and worker scratch. This is a new continuation, not an exact continuation of unsaved process memory.",
+  "controls": "Same fixed upstream code, original cache semantics, confidence 0.70, ten candidates, top_k=1, execution probability 0.20 with original fallback, same provider roles, AutoDL RTX 4090 and same grading data.",
+  "metrics": "Primary: official score of the final upstream validation-selected best. Compare against the separately frozen 12-hour incumbent. Secondary: additional completed outer steps, generated/executed/skipped nodes, API receipts and logged failures.",
+  "isolation": "Never pass private labels, official scores or observer-only directories to the agent. Freeze and grade both outputs independently. No tuning, test-score stopping or retrospective winner selection."
+}
