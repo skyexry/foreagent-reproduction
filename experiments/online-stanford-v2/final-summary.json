@@ -107,6 +107,14 @@
     }
   },
   "logged_model_backoff_errors": 179,
+  "network_interruption": {
+    "cause": "Mac 熄屏、VPN 断连，导致模型 API 请求受阻并等待重试。",
+    "cause_source": "实验者在运行结束后确认；事后补记。",
+    "affected_model_role": "gpt-4o-mini-2024-07-18 feedback",
+    "feedback_call_elapsed_seconds_including_retries": 13491.88,
+    "elapsed_time_basis": "日志记录的单次反馈请求及重试总耗时；VPN 中断时长单独计量仍有缺口。",
+    "budget_effect": "等待计入标准 43,200 秒预算，压缩了实际可用于候选生成、筛选和执行的时间。"
+  },
   "completed_model_calls_taking_at_least_15_minutes": [
     {
       "finished_log_time": "2026-11-08 09:27:56,209",
