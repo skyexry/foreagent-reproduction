@@ -88,6 +88,7 @@
       "gpt-4o-mini-2024-07-18": 22,
       "DeepSeek-V3.2-Thinking": 134
     },
+    "wall_cutoff_lateness_seconds": 0.01623,
     "api_accounting": "Successful receipts include the incomplete last iteration; transport failures and billable requests are distinct.",
     "upstream_and_independent_best_node": "84c79a8dae404c0dae2bcd09d38d9daa",
     "best_node_lineage": [

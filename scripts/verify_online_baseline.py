@@ -2,6 +2,7 @@
 import argparse
 from collections import Counter
 import csv
+from datetime import datetime
 import gzip
 import hashlib
 import importlib.util
@@ -152,6 +153,15 @@ def check_run(run, source, summary):
     successful = Counter(r['role'] for r in receipts if r['http'] == 200)
     for role, values in summary['received_api_responses_by_role'].items():
         require(successful[role] == values['successes'], 'API receipt count differs: '+role)
+    require(set(successful) == set(summary['received_api_responses_by_role']), 'Unexpected API role')
+    require(sum(b['logged_comparison_requests'] for b in batch_feedback) ==
+            sum(b['comparison_records']-b['cached_reads'] for b in batches), 'Comparison accounting differs')
+    start = datetime.fromisoformat(summary['started_at'])
+    planned = datetime.fromisoformat(summary['cutoff_at'])
+    observed_text = (run/'wall-cutoff.txt').read_text().strip().split(' at ')[-1]
+    observed = datetime.fromisoformat(observed_text).replace(tzinfo=planned.tzinfo)
+    require((planned-start).total_seconds() == 43200, 'Wrong wall-clock budget')
+    require(0 <= (observed-planned).total_seconds() < 1, 'Cutoff timing differs')
     lineage = []
     key = best.id
     while key:
@@ -168,12 +178,14 @@ def check_run(run, source, summary):
             'completed_batch_feedback': batch_feedback,
             'completed_batch_unique_unordered_pairs_summed': sum(b['unique_unordered_pairs'] for b in batch_feedback),
             'successful_api_receipts': dict(successful),
+            'wall_cutoff_lateness_seconds': (observed-planned).total_seconds(),
             'api_accounting': 'Successful receipts include the incomplete last iteration; transport failures and billable requests are distinct.',
             'upstream_and_independent_best_node': best.id, 'best_node_lineage': lineage,
             'final_submission_sha256': digest(prediction)}
 
 
 def main():
+    require(__debug__, 'Run source validation with Python assertions enabled')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, required=True)
     parser.add_argument('--run', type=Path, required=True)

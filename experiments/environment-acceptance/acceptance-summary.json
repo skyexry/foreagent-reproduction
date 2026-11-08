@@ -62,6 +62,10 @@
     "venv.txt": {
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "online-verification.txt": {
+      "bytes": 1937,
+      "sha256": "eda9e0f43132909911b78e7dd3129e5fc455c29403ee41aebd5abc3cf1ad37df"
     }
   },
   "tests": {
@@ -87,7 +91,7 @@
     "GPU runtime and live model-service availability need fresh G1 preflight."
   ],
   "audit_code_sha256": {
-    "scripts/verify_online_baseline.py": "2e95382c86b9cab853e36e103b1dd85a5a1bb98a7d622cb0ad80652a886f4950",
+    "scripts/verify_online_baseline.py": "a070eba5a499b1f67fede3686aa897ba9bb1da7cc90dd11d8868e20dea925726",
     "scripts/check_author_configs.py": "09bb21b84246cec89df3cb0783945341921f9252819db92106edfa4f4e5f0e86",
     "tests/test_online_baseline.py": "e071a9f6c2599485aa2ca50dd24bb45dbb602e5b739b1afef82291a138363820"
   },
