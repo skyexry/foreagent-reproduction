@@ -1,0 +1,62 @@
+[
+  {
+    "budget": 13,
+    "ids": [
+      "1009b2087656e9be5b14",
+      "dafc5451e197852fc542",
+      "afc1abbf7ff139d6705e",
+      "20f7b8fc48a65a86de3c",
+      "f587a441681f154f569a",
+      "fd9a7ad256e7e967eea0",
+      "d0852371481d07bccf73",
+      "6e6cfefb2b469445e69e",
+      "71754f67b837dcaf148f",
+      "3f0c688d615dcc27b67c"
+    ],
+    "job_id": "aptos2019-blindness-detection:0:0",
+    "pool_id": 0,
+    "repeat": 0,
+    "seed": 10362587016597,
+    "task": "aptos2019-blindness-detection"
+  },
+  {
+    "budget": 13,
+    "ids": [
+      "fd9a7ad256e7e967eea0",
+      "1009b2087656e9be5b14",
+      "20f7b8fc48a65a86de3c",
+      "3f0c688d615dcc27b67c",
+      "f587a441681f154f569a",
+      "71754f67b837dcaf148f",
+      "dafc5451e197852fc542",
+      "6e6cfefb2b469445e69e",
+      "d0852371481d07bccf73",
+      "afc1abbf7ff139d6705e"
+    ],
+    "job_id": "aptos2019-blindness-detection:0:1",
+    "pool_id": 0,
+    "repeat": 1,
+    "seed": 162428059268238,
+    "task": "aptos2019-blindness-detection"
+  },
+  {
+    "budget": 13,
+    "ids": [
+      "52c23c46f0d6a27234fe",
+      "fd9a7ad256e7e967eea0",
+      "31d2e74fd1b930d03368",
+      "c6b5db1deeb280de94d5",
+      "3f0c688d615dcc27b67c",
+      "18c6d3c946a063e2742f",
+      "6458792e4d2669ebf528",
+      "afc1abbf7ff139d6705e",
+      "ba5660a7667ce928007b",
+      "cd07d1440a3d2e82a77e"
+    ],
+    "job_id": "aptos2019-blindness-detection:1:0",
+    "pool_id": 1,
+    "repeat": 0,
+    "seed": 147053815520216,
+    "task": "aptos2019-blindness-detection"
+  }
+]

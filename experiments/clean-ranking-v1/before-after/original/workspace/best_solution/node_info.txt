@@ -1,0 +1,6 @@
+node_id: initial_trans
+
+metric: Metric↓(0.8691)
+
+solution:
+initial incumbent

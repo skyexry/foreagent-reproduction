@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "raw_source_files": 6,
+  "recovered_original_failures_checked": 8,
+  "matching_shared_alignment_records": 5099,
+  "proofs": [
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "sha256": "20ad1bc0ca88432ccc95aeeaeffb7c9bbc65a352f6265c422f27adb0fc4226cc",
+      "raw_records": 190,
+      "matching_shared_records": 189
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "sha256": "f05381e66d9cda40f27d24f008694d6b139e1fd0d395160fe9c4d34a3adf3216",
+      "raw_records": 1220,
+      "matching_shared_records": 1218
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "sha256": "edcfa357d019b7762d3bc1466b29b94a8be6560e94e57844a798432080d9c737",
+      "raw_records": 239,
+      "matching_shared_records": 238
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "sha256": "5254ee2a85514d0cb32785de23a088cd8ca5bb0770f8803fbd48fcd1d9fe3a46",
+      "raw_records": 1225,
+      "matching_shared_records": 1224
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "sha256": "c92062181b2325f698ac99edea224d4fd62d87c69d30734d3f63541c5574d3aa",
+      "raw_records": 1222,
+      "matching_shared_records": 1221
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "sha256": "9a700007b7de6cba680a0592b387f7cbbddbab53ddf665463d5cf65943cb3569",
+      "raw_records": 1011,
+      "matching_shared_records": 1009
+    }
+  ],
+  "new_model_calls": 0
+}

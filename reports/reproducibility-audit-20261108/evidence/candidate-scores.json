@@ -1,0 +1,230 @@
+{
+  "id": "foreagent-candidate-audit-20261108-v1",
+  "scope": "Retrospective scores of saved executed valid predictions; private labels used only by this external audit. These are dependent selected candidates. The frozen final submission and protocol are preserved.",
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "private_answers_sha256": "c94d12eead83ef96ced2daf7e68edbabc41404150d31c991ab967c79c87f019a",
+  "candidates": [
+    {
+      "id": "2310e6bf356f434db1659d981235d799",
+      "validation": 0.701175,
+      "private_score": 0.3787857246803354,
+      "per_target_rmse": {
+        "reactivity": 0.3349995061600116,
+        "deg_Mg_pH10": 0.4226692786001014,
+        "deg_Mg_50C": 0.37868838928089316
+      },
+      "prediction_sha256": "4ad7338aad43b0c762f3618ab91641cedc8a73eaba91d38eeb8f96a06be3816a",
+      "wm_rank": null
+    },
+    {
+      "id": "8dce0f8c46b54c088b605344dcc913af",
+      "validation": 0.4635,
+      "private_score": 0.27230529472907444,
+      "per_target_rmse": {
+        "reactivity": 0.24156976649900122,
+        "deg_Mg_pH10": 0.3103915348322697,
+        "deg_Mg_50C": 0.26495458285595247
+      },
+      "prediction_sha256": "75b1a04655bd09fb22753ed355f9b8ec75dea740befc9f6c02daa44932bb01dc",
+      "wm_rank": null
+    },
+    {
+      "id": "0cae1a4782a24b01bbbe85ca631deffe",
+      "validation": 0.6726,
+      "private_score": 0.2576616503431231,
+      "per_target_rmse": {
+        "reactivity": 0.237778847809073,
+        "deg_Mg_pH10": 0.2888178946347406,
+        "deg_Mg_50C": 0.24638820858555577
+      },
+      "prediction_sha256": "276230b7323bf02913a69cf5ca4cf37d88a4e9e103b13286881d0bf7e146f313",
+      "wm_rank": null
+    },
+    {
+      "id": "20912f5a7d5f4bb8ad1d0d9addfb68f3",
+      "validation": 0.4712,
+      "private_score": 0.29348568454445606,
+      "per_target_rmse": {
+        "reactivity": 0.25770691562791986,
+        "deg_Mg_pH10": 0.3334056995514635,
+        "deg_Mg_50C": 0.28934443845398494
+      },
+      "prediction_sha256": "89a9027b9a690dbbbe0f9335730a4e272103bd2d7ab593daa26f5c778fbd5cc5",
+      "wm_rank": 0
+    },
+    {
+      "id": "5ebaeb5d179a49a78dbf5e30eab0a314",
+      "validation": 0.4418,
+      "private_score": 0.26628393854116156,
+      "per_target_rmse": {
+        "reactivity": 0.23270271675089405,
+        "deg_Mg_pH10": 0.3058465873984416,
+        "deg_Mg_50C": 0.26030251147414896
+      },
+      "prediction_sha256": "11965416e061d703c1ea1467d9f398ce0b6072b230a7fd487a1e10a7364d7795",
+      "wm_rank": 0
+    },
+    {
+      "id": "e36668b969ef45e79100b697c57dac07",
+      "validation": 0.4638,
+      "private_score": 0.25668736746994514,
+      "per_target_rmse": {
+        "reactivity": 0.22643841340488607,
+        "deg_Mg_pH10": 0.29484730544453996,
+        "deg_Mg_50C": 0.24877638356040935
+      },
+      "prediction_sha256": "fa59f2ceb01f7892407cd40c89dda87472cf9dea1bfe40f2ed124368716d183e",
+      "wm_rank": null
+    },
+    {
+      "id": "32741c4544b24bfcb668d737bf68229d",
+      "validation": 0.4427,
+      "private_score": 0.2636971581788704,
+      "per_target_rmse": {
+        "reactivity": 0.23289057693353885,
+        "deg_Mg_pH10": 0.3021462798729596,
+        "deg_Mg_50C": 0.2560546177301128
+      },
+      "prediction_sha256": "12855968c79211f6ebafca7a0e22a172b97deb60b2a46141a1936fa53a83eabe",
+      "wm_rank": 0
+    },
+    {
+      "id": "84c79a8dae404c0dae2bcd09d38d9daa",
+      "validation": 0.4378,
+      "private_score": 0.26639893115767516,
+      "per_target_rmse": {
+        "reactivity": 0.24039273697270275,
+        "deg_Mg_pH10": 0.30270239650000647,
+        "deg_Mg_50C": 0.25610166000031626
+      },
+      "prediction_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340",
+      "wm_rank": null
+    },
+    {
+      "id": "ac11dbec040f41e880ddc74f757a1b50",
+      "validation": 0.4419,
+      "private_score": 0.27137009433615206,
+      "per_target_rmse": {
+        "reactivity": 0.24033734359947956,
+        "deg_Mg_pH10": 0.30941967810695326,
+        "deg_Mg_50C": 0.2643532613020233
+      },
+      "prediction_sha256": "5ee7bb42104e8d4b10d41e8eb9554f09e11617d3859bb6fed40bbbdf5f7a452e",
+      "wm_rank": 0
+    },
+    {
+      "id": "28f1c25bea35481eb443ef5deca325c4",
+      "validation": 0.4413,
+      "private_score": 0.2663044640570799,
+      "per_target_rmse": {
+        "reactivity": 0.2367187476669468,
+        "deg_Mg_pH10": 0.30250977159775544,
+        "deg_Mg_50C": 0.25968487290653747
+      },
+      "prediction_sha256": "df9596f48922d599a9a3c4777684e75b397402599a5d5de7d58ac9bd3f4f962c",
+      "wm_rank": 0
+    },
+    {
+      "id": "0f162e1240ed43bdad97c4fe271f6e44",
+      "validation": 0.4397,
+      "private_score": 0.2576449526317508,
+      "per_target_rmse": {
+        "reactivity": 0.22748685078629097,
+        "deg_Mg_pH10": 0.2962690255350189,
+        "deg_Mg_50C": 0.2491789815739426
+      },
+      "prediction_sha256": "72e27815c0e633b01483a643fb577997b60c39961f035cff44adde0824265b6c",
+      "wm_rank": 0
+    },
+    {
+      "id": "e16dc20948b141078163016f1f7c5db9",
+      "validation": 0.4417,
+      "private_score": 0.27194201286371084,
+      "per_target_rmse": {
+        "reactivity": 0.23903469162307125,
+        "deg_Mg_pH10": 0.3108107349499424,
+        "deg_Mg_50C": 0.2659806120181188
+      },
+      "prediction_sha256": "8f7031aa5c6caf060103f5bc0353ab6f4f63eb381f5efc3b27db03f9bc4db7c5",
+      "wm_rank": 0
+    },
+    {
+      "id": "59fc3243c0d049ff865e8b98bcc0b2c8",
+      "validation": 0.4401,
+      "private_score": 0.26897832331640253,
+      "per_target_rmse": {
+        "reactivity": 0.23937265687243553,
+        "deg_Mg_pH10": 0.3066012149185063,
+        "deg_Mg_50C": 0.26096109815826574
+      },
+      "prediction_sha256": "f3093a4933be56bdac2c8bdbd83bc396e564eab52364be4a313f98a48a8960d0",
+      "wm_rank": 0
+    }
+  ],
+  "validation_selected": "84c79a8dae404c0dae2bcd09d38d9daa",
+  "posthoc_private_best": "e36668b969ef45e79100b697c57dac07",
+  "posthoc_selection_gap": 0.009711563687730018,
+  "spearman_validation_private": 0.23626373626373626,
+  "good_parent_child_edges": [
+    {
+      "parent": "8dce0f8c46b54c088b605344dcc913af",
+      "child": "20912f5a7d5f4bb8ad1d0d9addfb68f3",
+      "validation_delta": 0.007699999999999985,
+      "private_delta": 0.021180389815381617,
+      "sign_agrees": true
+    },
+    {
+      "parent": "8dce0f8c46b54c088b605344dcc913af",
+      "child": "5ebaeb5d179a49a78dbf5e30eab0a314",
+      "validation_delta": -0.021699999999999997,
+      "private_delta": -0.006021356187912885,
+      "sign_agrees": true
+    },
+    {
+      "parent": "5ebaeb5d179a49a78dbf5e30eab0a314",
+      "child": "32741c4544b24bfcb668d737bf68229d",
+      "validation_delta": 0.0008999999999999564,
+      "private_delta": -0.0025867803622911523,
+      "sign_agrees": false
+    },
+    {
+      "parent": "84c79a8dae404c0dae2bcd09d38d9daa",
+      "child": "ac11dbec040f41e880ddc74f757a1b50",
+      "validation_delta": 0.0040999999999999925,
+      "private_delta": 0.004971163178476901,
+      "sign_agrees": true
+    },
+    {
+      "parent": "84c79a8dae404c0dae2bcd09d38d9daa",
+      "child": "28f1c25bea35481eb443ef5deca325c4",
+      "validation_delta": 0.003500000000000003,
+      "private_delta": -9.446710059524133e-05,
+      "sign_agrees": false
+    },
+    {
+      "parent": "84c79a8dae404c0dae2bcd09d38d9daa",
+      "child": "0f162e1240ed43bdad97c4fe271f6e44",
+      "validation_delta": 0.0018999999999999573,
+      "private_delta": -0.008753978525924355,
+      "sign_agrees": false
+    },
+    {
+      "parent": "84c79a8dae404c0dae2bcd09d38d9daa",
+      "child": "e16dc20948b141078163016f1f7c5db9",
+      "validation_delta": 0.003899999999999959,
+      "private_delta": 0.00554308170603568,
+      "sign_agrees": true
+    },
+    {
+      "parent": "84c79a8dae404c0dae2bcd09d38d9daa",
+      "child": "59fc3243c0d049ff865e8b98bcc0b2c8",
+      "validation_delta": 0.0022999999999999687,
+      "private_delta": 0.0025793921587273783,
+      "sign_agrees": true
+    }
+  ],
+  "frozen_private_masked_mcrmse": 0.26639893115767516,
+  "same_frozen_predictions_all107_padded_zero_mcrmse": 0.2124508004383557,
+  "padded_loss_fraction": 0.3644859813084112
+}

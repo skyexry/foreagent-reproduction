@@ -1,0 +1,83 @@
+{
+  "audit_id": "foreagent-review-20261108-v1",
+  "status": "completed_with_explicit_pending_impact_and_future_experiments",
+  "findings": {
+    "confirmed_with_evidence": 16,
+    "resolved_verified": 1,
+    "total": 17
+  },
+  "source_verification": {
+    "initial_manifest_entries": 945,
+    "final_manifest_entries": 947,
+    "final_all_records_data_originals": true,
+    "author_git_blobs": 484,
+    "published_metadata_files_byte_equal": 3
+  },
+  "recomputed_results": {
+    "frozen_private_mcrmse": 0.26639893115767516,
+    "author_final_submissions_verified": 3,
+    "author_missed_node_private_mcrmse": 0.25615314374102044,
+    "missed_node_endpoint_error_difference": -0.0015263842494408486,
+    "posthoc_candidates": 13,
+    "posthoc_selection_gap": 0.009711563687730018,
+    "pairwise_adopted_responses": 246,
+    "historical_batches": 129,
+    "replays_per_variant": 7800,
+    "nonfinite_corpus_pairs": 49
+  },
+  "tests": {
+    "existing_mechanism_tests": 4,
+    "existing_score_tests": 5,
+    "diagnostic_scripts_compile": 6,
+    "diagnostics_and_label_receipts_exactly_reproduced": true,
+    "missed_node_receipt_exactly_reproduced": true,
+    "diagnostic_outcomes_stable_after_publication_metadata_update": true,
+    "local_links_validated": 155,
+    "dependency_api_version_doc_checked": "root_mean_squared_error versionadded1.4; published requirements1.2.2 vs acceptance1.4.2"
+  },
+  "execution_constraints": {
+    "paid_model_calls": 0,
+    "candidate_training_runs": 0,
+    "gpu_rentals": 0,
+    "baseline_algorithm_changes": 0,
+    "new_scripts": "Controlled responses / saved artifacts only"
+  },
+  "python": {
+    "standard_library_diagnostics": "3.12.5",
+    "acceptance_scoring": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/acceptance-controller-venv/bin/python (3.11.5)"
+  },
+  "scope_limits": [
+    "Historical rematch opponent RNG recovery incomplete; replay is conditional on saved responses/actions.",
+    "Corrected-incumbent online search counterfactual not executed.",
+    "Actual stale-submission incidence requires per-execution provenance checks.",
+    "Two additional full pairwise model runs and paper plotting scripts needed for complete table reaggregation.",
+    "Other competition-specific preprocessing/scorers and private raw data require task-specific checks.",
+    "Prospective new methods, paid feedback and GPU experiments await review as requested.",
+    "Published revision metadata matched; full independent published-layout reconstruction remains a separate check."
+  ],
+  "sources": "evidence/sources.json",
+  "commands": "README.md; checks/ scripts and evidence/ logs",
+  "reading_revision": {
+    "file": "先读这份.md",
+    "numeric_claims_checked_against_receipts": true,
+    "scope": "Language and navigation only; baseline/results preserved"
+  },
+  "experimental_design_review": {
+    "status": "completed_with_explicit_causal_and_generalization_checks_pending",
+    "main_file": "论文实验设计审查_易读版.md",
+    "evidence": "evidence/experimental-design-review.json",
+    "checked": [
+      "Table13 task differences and leave-one-task-out sensitivity",
+      "Pooled SD numerical reconstruction (aggregation implementation still pending)",
+      "Figure4/7 visual check and own-peak versus common-target interpretation",
+      "Node-ratio aggregation weighting",
+      "Random-chance adjustment across candidate counts",
+      "26 tasks/895 candidates/18438 pairs",
+      "Existing confidence/R7/R8 records and baseline control configuration"
+    ],
+    "future_plan_revision": "Prioritize fixed-candidate, fixed-feedback-budget query allocation with frozen R7 aggregation and a coverage control; freeze before independent-task confirmation.",
+    "new_model_calls": 0,
+    "new_training_runs": 0,
+    "new_gpu_rentals": 0
+  }
+}

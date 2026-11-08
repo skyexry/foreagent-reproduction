@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "paper": {
+    "title": "Can We Predict Before Executing Machine Learning Agents?",
+    "url": "https://aclanthology.org/2026.acl-long.182.pdf",
+    "sha256": "5152ceb8d6a3ae9211152fba3adead53f91421f584c19cc613665dda13ac1e66",
+    "pages": 34,
+    "appendices": "A-E embedded",
+    "historical_read_pdf_hash": "not recorded in inspected materials"
+  },
+  "author_repository": "https://github.com/zjunlp/predict-before-execute",
+  "author_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "author_dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "reproduction_checkout_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "published_revision": "89d428fec8e950266efc5476fb79b59a8cadb0c0",
+  "published_tag": "hw3-phase1-v1",
+  "manifest_at_start_sha256": "bdf1bf53c25b439c7bdaf8adf0bd57a3cbe98dd0a9796a79ddca771e469b5d36",
+  "manifest_at_end_sha256": "43080d024af67643d48c2ec0282811bb64e755a000d1228bc3a236bb1ed71fe6",
+  "record_integrity": {
+    "start_entries": 945,
+    "final_entries": 947,
+    "final_all_entries_checked": true,
+    "author_blobs_checked": 484
+  },
+  "paid_model_calls": 0,
+  "candidate_training_runs": 0,
+  "gpu_rentals": 0
+}

@@ -1,0 +1,9 @@
+test_agent_routes_ties_probability_and_forced_execution (test_foreagent_mechanisms.MechanismTests.test_agent_routes_ties_probability_and_forced_execution) ... ok
+test_gate_boundaries_malformed_responses_and_cache_scope (test_foreagent_mechanisms.MechanismTests.test_gate_boundaries_malformed_responses_and_cache_scope) ... ok
+test_pending_byes_stopping_and_display_ranks (test_foreagent_mechanisms.MechanismTests.test_pending_byes_stopping_and_display_ranks) ... ok
+test_released_configuration_matches_audit (test_foreagent_mechanisms.MechanismTests.test_released_configuration_matches_audit) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.070s
+
+OK

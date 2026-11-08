@@ -1,0 +1,702 @@
+{
+  "id": "foreagent-corpus-completion-20261108-v1",
+  "date": "2026-11-08",
+  "dataset_directory": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/data/reward-model/corpus-6b322cb-raw-v1",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "dataset_manifest_sha256": "f49effa3667c64084a44f6b0d78dc3d62fefddac46706e55e073354ba50b8482",
+  "all_files_hash_verified": 974,
+  "original_input_hashes_unchanged": 469,
+  "downloaded_code_files": 521,
+  "code_files": 895,
+  "distinct_code_contents": 878,
+  "distinct_parseable_ast": 871,
+  "ast_parse_errors": [],
+  "exact_duplicate_code_groups": [
+    [
+      {
+        "task": "aptos2019-blindness-detection",
+        "filename": "solution_Aide_v3_aptos2019-blindness-detection_27904b4e-b53d-4fd5-968a-7c804f36519c_run_09bb770a6cc54d9cb665584d53b943d0.py",
+        "recorded_scores": [
+          "0.57231"
+        ]
+      },
+      {
+        "task": "aptos2019-blindness-detection",
+        "filename": "solution_Aide_v3_aptos2019-blindness-detection_27904b4e-b53d-4fd5-968a-7c804f36519c_run_9c3db786e13340cdb6b205273b93acae.py",
+        "recorded_scores": [
+          "0.58981"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "mlsp-2013-birds",
+        "filename": "solution_Automind_wo_knowledge_mlsp-2013-birds_15578f8c-fa23-4f05-9f66-481d05802d5f_run_75acfaa3f56a4aa28e0d44cf3a2d9d07.py",
+        "recorded_scores": [
+          "0.7854"
+        ]
+      },
+      {
+        "task": "mlsp-2013-birds",
+        "filename": "solution_Automind_wo_knowledge_mlsp-2013-birds_15578f8c-fa23-4f05-9f66-481d05802d5f_run_76cdfb3e9e584c9881b850ab3705e20f.py",
+        "recorded_scores": [
+          "0.7854"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "random-acts-of-pizza",
+        "filename": "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_2cc9acdb898b4f1d8a111c17685ea29b.py",
+        "recorded_scores": [
+          "0.54667"
+        ]
+      },
+      {
+        "task": "random-acts-of-pizza",
+        "filename": "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_fe7840a52ef94951b230cb08b4b2aa50.py",
+        "recorded_scores": [
+          "0.56699"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "tensorflow-speech-recognition-challenge",
+        "filename": "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_0ed9d52e154b4d8bab4af420bd556cda.py",
+        "recorded_scores": [
+          "0.32875"
+        ]
+      },
+      {
+        "task": "tensorflow-speech-recognition-challenge",
+        "filename": "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_b7179c38c2984b4abd081fc369603d35.py",
+        "recorded_scores": [
+          "0.34095"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "tgs-salt-identification-challenge",
+        "filename": "solution_Automind_wo_knowledge_tgs-salt-identification-challenge_79582cfd-b389-4bcb-8a96-87faa66af247_run_9acd496280de4aaa855567456508b595.py",
+        "recorded_scores": [
+          "0.7118"
+        ]
+      },
+      {
+        "task": "tgs-salt-identification-challenge",
+        "filename": "solution_Automind_wo_knowledge_tgs-salt-identification-challenge_79582cfd-b389-4bcb-8a96-87faa66af247_run_a3f0a68fdc364d668b696ed1a94372dc.py",
+        "recorded_scores": [
+          "0.7313"
+        ]
+      },
+      {
+        "task": "tgs-salt-identification-challenge",
+        "filename": "solution_Automind_wo_knowledge_tgs-salt-identification-challenge_79582cfd-b389-4bcb-8a96-87faa66af247_run_b1d1f7cca63c4e16b87f170e0ac73358.py",
+        "recorded_scores": [
+          "0.7263"
+        ]
+      },
+      {
+        "task": "tgs-salt-identification-challenge",
+        "filename": "solution_Automind_wo_knowledge_tgs-salt-identification-challenge_79582cfd-b389-4bcb-8a96-87faa66af247_run_ff174b03d678432184d9e5a97aa806f8.py",
+        "recorded_scores": [
+          "0.7206"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "tgs-salt-identification-challenge",
+        "filename": "solution_Automind_wo_knowledge_tgs-salt-identification-challenge_79582cfd-b389-4bcb-8a96-87faa66af247_run_c67a2593825e4d94b68200f3e2a14fb2.py",
+        "recorded_scores": [
+          "0.7144"
+        ]
+      },
+      {
+        "task": "tgs-salt-identification-challenge",
+        "filename": "solution_Automind_wo_knowledge_tgs-salt-identification-challenge_79582cfd-b389-4bcb-8a96-87faa66af247_run_f41ff7ba3e8a4170b5cb1fceade8a7c4.py",
+        "recorded_scores": [
+          "0.736"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "the-icml-2013-whale-challenge-right-whale-redux",
+        "filename": "solution_Automind_v3_the-icml-2013-whale-challenge-right-whale-redux_982ab386-a090-4cb0-873d-80ebfd003d80_run_c5968bffefcc4b6e9df3bd7e045a40f4.py",
+        "recorded_scores": [
+          "0.98361"
+        ]
+      },
+      {
+        "task": "the-icml-2013-whale-challenge-right-whale-redux",
+        "filename": "solution_Automind_v3_the-icml-2013-whale-challenge-right-whale-redux_982ab386-a090-4cb0-873d-80ebfd003d80_run_c7c36252cfe144c79b3eb71b67dd72fb.py",
+        "recorded_scores": [
+          "0.98442"
+        ]
+      }
+    ],
+    [
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_005dd882ee9140ab8234885719211b92.py",
+        "recorded_scores": [
+          "0.25674"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_0f27d0e39c7b408cb13adfa84a3b8fec.py",
+        "recorded_scores": [
+          "0.25095"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_37d78f6daea14d8ca64f3199db31b575.py",
+        "recorded_scores": [
+          "0.25535"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_6bbdc253bf314b2ab44bb27c53d73fe6.py",
+        "recorded_scores": [
+          "0.25375"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_8de7301395614d029cbf9107f34e80e0.py",
+        "recorded_scores": [
+          "0.25109"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_aa4e5ca9dda54e99b48dc850a484ed36.py",
+        "recorded_scores": [
+          "0.25182"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_af8fce7ee39b47dab7ecf228a99d4fd0.py",
+        "recorded_scores": [
+          "0.25048"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_b62ffb87670d47568c1f42c07f3c4f16.py",
+        "recorded_scores": [
+          "0.25148"
+        ]
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "filename": "solution_Automind_v3_tweet-sentiment-extraction_494d63dc-b91b-4543-8392-3a68fe456a18_run_be3dfa7115a246caaa6fb6e7d7e3c67f.py",
+        "recorded_scores": [
+          "0.25325"
+        ]
+      }
+    ]
+  ],
+  "finite_same_code_pairs": [
+    {
+      "task": "aptos2019-blindness-detection",
+      "group_index": 663,
+      "best_index": 1,
+      "scores": [
+        0.57231,
+        0.58981
+      ],
+      "code_hash": "fed1e7ef9dc3fccfc19ec992080d7a205082718d5c3bb64ca55dd59264c5839f"
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "group_index": 754,
+      "best_index": 0,
+      "scores": [
+        0.56699,
+        0.54667
+      ],
+      "code_hash": "3970a851484106008d99d18223371fea322dd4b227f80fe28340d6eef7358478"
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "group_index": 927,
+      "best_index": 1,
+      "scores": [
+        0.32875,
+        0.34095
+      ],
+      "code_hash": "349c57ca0adb6f2bf909cfd2d0b8e0145c94b2b303b1c8df5504a05d3d2a6903"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 712,
+      "best_index": 0,
+      "scores": [
+        0.7313,
+        0.7118
+      ],
+      "code_hash": "17d5be878abb4dbe8b8a4258df76c1bae5b8eb4317fce566d921e8ebc47256f5"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 744,
+      "best_index": 0,
+      "scores": [
+        0.7263,
+        0.7118
+      ],
+      "code_hash": "17d5be878abb4dbe8b8a4258df76c1bae5b8eb4317fce566d921e8ebc47256f5"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 745,
+      "best_index": 1,
+      "scores": [
+        0.7263,
+        0.7313
+      ],
+      "code_hash": "17d5be878abb4dbe8b8a4258df76c1bae5b8eb4317fce566d921e8ebc47256f5"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 749,
+      "best_index": 1,
+      "scores": [
+        0.7206,
+        0.7263
+      ],
+      "code_hash": "17d5be878abb4dbe8b8a4258df76c1bae5b8eb4317fce566d921e8ebc47256f5"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 864,
+      "best_index": 0,
+      "scores": [
+        0.736,
+        0.7144
+      ],
+      "code_hash": "c4daa211e1083d6773cf895d115ac18bdea244419e7e35d1aa4a78c885c889f1"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 876,
+      "best_index": 0,
+      "scores": [
+        0.7206,
+        0.7118
+      ],
+      "code_hash": "17d5be878abb4dbe8b8a4258df76c1bae5b8eb4317fce566d921e8ebc47256f5"
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "group_index": 877,
+      "best_index": 1,
+      "scores": [
+        0.7206,
+        0.7313
+      ],
+      "code_hash": "17d5be878abb4dbe8b8a4258df76c1bae5b8eb4317fce566d921e8ebc47256f5"
+    },
+    {
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "group_index": 218,
+      "best_index": 0,
+      "scores": [
+        0.98442,
+        0.98361
+      ],
+      "code_hash": "6294a632eda6d89fd0ca16efc0c1260cd1b2cf32d78bd7f510b7e7cb62ba182d"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 1,
+      "best_index": 1,
+      "scores": [
+        0.25375,
+        0.25674
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 2,
+      "best_index": 0,
+      "scores": [
+        0.25674,
+        0.25109
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 3,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25674
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 4,
+      "best_index": 0,
+      "scores": [
+        0.25674,
+        0.25325
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 5,
+      "best_index": 1,
+      "scores": [
+        0.25095,
+        0.25674
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 9,
+      "best_index": 1,
+      "scores": [
+        0.25095,
+        0.25375
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 12,
+      "best_index": 0,
+      "scores": [
+        0.25109,
+        0.25095
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 13,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25095
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 15,
+      "best_index": 1,
+      "scores": [
+        0.25095,
+        0.25325
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 30,
+      "best_index": 0,
+      "scores": [
+        0.25674,
+        0.25535
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 31,
+      "best_index": 1,
+      "scores": [
+        0.25095,
+        0.25535
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 36,
+      "best_index": 0,
+      "scores": [
+        0.25535,
+        0.25375
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 39,
+      "best_index": 1,
+      "scores": [
+        0.25109,
+        0.25535
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 42,
+      "best_index": 0,
+      "scores": [
+        0.25535,
+        0.25182
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 43,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25535
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 44,
+      "best_index": 0,
+      "scores": [
+        0.25535,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 46,
+      "best_index": 0,
+      "scores": [
+        0.25535,
+        0.25325
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 63,
+      "best_index": 1,
+      "scores": [
+        0.25325,
+        0.25375
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 101,
+      "best_index": 1,
+      "scores": [
+        0.25109,
+        0.25375
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 102,
+      "best_index": 0,
+      "scores": [
+        0.25325,
+        0.25109
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 133,
+      "best_index": 1,
+      "scores": [
+        0.25182,
+        0.25674
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 134,
+      "best_index": 0,
+      "scores": [
+        0.25182,
+        0.25095
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 139,
+      "best_index": 1,
+      "scores": [
+        0.25182,
+        0.25375
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 142,
+      "best_index": 0,
+      "scores": [
+        0.25182,
+        0.25109
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 145,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25182
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 146,
+      "best_index": 0,
+      "scores": [
+        0.25182,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 148,
+      "best_index": 0,
+      "scores": [
+        0.25325,
+        0.25182
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 151,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25375
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 152,
+      "best_index": 0,
+      "scores": [
+        0.25109,
+        0.25048
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 153,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25325
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 154,
+      "best_index": 0,
+      "scores": [
+        0.25674,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 155,
+      "best_index": 1,
+      "scores": [
+        0.25095,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 160,
+      "best_index": 0,
+      "scores": [
+        0.25375,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 163,
+      "best_index": 1,
+      "scores": [
+        0.25109,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 165,
+      "best_index": 1,
+      "scores": [
+        0.25048,
+        0.25148
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "group_index": 167,
+      "best_index": 1,
+      "scores": [
+        0.25148,
+        0.25325
+      ],
+      "code_hash": "3b5d21cc871f782c7fc0de3a22d3dbef9206d5e369f63f85257175e3df298f28"
+    }
+  ],
+  "finite_same_code_pair_count": 47,
+  "same_code_pairs_per_task": {
+    "aptos2019-blindness-detection": 1,
+    "random-acts-of-pizza": 1,
+    "tensorflow-speech-recognition-challenge": 1,
+    "tgs-salt-identification-challenge": 7,
+    "the-icml-2013-whale-challenge-right-whale-redux": 1,
+    "tweet-sentiment-extraction": 36
+  },
+  "bytes_excluding_manifest": 21679255,
+  "raw_labels_preserved": true,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "pairs": 18438,
+  "finite_pairs": 18389,
+  "code_characters_min_median_max": [
+    1193,
+    10170,
+    41481
+  ],
+  "local_links_checked": 64,
+  "local_links_valid": true,
+  "dataset_manifest_hash_verified": true
+}

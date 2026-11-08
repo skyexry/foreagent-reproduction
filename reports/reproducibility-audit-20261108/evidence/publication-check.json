@@ -1,0 +1,28 @@
+{
+  "repository": "skyexry/foreagent-reproduction",
+  "ref": "89d428fec8e950266efc5476fb79b59a8cadb0c0",
+  "method": "Authenticated local gh API GET; connector returned404 for private repository",
+  "files": [
+    {
+      "path": "phase1-reproduction/README.md",
+      "remote_blob_sha": "99b6234455dd95e0d7ecb5760990322907b4dcaf",
+      "bytes": 5922,
+      "sha256": "27bf87013dab4b16d59a8840b2438a4fba92e2980f5af025ebc131ab80c3e08b",
+      "equals_current_local": true
+    },
+    {
+      "path": "phase1-reproduction/SOURCES.json",
+      "remote_blob_sha": "87f819d309b41bc5a5bc73110a83aac7e2841e15",
+      "bytes": 443554,
+      "sha256": "43080d024af67643d48c2ec0282811bb64e755a000d1228bc3a236bb1ed71fe6",
+      "equals_current_local": true
+    },
+    {
+      "path": "phase1-reproduction/RELEASE_ASSETS.json",
+      "remote_blob_sha": "b428e6ef8a6924a2f8d58e3ce9760640dd2b4732",
+      "bytes": 839,
+      "sha256": "425e87e27c3281a34b053fa4caa85426c0b3c7fc7bb9861caf083e7c3764c8a2",
+      "equals_current_local": true
+    }
+  ]
+}

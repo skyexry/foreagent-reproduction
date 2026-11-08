@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "jobs": 850,
+  "selections": 3400,
+  "source_hashes": 946,
+  "active_decision_priority_checks": 3406,
+  "labels_used_only_for_scoring": true,
+  "historical_R6_R8_artifacts_used": false,
+  "summary_sha256": "b800cb23c5684ec571ed5ca2b324f5a721b0d5d1aca634fb58c248c871c7fc9c",
+  "decisions_sha256": "369777e4925f51a66d76e407a027c48168a5c526c4ad90a2b26346d744c2141e",
+  "scope": "Independent feedback/priority/metric reconstruction; frozen author responses and development tasks only."
+}

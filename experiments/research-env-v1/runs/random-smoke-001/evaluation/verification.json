@@ -1,0 +1,8 @@
+{
+  "baseline_reference_checked": true,
+  "decisions_sha256": "1295ab3e6626b072e11ea9d510293d379e16e3b7e1fd47a05d7fc1ce1aa340f8",
+  "episodes": 3,
+  "labels_enter_only_after_selection": true,
+  "source_manifest_sha256": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+  "status": "passed"
+}

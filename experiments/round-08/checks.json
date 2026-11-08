@@ -1,0 +1,16 @@
+{
+  "unit_tests": {
+    "passed": 45,
+    "failed": 0,
+    "new_r8": 9
+  },
+  "baseline_frozen_files_verified": 85,
+  "r6_r7_methods_protocols_results_unchanged": true,
+  "primary_registration_unchanged": true,
+  "source_addendum_before_scoring": true,
+  "data_validation": "data_validation.json",
+  "raw_source_recovery": "raw_recovery_verification.json",
+  "full_method_verification": "verification.json",
+  "new_model_calls": 0,
+  "candidate_training_runs": 0
+}

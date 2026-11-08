@@ -1,0 +1,12 @@
+{
+  "original": true,
+  "saved_node": "initial_trans",
+  "journal_best": "8dce0f8clater",
+  "saved_public_mcrmse": 0.8690933760964255,
+  "journal_best_public_mcrmse": 0.7966856488722706,
+  "own_grader_score": 0.8690933760964255,
+  "own_grader_reordered_score": 0.869124090863293,
+  "same_input_predictions": true,
+  "live_model_calls": 0,
+  "scope": "Two real Agent.step calls; fixed candidates, judgments and new smoke execution returns. Component correctness, not full search performance."
+}

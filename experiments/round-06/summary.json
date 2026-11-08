@@ -1,0 +1,1000 @@
+{
+  "experiment_id": "round-06",
+  "provenance": {
+    "experiment": "round-06",
+    "protocol_commit": "084ad53be4609a2bf0e57c2ac11b97c988f84ef3",
+    "implementation_commit": "68a20ad9205e409fbd1e10437abab4d07587749b",
+    "started_at_utc": "2026-11-07T12:32:04.475569+00:00",
+    "python": "3.12.5",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "registration": {
+      "protocol.md": "09f67a1e9ab3dbc786be7a89e5c98224aac33fbcc8e9ed06541baa4a607078d6",
+      "protocol.json": "196db393dc5018ac5220acc4c572de1c6842013a889e177ce84d8b30aa1123bd",
+      "jobs.jsonl": "74b224fe8fd87752181b5c9b173a91ebe404974e5ddf010518f2c175c2795ff7"
+    },
+    "control_archive_sha256": "c3130b0484b901d53160ac7c9458aef850f599487a03b3f6d812156ad84cb354",
+    "actual_api_calls": 0,
+    "candidate_training_runs": 0
+  },
+  "tasks": 26,
+  "paired_jobs": 7800,
+  "selection_evaluations": 15600,
+  "macro": {
+    "control": {
+      "uniform_tie_best_hit": 0.21199984737484737,
+      "normalized_regret": 0.2775339758406862,
+      "selected_percentile": 0.6057660765160765,
+      "top_group_size": 1.488076923076923,
+      "contains_best": 0.29307692307692307
+    },
+    "treatment": {
+      "uniform_tie_best_hit": 0.22499694749694749,
+      "normalized_regret": 0.27924757261472605,
+      "selected_percentile": 0.6066458587708587,
+      "top_group_size": 1.9617948717948719,
+      "contains_best": 0.36923076923076925
+    }
+  },
+  "delta": {
+    "uniform_tie_best_hit": 0.01299710012210012,
+    "normalized_regret": 0.0017135967740398717,
+    "selected_percentile": 0.0008797822547822465,
+    "top_group_size": 0.4737179487179488,
+    "contains_best": 0.07615384615384618
+  },
+  "paired_task_bootstrap_95": {
+    "uniform_tie_best_hit": {
+      "low": -0.005290552503052501,
+      "high": 0.0370057615995116,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110706
+    },
+    "normalized_regret": {
+      "low": -0.013344826417925124,
+      "high": 0.014056925030776385,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110706
+    },
+    "selected_percentile": {
+      "low": -0.013126960385293726,
+      "high": 0.018855113790530446,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110706
+    },
+    "top_group_size": {
+      "low": 0.3293589743589744,
+      "high": 0.5976987179487179,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110706
+    },
+    "contains_best": {
+      "low": 0.045512820512820504,
+      "high": 0.10987179487179487,
+      "unit": "task",
+      "paired": true,
+      "replicates": 10000,
+      "seed": 2026110706
+    }
+  },
+  "task_primary_improved": 13,
+  "task_primary_tied": 1,
+  "task_primary_declined": 12,
+  "direction_prediction_supported": true,
+  "practical_threshold_met": false,
+  "budget": {
+    "comparison_records": 614747,
+    "cache_reads": 512274,
+    "shared_unique_feedback": 102473,
+    "valid_unique_feedback": 51593,
+    "new_feedback_queries": 0,
+    "actual_api_calls": 0,
+    "candidate_training_runs": 0,
+    "selected_set_changed": 4200,
+    "distinct_feedback_across_experiment": 13592
+  },
+  "diagnostics": {
+    "unique_feedback": 13.137564102564102,
+    "valid_unique_edges": 6.614487179487179,
+    "isolated_candidates": 0.9748717948717949,
+    "components": 2.6176923076923075,
+    "all_uninformative": 0.005,
+    "selected_isolated": 0.05
+  },
+  "per_task": [
+    {
+      "task": "aptos2019-blindness-detection",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.2881944444444444,
+        "normalized_regret": 0.3414175556989187,
+        "selected_percentile": 0.590679012345679,
+        "top_group_size": 1.63,
+        "contains_best": 0.4266666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.2643888888888889,
+        "normalized_regret": 0.3585312977574365,
+        "selected_percentile": 0.5648456790123456,
+        "top_group_size": 2.3133333333333335,
+        "contains_best": 0.6
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.023805555555555524,
+        "normalized_regret": 0.01711374205851779,
+        "selected_percentile": -0.025833333333333375,
+        "top_group_size": 0.6833333333333336,
+        "contains_best": 0.17333333333333328
+      },
+      "graph_mean": {
+        "unique_feedback": 15.663333333333334,
+        "valid_unique_edges": 7,
+        "isolated_candidates": 1.2266666666666666,
+        "components": 3.1666666666666665,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 181
+    },
+    {
+      "task": "denoising-dirty-documents",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.335,
+        "normalized_regret": 0.0702967565424134,
+        "selected_percentile": 0.8415432098765432,
+        "top_group_size": 1.3333333333333333,
+        "contains_best": 0.43333333333333335
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.36416666666666664,
+        "normalized_regret": 0.07563078517721597,
+        "selected_percentile": 0.831820987654321,
+        "top_group_size": 1.96,
+        "contains_best": 0.63
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.02916666666666662,
+        "normalized_regret": 0.005334028634802576,
+        "selected_percentile": -0.009722222222222188,
+        "top_group_size": 0.6266666666666667,
+        "contains_best": 0.19666666666666666
+      },
+      "graph_mean": {
+        "unique_feedback": 13.68,
+        "valid_unique_edges": 8.3,
+        "isolated_candidates": 0.4066666666666667,
+        "components": 2,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 160
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.14956746031746032,
+        "normalized_regret": 0.10583864349536097,
+        "selected_percentile": 0.639294532627866,
+        "top_group_size": 2.6633333333333336,
+        "contains_best": 0.3466666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.1358888888888889,
+        "normalized_regret": 0.12280779315552204,
+        "selected_percentile": 0.6125308641975309,
+        "top_group_size": 2.6,
+        "contains_best": 0.31333333333333335
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.013678571428571429,
+        "normalized_regret": 0.016969149660161068,
+        "selected_percentile": -0.026763668430335064,
+        "top_group_size": -0.06333333333333346,
+        "contains_best": -0.033333333333333326
+      },
+      "graph_mean": {
+        "unique_feedback": 18.953333333333333,
+        "valid_unique_edges": 2.8766666666666665,
+        "isolated_candidates": 5.513333333333334,
+        "components": 7.133333333333334,
+        "all_uninformative": 0.08,
+        "selected_isolated": 0.8
+      },
+      "selected_set_changed": 112
+    },
+    {
+      "task": "dog-breed-identification",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.7733333333333333,
+        "normalized_regret": 0.1266859285680293,
+        "selected_percentile": 0.83,
+        "top_group_size": 1.68,
+        "contains_best": 1.0
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 1.0,
+        "normalized_regret": 0.0,
+        "selected_percentile": 1.0,
+        "top_group_size": 1,
+        "contains_best": 1.0
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.22666666666666668,
+        "normalized_regret": -0.1266859285680293,
+        "selected_percentile": 0.17000000000000004,
+        "top_group_size": -0.6799999999999999,
+        "contains_best": 0.0
+      },
+      "graph_mean": {
+        "unique_feedback": 2.34,
+        "valid_unique_edges": 2,
+        "isolated_candidates": 0,
+        "components": 1,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 102
+    },
+    {
+      "task": "google-quest-challenge",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.3688888888888889,
+        "normalized_regret": 0.24035512419652755,
+        "selected_percentile": 0.6850308641975309,
+        "top_group_size": 1.3833333333333333,
+        "contains_best": 0.47
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.35858730158730157,
+        "normalized_regret": 0.2412423968882986,
+        "selected_percentile": 0.6812460317460317,
+        "top_group_size": 1.9666666666666666,
+        "contains_best": 0.58
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.010301587301587312,
+        "normalized_regret": 0.0008872726917710516,
+        "selected_percentile": -0.003784832451499187,
+        "top_group_size": 0.5833333333333333,
+        "contains_best": 0.10999999999999999
+      },
+      "graph_mean": {
+        "unique_feedback": 15.19,
+        "valid_unique_edges": 7.826666666666667,
+        "isolated_candidates": 0.8233333333333334,
+        "components": 2.4133333333333336,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 159
+    },
+    {
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.8826821032320316,
+        "selected_percentile": 0.03166666666666667,
+        "top_group_size": 1.14,
+        "contains_best": 0.0
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.013333333333333334,
+        "normalized_regret": 0.7998842257597704,
+        "selected_percentile": 0.06375,
+        "top_group_size": 1.43,
+        "contains_best": 0.02666666666666667
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.013333333333333334,
+        "normalized_regret": -0.0827978774722612,
+        "selected_percentile": 0.03208333333333333,
+        "top_group_size": 0.29000000000000004,
+        "contains_best": 0.02666666666666667
+      },
+      "graph_mean": {
+        "unique_feedback": 5.96,
+        "valid_unique_edges": 3.15,
+        "isolated_candidates": 0.6433333333333333,
+        "components": 1.96,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 117
+    },
+    {
+      "task": "leaf-classification",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.08955555555555555,
+        "normalized_regret": 0.022773255216203044,
+        "selected_percentile": 0.7494074074074074,
+        "top_group_size": 1.29,
+        "contains_best": 0.14
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.12194444444444444,
+        "normalized_regret": 0.03120262390724794,
+        "selected_percentile": 0.7293518518518518,
+        "top_group_size": 2.14,
+        "contains_best": 0.31666666666666665
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.032388888888888884,
+        "normalized_regret": 0.008429368691044895,
+        "selected_percentile": -0.020055555555555604,
+        "top_group_size": 0.8500000000000001,
+        "contains_best": 0.17666666666666664
+      },
+      "graph_mean": {
+        "unique_feedback": 13.756666666666666,
+        "valid_unique_edges": 8.16,
+        "isolated_candidates": 0.38333333333333336,
+        "components": 2.1466666666666665,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 214
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.35833333333333334,
+        "normalized_regret": 0.12791537430745992,
+        "selected_percentile": 0.7314197530864197,
+        "top_group_size": 1.7333333333333334,
+        "contains_best": 0.5666666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.33316666666666667,
+        "normalized_regret": 0.16798111800815965,
+        "selected_percentile": 0.6973086419753086,
+        "top_group_size": 2.5633333333333335,
+        "contains_best": 0.8133333333333334
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.02516666666666667,
+        "normalized_regret": 0.040065743700699735,
+        "selected_percentile": -0.03411111111111109,
+        "top_group_size": 0.8300000000000001,
+        "contains_best": 0.2466666666666667
+      },
+      "graph_mean": {
+        "unique_feedback": 16.393333333333334,
+        "valid_unique_edges": 6.873333333333333,
+        "isolated_candidates": 1.2466666666666666,
+        "components": 3.33,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 196
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.18055555555555555,
+        "normalized_regret": 0.21590767032669117,
+        "selected_percentile": 0.7148148148148148,
+        "top_group_size": 1.3266666666666667,
+        "contains_best": 0.21666666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.16233333333333333,
+        "normalized_regret": 0.24043478519597386,
+        "selected_percentile": 0.6848271604938272,
+        "top_group_size": 1.96,
+        "contains_best": 0.2733333333333333
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.018222222222222223,
+        "normalized_regret": 0.02452711486928269,
+        "selected_percentile": -0.0299876543209876,
+        "top_group_size": 0.6333333333333333,
+        "contains_best": 0.05666666666666664
+      },
+      "graph_mean": {
+        "unique_feedback": 14.003333333333334,
+        "valid_unique_edges": 7.866666666666666,
+        "isolated_candidates": 0.6533333333333333,
+        "components": 2.3766666666666665,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 168
+    },
+    {
+      "task": "mlsp-2013-birds",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.08055555555555556,
+        "normalized_regret": 0.2965159153182341,
+        "selected_percentile": 0.5829012345679012,
+        "top_group_size": 1.37,
+        "contains_best": 0.1
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.07555555555555556,
+        "normalized_regret": 0.3039105809375233,
+        "selected_percentile": 0.575,
+        "top_group_size": 2.1133333333333333,
+        "contains_best": 0.17666666666666667
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.0050000000000000044,
+        "normalized_regret": 0.007394665619289198,
+        "selected_percentile": -0.00790123456790126,
+        "top_group_size": 0.7433333333333332,
+        "contains_best": 0.07666666666666666
+      },
+      "graph_mean": {
+        "unique_feedback": 14.693333333333333,
+        "valid_unique_edges": 7.49,
+        "isolated_candidates": 0.85,
+        "components": 2.716666666666667,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 202
+    },
+    {
+      "task": "new-york-city-taxi-fare-prediction",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.2733333333333333,
+        "normalized_regret": 0.12997798517166018,
+        "selected_percentile": 0.48478395061728397,
+        "top_group_size": 1.23,
+        "contains_best": 0.31333333333333335
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.24722222222222223,
+        "normalized_regret": 0.15037635297757512,
+        "selected_percentile": 0.4614506172839506,
+        "top_group_size": 1.5566666666666666,
+        "contains_best": 0.32
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.026111111111111085,
+        "normalized_regret": 0.020398367805914946,
+        "selected_percentile": -0.023333333333333373,
+        "top_group_size": 0.32666666666666666,
+        "contains_best": 0.006666666666666654
+      },
+      "graph_mean": {
+        "unique_feedback": 13.496666666666666,
+        "valid_unique_edges": 8.99,
+        "isolated_candidates": 0.22666666666666666,
+        "components": 1.53,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 133
+    },
+    {
+      "task": "nomad2018-predict-transparent-conductors",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.84,
+        "normalized_regret": 0.016758104738154762,
+        "selected_percentile": 0.92,
+        "top_group_size": 1.32,
+        "contains_best": 1.0
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 1.0,
+        "normalized_regret": 0.0,
+        "selected_percentile": 1.0,
+        "top_group_size": 1,
+        "contains_best": 1.0
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.16000000000000003,
+        "normalized_regret": -0.016758104738154762,
+        "selected_percentile": 0.07999999999999996,
+        "top_group_size": -0.32000000000000006,
+        "contains_best": 0.0
+      },
+      "graph_mean": {
+        "unique_feedback": 2.29,
+        "valid_unique_edges": 1.61,
+        "isolated_candidates": 0.39,
+        "components": 1.39,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 96
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.44166666666666665,
+        "normalized_regret": 0.45207859055053784,
+        "selected_percentile": 0.7607142857142857,
+        "top_group_size": 1.3966666666666667,
+        "contains_best": 0.63
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.46944444444444444,
+        "normalized_regret": 0.42957847134235316,
+        "selected_percentile": 0.7727777777777778,
+        "top_group_size": 1.9566666666666668,
+        "contains_best": 0.9366666666666666
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.02777777777777779,
+        "normalized_regret": -0.022500119208184677,
+        "selected_percentile": 0.01206349206349211,
+        "top_group_size": 0.56,
+        "contains_best": 0.30666666666666664
+      },
+      "graph_mean": {
+        "unique_feedback": 10.13,
+        "valid_unique_edges": 6.25,
+        "isolated_candidates": 0.13,
+        "components": 1.83,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 168
+    },
+    {
+      "task": "plant-pathology-2020-fgvc7",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.2914332626393925,
+        "selected_percentile": 0.472,
+        "top_group_size": 1.32,
+        "contains_best": 0.0
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.3488577227429249,
+        "selected_percentile": 0.4136666666666667,
+        "top_group_size": 1.9333333333333333,
+        "contains_best": 0.0
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.0,
+        "normalized_regret": 0.057424460103532415,
+        "selected_percentile": -0.05833333333333329,
+        "top_group_size": 0.6133333333333333,
+        "contains_best": 0.0
+      },
+      "graph_mean": {
+        "unique_feedback": 7.82,
+        "valid_unique_edges": 4.04,
+        "isolated_candidates": 0.22666666666666666,
+        "components": 2.1466666666666665,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 180
+    },
+    {
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.14055555555555554,
+        "normalized_regret": 0.4928195761566353,
+        "selected_percentile": 0.36941358024691356,
+        "top_group_size": 1.4133333333333333,
+        "contains_best": 0.18666666666666668
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.13472222222222222,
+        "normalized_regret": 0.48625446534100086,
+        "selected_percentile": 0.38271604938271603,
+        "top_group_size": 1.9666666666666666,
+        "contains_best": 0.26
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.005833333333333329,
+        "normalized_regret": -0.006565110815634434,
+        "selected_percentile": 0.013302469135802464,
+        "top_group_size": 0.5533333333333332,
+        "contains_best": 0.07333333333333333
+      },
+      "graph_mean": {
+        "unique_feedback": 14.273333333333333,
+        "valid_unique_edges": 7.82,
+        "isolated_candidates": 0.6766666666666666,
+        "components": 2.37,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 161
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.06583333333333333,
+        "normalized_regret": 0.31724534260723225,
+        "selected_percentile": 0.6127777777777778,
+        "top_group_size": 1.2933333333333332,
+        "contains_best": 0.09333333333333334
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.08972222222222222,
+        "normalized_regret": 0.3268392071755137,
+        "selected_percentile": 0.6156172839506173,
+        "top_group_size": 2.02,
+        "contains_best": 0.18333333333333332
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.02388888888888889,
+        "normalized_regret": 0.00959386456828143,
+        "selected_percentile": 0.0028395061728395676,
+        "top_group_size": 0.7266666666666668,
+        "contains_best": 0.08999999999999998
+      },
+      "graph_mean": {
+        "unique_feedback": 15.123333333333333,
+        "valid_unique_edges": 7.89,
+        "isolated_candidates": 0.6466666666666666,
+        "components": 2.3633333333333333,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 187
+    },
+    {
+      "task": "spooky-author-identification",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.175,
+        "normalized_regret": 0.1855517654366694,
+        "selected_percentile": 0.6679012345679012,
+        "top_group_size": 1.36,
+        "contains_best": 0.23
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.1365,
+        "normalized_regret": 0.20137810252480476,
+        "selected_percentile": 0.6581851851851852,
+        "top_group_size": 1.78,
+        "contains_best": 0.25666666666666665
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.03849999999999998,
+        "normalized_regret": 0.015826337088135356,
+        "selected_percentile": -0.009716049382715974,
+        "top_group_size": 0.41999999999999993,
+        "contains_best": 0.026666666666666644
+      },
+      "graph_mean": {
+        "unique_feedback": 13.17,
+        "valid_unique_edges": 8.453333333333333,
+        "isolated_candidates": 0.33,
+        "components": 1.8666666666666667,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 170
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.055,
+        "normalized_regret": 0.1986685607294194,
+        "selected_percentile": 0.582716049382716,
+        "top_group_size": 1.3966666666666667,
+        "contains_best": 0.06666666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.0575,
+        "normalized_regret": 0.1929008297703929,
+        "selected_percentile": 0.584320987654321,
+        "top_group_size": 1.9533333333333334,
+        "contains_best": 0.1
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.0025000000000000022,
+        "normalized_regret": -0.005767730959026496,
+        "selected_percentile": 0.0016049382716049054,
+        "top_group_size": 0.5566666666666666,
+        "contains_best": 0.03333333333333334
+      },
+      "graph_mean": {
+        "unique_feedback": 12.883333333333333,
+        "valid_unique_edges": 8.476666666666667,
+        "isolated_candidates": 0.2,
+        "components": 1.7833333333333334,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 156
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.1025,
+        "normalized_regret": 0.2502883381770538,
+        "selected_percentile": 0.5900308641975308,
+        "top_group_size": 1.3566666666666667,
+        "contains_best": 0.14666666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.1101111111111111,
+        "normalized_regret": 0.2559928813617265,
+        "selected_percentile": 0.588820987654321,
+        "top_group_size": 1.9833333333333334,
+        "contains_best": 0.24666666666666667
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.00761111111111111,
+        "normalized_regret": 0.005704543184672672,
+        "selected_percentile": -0.001209876543209809,
+        "top_group_size": 0.6266666666666667,
+        "contains_best": 0.1
+      },
+      "graph_mean": {
+        "unique_feedback": 14.426666666666666,
+        "valid_unique_edges": 8.143333333333333,
+        "isolated_candidates": 0.48333333333333334,
+        "components": 2.183333333333333,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 175
+    },
+    {
+      "task": "tabular-playground-series-dec-2021",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.013333333333333332,
+        "normalized_regret": 0.28465030570945016,
+        "selected_percentile": 0.31787037037037036,
+        "top_group_size": 1.4533333333333334,
+        "contains_best": 0.02666666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.0205,
+        "normalized_regret": 0.27667748086769584,
+        "selected_percentile": 0.3404938271604938,
+        "top_group_size": 2.2733333333333334,
+        "contains_best": 0.056666666666666664
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.007166666666666668,
+        "normalized_regret": -0.007972824841754322,
+        "selected_percentile": 0.022623456790123453,
+        "top_group_size": 0.8200000000000001,
+        "contains_best": 0.029999999999999995
+      },
+      "graph_mean": {
+        "unique_feedback": 15.59,
+        "valid_unique_edges": 6.99,
+        "isolated_candidates": 1.04,
+        "components": 3.0833333333333335,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 195
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.06665079365079365,
+        "normalized_regret": 0.4447153248629141,
+        "selected_percentile": 0.5627980599647266,
+        "top_group_size": 2.01,
+        "contains_best": 0.15
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.04772222222222222,
+        "normalized_regret": 0.45861263369334637,
+        "selected_percentile": 0.553858024691358,
+        "top_group_size": 2.19,
+        "contains_best": 0.12333333333333334
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.018928571428571433,
+        "normalized_regret": 0.013897308830432276,
+        "selected_percentile": -0.008940035273368618,
+        "top_group_size": 0.18000000000000016,
+        "contains_best": -0.026666666666666658
+      },
+      "graph_mean": {
+        "unique_feedback": 16.463333333333335,
+        "valid_unique_edges": 5.596666666666667,
+        "isolated_candidates": 2.8933333333333335,
+        "components": 4.493333333333333,
+        "all_uninformative": 0.03,
+        "selected_isolated": 0.3
+      },
+      "selected_set_changed": 152
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.15138888888888888,
+        "normalized_regret": 0.24768017930208588,
+        "selected_percentile": 0.5251543209876544,
+        "top_group_size": 1.38,
+        "contains_best": 0.20666666666666667
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.1338888888888889,
+        "normalized_regret": 0.2539992582703888,
+        "selected_percentile": 0.5214197530864197,
+        "top_group_size": 2.17,
+        "contains_best": 0.28
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.017499999999999988,
+        "normalized_regret": 0.006319078968302888,
+        "selected_percentile": -0.003734567901234609,
+        "top_group_size": 0.79,
+        "contains_best": 0.07333333333333336
+      },
+      "graph_mean": {
+        "unique_feedback": 15.09,
+        "valid_unique_edges": 7.743333333333333,
+        "isolated_candidates": 0.6666666666666666,
+        "components": 2.44,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 202
+    },
+    {
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.21363888888888888,
+        "normalized_regret": 0.5783138954451806,
+        "selected_percentile": 0.508425925925926,
+        "top_group_size": 1.8866666666666667,
+        "contains_best": 0.38333333333333336
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.19544444444444445,
+        "normalized_regret": 0.6153732639937872,
+        "selected_percentile": 0.4717901234567901,
+        "top_group_size": 2.3966666666666665,
+        "contains_best": 0.42333333333333334
+      },
+      "delta": {
+        "uniform_tie_best_hit": -0.01819444444444443,
+        "normalized_regret": 0.037059368548606586,
+        "selected_percentile": -0.036635802469135836,
+        "top_group_size": 0.5099999999999998,
+        "contains_best": 0.03999999999999998
+      },
+      "graph_mean": {
+        "unique_feedback": 18.37,
+        "valid_unique_edges": 5.126666666666667,
+        "isolated_candidates": 3.1433333333333335,
+        "components": 4.946666666666666,
+        "all_uninformative": 0.01,
+        "selected_isolated": 0.1
+      },
+      "selected_set_changed": 146
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.01877777777777778,
+        "normalized_regret": 0.6705292742878299,
+        "selected_percentile": 0.577283950617284,
+        "top_group_size": 1.57,
+        "contains_best": 0.03333333333333333
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.021555555555555557,
+        "normalized_regret": 0.683355870461878,
+        "selected_percentile": 0.5686419753086419,
+        "top_group_size": 2.2133333333333334,
+        "contains_best": 0.03666666666666667
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.0027777777777777783,
+        "normalized_regret": 0.012826596174048022,
+        "selected_percentile": -0.00864197530864208,
+        "top_group_size": 0.6433333333333333,
+        "contains_best": 0.003333333333333334
+      },
+      "graph_mean": {
+        "unique_feedback": 17.523333333333333,
+        "valid_unique_edges": 6.183333333333334,
+        "isolated_candidates": 2.2066666666666666,
+        "components": 3.9433333333333334,
+        "all_uninformative": 0.01,
+        "selected_isolated": 0.1
+      },
+      "selected_set_changed": 163
+    },
+    {
+      "task": "us-patent-phrase-to-phrase-matching",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.1827777777777778,
+        "normalized_regret": 0.11644693165993632,
+        "selected_percentile": 0.744783950617284,
+        "top_group_size": 1.3433333333333333,
+        "contains_best": 0.24
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.2038888888888889,
+        "normalized_regret": 0.12673471272420375,
+        "selected_percentile": 0.7414814814814815,
+        "top_group_size": 1.5566666666666666,
+        "contains_best": 0.29
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.02111111111111111,
+        "normalized_regret": 0.010287781064267434,
+        "selected_percentile": -0.003302469135802455,
+        "top_group_size": 0.21333333333333337,
+        "contains_best": 0.04999999999999999
+      },
+      "graph_mean": {
+        "unique_feedback": 11.406666666666666,
+        "valid_unique_edges": 8.846666666666666,
+        "isolated_candidates": 0.056666666666666664,
+        "components": 1.4566666666666668,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 132
+    },
+    {
+      "task": "ventilator-pressure-prediction",
+      "jobs": 300,
+      "control": {
+        "uniform_tie_best_hit": 0.14755555555555555,
+        "normalized_regret": 0.1083376074818184,
+        "selected_percentile": 0.6565061728395062,
+        "top_group_size": 1.41,
+        "contains_best": 0.21333333333333335
+      },
+      "treatment": {
+        "uniform_tie_best_hit": 0.15233333333333332,
+        "normalized_regret": 0.11188002794813749,
+        "selected_percentile": 0.6568703703703703,
+        "top_group_size": 2.01,
+        "contains_best": 0.3566666666666667
+      },
+      "delta": {
+        "uniform_tie_best_hit": 0.00477777777777777,
+        "normalized_regret": 0.003542420466319099,
+        "selected_percentile": 0.00036419753086414097,
+        "top_group_size": 0.5999999999999999,
+        "contains_best": 0.14333333333333334
+      },
+      "graph_mean": {
+        "unique_feedback": 12.886666666666667,
+        "valid_unique_edges": 8.273333333333333,
+        "isolated_candidates": 0.2833333333333333,
+        "components": 1.99,
+        "all_uninformative": 0,
+        "selected_isolated": 0
+      },
+      "selected_set_changed": 173
+    }
+  ],
+  "scope": "Prospectively specified exploratory reaggregation on previously inspected corpus; fixed tournament-selected evidence, not a new comparison acquisition policy.",
+  "runs_content_sha256": "02ecfe8c9e288b1027d7ad00b8f8ae5d2c34e07c61d13ebcadc08899f5d933bf",
+  "runs_gzip_sha256": "02dc0caefa4cd11347073a4ae07193ecbdf12e673a8818b95c4821c7b77a067b"
+}

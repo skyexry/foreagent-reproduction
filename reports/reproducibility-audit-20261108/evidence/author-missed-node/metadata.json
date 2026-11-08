@@ -1,0 +1,1779 @@
+{
+  "node_id": "95a7c8116b55458ca9b70e1243294453",
+  "step": 86,
+  "stage": "improve",
+  "is_skipped": false,
+  "is_buggy": false,
+  "metric": "Metric\u2193(0.1583)",
+  "analysis": "The model achieved a validation metric of 0.1583, indicating a relatively low mean columnwise root mean squared error (MCRMSE) across the scored targets. The submission file was successfully created and passed validation, containing the expected number of rows.",
+  "parent_id": "f35059cb7c4249cf9d541ebebd2b327e",
+  "exec_time": 95.59399127960205,
+  "exc_type": null,
+  "wm_predicted_rank": 0,
+  "wm_comparison_results": [
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 1,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 2,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 3,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 4,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 5,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 6,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 7,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 8,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 9,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 10,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 11,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 12,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 13,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 14,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 15,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 16,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 17,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 18,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 19,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 20,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.6,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.55,
+      "round": 21,
+      "valid": false
+    },
+    {
+      "winner": null,
+      "confidence": 0.65,
+      "round": 21,
+      "valid": false
+    }
+  ]
+}

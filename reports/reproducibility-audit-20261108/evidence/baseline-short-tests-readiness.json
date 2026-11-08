@@ -1,0 +1,57 @@
+{
+  "id": "baseline-short-tests-plan-20261108-v1",
+  "date": "2026-11-08",
+  "scope": "Read-only inspection and existing unit checks; correction and actual candidate training proposed for review.",
+  "unit_checks": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_online_baseline.py -v",
+      "tests": 5,
+      "status": "passed"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_foreagent_mechanisms.py -v",
+      "tests": 4,
+      "status": "passed",
+      "interpretation": "Checks pinned original behavior; not evidence that all identified defects are fixed."
+    }
+  ],
+  "candidate_architectures": [
+    {
+      "node": "2310e6bf",
+      "architecture": "Transformer"
+    },
+    {
+      "node": "0cae1a47",
+      "architecture": "LSTM"
+    },
+    {
+      "node": "8dce0f8c",
+      "architecture": "CNN+LSTM"
+    }
+  ],
+  "available_environment": {
+    "python": "acceptance-controller-venv Python3.11 family",
+    "torch": "2.2.0",
+    "numpy": "1.26.2",
+    "pandas": "2.3.3"
+  },
+  "planned_training": {
+    "candidates": 3,
+    "seeds": 2,
+    "target_train_seconds_per_run": 5,
+    "process_timeout_seconds": 60,
+    "device": "CPU first",
+    "status": "proposal; actual candidate training pending"
+  },
+  "source_sha256": {
+    "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de",
+    "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "scripts/verify_online_baseline.py": "a070eba5a499b1f67fede3686aa897ba9bb1da7cc90dd11d8868e20dea925726"
+  },
+  "new_candidate_training_runs": 0,
+  "new_model_calls": 0,
+  "new_gpu_rentals": 0,
+  "baseline_corrections_executed": false,
+  "old_input_hashes_unchanged": 469,
+  "local_links_verified": 51
+}

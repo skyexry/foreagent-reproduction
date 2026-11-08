@@ -1,0 +1,23 @@
+{
+  "acceptance": "experiments/research-env-v1/acceptance.json",
+  "acceptance_script_sha256": "59ad6257fafe504b954865cbe11aa904eccde68324e4558ab2ab7a1afb93094e",
+  "acceptance_sha256": "72b68e6cc19269dc12cdbc82e1a99d636cf86caa29cc6e5ced9936277061314f",
+  "baseline": "C0 corrected_tournament",
+  "completed": [
+    "Policy boundary and host-controlled query budget",
+    "Frozen scorer and independent evaluation",
+    "850 baseline + 850 random-control episodes reproduce saved results",
+    "17 contract/isolation tests"
+  ],
+  "development_tasks": 26,
+  "environment_id": "foreagent-selection-replay-v1",
+  "jobs": 850,
+  "next": "Study the comparison-allocation module and primary literature; prepare a reviewable proposal card.",
+  "pending": [
+    "Primary-literature study and complete proposal cards",
+    "AI Scientist pinned-version native adapter, isolated coder workspace and aggregate experiment budget",
+    "New-task confirmation and live end-to-end environment acceptance"
+  ],
+  "pools": 425,
+  "status": "离线 Environment 与 Evals 已验收"
+}

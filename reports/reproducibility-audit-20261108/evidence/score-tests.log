@@ -1,0 +1,10 @@
+test_duplicate_missing_and_unknown_ids_rejected (test_online_baseline.OnlineScoreTests.test_duplicate_missing_and_unknown_ids_rejected) ... ok
+test_invalid_and_empty_masks_rejected (test_online_baseline.OnlineScoreTests.test_invalid_and_empty_masks_rejected) ... ok
+test_mask_three_targets_and_row_order (test_online_baseline.OnlineScoreTests.test_mask_three_targets_and_row_order) ... ok
+test_missing_columns_rejected (test_online_baseline.OnlineScoreTests.test_missing_columns_rejected) ... ok
+test_nonfinite_predictions_rejected (test_online_baseline.OnlineScoreTests.test_nonfinite_predictions_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

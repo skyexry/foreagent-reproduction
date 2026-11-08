@@ -1,13 +1,30 @@
-# 当前状态
+# 当前状态：作者原版单任务复现已完成
 
-| 项目 | 状态 |
-|---|---|
-| 当前阶段 | 作者原版单任务复现已完成，按版本冻结 |
-| 当前结果 | Stanford 标准 12 小时，官方 MCRMSE **0.26640** |
-| 核心证据 | [第一阶段入口](phase1-reproduction/README.md)、[结果](phase1-reproduction/experiments/online-stanford-v2/final-summary.json)、[核验](phase1-reproduction/experiments/environment-acceptance/online-verification.json) |
-| HW3 报告 | [v3，8 页](reports/hw3/DM_HW3_Baseline_Reproduction_v3.pdf)；Introduction、Baseline Explanation、Baseline Reproduction 已完成；Future Plan 待补 |
-| 当前唯一下一步 | 用户审阅 v3，并在后续完成 HW3 Future Plan |
+- **离线研究接口已验收（research-env-v1，2026-11-08）**：统一入口 [research/README.md](research/README.md)。固定候选、反馈可见范围、比较/早停动作、外部预算、并列与失败评价；提供 `run/evaluate/status`。17 项契约/系统隔离测试通过，C0 850 场与随机控制 850 场逐场复现已保存选择、查询与统计。177 项旧产物、48 项历史文件、946 项源输入核验通过；新增模型调用/训练/GPU 租用均 0。证据：`experiments/research-env-v1/acceptance.json`、`tests.log`、`research/protected_manifest.json`。26 任务明确为开发集；真实在线与 AI Scientist 原生适配作为独立后续验收。**当前唯一下一步：围绕已固定模块读原始文献，形成可审阅方案卡。**
 
-原版重复性与 AIDE 在线比较保留为可选后续研究。评分器行顺序问题登记为 [EVAL-01](IMPROVEMENTS.md)，冻结提交原评分和独立复算一致。执行适配、服务/硬件差异及 Mac 熄屏/VPN 断连等待随结果披露。
+- **源码已核验**：独立检出固定在 `c4d52cf99bd870d830b456ac7c0684aec1aef375`。逐文件核对工作目录与该提交，484 个 Git 文件内容一致，工作区干净；其中 Git LFS 指针按提交原样保留。
+- **离线证据**：给定历史判断和日志中的概率结果，15 次作者运行中的 129 个完整批次（1,290 个候选）控制输出一致。原 RNG 状态和复赛对手身份仍有缺口。证据：`experiments/historical-v1/summary.json`。
+- **标准 12 小时端到端结果已冻结**：`stanford-autodl-v2` 在北京时间 11 月 8 日 13:22 按预算结束。原算法从已完成的 82 个节点中保留 `84c79a8d`，官方私有集误差 **0.26640**，25,680 个预测 ID 有效；19 次完整外层迭代、7 个完整淘汰赛批次，执行了 22 份代码。作者的三次最终成绩为 0.24320、0.25768、0.27497。硬件、模型服务与网络时延有差异。根据实验者事后确认，Mac 熄屏、VPN 断连导致模型 API 请求受阻并等待重试；其中一次反馈请求及重试累计耗时 13,491.88 秒（约 3 小时 45 分钟）。该耗时计入标准 12 小时预算，压缩了实际可用于候选生成、筛选和执行的时间；13,491.88 秒为请求及重试的总耗时，VPN 中断时长单独计量仍有缺口。见[最终结果和预测哈希](experiments/online-stanford-v2/final-summary.json)、[作者最终提交复评分](experiments/online-stanford-v2/author-final-reference.json)、[首批筛选记录](experiments/online-stanford-v2/first-tournament.json)。
+- **本机 API 预检**：通过作者请求后端和硅基流动的模型名、思考开关映射，代码生成与两两筛选各实测成功一次。GPT 反馈也已实测通过：官方端点返回 gpt-4o-mini-2024-07-18，作者后端成功解析 submit_review 的五个字段。测试使用简短示例输入。回执见本机 `/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/` 下的 `code.json`、`select.json`、`feedback.json`。
+- **本机数据与评分器**：Kaggle ZIP 和 4 个准备后的文件均匹配固定提交的 MD5。训练 2,160 条、测试 240 条 RNA 序列。官方 grade-sample 接受全零示例提交，得分 0.63824。证据见上述本机目录的 `data-check.json` 和 `sample-grade.txt`，数据位于 `data/stanford-covid-vaccine/prepared/`。
+- **实验已结束**：因 0.26640 高于 0.25862 而启动的独立加时，已按用户要求提前停止。新增完整节点 0 个，预测文件与标准提交 SHA-256 一致。最终报告使用标准 12 小时分数 **0.26640**；见[加时结束记录](experiments/online-stanford-plus4h/closure.json)。
 
-本次发布整理使用已有结果，新增 API 调用和候选训练均为 0。完整日志通过 [hw3-phase1-v1 Release](https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1) 获取；上传附件已重新下载并校验通过；发布收据见 [provenance/hw3-release.json](provenance/hw3-release.json)。
+- **本机剩余验收已完成（environment-baselines-local-v1）**：新克隆及新 venv 重现 246 对结果、129 个完整历史批次及原版 7,800 次回放；4 项机制测试、5 项独立评分反例测试通过。新增独立 Mac 控制器/评分环境通过 `pip check`，完成两种作者配置的零调用构造与公共参数一致性核验。最终提交和作者三份提交的原评分与独立 ID 对齐分数一致。完整证据见[本机核验与剩余清单](experiments/environment-acceptance/README.md)、`offline-verification.json`、`online-verification.json`、`environment.json`、`config-verification.json`。本轮新增模型调用 0、候选训练 0；固定源码及既有基线参数保持原版本。
+- **评分器边界已实测并加核验**：作者原 Stanford 评分器在打乱行顺序后因 pandas 索引对齐改变分数；原始冻结提交与独立按 ID 对齐的 MCRMSE 一致，仍为 **0.26640**。保留作者评分源码，新核验工具检查 ID、列、有限值和两种评分的一致性；反例及具体数值见上述清单。
+- **本阶段已完成（2026-11-08 用户明确范围）**：以已完成并核验的 Stanford 单任务、单次标准 12 小时原版端到端运行作为复现验收，成绩 **0.26640**。原版重复性与 AIDE 公平在线对比转为后续可选研究；当前剩余必需 GPU 验收项为 0。硬件/执行适配、服务快照、Mac 熄屏及 VPN 断连等待、历史 RNG 缺口继续随结果披露。
+- **后续 GPU 验收协议**：`environment-baselines-online-repeat-v1` 已准备，G1 新主机预检后可开展重复运行；资源租用及付费执行按用户后续明确指令执行。
+
+- **HW3 报告 v3 已更新（2026-11-08）**：保留 129 批历史回放，新增 corpus26-v2 原版离线选择质量和 Stanford 标准 12 小时端到端结果；Future Plan 留待后续。交付 `reports/hw3/DM_HW3_Baseline_Reproduction_v3.pdf`（8 页）。LaTeX 编译、实验数字回读及逐页版面检查完成，验证记录见 `reports/hw3/validation_v3.json`；新增 API/训练均 0。
+- **第一阶段材料已集中归集（phase1-reproduction-v1）**：统一入口为 [phase1-reproduction/README.md](phase1-reproduction/README.md)。归集固定作者代码、实际运行适配代码、完整在线日志/候选/预测、成绩与本机核验记录；原件保留，945 项副本/链接及原始来源逐项校验通过，来源和 SHA-256 见 SOURCES.json。完整记录和公开输入按本机附件管理，代码与摘要纳入 Git。
+- **GitHub HW3 材料已发布（hw3-phase1-v1）**：默认 main 已整理为报告、phase1-reproduction 与历史 archive 三个入口；完整日志、v3 PDF、SHA256SUMS 作为 Release 附件上传并重新下载校验通过。发布收据见 `provenance/hw3-release.json`。仓库维持原私有设置，报告 Future Plan 按原范围待补；新增实验 API/训练均为 0。
+- **严格复现审计已完成（foreagent-review-20261108-v1）**：交付[审计报告](reports/reproducibility-audit-20261108/AUDIT_REPORT.md)、[验证与Future Plan](reports/reproducibility-audit-20261108/FUTURE_PLAN.md)及17项结构化发现。最终0.2663989312、484作者blob、当前947项完整归集及原件核验通过；246响应、129批、两版本各7,800回放与9项既有测试通过。新增原生反例覆盖方向缓存、跨上下文缓存、低confidence复读、早期最佳漏存和提交残留检查。作者95a7c811原代码/元数据/CSV已从固定revision取得，双评分0.256153144，对比发布最终0.257679528，确认漏存端点的实际差异0.001526384。13份有效候选事后排序ρ=0.2363、选择差0.009712；公开corpus49对含NaN，finite-only对一份作者判断影响+0.0547pp。发布89d428f的README/SOURCES/附件清单与本机字节一致。原版与冻结输出保持；本轮新增模型调用、训练、GPU租用均0。基线修正与高成本实验按Future Plan供审阅。
+- **审计阅读版已简化**：新增[先读这份](reports/reproducibility-audit-20261108/先读这份.md)，用具体例子解释复现进度、三个重要错误和后续顺序；交付README优先指向短版。原审计结论和数值保持，新增模型调用/训练均0。
+- **论文实验设计深入审查已完成（experimental-design-review-v1）**：新增[易读审稿意见](reports/reproducibility-audit-20261108/论文实验设计审查_易读版.md)。Table13重算净提升约4.44pp，其中约80.6%来自仙人掌任务，去掉该任务的事后敏感性差约1.075pp；Figure4中2h71.6%、6h74.1%体现“较早达到较好水平”与“自身峰值收敛”的区别。将同候选/同反馈预算的机制对照、收益区间、静态→在线迁移和语义护栏归因列为主要实证问题；总体SD的混合重建与原表吻合，精确汇总仍待脚本。Future Plan已优先收拢为固定R7汇总下的新比较分配，并加入覆盖控制；当前26任务作开发，固定方法后盘点新任务。新增模型调用/训练/GPU均0。
+- **ForeCritic 精读与 reward model 计划已更新（forecritic-reading-20261108-v1）**：交付[精读与研究判断](reports/reproducibility-audit-20261108/ForeCritic_精读与研究判断.md)，核对正文、附录 A–E、表格和图示说明；作者训练/集成结果按论文报告引用，专属脚本、权重与 split 等待定位。只读盘点确认26任务、895候选ID、18,438对，49对含非有限分数；本机374份代码、367种字节内容覆盖2,746对有限分数比较，补全还差521份。tweet任务8份代码完全相同，组成28对、左右胜者各14；执行差异原因待核。16份journal共有186个已执行finite非buggy内部指标节点。当前[Future Plan](reports/reproducibility-audit-20261108/FUTURE_PLAN.md)以任务隔离的训练先导为优先候选，选择损失加权和执行路由据结果推进；旧排序方案按原文存档。新增训练/模型调用/GPU租用均0，历史基线与输出冻结。
+- **本轮交付检查完成**：数据盘点重复运行字节一致；469个输入哈希、11项论文文本、56个本机链接与50项交付哈希核验通过。旧计划存档与调整前字节一致；验证收据为 `reports/reproducibility-audit-20261108/evidence/forecritic-validation.json`。
+- **完整原始语料已补齐（foreagent-corpus-completion-20261108-v1）**：按用户追问核实获取渠道与重复记录来源，原8份tweet代码和原标签从作者固定revision下载后逐字节对齐。余下521份已下载至独立的[reward-model数据目录](data/reward-model/corpus-6b322cb-raw-v1/README.md)，现有895份代码、878种字节内容、871种AST；974项源文件哈希通过，旧469项输入哈希保持。完整语料中47对finite比较的代码相同，其中tweet一组9份形成36对；原28对是先前已下载8份的局部结果。原始标签与成绩保持，原因待原执行日志核实；新增训练、模型调用、GPU租用均0。来源、缺失清单和完整核查见审计目录的`evidence/corpus-source-check.json`、`evidence/corpus-completion.json`。
+- **研究定位已按用户明确意见调整**：直接基于 ForeAgent 研究用执行数据学习方案裁判；ForeCritic 放在相关工作与可选对照的位置。主比较为同一正确执行/筛选链路中的原 LLM 裁判与学习裁判，排序/停止改变另列因素。数据质量、任务泛化与成本作为可信评估要求；具体训练目标或接口改动根据 ForeAgent 的诊断选择。Future Plan 与阅读导航已同步，新增实验为0。
+- **基线修正与短测试方案已具体化（baseline-short-tests-plan-20261108-v1）**：按用户当前排序/筛选方向，下一步为正确工作基线和短时验收，见[具体方案](reports/reproducibility-audit-20261108/BASELINE_SHORT_TEST_PLAN.md)。本轮回跑5项独立评分、4项原机制核查全部通过；原行为核查与修正版验收分开。已静态识别现有Transformer/LSTM/CNN＋LSTM代表候选，并找到已有Python3.11/PyTorch2.2环境。拟做3候选×2seed、训练目标约5秒/次、进程上限60秒/次的CPU短跑，另核查标签访问、指标、数据划分与新输出绑定。修改方案待审阅，真实候选短跑/新算法/模型调用/GPU租用均0；原版与冻结输出保持。Future Plan优先顺序同步为可信基线→短时验收→固定裁判的比较分配，reward model保留备选。
+- **AI Scientist 接入就绪度核查完成（ai-scientist-readiness-20261108-v1）**：按当前排序/比较分配主线回读复现、审计、C0短测试方案及R7实现；回跑5项评分、4项原机制、7项R7、11项离线选择检查，共27项通过。已有独立评分、方向语义缓存修复与R7纯函数可复用；完整C0、真实候选短跑、清洗/划分/池协议、逐对查询与外部预算接口及AI Scientist薄适配仍待实现。首轮建议固定裁判和R7，在保存作者反馈上比较随机、覆盖后随机与同覆盖后主动补问；离线接口准备可随C0准备推进，在线验证以执行链路验收为前置。AI Scientist官方源码固定核对到1de1dbc；需独立模型/Aider预检、全局预算、标签与评分隔离、完整代码快照和失败日志保全。检查回执与分阶段验收见[ai-scientist-readiness.json](reports/reproducibility-audit-20261108/evidence/ai-scientist-readiness.json)。本轮研究代码修改、模型调用、候选训练与GPU租用均0。
+- **clean-ranking-v1已完成**：C0独立补丁、12项新反例、6次成功的三架构五秒级CPU训练及2次20步标签对照、实际Agent类受控集成均通过；同输入原版/C0对照确认最佳节点保存修正。原始作者反馈远端revision/ETag核验26份，重新建立425池、850配对场景、3,400评分。C0原排序选择损失0.26416/最佳命中23.67%，新主动分配0.29073/19.27%；损失差+0.02657，95%任务簇区间[-0.02394,0.09881]。独立核验与工程性复跑轨迹/指标一致；R6–R8的48文件哈希保持，仅作历史保护。本轮新增付费模型调用/GPU租用为0。完整在线API/任意候选脚本隔离/验证预测独立重算合约作为后续验收。见[易读结果](experiments/clean-ranking-v1/先读结果.md)。
+- **当前唯一下一步**：固定本轮负面先导，核查Petfinder单池与胜率汇总对主动选边的适配，登记下一个单因素诊断；真实在线实验另审阅预算。

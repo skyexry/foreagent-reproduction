@@ -1,0 +1,67 @@
+{
+  "acceptance_script_sha256": "59ad6257fafe504b954865cbe11aa904eccde68324e4558ab2ab7a1afb93094e",
+  "id": "research-env-v1",
+  "pending": [
+    "Primary-literature study and complete proposal cards",
+    "AI Scientist pinned-version native adapter, isolated coder workspace and aggregate experiment budget",
+    "New-task confirmation and live end-to-end environment acceptance"
+  ],
+  "preservation": {
+    "clean_artifacts_verified": 177,
+    "historical_files_verified": 48,
+    "protected_files_verified": 1182,
+    "source_files_verified": 946
+  },
+  "protected_manifest_sha256": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+  "resources": {
+    "new_candidate_training_runs": 0,
+    "new_gpu_rentals": 0,
+    "new_paid_model_calls": 0
+  },
+  "runs": {
+    "baseline-v1": {
+      "episodes": 850,
+      "macro": {
+        "best_hit": 0.2367384004884005,
+        "budget_denials": 2.2490384615384618,
+        "cache_reads": 75.22115384615384,
+        "regret": 0.26416156273452185,
+        "unique_feedback_reads": 11.208653846153847
+      },
+      "matching_decisions": 850,
+      "matching_ledgers": 850,
+      "matching_query_traces": 850,
+      "matching_task_summaries": 26,
+      "run_manifest_sha256": "44989e68c2f9eaf95fb504fcf7dac74db59480cdbda19bff05da242022664fd6",
+      "selection_wall_seconds": 5.399902083037887,
+      "summary_sha256": "e7354c9f30b83f972fb7738715e7358efb54a2635cbd81975dd4322fdc3a804e",
+      "verification_sha256": "e71e8a838de6132fd2e9dda9bd97a85cf2aac010e0c3203e201ba3df2adc25e5"
+    },
+    "random-v1": {
+      "episodes": 850,
+      "macro": {
+        "best_hit": 0.23511217948717947,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.27421575532524756,
+        "unique_feedback_reads": 12.115384615384615
+      },
+      "matching_decisions": 850,
+      "matching_ledgers": 850,
+      "matching_query_traces": 850,
+      "matching_task_summaries": 26,
+      "run_manifest_sha256": "8fdb4ecbee62dc34862269b5b52249789c6b21f04303fae33d2516e651bd6583",
+      "selection_wall_seconds": 30.954015749972314,
+      "summary_sha256": "db35961cae43358bc2edebb94409fdb218781979d763375029df3475256450bc",
+      "verification_sha256": "ea2a26539e8871b7ba82d2b961d952b2e6a5d7c5857022a4bd25a2b92da0d679"
+    }
+  },
+  "scope": "Retrospective offline development: 26 previously inspected tasks; no untouched confirmation/test split claimed.",
+  "status": "passed",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "log_sha256": "15241c0a1ba6baa8d95d6423c04488f53e4cdeae7857356224f668b905002652",
+    "run": 17
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research-env-v1-protected-inputs",
+  "tag": "research-env-v1",
+  "filename": "research-env-v1-protected-inputs.zip",
+  "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/research-env-v1/research-env-v1-protected-inputs.zip",
+  "bytes": 57056083,
+  "sha256": "c7e6725dab1b026d3301e8b6be1e339b0c73e33d3fb5fca088ba1b68daeb4186",
+  "files": 1182,
+  "protected_manifest_sha256": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+  "scope": "Exact protected source/input/output closure; runtime and dataset provenance remain in protected_manifest.json and prepared/source_manifest.json."
+}

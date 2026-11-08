@@ -1,0 +1,26 @@
+{
+  "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+  "missed_journal_best": "95a7c8116b55458ca9b70e1243294453",
+  "missed_internal_metric": 0.1583,
+  "published_final_node": "f35059cb7c4249cf9d541ebebd2b327e",
+  "published_final_internal_metric": 0.1645,
+  "published_final_private_score": 0.2576795279904613,
+  "missed_node_independent_score": {
+    "score": 0.25615314374102044,
+    "per_target_rmse": {
+      "reactivity": 0.22805560014364382,
+      "deg_Mg_pH10": 0.2927673087087062,
+      "deg_Mg_50C": 0.24763652237071127
+    },
+    "scored_rows": 16320,
+    "prediction_rows": 25680
+  },
+  "missed_node_native_score": 0.25615314374102044,
+  "missed_minus_published_private": -0.0015263842494408486,
+  "code_equals_journal": true,
+  "metadata_id_equals_journal": true,
+  "submission_sha256": "c4cb4cb32e4f18d0676509fd73d86cb287064ea537630ceecfa83632f318bbe1",
+  "causal_scope": "Restores the validation-selected endpoint from an already completed author trajectory; counterfactual later search under a corrected incumbent was not run.",
+  "new_model_calls": 0,
+  "new_training_runs": 0
+}

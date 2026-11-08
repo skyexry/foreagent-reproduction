@@ -1,0 +1,22 @@
+{
+  "stage": "before formal comparative outcomes",
+  "failures": [
+    {
+      "component": "smoke AST guard",
+      "issue": "model.eval attribute incorrectly matched builtin eval",
+      "correction": "distinguish ast.Name dynamic exec from nn.Module.eval method"
+    },
+    {
+      "component": "pool admission",
+      "issue": "no complete 10-code feedback clique sampled for Petfinder",
+      "correction": "registered label-blind decreasing-K fallback with coverage accounting"
+    },
+    {
+      "component": "native validation output serialization",
+      "issue": "Transformer validate_epoch returns arrays as well as its scalar score",
+      "correction": "record array shapes/finite checks and scalar values separately",
+      "training_state": "one worker completed about five-second training before record serialization failed; exact steps not persisted"
+    }
+  ],
+  "formal_selection_results_generated": false
+}

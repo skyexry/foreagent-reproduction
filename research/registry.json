@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "environment_id": "foreagent-selection-replay-v1",
+  "scope": "Retrospective offline development: 26 previously inspected tasks; no untouched confirmation/test split claimed.",
+  "benchmark": {
+    "source_experiment": "experiments/clean-ranking-v1",
+    "prepared": "experiments/clean-ranking-v1/prepared",
+    "protocol": "experiments/clean-ranking-v1/protocol.json",
+    "implementation_lock": "experiments/clean-ranking-v1/implementation-lock.json",
+    "reference_decisions": "experiments/clean-ranking-v1/results/decisions.jsonl.gz",
+    "reference_summary": "experiments/clean-ranking-v1/results/summary.json",
+    "baseline_method": "corrected_tournament",
+    "tasks": 26,
+    "pools": 425,
+    "jobs": 850,
+    "confidence_threshold": 0.7,
+    "unique_query_budget_max": 13,
+    "population_rule": "Reuse all frozen jobs, including Petfinder and small pools; full source coverage required within each admitted pool. Record pool-count and size coverage, without selecting tasks by performance.",
+    "evaluation": "Task-macro pool-normalized selection regret; uniform choice within final tied set. Failures receive regret penalty 1/hit 0 in planned denominator, with coverage and valid-only results separately reported.",
+    "zero_range_pool": "Regret 0 for a valid selection when all candidate utilities are equal.",
+    "confidence_semantics": "Model-reported confidence, not a statistical confidence interval; accepted at >=0.7 under C0 response validation."
+  },
+  "policy": {
+    "root": "research/policies",
+    "example": "research/policies/example_random.py",
+    "interface": "decide(observation) -> {action: compare, pair: [a,b]} or {action: stop}",
+    "visible_fields": ["episode", "candidates", "seed", "feedback", "remaining_budget", "attempts"],
+    "feedback_fields": ["a", "b", "winner", "confidence", "valid"],
+    "hidden": ["unqueried comparisons", "task/file names", "evaluation labels", "execution scores", "baseline/scoring code", "credentials"],
+    "aggregation": "Frozen clean-ranking-v1 top_set: maximum valid win fraction, then valid unique degree, then retain ties. Allocation/early-stop are the editable module in this environment version.",
+    "repeat_query": "Return cached same feedback; no additional independent evidence; unique budget unchanged, attempts and cache reads increase.",
+    "exhausted_budget": "Host automatically finishes using the fixed aggregator."
+  },
+  "limits": {
+    "max_attempts_per_episode": 1024,
+    "response_timeout_seconds": 2.0,
+    "episode_timeout_seconds": 6.0,
+    "worker_cpu_seconds": 2,
+    "run_wall_seconds": 600,
+    "policy_bytes_max": 131072,
+    "output_line_bytes_max": 65536
+  },
+  "paths": {
+    "output_root": "experiments/research-env-v1/runs",
+    "protected_manifest": "research/protected_manifest.json",
+    "state": "research/state.json",
+    "acceptance": "experiments/research-env-v1/acceptance.json"
+  },
+  "modules": {
+    "comparison_allocation": {"stage": "v1 contract; acceptance status in research/state.json", "contract": "research/modules.md", "editable": "policy files only", "eval": "python -m reproduction.research_env_v1 run"},
+    "pairwise_judge": {"stage": "frozen_recorded_input", "contract": "Existing author predictions; fresh stochastic/live comparisons require a separate environment version."},
+    "candidate_execution": {"stage": "C0 component smoke verified; live deployment pending", "evidence": "experiments/clean-ranking-v1/validation.json"},
+    "online_agent": {"stage": "separate acceptance", "remaining": "Generated validation-prediction contract, whole-script OS isolation, live endpoints and matched resource budgets."},
+    "ai_scientist": {"stage": "common CLI contract; autonomous runner integration pending", "remaining": "Pin framework version, isolate coder workspace, enforce external aggregate budget and run a separate adapter preflight."}
+  },
+  "research_pipeline": ["freeze environment/evals", "module and primary-literature study", "complete proposal cards", "budgeted experiment execution", "new-task and live-agent confirmation"],
+  "proposals": []
+}

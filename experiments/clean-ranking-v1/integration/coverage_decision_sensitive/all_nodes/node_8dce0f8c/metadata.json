@@ -1,0 +1,33 @@
+{
+  "node_id": "8dce0f8cdebug",
+  "step": 2,
+  "stage": "improve",
+  "is_skipped": false,
+  "is_buggy": false,
+  "metric": "Metric\u2193(0.7967)",
+  "analysis": "Independent public holdout score; controlled parser",
+  "parent_id": "bf3c4fe51e0d40aa8af41a1d0d32df8a",
+  "exec_time": 5.01926666602958,
+  "exc_type": null,
+  "wm_predicted_rank": 1,
+  "wm_comparison_results": [
+    {
+      "winner": 0,
+      "confidence": 0.9,
+      "round": 1,
+      "valid": true
+    },
+    {
+      "winner": 0,
+      "confidence": 0.9,
+      "round": 2,
+      "valid": true
+    },
+    {
+      "winner": 0,
+      "confidence": 0.9,
+      "round": 3,
+      "valid": true
+    }
+  ]
+}

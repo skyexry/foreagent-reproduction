@@ -1,0 +1,23 @@
+{
+  "id": "research-env-v1",
+  "date": "2026-11-08",
+  "purpose": "Package and validate the existing frozen-feedback development benchmark as a replaceable-policy environment; no new scientific method experiment.",
+  "baseline": "clean-ranking-v1 corrected_tournament, frozen original C0 policy",
+  "population": "Exactly the clean-ranking-v1 850 jobs / 425 pools / 26 previously inspected development tasks, including small pools and Petfinder.",
+  "policy_interface": "decide(observation) -> compare(pair) or stop; selection uses the frozen win-rate/evidence-count aggregator.",
+  "visible": ["opaque candidate IDs", "episode seed", "previously revealed winner/confidence/validity", "remaining unique-query budget"],
+  "private": ["unqueried feedback bank", "execution utilities and ground-truth labels", "baseline implementation", "scoring implementation"],
+  "isolation": "New OS-sandboxed Python process for each episode; allowlisted runtime and staging directory, no network, no project data reads/writes; CPU/time/attempt/output limits enforced by trusted host.",
+  "failure_rule": "Policy episode failures remain in planned denominator with regret penalty 1 and hit 0; report failure count and valid-only metrics separately.",
+  "acceptance": [
+    "Frozen sources and selected inputs match existing locks",
+    "Full baseline replay matches every existing corrected_tournament decision and macro metric",
+    "Provided random-query example matches the existing random_pairs control",
+    "Independent evaluation reconstructs feedback, budgets and selection before reading utilities",
+    "Label/file/network/write probes are blocked by OS sandbox",
+    "Budget/cache/invalid actions/timeouts/failures are tested",
+    "New baseline and example outputs preserve all prior clean-ranking artifacts"
+  ],
+  "resources": {"new_paid_model_calls": 0, "new_candidate_training_runs": 0, "new_gpu_rentals": 0},
+  "scope": "Offline development environment only. New-task confirmation and full live-API/AI Scientist integration are separate acceptance stages."
+}

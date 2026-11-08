@@ -1,0 +1,14 @@
+{
+  "id": "research-publication-v1",
+  "authorization": "User requested upload to existing GitHub repository and asked which HW3 code to submit",
+  "repository": "skyexry/foreagent-reproduction",
+  "visibility": "private, preserved",
+  "publication": "Update main by a fast-forward commit based on current remote; pin research Release separately",
+  "hw3": "Keep hw3-phase1-v1 source/tag and all existing assets; add a code ZIP matching all 777 frozen blobs",
+  "research": "Publish navigation, research contracts, implementation, tests and experiment/audit evidence; distribute 946 public source inputs in a checksummed bundle",
+  "resources": {
+    "new_model_calls": 0,
+    "new_training_runs": 0,
+    "new_gpu_rentals": 0
+  }
+}

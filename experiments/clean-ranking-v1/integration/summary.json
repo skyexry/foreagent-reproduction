@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "policies": [
+    {
+      "policy": "original",
+      "executed_candidates": [
+        "8dce0f8c",
+        "2310e6bf",
+        "0cae1a47"
+      ],
+      "best_node": "8dce0f8cdebug",
+      "best_public_metric": 0.7966856488722706,
+      "checkpoint": {
+        "node_id": "8dce0f8cdebug",
+        "code_sha256": "db36c1eec9298d524f97e246c026dbc144e5088e6912c924fcd52bcabf9d78db",
+        "prediction_sha256": "d2f2c7152a8648bfce32c7265538693bcfbb558034392f90d9fe64fb21b2b212",
+        "metric": "Metric↓(0.7967)"
+      },
+      "live_model_calls": 0
+    },
+    {
+      "policy": "coverage_decision_sensitive",
+      "executed_candidates": [
+        "0cae1a47",
+        "2310e6bf",
+        "8dce0f8c"
+      ],
+      "best_node": "8dce0f8cdebug",
+      "best_public_metric": 0.7966856488722706,
+      "checkpoint": {
+        "node_id": "8dce0f8cdebug",
+        "code_sha256": "db36c1eec9298d524f97e246c026dbc144e5088e6912c924fcd52bcabf9d78db",
+        "prediction_sha256": "d2f2c7152a8648bfce32c7265538693bcfbb558034392f90d9fe64fb21b2b212",
+        "metric": "Metric↓(0.7967)"
+      },
+      "live_model_calls": 0
+    }
+  ],
+  "actual_Agent_step_executed": true,
+  "fixture_generation": true,
+  "fixture_judgments": true,
+  "execution_returns": "new six-run smoke artifacts",
+  "new_candidate_training_in_this_replay": 0,
+  "new_live_model_calls": 0,
+  "scope": "Full corrected Agent class imported from installed overlay; controlled short-chain replay, not live full Agent."
+}

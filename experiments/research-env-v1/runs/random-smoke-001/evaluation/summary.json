@@ -1,0 +1,79 @@
+{
+  "contrasts": {
+    "submitted_policy minus corrected_tournament": {
+      "best_hit": {
+        "delta": 0.16666666666666666,
+        "task_cluster_95": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "tasks_better": 1,
+        "tasks_equal": 0,
+        "tasks_worse": 0
+      },
+      "regret": {
+        "delta": 0.2914407568329054,
+        "task_cluster_95": [
+          0.2914407568329054,
+          0.2914407568329054
+        ],
+        "tasks_better": 0,
+        "tasks_equal": 0,
+        "tasks_worse": 1
+      }
+    }
+  },
+  "environment_id": "foreagent-selection-replay-v1",
+  "episode_status_counts": {
+    "ok": 3
+  },
+  "failure_penalty": {
+    "best_hit": 0.0,
+    "regret": 1.0
+  },
+  "full_population": false,
+  "input_implementation_and_trace_checks": "passed",
+  "jobs": 3,
+  "macro": {
+    "corrected_tournament": {
+      "best_hit": 0.0,
+      "budget_denials": 4.0,
+      "cache_reads": 140.33333333333334,
+      "regret": 0.5148797418236136,
+      "unique_feedback_reads": 13.0
+    },
+    "submitted_policy": {
+      "best_hit": 0.16666666666666666,
+      "budget_denials": 0.0,
+      "cache_reads": 0.0,
+      "regret": 0.806320498656519,
+      "unique_feedback_reads": 13.0
+    }
+  },
+  "mode": "submitted_policy",
+  "new_candidate_training_runs": 0,
+  "new_model_calls": 0,
+  "per_task": {
+    "aptos2019-blindness-detection": {
+      "corrected_tournament": {
+        "best_hit": 0.0,
+        "budget_denials": 4.0,
+        "cache_reads": 140.33333333333334,
+        "regret": 0.5148797418236136,
+        "unique_feedback_reads": 13.0
+      },
+      "submitted_policy": {
+        "best_hit": 0.16666666666666666,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.806320498656519,
+        "unique_feedback_reads": 13.0
+      }
+    }
+  },
+  "planned_denominator": 3,
+  "scope": "Retrospective offline development: 26 previously inspected tasks; no untouched confirmation/test split claimed.",
+  "selection_evaluations": 6,
+  "tasks": 1,
+  "valid_only_episode_mean_regret": 0.806320498656519
+}

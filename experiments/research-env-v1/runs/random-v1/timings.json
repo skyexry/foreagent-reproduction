@@ -1,0 +1,3402 @@
+[
+  {
+    "job_id": "aptos2019-blindness-detection:0:0",
+    "wall_seconds": 0.052584458026103675
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:0:1",
+    "wall_seconds": 0.041746500006411225
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:1:0",
+    "wall_seconds": 0.04032179102068767
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:1:1",
+    "wall_seconds": 0.04572474997257814
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:2:0",
+    "wall_seconds": 0.04614883300382644
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:2:1",
+    "wall_seconds": 0.04464308300521225
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:3:0",
+    "wall_seconds": 0.04519058298319578
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:3:1",
+    "wall_seconds": 0.04689262498868629
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:4:0",
+    "wall_seconds": 0.04215141601162031
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:4:1",
+    "wall_seconds": 0.04479512496618554
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:5:0",
+    "wall_seconds": 0.042909541982226074
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:5:1",
+    "wall_seconds": 0.04168724996270612
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:6:0",
+    "wall_seconds": 0.04589862504508346
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:6:1",
+    "wall_seconds": 0.04869437502929941
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:7:0",
+    "wall_seconds": 0.043485208007041365
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:7:1",
+    "wall_seconds": 0.04300691594835371
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:8:0",
+    "wall_seconds": 0.04172525001922622
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:8:1",
+    "wall_seconds": 0.04233029199531302
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:9:0",
+    "wall_seconds": 0.04533450002782047
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:9:1",
+    "wall_seconds": 0.047499375010374933
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:10:0",
+    "wall_seconds": 0.04313079098938033
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:10:1",
+    "wall_seconds": 0.040094457974191755
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:11:0",
+    "wall_seconds": 0.049004958011209965
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:11:1",
+    "wall_seconds": 0.04335970903048292
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:12:0",
+    "wall_seconds": 0.044861292000859976
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:12:1",
+    "wall_seconds": 0.040939166967291385
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:13:0",
+    "wall_seconds": 0.044470875000115484
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:13:1",
+    "wall_seconds": 0.039828999957535416
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:14:0",
+    "wall_seconds": 0.03891204099636525
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:14:1",
+    "wall_seconds": 0.04011912498390302
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:15:0",
+    "wall_seconds": 0.03928437497233972
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:15:1",
+    "wall_seconds": 0.18736916698981076
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:16:0",
+    "wall_seconds": 0.10201016702922061
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:16:1",
+    "wall_seconds": 0.0583128749858588
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:17:0",
+    "wall_seconds": 0.04919441702077165
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:17:1",
+    "wall_seconds": 0.04003987502073869
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:18:0",
+    "wall_seconds": 0.04055554198566824
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:18:1",
+    "wall_seconds": 0.04264749999856576
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:19:0",
+    "wall_seconds": 0.038718624971807
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:19:1",
+    "wall_seconds": 0.041433333011809736
+  },
+  {
+    "job_id": "denoising-dirty-documents:0:0",
+    "wall_seconds": 0.03965191700262949
+  },
+  {
+    "job_id": "denoising-dirty-documents:0:1",
+    "wall_seconds": 0.04114637500606477
+  },
+  {
+    "job_id": "denoising-dirty-documents:1:0",
+    "wall_seconds": 0.04223158402601257
+  },
+  {
+    "job_id": "denoising-dirty-documents:1:1",
+    "wall_seconds": 0.04199120803968981
+  },
+  {
+    "job_id": "denoising-dirty-documents:2:0",
+    "wall_seconds": 0.04129570798249915
+  },
+  {
+    "job_id": "denoising-dirty-documents:2:1",
+    "wall_seconds": 0.04546295799082145
+  },
+  {
+    "job_id": "denoising-dirty-documents:3:0",
+    "wall_seconds": 0.04786112502915785
+  },
+  {
+    "job_id": "denoising-dirty-documents:3:1",
+    "wall_seconds": 0.04293070902349427
+  },
+  {
+    "job_id": "denoising-dirty-documents:4:0",
+    "wall_seconds": 0.04171291599050164
+  },
+  {
+    "job_id": "denoising-dirty-documents:4:1",
+    "wall_seconds": 0.04273574997205287
+  },
+  {
+    "job_id": "denoising-dirty-documents:5:0",
+    "wall_seconds": 0.04070008301641792
+  },
+  {
+    "job_id": "denoising-dirty-documents:5:1",
+    "wall_seconds": 0.042551665974315256
+  },
+  {
+    "job_id": "denoising-dirty-documents:6:0",
+    "wall_seconds": 0.041328417020849884
+  },
+  {
+    "job_id": "denoising-dirty-documents:6:1",
+    "wall_seconds": 0.044482458964921534
+  },
+  {
+    "job_id": "denoising-dirty-documents:7:0",
+    "wall_seconds": 0.03921787498984486
+  },
+  {
+    "job_id": "denoising-dirty-documents:7:1",
+    "wall_seconds": 0.044336582999676466
+  },
+  {
+    "job_id": "denoising-dirty-documents:8:0",
+    "wall_seconds": 0.04406975000165403
+  },
+  {
+    "job_id": "denoising-dirty-documents:8:1",
+    "wall_seconds": 0.046851999999489635
+  },
+  {
+    "job_id": "denoising-dirty-documents:9:0",
+    "wall_seconds": 0.04162170802010223
+  },
+  {
+    "job_id": "denoising-dirty-documents:9:1",
+    "wall_seconds": 0.044055291975382715
+  },
+  {
+    "job_id": "denoising-dirty-documents:10:0",
+    "wall_seconds": 0.04642458300804719
+  },
+  {
+    "job_id": "denoising-dirty-documents:10:1",
+    "wall_seconds": 0.042928417038638145
+  },
+  {
+    "job_id": "denoising-dirty-documents:11:0",
+    "wall_seconds": 0.04078091698465869
+  },
+  {
+    "job_id": "denoising-dirty-documents:11:1",
+    "wall_seconds": 0.038344417000189424
+  },
+  {
+    "job_id": "denoising-dirty-documents:12:0",
+    "wall_seconds": 0.03899999998975545
+  },
+  {
+    "job_id": "denoising-dirty-documents:12:1",
+    "wall_seconds": 0.04404883296228945
+  },
+  {
+    "job_id": "denoising-dirty-documents:13:0",
+    "wall_seconds": 0.04051387496292591
+  },
+  {
+    "job_id": "denoising-dirty-documents:13:1",
+    "wall_seconds": 0.03996887500397861
+  },
+  {
+    "job_id": "denoising-dirty-documents:14:0",
+    "wall_seconds": 0.041549667017534375
+  },
+  {
+    "job_id": "denoising-dirty-documents:14:1",
+    "wall_seconds": 0.03981904097599909
+  },
+  {
+    "job_id": "denoising-dirty-documents:15:0",
+    "wall_seconds": 0.04237891599768773
+  },
+  {
+    "job_id": "denoising-dirty-documents:15:1",
+    "wall_seconds": 0.05076958402059972
+  },
+  {
+    "job_id": "denoising-dirty-documents:16:0",
+    "wall_seconds": 0.04469183401670307
+  },
+  {
+    "job_id": "denoising-dirty-documents:16:1",
+    "wall_seconds": 0.03759316698415205
+  },
+  {
+    "job_id": "denoising-dirty-documents:17:0",
+    "wall_seconds": 0.03584979200968519
+  },
+  {
+    "job_id": "denoising-dirty-documents:17:1",
+    "wall_seconds": 0.03474166605155915
+  },
+  {
+    "job_id": "denoising-dirty-documents:18:0",
+    "wall_seconds": 0.03556929202750325
+  },
+  {
+    "job_id": "denoising-dirty-documents:18:1",
+    "wall_seconds": 0.034864458022639155
+  },
+  {
+    "job_id": "denoising-dirty-documents:19:0",
+    "wall_seconds": 0.035885457997210324
+  },
+  {
+    "job_id": "denoising-dirty-documents:19:1",
+    "wall_seconds": 0.03728200000477955
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:0:0",
+    "wall_seconds": 0.03705920901848003
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:0:1",
+    "wall_seconds": 0.03707604203373194
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:1:0",
+    "wall_seconds": 0.038010291988030076
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:1:1",
+    "wall_seconds": 0.04041324998252094
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:2:0",
+    "wall_seconds": 0.037920083035714924
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:2:1",
+    "wall_seconds": 0.03922837501158938
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:3:0",
+    "wall_seconds": 0.03913729195483029
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:3:1",
+    "wall_seconds": 0.03728729102294892
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:4:0",
+    "wall_seconds": 0.03649199998471886
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:4:1",
+    "wall_seconds": 0.03539033298147842
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:5:0",
+    "wall_seconds": 0.034268542018253356
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:5:1",
+    "wall_seconds": 0.03642929199850187
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:6:0",
+    "wall_seconds": 0.03931770898634568
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:6:1",
+    "wall_seconds": 0.04009091597981751
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:7:0",
+    "wall_seconds": 0.03940104099456221
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:7:1",
+    "wall_seconds": 0.037118875014130026
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:8:0",
+    "wall_seconds": 0.034601791005115956
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:8:1",
+    "wall_seconds": 0.033969542011618614
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:9:0",
+    "wall_seconds": 0.033539958007168025
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:9:1",
+    "wall_seconds": 0.03385441598948091
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:10:0",
+    "wall_seconds": 0.03557224996620789
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:10:1",
+    "wall_seconds": 0.03780108300270513
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:11:0",
+    "wall_seconds": 0.03842295799404383
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:11:1",
+    "wall_seconds": 0.03760208300082013
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:12:0",
+    "wall_seconds": 0.03655387501930818
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:12:1",
+    "wall_seconds": 0.037123584013897926
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:13:0",
+    "wall_seconds": 0.03724950004834682
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:13:1",
+    "wall_seconds": 0.036828125012107193
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:14:0",
+    "wall_seconds": 0.03542500000912696
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:14:1",
+    "wall_seconds": 0.03508775000227615
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:15:0",
+    "wall_seconds": 0.037386166979558766
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:15:1",
+    "wall_seconds": 0.035608791979029775
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:16:0",
+    "wall_seconds": 0.03628291701897979
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:16:1",
+    "wall_seconds": 0.03863974998239428
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:17:0",
+    "wall_seconds": 0.039894458022899926
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:17:1",
+    "wall_seconds": 0.043893208960071206
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:18:0",
+    "wall_seconds": 0.04313325003022328
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:18:1",
+    "wall_seconds": 0.0402475000009872
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:19:0",
+    "wall_seconds": 0.03962862497428432
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:19:1",
+    "wall_seconds": 0.044903375033754855
+  },
+  {
+    "job_id": "dog-breed-identification:0:0",
+    "wall_seconds": 0.04189308296190575
+  },
+  {
+    "job_id": "dog-breed-identification:0:1",
+    "wall_seconds": 0.04144241602625698
+  },
+  {
+    "job_id": "google-quest-challenge:0:0",
+    "wall_seconds": 0.03728774999035522
+  },
+  {
+    "job_id": "google-quest-challenge:0:1",
+    "wall_seconds": 0.036107499967329204
+  },
+  {
+    "job_id": "google-quest-challenge:1:0",
+    "wall_seconds": 0.03709820896619931
+  },
+  {
+    "job_id": "google-quest-challenge:1:1",
+    "wall_seconds": 0.11158604099182412
+  },
+  {
+    "job_id": "google-quest-challenge:2:0",
+    "wall_seconds": 0.05500479199690744
+  },
+  {
+    "job_id": "google-quest-challenge:2:1",
+    "wall_seconds": 0.03953587502473965
+  },
+  {
+    "job_id": "google-quest-challenge:3:0",
+    "wall_seconds": 0.037918749963864684
+  },
+  {
+    "job_id": "google-quest-challenge:3:1",
+    "wall_seconds": 0.037069874990265816
+  },
+  {
+    "job_id": "google-quest-challenge:4:0",
+    "wall_seconds": 0.03576508304104209
+  },
+  {
+    "job_id": "google-quest-challenge:4:1",
+    "wall_seconds": 0.036288750008679926
+  },
+  {
+    "job_id": "google-quest-challenge:5:0",
+    "wall_seconds": 0.03937004198087379
+  },
+  {
+    "job_id": "google-quest-challenge:5:1",
+    "wall_seconds": 0.038116708979941905
+  },
+  {
+    "job_id": "google-quest-challenge:6:0",
+    "wall_seconds": 0.03875241696368903
+  },
+  {
+    "job_id": "google-quest-challenge:6:1",
+    "wall_seconds": 0.03937512496486306
+  },
+  {
+    "job_id": "google-quest-challenge:7:0",
+    "wall_seconds": 0.03819091699551791
+  },
+  {
+    "job_id": "google-quest-challenge:7:1",
+    "wall_seconds": 0.038951416965574026
+  },
+  {
+    "job_id": "google-quest-challenge:8:0",
+    "wall_seconds": 0.03820445900782943
+  },
+  {
+    "job_id": "google-quest-challenge:8:1",
+    "wall_seconds": 0.039599541982170194
+  },
+  {
+    "job_id": "google-quest-challenge:9:0",
+    "wall_seconds": 0.039500624989159405
+  },
+  {
+    "job_id": "google-quest-challenge:9:1",
+    "wall_seconds": 0.03839020797749981
+  },
+  {
+    "job_id": "google-quest-challenge:10:0",
+    "wall_seconds": 0.055138499999884516
+  },
+  {
+    "job_id": "google-quest-challenge:10:1",
+    "wall_seconds": 0.03714116697665304
+  },
+  {
+    "job_id": "google-quest-challenge:11:0",
+    "wall_seconds": 0.03449304198147729
+  },
+  {
+    "job_id": "google-quest-challenge:11:1",
+    "wall_seconds": 0.0366052919998765
+  },
+  {
+    "job_id": "google-quest-challenge:12:0",
+    "wall_seconds": 0.037084000010509044
+  },
+  {
+    "job_id": "google-quest-challenge:12:1",
+    "wall_seconds": 0.038790333026554435
+  },
+  {
+    "job_id": "google-quest-challenge:13:0",
+    "wall_seconds": 0.03839916700962931
+  },
+  {
+    "job_id": "google-quest-challenge:13:1",
+    "wall_seconds": 0.03598412498831749
+  },
+  {
+    "job_id": "google-quest-challenge:14:0",
+    "wall_seconds": 0.03442291700048372
+  },
+  {
+    "job_id": "google-quest-challenge:14:1",
+    "wall_seconds": 0.03426216699881479
+  },
+  {
+    "job_id": "google-quest-challenge:15:0",
+    "wall_seconds": 0.03413166699465364
+  },
+  {
+    "job_id": "google-quest-challenge:15:1",
+    "wall_seconds": 0.033714916033204645
+  },
+  {
+    "job_id": "google-quest-challenge:16:0",
+    "wall_seconds": 0.033804125036112964
+  },
+  {
+    "job_id": "google-quest-challenge:16:1",
+    "wall_seconds": 0.03393012500600889
+  },
+  {
+    "job_id": "google-quest-challenge:17:0",
+    "wall_seconds": 0.033681417000479996
+  },
+  {
+    "job_id": "google-quest-challenge:17:1",
+    "wall_seconds": 0.034252542012836784
+  },
+  {
+    "job_id": "google-quest-challenge:18:0",
+    "wall_seconds": 0.03418645798228681
+  },
+  {
+    "job_id": "google-quest-challenge:18:1",
+    "wall_seconds": 0.03384466597344726
+  },
+  {
+    "job_id": "google-quest-challenge:19:0",
+    "wall_seconds": 0.03393241699086502
+  },
+  {
+    "job_id": "google-quest-challenge:19:1",
+    "wall_seconds": 0.03430733300046995
+  },
+  {
+    "job_id": "jigsaw-toxic-comment-classification-challenge:0:0",
+    "wall_seconds": 0.03414729202631861
+  },
+  {
+    "job_id": "jigsaw-toxic-comment-classification-challenge:0:1",
+    "wall_seconds": 0.035522458027116954
+  },
+  {
+    "job_id": "leaf-classification:0:0",
+    "wall_seconds": 0.035869959043338895
+  },
+  {
+    "job_id": "leaf-classification:0:1",
+    "wall_seconds": 0.033429083006922156
+  },
+  {
+    "job_id": "leaf-classification:1:0",
+    "wall_seconds": 0.0332711249939166
+  },
+  {
+    "job_id": "leaf-classification:1:1",
+    "wall_seconds": 0.03427808394189924
+  },
+  {
+    "job_id": "leaf-classification:2:0",
+    "wall_seconds": 0.03687670803628862
+  },
+  {
+    "job_id": "leaf-classification:2:1",
+    "wall_seconds": 0.03738666698336601
+  },
+  {
+    "job_id": "leaf-classification:3:0",
+    "wall_seconds": 0.03696587501326576
+  },
+  {
+    "job_id": "leaf-classification:3:1",
+    "wall_seconds": 0.03868124994914979
+  },
+  {
+    "job_id": "leaf-classification:4:0",
+    "wall_seconds": 0.037623625015839934
+  },
+  {
+    "job_id": "leaf-classification:4:1",
+    "wall_seconds": 0.03442345903022215
+  },
+  {
+    "job_id": "leaf-classification:5:0",
+    "wall_seconds": 0.03463216597447172
+  },
+  {
+    "job_id": "leaf-classification:5:1",
+    "wall_seconds": 0.03421537502435967
+  },
+  {
+    "job_id": "leaf-classification:6:0",
+    "wall_seconds": 0.03345216601155698
+  },
+  {
+    "job_id": "leaf-classification:6:1",
+    "wall_seconds": 0.035736082994844764
+  },
+  {
+    "job_id": "leaf-classification:7:0",
+    "wall_seconds": 0.03777095797704533
+  },
+  {
+    "job_id": "leaf-classification:7:1",
+    "wall_seconds": 0.04100025002844632
+  },
+  {
+    "job_id": "leaf-classification:8:0",
+    "wall_seconds": 0.04090508300578222
+  },
+  {
+    "job_id": "leaf-classification:8:1",
+    "wall_seconds": 0.04147549998015165
+  },
+  {
+    "job_id": "leaf-classification:9:0",
+    "wall_seconds": 0.039887834049295634
+  },
+  {
+    "job_id": "leaf-classification:9:1",
+    "wall_seconds": 0.03823083301540464
+  },
+  {
+    "job_id": "leaf-classification:10:0",
+    "wall_seconds": 0.036614749988075346
+  },
+  {
+    "job_id": "leaf-classification:10:1",
+    "wall_seconds": 0.035195874981582165
+  },
+  {
+    "job_id": "leaf-classification:11:0",
+    "wall_seconds": 0.03589370899135247
+  },
+  {
+    "job_id": "leaf-classification:11:1",
+    "wall_seconds": 0.035207125009037554
+  },
+  {
+    "job_id": "leaf-classification:12:0",
+    "wall_seconds": 0.03506954200565815
+  },
+  {
+    "job_id": "leaf-classification:12:1",
+    "wall_seconds": 0.03350654197856784
+  },
+  {
+    "job_id": "leaf-classification:13:0",
+    "wall_seconds": 0.03431929199723527
+  },
+  {
+    "job_id": "leaf-classification:13:1",
+    "wall_seconds": 0.03425829199841246
+  },
+  {
+    "job_id": "leaf-classification:14:0",
+    "wall_seconds": 0.033914375002495944
+  },
+  {
+    "job_id": "leaf-classification:14:1",
+    "wall_seconds": 0.03332099999533966
+  },
+  {
+    "job_id": "leaf-classification:15:0",
+    "wall_seconds": 0.03469799994491041
+  },
+  {
+    "job_id": "leaf-classification:15:1",
+    "wall_seconds": 0.03456058300798759
+  },
+  {
+    "job_id": "leaf-classification:16:0",
+    "wall_seconds": 0.033773207978811115
+  },
+  {
+    "job_id": "leaf-classification:16:1",
+    "wall_seconds": 0.033537707990035415
+  },
+  {
+    "job_id": "leaf-classification:17:0",
+    "wall_seconds": 0.035387624986469746
+  },
+  {
+    "job_id": "leaf-classification:17:1",
+    "wall_seconds": 0.03572470898507163
+  },
+  {
+    "job_id": "leaf-classification:18:0",
+    "wall_seconds": 0.03655987500678748
+  },
+  {
+    "job_id": "leaf-classification:18:1",
+    "wall_seconds": 0.03651095798704773
+  },
+  {
+    "job_id": "leaf-classification:19:0",
+    "wall_seconds": 0.03567283396841958
+  },
+  {
+    "job_id": "leaf-classification:19:1",
+    "wall_seconds": 0.03680833295220509
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:0:0",
+    "wall_seconds": 0.03655616601463407
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:0:1",
+    "wall_seconds": 0.035858375020325184
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:1:0",
+    "wall_seconds": 0.034417792048770934
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:1:1",
+    "wall_seconds": 0.03392025001812726
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:2:0",
+    "wall_seconds": 0.033553000015672296
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:2:1",
+    "wall_seconds": 0.03393566602608189
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:3:0",
+    "wall_seconds": 0.033054125029593706
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:3:1",
+    "wall_seconds": 0.033226333966013044
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:4:0",
+    "wall_seconds": 0.03430129197658971
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:4:1",
+    "wall_seconds": 0.03344716696301475
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:5:0",
+    "wall_seconds": 0.033866874990053475
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:5:1",
+    "wall_seconds": 0.03337079199263826
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:6:0",
+    "wall_seconds": 0.0328048340161331
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:6:1",
+    "wall_seconds": 0.032887915964238346
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:7:0",
+    "wall_seconds": 0.033517542004119605
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:7:1",
+    "wall_seconds": 0.033119541010819376
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:8:0",
+    "wall_seconds": 0.03356008295668289
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:8:1",
+    "wall_seconds": 0.033525625010952353
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:9:0",
+    "wall_seconds": 0.03643620799994096
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:9:1",
+    "wall_seconds": 0.03381824999814853
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:10:0",
+    "wall_seconds": 0.03318733401829377
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:10:1",
+    "wall_seconds": 0.033346874988637865
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:11:0",
+    "wall_seconds": 0.03314354200847447
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:11:1",
+    "wall_seconds": 0.03346250002505258
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:12:0",
+    "wall_seconds": 0.03312641702359542
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:12:1",
+    "wall_seconds": 0.03314650000538677
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:13:0",
+    "wall_seconds": 0.03683116700267419
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:13:1",
+    "wall_seconds": 0.03956358297728002
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:14:0",
+    "wall_seconds": 0.03931462502805516
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:14:1",
+    "wall_seconds": 0.03499070799443871
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:15:0",
+    "wall_seconds": 0.03371633298229426
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:15:1",
+    "wall_seconds": 0.033605583012104034
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:16:0",
+    "wall_seconds": 0.033129542018286884
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:16:1",
+    "wall_seconds": 0.033008583006449044
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:17:0",
+    "wall_seconds": 0.035395875049289316
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:17:1",
+    "wall_seconds": 0.03641674999380484
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:18:0",
+    "wall_seconds": 0.03599616599967703
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:18:1",
+    "wall_seconds": 0.03393524995772168
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:19:0",
+    "wall_seconds": 0.035116582992486656
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:19:1",
+    "wall_seconds": 0.036668957967776805
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:0:0",
+    "wall_seconds": 0.036810833029448986
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:0:1",
+    "wall_seconds": 0.03623391699511558
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:1:0",
+    "wall_seconds": 0.04442308295983821
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:1:1",
+    "wall_seconds": 0.03759033401729539
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:2:0",
+    "wall_seconds": 0.036861291038803756
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:2:1",
+    "wall_seconds": 0.038015957979951054
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:3:0",
+    "wall_seconds": 0.03954862500540912
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:3:1",
+    "wall_seconds": 0.03735395800322294
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:4:0",
+    "wall_seconds": 0.03639949997887015
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:4:1",
+    "wall_seconds": 0.03590754198376089
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:5:0",
+    "wall_seconds": 0.034991207998245955
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:5:1",
+    "wall_seconds": 0.03644845896633342
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:6:0",
+    "wall_seconds": 0.03905454103369266
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:6:1",
+    "wall_seconds": 0.03798874997301027
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:7:0",
+    "wall_seconds": 0.04302083299262449
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:7:1",
+    "wall_seconds": 0.04293237498495728
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:8:0",
+    "wall_seconds": 0.03979983396129683
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:8:1",
+    "wall_seconds": 0.03988662495976314
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:9:0",
+    "wall_seconds": 0.04029254196211696
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:9:1",
+    "wall_seconds": 0.037799499987158924
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:10:0",
+    "wall_seconds": 0.036160541989374906
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:10:1",
+    "wall_seconds": 0.03626354195876047
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:11:0",
+    "wall_seconds": 0.035452499985694885
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:11:1",
+    "wall_seconds": 0.03468416602117941
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:12:0",
+    "wall_seconds": 0.03566833300283179
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:12:1",
+    "wall_seconds": 0.03584249998675659
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:13:0",
+    "wall_seconds": 0.04509174998383969
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:13:1",
+    "wall_seconds": 0.03578612505225465
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:14:0",
+    "wall_seconds": 0.0357917090295814
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:14:1",
+    "wall_seconds": 0.036739250004757196
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:15:0",
+    "wall_seconds": 0.035226125037297606
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:15:1",
+    "wall_seconds": 0.035128625051584095
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:16:0",
+    "wall_seconds": 0.037005792022682726
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:16:1",
+    "wall_seconds": 0.03596766700502485
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:17:0",
+    "wall_seconds": 0.03829737496562302
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:17:1",
+    "wall_seconds": 0.037997040955815464
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:18:0",
+    "wall_seconds": 0.03570983401732519
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:18:1",
+    "wall_seconds": 0.03517337498487905
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:19:0",
+    "wall_seconds": 0.034620959020685405
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:19:1",
+    "wall_seconds": 0.034713457978796214
+  },
+  {
+    "job_id": "mlsp-2013-birds:0:0",
+    "wall_seconds": 0.04422966600395739
+  },
+  {
+    "job_id": "mlsp-2013-birds:0:1",
+    "wall_seconds": 0.037351832957938313
+  },
+  {
+    "job_id": "mlsp-2013-birds:1:0",
+    "wall_seconds": 0.035841750039253384
+  },
+  {
+    "job_id": "mlsp-2013-birds:1:1",
+    "wall_seconds": 0.037124291993677616
+  },
+  {
+    "job_id": "mlsp-2013-birds:2:0",
+    "wall_seconds": 0.03427050000755116
+  },
+  {
+    "job_id": "mlsp-2013-birds:2:1",
+    "wall_seconds": 0.033707791997585446
+  },
+  {
+    "job_id": "mlsp-2013-birds:3:0",
+    "wall_seconds": 0.033232874993700534
+  },
+  {
+    "job_id": "mlsp-2013-birds:3:1",
+    "wall_seconds": 0.033096416969783604
+  },
+  {
+    "job_id": "mlsp-2013-birds:4:0",
+    "wall_seconds": 0.034018500009551644
+  },
+  {
+    "job_id": "mlsp-2013-birds:4:1",
+    "wall_seconds": 0.033342375012580305
+  },
+  {
+    "job_id": "mlsp-2013-birds:5:0",
+    "wall_seconds": 0.033486332977190614
+  },
+  {
+    "job_id": "mlsp-2013-birds:5:1",
+    "wall_seconds": 0.03301158297108486
+  },
+  {
+    "job_id": "mlsp-2013-birds:6:0",
+    "wall_seconds": 0.03285129100549966
+  },
+  {
+    "job_id": "mlsp-2013-birds:6:1",
+    "wall_seconds": 0.0337301249965094
+  },
+  {
+    "job_id": "mlsp-2013-birds:7:0",
+    "wall_seconds": 0.03308137500425801
+  },
+  {
+    "job_id": "mlsp-2013-birds:7:1",
+    "wall_seconds": 0.03285704099107534
+  },
+  {
+    "job_id": "mlsp-2013-birds:8:0",
+    "wall_seconds": 0.03374433302087709
+  },
+  {
+    "job_id": "mlsp-2013-birds:8:1",
+    "wall_seconds": 0.03260395798133686
+  },
+  {
+    "job_id": "mlsp-2013-birds:9:0",
+    "wall_seconds": 0.033888874982949346
+  },
+  {
+    "job_id": "mlsp-2013-birds:9:1",
+    "wall_seconds": 0.032985374971758574
+  },
+  {
+    "job_id": "mlsp-2013-birds:10:0",
+    "wall_seconds": 0.03375724999932572
+  },
+  {
+    "job_id": "mlsp-2013-birds:10:1",
+    "wall_seconds": 0.0332651250064373
+  },
+  {
+    "job_id": "mlsp-2013-birds:11:0",
+    "wall_seconds": 0.03548437502468005
+  },
+  {
+    "job_id": "mlsp-2013-birds:11:1",
+    "wall_seconds": 0.03374437498860061
+  },
+  {
+    "job_id": "mlsp-2013-birds:12:0",
+    "wall_seconds": 0.03301050001755357
+  },
+  {
+    "job_id": "mlsp-2013-birds:12:1",
+    "wall_seconds": 0.03267641697311774
+  },
+  {
+    "job_id": "mlsp-2013-birds:13:0",
+    "wall_seconds": 0.03291237499797717
+  },
+  {
+    "job_id": "mlsp-2013-birds:13:1",
+    "wall_seconds": 0.032793916994705796
+  },
+  {
+    "job_id": "mlsp-2013-birds:14:0",
+    "wall_seconds": 0.03333433298394084
+  },
+  {
+    "job_id": "mlsp-2013-birds:14:1",
+    "wall_seconds": 0.032776207954157144
+  },
+  {
+    "job_id": "mlsp-2013-birds:15:0",
+    "wall_seconds": 0.03243833297165111
+  },
+  {
+    "job_id": "mlsp-2013-birds:15:1",
+    "wall_seconds": 0.033718249993398786
+  },
+  {
+    "job_id": "mlsp-2013-birds:16:0",
+    "wall_seconds": 0.03314808302093297
+  },
+  {
+    "job_id": "mlsp-2013-birds:16:1",
+    "wall_seconds": 0.03310141694964841
+  },
+  {
+    "job_id": "mlsp-2013-birds:17:0",
+    "wall_seconds": 0.03571470803581178
+  },
+  {
+    "job_id": "mlsp-2013-birds:17:1",
+    "wall_seconds": 0.03713395801605657
+  },
+  {
+    "job_id": "mlsp-2013-birds:18:0",
+    "wall_seconds": 0.033888041973114014
+  },
+  {
+    "job_id": "mlsp-2013-birds:18:1",
+    "wall_seconds": 0.03349574998719618
+  },
+  {
+    "job_id": "mlsp-2013-birds:19:0",
+    "wall_seconds": 0.03367179096676409
+  },
+  {
+    "job_id": "mlsp-2013-birds:19:1",
+    "wall_seconds": 0.03360691596753895
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:0:0",
+    "wall_seconds": 0.03600924997590482
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:0:1",
+    "wall_seconds": 0.04232529201544821
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:1:0",
+    "wall_seconds": 0.037389625038485974
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:1:1",
+    "wall_seconds": 0.035279583011288196
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:2:0",
+    "wall_seconds": 0.03469683398725465
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:2:1",
+    "wall_seconds": 0.034748625010252
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:3:0",
+    "wall_seconds": 0.0346070000086911
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:3:1",
+    "wall_seconds": 0.03467241697944701
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:4:0",
+    "wall_seconds": 0.03517066698987037
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:4:1",
+    "wall_seconds": 0.034687291947193444
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:5:0",
+    "wall_seconds": 0.034328749985434115
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:5:1",
+    "wall_seconds": 0.03507562499726191
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:6:0",
+    "wall_seconds": 0.03522891702596098
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:6:1",
+    "wall_seconds": 0.0347183330450207
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:7:0",
+    "wall_seconds": 0.0345509170438163
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:7:1",
+    "wall_seconds": 0.035055499989539385
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:8:0",
+    "wall_seconds": 0.037470833980478346
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:8:1",
+    "wall_seconds": 0.041754874982871115
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:9:0",
+    "wall_seconds": 0.03548299998510629
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:9:1",
+    "wall_seconds": 0.035479791986290365
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:10:0",
+    "wall_seconds": 0.035028416954446584
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:10:1",
+    "wall_seconds": 0.03674666601000354
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:11:0",
+    "wall_seconds": 0.03492537495912984
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:11:1",
+    "wall_seconds": 0.033874957996886224
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:12:0",
+    "wall_seconds": 0.03400837496155873
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:12:1",
+    "wall_seconds": 0.03400883299764246
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:13:0",
+    "wall_seconds": 0.03481933398870751
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:13:1",
+    "wall_seconds": 0.03367025003535673
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:14:0",
+    "wall_seconds": 0.03472391702234745
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:14:1",
+    "wall_seconds": 0.034649624954909086
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:15:0",
+    "wall_seconds": 0.03641424997476861
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:15:1",
+    "wall_seconds": 0.03382745897397399
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:16:0",
+    "wall_seconds": 0.033578709000721574
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:16:1",
+    "wall_seconds": 0.03348000004189089
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:17:0",
+    "wall_seconds": 0.03456320898840204
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:17:1",
+    "wall_seconds": 0.03604024997912347
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:18:0",
+    "wall_seconds": 0.0344481659703888
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:18:1",
+    "wall_seconds": 0.03336674999445677
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:19:0",
+    "wall_seconds": 0.03391124994959682
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:19:1",
+    "wall_seconds": 0.03347358398605138
+  },
+  {
+    "job_id": "nomad2018-predict-transparent-conductors:0:0",
+    "wall_seconds": 0.03277104097651318
+  },
+  {
+    "job_id": "nomad2018-predict-transparent-conductors:0:1",
+    "wall_seconds": 0.03234995802631602
+  },
+  {
+    "job_id": "petfinder-pawpularity-score:0:0",
+    "wall_seconds": 0.03361283300910145
+  },
+  {
+    "job_id": "petfinder-pawpularity-score:0:1",
+    "wall_seconds": 0.03377879102481529
+  },
+  {
+    "job_id": "plant-pathology-2020-fgvc7:0:0",
+    "wall_seconds": 0.03316637501120567
+  },
+  {
+    "job_id": "plant-pathology-2020-fgvc7:0:1",
+    "wall_seconds": 0.03311479196418077
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:0:0",
+    "wall_seconds": 0.03326095797820017
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:0:1",
+    "wall_seconds": 0.033312459010630846
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:1:0",
+    "wall_seconds": 0.033220708020962775
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:1:1",
+    "wall_seconds": 0.03371770796366036
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:2:0",
+    "wall_seconds": 0.03369141597067937
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:2:1",
+    "wall_seconds": 0.03359933296451345
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:3:0",
+    "wall_seconds": 0.033513749949634075
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:3:1",
+    "wall_seconds": 0.03345329198054969
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:4:0",
+    "wall_seconds": 0.033578582981135696
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:4:1",
+    "wall_seconds": 0.03381029196316376
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:5:0",
+    "wall_seconds": 0.0336923329741694
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:5:1",
+    "wall_seconds": 0.03341370803536847
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:6:0",
+    "wall_seconds": 0.03361949999816716
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:6:1",
+    "wall_seconds": 0.033778582990635186
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:7:0",
+    "wall_seconds": 0.03446187498047948
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:7:1",
+    "wall_seconds": 0.03404374996898696
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:8:0",
+    "wall_seconds": 0.03362499998183921
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:8:1",
+    "wall_seconds": 0.03274545801104978
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:9:0",
+    "wall_seconds": 0.03284312499454245
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:9:1",
+    "wall_seconds": 0.03298062499379739
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:10:0",
+    "wall_seconds": 0.03272383299190551
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:10:1",
+    "wall_seconds": 0.0328544580261223
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:11:0",
+    "wall_seconds": 0.03364312503254041
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:11:1",
+    "wall_seconds": 0.036401082994416356
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:12:0",
+    "wall_seconds": 0.03380191698670387
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:12:1",
+    "wall_seconds": 0.03311950003262609
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:13:0",
+    "wall_seconds": 0.03318429202772677
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:13:1",
+    "wall_seconds": 0.03323179198196158
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:14:0",
+    "wall_seconds": 0.03337754198582843
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:14:1",
+    "wall_seconds": 0.03535025002202019
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:15:0",
+    "wall_seconds": 0.03729316696990281
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:15:1",
+    "wall_seconds": 0.03772445803042501
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:16:0",
+    "wall_seconds": 0.0368889169767499
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:16:1",
+    "wall_seconds": 0.03785866702673957
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:17:0",
+    "wall_seconds": 0.03696537495125085
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:17:1",
+    "wall_seconds": 0.036584332992788404
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:18:0",
+    "wall_seconds": 0.035043208044953644
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:18:1",
+    "wall_seconds": 0.03379999997559935
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:19:0",
+    "wall_seconds": 0.03363895800430328
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:19:1",
+    "wall_seconds": 0.033228208019863814
+  },
+  {
+    "job_id": "random-acts-of-pizza:0:0",
+    "wall_seconds": 0.03311704203952104
+  },
+  {
+    "job_id": "random-acts-of-pizza:0:1",
+    "wall_seconds": 0.033131666015833616
+  },
+  {
+    "job_id": "random-acts-of-pizza:1:0",
+    "wall_seconds": 0.03290933300741017
+  },
+  {
+    "job_id": "random-acts-of-pizza:1:1",
+    "wall_seconds": 0.03391162498155609
+  },
+  {
+    "job_id": "random-acts-of-pizza:2:0",
+    "wall_seconds": 0.03320729197002947
+  },
+  {
+    "job_id": "random-acts-of-pizza:2:1",
+    "wall_seconds": 0.03274862497346476
+  },
+  {
+    "job_id": "random-acts-of-pizza:3:0",
+    "wall_seconds": 0.0327989169745706
+  },
+  {
+    "job_id": "random-acts-of-pizza:3:1",
+    "wall_seconds": 0.03286195796681568
+  },
+  {
+    "job_id": "random-acts-of-pizza:4:0",
+    "wall_seconds": 0.0329132080078125
+  },
+  {
+    "job_id": "random-acts-of-pizza:4:1",
+    "wall_seconds": 0.03307595901424065
+  },
+  {
+    "job_id": "random-acts-of-pizza:5:0",
+    "wall_seconds": 0.0326569169992581
+  },
+  {
+    "job_id": "random-acts-of-pizza:5:1",
+    "wall_seconds": 0.03252975002396852
+  },
+  {
+    "job_id": "random-acts-of-pizza:6:0",
+    "wall_seconds": 0.03238062502350658
+  },
+  {
+    "job_id": "random-acts-of-pizza:6:1",
+    "wall_seconds": 0.033130249998066574
+  },
+  {
+    "job_id": "random-acts-of-pizza:7:0",
+    "wall_seconds": 0.03261779196327552
+  },
+  {
+    "job_id": "random-acts-of-pizza:7:1",
+    "wall_seconds": 0.0328919580206275
+  },
+  {
+    "job_id": "random-acts-of-pizza:8:0",
+    "wall_seconds": 0.033161833009216934
+  },
+  {
+    "job_id": "random-acts-of-pizza:8:1",
+    "wall_seconds": 0.032884208019822836
+  },
+  {
+    "job_id": "random-acts-of-pizza:9:0",
+    "wall_seconds": 0.03278425004100427
+  },
+  {
+    "job_id": "random-acts-of-pizza:9:1",
+    "wall_seconds": 0.03265108302002773
+  },
+  {
+    "job_id": "random-acts-of-pizza:10:0",
+    "wall_seconds": 0.03272433398524299
+  },
+  {
+    "job_id": "random-acts-of-pizza:10:1",
+    "wall_seconds": 0.03292433399474248
+  },
+  {
+    "job_id": "random-acts-of-pizza:11:0",
+    "wall_seconds": 0.03245987498667091
+  },
+  {
+    "job_id": "random-acts-of-pizza:11:1",
+    "wall_seconds": 0.03292400005739182
+  },
+  {
+    "job_id": "random-acts-of-pizza:12:0",
+    "wall_seconds": 0.03266633296152577
+  },
+  {
+    "job_id": "random-acts-of-pizza:12:1",
+    "wall_seconds": 0.03257929201936349
+  },
+  {
+    "job_id": "random-acts-of-pizza:13:0",
+    "wall_seconds": 0.032537833030801266
+  },
+  {
+    "job_id": "random-acts-of-pizza:13:1",
+    "wall_seconds": 0.03270804102066904
+  },
+  {
+    "job_id": "random-acts-of-pizza:14:0",
+    "wall_seconds": 0.032590209040790796
+  },
+  {
+    "job_id": "random-acts-of-pizza:14:1",
+    "wall_seconds": 0.034433667024131864
+  },
+  {
+    "job_id": "random-acts-of-pizza:15:0",
+    "wall_seconds": 0.03653558302903548
+  },
+  {
+    "job_id": "random-acts-of-pizza:15:1",
+    "wall_seconds": 0.03269900003215298
+  },
+  {
+    "job_id": "random-acts-of-pizza:16:0",
+    "wall_seconds": 0.03524162498069927
+  },
+  {
+    "job_id": "random-acts-of-pizza:16:1",
+    "wall_seconds": 0.03480733302421868
+  },
+  {
+    "job_id": "random-acts-of-pizza:17:0",
+    "wall_seconds": 0.03431024996098131
+  },
+  {
+    "job_id": "random-acts-of-pizza:17:1",
+    "wall_seconds": 0.03329095902154222
+  },
+  {
+    "job_id": "random-acts-of-pizza:18:0",
+    "wall_seconds": 0.0330411660252139
+  },
+  {
+    "job_id": "random-acts-of-pizza:18:1",
+    "wall_seconds": 0.0327973339590244
+  },
+  {
+    "job_id": "random-acts-of-pizza:19:0",
+    "wall_seconds": 0.032767417025752366
+  },
+  {
+    "job_id": "random-acts-of-pizza:19:1",
+    "wall_seconds": 0.03252208296908066
+  },
+  {
+    "job_id": "spooky-author-identification:0:0",
+    "wall_seconds": 0.03282908396795392
+  },
+  {
+    "job_id": "spooky-author-identification:0:1",
+    "wall_seconds": 0.0328047500224784
+  },
+  {
+    "job_id": "spooky-author-identification:1:0",
+    "wall_seconds": 0.03235295903868973
+  },
+  {
+    "job_id": "spooky-author-identification:1:1",
+    "wall_seconds": 0.032623000035528094
+  },
+  {
+    "job_id": "spooky-author-identification:2:0",
+    "wall_seconds": 0.031802707992028445
+  },
+  {
+    "job_id": "spooky-author-identification:2:1",
+    "wall_seconds": 0.03453954099677503
+  },
+  {
+    "job_id": "spooky-author-identification:3:0",
+    "wall_seconds": 0.0344348750077188
+  },
+  {
+    "job_id": "spooky-author-identification:3:1",
+    "wall_seconds": 0.034343292005360126
+  },
+  {
+    "job_id": "spooky-author-identification:4:0",
+    "wall_seconds": 0.033636624983046204
+  },
+  {
+    "job_id": "spooky-author-identification:4:1",
+    "wall_seconds": 0.03354204201605171
+  },
+  {
+    "job_id": "spooky-author-identification:5:0",
+    "wall_seconds": 0.03266575001180172
+  },
+  {
+    "job_id": "spooky-author-identification:5:1",
+    "wall_seconds": 0.032534959027543664
+  },
+  {
+    "job_id": "spooky-author-identification:6:0",
+    "wall_seconds": 0.0345131250214763
+  },
+  {
+    "job_id": "spooky-author-identification:6:1",
+    "wall_seconds": 0.03437675000168383
+  },
+  {
+    "job_id": "spooky-author-identification:7:0",
+    "wall_seconds": 0.033427625021431595
+  },
+  {
+    "job_id": "spooky-author-identification:7:1",
+    "wall_seconds": 0.03385258297203109
+  },
+  {
+    "job_id": "spooky-author-identification:8:0",
+    "wall_seconds": 0.03350870800204575
+  },
+  {
+    "job_id": "spooky-author-identification:8:1",
+    "wall_seconds": 0.032748500001616776
+  },
+  {
+    "job_id": "spooky-author-identification:9:0",
+    "wall_seconds": 0.03311775001930073
+  },
+  {
+    "job_id": "spooky-author-identification:9:1",
+    "wall_seconds": 0.0338581670075655
+  },
+  {
+    "job_id": "spooky-author-identification:10:0",
+    "wall_seconds": 0.03321304195560515
+  },
+  {
+    "job_id": "spooky-author-identification:10:1",
+    "wall_seconds": 0.032678999996278435
+  },
+  {
+    "job_id": "spooky-author-identification:11:0",
+    "wall_seconds": 0.032649666944053024
+  },
+  {
+    "job_id": "spooky-author-identification:11:1",
+    "wall_seconds": 0.03338120802072808
+  },
+  {
+    "job_id": "spooky-author-identification:12:0",
+    "wall_seconds": 0.03441137500340119
+  },
+  {
+    "job_id": "spooky-author-identification:12:1",
+    "wall_seconds": 0.033469791000243276
+  },
+  {
+    "job_id": "spooky-author-identification:13:0",
+    "wall_seconds": 0.032651124987751245
+  },
+  {
+    "job_id": "spooky-author-identification:13:1",
+    "wall_seconds": 0.03304937499342486
+  },
+  {
+    "job_id": "spooky-author-identification:14:0",
+    "wall_seconds": 0.03249183401931077
+  },
+  {
+    "job_id": "spooky-author-identification:14:1",
+    "wall_seconds": 0.03261633397778496
+  },
+  {
+    "job_id": "spooky-author-identification:15:0",
+    "wall_seconds": 0.03281450003851205
+  },
+  {
+    "job_id": "spooky-author-identification:15:1",
+    "wall_seconds": 0.0326794590218924
+  },
+  {
+    "job_id": "spooky-author-identification:16:0",
+    "wall_seconds": 0.032444417010992765
+  },
+  {
+    "job_id": "spooky-author-identification:16:1",
+    "wall_seconds": 0.033130458963569254
+  },
+  {
+    "job_id": "spooky-author-identification:17:0",
+    "wall_seconds": 0.03251037502195686
+  },
+  {
+    "job_id": "spooky-author-identification:17:1",
+    "wall_seconds": 0.03252912504831329
+  },
+  {
+    "job_id": "spooky-author-identification:18:0",
+    "wall_seconds": 0.03264733403921127
+  },
+  {
+    "job_id": "spooky-author-identification:18:1",
+    "wall_seconds": 0.03333125001518056
+  },
+  {
+    "job_id": "spooky-author-identification:19:0",
+    "wall_seconds": 0.033104625006671995
+  },
+  {
+    "job_id": "spooky-author-identification:19:1",
+    "wall_seconds": 0.03328924998641014
+  },
+  {
+    "job_id": "stanford-covid-vaccine:0:0",
+    "wall_seconds": 0.033347041986417025
+  },
+  {
+    "job_id": "stanford-covid-vaccine:0:1",
+    "wall_seconds": 0.0326314169797115
+  },
+  {
+    "job_id": "stanford-covid-vaccine:1:0",
+    "wall_seconds": 0.03269308299059048
+  },
+  {
+    "job_id": "stanford-covid-vaccine:1:1",
+    "wall_seconds": 0.03410808299668133
+  },
+  {
+    "job_id": "stanford-covid-vaccine:2:0",
+    "wall_seconds": 0.03314891702029854
+  },
+  {
+    "job_id": "stanford-covid-vaccine:2:1",
+    "wall_seconds": 0.03282074996968731
+  },
+  {
+    "job_id": "stanford-covid-vaccine:3:0",
+    "wall_seconds": 0.03293483302695677
+  },
+  {
+    "job_id": "stanford-covid-vaccine:3:1",
+    "wall_seconds": 0.032960375014226884
+  },
+  {
+    "job_id": "stanford-covid-vaccine:4:0",
+    "wall_seconds": 0.03345725004328415
+  },
+  {
+    "job_id": "stanford-covid-vaccine:4:1",
+    "wall_seconds": 0.03263908298686147
+  },
+  {
+    "job_id": "stanford-covid-vaccine:5:0",
+    "wall_seconds": 0.03290558303706348
+  },
+  {
+    "job_id": "stanford-covid-vaccine:5:1",
+    "wall_seconds": 0.033034457999747247
+  },
+  {
+    "job_id": "stanford-covid-vaccine:6:0",
+    "wall_seconds": 0.033065958006773144
+  },
+  {
+    "job_id": "stanford-covid-vaccine:6:1",
+    "wall_seconds": 0.033580916991923004
+  },
+  {
+    "job_id": "stanford-covid-vaccine:7:0",
+    "wall_seconds": 0.03355424996698275
+  },
+  {
+    "job_id": "stanford-covid-vaccine:7:1",
+    "wall_seconds": 0.03376449999632314
+  },
+  {
+    "job_id": "stanford-covid-vaccine:8:0",
+    "wall_seconds": 0.03260162501828745
+  },
+  {
+    "job_id": "stanford-covid-vaccine:8:1",
+    "wall_seconds": 0.03262683399952948
+  },
+  {
+    "job_id": "stanford-covid-vaccine:9:0",
+    "wall_seconds": 0.03295933303888887
+  },
+  {
+    "job_id": "stanford-covid-vaccine:9:1",
+    "wall_seconds": 0.0326654160162434
+  },
+  {
+    "job_id": "stanford-covid-vaccine:10:0",
+    "wall_seconds": 0.0333009579917416
+  },
+  {
+    "job_id": "stanford-covid-vaccine:10:1",
+    "wall_seconds": 0.03295762499328703
+  },
+  {
+    "job_id": "stanford-covid-vaccine:11:0",
+    "wall_seconds": 0.032506707997526973
+  },
+  {
+    "job_id": "stanford-covid-vaccine:11:1",
+    "wall_seconds": 0.033003333024680614
+  },
+  {
+    "job_id": "stanford-covid-vaccine:12:0",
+    "wall_seconds": 0.03263883397448808
+  },
+  {
+    "job_id": "stanford-covid-vaccine:12:1",
+    "wall_seconds": 0.03241054102545604
+  },
+  {
+    "job_id": "stanford-covid-vaccine:13:0",
+    "wall_seconds": 0.03328670799965039
+  },
+  {
+    "job_id": "stanford-covid-vaccine:13:1",
+    "wall_seconds": 0.033380125008989125
+  },
+  {
+    "job_id": "stanford-covid-vaccine:14:0",
+    "wall_seconds": 0.033142583968583494
+  },
+  {
+    "job_id": "stanford-covid-vaccine:14:1",
+    "wall_seconds": 0.03491520800162107
+  },
+  {
+    "job_id": "stanford-covid-vaccine:15:0",
+    "wall_seconds": 0.03381150000495836
+  },
+  {
+    "job_id": "stanford-covid-vaccine:15:1",
+    "wall_seconds": 0.0328260000096634
+  },
+  {
+    "job_id": "stanford-covid-vaccine:16:0",
+    "wall_seconds": 0.032950791995972395
+  },
+  {
+    "job_id": "stanford-covid-vaccine:16:1",
+    "wall_seconds": 0.03363924997393042
+  },
+  {
+    "job_id": "stanford-covid-vaccine:17:0",
+    "wall_seconds": 0.036471208033617586
+  },
+  {
+    "job_id": "stanford-covid-vaccine:17:1",
+    "wall_seconds": 0.03721604199381545
+  },
+  {
+    "job_id": "stanford-covid-vaccine:18:0",
+    "wall_seconds": 0.03825604199664667
+  },
+  {
+    "job_id": "stanford-covid-vaccine:18:1",
+    "wall_seconds": 0.03765916597330943
+  },
+  {
+    "job_id": "stanford-covid-vaccine:19:0",
+    "wall_seconds": 0.037598792056087404
+  },
+  {
+    "job_id": "stanford-covid-vaccine:19:1",
+    "wall_seconds": 0.036582958011422306
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:0:0",
+    "wall_seconds": 0.038695791037753224
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:0:1",
+    "wall_seconds": 0.03547387500293553
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:1:0",
+    "wall_seconds": 0.033285124984104186
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:1:1",
+    "wall_seconds": 0.03328208299353719
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:2:0",
+    "wall_seconds": 0.03280924999853596
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:2:1",
+    "wall_seconds": 0.032751333026681095
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:3:0",
+    "wall_seconds": 0.03315504197962582
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:3:1",
+    "wall_seconds": 0.03327091701794416
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:4:0",
+    "wall_seconds": 0.035770249960478395
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:4:1",
+    "wall_seconds": 0.04019833396887407
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:5:0",
+    "wall_seconds": 0.0384092089952901
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:5:1",
+    "wall_seconds": 0.03713124996284023
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:6:0",
+    "wall_seconds": 0.03774495801189914
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:6:1",
+    "wall_seconds": 0.03695379197597504
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:7:0",
+    "wall_seconds": 0.03655770799377933
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:7:1",
+    "wall_seconds": 0.0367397089721635
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:8:0",
+    "wall_seconds": 0.03755866695428267
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:8:1",
+    "wall_seconds": 0.03929079102817923
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:9:0",
+    "wall_seconds": 0.039102334005292505
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:9:1",
+    "wall_seconds": 0.03696237498661503
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:10:0",
+    "wall_seconds": 0.03737104102037847
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:10:1",
+    "wall_seconds": 0.03597212501335889
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:11:0",
+    "wall_seconds": 0.035556791990529746
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:11:1",
+    "wall_seconds": 0.03571616602130234
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:12:0",
+    "wall_seconds": 0.03505454200785607
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:12:1",
+    "wall_seconds": 0.03452762501547113
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:13:0",
+    "wall_seconds": 0.03426133398897946
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:13:1",
+    "wall_seconds": 0.03501358302310109
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:14:0",
+    "wall_seconds": 0.03460208303295076
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:14:1",
+    "wall_seconds": 0.03481516701867804
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:15:0",
+    "wall_seconds": 0.03497245901962742
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:15:1",
+    "wall_seconds": 0.03466883301734924
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:16:0",
+    "wall_seconds": 0.03499654203187674
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:16:1",
+    "wall_seconds": 0.0354895829805173
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:17:0",
+    "wall_seconds": 0.0349343330017291
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:17:1",
+    "wall_seconds": 0.034866000001784414
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:18:0",
+    "wall_seconds": 0.035108374955598265
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:18:1",
+    "wall_seconds": 0.035060875001363456
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:19:0",
+    "wall_seconds": 0.036218666995409876
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:19:1",
+    "wall_seconds": 0.0352453330415301
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:0:0",
+    "wall_seconds": 0.035338709014467895
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:0:1",
+    "wall_seconds": 0.035976291983388364
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:1:0",
+    "wall_seconds": 0.034673582995310426
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:1:1",
+    "wall_seconds": 0.035553457972127944
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:2:0",
+    "wall_seconds": 0.03467933303909376
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:2:1",
+    "wall_seconds": 0.03465708298608661
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:3:0",
+    "wall_seconds": 0.0354567090398632
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:3:1",
+    "wall_seconds": 0.03489016700768843
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:4:0",
+    "wall_seconds": 0.037433833989780396
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:4:1",
+    "wall_seconds": 0.037126958020962775
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:5:0",
+    "wall_seconds": 0.03535145800560713
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:5:1",
+    "wall_seconds": 0.0348481250111945
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:6:0",
+    "wall_seconds": 0.03531820798525587
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:6:1",
+    "wall_seconds": 0.03654608299257234
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:7:0",
+    "wall_seconds": 0.037405749957542866
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:7:1",
+    "wall_seconds": 0.041095833003055304
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:8:0",
+    "wall_seconds": 0.038626583002042025
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:8:1",
+    "wall_seconds": 0.035535375005565584
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:9:0",
+    "wall_seconds": 0.035365667019505054
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:9:1",
+    "wall_seconds": 0.034764416981488466
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:10:0",
+    "wall_seconds": 0.035028374986723065
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:10:1",
+    "wall_seconds": 0.039300457981880754
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:11:0",
+    "wall_seconds": 0.03368608298478648
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:11:1",
+    "wall_seconds": 0.03383541700895876
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:12:0",
+    "wall_seconds": 0.03338941698893905
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:12:1",
+    "wall_seconds": 0.03444329201010987
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:13:0",
+    "wall_seconds": 0.03336479200515896
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:13:1",
+    "wall_seconds": 0.03333558305166662
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:14:0",
+    "wall_seconds": 0.03309229202568531
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:14:1",
+    "wall_seconds": 0.03387420903891325
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:15:0",
+    "wall_seconds": 0.03393962502013892
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:15:1",
+    "wall_seconds": 0.033016207977198064
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:16:0",
+    "wall_seconds": 0.03400249994592741
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:16:1",
+    "wall_seconds": 0.03446704096859321
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:17:0",
+    "wall_seconds": 0.03824424999766052
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:17:1",
+    "wall_seconds": 0.03559087502071634
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:18:0",
+    "wall_seconds": 0.034187666955403984
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:18:1",
+    "wall_seconds": 0.03501245897496119
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:19:0",
+    "wall_seconds": 0.034114166046492755
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:19:1",
+    "wall_seconds": 0.03302045800955966
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:0:0",
+    "wall_seconds": 0.03280387498671189
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:0:1",
+    "wall_seconds": 0.034084041020832956
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:1:0",
+    "wall_seconds": 0.03637454198906198
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:1:1",
+    "wall_seconds": 0.03421041596448049
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:2:0",
+    "wall_seconds": 0.03350591700291261
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:2:1",
+    "wall_seconds": 0.03251700004329905
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:3:0",
+    "wall_seconds": 0.03234737500315532
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:3:1",
+    "wall_seconds": 0.032321459031663835
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:4:0",
+    "wall_seconds": 0.03304750000825152
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:4:1",
+    "wall_seconds": 0.03639408404706046
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:5:0",
+    "wall_seconds": 0.03815249999752268
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:5:1",
+    "wall_seconds": 0.03530079196207225
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:6:0",
+    "wall_seconds": 0.03440716699697077
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:6:1",
+    "wall_seconds": 0.03816841699881479
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:7:0",
+    "wall_seconds": 0.05421079200459644
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:7:1",
+    "wall_seconds": 0.03660858399234712
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:8:0",
+    "wall_seconds": 0.03828858403721824
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:8:1",
+    "wall_seconds": 0.034494749968871474
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:9:0",
+    "wall_seconds": 0.034038416983094066
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:9:1",
+    "wall_seconds": 0.03594587498810142
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:10:0",
+    "wall_seconds": 0.03404625004623085
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:10:1",
+    "wall_seconds": 0.03446695796446875
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:11:0",
+    "wall_seconds": 0.03411616600351408
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:11:1",
+    "wall_seconds": 0.034137959009967744
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:12:0",
+    "wall_seconds": 0.034152249980252236
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:12:1",
+    "wall_seconds": 0.033562625001650304
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:13:0",
+    "wall_seconds": 0.033946708019357175
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:13:1",
+    "wall_seconds": 0.03485170897329226
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:14:0",
+    "wall_seconds": 0.03560291696339846
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:14:1",
+    "wall_seconds": 0.03514041699236259
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:15:0",
+    "wall_seconds": 0.03422604099614546
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:15:1",
+    "wall_seconds": 0.03581874998053536
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:16:0",
+    "wall_seconds": 0.03873858298175037
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:16:1",
+    "wall_seconds": 0.03774370800238103
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:17:0",
+    "wall_seconds": 0.039364708005450666
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:17:1",
+    "wall_seconds": 0.03652299998793751
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:18:0",
+    "wall_seconds": 0.034398291958495975
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:18:1",
+    "wall_seconds": 0.03529470902867615
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:19:0",
+    "wall_seconds": 0.03679462498985231
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:19:1",
+    "wall_seconds": 0.038455041009001434
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:0:0",
+    "wall_seconds": 0.03784666699357331
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:0:1",
+    "wall_seconds": 0.037286375008989125
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:1:0",
+    "wall_seconds": 0.03747083403868601
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:1:1",
+    "wall_seconds": 0.03755208302754909
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:2:0",
+    "wall_seconds": 0.037536874995566905
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:2:1",
+    "wall_seconds": 0.03791537502547726
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:3:0",
+    "wall_seconds": 0.03816837497288361
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:3:1",
+    "wall_seconds": 0.040043124987278134
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:4:0",
+    "wall_seconds": 0.04266674997052178
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:4:1",
+    "wall_seconds": 0.03756483399774879
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:5:0",
+    "wall_seconds": 0.03577412501908839
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:5:1",
+    "wall_seconds": 0.03684324998175725
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:6:0",
+    "wall_seconds": 0.03719449997879565
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:6:1",
+    "wall_seconds": 0.038970124965999275
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:7:0",
+    "wall_seconds": 0.03762279194779694
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:7:1",
+    "wall_seconds": 0.039774083998054266
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:8:0",
+    "wall_seconds": 0.038732583983801305
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:8:1",
+    "wall_seconds": 0.03805500001180917
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:9:0",
+    "wall_seconds": 0.038508167024701834
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:9:1",
+    "wall_seconds": 0.035770832968410105
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:10:0",
+    "wall_seconds": 0.036057000048458576
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:10:1",
+    "wall_seconds": 0.03755112498765811
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:11:0",
+    "wall_seconds": 0.03790237504290417
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:11:1",
+    "wall_seconds": 0.038742333999834955
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:12:0",
+    "wall_seconds": 0.03800137504003942
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:12:1",
+    "wall_seconds": 0.03598699998110533
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:13:0",
+    "wall_seconds": 0.034738457994535565
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:13:1",
+    "wall_seconds": 0.0371820000000298
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:14:0",
+    "wall_seconds": 0.03505191602744162
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:14:1",
+    "wall_seconds": 0.03581104095792398
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:15:0",
+    "wall_seconds": 0.035710834024939686
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:15:1",
+    "wall_seconds": 0.03344779199687764
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:16:0",
+    "wall_seconds": 0.032962750003207475
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:16:1",
+    "wall_seconds": 0.03333633398870006
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:17:0",
+    "wall_seconds": 0.03316716704284772
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:17:1",
+    "wall_seconds": 0.03306099999463186
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:18:0",
+    "wall_seconds": 0.032911500020418316
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:18:1",
+    "wall_seconds": 0.034462541982065886
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:19:0",
+    "wall_seconds": 0.03421912505291402
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:19:1",
+    "wall_seconds": 0.033651166944764555
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:0:0",
+    "wall_seconds": 0.03645154199330136
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:0:1",
+    "wall_seconds": 0.03999537497293204
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:1:0",
+    "wall_seconds": 0.04073799995239824
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:1:1",
+    "wall_seconds": 0.039039541967213154
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:2:0",
+    "wall_seconds": 0.036830500001087785
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:2:1",
+    "wall_seconds": 0.037458708975464106
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:3:0",
+    "wall_seconds": 0.03670400002738461
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:3:1",
+    "wall_seconds": 0.03412666596705094
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:4:0",
+    "wall_seconds": 0.035020082956179976
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:4:1",
+    "wall_seconds": 0.0353890840196982
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:5:0",
+    "wall_seconds": 0.034409333020448685
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:5:1",
+    "wall_seconds": 0.034177792025730014
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:6:0",
+    "wall_seconds": 0.03636200004257262
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:6:1",
+    "wall_seconds": 0.03737254097359255
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:7:0",
+    "wall_seconds": 0.036890166986268014
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:7:1",
+    "wall_seconds": 0.0372711670352146
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:8:0",
+    "wall_seconds": 0.036239625012967736
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:8:1",
+    "wall_seconds": 0.03497795801376924
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:9:0",
+    "wall_seconds": 0.033750083995983005
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:9:1",
+    "wall_seconds": 0.05254079098813236
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:10:0",
+    "wall_seconds": 0.036539333988912404
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:10:1",
+    "wall_seconds": 0.034422249998897314
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:11:0",
+    "wall_seconds": 0.03384774998994544
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:11:1",
+    "wall_seconds": 0.03350737498840317
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:12:0",
+    "wall_seconds": 0.033441125007811934
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:12:1",
+    "wall_seconds": 0.03307549998862669
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:13:0",
+    "wall_seconds": 0.032948417006991804
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:13:1",
+    "wall_seconds": 0.03280004201224074
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:14:0",
+    "wall_seconds": 0.03292295802384615
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:14:1",
+    "wall_seconds": 0.03340779204154387
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:15:0",
+    "wall_seconds": 0.03336208302062005
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:15:1",
+    "wall_seconds": 0.03396954096388072
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:16:0",
+    "wall_seconds": 0.03336554201086983
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:16:1",
+    "wall_seconds": 0.034524249960668385
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:17:0",
+    "wall_seconds": 0.034297125006560236
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:17:1",
+    "wall_seconds": 0.03330091596581042
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:18:0",
+    "wall_seconds": 0.03322954196482897
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:18:1",
+    "wall_seconds": 0.032849624985828996
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:19:0",
+    "wall_seconds": 0.03282949997810647
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:19:1",
+    "wall_seconds": 0.03338845795951784
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:0:0",
+    "wall_seconds": 0.03318791702622548
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:0:1",
+    "wall_seconds": 0.03281058301217854
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:1:0",
+    "wall_seconds": 0.03282974998001009
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:1:1",
+    "wall_seconds": 0.0334687500144355
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:2:0",
+    "wall_seconds": 0.033375625032931566
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:2:1",
+    "wall_seconds": 0.03335554199293256
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:3:0",
+    "wall_seconds": 0.03602050000336021
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:3:1",
+    "wall_seconds": 0.038480833056382835
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:4:0",
+    "wall_seconds": 0.04101129196351394
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:4:1",
+    "wall_seconds": 0.03865233302349225
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:5:0",
+    "wall_seconds": 0.03884308296255767
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:5:1",
+    "wall_seconds": 0.03819383401423693
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:6:0",
+    "wall_seconds": 0.03643091599224135
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:6:1",
+    "wall_seconds": 0.03558775002602488
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:7:0",
+    "wall_seconds": 0.03475720796268433
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:7:1",
+    "wall_seconds": 0.035604249977041036
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:8:0",
+    "wall_seconds": 0.03389395901467651
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:8:1",
+    "wall_seconds": 0.035663333954289556
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:9:0",
+    "wall_seconds": 0.03355312498752028
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:9:1",
+    "wall_seconds": 0.034188333025667816
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:10:0",
+    "wall_seconds": 0.03834333398845047
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:10:1",
+    "wall_seconds": 0.03630945802433416
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:11:0",
+    "wall_seconds": 0.03432966599939391
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:11:1",
+    "wall_seconds": 0.03488579095574096
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:12:0",
+    "wall_seconds": 0.03663191699888557
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:12:1",
+    "wall_seconds": 0.03379387501627207
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:13:0",
+    "wall_seconds": 0.03322116698836908
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:13:1",
+    "wall_seconds": 0.0331397500121966
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:14:0",
+    "wall_seconds": 0.03379575000144541
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:14:1",
+    "wall_seconds": 0.03424008301226422
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:15:0",
+    "wall_seconds": 0.0384980000089854
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:15:1",
+    "wall_seconds": 0.03528795903548598
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:16:0",
+    "wall_seconds": 0.03393445798428729
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:16:1",
+    "wall_seconds": 0.036889250040985644
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:17:0",
+    "wall_seconds": 0.03763241705019027
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:17:1",
+    "wall_seconds": 0.03549979202216491
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:18:0",
+    "wall_seconds": 0.037267666950356215
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:18:1",
+    "wall_seconds": 0.037277833034750074
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:19:0",
+    "wall_seconds": 0.036100708006415516
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:19:1",
+    "wall_seconds": 0.03391329199075699
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:0:0",
+    "wall_seconds": 0.034022459003608674
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:0:1",
+    "wall_seconds": 0.035423916997388005
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:1:0",
+    "wall_seconds": 0.03592587501043454
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:1:1",
+    "wall_seconds": 0.03409466700395569
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:2:0",
+    "wall_seconds": 0.03364774998044595
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:2:1",
+    "wall_seconds": 0.03459483303595334
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:3:0",
+    "wall_seconds": 0.034643499995581806
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:3:1",
+    "wall_seconds": 0.03437454195227474
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:4:0",
+    "wall_seconds": 0.034591459028888494
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:4:1",
+    "wall_seconds": 0.0350116670015268
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:5:0",
+    "wall_seconds": 0.034368124965112656
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:5:1",
+    "wall_seconds": 0.03324283397523686
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:6:0",
+    "wall_seconds": 0.033551333006471395
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:6:1",
+    "wall_seconds": 0.03446383395930752
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:7:0",
+    "wall_seconds": 0.03779658302664757
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:7:1",
+    "wall_seconds": 0.03690129204187542
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:8:0",
+    "wall_seconds": 0.035657166969031096
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:8:1",
+    "wall_seconds": 0.03651145799085498
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:9:0",
+    "wall_seconds": 0.03560687496792525
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:9:1",
+    "wall_seconds": 0.04001683398382738
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:10:0",
+    "wall_seconds": 0.03727733297273517
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:10:1",
+    "wall_seconds": 0.03581020800629631
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:11:0",
+    "wall_seconds": 0.03660662501351908
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:11:1",
+    "wall_seconds": 0.03431495797121897
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:12:0",
+    "wall_seconds": 0.0338176250224933
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:12:1",
+    "wall_seconds": 0.034238249994814396
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:13:0",
+    "wall_seconds": 0.03343312500510365
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:13:1",
+    "wall_seconds": 0.03431258397176862
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:14:0",
+    "wall_seconds": 0.034485583018977195
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:14:1",
+    "wall_seconds": 0.036564750014804304
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:15:0",
+    "wall_seconds": 0.036966083047445863
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:15:1",
+    "wall_seconds": 0.03761424997355789
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:16:0",
+    "wall_seconds": 0.03633008402539417
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:16:1",
+    "wall_seconds": 0.03623133298242465
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:17:0",
+    "wall_seconds": 0.03536212496692315
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:17:1",
+    "wall_seconds": 0.03488612500950694
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:18:0",
+    "wall_seconds": 0.036573832971043885
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:18:1",
+    "wall_seconds": 0.035400499997194856
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:19:0",
+    "wall_seconds": 0.036300209001637995
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:19:1",
+    "wall_seconds": 0.03484366700286046
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:0:0",
+    "wall_seconds": 0.0342824169783853
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:0:1",
+    "wall_seconds": 0.03352120897034183
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:1:0",
+    "wall_seconds": 0.034341084014158696
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:1:1",
+    "wall_seconds": 0.03591970796696842
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:2:0",
+    "wall_seconds": 0.035246666986495256
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:2:1",
+    "wall_seconds": 0.03422416700050235
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:3:0",
+    "wall_seconds": 0.03638700000010431
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:3:1",
+    "wall_seconds": 0.035069082980044186
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:4:0",
+    "wall_seconds": 0.03515549999428913
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:4:1",
+    "wall_seconds": 0.03397687495453283
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:5:0",
+    "wall_seconds": 0.035372375044971704
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:5:1",
+    "wall_seconds": 0.03598879196215421
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:6:0",
+    "wall_seconds": 0.03755508398171514
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:6:1",
+    "wall_seconds": 0.03791075001936406
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:7:0",
+    "wall_seconds": 0.03602329199202359
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:7:1",
+    "wall_seconds": 0.03508841700386256
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:8:0",
+    "wall_seconds": 0.036504584015347064
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:8:1",
+    "wall_seconds": 0.03478433296550065
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:9:0",
+    "wall_seconds": 0.03532104199985042
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:9:1",
+    "wall_seconds": 0.036847167008090764
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:10:0",
+    "wall_seconds": 0.037308458995539695
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:10:1",
+    "wall_seconds": 0.03569712501484901
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:11:0",
+    "wall_seconds": 0.03601520898519084
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:11:1",
+    "wall_seconds": 0.037182874977588654
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:12:0",
+    "wall_seconds": 0.03660395898623392
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:12:1",
+    "wall_seconds": 0.035367334028705955
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:13:0",
+    "wall_seconds": 0.046511458000168204
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:13:1",
+    "wall_seconds": 0.04310062498552725
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:14:0",
+    "wall_seconds": 0.0380539579782635
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:14:1",
+    "wall_seconds": 0.03598383301869035
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:15:0",
+    "wall_seconds": 0.03549895796459168
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:15:1",
+    "wall_seconds": 0.03620224999031052
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:16:0",
+    "wall_seconds": 0.03562712500570342
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:16:1",
+    "wall_seconds": 0.04077100002905354
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:17:0",
+    "wall_seconds": 0.03732795803807676
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:17:1",
+    "wall_seconds": 0.035597375012002885
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:18:0",
+    "wall_seconds": 0.03466945898253471
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:18:1",
+    "wall_seconds": 0.038097582990303636
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:19:0",
+    "wall_seconds": 0.0400693750125356
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:19:1",
+    "wall_seconds": 0.03752274997532368
+  }
+]

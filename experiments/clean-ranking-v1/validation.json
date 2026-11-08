@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "experiment_id": "clean-ranking-v1",
+  "unit_tests": {
+    "new_C0_acceptance": 12,
+    "independent_score_checks": 5,
+    "original_behavior_checks": 4,
+    "all_exit_codes": 0
+  },
+  "formal": {
+    "status": "passed",
+    "jobs": 850,
+    "selections": 3400,
+    "source_hashes": 946,
+    "active_decision_priority_checks": 3406,
+    "labels_used_only_for_scoring": true,
+    "historical_R6_R8_artifacts_used": false,
+    "summary_sha256": "f6953fe5e133d1cbafe8b290bcbe3121cf3c415b5df61b8c0f757bccaf97c450",
+    "decisions_sha256": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef",
+    "scope": "Independent feedback/priority/metric reconstruction; frozen author responses and development tasks only."
+  },
+  "repeat_consistency": {
+    "decision_records_equal": true,
+    "metric_sections_equal": true,
+    "per_task_csv_equal": true
+  },
+  "modified_input_contract": {
+    "status": "passed",
+    "modified_selected_input_rejected_before_output": true
+  },
+  "protected_R6_R8_files": 48,
+  "original_diagnostic_input_hashes": 469,
+  "original_corpus_files": 974,
+  "locked_implementation_and_input_files": 33,
+  "successful_short_training_runs": 6,
+  "successful_matched_update_control_runs": 2,
+  "controlled_integration_status": "passed",
+  "same_input_before_after_confirmed": true,
+  "local_links_checked": 65,
+  "paid_model_calls": 0,
+  "gpu_rentals": 0,
+  "full_live_API_end_to_end_runs": 0,
+  "remaining": [
+    "Future generated-candidate validation-prediction export and independently recomputed selection metric contract",
+    "OS isolation for complete candidate scripts",
+    "Matched-budget real-API end-to-end evaluation",
+    "New-task confirmation after fixing the method"
+  ],
+  "scope": "Fresh offline development pilot and targeted correctness diagnostics; historical R6-R8 protected, not imported as experimental inputs."
+}

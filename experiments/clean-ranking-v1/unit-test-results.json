@@ -1,0 +1,23 @@
+{
+  "test_clean_ranking_v1.py": {
+    "chunk_id": "ca435d",
+    "wall_time_seconds": 0.106708708,
+    "exit_code": 0,
+    "original_token_count": 467,
+    "output": "test_budget_cap_is_counted_as_denied_not_new_evidence (test_clean_ranking_v1.CleanRankingTests.test_budget_cap_is_counted_as_denied_not_new_evidence) ... ok\ntest_cache_context_threshold_and_same_pair_concurrency (test_clean_ranking_v1.CleanRankingTests.test_cache_context_threshold_and_same_pair_concurrency) ... ok\ntest_checkpoint_uses_best_archive_not_latest_file (test_clean_ranking_v1.CleanRankingTests.test_checkpoint_uses_best_archive_not_latest_file) ... ok\ntest_corrected_agent_step_isolates_each_execution (test_clean_ranking_v1.CleanRankingTests.test_corrected_agent_step_isolates_each_execution) ... ok\ntest_original_cache_counterexample_and_fixed_direction (test_clean_ranking_v1.CleanRankingTests.test_original_cache_counterexample_and_fixed_direction) ... ok\ntest_overlay_original_order_key_and_default_policy (test_clean_ranking_v1.CleanRankingTests.test_overlay_original_order_key_and_default_policy) ... ok\ntest_policies_budget_no_duplicates_and_shared_initial_coverage (test_clean_ranking_v1.CleanRankingTests.test_policies_budget_no_duplicates_and_shared_initial_coverage) ... ok\ntest_score_order_mask_and_nonfinite_targets (test_clean_ranking_v1.CleanRankingTests.test_score_order_mask_and_nonfinite_targets) ... ok\ntest_selection_requires_no_evaluation_label_file (test_clean_ranking_v1.CleanRankingTests.test_selection_requires_no_evaluation_label_file) ... ok\ntest_small_pools_and_uninformative_feedback (test_clean_ranking_v1.CleanRankingTests.test_small_pools_and_uninformative_feedback) ... ok\ntest_stale_submission_and_symlink_isolation (test_clean_ranking_v1.CleanRankingTests.test_stale_submission_and_symlink_isolation) ... ok\ntest_strict_response_contract (test_clean_ranking_v1.CleanRankingTests.test_strict_response_contract) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.051s\n\nOK\n"
+  },
+  "test_online_baseline.py": {
+    "chunk_id": "aa36fa",
+    "wall_time_seconds": 0.0000095,
+    "exit_code": 0,
+    "original_token_count": 179,
+    "output": "test_duplicate_missing_and_unknown_ids_rejected (test_online_baseline.OnlineScoreTests.test_duplicate_missing_and_unknown_ids_rejected) ... ok\ntest_invalid_and_empty_masks_rejected (test_online_baseline.OnlineScoreTests.test_invalid_and_empty_masks_rejected) ... ok\ntest_mask_three_targets_and_row_order (test_online_baseline.OnlineScoreTests.test_mask_three_targets_and_row_order) ... ok\ntest_missing_columns_rejected (test_online_baseline.OnlineScoreTests.test_missing_columns_rejected) ... ok\ntest_nonfinite_predictions_rejected (test_online_baseline.OnlineScoreTests.test_nonfinite_predictions_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+  },
+  "test_foreagent_mechanisms.py": {
+    "chunk_id": "23969c",
+    "wall_time_seconds": 0.113628167,
+    "exit_code": 0,
+    "original_token_count": 175,
+    "output": "test_agent_routes_ties_probability_and_forced_execution (test_foreagent_mechanisms.MechanismTests.test_agent_routes_ties_probability_and_forced_execution) ... ok\ntest_gate_boundaries_malformed_responses_and_cache_scope (test_foreagent_mechanisms.MechanismTests.test_gate_boundaries_malformed_responses_and_cache_scope) ... ok\ntest_pending_byes_stopping_and_display_ranks (test_foreagent_mechanisms.MechanismTests.test_pending_byes_stopping_and_display_ranks) ... ok\ntest_released_configuration_matches_audit (test_foreagent_mechanisms.MechanismTests.test_released_configuration_matches_audit) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.064s\n\nOK\n"
+  }
+}

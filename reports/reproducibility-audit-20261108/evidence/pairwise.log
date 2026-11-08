@@ -1,0 +1,2 @@
+{"combined": {"valid": 246, "correct": 136, "valid_output_rate": 1.0, "accuracy_valid_only": 0.5528455284552846, "accuracy_full_sample": 0.5528455284552846, "macro_accuracy_full_sample": 0.5679487179487179}, "author_comparison_on_valid": {"author_correct": 130, "both_correct": 106, "ours_only": 30, "author_only": 24, "both_wrong": 86}, "known_cost_cny": 10.2097816, "unknown_cost_calls": 20}
+{"reparsed_adopted_responses": 246, "historical_api_calls": 266, "new_api_calls": 0, "correct": 136, "denominator": 246, "expected_summary": "exact match"}

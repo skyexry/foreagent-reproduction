@@ -1,0 +1,27 @@
+Completed aptos2019-blindness-detection hit 0.2882 random 0.1
+Completed denoising-dirty-documents hit 0.335 random 0.1
+Completed detecting-insults-in-social-commentary hit 0.1496 random 0.1
+Completed dog-breed-identification hit 0.7733 random 0.3333
+Completed google-quest-challenge hit 0.3689 random 0.1
+Completed jigsaw-toxic-comment-classification-challenge hit 0.0 random 0.2
+Completed leaf-classification hit 0.0896 random 0.1
+Completed learning-agency-lab-automated-essay-scoring-2 hit 0.3583 random 0.1
+Completed lmsys-chatbot-arena hit 0.1806 random 0.1
+Completed mlsp-2013-birds hit 0.0806 random 0.1
+Completed new-york-city-taxi-fare-prediction hit 0.2733 random 0.1
+Completed nomad2018-predict-transparent-conductors hit 0.84 random 0.3333
+Completed petfinder-pawpularity-score hit 0.4417 random 0.125
+Completed plant-pathology-2020-fgvc7 hit 0.0 random 0.1667
+Completed predict-volcanic-eruptions-ingv-oe hit 0.1406 random 0.1
+Completed random-acts-of-pizza hit 0.0658 random 0.1
+Completed spooky-author-identification hit 0.175 random 0.1
+Completed stanford-covid-vaccine hit 0.055 random 0.1
+Completed statoil-iceberg-classifier-challenge hit 0.1025 random 0.1
+Completed tabular-playground-series-dec-2021 hit 0.0133 random 0.1
+Completed tensorflow-speech-recognition-challenge hit 0.0667 random 0.1
+Completed tgs-salt-identification-challenge hit 0.1514 random 0.1
+Completed the-icml-2013-whale-challenge-right-whale-redux hit 0.2136 random 0.1
+Completed tweet-sentiment-extraction hit 0.0188 random 0.1
+Completed us-patent-phrase-to-phrase-matching hit 0.1828 random 0.1
+Completed ventilator-pressure-prediction hit 0.1476 random 0.1
+MACRO {"top_group_size": 1.488076923076923, "contains_best": 0.29307692307692307, "uniform_tie_best_hit": 0.21199984737484737, "random_best_hit": 0.12532051282051282, "random_same_size_contains_best": 0.1848429487179487, "selected_percentile": 0.6057660765160765, "random_percentile": 0.5, "normalized_regret": 0.2775339758406862, "random_normalized_regret": 0.3673656658608246, "expected_empty_execution": 0.0, "expected_execution_count": 1.0295827618658462, "expected_execute_best": 0.223995317248, "probability_phase_expected_empty_execution": 0.7319673772504616, "actual_empty_execution": 0.0, "probability_phase_empty_execution": 0.7352564102564102, "forced_fallback": 0.7352564102564102, "actual_execution_count": 1.0292307692307692, "actual_execute_best": 0.22435897435897437, "comparisons": 78.81371794871795, "unique_feedback_queries": 13.137564102564102, "cache_hits": 65.67615384615385, "cache_direction_mismatches": 0, "missing_confidence_comparisons": 14.056923076923077, "low_confidence_comparisons": 68.10320512820513, "rounds": 16.779102564102562, "safety_exit": 0.826025641025641, "tie": 0.31653846153846155}

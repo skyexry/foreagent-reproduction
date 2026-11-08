@@ -1,0 +1,2768 @@
+{
+  "stage": "Structural audit only; no R8 method outcomes computed",
+  "v1_gate": "failed: exact full pair coverage required by preregistered protocol",
+  "by_feedback_run": {
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "files": 26,
+      "pairs": 18430,
+      "missing_pairs": 8,
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 14927
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "files": 26,
+      "pairs": 18438,
+      "missing_pairs": 0,
+      "invalid_winner": 1,
+      "confidence_fallback": 1,
+      "valid_at_07": 14839
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "files": 26,
+      "pairs": 18438,
+      "missing_pairs": 0,
+      "invalid_winner": 3,
+      "confidence_fallback": 3,
+      "valid_at_07": 14867
+    }
+  },
+  "file_count": 78,
+  "incomplete_files": 6,
+  "files": [
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "aptos2019-blindness-detection",
+      "expected_pairs": 1225,
+      "actual_pairs": 1225,
+      "sha256": "7d50973d7cac5617795a2097bdb570570469e42f8f96cd2d911374972d1b69e7",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 787,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "denoising-dirty-documents",
+      "expected_pairs": 974,
+      "actual_pairs": 974,
+      "sha256": "c0158d52ea7fe1c85477b4b16d0822923416c28a1e51998433301b9af5d0ea3c",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 834,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "detecting-insults-in-social-commentary",
+      "expected_pairs": 350,
+      "actual_pairs": 350,
+      "sha256": "0754442561db673edd031b123c77d6e2ace81fd22755be2aa1e8b52c23c6487e",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 202,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "dog-breed-identification",
+      "expected_pairs": 3,
+      "actual_pairs": 3,
+      "sha256": "7af7d74720a26ea7c1bc4e7256826aa98cfec236fa438fab08e507dd6f90b5a7",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 3,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "google-quest-challenge",
+      "expected_pairs": 1224,
+      "actual_pairs": 1224,
+      "sha256": "9f594fd52a414c154f1da9115f58f00d10fb919b3c9841ddf4aae77f7ef6f53c",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1034,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "expected_pairs": 10,
+      "actual_pairs": 10,
+      "sha256": "754501c9c82428418b93a89664efbec64897accfefc047b9d2100494d283ee78",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 8,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "leaf-classification",
+      "expected_pairs": 136,
+      "actual_pairs": 136,
+      "sha256": "b2cf5cc26f5323dc296c2b024f7105b1541d320f46352153e66ec2c11ca7cd04",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 120,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "expected_pairs": 190,
+      "actual_pairs": 189,
+      "sha256": "de945c5c628b31232e587b22ad153f7d212d2f2e27465c7b87a8ce54f98976f1",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 136,
+      "missing_pairs": [
+        [
+          "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+          "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+        ]
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "lmsys-chatbot-arena",
+      "expected_pairs": 1220,
+      "actual_pairs": 1218,
+      "sha256": "7ce12e552d471bdc951ac46aacbb12e69e28f44b7376db4c8d93df9d9345baa5",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1026,
+      "missing_pairs": [
+        [
+          "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+          "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+        ],
+        [
+          "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+          "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+        ]
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "mlsp-2013-birds",
+      "expected_pairs": 1221,
+      "actual_pairs": 1221,
+      "sha256": "c7b6d43ab55f2bf8f533bb7d2029ff200e58e771e06826e335ee2246e6150115",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1036,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "new-york-city-taxi-fare-prediction",
+      "expected_pairs": 429,
+      "actual_pairs": 429,
+      "sha256": "50f3b697a36359c28a916dfe3aae33df6bcd435b478448652de235aa2af0c413",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 358,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "nomad2018-predict-transparent-conductors",
+      "expected_pairs": 3,
+      "actual_pairs": 3,
+      "sha256": "2623462f026121bdff8296f837453668cfea4333ea6f2e35b40e016d7eed227d",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 2,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "petfinder-pawpularity-score",
+      "expected_pairs": 239,
+      "actual_pairs": 238,
+      "sha256": "0c778ea56611a8324e5bfe9761430c59e7901961322b660f4d67b14975ea7ee0",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 149,
+      "missing_pairs": [
+        [
+          "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+          "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+        ]
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "plant-pathology-2020-fgvc7",
+      "expected_pairs": 15,
+      "actual_pairs": 15,
+      "sha256": "04744e5b098e911367d2749b4f81ae1a6a0366f33c0612ce632b53bd34de502b",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 11,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "expected_pairs": 1213,
+      "actual_pairs": 1213,
+      "sha256": "8cdb058d2242942989d0eb050ba78530c9be65e0bc9e8995fc1ffa6115a10a84",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 989,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "random-acts-of-pizza",
+      "expected_pairs": 1225,
+      "actual_pairs": 1224,
+      "sha256": "3a1a72ada7e6e66b171bcabeb4243190a3648a0e1cf3e8c0b1a298b9eb460ea0",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 864,
+      "missing_pairs": [
+        [
+          "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_89e43a09d4f74e3cb9bd29069561be20.py",
+          "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_a59141955aa7498682a6bdf856df1b6a.py"
+        ]
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "spooky-author-identification",
+      "expected_pairs": 1220,
+      "actual_pairs": 1220,
+      "sha256": "9184a7079a4d4a13d104ea1e383d4cbafc69364e31b724099dcf6d45fded848e",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1139,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "stanford-covid-vaccine",
+      "expected_pairs": 1222,
+      "actual_pairs": 1221,
+      "sha256": "0efa5a831729e4512adc75619e24ca45f9dc485ce6e911cf8aaa40fd223ad73a",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1110,
+      "missing_pairs": [
+        [
+          "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+          "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+        ]
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "statoil-iceberg-classifier-challenge",
+      "expected_pairs": 1223,
+      "actual_pairs": 1223,
+      "sha256": "c5a5453c3ab3caf2bdd52fea5a03ccf4f01a829f179e308a28e712e8227fdb15",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1016,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tabular-playground-series-dec-2021",
+      "expected_pairs": 275,
+      "actual_pairs": 275,
+      "sha256": "a92e4a3e5d188bd746ce97ebc9a388071102267ed693ba108150a7fe0452c7b1",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 237,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tensorflow-speech-recognition-challenge",
+      "expected_pairs": 1011,
+      "actual_pairs": 1009,
+      "sha256": "62101011597d58f2c8646c3cdd44a3078509191d56abce57be230349e26e2d39",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 725,
+      "missing_pairs": [
+        [
+          "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_9961989c-9820-4e84-9c2a-18767382f5ba_run_ce3bec51a32f4a45af95e08c9a814cd4.py",
+          "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_0ed9d52e154b4d8bab4af420bd556cda.py"
+        ],
+        [
+          "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+          "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+        ]
+      ]
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tgs-salt-identification-challenge",
+      "expected_pairs": 880,
+      "actual_pairs": 880,
+      "sha256": "2b67c819836761582a2ddf52578d027a3acb752b392272edcfa82455f68700d8",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 774,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "expected_pairs": 275,
+      "actual_pairs": 275,
+      "sha256": "699fa96e670a370f822e18d5e9f903ff81db9eac7ea11dfc666fd28322961b98",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 139,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "tweet-sentiment-extraction",
+      "expected_pairs": 210,
+      "actual_pairs": 210,
+      "sha256": "fb1fa28cfef90507229fc125218ec83edb754cd43057d50f0e973f508f708516",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 99,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "expected_pairs": 1223,
+      "actual_pairs": 1223,
+      "sha256": "431a7f8d10bfdfe3d49788c8d24357ed5b3895725004261f87649560de116268",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1093,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251210_154406",
+      "task": "ventilator-pressure-prediction",
+      "expected_pairs": 1222,
+      "actual_pairs": 1222,
+      "sha256": "b80011c93f50868618fb866a3a1b61bf0e3859a00e0f1209c5d18a0c598cff42",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1036,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "aptos2019-blindness-detection",
+      "expected_pairs": 1225,
+      "actual_pairs": 1225,
+      "sha256": "fad1665d9e7b5c636f4d7c794abb632f527c146b8a142b042ef9cc33e8fd900d",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 753,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "denoising-dirty-documents",
+      "expected_pairs": 974,
+      "actual_pairs": 974,
+      "sha256": "2efccc4c0087cefb00aea79df8abb2a447bf0782a1e3cc68777aa491647d13c0",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 833,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "detecting-insults-in-social-commentary",
+      "expected_pairs": 350,
+      "actual_pairs": 350,
+      "sha256": "70b8466ce215959d801ca989b6ee1d8ec6fd772944b69573d56391b51f8fddb3",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 175,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "dog-breed-identification",
+      "expected_pairs": 3,
+      "actual_pairs": 3,
+      "sha256": "a8ff5c024719a553cc11301a88c19753555a7f73234b21205b4518b62011d643",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 3,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "google-quest-challenge",
+      "expected_pairs": 1224,
+      "actual_pairs": 1224,
+      "sha256": "76acd9ec6746b65a99859e15cb8ebe511a3cd85b71f449d5d6c55a8d9cf1bf55",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1044,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "expected_pairs": 10,
+      "actual_pairs": 10,
+      "sha256": "f124442b5c80935713689f513c945847c2ecebb65bcda09f5b066ccd2e079aef",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 7,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "leaf-classification",
+      "expected_pairs": 136,
+      "actual_pairs": 136,
+      "sha256": "58d6d340db42e98cf54e982725d0be3caa60bbd87a5213be4a8798a9cdc0bd45",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 118,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "expected_pairs": 190,
+      "actual_pairs": 190,
+      "sha256": "83ccede8c31ffb680251d23f59c77d2a50a1657ba444246d1c6d86686c9803fb",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 139,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "lmsys-chatbot-arena",
+      "expected_pairs": 1220,
+      "actual_pairs": 1220,
+      "sha256": "be1d88895c15e07344281a9eebdf05bbb0ff345fac8da65a3750afbbf21457dc",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1022,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "mlsp-2013-birds",
+      "expected_pairs": 1221,
+      "actual_pairs": 1221,
+      "sha256": "8083d586a1f02a0be902ec23d6d9e96b9aa8453e1ac14da9b7bcf490a48bce4a",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1069,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "new-york-city-taxi-fare-prediction",
+      "expected_pairs": 429,
+      "actual_pairs": 429,
+      "sha256": "efe74f4d737e51b1f32560fc14ee11cd112e2efb3baf4f457f0d9f9daab8c0ca",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 345,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "nomad2018-predict-transparent-conductors",
+      "expected_pairs": 3,
+      "actual_pairs": 3,
+      "sha256": "6b2af7fd6f2814c79a59ee8da3135dba700e29745607c2f6ca2c76d20b941626",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 2,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "petfinder-pawpularity-score",
+      "expected_pairs": 239,
+      "actual_pairs": 239,
+      "sha256": "8ab7baa3203be025fb5c26a73d7c1a5ba71dab95cb216f668dc0c023880d5f1e",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 136,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "plant-pathology-2020-fgvc7",
+      "expected_pairs": 15,
+      "actual_pairs": 15,
+      "sha256": "f5450795de8f8aafde96df0c9d2ab7fad4e6b4f7f0987b963c11dcc035e0e0aa",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 9,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "expected_pairs": 1213,
+      "actual_pairs": 1213,
+      "sha256": "5230d9d4401b25c7a82933d34816a28713132d0c194b9832b34f475ee72dca8a",
+      "invalid_winner": 1,
+      "confidence_fallback": 1,
+      "valid_at_07": 976,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "random-acts-of-pizza",
+      "expected_pairs": 1225,
+      "actual_pairs": 1225,
+      "sha256": "c4cc9adf49cf985a766d84630706625140016c1b6003aa5362ea38746168717f",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 856,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "spooky-author-identification",
+      "expected_pairs": 1220,
+      "actual_pairs": 1220,
+      "sha256": "c65ddcdd22d7513bf467b349a0688d95b5be479edace845ae7f46a6abd599e93",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1156,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "stanford-covid-vaccine",
+      "expected_pairs": 1222,
+      "actual_pairs": 1222,
+      "sha256": "f95d49c47b780a6ded36f7fb4a640073b26835850d7728443505bc65ab7c75ca",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1096,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "statoil-iceberg-classifier-challenge",
+      "expected_pairs": 1223,
+      "actual_pairs": 1223,
+      "sha256": "246412cc4843be30dfbc10e896d6b9afead32e724cc837bd832c6c6c27840f56",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1002,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tabular-playground-series-dec-2021",
+      "expected_pairs": 275,
+      "actual_pairs": 275,
+      "sha256": "34d0b2d38b2ac3e6bb311f1507b209ea8dc69c14caa3a8f71de1061699b932a4",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 228,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tensorflow-speech-recognition-challenge",
+      "expected_pairs": 1011,
+      "actual_pairs": 1011,
+      "sha256": "e04d0c5db7549c6e83f9b45db5c138d192fba6a83916fee9ad986c3e0e32daf4",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 735,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tgs-salt-identification-challenge",
+      "expected_pairs": 880,
+      "actual_pairs": 880,
+      "sha256": "49c23d57d61882e4b56ac4d2cb753084b4d6f200e163aa756279b465976f7ba5",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 782,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "expected_pairs": 275,
+      "actual_pairs": 275,
+      "sha256": "69522718766f8ab0e7513cc52e7233cded23d3be49be08342990e465768e78ab",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 130,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "tweet-sentiment-extraction",
+      "expected_pairs": 210,
+      "actual_pairs": 210,
+      "sha256": "eebf4af8c519019afdb38246f101754ffcacc96f4a4c1d80207e8643da37cc32",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 100,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "expected_pairs": 1223,
+      "actual_pairs": 1223,
+      "sha256": "65802c105dfbc98108d0c170c5d31433cd815870919acd687abb818768680122",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1102,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_161746",
+      "task": "ventilator-pressure-prediction",
+      "expected_pairs": 1222,
+      "actual_pairs": 1222,
+      "sha256": "5a147c26e37656455b38aedd979653cad1082445006d912600ad2106bd57b133",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1021,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "aptos2019-blindness-detection",
+      "expected_pairs": 1225,
+      "actual_pairs": 1225,
+      "sha256": "1b1ac6fb8eb59aaaf044ca9019ae68808753db7b9cd2362f44a40b73e7ef07cc",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 748,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "denoising-dirty-documents",
+      "expected_pairs": 974,
+      "actual_pairs": 974,
+      "sha256": "47d976112a8178bf240a6c15ba04577ab6e838268541c1bc8e4f188719661300",
+      "invalid_winner": 1,
+      "confidence_fallback": 1,
+      "valid_at_07": 831,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "detecting-insults-in-social-commentary",
+      "expected_pairs": 350,
+      "actual_pairs": 350,
+      "sha256": "b3d9848fd8edc3162f8983465e42b513a717b891ec5dcb69441beff628123645",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 177,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "dog-breed-identification",
+      "expected_pairs": 3,
+      "actual_pairs": 3,
+      "sha256": "4462e063b63d13dc44ff27cf293f99550f17fad518fdc93f90e59a96ef9b2c74",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 3,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "google-quest-challenge",
+      "expected_pairs": 1224,
+      "actual_pairs": 1224,
+      "sha256": "8b39993a878b5e8eb52e336978a95efdfee90410d5e0e2de13e86caf6ba9ea78",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1063,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "expected_pairs": 10,
+      "actual_pairs": 10,
+      "sha256": "b090611163d070fd32565565d905f20d93b5916f4f4b2fe45330d2a6c8668078",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 8,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "leaf-classification",
+      "expected_pairs": 136,
+      "actual_pairs": 136,
+      "sha256": "ec33e8b308f246743d98cc5c37a0ff4f97c736ddb3e2176a55c14a85fc0f3f5e",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 116,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "expected_pairs": 190,
+      "actual_pairs": 190,
+      "sha256": "f4f53633ba574d8b229e0a9c005b7b246df384504c48c25bdc83139c7422ff84",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 139,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "lmsys-chatbot-arena",
+      "expected_pairs": 1220,
+      "actual_pairs": 1220,
+      "sha256": "647f61e491ede42676d79ef3232c558d37057a23c72a47a81500ce492f7b08fd",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1042,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "mlsp-2013-birds",
+      "expected_pairs": 1221,
+      "actual_pairs": 1221,
+      "sha256": "3406c11ccc62bf459a4754e68d72fa522612614647088b2027e1208cb3be2865",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1069,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "new-york-city-taxi-fare-prediction",
+      "expected_pairs": 429,
+      "actual_pairs": 429,
+      "sha256": "4510b191200b0afbfd4757e7ec8b244462d37867f25b3f4ffe9d9c535da384a5",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 367,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "nomad2018-predict-transparent-conductors",
+      "expected_pairs": 3,
+      "actual_pairs": 3,
+      "sha256": "1acdffbc616f766c4f64526a43bda1d2cf2b050e8ee8ac45f8782e413d8048f8",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 2,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "petfinder-pawpularity-score",
+      "expected_pairs": 239,
+      "actual_pairs": 239,
+      "sha256": "ed8d57406b23972cf6ddb5fc93894004fff0a2cfc5729e16a39a044e42f7ba6b",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 127,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "plant-pathology-2020-fgvc7",
+      "expected_pairs": 15,
+      "actual_pairs": 15,
+      "sha256": "9d543cf6f03fb9d7bfcee38e11d5a1bc0cf5a4c721ee65422c009bf4451aaf1e",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 11,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "expected_pairs": 1213,
+      "actual_pairs": 1213,
+      "sha256": "e107b3f604c13690743ee6773bf796f19e4c27cf01f5cb291c64df54252ad925",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 997,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "random-acts-of-pizza",
+      "expected_pairs": 1225,
+      "actual_pairs": 1225,
+      "sha256": "f1509e9962f6160ad25e4ad5460950449bb52eb47c5744f63a61d0c07fc24c03",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 844,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "spooky-author-identification",
+      "expected_pairs": 1220,
+      "actual_pairs": 1220,
+      "sha256": "e4a9e9b74fb250e514bf741edbaaf474f0fdac208962328256b5ae25d61b5e87",
+      "invalid_winner": 1,
+      "confidence_fallback": 1,
+      "valid_at_07": 1148,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "stanford-covid-vaccine",
+      "expected_pairs": 1222,
+      "actual_pairs": 1222,
+      "sha256": "44e44c4a64a0ac33256ab1d6b8fbf70c4fd4075b087a89999201bb537e38cf3f",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1081,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "statoil-iceberg-classifier-challenge",
+      "expected_pairs": 1223,
+      "actual_pairs": 1223,
+      "sha256": "fdb3e733c81c781b745070a930d8939ffff932ad46d4f7222a1ca0d2c837b336",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1001,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tabular-playground-series-dec-2021",
+      "expected_pairs": 275,
+      "actual_pairs": 275,
+      "sha256": "f414b50db05e4adb1b87baec1dae73bb5f1984b16154c29489764a9b481d6a41",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 235,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tensorflow-speech-recognition-challenge",
+      "expected_pairs": 1011,
+      "actual_pairs": 1011,
+      "sha256": "91e4f4d1da07f96da34daadad3eff28f5cec1da6d13a6d497e7696be659727b6",
+      "invalid_winner": 1,
+      "confidence_fallback": 1,
+      "valid_at_07": 721,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tgs-salt-identification-challenge",
+      "expected_pairs": 880,
+      "actual_pairs": 880,
+      "sha256": "df32cb55135d1f9c45b7bf0d59c6a2deb10282c3275544d9386949819f0bb521",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 784,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "expected_pairs": 275,
+      "actual_pairs": 275,
+      "sha256": "4eff9eedcae82d71c9892904038ec4051cca4f223eed02985b8b649b783b1e1e",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 125,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "tweet-sentiment-extraction",
+      "expected_pairs": 210,
+      "actual_pairs": 210,
+      "sha256": "275a4990e3afc07ce74b0c9d3de3c615df11b7247e8924dcf4e299aea55072e6",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 96,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "expected_pairs": 1223,
+      "actual_pairs": 1223,
+      "sha256": "b2d7d5519b7444b6289e20129e65c8ba8f78ddb63f11df222a9bf9ecee41455f",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1081,
+      "missing_pairs": []
+    },
+    {
+      "feedback_run": "gpt-5_1_1p0_pboost_cot_20251211_171620",
+      "task": "ventilator-pressure-prediction",
+      "expected_pairs": 1222,
+      "actual_pairs": 1222,
+      "sha256": "0482a711188b8098b3529c54f1cf5d6dd074daaba475369b7d13594a91df762c",
+      "invalid_winner": 0,
+      "confidence_fallback": 0,
+      "valid_at_07": 1051,
+      "missing_pairs": []
+    }
+  ],
+  "affected_pools_by_run": {
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": 150,
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": 0,
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": 0
+  },
+  "joint_excluded_pools": 150,
+  "joint_retained_pools": 2450,
+  "joint_retained_scenarios_all_runs": 22050,
+  "joint_retained_pool_counts_by_task": {
+    "aptos2019-blindness-detection": 100,
+    "denoising-dirty-documents": 100,
+    "detecting-insults-in-social-commentary": 100,
+    "dog-breed-identification": 100,
+    "google-quest-challenge": 100,
+    "jigsaw-toxic-comment-classification-challenge": 100,
+    "leaf-classification": 100,
+    "learning-agency-lab-automated-essay-scoring-2": 74,
+    "lmsys-chatbot-arena": 89,
+    "mlsp-2013-birds": 100,
+    "new-york-city-taxi-fare-prediction": 100,
+    "nomad2018-predict-transparent-conductors": 100,
+    "petfinder-pawpularity-score": 0,
+    "plant-pathology-2020-fgvc7": 100,
+    "predict-volcanic-eruptions-ingv-oe": 100,
+    "random-acts-of-pizza": 98,
+    "spooky-author-identification": 100,
+    "stanford-covid-vaccine": 95,
+    "statoil-iceberg-classifier-challenge": 100,
+    "tabular-playground-series-dec-2021": 100,
+    "tensorflow-speech-recognition-challenge": 94,
+    "tgs-salt-identification-challenge": 100,
+    "the-icml-2013-whale-challenge-right-whale-redux": 100,
+    "tweet-sentiment-extraction": 100,
+    "us-patent-phrase-to-phrase-matching": 100,
+    "ventilator-pressure-prediction": 100
+  },
+  "excluded_pools": [
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 0,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 1,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 4,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 5,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 16,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 17,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 18,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 22,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 25,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 40,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 43,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 44,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 45,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 47,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 49,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 55,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 69,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 70,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 72,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 75,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 76,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 82,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 83,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 84,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 90,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "pool_id": 93,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+            "solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_7dbf0cdbfba54016a58eb375088942f1.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 4,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+            "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 38,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 46,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+            "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 50,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 54,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+            "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 60,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 68,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 70,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+            "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 77,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+            "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 92,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_416b3e4946ab48e4bf87af4a07d3ca9b.py",
+            "solution_Automind_v3_lmsys-chatbot-arena_4bc80f4f-a6a1-402f-95b5-a61daea9ad39_run_c6c1e164719f43428cb26d67a5af69d2.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "pool_id": 97,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_239b11e178d444398e7aafd2f1449759.py",
+            "solution_Automind_o3_mini_lmsys-chatbot-arena_0c1a05a5-e48d-4e3f-9c20-49564b0e9756_run_ef6a16e4458a4d1fa574cdb53edba1d7.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 0,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 1,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 2,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 3,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 4,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 5,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 6,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 7,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 8,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 9,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 10,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 11,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 12,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 13,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 14,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 15,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 16,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 17,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 18,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 19,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 20,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 21,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 22,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 23,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 24,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 25,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 26,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 27,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 28,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 29,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 30,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 31,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 32,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 33,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 34,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 35,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 36,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 37,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 38,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 39,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 40,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 41,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 42,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 43,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 44,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 45,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 46,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 47,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 48,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 49,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 50,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 51,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 52,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 53,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 54,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 55,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 56,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 57,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 58,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 59,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 60,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 61,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 62,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 63,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 64,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 65,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 66,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 67,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 68,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 69,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 70,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 71,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 72,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 73,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 74,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 75,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 76,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 77,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 78,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 79,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 80,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 81,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 82,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 83,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 84,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 85,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 86,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 87,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 88,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 89,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 90,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 91,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 92,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 93,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 94,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 95,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 96,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 97,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 98,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "pool_id": 99,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+            "solution_Aide_v3_petfinder-pawpularity-score_48a7da5c-8c0b-4555-b22d-ea5817daf0d4_run_2d57819084f14952a00839c2ef5e7255.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "pool_id": 6,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_89e43a09d4f74e3cb9bd29069561be20.py",
+            "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_a59141955aa7498682a6bdf856df1b6a.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "pool_id": 32,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_89e43a09d4f74e3cb9bd29069561be20.py",
+            "solution_Automind_v3_random-acts-of-pizza_dd53a9f2-4661-4e84-92e2-a206d3f6f0d5_run_a59141955aa7498682a6bdf856df1b6a.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "pool_id": 28,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+            "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "pool_id": 36,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+            "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "pool_id": 51,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+            "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "pool_id": 55,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+            "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "pool_id": 98,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_8b334126b5dd472083f4e486406fdd64.py",
+            "solution_Automind_wo_knowledge_stanford-covid-vaccine_773b8069-2a1c-41d2-82d4-6fb715e423a4_run_274de3632ce84d779e608b6b0defcc58.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "pool_id": 2,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+            "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "pool_id": 21,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+            "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "pool_id": 31,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+            "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "pool_id": 41,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_9961989c-9820-4e84-9c2a-18767382f5ba_run_ce3bec51a32f4a45af95e08c9a814cd4.py",
+            "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_0ed9d52e154b4d8bab4af420bd556cda.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "pool_id": 60,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_9961989c-9820-4e84-9c2a-18767382f5ba_run_ce3bec51a32f4a45af95e08c9a814cd4.py",
+            "solution_Automind_v3_tensorflow-speech-recognition-challenge_993ea626-3c0b-4d0a-aeda-d2cd57d78766_run_0ed9d52e154b4d8bab4af420bd556cda.py"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "pool_id": 77,
+      "missing_pairs_by_feedback": {
+        "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+          [
+            "solution_Aide_o3mini_tensorflow-speech-recognition-challenge_c456edcd-51dd-4b02-8e34-ec3bc1fd9355_run_257a175af81146b4a5ef58a112ac82a1.py",
+            "solution_Automind_wo_knowledge_tensorflow-speech-recognition-challenge_74d305b0-d96a-4ba4-b26b-7ab57008cdc5_run_fd571bddc85a4627a47d19faebe1413f.py"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-11-07T13:35:37.062079+00:00",
+  "stage": "source recovery after failed structure check, before any R8 method result",
+  "primary_registration_commit": "f7c94406c83915ee21341bff81fe64ac272d445f",
+  "scope_methods_metrics_and_budget_changed": false,
+  "files": {
+    "recovered_feedback.json": "6d6b27e3efddae25aefe45e9c203e451eb2d59a1505d3aff0b03373cbab7b5e1",
+    "recovery_sources.json": "e65d3c6a5c6277a92573b65bf5e9aadc97448a47968764dda5052c2d1becb9b3",
+    "recovery_proofs.json": "c827989a8ec7c77f5b897051ca1c1ae33cac610dce54a94152eb9b168bf7464c",
+    "initial_structure_failure.json": "aa65ee94a009c75800f550df1a1738beeed20d984488e59040832b44bcf210ea",
+    "data_source_addendum.md": "4815d18c18601ddee319ccf2229b9aabc7331924d192493cb9d1096aeb039399"
+  }
+}

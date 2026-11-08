@@ -1,0 +1,8 @@
+{
+  "reason": "Bind the --prepared argument to the exact locked input hashes, in addition to checking canonical project inputs.",
+  "first_run_valid_for_actual_inputs": true,
+  "policy_or_sampling_changes": false,
+  "comparison_results_already_seen": true,
+  "action": "Preserve first run and its source files, repeat identical jobs/methods with the input-contract check, require decision and metric equality.",
+  "hypothesis_retuning": false
+}

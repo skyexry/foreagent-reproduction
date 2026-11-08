@@ -1,0 +1,161 @@
+{
+  "review_id": "forecritic-reading-20261108-v1",
+  "date": "2026-11-08",
+  "source": {
+    "url": "https://arxiv.org/html/2610.38439v1",
+    "arxiv_version": "2610.38439v1",
+    "html_sha256": "9e7b4e09fa22460d38310098ccae108a298ecfac4172f6c69d72689c1652dc66",
+    "bytes": 528555,
+    "authors": [
+      "Yuxiao Lee",
+      "Zherui Yang",
+      "Fan Liu",
+      "Hao Liu"
+    ],
+    "status": "arXiv preprint as verified on source page"
+  },
+  "read_scope": [
+    "main text sections 1-8",
+    "Appendix A proofs",
+    "Appendix B idealized screening",
+    "Appendix C training and partitions",
+    "Appendix D additional results",
+    "Appendix E agent integration",
+    "Figure 1-11 captions and HTML tables 1-2"
+  ],
+  "verification_scope": "Primary-text review. ForeCritic training/integration code and checkpoints were not executed or located. Figure-level per-task values were not transcribed from image pixels.",
+  "source_text_checks": {
+    "training_pairs": true,
+    "final_pairs": true,
+    "same_tasks": true,
+    "shared_programs": true,
+    "heldout_both_programs": true,
+    "long_context": true,
+    "training_time": true,
+    "adapter_rank": true,
+    "epochs_updates": true,
+    "transfer_candidates": true,
+    "native_metrics_caveat": true
+  },
+  "author_reported": {
+    "split": [
+      5000,
+      250,
+      250,
+      500,
+      12438
+    ],
+    "forecritic_accuracy": 0.7944,
+    "initialization_accuracy": 0.5453,
+    "task_macro_accuracy": 0.7269,
+    "both_unseen_program_accuracy": 0.7146,
+    "both_unseen_program_pairs": 501,
+    "transfer_programs": 48,
+    "transfer_pairs": 91,
+    "transfer_two_orders_judgments": 182,
+    "transfer_forecritic_accuracy_rounded": 0.703,
+    "transfer_baseline_accuracy_rounded": 0.637,
+    "transfer_significant": false,
+    "order_disagreement_pairs": 22,
+    "transfer_pairs_total": 91,
+    "a800_gpu_hours": 33.4
+  },
+  "derived": {
+    "both_unseen_fraction": 0.040279787747226244,
+    "both_programs_seen_pairs": 6442,
+    "both_programs_seen_fraction": 0.5179289274803023,
+    "accuracy_drop_both_unseen_pp": 7.980000000000004,
+    "order_disagreement_fraction": 0.24175824175824176
+  },
+  "initialization_source": {
+    "url": "https://github.com/jaredpalmer/kev/releases/tag/kev-1.0",
+    "release_name": "Kev 1.0",
+    "kev_9b_asset_sha256": "acd13320b7d1b052ce989f19ca9d1d9ba5219b8beced0ee67337908aef1deb3f",
+    "released_9b_weights_short_revision": "b5d8c18e",
+    "note": "Initializer release metadata verified through GitHub connector; not a verified ForeCritic checkpoint."
+  },
+  "pending_materials": [
+    "ForeCritic training and integration repository/commit",
+    "trained adapter/head checkpoint and hashes",
+    "exact source-data revision",
+    "split record IDs and grouping implementation",
+    "random seeds and kernel/environment details",
+    "full per-task/run results for original/Jev agents",
+    "raw selector outputs for reanalysis"
+  ],
+  "new_training_runs": 0,
+  "new_model_calls": 0,
+  "artifact_lookup": {
+    "paper_links": "The paper HTML links Kev initializer release, not a ForeCritic-specific repository.",
+    "github_repository_query": "ForeCritic",
+    "github_repository_results": 0,
+    "scope": "Bounded search on 2026-11-08; additional artifacts may exist under another name."
+  },
+  "review_findings": [
+    {
+      "id": "FC1",
+      "attribution": "experimental design / generalization",
+      "status": "confirmed protocol; empirical effect pending",
+      "evidence": "paper sections 4.2 and C",
+      "impact": "main pair split is not a task-held-out evaluation",
+      "next_check": "obtain split IDs; grouped code/trajectory and task-held-out evaluation"
+    },
+    {
+      "id": "FC2",
+      "attribution": "experimental design / sampling",
+      "status": "confirmed sampling; bias magnitude pending",
+      "evidence": "paper appendix D.3",
+      "impact": "transfer pool is conditioned on selection and successful metric availability",
+      "next_check": "common independently sampled candidate pool; task/trajectory clustered uncertainty"
+    },
+    {
+      "id": "FC3",
+      "attribution": "experimental design / aggregation",
+      "status": "confirmed limitation; repeat stability pending",
+      "evidence": "paper Table 2 and appendix E",
+      "impact": "mixed native-metric mean is not a common quality scale; one run per task/configuration",
+      "next_check": "all per-task/run outcomes; direction-aware evaluation and repeated seeds"
+    },
+    {
+      "id": "FC4",
+      "attribution": "paper-code protocol ambiguity",
+      "status": "confirmed paper-vs-fixed-original difference; ForeCritic executable implementation pending",
+      "evidence": "paper Algorithm 2; fixed original world_model.py lines 544-621",
+      "impact": "changing selector and tournament protocol together can confound online attribution",
+      "next_check": "obtain integration code; same protocol with selector-only change, then separate protocol ablation"
+    },
+    {
+      "id": "FC5",
+      "attribution": "objective / interpretation",
+      "status": "confirmed objective distinction; improvement hypothesis pending",
+      "evidence": "paper sections 2 and 4.2",
+      "impact": "winner classification and final value/regret are different targets",
+      "next_check": "matched ordinary-vs-gap-weighted objective; final selection regret"
+    },
+    {
+      "id": "FC6",
+      "attribution": "robustness / hypothesis",
+      "status": "author-reported order instability; local model verification pending",
+      "evidence": "paper appendix D.3 and Figure 10",
+      "impact": "probabilities and decision costs under transfer require evaluation",
+      "next_check": "swap, reliability and coverage-loss-cost curves; fixed fraction vs threshold routing"
+    },
+    {
+      "id": "FC7",
+      "attribution": "confirmed authors corpus issue in our fixed copy; ForeCritic membership unknown",
+      "status": "Confirmed: 49 nonfinite pairs; initially 28 identical-code pairs, now 47 in complete fixed copy. Training impact pending.",
+      "evidence": "reward-model-data.json (initial 374 codes), corpus-source-check.json (author-source byte checks), corpus-completion.json (complete 895 codes)",
+      "impact": "invalid scores and execution-ambiguous labels affect training/evaluation contracts",
+      "next_check": "versioned filtering, clone-group split, execution environment and score binding; obtain ForeCritic data revision and splits"
+    },
+    {
+      "id": "FC8",
+      "attribution": "comparison fairness / reproducibility materials",
+      "status": "confirmed scope of paper controls; exact artifact availability pending",
+      "evidence": "paper section 7 and bounded artifact lookup",
+      "impact": "recipe review is distinct from independently verified training implementation; interface/target effects need matched supervision",
+      "next_check": "training repository/commit, weight hashes and split IDs; same-backbone equal-supervision controls"
+    }
+  ],
+  "corpus_completion_followup": "Full 895-code copy obtained after the initial review, under foreagent-corpus-completion-20261108-v1; raw labels preserved."
+}

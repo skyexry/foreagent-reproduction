@@ -1,0 +1,14 @@
+[
+  {
+    "job_id": "aptos2019-blindness-detection:0:0",
+    "wall_seconds": 0.03910862503107637
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:0:1",
+    "wall_seconds": 0.03998687502462417
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:1:0",
+    "wall_seconds": 0.039680832996964455
+  }
+]

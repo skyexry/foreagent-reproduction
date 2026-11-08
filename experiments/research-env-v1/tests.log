@@ -1,0 +1,22 @@
+test_confidence_threshold_and_invalid_index (test_research_env_v1.EnvironmentTests.test_confidence_threshold_and_invalid_index) ... ok
+test_failed_episode_stays_in_score_denominator (test_research_env_v1.EnvironmentTests.test_failed_episode_stays_in_score_denominator) ... ok
+test_independent_trace_verification_rejects_tampering (test_research_env_v1.EnvironmentTests.test_independent_trace_verification_rejects_tampering) ... ok
+test_malformed_actions_and_foreign_ids (test_research_env_v1.EnvironmentTests.test_malformed_actions_and_foreign_ids) ... ok
+test_observation_contains_only_contract (test_research_env_v1.EnvironmentTests.test_observation_contains_only_contract) ... ok
+test_policy_path_must_be_editable (test_research_env_v1.EnvironmentTests.test_policy_path_must_be_editable) ... ok
+test_repeat_attempt_limit_is_enforced (test_research_env_v1.EnvironmentTests.test_repeat_attempt_limit_is_enforced) ... ok
+test_reversed_query_is_cache_and_same_winner (test_research_env_v1.EnvironmentTests.test_reversed_query_is_cache_and_same_winner) ... ok
+test_source_hash_mismatch_fails (test_research_env_v1.EnvironmentTests.test_source_hash_mismatch_fails) ... ok
+test_stop_preserves_uniform_tie (test_research_env_v1.EnvironmentTests.test_stop_preserves_uniform_tie) ... ok
+test_unique_budget_is_enforced (test_research_env_v1.EnvironmentTests.test_unique_budget_is_enforced) ... ok
+test_actual_evaluation_file_and_credentials_hidden (test_research_env_v1.SandboxTests.test_actual_evaluation_file_and_credentials_hidden) ... ok
+test_canary_write_and_network_probes (test_research_env_v1.SandboxTests.test_canary_write_and_network_probes) ... ok
+test_import_time_read_is_blocked (test_research_env_v1.SandboxTests.test_import_time_read_is_blocked) ... ok
+test_non_object_and_excessive_output (test_research_env_v1.SandboxTests.test_non_object_and_excessive_output) ... ok
+test_process_state_resets_each_episode (test_research_env_v1.SandboxTests.test_process_state_resets_each_episode) ... ok
+test_response_timeout_and_blocked_input_timeout (test_research_env_v1.SandboxTests.test_response_timeout_and_blocked_input_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.502s
+
+OK

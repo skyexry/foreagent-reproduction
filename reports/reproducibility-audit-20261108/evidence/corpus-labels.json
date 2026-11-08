@@ -1,0 +1,313 @@
+{
+  "author_saved_run": {
+    "n": 18438,
+    "correct": 11312,
+    "accuracy": 0.6135155656795748
+  },
+  "nonfinite_score_pairs": 49,
+  "nonfinite_labelled_winners": 21,
+  "correct_on_invalid_pairs": 20,
+  "finite_pairs_only": {
+    "n": 18389,
+    "correct": 11292,
+    "accuracy": 0.6140627549078254
+  },
+  "change_pp": 0.05471892282505886,
+  "affected_groups": [
+    {
+      "task": "google-quest-challenge",
+      "group_index": 16,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 45,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 73,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 97,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 126,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 156,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 202,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 228,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 263,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 281,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 294,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 320,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 365,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 408,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 433,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 458,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 495,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 536,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 585,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 617,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 635,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 675,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 704,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 747,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 788,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 808,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 821,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 837,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 846,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 879,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 918,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 964,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1003,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1015,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1016,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1017,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1018,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1019,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1020,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1038,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1054,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1078,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1105,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1118,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1134,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1155,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1175,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1196,
+      "labelled_best_is_nonfinite": false,
+      "correct_on_saved_label": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "group_index": 1219,
+      "labelled_best_is_nonfinite": true,
+      "correct_on_saved_label": false
+    }
+  ],
+  "reproduction246_affected_indices": []
+}

@@ -1,0 +1,65 @@
+{
+  "experiment_id": "round-07",
+  "version": "r7-evidence-tiebreak-v1",
+  "base_commit": "4a35fd16508ee103e81220c84d905c295672d484",
+  "control": "simple_winrate-v1",
+  "treatment": "winrate_evidence_tiebreak-v1",
+  "rule": "Lexicographically maximize (exact R6 win rate, valid unique comparison count); retain all remaining ties.",
+  "confidence_threshold": 0.7,
+  "zero_degree_score": "1/2",
+  "primary_metric": "task_macro_normalized_regret",
+  "prediction": {
+    "regret_delta_less_than": 0.0,
+    "hit_delta_at_least": 0.0
+  },
+  "practical_advancement_rule": {
+    "regret_at_most_frozen_tournament": 0.2775339758406862,
+    "hit_at_least_r6": 0.22499694749694749,
+    "all_integrity_checks_pass": true
+  },
+  "secondary_metrics": [
+    "uniform_tie_best_hit",
+    "selected_percentile",
+    "top_group_size",
+    "contains_best"
+  ],
+  "bootstrap": {
+    "unit": "task",
+    "paired": true,
+    "replicates": 10000,
+    "seed": 2026110707,
+    "confidence_level": 0.95,
+    "quantile": "linear interpolation at (n-1)*p"
+  },
+  "budget": {
+    "jobs": 7800,
+    "methods_per_job": 2,
+    "selection_evaluations": 15600,
+    "tasks": 26,
+    "pools": 2600,
+    "repeats_per_pool": 3,
+    "shared_unique_feedback_total": 102473,
+    "valid_unique_feedback_total": 51593,
+    "distinct_feedback_across_experiment": 13592,
+    "new_feedback_queries": 0,
+    "actual_api_calls": 0,
+    "candidate_training_runs": 0,
+    "max_wall_seconds_per_attempt": 1800
+  },
+  "input_archive": {
+    "filename": "ForeAgent_R6_Same_Feedback_Winrate_v1.zip",
+    "sha256": "45df582cc9a7c659c208913c488fbf25f805d39bee0dc825535605d4ff16fe76",
+    "bytes": 1689530,
+    "prefix": "round06/run",
+    "availability": "R6 independent local attachment; see experiments/round-06/artifact_manifest.json"
+  },
+  "input_content_hashes": {
+    "runs.jsonl.gz": "02ecfe8c9e288b1027d7ad00b8f8ae5d2c34e07c61d13ebcadc08899f5d933bf",
+    "summary.json": "888ad801c27537dfb39a182f40ad4ed4473f7db6ca897461ef1daa410451a106",
+    "verification.json": "98f5e60dde3ce6efbd5ad870609a8361d74ef03ef3d87ff7282f41c9fbfcb67a"
+  },
+  "r6_jobs_sha256": "74b224fe8fd87752181b5c9b173a91ebe404974e5ddf010518f2c175c2795ff7",
+  "corpus_protocol_sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+  "command": "python reproduction/round07/run.py --r6-archive /path/to/ForeAgent_R6_Same_Feedback_Winrate_v1.zip --output runs/round07",
+  "scope": "Prospectively specified tie-break ablation on inspected R6 development corpus; same tournament-acquired feedback and scoring labels."
+}

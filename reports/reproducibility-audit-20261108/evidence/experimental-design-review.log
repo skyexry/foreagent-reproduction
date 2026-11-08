@@ -1,0 +1,1 @@
+{"status": "passed", "mean_gain_pp": 4.440000000000001, "cactus_share": 0.8063063063063062, "leave_cactus_out_pp": 1.075000000000001, "sd_reconstruction": {"aide": 0.297937625303399, "foreagent": 0.2948253720425025}, "corpus_tasks": 26, "corpus_candidates": 895, "corpus_pairs": 18438}

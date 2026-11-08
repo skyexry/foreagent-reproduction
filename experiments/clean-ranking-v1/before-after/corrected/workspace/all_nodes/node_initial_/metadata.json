@@ -1,0 +1,14 @@
+{
+  "node_id": "initial_trans",
+  "step": 0,
+  "stage": "draft",
+  "is_skipped": false,
+  "is_buggy": false,
+  "metric": "Metric\u2193(0.8691)",
+  "analysis": "New smoke predictions independently scored",
+  "parent_id": null,
+  "exec_time": 0,
+  "exc_type": null,
+  "wm_predicted_rank": null,
+  "wm_comparison_results": null
+}

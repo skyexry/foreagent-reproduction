@@ -1,0 +1,34 @@
+{
+  "id": "forecritic-reading-20261108-v1",
+  "date": "2026-11-08",
+  "status": "literature review, read-only data diagnostics and proposed future plan complete",
+  "new_training_runs": 0,
+  "new_model_calls": 0,
+  "new_gpu_rentals": 0,
+  "checks": {
+    "primary_paper_text_checks": 11,
+    "local_links_validated": 56,
+    "input_hashes_verified": 469,
+    "data_audit_rerun_byte_identical": true,
+    "previous_plan_backup_byte_identical": true,
+    "unchanged_prior_audit_entries": 42,
+    "expected_changed_prior_entries": [
+      "FUTURE_PLAN.md",
+      "README.md"
+    ],
+    "structured_findings_with_status": 8,
+    "same_code_pair_winner_counts": {
+      "1": 14,
+      "0": 14
+    }
+  },
+  "coverage": "Main paper and appendices A-E text; figure captions and HTML tables; initializer release metadata; local subset code, all pair metadata, contexts, historical and current journals. ForeCritic training and inference code/weights were not independently verified.",
+  "pending": [
+    "ForeCritic implementation/checkpoint/split/data revision materials",
+    "complete code availability and clone/trajectory checks",
+    "versioned preprocessing rules and train/dev/calibration/test IDs",
+    "model/tokenizer length and GPU preflight proposal",
+    "all training and online claims require new experiments"
+  ],
+  "original_baseline": "Frozen source and outputs preserved. The baseline journal and all other diagnostic inputs match their recorded hashes."
+}

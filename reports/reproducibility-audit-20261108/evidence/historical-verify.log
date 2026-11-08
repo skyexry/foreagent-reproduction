@@ -1,0 +1,14 @@
+{
+  "raw_source_files_hash_and_size_checked": 45,
+  "runs": 15,
+  "batches": 129,
+  "candidate_rank_round_pairs_independently_checked": 1290,
+  "final_execution_sets_independently_checked": 129,
+  "excluded_batches": 11,
+  "excluded_categories": {
+    "unfinished_log_batch": 6,
+    "generated_nodes_absent_from_final_journal": 5
+  },
+  "original_world_model_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+  "original_agent_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+}

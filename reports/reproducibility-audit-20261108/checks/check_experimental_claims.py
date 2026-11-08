@@ -1,0 +1,30 @@
+"""Lightweight calculations for the experimental-design review. No APIs or training.
+Usage: python check_experimental_claims.py PROJECT_ROOT OUTPUT_JSON
+Table13 and figure values are manually transcribed from the pinned 34-page ACL PDF.
+All table-derived values inherit the published rounding; pooled SD is a reconstruction,
+not proof of the unpublished aggregation implementation.
+"""
+import json,math,statistics,sys
+from pathlib import Path
+r=Path(sys.argv[1]).resolve();d=r/'reports/reproducibility-audit-20261108'
+tasks=[
+ {'task':'stanford-covid-vaccine','aide':1.,'foreagent':1.,'aide_sd':0.,'foreagent_sd':0.},
+ {'task':'statoil-iceberg-classifier-challenge','aide':.475,'foreagent':.531,'aide_sd':.161,'foreagent_sd':.134},
+ {'task':'ventilator-pressure-prediction','aide':.308,'foreagent':.295,'aide_sd':.041,'foreagent_sd':.056},
+ {'task':'aerial-cactus-identification','aide':.698,'foreagent':.877,'aide_sd':.157,'foreagent_sd':0.},
+ {'task':'histopathologic-cancer-detection','aide':.992,'foreagent':.992,'aide_sd':0.,'foreagent_sd':.001}]
+for t in tasks:t['delta_pp']=100*(t['foreagent']-t['aide'])
+deltas=[t['foreagent']-t['aide'] for t in tasks];total=sum(deltas)
+means={m:statistics.mean(t[m] for t in tasks) for m in ('aide','foreagent')}
+pooled={m:math.sqrt((3*sum((t[m]-means[m])**2 for t in tasks)+2*sum(t[m+'_sd']**2 for t in tasks))/14) for m in ('aide','foreagent')}
+assert round(100*statistics.mean(deltas),2)==4.44
+assert round(pooled['aide'],3)==.298 and round(pooled['foreagent'],3)==.295
+corpus=[]
+for p in sorted((r/'data/coverage/solutions_subset_50').glob('*/ground_truth/*n2.json')):
+ gs=json.loads(p.read_text());ids={Path(x).name for g in gs for x in g['paths']}
+ corpus.append({'task':p.parent.parent.name,'candidate_count':len(ids),'pair_count':len(gs)})
+assert len(corpus)==26 and sum(t['candidate_count'] for t in corpus)==895 and sum(t['pair_count'] for t in corpus)==18438
+cf=json.loads((d/'evidence/confidence.json').read_text())['author']['high']
+result={'review_id':'foreagent-experimental-design-review-20261108-v1','sources':{'paper_url':'https://aclanthology.org/2026.acl-long.182.pdf','paper_sha256':'5152ceb8d6a3ae9211152fba3adead53f91421f584c19cc613665dda13ac1e66','table13':'PDFp27','figure4':'PDFp8','figure7':'PDFp23','table3':'PDFp7','table14':'PDFp27','table15':'PDFp28','code_commit':'c4d52cf99bd870d830b456ac7c0684aec1aef375'},'table13':{'published_precision_task_values':tasks,'mean_from_rounded_task_values':means,'mean_difference_pp':100*statistics.mean(deltas),'relative_change_from_rounded_task_values':(means['foreagent']-means['aide'])/means['aide'],'cactus_share_of_net_difference':deltas[3]/total,'leave_cactus_out_difference_pp':100*statistics.mean(x for i,x in enumerate(deltas) if i!=3),'leave_one_task_out_difference_pp':{t['task']:100*statistics.mean(x for i,x in enumerate(deltas) if i!=j) for j,t in enumerate(tasks)},'wins_ties_losses_at_published_precision':[sum(x>0 for x in deltas),sum(x==0 for x in deltas),sum(x<0 for x in deltas)],'pooled_15_run_sd_reconstructed_from_rounded_means_and_sample_sds':pooled,'sd_status':'Numerically matches displayed aggregate SDs; exact aggregation and mean-effect uncertainty require raw results/analysis code.','sensitivity_scope':'Leave-one-out is a post-hoc sensitivity check; all five tasks remain in the primary result.'},'figure4b':{'foreagent_2h':.716,'foreagent_6h':.741,'foreagent_12h':.739,'aide_12h':.695,'later_foreagent_gain_over_2h_pp':100*(.741-.716),'budget_ratio_12h_to_2h':6,'interpretation':'Observed mean curve supports early attainment of a favorable level. ForeAgent2h is not its own displayed peak. A sixfold matched-target speedup needs target, timestamp, censoring, aggregation and run-level data.'},'node_count_aggregation':{'aide_means':[77.33,89.33,14.,35.67,3.67],'foreagent_means':[158.67,208.67,59.33,49.33,22.],'mean_of_task_ratios':statistics.mean(f/a for a,f in zip([77.33,89.33,14,35.67,3.67],[158.67,208.67,59.33,49.33,22])),'ratio_of_total_means':sum([158.67,208.67,59.33,49.33,22])/sum([77.33,89.33,14,35.67,3.67]),'interpretation':'Both are legitimate estimands with different weighting; generated-node counts need distinct executed/valid/unique quality outcomes.'},'ranking_chance_adjustment':{'pair_n2_accuracy':.613,'pair_n2_random':.5,'pair_excess_pp':11.3,'list_n5_top1_accuracy':.311,'list_n5_random':.2,'list_excess_pp':11.1,'scope':'Different prediction protocols and evaluation subsets; chance adjustment is a caution against interpreting raw accuracy decline as direct proof of deterioration.'},'static_confidence':{'threshold':.7,'pairs':cf['n'],'correct':cf['correct'],'accuracy':cf['accuracy'],'mean_confidence':cf['mean_confidence'],'mean_confidence_minus_accuracy_pp':100*(cf['mean_confidence']-cf['accuracy']),'scope':'One saved static author feedback run; dependent shared candidates; some labels nonfinite in separate audit. Online sibling calibration requires separate evidence.'},'corpus':{'tasks':len(corpus),'candidate_count':sum(t['candidate_count'] for t in corpus),'pairs':sum(t['pair_count'] for t in corpus),'per_task':corpus},'causal_controls_to_request':['Same generated sibling pool; random selection vs simple winrate/R7 vs corrected ForeAgent','Match new pair feedback budget and final selected count; share tie rule','Hold aggregator fixed when testing adaptive query acquisition','Same candidate, parent and standardized validation when testing semantic-safeguard mechanism','Run-level raw results and predeclared common-target timing/censoring','Independent new tasks after freezing method and tuning budget'],'new_model_calls':0,'new_training_runs':0}
+Path(sys.argv[2]).write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps({'status':'passed','mean_gain_pp':result['table13']['mean_difference_pp'],'cactus_share':result['table13']['cactus_share_of_net_difference'],'leave_cactus_out_pp':result['table13']['leave_cactus_out_difference_pp'],'sd_reconstruction':pooled,'corpus_tasks':len(corpus),'corpus_candidates':895,'corpus_pairs':18438},ensure_ascii=False))

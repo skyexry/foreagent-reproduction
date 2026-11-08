@@ -1,0 +1,17 @@
+{
+  "author_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "source_sha256": {
+    "agent.py": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de",
+    "world_model.py": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79"
+  },
+  "overlay_sha256": {
+    "agent.py": "1bf7bd1741c46ba313f62ac45e49a12122ce6658caff850561869e1e92274b9f",
+    "correctness.py": "6b3c260a28d0b022feaf6d1df712739d41e4048b733a16144c0e52bc0b2885e9",
+    "grade.py": "324309b2dcbcd43984fffa458475123db6a1cdb6ef3f83e8f91ddb3e75d079f6",
+    "ranking.py": "6996654fd6fb2f45ca5a390ea4387dc45fbd2b473d76583b66f12db4310af16a",
+    "world_model.py": "2f478164c39c380d992d573289abad32ecbcf8efa57627e2e5c71e7d5244abfb"
+  },
+  "original_tournament_body": "pairing/revival/stopping/order preserved; tie metadata aligned to original order key; optional new-policy dispatch",
+  "scope": "C0 correctness overlay; official full-agent runtime still requires deployment validation.",
+  "grader_source_sha256": "73b5d321bc7aeba25e5dfe7291fc966f9596eac7a8ab0ff44a581e69ddc55013"
+}

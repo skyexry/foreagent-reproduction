@@ -1,0 +1,560 @@
+[
+  {
+    "id": "F01",
+    "title": "批次内较早出现的最佳节点可能漏存",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "最终 checkpoint；k=2 消融；相对 AIDE 表现",
+    "observed_effect": "精确方法反例保留旧incumbent。15份作者轨迹中2批满足漏更新触发条件，其中1份最终保存身份与journal最优不同：Stanford ...01abb886的95a7c811内部0.1583、私有0.256153144；发布f35059cb内部0.1645、私有0.257679528。已下载原节点代码/元数据/CSV并核对，双评分一致。你的最终节点、代码与预测一致。",
+    "inferred_effect": "已确认这条历史轨迹的已执行最佳内部节点被漏存，私有误差增加0.001526384。该数值是保存端点的差异；修正incumbent后后续搜索的反事实路径仍待新实验。另一个Statoil触发在后续被新最佳覆盖。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        785
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/author-final-reference.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/author-missed-node/verification.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "漏存节点代码/身份/原预测与双评分检查已完成；随后扩展其他运行的已发布端点绑定，并检查同批多执行的提交来源。",
+    "recommended_action": "新修正版在每次有效执行后更新 incumbent，按节点归档复制对应预测；增加“较早最佳、随后较差/失败、跨 cutoff”反例。原版结果单独保留。"
+  },
+  {
+    "id": "F02",
+    "title": "无序缓存键与有方向索引混用",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "筛选正确性；离线和在线候选选择",
+    "observed_effect": "原生 A/B 查询返回 A 胜；B/A 命中缓存后变成 B 胜，模型后端仅调用一次。重跑固定 corpus：uniform-tie hit 20.4265%→21.2000%，执行集合含最佳 21.6026%→22.4359%。",
+    "inferred_effect": "差值为当前依赖样本上的描述性效果；新在线运行的结果方向待测。两个版本可能消耗不同 RNG 序列。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        314
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        323
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/replays.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "用相同任务/候选/反馈比较原版与规范方向版；分别记录方向冲突、查询数、rank、执行集合和 regret。",
+    "recommended_action": "以代码身份保存胜者并映射当前位置，缓存带上下文与配置指纹；发布独立 corrected ID。"
+  },
+  {
+    "id": "F03",
+    "title": "Stanford 评分器对 CSV 行顺序敏感",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "最终分数、奖牌与历史任务比较",
+    "observed_effect": "同一冻结预测打乱行序后，原评分 0.2663989312→0.6131057879；按 ID 连接评分保持 0.2663989312。当前提交和作者三份提交的双评分逐份一致。",
+    "inferred_effect": "冻结四份分数的影响已排除；其他历史提交的行序影响需逐份检查。此实现位于作者 vendored MLE-bench，缺陷的最初引入提交待溯源。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/mlebench/competitions/stanford-covid-vaccine/grade.py",
+        38
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/mlebench/competitions/stanford-covid-vaccine/grade.py",
+        53
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/online-verification.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "对保存预测做 shuffle、重复/缺失/未知 ID、NaN/Inf、列/keep-mask 反例；比较原评分和 ID 评分。",
+    "recommended_action": "新评估入口按唯一 ID 连接、验证有限值并绑定 keep；保留原评分并记录双方输出。当前独立核验已提供保护。"
+  },
+  {
+    "id": "F04",
+    "title": "同批多次执行共享 submission 残留",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "候选有效性、checkpoint 与代码/预测绑定",
+    "observed_effect": "Agent.step 在外层迭代开始清空目录；同一淘汰赛内每个候选前沿用目录。原生 _post_process_node 在前一候选 CSV 仍存在、当前候选没有写文件的反例中保持 is_buggy=False。",
+    "inferred_effect": "完整接受还取决于执行异常与反馈模型的判定。真实发生频率及归档预测误绑定待逐候选写入来源核对。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        531
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        722
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        769
+      ],
+      [
+        "phase1-reproduction/code/runtime/bridge.py",
+        97
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "A 成功写 CSV；B 正常退出却省略写入；用受控反馈走完整 parse→post-process→artifact 路径。再核对真实多执行批次写入时间/哈希。",
+    "recommended_action": "候选执行前创建独立输出目录并清空候选提交，成功后验证新产物再归档；共享工作缓存与预测目录分别管理。"
+  },
+  {
+    "id": "F05",
+    "title": "公开 corpus 含 49 对非有限分数标签",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "pairwise ground truth、校准和 corpus 质量",
+    "observed_effect": "18,438 对逐项连接核对发现 Google Quest 一份 NaN 候选参与 49 对，其中 21 对把 NaN 候选标为最佳。一份保存的作者判断为 11,312/18,438=61.3516%；去除这些对后为 11,292/18,389=61.4063%，+0.0547 pp。246 对子样本涉及 0 对；corpus26-v2 已排除此候选。",
+    "inferred_effect": "这份记录上的均值影响很小；其他两次论文判断及其他指标的影响待获得原始记录量化。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/prepare_bench_subset/group.py",
+        77
+      ],
+      [
+        "phase1-reproduction/code/author/prepare_bench_subset/group.py",
+        122
+      ],
+      [
+        "phase1-reproduction/code/author/prepare_bench_subset/util/grading.py",
+        40
+      ],
+      [
+        "data/coverage/solutions_subset_50/google-quest-challenge/ground_truth/groups_google-quest-challenge_n2.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/corpus-labels.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "给所有实际 score 加 finite 检查，重建标签清单与分母；分别重算每个保存判断版本。",
+    "recommended_action": "把数值有效性纳入 corpus 准入；NaN 单独列为执行/指标失败。检查 zero-score-as-bug 默认值对合法零分的影响。"
+  },
+  {
+    "id": "F06",
+    "title": "候选内部验证偏离官方目标且选择信号较弱",
+    "attribution": 3,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "Agent 最终选择；验证—测试一致性；方法收益归因",
+    "observed_effect": "最终代码把 68 个标签位置补零至 107，训练/验证对全部位置计算损失，补零位置占 36.45%；验证平均 batch RMSE，最终反馈采用 20% holdout 的 best-epoch 0.4378，另报 CV 均值 0.4618。13 份有效候选事后 Spearman=0.2363；内部所选外部 0.266399，同集合事后最优 0.256687，差 0.009712。 推断额外裁剪到[-2,2]，内部验证使用原始输出。",
+    "inferred_effect": "选择差距是已执行集合上的事后 oracle 诊断。损失遮罩、训练质量筛选、验证采样和模型改变的各自贡献待控制实验。",
+    "evidence": [
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final_solution.py",
+        145
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final_solution.py",
+        287
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final_solution.py",
+        366
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final_solution.py",
+        396
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final_solution.py",
+        443
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        839
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/candidate-scores.json",
+        1
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final_solution.py",
+        507
+      ]
+    ],
+    "smallest_impact_check": "固定网络、序列 split、seed、epoch 与优化器，比较 all-107 与真实 68-mask；以全验证集累积 SSE 后计算 MCRMSE；分别报告 SN_filter 子组。 验证与推断采用同一后处理。",
+    "recommended_action": "先建立 metric/split/mask/checkpoint 合约及机器可读输出；修正版中对齐候选内部目标。现有冻结训练方案继续标作原始输出。"
+  },
+  {
+    "id": "F07",
+    "title": "缓存复读直至轮数安全退出",
+    "attribution": 3,
+    "evidence_status": "confirmed",
+    "severity": "P2",
+    "affected_claims": "筛选效率、停止规则、置信度门控的实际作用",
+    "observed_effect": "恒低置信度 10 候选反例产生 21 轮、294 条记录、13 次新后端反馈。真实 7 个完整批次均到安全上限；1,841 条记录含 1,720 缓存读取（93.43%），121 个新请求；3 批全部比较都未通过门控。",
+    "inferred_effect": "这是有限轮数设计下的信息停滞，代码会按既定安全规则结束。缓存复读本身通常很便宜；可节约的 API、墙钟时间与最终性能分别实测。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        543
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        555
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        606
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/online-verification.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "记录每轮新增唯一反馈、状态变化与耗时；比较只停复读、优先新对和原版，固定反馈预算。",
+    "recommended_action": "先增加可观察性；将无新证据停止和新对优先分别立项，以信息与成本收益决定保留。"
+  },
+  {
+    "id": "F08",
+    "title": "Top-k 实际指显示名次组并带概率与强制回退",
+    "attribution": 4,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "方法叙述、k 消融、执行预算",
+    "observed_effect": "配置 Top-k=1 仍可能让多个 rank-0 候选各以 p=0.2 执行；全未触发时强制执行第一位 rank-0。真实批次执行数含 2、3；全部低置信度的批次也进入执行。唯一 rank-0 时，无论概率结果如何，最终都执行该节点。",
+    "inferred_effect": "按候选数理解 top-k 或把 0.2 理解为整个批次执行率，会改变成本与方法含义。当前复现跟随发布代码。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        629
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        653
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        697
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        744
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "对 singleton、并列组、全概率失败、全低 confidence 做执行集合与计数核对；原版和 exact-one 语义分别测。",
+    "recommended_action": "报告明确组名次和回退语义。精确 Top-k 属于独立算法变体，k=2 结论需在 F01/F04 修复后再评。",
+    "paper_sections": [
+      "ACL PDF p8 §6.2",
+      "ACL PDF p22 Appendix C.6"
+    ]
+  },
+  {
+    "id": "F09",
+    "title": "候选生成在发布代码中串行进行",
+    "attribution": 4,
+    "evidence_status": "confirmed",
+    "severity": "P2",
+    "affected_claims": "实现忠实度与加速主张",
+    "observed_effect": "_improve_batch 逐个请求，并把前面计划加入后续提示；在线日志按此流程执行。比较请求才使用线程池。",
+    "inferred_effect": "并行生成会同时改变延迟、可见计划和候选分布，属于方法变更；它对论文加速解读的影响需独立控制。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        368
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        402
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        423
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        420
+      ]
+    ],
+    "smallest_impact_check": "同一生成预算比较串行带计划记忆与并行统一提示；记录候选多样性、token、延迟和固定池质量。",
+    "recommended_action": "本复现标明采用串行发布实现；效率实验同时报告生成、比较、执行、反馈和传输耗时。",
+    "paper_sections": [
+      "ACL PDF p8 §6.2",
+      "ACL PDF p22 Appendix C.6"
+    ]
+  },
+  {
+    "id": "F10",
+    "title": "响应校验与全局缓存上下文不足",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P2",
+    "affected_claims": "门控正确性、异常服务稳健性、缓存复用",
+    "observed_effect": "原生测试接受 confidence=1.2、Infinity、True、越界 winner；缺 winner 时默认为 0。跨实例、跨任务/阈值复用缓存时，0.65 在第二个 0.7 gate 下仍沿用旧 valid=True。",
+    "inferred_effect": "实际单任务运行中这些异常的出现次数与同对竞争请求影响待核对；每任务独立进程降低跨任务污染机会。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        244
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        287
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        356
+      ],
+      [
+        "audit_foreagent_mechanisms.py",
+        88
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "严格类型、范围、有限值与必需字段反例；跨任务/模型/阈值缓存与并发反向同对测试；对原始回执统计异常频率。",
+    "recommended_action": "新修正版先验证 schema，缓存存原始有效判断并重新应用当前 gate；实例隔离、完整上下文键和同对锁分别验证。"
+  },
+  {
+    "id": "F11",
+    "title": "置信度有区分信号，概率校准仍有明显差距",
+    "attribution": 3,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "门控可靠性与跨分布迁移",
+    "observed_effect": "一份作者静态反馈中 c≥0.7 的 10,531 对准确率 65.38%，平均 c=73.62%；你的子样本高置信度 162 对准确率 62.96%，平均 c=74.54%。当前在线 3/7 批完全无法通过门控。",
+    "inferred_effect": "这些是相关静态样本上的描述性风险；当前在线 sibling 分布中的校准与错误拒绝代价需要新反馈或补全候选结果。",
+    "evidence": [
+      [
+        "reports/reproducibility-audit-20261108/evidence/confidence.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/world_model.py",
+        360
+      ]
+    ],
+    "smallest_impact_check": "按任务隔离校准/测试，报告 coverage-risk、Brier、ECE 与高置信度错误；去除 F05 对后作敏感性检查。",
+    "recommended_action": "把 c 当待验证分数；先测试静态 0.7 gate 和开发集拟合校准器，再进入独立任务评估。",
+    "paper_sections": [
+      "ACL PDF p6 Figure 3(e)",
+      "ACL PDF p7 §5.2"
+    ]
+  },
+  {
+    "id": "F12",
+    "title": "现有证据对应不同估计对象与独立单位",
+    "attribution": 3,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "跨任务性能、相对 AIDE 收益、重复性与统计置信度",
+    "observed_effect": "在线为 1 任务×1 次；历史 129/129 为给定反馈及日志概率结果的条件重演；7,800 次固定池回放复用 26 任务、2,600 池实例与重叠候选；246 对为真实调用子样本，always-index-0 为 131/246，模型 136/246。记录已披露这些边界。",
+    "inferred_effect": "单次可用性、离线选择质量、总体 pairwise 能力与端到端系统优越性需要各自证据。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/runtime/protocol-v2.json",
+        1
+      ],
+      [
+        "phase1-reproduction/experiments/supporting/historical-129-batches.json",
+        1
+      ],
+      [
+        "experiments/corpus26-v2/protocol.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/replays.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "以 task 和独立 online run 为统计单位；候选池内配对、跨任务汇总；为新任务及新 API 反馈另设前瞻协议。",
+    "recommended_action": "保持当前单任务验收结论；对泛化或优越性新增匹配重复实验、任务簇区间和明确 estimand。"
+  },
+  {
+    "id": "F13",
+    "title": "系统效果与筛选机制贡献需要不同公平控制",
+    "attribution": 3,
+    "evidence_status": "confirmed",
+    "severity": "P1",
+    "affected_claims": "ForeAgent 相对 AIDE 与新方法相对基线的因果解释",
+    "observed_effect": "两种发布配置共享 code/feedback/search/时间设置，零调用构造通过；ForeAgent 额外生成候选、使用报告和比较模型。你的在线模型服务、硬件与网络条件也有变化。",
+    "inferred_effect": "同墙钟比较可以回答系统效用；机制归因仍同时受到候选数量、提示信息、额外推理和调参机会影响。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/config.yaml",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/config.json",
+        1
+      ],
+      [
+        "phase1-reproduction/records/stanford-autodl-v2/actual-first-prompt-audit.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "先做固定 sibling 池中的随机单选/同预算聚合/原版/修正版；再在同硬件、同服务、同预算的新在线 cohort 比较。",
+    "recommended_action": "按研究问题分别匹配墙钟、token、唯一反馈和执行次数；明确额外信息及调参预算；保存成本—效用曲线。"
+  },
+  {
+    "id": "F14",
+    "title": "部分评估函数采用容易误读的分母与指标名称",
+    "attribution": 2,
+    "evidence_status": "confirmed",
+    "severity": "P2",
+    "affected_claims": "pairwise accuracy 的可比较性；listwise 指标解读",
+    "observed_effect": "aggregate_metrics 仅对含 numeric accuracy 的结果求平均；1 次正确+1 次失败的反例报告 100%。precision_at_k 实现严格有序前缀匹配；这与通常的 top-k 集合重合比例含义不同。",
+    "inferred_effect": "作者完整三次主表里实际失败率、分母和 listwise 汇总方式需要原记录及绘表代码核验；当前复现246对补调后有效率100%。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/grade/util/report.py",
+        7
+      ],
+      [
+        "phase1-reproduction/code/author/grade/util/runner.py",
+        124
+      ],
+      [
+        "phase1-reproduction/code/author/grade/util/eval.py",
+        40
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/diagnostics.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "逐运行并列输出 planned、attempted、valid、correct 与 full-denominator accuracy；给交换 top-2 顺序的集合构造反例。",
+    "recommended_action": "指标改名 exact-prefix@k，另报标准 precision@k；服务失败率与条件准确率并列，失败处理事先固定。"
+  },
+  {
+    "id": "F15",
+    "title": "服务、随机状态和历史环境仍有复现缺口",
+    "attribution": 1,
+    "evidence_status": "confirmed",
+    "severity": "P2",
+    "affected_claims": "数值重复性、墙钟效率、公平比较",
+    "observed_effect": "作者外层 seed 字段用于重复任务/日志，调用链没有向 Agent 注入该 seed；Agent 内 shuffle/choice/Bernoulli、LLM temperature 与线程调度均影响轨迹。新运行留存模型回执与镜像摘要，历史权重快照和 RNG 状态较少。一次反馈及重试 13,491.88 秒，占12小时31.23%；旧控制器依赖存在事后冲突，新验收环境已独立锁定。 作者requirements固定scikit-learn1.2.2，而Stanford评分引入1.4新增的root_mean_squared_error；本机验收使用1.4.2。",
+    "inferred_effect": "每次请求的可用随机种子、模型服务差异、CPU 配额及网络延迟对分数影响待前瞻控制。长等待的 VPN 原因为实验者事后说明；日志直接支持请求含重试耗时。",
+    "evidence": [
+      [
+        "phase1-reproduction/code/author/mle-bench/run_agent.py",
+        71
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        129
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/aide/agent.py",
+        167
+      ],
+      [
+        "phase1-reproduction/code/runtime/controller.py",
+        49
+      ],
+      [
+        "phase1-reproduction/code/runtime/model_gateway.py",
+        14
+      ],
+      [
+        "phase1-reproduction/experiments/environment-acceptance/environment.json",
+        1
+      ],
+      [
+        "phase1-reproduction/experiments/online-stanford-v2/final-summary.json",
+        1
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/agents/aide/requirements.txt",
+        1
+      ],
+      [
+        "phase1-reproduction/code/author/mle-bench/mlebench/competitions/stanford-covid-vaccine/grade.py",
+        3
+      ]
+    ],
+    "smallest_impact_check": "G1 先保存实际 worker 包/driver/cgroup/affinity、服务 revision、请求参数、RNG/hash seed；同环境开展独立重复并记录所有启动尝试。",
+    "recommended_action": "记录重复编号与真实 seed 的区别；使用稳定控制器与有界、可观测重试；失败/补跑规则在新协议中先固定。",
+    "secondary_attribution": [
+      2
+    ]
+  },
+  {
+    "id": "F16",
+    "title": "经验现象的理论和因果外推需要收紧",
+    "attribution": 3,
+    "evidence_status": "confirmed",
+    "severity": "P2",
+    "affected_claims": "理论上界、机制因果解释、外推与泛化",
+    "observed_effect": "当前静态验证信号、定性案例、不同模型配置的观测各自回答局部问题。有限样本的一致率、模型尺寸对比与任务归属都需要相应统计和干预设计。",
+    "inferred_effect": "作者经验性上界表述、因果推理归因及广义泛化解释超出这些观测直接识别的范围；这项判断针对论证强度。",
+    "evidence": [
+      [
+        "phase1-reproduction/experiments/environment-acceptance/reading-original.md",
+        1
+      ]
+    ],
+    "smallest_impact_check": "72.2% 按经验代理一致率重算并给区间；人类比较补样本/盲评协议；尺寸效应在共同训练与推理条件下控制；明确 seen 指 corpus 可见还是模型训练可见。",
+    "recommended_action": "使用经验一致率、相关证据和任务级迁移措辞；基于假设写出可证定理，或用预注册控制实验建立更强结论。",
+    "paper_sections": [
+      "ACL PDF p7 §5.3–5.4 and Discussion 6.1",
+      "ACL PDF p15 Appendix B.3",
+      "ACL PDF p21 Appendix C.3"
+    ]
+  },
+  {
+    "id": "F17",
+    "title": "本机检出与已发布修订的版本区别已核清",
+    "attribution": 1,
+    "evidence_status": "resolved_verified",
+    "severity": "P2",
+    "affected_claims": "版本追踪；第三方完整重建仍有独立验收步骤",
+    "observed_effect": "本机仍为main@9442373且phase1跟踪0文件；审计期间新增hw3-phase1-v1发布收据，tag commit=89d428fec8e950266efc5476fb79b59a8cadb0c0。使用已认证gh只读API核对，已发布README、SOURCES与RELEASE_ASSETS逐字节等于当前本机。当前947项全量含records/data及原件核验通过。",
+    "inferred_effect": "版本锚缺口已由发布修订与附件清单补齐。本机工作检出HEAD与发布修订承担不同角色；本次新审计文件尚待独立归档。",
+    "evidence": [
+      [
+        "provenance/hw3-release.json",
+        1
+      ],
+      [
+        "reports/reproducibility-audit-20261108/evidence/publication-check.json",
+        1
+      ],
+      [
+        "phase1-reproduction/SOURCES.json",
+        1
+      ]
+    ],
+    "smallest_impact_check": "发布元数据与本机字节对照已完成；后续从该修订和Release附件执行完整独立重建，含全部运行入口。",
+    "recommended_action": "引用hw3-phase1-v1/89d428f和固定附件哈希；审计记录单独版本化，保留本机检出与发布修订映射。"
+  }
+]

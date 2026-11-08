@@ -1,0 +1,354 @@
+--- author/agent.py
++++ C0/agent.py
+@@ -1,4 +1,5 @@
+ import shutil
++from .correctness import prepare_submission, submission_problem, save_checkpoint
+ import logging
+ import random
+ import time
+@@ -529,9 +530,12 @@
+         self.data_analysis_report = self.data_preview
+ 
+     def step(self, exec_callback: ExecCallbackType):
+-        # clear the submission dir from previous steps
+-        shutil.rmtree(self.cfg.workspace_dir / "submission", ignore_errors=True)
+-        (self.cfg.workspace_dir / "submission").mkdir(exist_ok=True)
++        # Every individual execution receives a fresh submission directory.
++        original_exec = exec_callback
++        def isolated_exec(code, *args, **kwargs):
++            prepare_submission(self.cfg.workspace_dir)
++            return original_exec(code, *args, **kwargs)
++        exec_callback = isolated_exec
+ 
+         if not self.journal.nodes or self.data_preview is None:
+             self.update_data_preview()
+@@ -629,6 +633,8 @@
+         import json
+         with open(node_dir / "metadata.json", "w") as f:
+             json.dump(metadata, f, indent=2)
++        if not node.is_skipped and not node.is_buggy:
++            self._update_best_solution()
+ 
+     def _improve_with_world_model(self, parent_node: Node, exec_callback: ExecCallbackType):
+         """
+@@ -677,6 +683,9 @@
+             config=self.wm_config,
+         )
+         
++        world_model.config.selection_policy = getattr(self.acfg, "ranking_policy", "original")
++        world_model.config.comparison_budget = getattr(self.acfg, "ranking_comparison_budget", 13)
++        world_model.config.selection_seed = getattr(self.acfg, "ranking_seed", 0)
+         ranked_candidates, comparisons, rank_meta = world_model.tournament_rank(candidates)
+         
+         # Store comparison results and rank info in nodes
+@@ -766,45 +775,18 @@
+             node_dir = self.all_nodes_dir / f"node_{top_node.id[:8]}"
+             self._save_node_artifacts(top_node, node_dir)
+ 
+-    def _post_process_node(self, result_node: Node):
+-        """Post-process an executed node (check for submission.csv, etc.)."""
++    def _post_process_node(self, result_node):
+         if not result_node.is_buggy and not result_node.is_skipped:
+-            submission_path = self.cfg.workspace_dir / "submission" / "submission.csv"
+-            if not submission_path.exists():
+-                logger.warning(
+-                    "Post-process: submission.csv is missing on disk, "
+-                    f"marking node {result_node.id} as buggy. "
+-                    f"(workspace_dir={self.cfg.workspace_dir})"
+-                )
++            problem = submission_problem(self.cfg.workspace_dir)
++            if problem:
+                 result_node.is_buggy = True
+                 result_node.metric = WorstMetricValue()
+-                logger.info(
+-                    f"Actually, node {result_node.id} did not produce a submission.csv"
+-                )
++                result_node.analysis = (result_node.analysis or "") + "\nSubmission error: " + problem
+ 
+     def _update_best_solution(self):
+-        """Update best solution cache if current best changed."""
+         best_node = self.journal.get_best_node()
+         if best_node is not None:
+-            # Check if this is a newly added best node
+-            latest_executed = [n for n in self.journal.nodes if not n.is_skipped]
+-            if latest_executed and best_node.id == latest_executed[-1].id:
+-                logger.info(f"Node {best_node.id} is the best node so far")
+-                best_solution_dir = self.cfg.workspace_dir / "best_solution"
+-                best_solution_dir.mkdir(exist_ok=True, parents=True)
+-                best_submission_dir = self.cfg.workspace_dir / "best_submission"
+-                best_submission_dir.mkdir(exist_ok=True, parents=True)
+-                
+-                submission_path = self.cfg.workspace_dir / "submission" / "submission.csv"
+-                if submission_path.exists():
+-                    shutil.copy(submission_path, best_submission_dir)
+-                
+-                with open(best_solution_dir / "solution.py", "w") as f:
+-                    f.write(best_node.code)
+-                with open(best_solution_dir / "node_info.txt", "w") as f:
+-                    f.write(
+-                        f"node_id: {str(best_node.id)}\n\nmetric: {str(best_node.metric)}\n\nsolution:\n{best_node.plan}"
+-                    )
++            save_checkpoint(self.cfg.workspace_dir, self.all_nodes_dir, best_node)
+ 
+     def update_data_preview(
+         self,
+--- author/world_model.py
++++ C0/world_model.py
+@@ -4,6 +4,11 @@
+ """
+ 
+ import logging
++import hashlib
++import json
++import threading
++from .correctness import response_values
++from .ranking import rank_candidates
+ import os
+ import random
+ import time
+@@ -243,10 +248,10 @@
+     
+     result = {}
+     if "predicted_best_index" in parsed:
+-        result["predicted_best_index"] = int(parsed["predicted_best_index"])
++        result["predicted_best_index"] = parsed["predicted_best_index"]
+     if "confidence" in parsed:
+         try:
+-            result["confidence"] = float(parsed["confidence"])
++            result["confidence"] = parsed["confidence"]
+         except Exception:
+             result["confidence"] = 0.5
+     else:
+@@ -275,6 +280,9 @@
+     confidence_threshold: float = 0.6
+     exec_probability: float = 0.3  # Probability of actually executing after prediction
+     max_concurrent_requests: int = 128
++    selection_policy: str = "original"
++    comparison_budget: int = 13
++    selection_seed: int = 0
+     tasks_root: Optional[str] = None
+     desc_dir: Optional[str] = None
+     da_dir: Optional[str] = None
+@@ -299,95 +307,41 @@
+         self.task_name = task_name
+         self.config = config or WorldModelConfig()
+         self.comparison_history: List[ComparisonResult] = []
++        self._comparison_cache = {}
++        self._pair_locks = {}
++        self._locks_guard = threading.Lock()
+ 
+     # --- Single-comparison internal helper (preserve original logic) ---
+-    def _predict_pairwise_single(
+-        self,
+-        node_a: Node,
+-        node_b: Node,
+-        round_num: int = 0,
+-    ) -> ComparisonResult:
+-        """
+-        Predict which of two nodes will perform better.
+-        Returns ComparisonResult with winner/loser if confidence >= threshold.
+-        """
+-        # Compute hash keys for the pair
+-        code_a_hash = hash(node_a.code)
+-        code_b_hash = hash(node_b.code)
+-        pair_key = (min(code_a_hash, code_b_hash), max(code_a_hash, code_b_hash))
+-
+-        # Check cache
+-        if pair_key in self._comparison_cache:
+-            logger.info(f"Cache hit for pair: {pair_key}")
+-            cached_result = self._comparison_cache[pair_key]
+-            return ComparisonResult(
+-                winner_idx=cached_result.winner_idx,
+-                loser_idx=cached_result.loser_idx,
+-                confidence=cached_result.confidence,
+-                round_num=round_num,
+-                is_valid=cached_result.is_valid,
+-                raw_response=cached_result.raw_response,
+-                reasoning=cached_result.reasoning,
+-            )
+-
+-        prompt = build_pairwise_prompt(
+-            task_desc=self.task_desc,
+-            data_analysis=self.data_preview,
+-            code_a=node_a.code,
+-            code_b=node_b.code,
+-            task_name=self.task_name,
+-        )
+-        
+-        try:
+-            response = query(
+-                system_message=BENCH_SYSTEM_PROMPT_COT,
+-                user_message=prompt,
+-            # NOTE: model/temperature kept same as before
+-                model=self.config.model,
+-                temperature=self.config.temperature,
+-            )
+-            
+-            # Handle tuple return from query
+-            if isinstance(response, tuple):
+-                raw_response = response[0] if response else ""
++    def _predict_pairwise_single(self, node_a, node_b, round_num=0):
++        order = tuple(hashlib.sha256(n.code.encode()).hexdigest() for n in (node_a, node_b))
++        context = (self.task_desc, self.data_preview, self.task_name,
++                   self.config.model, self.config.temperature)
++        key = (context, tuple(sorted(order)))
++        with self._locks_guard:
++            lock = self._pair_locks.setdefault(key, threading.Lock())
++        with lock:
++            if key not in self._comparison_cache:
++                try:
++                    prompt = build_pairwise_prompt(task_desc=self.task_desc,
++                        data_analysis=self.data_preview, code_a=node_a.code,
++                        code_b=node_b.code, task_name=self.task_name)
++                    raw = query(system_message=BENCH_SYSTEM_PROMPT_COT,
++                        user_message=prompt, model=self.config.model,
++                        temperature=self.config.temperature)
++                    raw = raw[0] if isinstance(raw, tuple) else raw
++                    parsed = parse_pairwise_response(raw)
++                    winner, confidence = response_values(parsed)
++                except Exception as error:
++                    raw, winner, confidence = str(error), None, 0.0
++                self._comparison_cache[key] = (order, winner, confidence, raw)
+             else:
+-                raw_response = response
+-            
+-            parsed = parse_pairwise_response(raw_response)
+-            predicted_idx = parsed.get("predicted_best_index", 0)
+-            confidence = parsed.get("confidence", 0.5)
+-            
+-            is_valid = confidence >= self.config.confidence_threshold
+-            
+-            if is_valid:
+-                winner_idx = predicted_idx
+-                loser_idx = 1 - predicted_idx
+-            else:
+-                winner_idx = None
+-                loser_idx = None
+-            
+-            result = ComparisonResult(
+-                winner_idx=winner_idx,
+-                loser_idx=loser_idx,
+-                confidence=confidence,
+-                round_num=round_num,
+-                is_valid=is_valid,
+-                raw_response=raw_response,
+-            )
+-        except Exception as e:
+-            logger.error(f"World Model prediction failed: {e}")
+-            result = ComparisonResult(
+-                winner_idx=None,
+-                loser_idx=None,
+-                confidence=0.0,
+-                round_num=round_num,
+-                is_valid=False,
+-                raw_response=str(e),
+-            )
+-
+-        # Cache the result
+-        self._comparison_cache[pair_key] = result
+-        return result
++                logger.info("Cache hit for pair: %s", key[1])
++            previous, winner, confidence, raw = self._comparison_cache[key]
++            if previous != order and winner is not None:
++                winner = 1-winner
++            valid = winner is not None and confidence >= self.config.confidence_threshold
++            return ComparisonResult(winner if valid else None,
++                1-winner if valid else None, confidence, round_num, valid, raw)
+ 
+     def predict_pairwise(
+         self,
+@@ -479,6 +433,9 @@
+                 rank_meta[candidates[0].id] = {"rank": 0, "round": 0}
+             return candidates, [], rank_meta
+ 
++        if self.config.selection_policy != "original":
++            return rank_candidates(self, candidates)
++
+         n = len(candidates)
+         comparisons: List[ComparisonResult] = []
+ 
+@@ -634,7 +591,7 @@
+         last_key = None
+ 
+         for info in all_node_info:
+-            k = (info["wins"], info["round"])
++            k = sort_key(info)
+             if last_key is None:
+                 # Rank 0
+                 last_key = k
+--- author/stanford/grade.py
++++ C0/stanford/grade.py
+@@ -1,65 +1,11 @@
+-import numpy as np
+-import pandas as pd
+-from sklearn.metrics import root_mean_squared_error
+-
+ from mlebench.grade_helpers import InvalidSubmissionError
++from mlebench.clean_baseline_score import stanford_score
+ 
+ 
+-def grade(submission: pd.DataFrame, answers: pd.DataFrame) -> float:
+-    if len(submission) != len(answers):
+-        raise InvalidSubmissionError(
+-            f"Expected submission to be the same length as answers, but got {len(submission)} "
+-            f"instead of {len(answers)}."
+-        )
+-
+-    to_predict = ["reactivity", "deg_Mg_pH10", "deg_Mg_50C"]
+-    expected_answer_columns = ["id_seqpos"] + to_predict + ["keep"]
+-
+-    assert set(answers.columns).issuperset(expected_answer_columns), (
+-        f"Expected answers to have columns {expected_answer_columns}, but instead it has "
+-        f"columns {answers.columns}."
+-    )
+-
+-    # The submission csv contains two columns which aren't used for scoring: `deg_pH10` and
+-    # `deg_50C`. These are nonetheless still required to be in the submission as per the
+-    # competition rules. See the "Sample Submission" section of the competition overview page for
+-    # more information:
+-    # https://www.kaggle.com/competitions/stanford-covid-vaccine/overview/evaluation
+-    expected_submission_columns = ["id_seqpos"] + to_predict + ["deg_pH10", "deg_50C"]
+-
+-    if not set(submission.columns).issuperset(expected_submission_columns):
+-        raise InvalidSubmissionError(
+-            f"Expected the submission to have columns {expected_submission_columns}, but instead "
+-            f"it has columns {submission.columns}."
+-        )
+-
+-    filtered_submission = submission[expected_submission_columns]
+-
+-    # Sort rows by `id_seqpos` and columns alphabetically
+-    sorted_submission = filtered_submission.sort_values(by="id_seqpos").sort_index(axis=1)
+-    sorted_answers = answers.sort_values(by="id_seqpos").sort_index(axis=1)
+-
+-    for i, (actual_id, expected_id) in enumerate(
+-        zip(sorted_submission["id_seqpos"], sorted_answers["id_seqpos"])
+-    ):
+-        if actual_id == expected_id:
+-            continue
+-
+-        raise InvalidSubmissionError(
+-            f"Expected submission to have the same `id_seqpos` as answers, but got `{actual_id}` "
+-            f"instead of `{expected_id}` on row {i} of the submission."
+-        )
+-
+-    mask = sorted_answers["keep"]
+-    new_submission = sorted_submission[mask]
+-    new_answers = sorted_answers[mask]
+-
+-    errors = []
+-
+-    for column in to_predict:
+-        y_pred = new_submission[column]
+-        y_true = new_answers[column]
+-        error = root_mean_squared_error(y_true=y_true, y_pred=y_pred)
+-        errors.append(error)
+-
+-    return np.mean(errors)
++def grade(submission, answers):
++    try:
++        if not submission.columns.is_unique or not answers.columns.is_unique:
++            raise ValueError("Duplicate columns")
++        return stanford_score(submission.to_dict("records"), answers.to_dict("records"))
++    except (KeyError, TypeError, ValueError) as error:
++        raise InvalidSubmissionError(str(error)) from error

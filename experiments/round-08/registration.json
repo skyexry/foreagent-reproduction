@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-11-07T13:21:05.946663+00:00",
+  "stage": "before new GPT prediction content download/validation and before R8 implementation/results",
+  "base_commit": "a469bd20aad268710130378b7073acb8d475b397",
+  "files": {
+    "protocol.md": "cbde9c727beb24020bcb41ab212f960aa208e1fcd5e84fce4b08350a198ccc3d",
+    "protocol.json": "c9b571e97d60227e005d34146f06f38eba27fe8055a088734e230dd9b2c90d46",
+    "data_manifest.json": "b75b9845082d1febebe2b9c1ed20ba634b9e19e7709e72a1fc8ebe16eaacb5ae",
+    "jobs.jsonl": "b680f755d60f2fc98c5ca017faf0ffb41ef8067b3089c19fc7afee704b044751"
+  },
+  "scenarios": 23400,
+  "budget": {
+    "scenarios": 23400,
+    "feedback_runs": 3,
+    "tasks": 26,
+    "pools_per_feedback_run": 2600,
+    "seeds_per_pool": 3,
+    "method_selection_scores": 70200,
+    "unique_feedback_cap_summed": 903600,
+    "max_unique_pairs_in_ten_candidate_pool": 45,
+    "new_model_calls": 0,
+    "candidate_training_runs": 0,
+    "native_control_audit_cases": 78,
+    "max_wall_seconds_per_attempt": 3600
+  }
+}

@@ -1,0 +1,3402 @@
+[
+  {
+    "job_id": "aptos2019-blindness-detection:0:0",
+    "wall_seconds": 0.006886666000355035
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:0:1",
+    "wall_seconds": 0.010006458964198828
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:1:0",
+    "wall_seconds": 0.007728249998763204
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:1:1",
+    "wall_seconds": 0.006079083017539233
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:2:0",
+    "wall_seconds": 0.006253791972994804
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:2:1",
+    "wall_seconds": 0.0048151660012081265
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:3:0",
+    "wall_seconds": 0.0012723749969154596
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:3:1",
+    "wall_seconds": 0.006159750046208501
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:4:0",
+    "wall_seconds": 0.007629250001627952
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:4:1",
+    "wall_seconds": 0.009184000024106354
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:5:0",
+    "wall_seconds": 0.008192500041332096
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:5:1",
+    "wall_seconds": 0.0064548340160399675
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:6:0",
+    "wall_seconds": 0.004869542026426643
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:6:1",
+    "wall_seconds": 0.0039275409653782845
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:7:0",
+    "wall_seconds": 0.00709695799741894
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:7:1",
+    "wall_seconds": 0.0072908749571070075
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:8:0",
+    "wall_seconds": 0.009765584021806717
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:8:1",
+    "wall_seconds": 0.007205000030808151
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:9:0",
+    "wall_seconds": 0.006527707970235497
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:9:1",
+    "wall_seconds": 0.0065329999779351056
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:10:0",
+    "wall_seconds": 0.004831250000279397
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:10:1",
+    "wall_seconds": 0.007117290981113911
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:11:0",
+    "wall_seconds": 0.007394625048618764
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:11:1",
+    "wall_seconds": 0.007500207982957363
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:12:0",
+    "wall_seconds": 0.006057000020518899
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:12:1",
+    "wall_seconds": 0.005449208023492247
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:13:0",
+    "wall_seconds": 0.006057457998394966
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:13:1",
+    "wall_seconds": 0.005854041024576873
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:14:0",
+    "wall_seconds": 0.006134582974482328
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:14:1",
+    "wall_seconds": 0.006332582968752831
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:15:0",
+    "wall_seconds": 0.006199374969583005
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:15:1",
+    "wall_seconds": 0.007519832986872643
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:16:0",
+    "wall_seconds": 0.009441208036150783
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:16:1",
+    "wall_seconds": 0.006105167034547776
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:17:0",
+    "wall_seconds": 0.007255957985762507
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:17:1",
+    "wall_seconds": 0.009578416997101158
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:18:0",
+    "wall_seconds": 0.0046919999876990914
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:18:1",
+    "wall_seconds": 0.005896541988477111
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:19:0",
+    "wall_seconds": 0.005556125019211322
+  },
+  {
+    "job_id": "aptos2019-blindness-detection:19:1",
+    "wall_seconds": 0.003913249995093793
+  },
+  {
+    "job_id": "denoising-dirty-documents:0:0",
+    "wall_seconds": 0.003971915983129293
+  },
+  {
+    "job_id": "denoising-dirty-documents:0:1",
+    "wall_seconds": 0.004690458008553833
+  },
+  {
+    "job_id": "denoising-dirty-documents:1:0",
+    "wall_seconds": 0.005849125038366765
+  },
+  {
+    "job_id": "denoising-dirty-documents:1:1",
+    "wall_seconds": 0.008938083017710596
+  },
+  {
+    "job_id": "denoising-dirty-documents:2:0",
+    "wall_seconds": 0.003986166964750737
+  },
+  {
+    "job_id": "denoising-dirty-documents:2:1",
+    "wall_seconds": 0.00363070797175169
+  },
+  {
+    "job_id": "denoising-dirty-documents:3:0",
+    "wall_seconds": 0.003720708016771823
+  },
+  {
+    "job_id": "denoising-dirty-documents:3:1",
+    "wall_seconds": 0.003453582990914583
+  },
+  {
+    "job_id": "denoising-dirty-documents:4:0",
+    "wall_seconds": 0.0044477079645730555
+  },
+  {
+    "job_id": "denoising-dirty-documents:4:1",
+    "wall_seconds": 0.005355916975531727
+  },
+  {
+    "job_id": "denoising-dirty-documents:5:0",
+    "wall_seconds": 0.00440666702343151
+  },
+  {
+    "job_id": "denoising-dirty-documents:5:1",
+    "wall_seconds": 0.005718417000025511
+  },
+  {
+    "job_id": "denoising-dirty-documents:6:0",
+    "wall_seconds": 0.005206707981415093
+  },
+  {
+    "job_id": "denoising-dirty-documents:6:1",
+    "wall_seconds": 0.004435500013642013
+  },
+  {
+    "job_id": "denoising-dirty-documents:7:0",
+    "wall_seconds": 0.00493874994572252
+  },
+  {
+    "job_id": "denoising-dirty-documents:7:1",
+    "wall_seconds": 0.004878792038653046
+  },
+  {
+    "job_id": "denoising-dirty-documents:8:0",
+    "wall_seconds": 0.0012562500196509063
+  },
+  {
+    "job_id": "denoising-dirty-documents:8:1",
+    "wall_seconds": 0.0012840830022469163
+  },
+  {
+    "job_id": "denoising-dirty-documents:9:0",
+    "wall_seconds": 0.003915124980267137
+  },
+  {
+    "job_id": "denoising-dirty-documents:9:1",
+    "wall_seconds": 0.004595124977640808
+  },
+  {
+    "job_id": "denoising-dirty-documents:10:0",
+    "wall_seconds": 0.004458708979655057
+  },
+  {
+    "job_id": "denoising-dirty-documents:10:1",
+    "wall_seconds": 0.004566540999803692
+  },
+  {
+    "job_id": "denoising-dirty-documents:11:0",
+    "wall_seconds": 0.004337250022217631
+  },
+  {
+    "job_id": "denoising-dirty-documents:11:1",
+    "wall_seconds": 0.004486417048610747
+  },
+  {
+    "job_id": "denoising-dirty-documents:12:0",
+    "wall_seconds": 0.005771540978457779
+  },
+  {
+    "job_id": "denoising-dirty-documents:12:1",
+    "wall_seconds": 0.0057559170527383685
+  },
+  {
+    "job_id": "denoising-dirty-documents:13:0",
+    "wall_seconds": 0.005672917002812028
+  },
+  {
+    "job_id": "denoising-dirty-documents:13:1",
+    "wall_seconds": 0.005468166957143694
+  },
+  {
+    "job_id": "denoising-dirty-documents:14:0",
+    "wall_seconds": 0.006244250049348921
+  },
+  {
+    "job_id": "denoising-dirty-documents:14:1",
+    "wall_seconds": 0.006307957984972745
+  },
+  {
+    "job_id": "denoising-dirty-documents:15:0",
+    "wall_seconds": 0.0036133750109001994
+  },
+  {
+    "job_id": "denoising-dirty-documents:15:1",
+    "wall_seconds": 0.005514249962288886
+  },
+  {
+    "job_id": "denoising-dirty-documents:16:0",
+    "wall_seconds": 0.006361834006384015
+  },
+  {
+    "job_id": "denoising-dirty-documents:16:1",
+    "wall_seconds": 0.010772041976451874
+  },
+  {
+    "job_id": "denoising-dirty-documents:17:0",
+    "wall_seconds": 0.004173583001829684
+  },
+  {
+    "job_id": "denoising-dirty-documents:17:1",
+    "wall_seconds": 0.003840999968815595
+  },
+  {
+    "job_id": "denoising-dirty-documents:18:0",
+    "wall_seconds": 0.0050213749636895955
+  },
+  {
+    "job_id": "denoising-dirty-documents:18:1",
+    "wall_seconds": 0.003910999977961183
+  },
+  {
+    "job_id": "denoising-dirty-documents:19:0",
+    "wall_seconds": 0.003658458008430898
+  },
+  {
+    "job_id": "denoising-dirty-documents:19:1",
+    "wall_seconds": 0.007534458010923117
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:0:0",
+    "wall_seconds": 0.011067792016547173
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:0:1",
+    "wall_seconds": 0.01189970801351592
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:1:0",
+    "wall_seconds": 0.009729582990985364
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:1:1",
+    "wall_seconds": 0.008497333968989551
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:2:0",
+    "wall_seconds": 0.010384249966591597
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:2:1",
+    "wall_seconds": 0.007907333027105778
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:3:0",
+    "wall_seconds": 0.008505749981850386
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:3:1",
+    "wall_seconds": 0.008939291990827769
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:4:0",
+    "wall_seconds": 0.008298833039589226
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:4:1",
+    "wall_seconds": 0.008381207997445017
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:5:0",
+    "wall_seconds": 0.010310874960850924
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:5:1",
+    "wall_seconds": 0.010978833015542477
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:6:0",
+    "wall_seconds": 0.006553957995492965
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:6:1",
+    "wall_seconds": 0.009796250029467046
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:7:0",
+    "wall_seconds": 0.008365750021766871
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:7:1",
+    "wall_seconds": 0.00990729103796184
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:8:0",
+    "wall_seconds": 0.00862224999582395
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:8:1",
+    "wall_seconds": 0.015703208977356553
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:9:0",
+    "wall_seconds": 0.012201041972730309
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:9:1",
+    "wall_seconds": 0.01049016701290384
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:10:0",
+    "wall_seconds": 0.012355291983112693
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:10:1",
+    "wall_seconds": 0.010806957958266139
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:11:0",
+    "wall_seconds": 0.01012341701425612
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:11:1",
+    "wall_seconds": 0.010522250027861446
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:12:0",
+    "wall_seconds": 0.01426795800216496
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:12:1",
+    "wall_seconds": 0.011992416984867305
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:13:0",
+    "wall_seconds": 0.009433625033125281
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:13:1",
+    "wall_seconds": 0.010196749994065613
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:14:0",
+    "wall_seconds": 0.009505166963208467
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:14:1",
+    "wall_seconds": 0.010932291042990983
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:15:0",
+    "wall_seconds": 0.011091290973126888
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:15:1",
+    "wall_seconds": 0.010700249986257404
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:16:0",
+    "wall_seconds": 0.010424208012409508
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:16:1",
+    "wall_seconds": 0.013550166971981525
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:17:0",
+    "wall_seconds": 0.00862820801557973
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:17:1",
+    "wall_seconds": 0.010450416011735797
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:18:0",
+    "wall_seconds": 0.04836545797297731
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:18:1",
+    "wall_seconds": 0.043783584027551115
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:19:0",
+    "wall_seconds": 0.02307358296820894
+  },
+  {
+    "job_id": "detecting-insults-in-social-commentary:19:1",
+    "wall_seconds": 0.011679332994390279
+  },
+  {
+    "job_id": "dog-breed-identification:0:0",
+    "wall_seconds": 0.0005923330318182707
+  },
+  {
+    "job_id": "dog-breed-identification:0:1",
+    "wall_seconds": 0.0005560829886235297
+  },
+  {
+    "job_id": "google-quest-challenge:0:0",
+    "wall_seconds": 0.0068012080155313015
+  },
+  {
+    "job_id": "google-quest-challenge:0:1",
+    "wall_seconds": 0.007045416976325214
+  },
+  {
+    "job_id": "google-quest-challenge:1:0",
+    "wall_seconds": 0.007615124981384724
+  },
+  {
+    "job_id": "google-quest-challenge:1:1",
+    "wall_seconds": 0.008752749999985099
+  },
+  {
+    "job_id": "google-quest-challenge:2:0",
+    "wall_seconds": 0.0063182919984683394
+  },
+  {
+    "job_id": "google-quest-challenge:2:1",
+    "wall_seconds": 0.00926895800512284
+  },
+  {
+    "job_id": "google-quest-challenge:3:0",
+    "wall_seconds": 0.011390209023375064
+  },
+  {
+    "job_id": "google-quest-challenge:3:1",
+    "wall_seconds": 0.008746125036850572
+  },
+  {
+    "job_id": "google-quest-challenge:4:0",
+    "wall_seconds": 0.00153179100016132
+  },
+  {
+    "job_id": "google-quest-challenge:4:1",
+    "wall_seconds": 0.00613020797027275
+  },
+  {
+    "job_id": "google-quest-challenge:5:0",
+    "wall_seconds": 0.007738207990769297
+  },
+  {
+    "job_id": "google-quest-challenge:5:1",
+    "wall_seconds": 0.009347916988190264
+  },
+  {
+    "job_id": "google-quest-challenge:6:0",
+    "wall_seconds": 0.006621291977353394
+  },
+  {
+    "job_id": "google-quest-challenge:6:1",
+    "wall_seconds": 0.028698000009171665
+  },
+  {
+    "job_id": "google-quest-challenge:7:0",
+    "wall_seconds": 0.015554875019006431
+  },
+  {
+    "job_id": "google-quest-challenge:7:1",
+    "wall_seconds": 0.009919832984451205
+  },
+  {
+    "job_id": "google-quest-challenge:8:0",
+    "wall_seconds": 0.009397750021889806
+  },
+  {
+    "job_id": "google-quest-challenge:8:1",
+    "wall_seconds": 0.008392416988499463
+  },
+  {
+    "job_id": "google-quest-challenge:9:0",
+    "wall_seconds": 0.001878625014796853
+  },
+  {
+    "job_id": "google-quest-challenge:9:1",
+    "wall_seconds": 0.0020340000046417117
+  },
+  {
+    "job_id": "google-quest-challenge:10:0",
+    "wall_seconds": 0.012535749992821366
+  },
+  {
+    "job_id": "google-quest-challenge:10:1",
+    "wall_seconds": 0.012521083990577608
+  },
+  {
+    "job_id": "google-quest-challenge:11:0",
+    "wall_seconds": 0.008195833011996001
+  },
+  {
+    "job_id": "google-quest-challenge:11:1",
+    "wall_seconds": 0.008960041974205524
+  },
+  {
+    "job_id": "google-quest-challenge:12:0",
+    "wall_seconds": 0.008928249997552484
+  },
+  {
+    "job_id": "google-quest-challenge:12:1",
+    "wall_seconds": 0.0061076669953763485
+  },
+  {
+    "job_id": "google-quest-challenge:13:0",
+    "wall_seconds": 0.002375249983742833
+  },
+  {
+    "job_id": "google-quest-challenge:13:1",
+    "wall_seconds": 0.0016727920155972242
+  },
+  {
+    "job_id": "google-quest-challenge:14:0",
+    "wall_seconds": 0.0016404580092057586
+  },
+  {
+    "job_id": "google-quest-challenge:14:1",
+    "wall_seconds": 0.001281249977182597
+  },
+  {
+    "job_id": "google-quest-challenge:15:0",
+    "wall_seconds": 0.008872415986843407
+  },
+  {
+    "job_id": "google-quest-challenge:15:1",
+    "wall_seconds": 0.007300875033251941
+  },
+  {
+    "job_id": "google-quest-challenge:16:0",
+    "wall_seconds": 0.008318833017256111
+  },
+  {
+    "job_id": "google-quest-challenge:16:1",
+    "wall_seconds": 0.010441125021316111
+  },
+  {
+    "job_id": "google-quest-challenge:17:0",
+    "wall_seconds": 0.0025770420324988663
+  },
+  {
+    "job_id": "google-quest-challenge:17:1",
+    "wall_seconds": 0.0013714589877054095
+  },
+  {
+    "job_id": "google-quest-challenge:18:0",
+    "wall_seconds": 0.006243542011361569
+  },
+  {
+    "job_id": "google-quest-challenge:18:1",
+    "wall_seconds": 0.008734167029615492
+  },
+  {
+    "job_id": "google-quest-challenge:19:0",
+    "wall_seconds": 0.008784000005107373
+  },
+  {
+    "job_id": "google-quest-challenge:19:1",
+    "wall_seconds": 0.00885774998459965
+  },
+  {
+    "job_id": "jigsaw-toxic-comment-classification-challenge:0:0",
+    "wall_seconds": 0.002978542004711926
+  },
+  {
+    "job_id": "jigsaw-toxic-comment-classification-challenge:0:1",
+    "wall_seconds": 0.002516959037166089
+  },
+  {
+    "job_id": "leaf-classification:0:0",
+    "wall_seconds": 0.006230166007298976
+  },
+  {
+    "job_id": "leaf-classification:0:1",
+    "wall_seconds": 0.006507000012788922
+  },
+  {
+    "job_id": "leaf-classification:1:0",
+    "wall_seconds": 0.007518166967201978
+  },
+  {
+    "job_id": "leaf-classification:1:1",
+    "wall_seconds": 0.007676167006138712
+  },
+  {
+    "job_id": "leaf-classification:2:0",
+    "wall_seconds": 0.006988625042140484
+  },
+  {
+    "job_id": "leaf-classification:2:1",
+    "wall_seconds": 0.005396957974880934
+  },
+  {
+    "job_id": "leaf-classification:3:0",
+    "wall_seconds": 0.006102457991801202
+  },
+  {
+    "job_id": "leaf-classification:3:1",
+    "wall_seconds": 0.0012058339780196548
+  },
+  {
+    "job_id": "leaf-classification:4:0",
+    "wall_seconds": 0.006481082993559539
+  },
+  {
+    "job_id": "leaf-classification:4:1",
+    "wall_seconds": 0.006615000020246953
+  },
+  {
+    "job_id": "leaf-classification:5:0",
+    "wall_seconds": 0.004969583009369671
+  },
+  {
+    "job_id": "leaf-classification:5:1",
+    "wall_seconds": 0.004768249986227602
+  },
+  {
+    "job_id": "leaf-classification:6:0",
+    "wall_seconds": 0.00536270800512284
+  },
+  {
+    "job_id": "leaf-classification:6:1",
+    "wall_seconds": 0.006508874997962266
+  },
+  {
+    "job_id": "leaf-classification:7:0",
+    "wall_seconds": 0.005179458006750792
+  },
+  {
+    "job_id": "leaf-classification:7:1",
+    "wall_seconds": 0.0048592089442536235
+  },
+  {
+    "job_id": "leaf-classification:8:0",
+    "wall_seconds": 0.005537958990316838
+  },
+  {
+    "job_id": "leaf-classification:8:1",
+    "wall_seconds": 0.00888487498741597
+  },
+  {
+    "job_id": "leaf-classification:9:0",
+    "wall_seconds": 0.0011295420117676258
+  },
+  {
+    "job_id": "leaf-classification:9:1",
+    "wall_seconds": 0.0037105410010553896
+  },
+  {
+    "job_id": "leaf-classification:10:0",
+    "wall_seconds": 0.0038250000216066837
+  },
+  {
+    "job_id": "leaf-classification:10:1",
+    "wall_seconds": 0.00558108399854973
+  },
+  {
+    "job_id": "leaf-classification:11:0",
+    "wall_seconds": 0.004147667030338198
+  },
+  {
+    "job_id": "leaf-classification:11:1",
+    "wall_seconds": 0.004453166970051825
+  },
+  {
+    "job_id": "leaf-classification:12:0",
+    "wall_seconds": 0.008448374981526285
+  },
+  {
+    "job_id": "leaf-classification:12:1",
+    "wall_seconds": 0.007862041995394975
+  },
+  {
+    "job_id": "leaf-classification:13:0",
+    "wall_seconds": 0.003664707997813821
+  },
+  {
+    "job_id": "leaf-classification:13:1",
+    "wall_seconds": 0.004974958952516317
+  },
+  {
+    "job_id": "leaf-classification:14:0",
+    "wall_seconds": 0.0011637919815257192
+  },
+  {
+    "job_id": "leaf-classification:14:1",
+    "wall_seconds": 0.0035534159978851676
+  },
+  {
+    "job_id": "leaf-classification:15:0",
+    "wall_seconds": 0.0070147079532034695
+  },
+  {
+    "job_id": "leaf-classification:15:1",
+    "wall_seconds": 0.007061875017825514
+  },
+  {
+    "job_id": "leaf-classification:16:0",
+    "wall_seconds": 0.006807832978665829
+  },
+  {
+    "job_id": "leaf-classification:16:1",
+    "wall_seconds": 0.005517542012967169
+  },
+  {
+    "job_id": "leaf-classification:17:0",
+    "wall_seconds": 0.005218124948441982
+  },
+  {
+    "job_id": "leaf-classification:17:1",
+    "wall_seconds": 0.005311958026140928
+  },
+  {
+    "job_id": "leaf-classification:18:0",
+    "wall_seconds": 0.006020375003572553
+  },
+  {
+    "job_id": "leaf-classification:18:1",
+    "wall_seconds": 0.006301374989561737
+  },
+  {
+    "job_id": "leaf-classification:19:0",
+    "wall_seconds": 0.010133375006262213
+  },
+  {
+    "job_id": "leaf-classification:19:1",
+    "wall_seconds": 0.007749458018224686
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:0:0",
+    "wall_seconds": 0.012303749972488731
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:0:1",
+    "wall_seconds": 0.01001779199577868
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:1:0",
+    "wall_seconds": 0.0068554169847629964
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:1:1",
+    "wall_seconds": 0.011578832985833287
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:2:0",
+    "wall_seconds": 0.009767417039256543
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:2:1",
+    "wall_seconds": 0.0075091670150868595
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:3:0",
+    "wall_seconds": 0.005969208024907857
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:3:1",
+    "wall_seconds": 0.004850999976042658
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:4:0",
+    "wall_seconds": 0.010712499963119626
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:4:1",
+    "wall_seconds": 0.009094125009141862
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:5:0",
+    "wall_seconds": 0.014187833992764354
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:5:1",
+    "wall_seconds": 0.009392666979692876
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:6:0",
+    "wall_seconds": 0.009083500015549362
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:6:1",
+    "wall_seconds": 0.007901959004811943
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:7:0",
+    "wall_seconds": 0.0037974590086378157
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:7:1",
+    "wall_seconds": 0.0037087919772602618
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:8:0",
+    "wall_seconds": 0.004934791999403387
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:8:1",
+    "wall_seconds": 0.006286458985414356
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:9:0",
+    "wall_seconds": 0.0056016670423559844
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:9:1",
+    "wall_seconds": 0.010059416003059596
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:10:0",
+    "wall_seconds": 0.0046815830282866955
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:10:1",
+    "wall_seconds": 0.0077114999876357615
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:11:0",
+    "wall_seconds": 0.006495457957498729
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:11:1",
+    "wall_seconds": 0.008331417047884315
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:12:0",
+    "wall_seconds": 0.0068576670018956065
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:12:1",
+    "wall_seconds": 0.0064277080236934125
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:13:0",
+    "wall_seconds": 0.007283167040441185
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:13:1",
+    "wall_seconds": 0.006453040987253189
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:14:0",
+    "wall_seconds": 0.011353583016898483
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:14:1",
+    "wall_seconds": 0.006991499976720661
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:15:0",
+    "wall_seconds": 0.00893179199192673
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:15:1",
+    "wall_seconds": 0.009545916982460767
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:16:0",
+    "wall_seconds": 0.00986541697056964
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:16:1",
+    "wall_seconds": 0.007831834023818374
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:17:0",
+    "wall_seconds": 0.007851375034078956
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:17:1",
+    "wall_seconds": 0.010745417035650462
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:18:0",
+    "wall_seconds": 0.004358584003057331
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:18:1",
+    "wall_seconds": 0.005474415956996381
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:19:0",
+    "wall_seconds": 0.005145750008523464
+  },
+  {
+    "job_id": "learning-agency-lab-automated-essay-scoring-2:19:1",
+    "wall_seconds": 0.006009040982462466
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:0:0",
+    "wall_seconds": 0.006000249995850027
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:0:1",
+    "wall_seconds": 0.0026474579935893416
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:1:0",
+    "wall_seconds": 0.005100833019241691
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:1:1",
+    "wall_seconds": 0.005586582992691547
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:2:0",
+    "wall_seconds": 0.004393542010802776
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:2:1",
+    "wall_seconds": 0.006215917004738003
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:3:0",
+    "wall_seconds": 0.006353707984089851
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:3:1",
+    "wall_seconds": 0.007721417001448572
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:4:0",
+    "wall_seconds": 0.005082957970444113
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:4:1",
+    "wall_seconds": 0.004940333019476384
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:5:0",
+    "wall_seconds": 0.0066299159661866724
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:5:1",
+    "wall_seconds": 0.005605250014923513
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:6:0",
+    "wall_seconds": 0.006107416993472725
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:6:1",
+    "wall_seconds": 0.008845167001709342
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:7:0",
+    "wall_seconds": 0.005756291968282312
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:7:1",
+    "wall_seconds": 0.004388917004689574
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:8:0",
+    "wall_seconds": 0.006125708983745426
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:8:1",
+    "wall_seconds": 0.006505124969407916
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:9:0",
+    "wall_seconds": 0.004051874973811209
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:9:1",
+    "wall_seconds": 0.00606537499697879
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:10:0",
+    "wall_seconds": 0.004092416958883405
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:10:1",
+    "wall_seconds": 0.007039874966721982
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:11:0",
+    "wall_seconds": 0.005678458954207599
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:11:1",
+    "wall_seconds": 0.004046417016070336
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:12:0",
+    "wall_seconds": 0.009258834004867822
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:12:1",
+    "wall_seconds": 0.004130124987568706
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:13:0",
+    "wall_seconds": 0.0024865830200724304
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:13:1",
+    "wall_seconds": 0.0020021669915877283
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:14:0",
+    "wall_seconds": 0.0010876249871216714
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:14:1",
+    "wall_seconds": 0.0010312499944120646
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:15:0",
+    "wall_seconds": 0.0062166660209186375
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:15:1",
+    "wall_seconds": 0.006997291988227516
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:16:0",
+    "wall_seconds": 0.004072832991369069
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:16:1",
+    "wall_seconds": 0.0038955420022830367
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:17:0",
+    "wall_seconds": 0.009076416958123446
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:17:1",
+    "wall_seconds": 0.004656707984395325
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:18:0",
+    "wall_seconds": 0.0055560420150868595
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:18:1",
+    "wall_seconds": 0.0072427919949404895
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:19:0",
+    "wall_seconds": 0.0062879579490982
+  },
+  {
+    "job_id": "lmsys-chatbot-arena:19:1",
+    "wall_seconds": 0.004636082972865552
+  },
+  {
+    "job_id": "mlsp-2013-birds:0:0",
+    "wall_seconds": 0.004511917009949684
+  },
+  {
+    "job_id": "mlsp-2013-birds:0:1",
+    "wall_seconds": 0.004614457953721285
+  },
+  {
+    "job_id": "mlsp-2013-birds:1:0",
+    "wall_seconds": 0.0013719170237891376
+  },
+  {
+    "job_id": "mlsp-2013-birds:1:1",
+    "wall_seconds": 0.008281000016722828
+  },
+  {
+    "job_id": "mlsp-2013-birds:2:0",
+    "wall_seconds": 0.004650916031096131
+  },
+  {
+    "job_id": "mlsp-2013-birds:2:1",
+    "wall_seconds": 0.004286917042918503
+  },
+  {
+    "job_id": "mlsp-2013-birds:3:0",
+    "wall_seconds": 0.003811249975115061
+  },
+  {
+    "job_id": "mlsp-2013-birds:3:1",
+    "wall_seconds": 0.007041707984171808
+  },
+  {
+    "job_id": "mlsp-2013-birds:4:0",
+    "wall_seconds": 0.0037705000140704215
+  },
+  {
+    "job_id": "mlsp-2013-birds:4:1",
+    "wall_seconds": 0.00392791599733755
+  },
+  {
+    "job_id": "mlsp-2013-birds:5:0",
+    "wall_seconds": 0.004746125021483749
+  },
+  {
+    "job_id": "mlsp-2013-birds:5:1",
+    "wall_seconds": 0.005425124953035265
+  },
+  {
+    "job_id": "mlsp-2013-birds:6:0",
+    "wall_seconds": 0.006791834020987153
+  },
+  {
+    "job_id": "mlsp-2013-birds:6:1",
+    "wall_seconds": 0.006615791993681341
+  },
+  {
+    "job_id": "mlsp-2013-birds:7:0",
+    "wall_seconds": 0.004896625003311783
+  },
+  {
+    "job_id": "mlsp-2013-birds:7:1",
+    "wall_seconds": 0.00837679102551192
+  },
+  {
+    "job_id": "mlsp-2013-birds:8:0",
+    "wall_seconds": 0.004648291040211916
+  },
+  {
+    "job_id": "mlsp-2013-birds:8:1",
+    "wall_seconds": 0.004723249992821366
+  },
+  {
+    "job_id": "mlsp-2013-birds:9:0",
+    "wall_seconds": 0.007405125012155622
+  },
+  {
+    "job_id": "mlsp-2013-birds:9:1",
+    "wall_seconds": 0.00555524998344481
+  },
+  {
+    "job_id": "mlsp-2013-birds:10:0",
+    "wall_seconds": 0.00403241696767509
+  },
+  {
+    "job_id": "mlsp-2013-birds:10:1",
+    "wall_seconds": 0.0061992499977350235
+  },
+  {
+    "job_id": "mlsp-2013-birds:11:0",
+    "wall_seconds": 0.00562462501693517
+  },
+  {
+    "job_id": "mlsp-2013-birds:11:1",
+    "wall_seconds": 0.006952208001166582
+  },
+  {
+    "job_id": "mlsp-2013-birds:12:0",
+    "wall_seconds": 0.005514583026524633
+  },
+  {
+    "job_id": "mlsp-2013-birds:12:1",
+    "wall_seconds": 0.007031542016193271
+  },
+  {
+    "job_id": "mlsp-2013-birds:13:0",
+    "wall_seconds": 0.006809417041949928
+  },
+  {
+    "job_id": "mlsp-2013-birds:13:1",
+    "wall_seconds": 0.010147167020477355
+  },
+  {
+    "job_id": "mlsp-2013-birds:14:0",
+    "wall_seconds": 0.0037559999618679285
+  },
+  {
+    "job_id": "mlsp-2013-birds:14:1",
+    "wall_seconds": 0.0012337919906713068
+  },
+  {
+    "job_id": "mlsp-2013-birds:15:0",
+    "wall_seconds": 0.00832112500211224
+  },
+  {
+    "job_id": "mlsp-2013-birds:15:1",
+    "wall_seconds": 0.007423833012580872
+  },
+  {
+    "job_id": "mlsp-2013-birds:16:0",
+    "wall_seconds": 0.005441499990411103
+  },
+  {
+    "job_id": "mlsp-2013-birds:16:1",
+    "wall_seconds": 0.005482416017912328
+  },
+  {
+    "job_id": "mlsp-2013-birds:17:0",
+    "wall_seconds": 0.004017625004053116
+  },
+  {
+    "job_id": "mlsp-2013-birds:17:1",
+    "wall_seconds": 0.0010441250051371753
+  },
+  {
+    "job_id": "mlsp-2013-birds:18:0",
+    "wall_seconds": 0.0067290839506313205
+  },
+  {
+    "job_id": "mlsp-2013-birds:18:1",
+    "wall_seconds": 0.006293750018812716
+  },
+  {
+    "job_id": "mlsp-2013-birds:19:0",
+    "wall_seconds": 0.005843624996487051
+  },
+  {
+    "job_id": "mlsp-2013-birds:19:1",
+    "wall_seconds": 0.00718441599747166
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:0:0",
+    "wall_seconds": 0.004313333018217236
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:0:1",
+    "wall_seconds": 0.005263375001959503
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:1:0",
+    "wall_seconds": 0.0009493749821558595
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:1:1",
+    "wall_seconds": 0.007494541991036385
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:2:0",
+    "wall_seconds": 0.004478249989915639
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:2:1",
+    "wall_seconds": 0.0037435420090332627
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:3:0",
+    "wall_seconds": 0.0048421670217067
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:3:1",
+    "wall_seconds": 0.006085709028411657
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:4:0",
+    "wall_seconds": 0.0038566659786738455
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:4:1",
+    "wall_seconds": 0.004147791012655944
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:5:0",
+    "wall_seconds": 0.0010151659953407943
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:5:1",
+    "wall_seconds": 0.0010084169916808605
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:6:0",
+    "wall_seconds": 0.003717583022080362
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:6:1",
+    "wall_seconds": 0.007138709013815969
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:7:0",
+    "wall_seconds": 0.001059125002939254
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:7:1",
+    "wall_seconds": 0.005781166022643447
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:8:0",
+    "wall_seconds": 0.001093416998628527
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:8:1",
+    "wall_seconds": 0.000996084010694176
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:9:0",
+    "wall_seconds": 0.004784375021699816
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:9:1",
+    "wall_seconds": 0.0050257499678991735
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:10:0",
+    "wall_seconds": 0.0019347500056028366
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:10:1",
+    "wall_seconds": 0.0011527499882504344
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:11:0",
+    "wall_seconds": 0.00403991702478379
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:11:1",
+    "wall_seconds": 0.0038542920374311507
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:12:0",
+    "wall_seconds": 0.0052027920028194785
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:12:1",
+    "wall_seconds": 0.007601791003253311
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:13:0",
+    "wall_seconds": 0.0010352499666623771
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:13:1",
+    "wall_seconds": 0.001110791985411197
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:14:0",
+    "wall_seconds": 0.004226125020068139
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:14:1",
+    "wall_seconds": 0.0039912499487400055
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:15:0",
+    "wall_seconds": 0.0062607910367660224
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:15:1",
+    "wall_seconds": 0.0011287080124020576
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:16:0",
+    "wall_seconds": 0.0041151249897666276
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:16:1",
+    "wall_seconds": 0.0011740420013666153
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:17:0",
+    "wall_seconds": 0.007396249973680824
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:17:1",
+    "wall_seconds": 0.0013195000356063247
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:18:0",
+    "wall_seconds": 0.0017314169672317803
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:18:1",
+    "wall_seconds": 0.001000541029497981
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:19:0",
+    "wall_seconds": 0.004984375031199306
+  },
+  {
+    "job_id": "new-york-city-taxi-fare-prediction:19:1",
+    "wall_seconds": 0.004064499982632697
+  },
+  {
+    "job_id": "nomad2018-predict-transparent-conductors:0:0",
+    "wall_seconds": 0.0010989580187015235
+  },
+  {
+    "job_id": "nomad2018-predict-transparent-conductors:0:1",
+    "wall_seconds": 0.0010184169514104724
+  },
+  {
+    "job_id": "petfinder-pawpularity-score:0:0",
+    "wall_seconds": 0.0033593340194784105
+  },
+  {
+    "job_id": "petfinder-pawpularity-score:0:1",
+    "wall_seconds": 0.004098083998542279
+  },
+  {
+    "job_id": "plant-pathology-2020-fgvc7:0:0",
+    "wall_seconds": 0.002106000029016286
+  },
+  {
+    "job_id": "plant-pathology-2020-fgvc7:0:1",
+    "wall_seconds": 0.0027693749871104956
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:0:0",
+    "wall_seconds": 0.0042595830163918436
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:0:1",
+    "wall_seconds": 0.0055832500220276415
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:1:0",
+    "wall_seconds": 0.006778625014703721
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:1:1",
+    "wall_seconds": 0.005543207982555032
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:2:0",
+    "wall_seconds": 0.006455374998040497
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:2:1",
+    "wall_seconds": 0.008944250002969056
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:3:0",
+    "wall_seconds": 0.006059209001250565
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:3:1",
+    "wall_seconds": 0.006828000012319535
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:4:0",
+    "wall_seconds": 0.006051542004570365
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:4:1",
+    "wall_seconds": 0.006641416985075921
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:5:0",
+    "wall_seconds": 0.007450916978996247
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:5:1",
+    "wall_seconds": 0.0022640000097453594
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:6:0",
+    "wall_seconds": 0.012260832998435944
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:6:1",
+    "wall_seconds": 0.0066394159803166986
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:7:0",
+    "wall_seconds": 0.006180291995406151
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:7:1",
+    "wall_seconds": 0.008358458988368511
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:8:0",
+    "wall_seconds": 0.005070084007456899
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:8:1",
+    "wall_seconds": 0.0039735829923301935
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:9:0",
+    "wall_seconds": 0.005287709005642682
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:9:1",
+    "wall_seconds": 0.0012766249710693955
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:10:0",
+    "wall_seconds": 0.0011743340292014182
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:10:1",
+    "wall_seconds": 0.006014083977788687
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:11:0",
+    "wall_seconds": 0.0014163749874569476
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:11:1",
+    "wall_seconds": 0.0017467500292696059
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:12:0",
+    "wall_seconds": 0.006387000030372292
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:12:1",
+    "wall_seconds": 0.00423895800486207
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:13:0",
+    "wall_seconds": 0.004460332973394543
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:13:1",
+    "wall_seconds": 0.007163749949540943
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:14:0",
+    "wall_seconds": 0.001471125055104494
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:14:1",
+    "wall_seconds": 0.0010630000033415854
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:15:0",
+    "wall_seconds": 0.0036938749835826457
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:15:1",
+    "wall_seconds": 0.004449375031981617
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:16:0",
+    "wall_seconds": 0.006550082995090634
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:16:1",
+    "wall_seconds": 0.004327958973590285
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:17:0",
+    "wall_seconds": 0.004188916995190084
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:17:1",
+    "wall_seconds": 0.007061791024170816
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:18:0",
+    "wall_seconds": 0.005704250012058765
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:18:1",
+    "wall_seconds": 0.0011667500366456807
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:19:0",
+    "wall_seconds": 0.0012985829962417483
+  },
+  {
+    "job_id": "predict-volcanic-eruptions-ingv-oe:19:1",
+    "wall_seconds": 0.004348624963313341
+  },
+  {
+    "job_id": "random-acts-of-pizza:0:0",
+    "wall_seconds": 0.007996375032234937
+  },
+  {
+    "job_id": "random-acts-of-pizza:0:1",
+    "wall_seconds": 0.007624124991707504
+  },
+  {
+    "job_id": "random-acts-of-pizza:1:0",
+    "wall_seconds": 0.009811708005145192
+  },
+  {
+    "job_id": "random-acts-of-pizza:1:1",
+    "wall_seconds": 0.004364708031062037
+  },
+  {
+    "job_id": "random-acts-of-pizza:2:0",
+    "wall_seconds": 0.004061834013555199
+  },
+  {
+    "job_id": "random-acts-of-pizza:2:1",
+    "wall_seconds": 0.005753957957495004
+  },
+  {
+    "job_id": "random-acts-of-pizza:3:0",
+    "wall_seconds": 0.004645625012926757
+  },
+  {
+    "job_id": "random-acts-of-pizza:3:1",
+    "wall_seconds": 0.0057355419849045575
+  },
+  {
+    "job_id": "random-acts-of-pizza:4:0",
+    "wall_seconds": 0.006863749993499368
+  },
+  {
+    "job_id": "random-acts-of-pizza:4:1",
+    "wall_seconds": 0.005685665993951261
+  },
+  {
+    "job_id": "random-acts-of-pizza:5:0",
+    "wall_seconds": 0.0077259590034373105
+  },
+  {
+    "job_id": "random-acts-of-pizza:5:1",
+    "wall_seconds": 0.008263666997663677
+  },
+  {
+    "job_id": "random-acts-of-pizza:6:0",
+    "wall_seconds": 0.023319250030908734
+  },
+  {
+    "job_id": "random-acts-of-pizza:6:1",
+    "wall_seconds": 0.00892337498953566
+  },
+  {
+    "job_id": "random-acts-of-pizza:7:0",
+    "wall_seconds": 0.009911625005770475
+  },
+  {
+    "job_id": "random-acts-of-pizza:7:1",
+    "wall_seconds": 0.012900458998046815
+  },
+  {
+    "job_id": "random-acts-of-pizza:8:0",
+    "wall_seconds": 0.010278458008542657
+  },
+  {
+    "job_id": "random-acts-of-pizza:8:1",
+    "wall_seconds": 0.01150808297097683
+  },
+  {
+    "job_id": "random-acts-of-pizza:9:0",
+    "wall_seconds": 0.002095457981340587
+  },
+  {
+    "job_id": "random-acts-of-pizza:9:1",
+    "wall_seconds": 0.0024777919752523303
+  },
+  {
+    "job_id": "random-acts-of-pizza:10:0",
+    "wall_seconds": 0.017986707971431315
+  },
+  {
+    "job_id": "random-acts-of-pizza:10:1",
+    "wall_seconds": 0.021859249973203987
+  },
+  {
+    "job_id": "random-acts-of-pizza:11:0",
+    "wall_seconds": 0.005483625049237162
+  },
+  {
+    "job_id": "random-acts-of-pizza:11:1",
+    "wall_seconds": 0.00786091695772484
+  },
+  {
+    "job_id": "random-acts-of-pizza:12:0",
+    "wall_seconds": 0.006977999990340322
+  },
+  {
+    "job_id": "random-acts-of-pizza:12:1",
+    "wall_seconds": 0.006929374998435378
+  },
+  {
+    "job_id": "random-acts-of-pizza:13:0",
+    "wall_seconds": 0.00458554201759398
+  },
+  {
+    "job_id": "random-acts-of-pizza:13:1",
+    "wall_seconds": 0.007282832986675203
+  },
+  {
+    "job_id": "random-acts-of-pizza:14:0",
+    "wall_seconds": 0.0036535419640131295
+  },
+  {
+    "job_id": "random-acts-of-pizza:14:1",
+    "wall_seconds": 0.003937124973163009
+  },
+  {
+    "job_id": "random-acts-of-pizza:15:0",
+    "wall_seconds": 0.004660667036660016
+  },
+  {
+    "job_id": "random-acts-of-pizza:15:1",
+    "wall_seconds": 0.0039214169955812395
+  },
+  {
+    "job_id": "random-acts-of-pizza:16:0",
+    "wall_seconds": 0.010980500024743378
+  },
+  {
+    "job_id": "random-acts-of-pizza:16:1",
+    "wall_seconds": 0.008771000022534281
+  },
+  {
+    "job_id": "random-acts-of-pizza:17:0",
+    "wall_seconds": 0.004477540962398052
+  },
+  {
+    "job_id": "random-acts-of-pizza:17:1",
+    "wall_seconds": 0.004228917008731514
+  },
+  {
+    "job_id": "random-acts-of-pizza:18:0",
+    "wall_seconds": 0.0011537919635884464
+  },
+  {
+    "job_id": "random-acts-of-pizza:18:1",
+    "wall_seconds": 0.004861416993662715
+  },
+  {
+    "job_id": "random-acts-of-pizza:19:0",
+    "wall_seconds": 0.007298041949979961
+  },
+  {
+    "job_id": "random-acts-of-pizza:19:1",
+    "wall_seconds": 0.00911800004541874
+  },
+  {
+    "job_id": "spooky-author-identification:0:0",
+    "wall_seconds": 0.007542749983258545
+  },
+  {
+    "job_id": "spooky-author-identification:0:1",
+    "wall_seconds": 0.004779082955792546
+  },
+  {
+    "job_id": "spooky-author-identification:1:0",
+    "wall_seconds": 0.004272291029337794
+  },
+  {
+    "job_id": "spooky-author-identification:1:1",
+    "wall_seconds": 0.003510291047859937
+  },
+  {
+    "job_id": "spooky-author-identification:2:0",
+    "wall_seconds": 0.005780417006462812
+  },
+  {
+    "job_id": "spooky-author-identification:2:1",
+    "wall_seconds": 0.003756500023882836
+  },
+  {
+    "job_id": "spooky-author-identification:3:0",
+    "wall_seconds": 0.005489540984854102
+  },
+  {
+    "job_id": "spooky-author-identification:3:1",
+    "wall_seconds": 0.004994458984583616
+  },
+  {
+    "job_id": "spooky-author-identification:4:0",
+    "wall_seconds": 0.005494582990650088
+  },
+  {
+    "job_id": "spooky-author-identification:4:1",
+    "wall_seconds": 0.003941166040021926
+  },
+  {
+    "job_id": "spooky-author-identification:5:0",
+    "wall_seconds": 0.004028791969176382
+  },
+  {
+    "job_id": "spooky-author-identification:5:1",
+    "wall_seconds": 0.003670375037472695
+  },
+  {
+    "job_id": "spooky-author-identification:6:0",
+    "wall_seconds": 0.004573124984744936
+  },
+  {
+    "job_id": "spooky-author-identification:6:1",
+    "wall_seconds": 0.003653666004538536
+  },
+  {
+    "job_id": "spooky-author-identification:7:0",
+    "wall_seconds": 0.00101500004529953
+  },
+  {
+    "job_id": "spooky-author-identification:7:1",
+    "wall_seconds": 0.0009585419902577996
+  },
+  {
+    "job_id": "spooky-author-identification:8:0",
+    "wall_seconds": 0.004438417032361031
+  },
+  {
+    "job_id": "spooky-author-identification:8:1",
+    "wall_seconds": 0.0050363330519758165
+  },
+  {
+    "job_id": "spooky-author-identification:9:0",
+    "wall_seconds": 0.0032885829568840563
+  },
+  {
+    "job_id": "spooky-author-identification:9:1",
+    "wall_seconds": 0.00682162499288097
+  },
+  {
+    "job_id": "spooky-author-identification:10:0",
+    "wall_seconds": 0.0042591249803081155
+  },
+  {
+    "job_id": "spooky-author-identification:10:1",
+    "wall_seconds": 0.0016074160230346024
+  },
+  {
+    "job_id": "spooky-author-identification:11:0",
+    "wall_seconds": 0.0012687090202234685
+  },
+  {
+    "job_id": "spooky-author-identification:11:1",
+    "wall_seconds": 0.001292541972361505
+  },
+  {
+    "job_id": "spooky-author-identification:12:0",
+    "wall_seconds": 0.006247582961805165
+  },
+  {
+    "job_id": "spooky-author-identification:12:1",
+    "wall_seconds": 0.004562083980999887
+  },
+  {
+    "job_id": "spooky-author-identification:13:0",
+    "wall_seconds": 0.0010567500139586627
+  },
+  {
+    "job_id": "spooky-author-identification:13:1",
+    "wall_seconds": 0.005791625007987022
+  },
+  {
+    "job_id": "spooky-author-identification:14:0",
+    "wall_seconds": 0.004261083027813584
+  },
+  {
+    "job_id": "spooky-author-identification:14:1",
+    "wall_seconds": 0.0038093330222181976
+  },
+  {
+    "job_id": "spooky-author-identification:15:0",
+    "wall_seconds": 0.006155540992040187
+  },
+  {
+    "job_id": "spooky-author-identification:15:1",
+    "wall_seconds": 0.007204207999166101
+  },
+  {
+    "job_id": "spooky-author-identification:16:0",
+    "wall_seconds": 0.00441858300473541
+  },
+  {
+    "job_id": "spooky-author-identification:16:1",
+    "wall_seconds": 0.005715583974961191
+  },
+  {
+    "job_id": "spooky-author-identification:17:0",
+    "wall_seconds": 0.004203209013212472
+  },
+  {
+    "job_id": "spooky-author-identification:17:1",
+    "wall_seconds": 0.005086665973067284
+  },
+  {
+    "job_id": "spooky-author-identification:18:0",
+    "wall_seconds": 0.0014106670278124511
+  },
+  {
+    "job_id": "spooky-author-identification:18:1",
+    "wall_seconds": 0.004313250014092773
+  },
+  {
+    "job_id": "spooky-author-identification:19:0",
+    "wall_seconds": 0.004260250017978251
+  },
+  {
+    "job_id": "spooky-author-identification:19:1",
+    "wall_seconds": 0.00407745799748227
+  },
+  {
+    "job_id": "stanford-covid-vaccine:0:0",
+    "wall_seconds": 0.0044977079960517585
+  },
+  {
+    "job_id": "stanford-covid-vaccine:0:1",
+    "wall_seconds": 0.005825917003676295
+  },
+  {
+    "job_id": "stanford-covid-vaccine:1:0",
+    "wall_seconds": 0.004641749954316765
+  },
+  {
+    "job_id": "stanford-covid-vaccine:1:1",
+    "wall_seconds": 0.004228499950841069
+  },
+  {
+    "job_id": "stanford-covid-vaccine:2:0",
+    "wall_seconds": 0.006067665992304683
+  },
+  {
+    "job_id": "stanford-covid-vaccine:2:1",
+    "wall_seconds": 0.003790999995544553
+  },
+  {
+    "job_id": "stanford-covid-vaccine:3:0",
+    "wall_seconds": 0.006523457996081561
+  },
+  {
+    "job_id": "stanford-covid-vaccine:3:1",
+    "wall_seconds": 0.005142374953720719
+  },
+  {
+    "job_id": "stanford-covid-vaccine:4:0",
+    "wall_seconds": 0.004921332991216332
+  },
+  {
+    "job_id": "stanford-covid-vaccine:4:1",
+    "wall_seconds": 0.005784709006547928
+  },
+  {
+    "job_id": "stanford-covid-vaccine:5:0",
+    "wall_seconds": 0.004001791006885469
+  },
+  {
+    "job_id": "stanford-covid-vaccine:5:1",
+    "wall_seconds": 0.005843250022735447
+  },
+  {
+    "job_id": "stanford-covid-vaccine:6:0",
+    "wall_seconds": 0.0064382090349681675
+  },
+  {
+    "job_id": "stanford-covid-vaccine:6:1",
+    "wall_seconds": 0.004292249970603734
+  },
+  {
+    "job_id": "stanford-covid-vaccine:7:0",
+    "wall_seconds": 0.0012993330019526184
+  },
+  {
+    "job_id": "stanford-covid-vaccine:7:1",
+    "wall_seconds": 0.0013923749793320894
+  },
+  {
+    "job_id": "stanford-covid-vaccine:8:0",
+    "wall_seconds": 0.005637999973259866
+  },
+  {
+    "job_id": "stanford-covid-vaccine:8:1",
+    "wall_seconds": 0.0048315420281142
+  },
+  {
+    "job_id": "stanford-covid-vaccine:9:0",
+    "wall_seconds": 0.0014804169768467546
+  },
+  {
+    "job_id": "stanford-covid-vaccine:9:1",
+    "wall_seconds": 0.004811250022612512
+  },
+  {
+    "job_id": "stanford-covid-vaccine:10:0",
+    "wall_seconds": 0.0014644580078311265
+  },
+  {
+    "job_id": "stanford-covid-vaccine:10:1",
+    "wall_seconds": 0.001785250031389296
+  },
+  {
+    "job_id": "stanford-covid-vaccine:11:0",
+    "wall_seconds": 0.0012398749822750688
+  },
+  {
+    "job_id": "stanford-covid-vaccine:11:1",
+    "wall_seconds": 0.001259665994439274
+  },
+  {
+    "job_id": "stanford-covid-vaccine:12:0",
+    "wall_seconds": 0.001084832998458296
+  },
+  {
+    "job_id": "stanford-covid-vaccine:12:1",
+    "wall_seconds": 0.005492207943461835
+  },
+  {
+    "job_id": "stanford-covid-vaccine:13:0",
+    "wall_seconds": 0.0050760830054059625
+  },
+  {
+    "job_id": "stanford-covid-vaccine:13:1",
+    "wall_seconds": 0.001303124998230487
+  },
+  {
+    "job_id": "stanford-covid-vaccine:14:0",
+    "wall_seconds": 0.005201708001550287
+  },
+  {
+    "job_id": "stanford-covid-vaccine:14:1",
+    "wall_seconds": 0.006722791003994644
+  },
+  {
+    "job_id": "stanford-covid-vaccine:15:0",
+    "wall_seconds": 0.004620167019311339
+  },
+  {
+    "job_id": "stanford-covid-vaccine:15:1",
+    "wall_seconds": 0.005660166963934898
+  },
+  {
+    "job_id": "stanford-covid-vaccine:16:0",
+    "wall_seconds": 0.004945790977217257
+  },
+  {
+    "job_id": "stanford-covid-vaccine:16:1",
+    "wall_seconds": 0.006742750003468245
+  },
+  {
+    "job_id": "stanford-covid-vaccine:17:0",
+    "wall_seconds": 0.00513562501873821
+  },
+  {
+    "job_id": "stanford-covid-vaccine:17:1",
+    "wall_seconds": 0.0046001250157132745
+  },
+  {
+    "job_id": "stanford-covid-vaccine:18:0",
+    "wall_seconds": 0.0069937920197844505
+  },
+  {
+    "job_id": "stanford-covid-vaccine:18:1",
+    "wall_seconds": 0.00537712499499321
+  },
+  {
+    "job_id": "stanford-covid-vaccine:19:0",
+    "wall_seconds": 0.00666929199360311
+  },
+  {
+    "job_id": "stanford-covid-vaccine:19:1",
+    "wall_seconds": 0.005656082998029888
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:0:0",
+    "wall_seconds": 0.0012489999644458294
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:0:1",
+    "wall_seconds": 0.00460741703864187
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:1:0",
+    "wall_seconds": 0.004134208022151142
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:1:1",
+    "wall_seconds": 0.005058957962319255
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:2:0",
+    "wall_seconds": 0.004280709021259099
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:2:1",
+    "wall_seconds": 0.00443391699809581
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:3:0",
+    "wall_seconds": 0.0064399580005556345
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:3:1",
+    "wall_seconds": 0.004122000013012439
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:4:0",
+    "wall_seconds": 0.004914791032206267
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:4:1",
+    "wall_seconds": 0.005774207995273173
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:5:0",
+    "wall_seconds": 0.0046678329817950726
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:5:1",
+    "wall_seconds": 0.004360750026535243
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:6:0",
+    "wall_seconds": 0.003834832983557135
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:6:1",
+    "wall_seconds": 0.005818750010803342
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:7:0",
+    "wall_seconds": 0.009044000005815178
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:7:1",
+    "wall_seconds": 0.007503125001676381
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:8:0",
+    "wall_seconds": 0.005875416973140091
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:8:1",
+    "wall_seconds": 0.003794124990236014
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:9:0",
+    "wall_seconds": 0.0011545420275069773
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:9:1",
+    "wall_seconds": 0.0010263750446029007
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:10:0",
+    "wall_seconds": 0.0010924999951384962
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:10:1",
+    "wall_seconds": 0.0035757909645326436
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:11:0",
+    "wall_seconds": 0.004811165970750153
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:11:1",
+    "wall_seconds": 0.003402917005587369
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:12:0",
+    "wall_seconds": 0.003990333003457636
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:12:1",
+    "wall_seconds": 0.003644040960352868
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:13:0",
+    "wall_seconds": 0.006784832978155464
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:13:1",
+    "wall_seconds": 0.006221790972631425
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:14:0",
+    "wall_seconds": 0.004075625038240105
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:14:1",
+    "wall_seconds": 0.0011468330048955977
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:15:0",
+    "wall_seconds": 0.005782834021374583
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:15:1",
+    "wall_seconds": 0.008632291981484741
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:16:0",
+    "wall_seconds": 0.007916957954876125
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:16:1",
+    "wall_seconds": 0.005984165996778756
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:17:0",
+    "wall_seconds": 0.003953208040911704
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:17:1",
+    "wall_seconds": 0.00556666700867936
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:18:0",
+    "wall_seconds": 0.0072355419979430735
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:18:1",
+    "wall_seconds": 0.007223875029012561
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:19:0",
+    "wall_seconds": 0.001097917032893747
+  },
+  {
+    "job_id": "statoil-iceberg-classifier-challenge:19:1",
+    "wall_seconds": 0.006917166989296675
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:0:0",
+    "wall_seconds": 0.006089292000979185
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:0:1",
+    "wall_seconds": 0.004763584001921117
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:1:0",
+    "wall_seconds": 0.005537749966606498
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:1:1",
+    "wall_seconds": 0.008425624982919544
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:2:0",
+    "wall_seconds": 0.005776916979812086
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:2:1",
+    "wall_seconds": 0.006251416984014213
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:3:0",
+    "wall_seconds": 0.006086292036343366
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:3:1",
+    "wall_seconds": 0.0037309170002117753
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:4:0",
+    "wall_seconds": 0.0060682090115733445
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:4:1",
+    "wall_seconds": 0.011141250026412308
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:5:0",
+    "wall_seconds": 0.004401624959427863
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:5:1",
+    "wall_seconds": 0.004826916032470763
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:6:0",
+    "wall_seconds": 0.005381624971050769
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:6:1",
+    "wall_seconds": 0.006021708017215133
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:7:0",
+    "wall_seconds": 0.005922208016272634
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:7:1",
+    "wall_seconds": 0.004290791985113174
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:8:0",
+    "wall_seconds": 0.005164458998478949
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:8:1",
+    "wall_seconds": 0.00429016601992771
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:9:0",
+    "wall_seconds": 0.0056761669693514705
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:9:1",
+    "wall_seconds": 0.007791083015035838
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:10:0",
+    "wall_seconds": 0.007579584023915231
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:10:1",
+    "wall_seconds": 0.008312750025652349
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:11:0",
+    "wall_seconds": 0.00705416698474437
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:11:1",
+    "wall_seconds": 0.00576870801160112
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:12:0",
+    "wall_seconds": 0.009068917017430067
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:12:1",
+    "wall_seconds": 0.005682500021066517
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:13:0",
+    "wall_seconds": 0.0010980420047417283
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:13:1",
+    "wall_seconds": 0.0009345000144094229
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:14:0",
+    "wall_seconds": 0.00626837502932176
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:14:1",
+    "wall_seconds": 0.006189249979797751
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:15:0",
+    "wall_seconds": 0.009547166991978884
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:15:1",
+    "wall_seconds": 0.008585291972849518
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:16:0",
+    "wall_seconds": 0.006819625035859644
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:16:1",
+    "wall_seconds": 0.006197082984726876
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:17:0",
+    "wall_seconds": 0.00760124996304512
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:17:1",
+    "wall_seconds": 0.006536125030834228
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:18:0",
+    "wall_seconds": 0.004430999979376793
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:18:1",
+    "wall_seconds": 0.0035414579906500876
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:19:0",
+    "wall_seconds": 0.005871166998986155
+  },
+  {
+    "job_id": "tabular-playground-series-dec-2021:19:1",
+    "wall_seconds": 0.007203416025731713
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:0:0",
+    "wall_seconds": 0.009462582995183766
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:0:1",
+    "wall_seconds": 0.008218541974201798
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:1:0",
+    "wall_seconds": 0.00779058295302093
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:1:1",
+    "wall_seconds": 0.00776033301372081
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:2:0",
+    "wall_seconds": 0.005859291995875537
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:2:1",
+    "wall_seconds": 0.005069834005553275
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:3:0",
+    "wall_seconds": 0.00855212501483038
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:3:1",
+    "wall_seconds": 0.006781333009712398
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:4:0",
+    "wall_seconds": 0.007848790963180363
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:4:1",
+    "wall_seconds": 0.007395166961941868
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:5:0",
+    "wall_seconds": 0.007129166973754764
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:5:1",
+    "wall_seconds": 0.01208095799665898
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:6:0",
+    "wall_seconds": 0.007451875018887222
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:6:1",
+    "wall_seconds": 0.008334124984685332
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:7:0",
+    "wall_seconds": 0.009159832959994674
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:7:1",
+    "wall_seconds": 0.009014874987769872
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:8:0",
+    "wall_seconds": 0.004493082989938557
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:8:1",
+    "wall_seconds": 0.00480495800729841
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:9:0",
+    "wall_seconds": 0.006543249997776002
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:9:1",
+    "wall_seconds": 0.008235834015067667
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:10:0",
+    "wall_seconds": 0.007502584019675851
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:10:1",
+    "wall_seconds": 0.008730750007089227
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:11:0",
+    "wall_seconds": 0.011427833000198007
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:11:1",
+    "wall_seconds": 0.009963916963897645
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:12:0",
+    "wall_seconds": 0.006988540990278125
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:12:1",
+    "wall_seconds": 0.008592792029958218
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:13:0",
+    "wall_seconds": 0.007567542023025453
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:13:1",
+    "wall_seconds": 0.007885041006375104
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:14:0",
+    "wall_seconds": 0.006075875018723309
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:14:1",
+    "wall_seconds": 0.007120124995708466
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:15:0",
+    "wall_seconds": 0.005372500047087669
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:15:1",
+    "wall_seconds": 0.0038531659520231187
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:16:0",
+    "wall_seconds": 0.007790167001076043
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:16:1",
+    "wall_seconds": 0.00781399995321408
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:17:0",
+    "wall_seconds": 0.005777249985840172
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:17:1",
+    "wall_seconds": 0.009058415947947651
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:18:0",
+    "wall_seconds": 0.005424124945420772
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:18:1",
+    "wall_seconds": 0.004387958033476025
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:19:0",
+    "wall_seconds": 0.006969292007852346
+  },
+  {
+    "job_id": "tensorflow-speech-recognition-challenge:19:1",
+    "wall_seconds": 0.0065453340066596866
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:0:0",
+    "wall_seconds": 0.0062934160232543945
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:0:1",
+    "wall_seconds": 0.00755433295853436
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:1:0",
+    "wall_seconds": 0.004892874974757433
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:1:1",
+    "wall_seconds": 0.004573207988869399
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:2:0",
+    "wall_seconds": 0.006029458018019795
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:2:1",
+    "wall_seconds": 0.004363249987363815
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:3:0",
+    "wall_seconds": 0.00412683398462832
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:3:1",
+    "wall_seconds": 0.005140041990671307
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:4:0",
+    "wall_seconds": 0.004550624988041818
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:4:1",
+    "wall_seconds": 0.003919125010725111
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:5:0",
+    "wall_seconds": 0.009075333015061915
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:5:1",
+    "wall_seconds": 0.006401874998118728
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:6:0",
+    "wall_seconds": 0.01293145801173523
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:6:1",
+    "wall_seconds": 0.053897582984063774
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:7:0",
+    "wall_seconds": 0.049816375016234815
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:7:1",
+    "wall_seconds": 0.007498042017687112
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:8:0",
+    "wall_seconds": 0.010910624987445772
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:8:1",
+    "wall_seconds": 0.015153167012613267
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:9:0",
+    "wall_seconds": 0.02522108401171863
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:9:1",
+    "wall_seconds": 0.02092495799297467
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:10:0",
+    "wall_seconds": 0.011294832977000624
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:10:1",
+    "wall_seconds": 0.010304207971785218
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:11:0",
+    "wall_seconds": 0.008272417006082833
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:11:1",
+    "wall_seconds": 0.006426666979677975
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:12:0",
+    "wall_seconds": 0.008379375038202852
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:12:1",
+    "wall_seconds": 0.007651916006579995
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:13:0",
+    "wall_seconds": 0.001785125001333654
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:13:1",
+    "wall_seconds": 0.006202791992109269
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:14:0",
+    "wall_seconds": 0.009241666994057596
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:14:1",
+    "wall_seconds": 0.010010792000684887
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:15:0",
+    "wall_seconds": 0.005006416991818696
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:15:1",
+    "wall_seconds": 0.0051915840012952685
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:16:0",
+    "wall_seconds": 0.004495833010878414
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:16:1",
+    "wall_seconds": 0.0014787089894525707
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:17:0",
+    "wall_seconds": 0.009608209016732872
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:17:1",
+    "wall_seconds": 0.0053107080166228116
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:18:0",
+    "wall_seconds": 0.00619433302199468
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:18:1",
+    "wall_seconds": 0.0067111250245943666
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:19:0",
+    "wall_seconds": 0.006283707974944264
+  },
+  {
+    "job_id": "tgs-salt-identification-challenge:19:1",
+    "wall_seconds": 0.004802208044566214
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:0:0",
+    "wall_seconds": 0.011122042022179812
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:0:1",
+    "wall_seconds": 0.008028290991205722
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:1:0",
+    "wall_seconds": 0.010310250043403357
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:1:1",
+    "wall_seconds": 0.007674709020648152
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:2:0",
+    "wall_seconds": 0.010201541997957975
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:2:1",
+    "wall_seconds": 0.013431917002890259
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:3:0",
+    "wall_seconds": 0.011895000003278255
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:3:1",
+    "wall_seconds": 0.006379332975484431
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:4:0",
+    "wall_seconds": 0.009117083973251283
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:4:1",
+    "wall_seconds": 0.007776458980515599
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:5:0",
+    "wall_seconds": 0.01082512503489852
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:5:1",
+    "wall_seconds": 0.01053012500051409
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:6:0",
+    "wall_seconds": 0.007564583036582917
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:6:1",
+    "wall_seconds": 0.008029166026972234
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:7:0",
+    "wall_seconds": 0.009765250026248395
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:7:1",
+    "wall_seconds": 0.013307041022926569
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:8:0",
+    "wall_seconds": 0.00927683396730572
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:8:1",
+    "wall_seconds": 0.009807375026866794
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:9:0",
+    "wall_seconds": 0.007252792012877762
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:9:1",
+    "wall_seconds": 0.007841165992431343
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:10:0",
+    "wall_seconds": 0.006482041964773089
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:10:1",
+    "wall_seconds": 0.006990083027631044
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:11:0",
+    "wall_seconds": 0.009041291021276265
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:11:1",
+    "wall_seconds": 0.008608624979387969
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:12:0",
+    "wall_seconds": 0.006192124972585589
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:12:1",
+    "wall_seconds": 0.00615433300845325
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:13:0",
+    "wall_seconds": 0.007265333028044552
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:13:1",
+    "wall_seconds": 0.008632790995761752
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:14:0",
+    "wall_seconds": 0.006196499976795167
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:14:1",
+    "wall_seconds": 0.0077632920001633465
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:15:0",
+    "wall_seconds": 0.006595125014428049
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:15:1",
+    "wall_seconds": 0.008344125002622604
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:16:0",
+    "wall_seconds": 0.009530291019473225
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:16:1",
+    "wall_seconds": 0.014681082975585014
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:17:0",
+    "wall_seconds": 0.03424958296818659
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:17:1",
+    "wall_seconds": 0.01693308399990201
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:18:0",
+    "wall_seconds": 0.015273583005182445
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:18:1",
+    "wall_seconds": 0.019091290945652872
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:19:0",
+    "wall_seconds": 0.014501792029477656
+  },
+  {
+    "job_id": "the-icml-2013-whale-challenge-right-whale-redux:19:1",
+    "wall_seconds": 0.012403750035446137
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:0:0",
+    "wall_seconds": 0.00874991697492078
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:0:1",
+    "wall_seconds": 0.011465290968772024
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:1:0",
+    "wall_seconds": 0.007562874990981072
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:1:1",
+    "wall_seconds": 0.00864037498831749
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:2:0",
+    "wall_seconds": 0.00846312497742474
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:2:1",
+    "wall_seconds": 0.005980707996059209
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:3:0",
+    "wall_seconds": 0.006526915996801108
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:3:1",
+    "wall_seconds": 0.008803625009022653
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:4:0",
+    "wall_seconds": 0.01039595901966095
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:4:1",
+    "wall_seconds": 0.008482666045892984
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:5:0",
+    "wall_seconds": 0.006876625004224479
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:5:1",
+    "wall_seconds": 0.007944207987748086
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:6:0",
+    "wall_seconds": 0.00650516600580886
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:6:1",
+    "wall_seconds": 0.008711125003173947
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:7:0",
+    "wall_seconds": 0.007303791993763298
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:7:1",
+    "wall_seconds": 0.007761166023556143
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:8:0",
+    "wall_seconds": 0.007100209011696279
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:8:1",
+    "wall_seconds": 0.006809625017922372
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:9:0",
+    "wall_seconds": 0.0091829999582842
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:9:1",
+    "wall_seconds": 0.007100582995917648
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:10:0",
+    "wall_seconds": 0.011042417027056217
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:10:1",
+    "wall_seconds": 0.010107334004715085
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:11:0",
+    "wall_seconds": 0.010736208001617342
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:11:1",
+    "wall_seconds": 0.010642207984346896
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:12:0",
+    "wall_seconds": 0.007757042010780424
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:12:1",
+    "wall_seconds": 0.007521959021687508
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:13:0",
+    "wall_seconds": 0.007115999993402511
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:13:1",
+    "wall_seconds": 0.0077444170019589365
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:14:0",
+    "wall_seconds": 0.0071889160317368805
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:14:1",
+    "wall_seconds": 0.007320125005207956
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:15:0",
+    "wall_seconds": 0.011080958996899426
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:15:1",
+    "wall_seconds": 0.008049750002101064
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:16:0",
+    "wall_seconds": 0.0072619999991729856
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:16:1",
+    "wall_seconds": 0.0075381670030765235
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:17:0",
+    "wall_seconds": 0.00967416597995907
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:17:1",
+    "wall_seconds": 0.009646833001170307
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:18:0",
+    "wall_seconds": 0.008591083984356374
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:18:1",
+    "wall_seconds": 0.01051962497876957
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:19:0",
+    "wall_seconds": 0.0064334169728681445
+  },
+  {
+    "job_id": "tweet-sentiment-extraction:19:1",
+    "wall_seconds": 0.006232582964003086
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:0:0",
+    "wall_seconds": 0.0012855000095441937
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:0:1",
+    "wall_seconds": 0.0009583749924786389
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:1:0",
+    "wall_seconds": 0.0012263329699635506
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:1:1",
+    "wall_seconds": 0.0008970840135589242
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:2:0",
+    "wall_seconds": 0.00104750000173226
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:2:1",
+    "wall_seconds": 0.0009114580461755395
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:3:0",
+    "wall_seconds": 0.004335624980740249
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:3:1",
+    "wall_seconds": 0.00332866603275761
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:4:0",
+    "wall_seconds": 0.004101875005289912
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:4:1",
+    "wall_seconds": 0.003509083006065339
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:5:0",
+    "wall_seconds": 0.0034827079507522285
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:5:1",
+    "wall_seconds": 0.003187833004631102
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:6:0",
+    "wall_seconds": 0.001738541992381215
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:6:1",
+    "wall_seconds": 0.000925124972127378
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:7:0",
+    "wall_seconds": 0.000799959001597017
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:7:1",
+    "wall_seconds": 0.000856707978527993
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:8:0",
+    "wall_seconds": 0.00466720899567008
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:8:1",
+    "wall_seconds": 0.0038373330025933683
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:9:0",
+    "wall_seconds": 0.0009870000067166984
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:9:1",
+    "wall_seconds": 0.0010048749973066151
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:10:0",
+    "wall_seconds": 0.004477708018384874
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:10:1",
+    "wall_seconds": 0.003776666009798646
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:11:0",
+    "wall_seconds": 0.0038459589704871178
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:11:1",
+    "wall_seconds": 0.0037412079982459545
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:12:0",
+    "wall_seconds": 0.00369579199468717
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:12:1",
+    "wall_seconds": 0.005598332965746522
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:13:0",
+    "wall_seconds": 0.004202832991722971
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:13:1",
+    "wall_seconds": 0.0035083750262856483
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:14:0",
+    "wall_seconds": 0.0010710839997045696
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:14:1",
+    "wall_seconds": 0.0009442499722354114
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:15:0",
+    "wall_seconds": 0.006706540996674448
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:15:1",
+    "wall_seconds": 0.004195665998850018
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:16:0",
+    "wall_seconds": 0.0035666250041686
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:16:1",
+    "wall_seconds": 0.004044667002744973
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:17:0",
+    "wall_seconds": 0.0012347500305622816
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:17:1",
+    "wall_seconds": 0.0010524169774726033
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:18:0",
+    "wall_seconds": 0.0009688750142231584
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:18:1",
+    "wall_seconds": 0.0009143330389633775
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:19:0",
+    "wall_seconds": 0.0035068329889327288
+  },
+  {
+    "job_id": "us-patent-phrase-to-phrase-matching:19:1",
+    "wall_seconds": 0.0030164580093696713
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:0:0",
+    "wall_seconds": 0.0035497909993864596
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:0:1",
+    "wall_seconds": 0.004867457959335297
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:1:0",
+    "wall_seconds": 0.003956583037506789
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:1:1",
+    "wall_seconds": 0.0038167090388014913
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:2:0",
+    "wall_seconds": 0.0013538330094888806
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:2:1",
+    "wall_seconds": 0.003929708036594093
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:3:0",
+    "wall_seconds": 0.0010704169981181622
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:3:1",
+    "wall_seconds": 0.004918499966152012
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:4:0",
+    "wall_seconds": 0.004720458993688226
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:4:1",
+    "wall_seconds": 0.005559874989558011
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:5:0",
+    "wall_seconds": 0.004053334007039666
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:5:1",
+    "wall_seconds": 0.003892958047799766
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:6:0",
+    "wall_seconds": 0.004222666029818356
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:6:1",
+    "wall_seconds": 0.0040332499775104225
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:7:0",
+    "wall_seconds": 0.004494249995332211
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:7:1",
+    "wall_seconds": 0.004122166021261364
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:8:0",
+    "wall_seconds": 0.0046431669616140425
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:8:1",
+    "wall_seconds": 0.004011957964394242
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:9:0",
+    "wall_seconds": 0.004473917011637241
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:9:1",
+    "wall_seconds": 0.0009692079620435834
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:10:0",
+    "wall_seconds": 0.006072208052501082
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:10:1",
+    "wall_seconds": 0.00420662498800084
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:11:0",
+    "wall_seconds": 0.0038313340046443045
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:11:1",
+    "wall_seconds": 0.002004416019190103
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:12:0",
+    "wall_seconds": 0.0042863329872488976
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:12:1",
+    "wall_seconds": 0.003061374998651445
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:13:0",
+    "wall_seconds": 0.003614459012169391
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:13:1",
+    "wall_seconds": 0.0038275839760899544
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:14:0",
+    "wall_seconds": 0.006026999966707081
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:14:1",
+    "wall_seconds": 0.003519416961353272
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:15:0",
+    "wall_seconds": 0.004017625004053116
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:15:1",
+    "wall_seconds": 0.0031676249927841127
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:16:0",
+    "wall_seconds": 0.004204792028758675
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:16:1",
+    "wall_seconds": 0.005066125013399869
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:17:0",
+    "wall_seconds": 0.006064500019419938
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:17:1",
+    "wall_seconds": 0.005054958048276603
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:18:0",
+    "wall_seconds": 0.004236790991853923
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:18:1",
+    "wall_seconds": 0.0010609159944579005
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:19:0",
+    "wall_seconds": 0.004227833007462323
+  },
+  {
+    "job_id": "ventilator-pressure-prediction:19:1",
+    "wall_seconds": 0.0043478329898789525
+  }
+]

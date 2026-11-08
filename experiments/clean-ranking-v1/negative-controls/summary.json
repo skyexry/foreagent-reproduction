@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "matched_steps": 20,
+  "training_label_permutation_batches": 20,
+  "unchanged_validation_labels": true,
+  "predictions_respond_to_training_labels": true,
+  "normal_public_mcrmse": 0.8490437150042274,
+  "shuffled_public_mcrmse": 0.8615375353147856,
+  "blocked_access_probes": [
+    "open:/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tweet-sentiment-extraction/ground_truth/groups_tweet-sentiment-extraction_n2.json",
+    "socket.connect"
+  ],
+  "successful_extra_training_runs": 2,
+  "scope": "LSTM public-data matched-update label-flow check and Python audit probes. This is not an OS sandbox or evidence of final model generalization."
+}

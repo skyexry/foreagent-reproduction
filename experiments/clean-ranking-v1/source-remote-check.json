@@ -1,0 +1,240 @@
+{
+  "method": "HEAD at immutable dataset revision; ETag checked against raw SHA256 or Git blob SHA1; no old experiment results used",
+  "files": [
+    {
+      "task": "aptos2019-blindness-detection",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "17f5001805debff90c6fb1b3c3d7f29ab63d23966325e7ac33efc5c789c4b740",
+      "local_sha256": "17f5001805debff90c6fb1b3c3d7f29ab63d23966325e7ac33efc5c789c4b740",
+      "local_git_blob_sha1": "6a4810f23b83877fa61e8f2818b1c350433abe29",
+      "match": true
+    },
+    {
+      "task": "denoising-dirty-documents",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "75b8804e66fbf30f9cb696dc5d1b38fad4c57a1ff692a7daea642db6fca02072",
+      "local_sha256": "75b8804e66fbf30f9cb696dc5d1b38fad4c57a1ff692a7daea642db6fca02072",
+      "local_git_blob_sha1": "24d7c5caeeb951ef7f5c215f6e3e3a5d315abd32",
+      "match": true
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "a63117729ff354f3709311eeda75dcae0c86c4af",
+      "local_sha256": "34de4fa89de0b4c7c2dcd082bfa5b1dd2bafcd1f60d5f0ea89753b37c1ea0917",
+      "local_git_blob_sha1": "a63117729ff354f3709311eeda75dcae0c86c4af",
+      "match": true
+    },
+    {
+      "task": "dog-breed-identification",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "6ded2a8d9210740480c8199fa5379cff54af3c0b",
+      "local_sha256": "72f9a92bbbdcf3e7791a3ce08f114523b0cfdd38cf4795e83042373305005726",
+      "local_git_blob_sha1": "6ded2a8d9210740480c8199fa5379cff54af3c0b",
+      "match": true
+    },
+    {
+      "task": "google-quest-challenge",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "f9397c1ac721f8ea8424aeaab062f1e4d41d831ad7583c2482cca4e60ac3eba8",
+      "local_sha256": "f9397c1ac721f8ea8424aeaab062f1e4d41d831ad7583c2482cca4e60ac3eba8",
+      "local_git_blob_sha1": "378932b3e1b15334c7222ee535b831d03ba24c8f",
+      "match": true
+    },
+    {
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "8bc87cb59c73c9b345ab61c442f2f065e93ade71",
+      "local_sha256": "1dacc162bff1599e40f61a246b9ae03944c51a40ee9da75d4d3ce220a9a2eae5",
+      "local_git_blob_sha1": "8bc87cb59c73c9b345ab61c442f2f065e93ade71",
+      "match": true
+    },
+    {
+      "task": "leaf-classification",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "78a5fe1755d37c284d2ac96372f36f2dbbaa92bf",
+      "local_sha256": "1fea23aa8af45a1e808c01cb74147bf3314031f1af1a21eb47e5c428331ba54f",
+      "local_git_blob_sha1": "78a5fe1755d37c284d2ac96372f36f2dbbaa92bf",
+      "match": true
+    },
+    {
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "1cfe44c3c372994f6cf8977d66d92eafe193bfec",
+      "local_sha256": "bafcb86fb6e9d44984366830d838d16da4b83e7aa144c95d76009f5c91782958",
+      "local_git_blob_sha1": "1cfe44c3c372994f6cf8977d66d92eafe193bfec",
+      "match": true
+    },
+    {
+      "task": "lmsys-chatbot-arena",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "7431edf2022accfe2a498cf2ce9af318eb0538d63a93b831e66ca0254bd19f9f",
+      "local_sha256": "7431edf2022accfe2a498cf2ce9af318eb0538d63a93b831e66ca0254bd19f9f",
+      "local_git_blob_sha1": "bc45e5282507056111aef2273451b6aa7af93d09",
+      "match": true
+    },
+    {
+      "task": "mlsp-2013-birds",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "59e1cbff934a4e56a68460fcc4e8798b8d6db267f7a091160a310e890dc5ce6e",
+      "local_sha256": "59e1cbff934a4e56a68460fcc4e8798b8d6db267f7a091160a310e890dc5ce6e",
+      "local_git_blob_sha1": "a4e6f8409ab1707c2e82b938da28e85bb1d09e69",
+      "match": true
+    },
+    {
+      "task": "new-york-city-taxi-fare-prediction",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "ccdf5ad9e4bcc932ef579282c29aab16fa2f7b12",
+      "local_sha256": "b734ed23b5f367ebd500295c5cd64eb8f2e0eb98a8fcef03045e4cb37cebba19",
+      "local_git_blob_sha1": "ccdf5ad9e4bcc932ef579282c29aab16fa2f7b12",
+      "match": true
+    },
+    {
+      "task": "nomad2018-predict-transparent-conductors",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "a3e2fcf150e900c4f829d37b69c605c11c7ddc15",
+      "local_sha256": "891a80257be1893ca83a4a567217d3b2e62e48915f6fc185a17c567043ea1349",
+      "local_git_blob_sha1": "a3e2fcf150e900c4f829d37b69c605c11c7ddc15",
+      "match": true
+    },
+    {
+      "task": "petfinder-pawpularity-score",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "e6f3754b7f90375e61c364aa0405b50706b2bbe1",
+      "local_sha256": "6610248aada42b95847967264d971697c8cb76d2cc370a5a13f56eeada9a13cc",
+      "local_git_blob_sha1": "e6f3754b7f90375e61c364aa0405b50706b2bbe1",
+      "match": true
+    },
+    {
+      "task": "plant-pathology-2020-fgvc7",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "7c9b24d1820352dfb27bd7a85f1023016ef6f425",
+      "local_sha256": "5fbff571fe100606a6c7f2d167f649d356ca55de9cee5dd6758618d51e0c15d6",
+      "local_git_blob_sha1": "7c9b24d1820352dfb27bd7a85f1023016ef6f425",
+      "match": true
+    },
+    {
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "729192215dc6088ab0d8a2ada5280857036399306540ff02fa36ab5694cc9a09",
+      "local_sha256": "729192215dc6088ab0d8a2ada5280857036399306540ff02fa36ab5694cc9a09",
+      "local_git_blob_sha1": "d70a0dcea95827f4f8f34c3729c8b5a7fdfa42d4",
+      "match": true
+    },
+    {
+      "task": "random-acts-of-pizza",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "daf44f89e90c395abe7cb270d367d33add024ff9e0f05118bb64ffdd715706fc",
+      "local_sha256": "daf44f89e90c395abe7cb270d367d33add024ff9e0f05118bb64ffdd715706fc",
+      "local_git_blob_sha1": "f8db046d17c5030b8bfec697a33c452865335a36",
+      "match": true
+    },
+    {
+      "task": "spooky-author-identification",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "9530e106fd5b2b8900f7893b947be99fe7bc44681f9ab465b0f1ee80a644b082",
+      "local_sha256": "9530e106fd5b2b8900f7893b947be99fe7bc44681f9ab465b0f1ee80a644b082",
+      "local_git_blob_sha1": "f5cc4c1e56590dab75b0da57d4e24f47c03d095c",
+      "match": true
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "4536e71d795255ec3b558b019cf6b9fdc625eb6fddeb590d7842eb105a684d74",
+      "local_sha256": "4536e71d795255ec3b558b019cf6b9fdc625eb6fddeb590d7842eb105a684d74",
+      "local_git_blob_sha1": "b97aed1860f3108ee636f938283d18c452ec860f",
+      "match": true
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "32916183eb4418c310c7ef69c50f7ebb76cafff22e45b1aaa2dfd0cf87816b5e",
+      "local_sha256": "32916183eb4418c310c7ef69c50f7ebb76cafff22e45b1aaa2dfd0cf87816b5e",
+      "local_git_blob_sha1": "a87ae22e77c9d1b6a7349aa6cf554f1abddff797",
+      "match": true
+    },
+    {
+      "task": "tabular-playground-series-dec-2021",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "ec4942dcaa78fdcb65443cf559d559754aa35d0b",
+      "local_sha256": "15319fb8dca73e588a7a987119d07bf8b4a930929a9b5bda997bb83c486fb17c",
+      "local_git_blob_sha1": "ec4942dcaa78fdcb65443cf559d559754aa35d0b",
+      "match": true
+    },
+    {
+      "task": "tensorflow-speech-recognition-challenge",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "8c7eb046e501353cc42c28b05a242f56c92f8f698df16183196212f161f9d29e",
+      "local_sha256": "8c7eb046e501353cc42c28b05a242f56c92f8f698df16183196212f161f9d29e",
+      "local_git_blob_sha1": "e42dac3019618210d7224a5aa88938bee6f8c9f4",
+      "match": true
+    },
+    {
+      "task": "tgs-salt-identification-challenge",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "9ff53c29d23558ae9d024e1d268f9de42f293e61e844a0429692f34baa457b0a",
+      "local_sha256": "9ff53c29d23558ae9d024e1d268f9de42f293e61e844a0429692f34baa457b0a",
+      "local_git_blob_sha1": "6a5b580b27c13e64c9f5e2a273457fcd52fbb646",
+      "match": true
+    },
+    {
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "da992a8dd90215cf879c8384fb15e7274ff24899",
+      "local_sha256": "cde85aa13df286bb02788969e161bebc5ff48ec3633e9fd98cb6900e443b4d71",
+      "local_git_blob_sha1": "da992a8dd90215cf879c8384fb15e7274ff24899",
+      "match": true
+    },
+    {
+      "task": "tweet-sentiment-extraction",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "b18da4d5807df41be92546fbb23d64524fdaaa6c",
+      "local_sha256": "cf88a832c2d8b4a59b3e8c168bfb315b59caa643f73de381b088e70d99fca9e2",
+      "local_git_blob_sha1": "b18da4d5807df41be92546fbb23d64524fdaaa6c",
+      "match": true
+    },
+    {
+      "task": "us-patent-phrase-to-phrase-matching",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "693b54dcc5ca3d828f54841a66e03ce1393769544eaeb38bc8b16b7459ad16a6",
+      "local_sha256": "693b54dcc5ca3d828f54841a66e03ce1393769544eaeb38bc8b16b7459ad16a6",
+      "local_git_blob_sha1": "f6e7659ae26bcab2986080c7bff856e6b6d7fba6",
+      "match": true
+    },
+    {
+      "task": "ventilator-pressure-prediction",
+      "source_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "remote_commit": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+      "remote_etag": "a538bdb9687a54bf9f52e6c42e4e38835b7ff286a0c8aa58b01fe98a6ae959bb",
+      "local_sha256": "a538bdb9687a54bf9f52e6c42e4e38835b7ff286a0c8aa58b01fe98a6ae959bb",
+      "local_git_blob_sha1": "51d27a7aef5f7473d306a0a3de080efec87c4343",
+      "match": true
+    }
+  ],
+  "status": "passed"
+}

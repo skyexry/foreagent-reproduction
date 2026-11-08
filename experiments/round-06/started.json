@@ -1,0 +1,16 @@
+{
+  "experiment": "round-06",
+  "protocol_commit": "084ad53be4609a2bf0e57c2ac11b97c988f84ef3",
+  "implementation_commit": "68a20ad9205e409fbd1e10437abab4d07587749b",
+  "started_at_utc": "2026-11-07T12:32:04.475569+00:00",
+  "python": "3.12.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "registration": {
+    "protocol.md": "09f67a1e9ab3dbc786be7a89e5c98224aac33fbcc8e9ed06541baa4a607078d6",
+    "protocol.json": "196db393dc5018ac5220acc4c572de1c6842013a889e177ce84d8b30aa1123bd",
+    "jobs.jsonl": "74b224fe8fd87752181b5c9b173a91ebe404974e5ddf010518f2c175c2795ff7"
+  },
+  "control_archive_sha256": "c3130b0484b901d53160ac7c9458aef850f599487a03b3f6d812156ad84cb354",
+  "actual_api_calls": 0,
+  "candidate_training_runs": 0
+}

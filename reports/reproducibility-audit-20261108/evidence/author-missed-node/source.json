@@ -1,0 +1,62 @@
+{
+  "revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "tree_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811?recursive=true&expand=false",
+  "entries": [
+    {
+      "type": "file",
+      "oid": "300c3841c8a8306a498cc65f44ab1fc1280728d1",
+      "size": 17955,
+      "path": "agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/code.py"
+    },
+    {
+      "type": "file",
+      "oid": "13db8a7b6c82cfa04f8691ea41817094f2c4e93c",
+      "size": 646,
+      "path": "agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/eval_output.json"
+    },
+    {
+      "type": "file",
+      "oid": "0552eb713b89cf11e00558d63082f2d3e72855fc",
+      "size": 30136,
+      "path": "agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/metadata.json"
+    },
+    {
+      "type": "file",
+      "oid": "99adf44dd20b18532b4e32c032e3748fe7a2cd88",
+      "size": 623,
+      "path": "agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/plan.txt"
+    },
+    {
+      "type": "file",
+      "oid": "e7196531f34e534c1f1642215b05a3ba015b6e57",
+      "size": 2967275,
+      "path": "agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/submission.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1e6ab3bfa0e55be08661a6f1088ea6282814d007",
+      "size": 62817,
+      "path": "agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/terminal_output.txt"
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/code.py",
+      "file": "code.py",
+      "bytes": 17955,
+      "sha256": "2ae937fff328b3a7bed47d8cbabe02b790306501e517fc83adac267757ab3ca0"
+    },
+    {
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/metadata.json",
+      "file": "metadata.json",
+      "bytes": 30136,
+      "sha256": "5431ce5d582a6666d2530406c377c4e0e8f7babcb69ac7193861c325c81467b0"
+    },
+    {
+      "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/logs/all_nodes/node_95a7c811/submission.csv",
+      "file": "submission.csv",
+      "bytes": 2967275,
+      "sha256": "c4cb4cb32e4f18d0676509fd73d86cb287064ea537630ceecfa83632f318bbe1"
+    }
+  ]
+}

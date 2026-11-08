@@ -1,0 +1,13 @@
+{
+  "tag": "hw3-phase1-v1",
+  "tag_object": {
+    "sha": "b7815c53e0c3ef244f5ab9284eb83eb42d8dbaed",
+    "type": "tag",
+    "url": "https://api.github.com/repos/skyexry/foreagent-reproduction/git/tags/b7815c53e0c3ef244f5ab9284eb83eb42d8dbaed"
+  },
+  "files": 777,
+  "sha256": "c2a5a856b103deb6abcea9d5131611845dde8b09122b1e4498948cfce7e08854",
+  "bytes": 15233374,
+  "source_tree_sha256": "31419d8d5fe0f02a39a02c8b06188296e1a1db7ad02de49c2dccfe8a6e6b7796",
+  "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/hw3-phase1-v1/HW3_Reproduction_Code.zip"
+}

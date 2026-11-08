@@ -1,0 +1,367 @@
+{
+  "audit": "foreagent-review-20261108-v1",
+  "root": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent",
+  "new_model_calls": 0,
+  "candidate_training_runs": 0,
+  "source_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+  "cache_reversal": {
+    "first_winner": "A",
+    "reversed_winner": "B",
+    "backend_calls": 1
+  },
+  "cross_context_cache": {
+    "second_valid": true,
+    "second_confidence": 0.65,
+    "second_threshold": 0.7,
+    "backend_calls": 1
+  },
+  "all_low_confidence": {
+    "records": 294,
+    "backend_calls": 13,
+    "round": 21,
+    "rank_zero_size": 10
+  },
+  "earlier_batch_best": {
+    "journal_best": "A",
+    "last_executed": "B",
+    "saved_code": "incumbent-code",
+    "saved_predictions": "incumbent-predictions"
+  },
+  "stale_submission_presence": {
+    "candidate_wrote_csv": false,
+    "previous_csv_present": true,
+    "postprocess_marks_buggy": false
+  },
+  "failed_prediction_denominator": {
+    "pairs_count": 1,
+    "accuracy_avg": 1.0,
+    "multi_count": 0,
+    "spearman_avg": null,
+    "precision_avg": {}
+  },
+  "live_run": {
+    "nodes": 82,
+    "executed": 22,
+    "good": 13,
+    "buggy": 9,
+    "execution_seconds_sum": 3242.547665119171,
+    "best": "84c79a8dae404c0dae2bcd09d38d9daa",
+    "best_metric": {
+      "value": 0.4378,
+      "maximize": false
+    },
+    "saved_code_equals_best": true,
+    "batches": [
+      {
+        "iteration": 11,
+        "records": 173,
+        "cache_reads": 149,
+        "top_group_size": 2,
+        "executed": [
+          "20912f5a7d5f4bb8ad1d0d9addfb68f3"
+        ],
+        "executed_metric_values": [
+          0.4712
+        ],
+        "all_inconclusive": false
+      },
+      {
+        "iteration": 12,
+        "records": 294,
+        "cache_reads": 281,
+        "top_group_size": 1,
+        "executed": [
+          "5ebaeb5d179a49a78dbf5e30eab0a314"
+        ],
+        "executed_metric_values": [
+          0.4418
+        ],
+        "all_inconclusive": false
+      },
+      {
+        "iteration": 13,
+        "records": 294,
+        "cache_reads": 281,
+        "top_group_size": 1,
+        "executed": [
+          "e228cbb0f1bf449f9b8d8a9275d1408d"
+        ],
+        "executed_metric_values": [
+          null
+        ],
+        "all_inconclusive": false
+      },
+      {
+        "iteration": 15,
+        "records": 294,
+        "cache_reads": 281,
+        "top_group_size": 10,
+        "executed": [
+          "ef8410fce8314a63aea6e1ea76949f2b",
+          "32741c4544b24bfcb668d737bf68229d"
+        ],
+        "executed_metric_values": [
+          null,
+          0.4427
+        ],
+        "all_inconclusive": true
+      },
+      {
+        "iteration": 17,
+        "records": 294,
+        "cache_reads": 281,
+        "top_group_size": 10,
+        "executed": [
+          "ac11dbec040f41e880ddc74f757a1b50",
+          "28f1c25bea35481eb443ef5deca325c4",
+          "0f162e1240ed43bdad97c4fe271f6e44"
+        ],
+        "executed_metric_values": [
+          0.4419,
+          0.4413,
+          0.4397
+        ],
+        "all_inconclusive": true
+      },
+      {
+        "iteration": 18,
+        "records": 198,
+        "cache_reads": 166,
+        "top_group_size": 1,
+        "executed": [
+          "e16dc20948b141078163016f1f7c5db9"
+        ],
+        "executed_metric_values": [
+          0.4417
+        ],
+        "all_inconclusive": false
+      },
+      {
+        "iteration": 19,
+        "records": 294,
+        "cache_reads": 281,
+        "top_group_size": 10,
+        "executed": [
+          "59fc3243c0d049ff865e8b98bcc0b2c8"
+        ],
+        "executed_metric_values": [
+          0.4401
+        ],
+        "all_inconclusive": true
+      }
+    ],
+    "complete_batch_records": 1841,
+    "cache_reads": 1720,
+    "unique_comparison_requests": 121,
+    "safety_exits": 7
+  },
+  "data": {
+    "train": 2160,
+    "test": 240,
+    "id_overlap": 0,
+    "exact_sequence_overlap": 0,
+    "test_columns": [
+      "id",
+      "index",
+      "predicted_loop_type",
+      "seq_length",
+      "seq_scored",
+      "sequence",
+      "structure"
+    ],
+    "train_target_lengths": {
+      "68": 2160
+    },
+    "train_sequence_lengths": {
+      "107": 2160
+    },
+    "train_sn_filter": {
+      "1": 1349,
+      "0": 811
+    }
+  },
+  "pairwise": {
+    "n": 246,
+    "correct": 136,
+    "always_zero_correct": 131,
+    "always_one_correct": 115,
+    "explicit_confidence_ge_07_n": 162,
+    "known_cost_cny": 10.2097816,
+    "unknown_cost_calls": 20
+  },
+  "versions": {
+    "author_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+    "author_blobs_verified": 484,
+    "reproduction_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+    "phase1_tracked_files": 0,
+    "source_manifest_sha256": "bdf1bf53c25b439c7bdaf8adf0bd57a3cbe98dd0a9796a79ddca771e469b5d36"
+  },
+  "historical_checkpoint_scan": [
+    {
+      "run": "aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "b27fcefb61394703af714e82fbcc193d",
+      "journal_best_metric": 0.9999,
+      "last_logged_saved_best": "b27fcefb61394703af714e82fbcc193d",
+      "last_saved_log_line": 7587,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "3cc56b00650f4079bfe3b8dd048e47e5",
+      "journal_best_metric": 1.0,
+      "last_logged_saved_best": "3cc56b00650f4079bfe3b8dd048e47e5",
+      "last_saved_log_line": 10398,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "c212e33de2e149709a1808952638d212",
+      "journal_best_metric": 1.0,
+      "last_logged_saved_best": "c212e33de2e149709a1808952638d212",
+      "last_saved_log_line": 10835,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "5d0d8c81dd4c4c85bf724ed31134e9ed",
+      "journal_best_metric": 0.9921,
+      "last_logged_saved_best": "5d0d8c81dd4c4c85bf724ed31134e9ed",
+      "last_saved_log_line": 5761,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "0aff38c98ec645c3b86685682b9696f1",
+      "journal_best_metric": 0.996026,
+      "last_logged_saved_best": "0aff38c98ec645c3b86685682b9696f1",
+      "last_saved_log_line": 32104,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "cc1a383f427448ac8a082c1e8491e6b5",
+      "journal_best_metric": 0.991558,
+      "last_logged_saved_best": "cc1a383f427448ac8a082c1e8491e6b5",
+      "last_saved_log_line": 46338,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+      "earlier_batch_best_update_miss_conditions": [
+        {
+          "iteration": 20,
+          "best": "95a7c8116b55458ca9b70e1243294453",
+          "last_executed": "700e6affb5594006b61ea196bf3e636a",
+          "best_metric": 0.1583
+        }
+      ],
+      "journal_best": "95a7c8116b55458ca9b70e1243294453",
+      "journal_best_metric": 0.1583,
+      "last_logged_saved_best": "f35059cb7c4249cf9d541ebebd2b327e",
+      "last_saved_log_line": 312469,
+      "final_best_identity_mismatch": true,
+      "last_saved_metric": 0.1645,
+      "best_execution_evidence": [
+        {
+          "line": 450880,
+          "text": "[2025-12-23 10:03:30,089] INFO: Executing candidate (rank=0, Top-1, prob triggered): 95a7c811"
+        },
+        {
+          "line": 451765,
+          "text": "[2025-12-23 10:05:11,357] INFO: Parsed results: Node 95a7c8116b55458ca9b70e1243294453 is not buggy"
+        }
+      ],
+      "log_sha256_decompressed": "6086076e93842ca5510350d405e5160ee7a67d031fb911c09d96db86f9518de4"
+    },
+    {
+      "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "e33a88bdaa804323b1e4ad9845b51859",
+      "journal_best_metric": 0.3054,
+      "last_logged_saved_best": "e33a88bdaa804323b1e4ad9845b51859",
+      "last_saved_log_line": 520846,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "c1e0beac30724c2087d05ae3f323b620",
+      "journal_best_metric": 0.4202,
+      "last_logged_saved_best": "c1e0beac30724c2087d05ae3f323b620",
+      "last_saved_log_line": 503696,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5",
+      "earlier_batch_best_update_miss_conditions": [
+        {
+          "iteration": 19,
+          "best": "9559479fa0004371bdb56026c5c16865",
+          "last_executed": "ff6f1b402e4046f588675bac3191d5a4",
+          "best_metric": 0.1817
+        }
+      ],
+      "journal_best": "2c8b00030f6249c5b4c7298e9c10b314",
+      "journal_best_metric": 0.1739,
+      "last_logged_saved_best": "2c8b00030f6249c5b4c7298e9c10b314",
+      "last_saved_log_line": 351645,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "60c9314efdbd467bb009595b5e769ae3",
+      "journal_best_metric": 0.1226,
+      "last_logged_saved_best": "60c9314efdbd467bb009595b5e769ae3",
+      "last_saved_log_line": 706723,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "a51d38fddc374f118f29dd58127b9732",
+      "journal_best_metric": 0.1912,
+      "last_logged_saved_best": "a51d38fddc374f118f29dd58127b9732",
+      "last_saved_log_line": 435495,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "f09a7fe3dce34ccf99cb5ae9eb7c7af2",
+      "journal_best_metric": 0.2529,
+      "last_logged_saved_best": "f09a7fe3dce34ccf99cb5ae9eb7c7af2",
+      "last_saved_log_line": 74161,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "8f13b6b8fcb545df98c64837e1e1e9f8",
+      "journal_best_metric": 0.6520974564657451,
+      "last_logged_saved_best": "8f13b6b8fcb545df98c64837e1e1e9f8",
+      "last_saved_log_line": 198156,
+      "final_best_identity_mismatch": false
+    },
+    {
+      "run": "ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d",
+      "earlier_batch_best_update_miss_conditions": [],
+      "journal_best": "adfee164d57345d2aac6b2ad9f4d8302",
+      "journal_best_metric": 0.413699,
+      "last_logged_saved_best": "adfee164d57345d2aac6b2ad9f4d8302",
+      "last_saved_log_line": 243579,
+      "final_best_identity_mismatch": false
+    }
+  ],
+  "notes": {
+    "historical_checkpoint_scan": "Step-boundary scan is a diagnostic screen. Final mismatch additionally verifies the minimum/maximum over good journal nodes and last saved-best log event. The published Stanford final identity is independently available in author-final-reference.json.",
+    "all_low_confidence": "Native WorldModel with deterministic constant replies; cached reads are not extra model requests.",
+    "stale_submission_presence": "Native postprocessing check with a previous candidate file; actual occurrence requires artifact tracing."
+  }
+}

@@ -1,0 +1,6 @@
+node_id: 8dce0f8clater
+
+metric: Metric↓(0.7967)
+
+solution:
+real archived model

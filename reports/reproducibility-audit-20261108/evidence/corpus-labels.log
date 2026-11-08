@@ -1,0 +1,1 @@
+{'author_saved_run': {'n': 18438, 'correct': 11312, 'accuracy': 0.6135155656795748}, 'nonfinite_score_pairs': 49, 'nonfinite_labelled_winners': 21, 'correct_on_invalid_pairs': 20, 'finite_pairs_only': {'n': 18389, 'correct': 11292, 'accuracy': 0.6140627549078254}, 'change_pp': 0.05471892282505886, 'reproduction246_affected_indices': []}

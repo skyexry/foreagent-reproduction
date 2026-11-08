@@ -1,0 +1,27 @@
+{
+  "node_id": "0cae1a47later",
+  "step": 3,
+  "stage": "improve",
+  "is_skipped": false,
+  "is_buggy": false,
+  "metric": "Metric\u2193(0.8128)",
+  "analysis": "New smoke predictions independently scored",
+  "parent_id": "initial_trans",
+  "exec_time": 0,
+  "exc_type": null,
+  "wm_predicted_rank": 1,
+  "wm_comparison_results": [
+    {
+      "winner": 0,
+      "confidence": 0.9,
+      "round": 1,
+      "valid": true
+    },
+    {
+      "winner": 0,
+      "confidence": 0.9,
+      "round": 2,
+      "valid": true
+    }
+  ]
+}

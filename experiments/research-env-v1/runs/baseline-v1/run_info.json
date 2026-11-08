@@ -1,0 +1,20 @@
+{
+  "environment_id": "foreagent-selection-replay-v1",
+  "full_population": true,
+  "isolation": {
+    "mode": "trusted_frozen_baseline"
+  },
+  "jobs": 850,
+  "mode": "corrected_tournament",
+  "new_candidate_training_runs": 0,
+  "new_gpu_rentals": 0,
+  "new_model_calls": 0,
+  "policy_sha256": null,
+  "policy_source": null,
+  "protected_manifest_sha256": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+  "python": "3.12.5",
+  "registry_sha256": "c14bff7d545f01892a8109a05d1738821bb165fe34ad90073554ba9a6d21c98a",
+  "scope": "Retrospective offline development: 26 previously inspected tasks; no untouched confirmation/test split claimed.",
+  "selection_wall_seconds": 5.399902083037887,
+  "started_utc": "2026-11-08T10:00:51.230363+00:00"
+}

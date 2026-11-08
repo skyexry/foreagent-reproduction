@@ -1,0 +1,870 @@
+{
+  "tasks": 26,
+  "jobs": 850,
+  "selection_evaluations": 3400,
+  "macro": {
+    "corrected_tournament": {
+      "regret": 0.26416156273452185,
+      "best_hit": 0.2367384004884005,
+      "unique_feedback_reads": 11.208653846153847,
+      "cache_reads": 75.22115384615384,
+      "budget_denials": 2.2490384615384618
+    },
+    "random_pairs": {
+      "regret": 0.27421575532524756,
+      "best_hit": 0.23511217948717947,
+      "unique_feedback_reads": 12.115384615384615,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    },
+    "coverage_random": {
+      "regret": 0.276784831898676,
+      "best_hit": 0.2097275641025641,
+      "unique_feedback_reads": 12.115384615384615,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    },
+    "coverage_decision_sensitive": {
+      "regret": 0.29073112775863713,
+      "best_hit": 0.19270833333333334,
+      "unique_feedback_reads": 12.115384615384615,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    }
+  },
+  "contrasts": {
+    "coverage_decision_sensitive minus corrected_tournament": {
+      "regret": {
+        "delta": 0.02656956502411526,
+        "task_cluster_95": [
+          -0.02393900095501878,
+          0.09881408483800323
+        ],
+        "tasks_better": 11,
+        "tasks_equal": 2,
+        "tasks_worse": 13
+      },
+      "best_hit": {
+        "delta": -0.04403006715506715,
+        "task_cluster_95": [
+          -0.1310111797924298,
+          0.01406436011904762
+        ],
+        "tasks_better": 10,
+        "tasks_equal": 5,
+        "tasks_worse": 11
+      }
+    },
+    "coverage_decision_sensitive minus coverage_random": {
+      "regret": {
+        "delta": 0.013946295859961155,
+        "task_cluster_95": [
+          -0.013541849865816077,
+          0.05146824679189791
+        ],
+        "tasks_better": 12,
+        "tasks_equal": 4,
+        "tasks_worse": 10
+      },
+      "best_hit": {
+        "delta": -0.017019230769230766,
+        "task_cluster_95": [
+          -0.06378245192307691,
+          0.019711939102564097
+        ],
+        "tasks_better": 7,
+        "tasks_equal": 4,
+        "tasks_worse": 15
+      }
+    }
+  },
+  "per_task": {
+    "aptos2019-blindness-detection": {
+      "corrected_tournament": {
+        "regret": 0.39860317905261566,
+        "best_hit": 0.16458333333333333,
+        "unique_feedback_reads": 12.775,
+        "cache_reads": 115.1,
+        "budget_denials": 3.325
+      },
+      "random_pairs": {
+        "regret": 0.3753802644072307,
+        "best_hit": 0.26041666666666663,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.38089718029970865,
+        "best_hit": 0.18125,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.3184262131414184,
+        "best_hit": 0.31124999999999997,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "denoising-dirty-documents": {
+      "corrected_tournament": {
+        "regret": 0.09593622839549755,
+        "best_hit": 0.27708333333333335,
+        "unique_feedback_reads": 12.2,
+        "cache_reads": 65.7,
+        "budget_denials": 1.375
+      },
+      "random_pairs": {
+        "regret": 0.08120650308615031,
+        "best_hit": 0.2945833333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.11192387039393026,
+        "best_hit": 0.20833333333333334,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.10117297942682975,
+        "best_hit": 0.3416666666666667,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "corrected_tournament": {
+        "regret": 0.17815306942807768,
+        "best_hit": 0.13951388888888888,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 210.175,
+        "budget_denials": 9.625
+      },
+      "random_pairs": {
+        "regret": 0.11135938726485346,
+        "best_hit": 0.06833333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.18565736440245192,
+        "best_hit": 0.0975,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.1801542123786444,
+        "best_hit": 0.06999999999999999,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "dog-breed-identification": {
+      "corrected_tournament": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 2.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "random_pairs": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 3.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 3.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 3.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "google-quest-challenge": {
+      "corrected_tournament": {
+        "regret": 0.16132437359080867,
+        "best_hit": 0.23854166666666665,
+        "unique_feedback_reads": 12.65,
+        "cache_reads": 68.475,
+        "budget_denials": 1.7
+      },
+      "random_pairs": {
+        "regret": 0.14333903717315727,
+        "best_hit": 0.21875,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.18133507295361828,
+        "best_hit": 0.22083333333333335,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.1568778479032818,
+        "best_hit": 0.20708333333333334,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "corrected_tournament": {
+        "regret": 0.7684515195369033,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 6.0,
+        "cache_reads": 18.5,
+        "budget_denials": 0.0
+      },
+      "random_pairs": {
+        "regret": 1.0,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 10.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 1.0,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 10.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 1.0,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 10.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "leaf-classification": {
+      "corrected_tournament": {
+        "regret": 0.035472034256078123,
+        "best_hit": 0.08125,
+        "unique_feedback_reads": 12.75,
+        "cache_reads": 91.325,
+        "budget_denials": 2.675
+      },
+      "random_pairs": {
+        "regret": 0.08060298032690905,
+        "best_hit": 0.07583333333333334,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.03279542871531224,
+        "best_hit": 0.13625,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.0396571243576535,
+        "best_hit": 0.1125,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "corrected_tournament": {
+        "regret": 0.17652455894859337,
+        "best_hit": 0.25625,
+        "unique_feedback_reads": 12.825,
+        "cache_reads": 123.8,
+        "budget_denials": 3.8
+      },
+      "random_pairs": {
+        "regret": 0.17154031017409602,
+        "best_hit": 0.20916666666666667,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.1819618442982906,
+        "best_hit": 0.2245833333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.14529615221415446,
+        "best_hit": 0.33333333333333337,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "corrected_tournament": {
+        "regret": 0.07748827244746047,
+        "best_hit": 0.30833333333333335,
+        "unique_feedback_reads": 12.375,
+        "cache_reads": 62.825,
+        "budget_denials": 1.5
+      },
+      "random_pairs": {
+        "regret": 0.1325756511710589,
+        "best_hit": 0.24583333333333335,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.09034647283692204,
+        "best_hit": 0.22083333333333335,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.13981437302947564,
+        "best_hit": 0.14583333333333331,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "mlsp-2013-birds": {
+      "corrected_tournament": {
+        "regret": 0.2570766721301375,
+        "best_hit": 0.075,
+        "unique_feedback_reads": 12.475,
+        "cache_reads": 81.125,
+        "budget_denials": 1.575
+      },
+      "random_pairs": {
+        "regret": 0.3010780178609514,
+        "best_hit": 0.08833333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.3107169181342999,
+        "best_hit": 0.025,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.2615815966776468,
+        "best_hit": 0.03125,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "corrected_tournament": {
+        "regret": 0.12495897297615521,
+        "best_hit": 0.3675,
+        "unique_feedback_reads": 12.175,
+        "cache_reads": 42.875,
+        "budget_denials": 1.375
+      },
+      "random_pairs": {
+        "regret": 0.18386415111565133,
+        "best_hit": 0.2125,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.1072543490718076,
+        "best_hit": 0.24375,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.14076204908612153,
+        "best_hit": 0.25833333333333336,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "corrected_tournament": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 2.0,
+        "cache_reads": 11.0,
+        "budget_denials": 0.0
+      },
+      "random_pairs": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 3.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 3.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 3.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "corrected_tournament": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 10.0,
+        "cache_reads": 27.0,
+        "budget_denials": 0.0
+      },
+      "random_pairs": {
+        "regret": 0.0,
+        "best_hit": 1.0,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.40480289778068423,
+        "best_hit": 0.5,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.8096057955613685,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "corrected_tournament": {
+        "regret": 0.3598891701443525,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 8.5,
+        "cache_reads": 24.0,
+        "budget_denials": 0.0
+      },
+      "random_pairs": {
+        "regret": 0.3598891701443525,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.1697338715194636,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.1697338715194636,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "corrected_tournament": {
+        "regret": 0.5990865775342729,
+        "best_hit": 0.13125,
+        "unique_feedback_reads": 12.6,
+        "cache_reads": 61.0,
+        "budget_denials": 1.225
+      },
+      "random_pairs": {
+        "regret": 0.48009705053462276,
+        "best_hit": 0.18333333333333332,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.559549703964871,
+        "best_hit": 0.14791666666666667,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.6460477584457707,
+        "best_hit": 0.11666666666666667,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "random-acts-of-pizza": {
+      "corrected_tournament": {
+        "regret": 0.37734798620515353,
+        "best_hit": 0.08333333333333334,
+        "unique_feedback_reads": 12.7,
+        "cache_reads": 86.075,
+        "budget_denials": 1.575
+      },
+      "random_pairs": {
+        "regret": 0.3853852561912986,
+        "best_hit": 0.09166666666666666,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.3740310758160371,
+        "best_hit": 0.05416666666666666,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.39092211053266274,
+        "best_hit": 0.03333333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "spooky-author-identification": {
+      "corrected_tournament": {
+        "regret": 0.21612175857239588,
+        "best_hit": 0.1875,
+        "unique_feedback_reads": 12.1,
+        "cache_reads": 50.3,
+        "budget_denials": 1.275
+      },
+      "random_pairs": {
+        "regret": 0.28172070910803526,
+        "best_hit": 0.21666666666666665,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.21413406787156036,
+        "best_hit": 0.20416666666666666,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.19510761987569203,
+        "best_hit": 0.2,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "stanford-covid-vaccine": {
+      "corrected_tournament": {
+        "regret": 0.25084902730767006,
+        "best_hit": 0.0,
+        "unique_feedback_reads": 12.375,
+        "cache_reads": 41.85,
+        "budget_denials": 0.475
+      },
+      "random_pairs": {
+        "regret": 0.21787801266316237,
+        "best_hit": 0.10208333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.17865131314548577,
+        "best_hit": 0.13125,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.20464498076801027,
+        "best_hit": 0.075,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "corrected_tournament": {
+        "regret": 0.2669448910966154,
+        "best_hit": 0.04583333333333333,
+        "unique_feedback_reads": 12.25,
+        "cache_reads": 69.55,
+        "budget_denials": 2.0
+      },
+      "random_pairs": {
+        "regret": 0.29509119729444305,
+        "best_hit": 0.0625,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.30125278390682547,
+        "best_hit": 0.041666666666666664,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.22876162425523053,
+        "best_hit": 0.14666666666666667,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "corrected_tournament": {
+        "regret": 0.33877047852480546,
+        "best_hit": 0.008333333333333333,
+        "unique_feedback_reads": 12.8,
+        "cache_reads": 110.725,
+        "budget_denials": 3.475
+      },
+      "random_pairs": {
+        "regret": 0.3517852515607059,
+        "best_hit": 0.008333333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.32565800000731915,
+        "best_hit": 0.01875,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.29807914356766824,
+        "best_hit": 0.013333333333333332,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "corrected_tournament": {
+        "regret": 0.3762477710634603,
+        "best_hit": 0.09107142857142857,
+        "unique_feedback_reads": 12.925,
+        "cache_reads": 139.925,
+        "budget_denials": 4.225
+      },
+      "random_pairs": {
+        "regret": 0.3568213545773584,
+        "best_hit": 0.06666666666666667,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.36617336124179534,
+        "best_hit": 0.05708333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.39730545449093274,
+        "best_hit": 0.008333333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "corrected_tournament": {
+        "regret": 0.2920377523536649,
+        "best_hit": 0.020833333333333332,
+        "unique_feedback_reads": 12.675,
+        "cache_reads": 75.825,
+        "budget_denials": 2.4
+      },
+      "random_pairs": {
+        "regret": 0.2825117172655465,
+        "best_hit": 0.0625,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.21482681629861874,
+        "best_hit": 0.07291666666666666,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.22651547295068813,
+        "best_hit": 0.07583333333333334,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "corrected_tournament": {
+        "regret": 0.5763107698245301,
+        "best_hit": 0.26083333333333336,
+        "unique_feedback_reads": 12.95,
+        "cache_reads": 173.25,
+        "budget_denials": 7.35
+      },
+      "random_pairs": {
+        "regret": 0.5262757479848744,
+        "best_hit": 0.25,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.48165528498390964,
+        "best_hit": 0.29166666666666663,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.5719668911371607,
+        "best_hit": 0.22083333333333335,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "corrected_tournament": {
+        "regret": 0.7624071273017236,
+        "best_hit": 0.009821428571428571,
+        "unique_feedback_reads": 12.975,
+        "cache_reads": 134.7,
+        "budget_denials": 6.4
+      },
+      "random_pairs": {
+        "regret": 0.7663566282786353,
+        "best_hit": 0.0225,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.7571893516004896,
+        "best_hit": 0.01875,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.7400993639770225,
+        "best_hit": 0.013333333333333332,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "corrected_tournament": {
+        "regret": 0.1026085426425147,
+        "best_hit": 0.1125,
+        "unique_feedback_reads": 11.2,
+        "cache_reads": 24.225,
+        "budget_denials": 0.225
+      },
+      "random_pairs": {
+        "regret": 0.12286379366411142,
+        "best_hit": 0.17708333333333331,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.1436418612625087,
+        "best_hit": 0.12916666666666668,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.11331097048480196,
+        "best_hit": 0.1125,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "corrected_tournament": {
+        "regret": 0.07558989776408127,
+        "best_hit": 0.29583333333333334,
+        "unique_feedback_reads": 12.15,
+        "cache_reads": 46.425,
+        "budget_denials": 0.9
+      },
+      "random_pairs": {
+        "regret": 0.12198744660923182,
+        "best_hit": 0.19583333333333333,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_random": {
+        "regret": 0.12221673885966455,
+        "best_hit": 0.22708333333333336,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "coverage_decision_sensitive": {
+        "regret": 0.08316571594286604,
+        "best_hit": 0.18333333333333332,
+        "unique_feedback_reads": 13.0,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    }
+  },
+  "experiment_id": "clean-ranking-v1",
+  "elapsed_seconds": 8.598759417014662,
+  "historical_results_used": false,
+  "new_model_calls": 0,
+  "new_full_agent_runs": 0,
+  "evaluation_scope": "Fresh jobs and outputs on previously inspected tasks and one frozen author feedback run.",
+  "implementation_lock_sha256": "26d10844abfce2d331a850595cdc19df831c361e429eca09edde340f91852c9f"
+}

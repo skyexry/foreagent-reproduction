@@ -1,0 +1,277 @@
+{
+  "review_id": "foreagent-experimental-design-review-20261108-v1",
+  "sources": {
+    "paper_url": "https://aclanthology.org/2026.acl-long.182.pdf",
+    "paper_sha256": "5152ceb8d6a3ae9211152fba3adead53f91421f584c19cc613665dda13ac1e66",
+    "table13": "PDFp27",
+    "figure4": "PDFp8",
+    "figure7": "PDFp23",
+    "table3": "PDFp7",
+    "table14": "PDFp27",
+    "table15": "PDFp28",
+    "code_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375"
+  },
+  "table13": {
+    "published_precision_task_values": [
+      {
+        "task": "stanford-covid-vaccine",
+        "aide": 1.0,
+        "foreagent": 1.0,
+        "aide_sd": 0.0,
+        "foreagent_sd": 0.0,
+        "delta_pp": 0.0
+      },
+      {
+        "task": "statoil-iceberg-classifier-challenge",
+        "aide": 0.475,
+        "foreagent": 0.531,
+        "aide_sd": 0.161,
+        "foreagent_sd": 0.134,
+        "delta_pp": 5.600000000000005
+      },
+      {
+        "task": "ventilator-pressure-prediction",
+        "aide": 0.308,
+        "foreagent": 0.295,
+        "aide_sd": 0.041,
+        "foreagent_sd": 0.056,
+        "delta_pp": -1.3000000000000012
+      },
+      {
+        "task": "aerial-cactus-identification",
+        "aide": 0.698,
+        "foreagent": 0.877,
+        "aide_sd": 0.157,
+        "foreagent_sd": 0.0,
+        "delta_pp": 17.900000000000006
+      },
+      {
+        "task": "histopathologic-cancer-detection",
+        "aide": 0.992,
+        "foreagent": 0.992,
+        "aide_sd": 0.0,
+        "foreagent_sd": 0.001,
+        "delta_pp": 0.0
+      }
+    ],
+    "mean_from_rounded_task_values": {
+      "aide": 0.6946,
+      "foreagent": 0.739
+    },
+    "mean_difference_pp": 4.440000000000001,
+    "relative_change_from_rounded_task_values": 0.06392168154333429,
+    "cactus_share_of_net_difference": 0.8063063063063062,
+    "leave_cactus_out_difference_pp": 1.075000000000001,
+    "leave_one_task_out_difference_pp": {
+      "stanford-covid-vaccine": 5.5500000000000025,
+      "statoil-iceberg-classifier-challenge": 4.150000000000001,
+      "ventilator-pressure-prediction": 5.875000000000003,
+      "aerial-cactus-identification": 1.075000000000001,
+      "histopathologic-cancer-detection": 5.5500000000000025
+    },
+    "wins_ties_losses_at_published_precision": [
+      2,
+      2,
+      1
+    ],
+    "pooled_15_run_sd_reconstructed_from_rounded_means_and_sample_sds": {
+      "aide": 0.297937625303399,
+      "foreagent": 0.2948253720425025
+    },
+    "sd_status": "Numerically matches displayed aggregate SDs; exact aggregation and mean-effect uncertainty require raw results/analysis code.",
+    "sensitivity_scope": "Leave-one-out is a post-hoc sensitivity check; all five tasks remain in the primary result."
+  },
+  "figure4b": {
+    "foreagent_2h": 0.716,
+    "foreagent_6h": 0.741,
+    "foreagent_12h": 0.739,
+    "aide_12h": 0.695,
+    "later_foreagent_gain_over_2h_pp": 2.500000000000002,
+    "budget_ratio_12h_to_2h": 6,
+    "interpretation": "Observed mean curve supports early attainment of a favorable level. ForeAgent2h is not its own displayed peak. A sixfold matched-target speedup needs target, timestamp, censoring, aggregation and run-level data."
+  },
+  "node_count_aggregation": {
+    "aide_means": [
+      77.33,
+      89.33,
+      14.0,
+      35.67,
+      3.67
+    ],
+    "foreagent_means": [
+      158.67,
+      208.67,
+      59.33,
+      49.33,
+      22.0
+    ],
+    "mean_of_task_ratios": 3.200632694027691,
+    "ratio_of_total_means": 2.2636363636363637,
+    "interpretation": "Both are legitimate estimands with different weighting; generated-node counts need distinct executed/valid/unique quality outcomes."
+  },
+  "ranking_chance_adjustment": {
+    "pair_n2_accuracy": 0.613,
+    "pair_n2_random": 0.5,
+    "pair_excess_pp": 11.3,
+    "list_n5_top1_accuracy": 0.311,
+    "list_n5_random": 0.2,
+    "list_excess_pp": 11.1,
+    "scope": "Different prediction protocols and evaluation subsets; chance adjustment is a caution against interpreting raw accuracy decline as direct proof of deterioration."
+  },
+  "static_confidence": {
+    "threshold": 0.7,
+    "pairs": 10531,
+    "correct": 6885,
+    "accuracy": 0.6537840660905897,
+    "mean_confidence": 0.7362368246130472,
+    "mean_confidence_minus_accuracy_pp": 8.245275852245747,
+    "scope": "One saved static author feedback run; dependent shared candidates; some labels nonfinite in separate audit. Online sibling calibration requires separate evidence."
+  },
+  "corpus": {
+    "tasks": 26,
+    "candidate_count": 895,
+    "pairs": 18438,
+    "per_task": [
+      {
+        "task": "aptos2019-blindness-detection",
+        "candidate_count": 50,
+        "pair_count": 1225
+      },
+      {
+        "task": "denoising-dirty-documents",
+        "candidate_count": 45,
+        "pair_count": 974
+      },
+      {
+        "task": "detecting-insults-in-social-commentary",
+        "candidate_count": 27,
+        "pair_count": 350
+      },
+      {
+        "task": "dog-breed-identification",
+        "candidate_count": 3,
+        "pair_count": 3
+      },
+      {
+        "task": "google-quest-challenge",
+        "candidate_count": 50,
+        "pair_count": 1224
+      },
+      {
+        "task": "jigsaw-toxic-comment-classification-challenge",
+        "candidate_count": 5,
+        "pair_count": 10
+      },
+      {
+        "task": "leaf-classification",
+        "candidate_count": 17,
+        "pair_count": 136
+      },
+      {
+        "task": "learning-agency-lab-automated-essay-scoring-2",
+        "candidate_count": 20,
+        "pair_count": 190
+      },
+      {
+        "task": "lmsys-chatbot-arena",
+        "candidate_count": 50,
+        "pair_count": 1220
+      },
+      {
+        "task": "mlsp-2013-birds",
+        "candidate_count": 50,
+        "pair_count": 1221
+      },
+      {
+        "task": "new-york-city-taxi-fare-prediction",
+        "candidate_count": 30,
+        "pair_count": 429
+      },
+      {
+        "task": "nomad2018-predict-transparent-conductors",
+        "candidate_count": 3,
+        "pair_count": 3
+      },
+      {
+        "task": "petfinder-pawpularity-score",
+        "candidate_count": 30,
+        "pair_count": 239
+      },
+      {
+        "task": "plant-pathology-2020-fgvc7",
+        "candidate_count": 6,
+        "pair_count": 15
+      },
+      {
+        "task": "predict-volcanic-eruptions-ingv-oe",
+        "candidate_count": 50,
+        "pair_count": 1213
+      },
+      {
+        "task": "random-acts-of-pizza",
+        "candidate_count": 50,
+        "pair_count": 1225
+      },
+      {
+        "task": "spooky-author-identification",
+        "candidate_count": 50,
+        "pair_count": 1220
+      },
+      {
+        "task": "stanford-covid-vaccine",
+        "candidate_count": 50,
+        "pair_count": 1222
+      },
+      {
+        "task": "statoil-iceberg-classifier-challenge",
+        "candidate_count": 50,
+        "pair_count": 1223
+      },
+      {
+        "task": "tabular-playground-series-dec-2021",
+        "candidate_count": 24,
+        "pair_count": 275
+      },
+      {
+        "task": "tensorflow-speech-recognition-challenge",
+        "candidate_count": 46,
+        "pair_count": 1011
+      },
+      {
+        "task": "tgs-salt-identification-challenge",
+        "candidate_count": 44,
+        "pair_count": 880
+      },
+      {
+        "task": "the-icml-2013-whale-challenge-right-whale-redux",
+        "candidate_count": 24,
+        "pair_count": 275
+      },
+      {
+        "task": "tweet-sentiment-extraction",
+        "candidate_count": 21,
+        "pair_count": 210
+      },
+      {
+        "task": "us-patent-phrase-to-phrase-matching",
+        "candidate_count": 50,
+        "pair_count": 1223
+      },
+      {
+        "task": "ventilator-pressure-prediction",
+        "candidate_count": 50,
+        "pair_count": 1222
+      }
+    ]
+  },
+  "causal_controls_to_request": [
+    "Same generated sibling pool; random selection vs simple winrate/R7 vs corrected ForeAgent",
+    "Match new pair feedback budget and final selected count; share tie rule",
+    "Hold aggregator fixed when testing adaptive query acquisition",
+    "Same candidate, parent and standardized validation when testing semantic-safeguard mechanism",
+    "Run-level raw results and predeclared common-target timing/censoring",
+    "Independent new tasks after freezing method and tuning budget"
+  ],
+  "new_model_calls": 0,
+  "new_training_runs": 0
+}

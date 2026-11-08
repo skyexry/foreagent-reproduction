@@ -1,0 +1,829 @@
+{
+  "scope": "posthoc diagnostic; main results retain all tasks",
+  "results": {
+    "corrected_tournament": [
+      {
+        "job": "petfinder-pawpularity-score:0:0",
+        "selected": [
+          "30a2b0bae100ea3fc409"
+        ],
+        "metrics": {
+          "best_hit": 1.0,
+          "budget_denials": 0,
+          "cache_reads": 27,
+          "comparison_records": 35,
+          "regret": 0.0,
+          "unique_feedback_reads": 8
+        },
+        "trace": [
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.6,
+            "source_group_index": 23,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 196,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.8,
+            "source_group_index": 224,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 167,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 225,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "30a2b0bae100ea3fc409",
+            "confidence": 0.65,
+            "source_group_index": 237,
+            "winner": null
+          }
+        ]
+      },
+      {
+        "job": "petfinder-pawpularity-score:0:1",
+        "selected": [
+          "30a2b0bae100ea3fc409"
+        ],
+        "metrics": {
+          "best_hit": 1.0,
+          "budget_denials": 0,
+          "cache_reads": 27,
+          "comparison_records": 39,
+          "regret": 0.0,
+          "unique_feedback_reads": 12
+        },
+        "trace": [
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.65,
+            "source_group_index": 237,
+            "winner": null
+          },
+          {
+            "a": "ff5f3ef1e3be2868ebb7",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.55,
+            "source_group_index": 182,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.7,
+            "source_group_index": 24,
+            "winner": "7d76b9022c946238ab49"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "10e00c3203108137fad9",
+            "confidence": 0.7,
+            "source_group_index": 164,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "ff5f3ef1e3be2868ebb7",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.6,
+            "source_group_index": 179,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "10e00c3203108137fad9",
+            "confidence": 0.65,
+            "source_group_index": 149,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 145,
+            "winner": "10e00c3203108137fad9"
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "10e00c3203108137fad9",
+            "confidence": 0.7,
+            "source_group_index": 167,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "ff5f3ef1e3be2868ebb7",
+            "b": "10e00c3203108137fad9",
+            "confidence": 0.0,
+            "source_group_index": 165,
+            "winner": null
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 197,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "30a2b0bae100ea3fc409",
+            "confidence": 0.8,
+            "source_group_index": 55,
+            "winner": "30a2b0bae100ea3fc409"
+          }
+        ]
+      }
+    ],
+    "random_pairs": [
+      {
+        "job": "petfinder-pawpularity-score:0:0",
+        "selected": [
+          "30a2b0bae100ea3fc409"
+        ],
+        "metrics": {
+          "best_hit": 1.0,
+          "budget_denials": 0,
+          "cache_reads": 0,
+          "comparison_records": 13,
+          "regret": 0.0,
+          "unique_feedback_reads": 13
+        },
+        "trace": [
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 167,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.85,
+            "source_group_index": 36,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.0,
+            "source_group_index": 165,
+            "winner": null
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.8,
+            "source_group_index": 55,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "30a2b0bae100ea3fc409",
+            "confidence": 0.7,
+            "source_group_index": 164,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.55,
+            "source_group_index": 182,
+            "winner": null
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 196,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 225,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 145,
+            "winner": "10e00c3203108137fad9"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.65,
+            "source_group_index": 237,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.6,
+            "source_group_index": 179,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.6,
+            "source_group_index": 54,
+            "winner": null
+          }
+        ]
+      },
+      {
+        "job": "petfinder-pawpularity-score:0:1",
+        "selected": [
+          "30a2b0bae100ea3fc409"
+        ],
+        "metrics": {
+          "best_hit": 1.0,
+          "budget_denials": 0,
+          "cache_reads": 0,
+          "comparison_records": 13,
+          "regret": 0.0,
+          "unique_feedback_reads": 13
+        },
+        "trace": [
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "30a2b0bae100ea3fc409",
+            "confidence": 0.7,
+            "source_group_index": 164,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.6,
+            "source_group_index": 183,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 196,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.8,
+            "source_group_index": 55,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 62,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.6,
+            "source_group_index": 179,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 145,
+            "winner": "10e00c3203108137fad9"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.6,
+            "source_group_index": 54,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.7,
+            "source_group_index": 24,
+            "winner": "7d76b9022c946238ab49"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.85,
+            "source_group_index": 36,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.6,
+            "source_group_index": 23,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          }
+        ]
+      }
+    ],
+    "coverage_random": [
+      {
+        "job": "petfinder-pawpularity-score:0:0",
+        "selected": [
+          "30a2b0bae100ea3fc409",
+          "dd7aa56ceedbea97b23b"
+        ],
+        "metrics": {
+          "best_hit": 0.5,
+          "budget_denials": 0,
+          "cache_reads": 0,
+          "comparison_records": 13,
+          "regret": 0.40480289778068423,
+          "unique_feedback_reads": 13
+        },
+        "trace": [
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 145,
+            "winner": "10e00c3203108137fad9"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.85,
+            "source_group_index": 36,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.8,
+            "source_group_index": 55,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.8,
+            "source_group_index": 224,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 197,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.6,
+            "source_group_index": 179,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.7,
+            "source_group_index": 24,
+            "winner": "7d76b9022c946238ab49"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.65,
+            "source_group_index": 149,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "30a2b0bae100ea3fc409",
+            "confidence": 0.7,
+            "source_group_index": 164,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 225,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 196,
+            "winner": "30a2b0bae100ea3fc409"
+          }
+        ]
+      },
+      {
+        "job": "petfinder-pawpularity-score:0:1",
+        "selected": [
+          "30a2b0bae100ea3fc409",
+          "dd7aa56ceedbea97b23b"
+        ],
+        "metrics": {
+          "best_hit": 0.5,
+          "budget_denials": 0,
+          "cache_reads": 0,
+          "comparison_records": 13,
+          "regret": 0.40480289778068423,
+          "unique_feedback_reads": 13
+        },
+        "trace": [
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 225,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.0,
+            "source_group_index": 165,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.55,
+            "source_group_index": 182,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.6,
+            "source_group_index": 23,
+            "winner": null
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.85,
+            "source_group_index": 36,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.6,
+            "source_group_index": 179,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.65,
+            "source_group_index": 149,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.6,
+            "source_group_index": 54,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 62,
+            "winner": null
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 196,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 145,
+            "winner": "10e00c3203108137fad9"
+          }
+        ]
+      }
+    ],
+    "coverage_decision_sensitive": [
+      {
+        "job": "petfinder-pawpularity-score:0:0",
+        "selected": [
+          "dd7aa56ceedbea97b23b"
+        ],
+        "metrics": {
+          "best_hit": 0.0,
+          "budget_denials": 0,
+          "cache_reads": 0,
+          "comparison_records": 13,
+          "regret": 0.8096057955613685,
+          "unique_feedback_reads": 13
+        },
+        "trace": [
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.7,
+            "source_group_index": 145,
+            "winner": "10e00c3203108137fad9"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.85,
+            "source_group_index": 36,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "3a85eeb5d6d606e03051",
+            "confidence": 0.8,
+            "source_group_index": 55,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.8,
+            "source_group_index": 224,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 197,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 225,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 167,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.65,
+            "source_group_index": 237,
+            "winner": null
+          },
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.6,
+            "source_group_index": 183,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.6,
+            "source_group_index": 54,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.55,
+            "source_group_index": 182,
+            "winner": null
+          }
+        ]
+      },
+      {
+        "job": "petfinder-pawpularity-score:0:1",
+        "selected": [
+          "dd7aa56ceedbea97b23b"
+        ],
+        "metrics": {
+          "best_hit": 0.0,
+          "budget_denials": 0,
+          "cache_reads": 0,
+          "comparison_records": 13,
+          "regret": 0.8096057955613685,
+          "unique_feedback_reads": 13
+        },
+        "trace": [
+          {
+            "a": "d3585a491d3319e32f02",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 225,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 150,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.0,
+            "source_group_index": 165,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.55,
+            "source_group_index": 182,
+            "winner": null
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.6,
+            "source_group_index": 23,
+            "winner": null
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "7d76b9022c946238ab49",
+            "confidence": 0.85,
+            "source_group_index": 36,
+            "winner": "30a2b0bae100ea3fc409"
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 167,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "dd7aa56ceedbea97b23b",
+            "b": "ff5f3ef1e3be2868ebb7",
+            "confidence": 0.7,
+            "source_group_index": 197,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "3a85eeb5d6d606e03051",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.8,
+            "source_group_index": 224,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.65,
+            "source_group_index": 237,
+            "winner": null
+          },
+          {
+            "a": "7d76b9022c946238ab49",
+            "b": "dd7aa56ceedbea97b23b",
+            "confidence": 0.7,
+            "source_group_index": 220,
+            "winner": "dd7aa56ceedbea97b23b"
+          },
+          {
+            "a": "30a2b0bae100ea3fc409",
+            "b": "d3585a491d3319e32f02",
+            "confidence": 0.0,
+            "source_group_index": 62,
+            "winner": null
+          },
+          {
+            "a": "10e00c3203108137fad9",
+            "b": "30a2b0bae100ea3fc409",
+            "confidence": 0.7,
+            "source_group_index": 164,
+            "winner": "30a2b0bae100ea3fc409"
+          }
+        ]
+      }
+    ]
+  }
+}

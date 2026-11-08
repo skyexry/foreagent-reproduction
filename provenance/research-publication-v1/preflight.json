@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "protected_inputs_restored": 1182,
+  "second_verification": "passed",
+  "corrupt_archive": "rejected",
+  "existing_changed_file": "preserved and rejected",
+  "hw3_code_package_source_verification": "passed",
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "fresh_environment_status": "passed",
+  "fresh_environment_policy_smoke_jobs": 3,
+  "fresh_smoke_scope": "development subset",
+  "hw3_source_entries_verified": 529
+}

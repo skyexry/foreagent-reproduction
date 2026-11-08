@@ -1,0 +1,136 @@
+{
+  "id": "ai-scientist-readiness-20261108-v1",
+  "date": "2026-11-08",
+  "scope": "Readiness assessment, source inspection, and existing lightweight tests. Integration and proposed experiments remain future work.",
+  "current_research_priority": "C0 correctness and candidate smoke acceptance, followed by comparison allocation with fixed judge and R7 aggregation; reward-model training remains an alternative.",
+  "reusable_evidence": {
+    "online_baseline": "Frozen Stanford single-task, single 12-hour run; independently verified final score 0.2663989312. Historical verification read back, not rerun in this assessment.",
+    "selection_cache_repair": "CacheFixedWorldModel preserves first-query orientation and isolates cache per instance. Full C0 Agent integration remains pending.",
+    "aggregation": "reproduction.round07.methods.evidence_tiebreak_select",
+    "scoring": "scripts.verify_online_baseline.score_by_id and existing offline selection scoring",
+    "corpus": "26 tasks, 895 candidate IDs, 18438 raw pairs; corpus-completion.json records 974 verified source files, 49 nonfinite-score pairs, 47 finite identical-code pairs. Counts read from existing evidence.",
+    "historical_replays": "Fixed pools and saved author judgments provide an offline development substrate; identity stubs and static feedback are explicit adaptations."
+  },
+  "checks_executed": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_online_baseline.py -v",
+      "tests": 5,
+      "status": "passed"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_foreagent_mechanisms.py -v",
+      "tests": 4,
+      "status": "passed",
+      "interpretation": "Pinned original behavior, including known defects; distinct from C0 acceptance."
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_round07.py -v",
+      "tests": 7,
+      "status": "passed"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_foreagent_selection.py -v",
+      "tests": 11,
+      "status": "passed",
+      "interpretation": "Offline selection, partial cache repair and original-behavior controls; distinct from complete online Agent integration."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1",
+      "area": "Correct working baseline",
+      "observed": "C0 implementation and integrated acceptance remain proposed in BASELINE_SHORT_TEST_PLAN.md. Independent scoring and a direction-preserving cache variant already exist.",
+      "acceptance": "Early-best retention, candidate-specific fresh predictions, context/orientation-safe cache and independent scoring pass integrated counterexamples; freeze source/configuration hashes."
+    },
+    {
+      "id": "G2",
+      "area": "Real candidate smoke runs",
+      "observed": "Transformer, LSTM and CNN+LSTM candidates selected; actual shortened training remains pending.",
+      "acceptance": "Three candidates by two seeds on fixed public-data split; finite gradients, parameter changes, independent validation metrics and fresh output binding. Five-second rankings are diagnostics.",
+      "dependency": "Execution-chain acceptance; offline harness preparation can proceed using frozen saved data."
+    },
+    {
+      "id": "G3",
+      "area": "Versioned evaluation population",
+      "observed": "Raw corpus complete; cleaning, duplicate-content treatment, task partitions and new interactive pool protocol remain to be frozen.",
+      "acceptance": "Publish exclusion IDs, content groups, eligible edges, common candidate pools, tie rules and metric denominators. Preserve raw records. Define both content-controlled and original-ID sensitivity views. Treat existing 26 tasks as retrospective development; independent confirmation uses later untouched tasks."
+    },
+    {
+      "id": "G4",
+      "area": "Interactive comparison interface",
+      "observed": "R7 runner consumes previously acquired complete feedback; it does not expose a next-pair query interface. Raw author records also carry groundtruth and must be projected before policy access.",
+      "acceptance": "Policy receives IDs and revealed feedback; trusted gateway returns winner/confidence/validity for requested pairs, meters unique newly revealed pairs, cache reads and attempts, and supplies an external stop at budget. Independent evaluator holds utilities and labels."
+    },
+    {
+      "id": "G5",
+      "area": "Matched experiment and search protocol",
+      "observed": "Current plan proposes random, coverage and active allocation with fixed judge/R7; concrete interactive protocol remains pending.",
+      "acceptance": "Use same pools, seeds, per-pool budgets and total tuning opportunity. Coverage-random and coverage-active share the same initial edge sequence. Report task-macro regret, tie-aware best-hit, graph coverage, failures and budgets. Freeze policy before final evaluation. Saved judgments support first-reveal replay, not fresh stochastic re-queries."
+    },
+    {
+      "id": "G6",
+      "area": "AI Scientist integration",
+      "observed": "Official source inspected; local task adapter and experiment-only runner remain future work. Existing R7 historical runner checks clean Git and archive/registration hashes, so it is not a direct mutable-template entry point.",
+      "acceptance": "Pin upstream revision and isolate its environment; reuse pure selection/scoring functions in a small adapter. Agent edits proposed allocation policy and plots; trusted harness/evaluator and baseline remain outside its writable mount. Keep held-out data and evaluation-only archives outside its readable mount. Validate saved results independently. Enforce aggregate runtime, model-request/token/cost and repair-attempt caps outside prompts; preserve failure logs and full changed-code snapshots. Preflight AI Scientist model client and Aider coder separately with controlled mock responses before budgeted calls."
+    }
+  ],
+  "proposed_minimal_integration": {
+    "status": "proposed; paths and interfaces below describe future implementation",
+    "policy_interface": "choose_pair(candidate_ids, revealed_feedback, remaining_budget, rng) -> (candidate_a, candidate_b)",
+    "experiment_entry": "python experiment.py --out_dir run_i",
+    "fixed_aggregation": "R7 evidence_tiebreak_select after external query budget is exhausted",
+    "treatments": [
+      "random unseen pairs",
+      "coverage prefix then random unseen pairs",
+      "same coverage prefix then active unseen pairs"
+    ],
+    "first_search_scope": "One preregistered candidate allocation rule with a bounded number of revisions on development tasks; baseline runs on the identical evaluation protocol.",
+    "result_adapter": "final_info.json stores metric means compatible with AI Scientist; independent per-pool traces, task summaries, source hashes, budget ledger and failures remain authoritative.",
+    "two_cost_ledgers": "Historical-feedback replay uses zero fresh judge API calls and zero candidate training; the AI Scientist coding/ideation API is a separate billable process.",
+    "stage_order": [
+      "Review and implement C0 corrections and real candidate smoke acceptance",
+      "Prepare the offline query gateway and evaluator using frozen saved data; harness work can be prepared alongside C0",
+      "Freeze common-pool baselines and replay protocol; pass controlled counterexamples",
+      "Exercise the experiment-only adapter with a scripted mock coder",
+      "Run a budgeted AI Scientist coding session on development tasks",
+      "Freeze a supported method and propose new-task and online validation budgets"
+    ]
+  },
+  "upstream_inspected": {
+    "repository": "https://github.com/SakanaAI/AI-Scientist",
+    "commit": "1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb",
+    "files": [
+      "launch_scientist.py",
+      "ai_scientist/perform_experiments.py",
+      "ai_scientist/llm.py",
+      "requirements.txt"
+    ],
+    "observations": [
+      "Experiment loop defaults to five successful runs with per-run subprocess timeout; global API spend and policy query budgets require independent enforcement.",
+      "Failure and timeout branches remove the run output folder; preserve raw failure artifacts outside that folder before adopting the loop.",
+      "Full launch continues into writeup/review; first integration should call the experiment loop through a small dedicated entry point.",
+      "Model client and Aider coding model use separate construction paths; ForeAgent endpoint preflight covers a different integration.",
+      "Code snapshotting in the experiment loop copies experiment.py; changed policy modules need their own complete snapshots."
+    ]
+  },
+  "new_model_calls": 0,
+  "new_candidate_training_runs": 0,
+  "new_gpu_rentals": 0,
+  "research_code_changes": 0,
+  "inspected_input_sha256": {
+    "reports/reproducibility-audit-20261108/AUDIT_REPORT.md": "ac89a51cd499890aa734e138e7b8be446569b1aaaef2ce295de12c63567a365f",
+    "reports/reproducibility-audit-20261108/BASELINE_SHORT_TEST_PLAN.md": "628d91f0970f26f61ffc74d2a91c532b9d163f15869efabd121bb01bc6297c1e",
+    "reports/reproducibility-audit-20261108/FUTURE_PLAN.md": "9132f63a7b74612633e3738b0e6bdf6e97e3cdba24177458a0980338a333ba44",
+    "reports/reproducibility-audit-20261108/evidence/corpus-completion.json": "b6f6df46d36e7d64459ac67628b9fbef7aab4b61eb4103a6e222aa9e857255fc",
+    "foreagent_selection.py": "8e5e01899da104c5d1980512e52d8eff6f615ca43d31ee549646aea834fd3a3a",
+    "reproduction/round07/run.py": "1051d4d3a5545f35936236912c469e48ec56b806911ccd7fc0f37e2c2719c2a6",
+    "reproduction/round07/methods.py": "11f7426fe0305f58ddead38c3a5d1d127724bf58bcbe5e3761b69c6353bfc061",
+    "scripts/verify_online_baseline.py": "a070eba5a499b1f67fede3686aa897ba9bb1da7cc90dd11d8868e20dea925726",
+    "experiments/corpus26-v2/protocol.json": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  "receipt_validation": {
+    "schema_and_check_count": "passed",
+    "recorded_source_paths_exist": 9,
+    "status_link_exists": true
+  }
+}
