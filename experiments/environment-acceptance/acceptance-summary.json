@@ -1,0 +1,96 @@
+{
+  "audit": "environment-baselines-local-v1",
+  "scope": "Original baseline; retrospective local acceptance, new GPU protocol prepared only",
+  "offline_result": "offline-verification.json",
+  "online_result": "online-verification.json",
+  "config_result": "config-verification.json",
+  "environment_result": "environment.json",
+  "log_root_relative_to_session": "outputs/environment-baselines-local-v1/logs",
+  "log_files": {
+    "clone.txt": {
+      "bytes": 133,
+      "sha256": "85b9c97816fd4f611461201c535331b525b72d161044cdbf39566c17ab39f8fc"
+    },
+    "controller-install.txt": {
+      "bytes": 46653,
+      "sha256": "9170369184c78788592a5b2634233a87f218efcc609a735bc992196fb99ff4b8"
+    },
+    "corpus-independent-score.txt": {
+      "bytes": 61,
+      "sha256": "e1b8a2e45860eb5c49a6107233f529e3acc0aa77e37f3eeeb2608822e36d95a8"
+    },
+    "corpus-original.txt": {
+      "bytes": 2789,
+      "sha256": "ccca4d074119747789623e7c28959067dc7242dddbff0a9788ca65fcbb2abbf3"
+    },
+    "data.txt": {
+      "bytes": 83,
+      "sha256": "0af5e1f48c1f3394401de14a36a396f1ef79de7b6969c1eec9ad723902b7375a"
+    },
+    "freeze.txt": {
+      "bytes": 42,
+      "sha256": "4900b12b8a29048769b79e1b7a13bc17c07366a36390727ab6cf287d355e493d"
+    },
+    "historical.txt": {
+      "bytes": 3579,
+      "sha256": "7e93a7ce6a3548b77654ccdee180d4aa81e564d8afd22e650f32ccb839fee1f3"
+    },
+    "install-offline.txt": {
+      "bytes": 516,
+      "sha256": "10f9a9ff74f6c5c083d630adbcc0dcfe7a43bd35ee4072e58577ea182d41fb78"
+    },
+    "mechanism-tests.txt": {
+      "bytes": 698,
+      "sha256": "f73630bccf97ad22648a0e9a7ecdb89da3b2a200bae91105f743c48cea658cdd"
+    },
+    "online-score-tests.txt": {
+      "bytes": 713,
+      "sha256": "c3b2d581516d52d793cd83f1506ba4e0e9ffedfdf5f1545a226275b5654ead44"
+    },
+    "pairwise-import.txt": {
+      "bytes": 119,
+      "sha256": "1e86c9fc25a1c14537db935694c56274c1bead5b0e28089ac6a44f29b014b6a6"
+    },
+    "pairwise.txt": {
+      "bytes": 568,
+      "sha256": "1f5f3db3c5f19765f3f6986441bd3c7db20c5391b17dc0d8d6a72bdbf214117a"
+    },
+    "pip-check.txt": {
+      "bytes": 306,
+      "sha256": "a84ecf18a1bbcdb9a089c6132f3a50da3bb2cc38eefc6559e2f562946cbf5e29"
+    },
+    "venv.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "tests": {
+    "original_mechanism_tests": 4,
+    "independent_scorer_tests": 5
+  },
+  "credentials_scan": {
+    "repository_candidates": 225,
+    "online_evidence_archive_entries": 370,
+    "findings": 0
+  },
+  "new_paid_model_calls": 0,
+  "new_candidate_training_runs": 0,
+  "new_gpu_rentals": 0,
+  "remaining_gpu_acceptance": [
+    "G1",
+    "G2"
+  ],
+  "comparative_gate": "G3 before claims against AIDE; optional for single-method reproduction",
+  "known_issues": [
+    "Pinned upstream Stanford scorer is row-order-sensitive; frozen scores agree with independent ID-aligned calculation.",
+    "Historical RNG states and exact rematch opponent identities remain incomplete.",
+    "GPU runtime and live model-service availability need fresh G1 preflight."
+  ],
+  "audit_code_sha256": {
+    "scripts/verify_online_baseline.py": "2e95382c86b9cab853e36e103b1dd85a5a1bb98a7d622cb0ad80652a886f4950",
+    "scripts/check_author_configs.py": "09bb21b84246cec89df3cb0783945341921f9252819db92106edfa4f4e5f0e86",
+    "tests/test_online_baseline.py": "e071a9f6c2599485aa2ca50dd24bb45dbb602e5b739b1afef82291a138363820"
+  },
+  "fresh_clone_base_commit": "677a15a",
+  "fresh_clone_note": "Original frozen pipeline tested from the previous local commit; added audit files were explicitly copied and are fingerprinted here."
+}

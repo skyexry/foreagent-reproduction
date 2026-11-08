@@ -100,3 +100,12 @@ Registered threshold study at 826f4c1. Six gate values on the original controlle
 
 ## Baseline peer review · 890d688
 统一三个选择器的门槛和调参预算，完成六档对照。范围、结果、局限及剩余验证见 experiments/icml-review/review.md。
+
+## E1 · environment-baselines-local-v1 · 2026-11-08 事后验收
+
+- 问题：作者原版离线和在线证据能否在独立本机环境核验，进入新方法前还需哪些资源？
+- 预测口径：复核已保存结果；本轮为事后审计，结果知情状态明确，方法收益预测留到后续协议。
+- 设置：固定作者 c4d52cf、原缓存和发布参数；新克隆与新 Python 环境；已有反馈和已生成 submission；模型调用和候选训练均为 0。
+- 结果：246 对重解析、129 完整批次历史条件重演、7,800 次原版固定池回放和独立评分通过；最终分数复算 0.26639893115767516；作者三份提交同口径重评一致；两种作者配置的公共生成/反馈/搜索/时间设置一致。
+- 发现：原评分器对 CSV 行顺序敏感，冻结结果与 ID 对齐独立评分吻合；旧控制器有跨环境 .pth 和 NumPy 依赖冲突，已用独立安装和版本锁完成本机导入/评分核验。历史运行环境与原始文件保留。
+- 下一步：按 [剩余验收](experiments/environment-acceptance/README.md) 和 [前瞻在线协议](experiments/environment-acceptance/online-repeat-protocol.json)，待用户确认运行预算后先做 G1。本轮调整的是研究验收与核验工具，作者算法和参数仍为原版。

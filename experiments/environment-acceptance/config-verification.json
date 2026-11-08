@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "models": {
+    "ForeAgent/DeepSeek-V3.2": {
+      "world_model_enabled": true,
+      "code": {
+        "model": "DeepSeek-V3.2",
+        "temp": 0.5
+      },
+      "feedback": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "temp": 0.5
+      },
+      "search": {
+        "max_debug_depth": 20,
+        "debug_prob": 1,
+        "num_drafts": 3
+      },
+      "time_limit": 43200,
+      "steps": 5000,
+      "exec_timeout": 32400
+    },
+    "aide/DeepSeek-V3.2": {
+      "world_model_enabled": false,
+      "code": {
+        "model": "DeepSeek-V3.2",
+        "temp": 0.5
+      },
+      "feedback": {
+        "model": "gpt-4o-mini-2024-07-18",
+        "temp": 0.5
+      },
+      "search": {
+        "max_debug_depth": 20,
+        "debug_prob": 1,
+        "num_drafts": 3
+      },
+      "time_limit": 43200,
+      "steps": 5000,
+      "exec_timeout": 32400
+    }
+  },
+  "new_api_calls": 0,
+  "training_runs": 0,
+  "scope": "Original modules imported and both Agent objects constructed. GPU runtime, SSH execution and live services are separate preflight items."
+}

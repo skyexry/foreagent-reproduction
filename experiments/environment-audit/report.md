@@ -1,3 +1,5 @@
+> 历史归档：下文记录此前离线审计及开发期门槛搜索。当前原版 Environment & Baselines 验收见 [2026-11-08 清单](../environment-acceptance/README.md)；端到端运行已在后续完成，门槛搜索仍按后续研究归档。
+
 # Environment and baselines first
 
 The published baseline (fd55d93) passes a fresh offline reproduction. The original tournament is the reference; uniform random single selection provides a task-specific chance baseline, and the separately frozen canonical cache fix measures an implementation change. All methods are scored using the same pools and utility direction.

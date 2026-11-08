@@ -6,3 +6,7 @@
 - **本机 API 预检**：通过作者请求后端和硅基流动的模型名、思考开关映射，代码生成与两两筛选各实测成功一次。GPT 反馈也已实测通过：官方端点返回 gpt-4o-mini-2024-07-18，作者后端成功解析 submit_review 的五个字段。测试使用简短示例输入。回执见本机 `/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/` 下的 `code.json`、`select.json`、`feedback.json`。
 - **本机数据与评分器**：Kaggle ZIP 和 4 个准备后的文件均匹配固定提交的 MD5。训练 2,160 条、测试 240 条 RNA 序列。官方 grade-sample 接受全零示例提交，得分 0.63824。证据见上述本机目录的 `data-check.json` 和 `sample-grade.txt`，数据位于 `data/stanford-covid-vaccine/prepared/`。
 - **实验已结束**：因 0.26640 高于 0.25862 而启动的独立加时，已按用户要求提前停止。新增完整节点 0 个，预测文件与标准提交 SHA-256 一致。最终报告使用标准 12 小时分数 **0.26640**；见[加时结束记录](experiments/online-stanford-plus4h/closure.json)。
+
+- **本机剩余验收已完成（environment-baselines-local-v1）**：新克隆及新 venv 重现 246 对结果、129 个完整历史批次及原版 7,800 次回放；4 项机制测试、5 项独立评分反例测试通过。新增独立 Mac 控制器/评分环境通过 `pip check`，完成两种作者配置的零调用构造与公共参数一致性核验。最终提交和作者三份提交的原评分与独立 ID 对齐分数一致。完整证据见[本机核验与剩余清单](experiments/environment-acceptance/README.md)、`offline-verification.json`、`online-verification.json`、`environment.json`、`config-verification.json`。本轮新增模型调用 0、候选训练 0；固定源码及既有基线参数保持原版本。
+- **评分器边界已实测并加核验**：作者原 Stanford 评分器在打乱行顺序后因 pandas 索引对齐改变分数；原始冻结提交与独立按 ID 对齐的 MCRMSE 一致，仍为 **0.26640**。保留作者评分源码，新核验工具检查 ID、列、有限值和两种评分的一致性；反例及具体数值见上述清单。
+- **当前唯一下一步**：由用户确定 GPU 正式运行预算后，执行 `environment-baselines-online-repeat-v1` 的 G1 新主机预检，再启动第一份前瞻原版 12 小时运行。G2 三次原版重复需 36 单卡小时；涉及在线收益主张时增加 G3 的 AIDE 同预算对照，两方法合计 72 单卡小时。镜像准备、API 费用另计。协议已写定，资源租用及付费执行保留到后续明确指令。

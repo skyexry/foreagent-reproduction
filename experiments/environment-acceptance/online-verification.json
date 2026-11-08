@@ -1,0 +1,188 @@
+{
+  "scope": "Local acceptance of original ForeAgent only",
+  "source": {
+    "commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+    "git_blobs_verified": 484
+  },
+  "new_model_api_calls": 0,
+  "new_training_runs": 0,
+  "data": {
+    "sha256": {
+      "public/sample_submission.csv": "31c1ebbd6bfe38d8553a9348cccea4b26b2429dbf251c1018b20d1e3d6502b63",
+      "public/test.json": "b206255d379163db39e5166e8f3b591ef79310ae3a8f6049f1d60ccc4ab3cc2e",
+      "public/train.json": "47db40716b009d1f1969605236ff76b595ec799ffa0be0e966804e15f63bb7b2",
+      "private/test.csv": "c94d12eead83ef96ced2daf7e68edbabc41404150d31c991ab967c79c87f019a"
+    },
+    "train_sequences": 2160,
+    "test_sequences": 240,
+    "train_test_id_overlap": 0
+  },
+  "run": {
+    "published_parameter_values": {
+      "agent.search.max_debug_depth": 20,
+      "agent.search.debug_prob": 1,
+      "agent.time_limit": 43200,
+      "exec.timeout": 32400,
+      "copy_data": false,
+      "agent.search.num_drafts": 3,
+      "agent.code.model": "DeepSeek-V3.2",
+      "agent.feedback.model": "gpt-4o-mini-2024-07-18",
+      "agent.steps": 5000,
+      "agent.use_world_model": true,
+      "agent.world_model_model": "DeepSeek-V3.2-Thinking",
+      "agent.world_model_temp": 1.0,
+      "agent.world_model_confidence_threshold": 0.7,
+      "agent.world_model_exec_probability": 0.2,
+      "agent.improve_num_candidates": 10,
+      "agent.improve_top_k": 1
+    },
+    "runtime_files_verified": 12,
+    "run_files_verified": 370,
+    "nodes": 82,
+    "executed": 22,
+    "skipped": 60,
+    "completed_batches": 7,
+    "forced_execution_batches": 2,
+    "completed_batch_comparison_records": 1841,
+    "completed_batch_cache_reads": 1720,
+    "completed_batch_feedback": [
+      {
+        "outer_iteration": 11,
+        "logged_comparison_requests": 24,
+        "unique_unordered_pairs": 24
+      },
+      {
+        "outer_iteration": 12,
+        "logged_comparison_requests": 13,
+        "unique_unordered_pairs": 13
+      },
+      {
+        "outer_iteration": 13,
+        "logged_comparison_requests": 13,
+        "unique_unordered_pairs": 13
+      },
+      {
+        "outer_iteration": 15,
+        "logged_comparison_requests": 13,
+        "unique_unordered_pairs": 13
+      },
+      {
+        "outer_iteration": 17,
+        "logged_comparison_requests": 13,
+        "unique_unordered_pairs": 13
+      },
+      {
+        "outer_iteration": 18,
+        "logged_comparison_requests": 32,
+        "unique_unordered_pairs": 32
+      },
+      {
+        "outer_iteration": 19,
+        "logged_comparison_requests": 13,
+        "unique_unordered_pairs": 13
+      }
+    ],
+    "completed_batch_unique_unordered_pairs_summed": 121,
+    "successful_api_receipts": {
+      "DeepSeek-V3.2": 92,
+      "gpt-4o-mini-2024-07-18": 22,
+      "DeepSeek-V3.2-Thinking": 134
+    },
+    "api_accounting": "Successful receipts include the incomplete last iteration; transport failures and billable requests are distinct.",
+    "upstream_and_independent_best_node": "84c79a8dae404c0dae2bcd09d38d9daa",
+    "best_node_lineage": [
+      {
+        "id": "84c79a8dae404c0dae2bcd09d38d9daa",
+        "is_buggy": false,
+        "wm_predicted_rank": null
+      },
+      {
+        "id": "ef8410fce8314a63aea6e1ea76949f2b",
+        "is_buggy": true,
+        "wm_predicted_rank": 0
+      },
+      {
+        "id": "5ebaeb5d179a49a78dbf5e30eab0a314",
+        "is_buggy": false,
+        "wm_predicted_rank": 0
+      },
+      {
+        "id": "8dce0f8c46b54c088b605344dcc913af",
+        "is_buggy": false,
+        "wm_predicted_rank": null
+      },
+      {
+        "id": "183980a851344197815b84a211148d95",
+        "is_buggy": true,
+        "wm_predicted_rank": null
+      },
+      {
+        "id": "88ed4d4ccb014d9f9fa378d2669270d2",
+        "is_buggy": true,
+        "wm_predicted_rank": null
+      }
+    ],
+    "final_submission_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340"
+  },
+  "scores": {
+    "local": {
+      "score": 0.26639893115767516,
+      "per_target_rmse": {
+        "reactivity": 0.24039273697270275,
+        "deg_Mg_pH10": 0.30270239650000647,
+        "deg_Mg_50C": 0.25610166000031626
+      },
+      "scored_rows": 16320,
+      "prediction_rows": 25680,
+      "official_score": 0.26639893115767516,
+      "sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340"
+    },
+    "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038": {
+      "score": 0.2576795279904613,
+      "per_target_rmse": {
+        "reactivity": 0.23157840150959316,
+        "deg_Mg_pH10": 0.29407028095689636,
+        "deg_Mg_50C": 0.2473899015048944
+      },
+      "scored_rows": 16320,
+      "prediction_rows": 25680,
+      "official_score": 0.25767952799046134,
+      "sha256": "d6972c75f38f2b3695009f90e05c53281ef7e2db5b6e1bfa19f0f6058503814f"
+    },
+    "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0": {
+      "score": 0.24320220443205973,
+      "per_target_rmse": {
+        "reactivity": 0.21781135627388157,
+        "deg_Mg_pH10": 0.27564601425221075,
+        "deg_Mg_50C": 0.2361492427700869
+      },
+      "scored_rows": 16320,
+      "prediction_rows": 25680,
+      "official_score": 0.24320220443205975,
+      "sha256": "87f3c12fb43703b6b6ec18e26cd58d29ab84934656aa974ccc68f7b2a27ee3f4"
+    },
+    "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33": {
+      "score": 0.27496952569940397,
+      "per_target_rmse": {
+        "reactivity": 0.2518094941555058,
+        "deg_Mg_pH10": 0.3090659110150128,
+        "deg_Mg_50C": 0.26403317192769327
+      },
+      "scored_rows": 16320,
+      "prediction_rows": 25680,
+      "official_score": 0.27496952569940397,
+      "sha256": "4ae482906d8690d5dadfe9dd2cfc52663f7242a38933c8771195ac18a11e6cd8"
+    }
+  },
+  "scorer_order_diagnostic": {
+    "original_submission": 0.26639893115767516,
+    "shuffled_upstream": 0.6131057878699256,
+    "shuffled_id_aligned": 0.26639893115767516,
+    "canonical_upstream": 0.26639893115767516,
+    "upstream_row_order_bug_observed": true,
+    "warning_types": [
+      "UserWarning"
+    ],
+    "handling": "Pinned scorer preserved. Frozen files agree with ID-aligned scores. Future evaluation requires ID validation and canonical ordering or explicit score agreement."
+  }
+}

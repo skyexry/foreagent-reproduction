@@ -1,0 +1,81 @@
+{
+  "id": "environment-baselines-online-repeat-v1",
+  "status": "prepared_not_executed",
+  "purpose": "Prospective original-baseline repeatability and optional matched AIDE comparison on one task.",
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "image": "docker.io/johnsonzheng03/predict-before-execute@sha256:451d8519af279052a9edfdd499267a2f3df5f969a8439d9192a1f9265fb5c220",
+  "task": "stanford-covid-vaccine",
+  "prediction_before_new_runs": {
+    "execution": "Original ForeAgent can produce valid submissions under the frozen setup.",
+    "score": "No assumed reproduction of author mean 0.25862; record all run scores and variability.",
+    "comparison": "Direction and size of ForeAgent versus AIDE effect remain open."
+  },
+  "methods": [
+    "ForeAgent/DeepSeek-V3.2",
+    "aide/DeepSeek-V3.2"
+  ],
+  "locked_foreagent": {
+    "confidence": 0.7,
+    "candidates": 10,
+    "top_k_rank_groups": 1,
+    "execution_probability": 0.2,
+    "num_drafts": 3,
+    "original_cache": true,
+    "forced_empty_selection_fallback": true
+  },
+  "matched_controls": [
+    "GPU model, CPU quota and detected-core prompt",
+    "OCI rootfs and hardware driver versions",
+    "prepared data and task instructions",
+    "code generation model/provider, temperature and output limits",
+    "feedback model/provider and parser",
+    "retry and timeout policy",
+    "wall-clock budget and evaluator"
+  ],
+  "parameter_scale": "Both scaffolds are untrained control algorithms. Match code generator and feedback model endpoints/configuration. Record available provider model revision; generated candidate network sizes are outcomes, not fixed scaffold parameter counts.",
+  "run_order_if_comparison": [
+    "F1",
+    "A1",
+    "A2",
+    "F2",
+    "F3",
+    "A3"
+  ],
+  "repetitions_per_method": 3,
+  "randomness": "Preserve published default behavior. Run numbers are replicate labels, not recovered historical RNG seeds. Capture initial RNG states and software/Python hash environment where possible; log rematch identities in new traces. API sampling and parallel timing prevent exact trajectory guarantees.",
+  "budget": {
+    "formal_wall_seconds_per_run": 43200,
+    "journal_node_cap": 5000,
+    "code_execution_timeout_seconds": 32400,
+    "foreagent_only_gpu_hours": 36,
+    "paired_total_gpu_hours": 72,
+    "setup_separate": true,
+    "rental_fee": "GPU unit price times actual billed hours, disclosed before launch",
+    "api_fee": "Record reported input/output tokens by role and provider billing separately; authorize a concrete spending cap before paid execution."
+  },
+  "metrics": {
+    "primary": "Official MCRMSE of original validation-selected final submission, lower is better",
+    "validity": "valid submission fraction across all planned attempts",
+    "secondary": [
+      "per-target RMSE",
+      "mean and sample SD across independent runs",
+      "executed/skipped/generated nodes",
+      "completed batches and forced fallbacks",
+      "successful API receipts by role",
+      "cache reads and unique feedback",
+      "wall-clock interruption durations",
+      "provider token usage and billed costs"
+    ],
+    "unit": "Independent online run; candidates and cache reads are dependent observations."
+  },
+  "stopping": "Published wall-clock cutoff, node cap, explicit user stop, or terminal infrastructure failure. Private scores used after final selection. No automatic extension.",
+  "infrastructure_failure_policy": "Count every started attempt. Keep partial artifact and interruption record. Report all-attempt results and predeclared uninterrupted subset; replacement runs carry new IDs and require budget approval. Existing network-interrupted v2 stays in historical context, separate from the prospective cohort.",
+  "evaluation_guard": "Validate required columns, unique complete IDs and finite predictions. Save original CSV hash. Compare pinned scorer to independent ID-joined score. On disagreement retain evidence and stop acceptance until ID order is diagnosed; preserve original scorer source.",
+  "entrypoints": {
+    "native_docker": "Pinned mle-bench/run_agent.py using the released named configuration.",
+    "autodl_proroot_adapter": "Frozen v2 controller/bridge/worker with explicit host/paths and declared execution adaptation. Both upstream configurations passed local zero-call construction; GPU transport and selecting the named AIDE configuration in the deployed adapter are G1 runtime preflight checks."
+  },
+  "acceptance": "G1 worker preflight and G2 repeatability; G3 matched comparison only when making agent-level comparative claims. Publish all planned-run outcomes; performance superiority is an empirical result, not a pass condition.",
+  "execution_authorization": "Protocol prepared locally. GPU rental, paid APIs and training await a subsequent explicit run instruction.",
+  "budget_comparability": "Primary comparison matches wall-clock time and hardware. API call counts and token costs may differ as part of the methods; report them separately. A fixed-token/cost comparison requires a separate preregistered estimand."
+}
