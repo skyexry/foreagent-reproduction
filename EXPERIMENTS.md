@@ -108,4 +108,5 @@ Registered threshold study at 826f4c1. Six gate values on the original controlle
 - 设置：固定作者 c4d52cf、原缓存和发布参数；新克隆与新 Python 环境；已有反馈和已生成 submission；模型调用和候选训练均为 0。
 - 结果：246 对重解析、129 完整批次历史条件重演、7,800 次原版固定池回放和独立评分通过；最终分数复算 0.26639893115767516；作者三份提交同口径重评一致；两种作者配置的公共生成/反馈/搜索/时间设置一致。
 - 发现：原评分器对 CSV 行顺序敏感，冻结结果与 ID 对齐独立评分吻合；旧控制器有跨环境 .pth 和 NumPy 依赖冲突，已用独立安装和版本锁完成本机导入/评分核验。历史运行环境与原始文件保留。
-- 下一步：按 [剩余验收](experiments/environment-acceptance/README.md) 和 [前瞻在线协议](experiments/environment-acceptance/online-repeat-protocol.json)，待用户确认运行预算后先做 G1。本轮调整的是研究验收与核验工具，作者算法和参数仍为原版。
+- 范围调整（2026-11-08 用户确认）：当前以单任务原版端到端运行及本机核验作为复现完成标准；原版重复性与 AIDE 在线对比归入后续可选研究。现有 v2 成绩 0.26640 作为本阶段冻结结果。
+- 下一步：从[后续改进清单](IMPROVEMENTS.md)确定独立问题和离线预算；评分器行顺序问题已登记为 EVAL-01。作者算法、参数及冻结结果保持原版。

@@ -1,6 +1,6 @@
 {
   "audit": "environment-baselines-local-v1",
-  "scope": "Original baseline; retrospective local acceptance, new GPU protocol prepared only",
+  "scope": "Completed original single-task reproduction and retrospective local acceptance; repeatability and AIDE comparisons are optional future research.",
   "offline_result": "offline-verification.json",
   "online_result": "online-verification.json",
   "config_result": "config-verification.json",
@@ -80,15 +80,12 @@
   "new_paid_model_calls": 0,
   "new_candidate_training_runs": 0,
   "new_gpu_rentals": 0,
-  "remaining_gpu_acceptance": [
-    "G1",
-    "G2"
-  ],
-  "comparative_gate": "G3 before claims against AIDE; optional for single-method reproduction",
+  "remaining_gpu_acceptance": [],
+  "comparative_gate": "G3 is optional future comparative research, separate from current reproduction acceptance.",
   "known_issues": [
     "Pinned upstream Stanford scorer is row-order-sensitive; frozen scores agree with independent ID-aligned calculation.",
     "Historical RNG states and exact rematch opponent identities remain incomplete.",
-    "GPU runtime and live model-service availability need fresh G1 preflight."
+    "Future GPU runs require fresh runtime and service preflight; current single-task reproduction is complete."
   ],
   "audit_code_sha256": {
     "scripts/verify_online_baseline.py": "a070eba5a499b1f67fede3686aa897ba9bb1da7cc90dd11d8868e20dea925726",
@@ -96,5 +93,17 @@
     "tests/test_online_baseline.py": "e071a9f6c2599485aa2ca50dd24bb45dbb602e5b739b1afef82291a138363820"
   },
   "fresh_clone_base_commit": "677a15a",
-  "fresh_clone_note": "Original frozen pipeline tested from the previous local commit; added audit files were explicitly copied and are fingerprinted here."
+  "fresh_clone_note": "Original frozen pipeline tested from the previous local commit; added audit files were explicitly copied and are fingerprinted here.",
+  "current_stage": {
+    "status": "complete",
+    "scope": "Single Stanford original ForeAgent 12-hour end-to-end run with local verification",
+    "basis": "User scope clarification on 2026-11-08",
+    "score": 0.2664,
+    "remaining_required_items": [],
+    "optional_future_research": [
+      "Original run repeatability (G2)",
+      "Matched AIDE online comparison (G3)"
+    ],
+    "improvement_register": "../../IMPROVEMENTS.md"
+  }
 }

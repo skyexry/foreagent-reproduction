@@ -1,7 +1,7 @@
 {
   "id": "environment-baselines-online-repeat-v1",
-  "status": "prepared_not_executed",
-  "purpose": "Prospective original-baseline repeatability and optional matched AIDE comparison on one task.",
+  "status": "optional_future_research_not_executed",
+  "purpose": "Optional future original-baseline repeatability and matched AIDE research, separate from current single-task reproduction acceptance.",
   "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
   "image": "docker.io/johnsonzheng03/predict-before-execute@sha256:451d8519af279052a9edfdd499267a2f3df5f969a8439d9192a1f9265fb5c220",
   "task": "stanford-covid-vaccine",
@@ -75,7 +75,14 @@
     "native_docker": "Pinned mle-bench/run_agent.py using the released named configuration.",
     "autodl_proroot_adapter": "Frozen v2 controller/bridge/worker with explicit host/paths and declared execution adaptation. Both upstream configurations passed local zero-call construction; GPU transport and selecting the named AIDE configuration in the deployed adapter are G1 runtime preflight checks."
   },
-  "acceptance": "G1 worker preflight and G2 repeatability; G3 matched comparison only when making agent-level comparative claims. Publish all planned-run outcomes; performance superiority is an empirical result, not a pass condition.",
+  "acceptance": "Optional future G2 repeatability / G3 comparative study outcomes. Current reproduction acceptance is complete on the frozen single-task run and local verification.",
   "execution_authorization": "Protocol prepared locally. GPU rental, paid APIs and training await a subsequent explicit run instruction.",
-  "budget_comparability": "Primary comparison matches wall-clock time and hardware. API call counts and token costs may differ as part of the methods; report them separately. A fixed-token/cost comparison requires a separate preregistered estimand."
+  "budget_comparability": "Primary comparison matches wall-clock time and hardware. API call counts and token costs may differ as part of the methods; report them separately. A fixed-token/cost comparison requires a separate preregistered estimand.",
+  "scope_amendment": {
+    "date": "2026-11-08",
+    "basis": "User explicitly excludes repeatability and matched AIDE online comparison from current reproduction phase.",
+    "previous_status": "prepared_not_executed",
+    "current_reproduction_status": "complete",
+    "effect": "Retain prospective settings for optional future work; no remaining mandatory GPU run for current phase."
+  }
 }

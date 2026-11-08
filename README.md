@@ -16,6 +16,6 @@ git status --short
 
 ## 当前验收与本机核验
 
-标准 12 小时单任务端到端运行已取得有效官方分数 **0.26640**。完整剩余验收分工、已执行的本机检查、评分器边界和后续 GPU 预算见 [Environment & Baselines 验收清单](experiments/environment-acceptance/README.md)。原版重复运行和 AIDE 公平对照的预先设置见 [在线重复协议](experiments/environment-acceptance/online-repeat-protocol.json)。
+当前原版单任务复现阶段已完成：标准 12 小时端到端运行取得有效官方分数 **0.26640**，已完成本机核验。验收证据及范围见 [Environment & Baselines 验收清单](experiments/environment-acceptance/README.md)。评分器行顺序问题列入[后续改进清单](IMPROVEMENTS.md)；原版重复性与 AIDE 在线对比作为后续可选研究归档。
 
 本机核验显式接收固定源码、运行附件、准备后数据和作者提交路径；核验命令、独立环境依赖锁及附件校验值均在上述清单中。本轮聚焦原版，参数沿用作者发布配置。
