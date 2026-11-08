@@ -1,5 +1,7 @@
 # 当前状态：作者原版单任务复现已完成
 
+- **研究材料已同步 GitHub（research-publication-v1，2026-11-08）**：[私有仓库首页](https://github.com/skyexry/foreagent-reproduction)按“当前状态、研究设计、最近实验结论”导航。研究源码/证据发布提交 `5f545087f9ce71453d79214bb6b1ea93f730132a`，337 项发布文件与本机来源逐项一致，774 项其他原有文件保留；两份 CRLF CSV 的上传换行转换已在后续提交修正。约 57 MB 的固定输入发布于 `research-env-v1`，HW3 新增约 15 MB 的原版代码包；二者重新下载后 SHA-256 一致。HW3 标签及既有报告/日志附件保持原版本。证据见 `provenance/research-publication-v1/`，提交指引见 `reports/hw3/SUBMISSION.md`。新增模型调用/训练/GPU 租用均 0；当前研究下一步仍为模块与文献研究、完整方案卡。
+
 - **离线研究接口已验收（research-env-v1，2026-11-08）**：统一入口 [research/README.md](research/README.md)。固定候选、反馈可见范围、比较/早停动作、外部预算、并列与失败评价；提供 `run/evaluate/status`。17 项契约/系统隔离测试通过，C0 850 场与随机控制 850 场逐场复现已保存选择、查询与统计。177 项旧产物、48 项历史文件、946 项源输入核验通过；新增模型调用/训练/GPU 租用均 0。证据：`experiments/research-env-v1/acceptance.json`、`tests.log`、`research/protected_manifest.json`。26 任务明确为开发集；真实在线与 AI Scientist 原生适配作为独立后续验收。**当前唯一下一步：围绕已固定模块读原始文献，形成可审阅方案卡。**
 
 - **源码已核验**：独立检出固定在 `c4d52cf99bd870d830b456ac7c0684aec1aef375`。逐文件核对工作目录与该提交，484 个 Git 文件内容一致，工作区干净；其中 Git LFS 指针按提交原样保留。

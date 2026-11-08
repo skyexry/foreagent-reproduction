@@ -1,5 +1,7 @@
 # 实验账本
 
+**发布附记（research-publication-v1，2026-11-08）：**现有研究接口、C0 与审计/实验材料已同步到原私有 GitHub 仓库；337 个发布文件逐项核对，代码/数据附件下载后校验通过。HW3 代码包逐文件对应 `hw3-phase1-v1` 的 777 个 Git blob，来源/摘要核验 529 项通过；研究输入 1,182 个文件从独立目录恢复后通过状态核验和三场策略短测。该轮属于发布与可恢复性验收，新增研究方法实验、模型调用和训练均 0。源字节上传中两份 CSV 的换行转换已修正并回读确认。收据：`provenance/research-publication-v1/`；HW3 指引：`reports/hw3/SUBMISSION.md`。
+
 ## A7 · research-env-v1 · 离线研究接口固定与验收
 
 - 用户授权：固定已跑通实验的 Environment、Evals、统一调用与状态入口。运行前协议为 `experiments/research-env-v1/protocol.json`；本轮属于接口验收。

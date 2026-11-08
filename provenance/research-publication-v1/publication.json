@@ -1,0 +1,19 @@
+{
+  "repository": "skyexry/foreagent-reproduction",
+  "commit": "5f545087f9ce71453d79214bb6b1ea93f730132a",
+  "parent": "6ac2594161848adaff752ea3cff857cc3fa9697a",
+  "original_parent": "3f019b4fb693e1661f8eda8a305ac13ae4dbc67f",
+  "tree": "5e1479111d995d62c943dff15d8860791702c42e",
+  "verified_files": 337,
+  "preserved_original_files": 774,
+  "private": true,
+  "hw3_tag_unchanged": true,
+  "byte_preservation_correction": "Two CRLF CSV files corrected in a follow-up commit; all 337 files now match source bytes",
+  "url": "https://github.com/skyexry/foreagent-reproduction/commit/5f545087f9ce71453d79214bb6b1ea93f730132a",
+  "hw3_existing_assets_unchanged": true,
+  "hw3_release": "https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1",
+  "research_release": "https://github.com/skyexry/foreagent-reproduction/releases/tag/research-env-v1",
+  "research_tag_commit": "5f545087f9ce71453d79214bb6b1ea93f730132a",
+  "local_git_head_preserved": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "publication_method": "Git Data API from current remote base; local worktree refs and index preserved"
+}

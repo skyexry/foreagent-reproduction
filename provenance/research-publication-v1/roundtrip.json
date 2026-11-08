@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "research_input_archive": {
+    "bytes": 57056083,
+    "sha256": "c7e6725dab1b026d3301e8b6be1e339b0c73e33d3fb5fca088ba1b68daeb4186",
+    "downloaded_and_verified": true
+  },
+  "hw3_code_archive": {
+    "bytes": 15233374,
+    "sha256": "c2a5a856b103deb6abcea9d5131611845dde8b09122b1e4498948cfce7e08854",
+    "downloaded_and_verified": true,
+    "source_tag": "hw3-phase1-v1",
+    "source_files": 777
+  },
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "new_gpu_rentals": 0
+}
