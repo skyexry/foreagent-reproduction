@@ -1,0 +1,27 @@
+{
+  "parent": "stanford-autodl-v2",
+  "source_journal": "logs/exp/journal.json",
+  "nodes": 82,
+  "completed_outer_iterations": 19,
+  "parent_saved_best_id": "84c79a8dae404c0dae2bcd09d38d9daa",
+  "inherited_best_id": "84c79a8dae404c0dae2bcd09d38d9daa",
+  "journal_sha256": "1c93416a4b769c12e39d0ed4cb59c27b6fd62afb811305f12cdc73b460244397",
+  "inherited_csv_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340",
+  "data_preview_sha256": "d9538dd74384d22ebe7401cdd34fab2d69f846725eb3a0144be04dc09b6c6bbc",
+  "mechanics": "Restored complete journal, validation metrics, parent/child graph, code and submissions. Fresh worker scratch, comparator cache and RNG; incomplete parent step is excluded.",
+  "budget_clock": {
+    "started_epoch": 1794115343.31008,
+    "deadline_epoch": 1794129743.31008,
+    "budget_seconds": 14400
+  },
+  "official_parent_score_observer_only": 0.2664,
+  "gate": {
+    "baseline_run": "stanford-autodl-v2",
+    "selected_node": "84c79a8dae404c0dae2bcd09d38d9daa",
+    "baseline_csv_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340",
+    "official_12h_score": 0.2664,
+    "threshold": "0.25862",
+    "decision": "start_plus4h",
+    "decided_at_utc": "2026-11-08T05:22:09.163869+00:00"
+  }
+}
