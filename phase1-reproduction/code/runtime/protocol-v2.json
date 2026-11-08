@@ -1,0 +1,20 @@
+{
+  "run": "stanford-autodl-v2",
+  "question": "Can the upstream ForeAgent pipeline generate a valid new submission for the published Stanford task?",
+  "expectation_before_launch": "At least one generated candidate produces a valid submission. No numerical target or assumed match to the published score.",
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "image": "docker.io/johnsonzheng03/predict-before-execute@sha256:451d8519af279052a9edfdd499267a2f3df5f969a8439d9192a1f9265fb5c220",
+  "competition": "stanford-covid-vaccine",
+  "agent_config": "mle-bench/agents/aide/config.yaml#ForeAgent/DeepSeek-V3.2",
+  "repetitions": 1,
+  "seed": "upstream default, no fixed seed",
+  "budget": "published 43200s from Agent launch; 5000 journal nodes and 32400s per execution as configured by upstream",
+  "transport": "Mac-based controller, provider API calls on Mac, generated Python executed by upstream Interpreter on AutoDL RTX 4090 in author OCI rootfs via PRoot; CPU/GPU prompt uses worker hardware",
+  "data": "only public split plus recovered task DA report visible to the Agent. Private labels on Mac for final official grading.",
+  "selection": "original agent ranking, cache, probability gate, fallback, debug and best-node selection",
+  "metric": "MLE-bench competition scorer for upstream-selected best_submission/submission.csv; smaller is better",
+  "stopping": "published time or step budget, or terminal infrastructure failure. An intermediate score, if requested, must be labelled and never used for model selection.",
+  "evidence": "Mac API receipt log, author journal and per-node artifacts, SSH worker execution results, submission hash, official grade.",
+  "prompt_body": "Built from fixed OCI /home/instructions.txt and pinned upstream start.sh text, real worker device and original worker data_preview.generate.",
+  "observer": "Observer may freeze and grade the first upstream-selected checkpoint for progress; private result is external to all agent inputs and never determines stopping or selection."
+}

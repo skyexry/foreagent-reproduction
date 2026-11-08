@@ -1,0 +1,19 @@
+[2026-11-08 13:22:08,513] [cli.py:202] Competition report:
+[2026-11-08 13:22:08,513] [cli.py:203] {
+    "competition_id": "stanford-covid-vaccine",
+    "score": 0.2664,
+    "gold_threshold": 0.34728,
+    "silver_threshold": 0.35175,
+    "bronze_threshold": 0.3534,
+    "median_threshold": 0.363095,
+    "any_medal": true,
+    "gold_medal": true,
+    "silver_medal": false,
+    "bronze_medal": false,
+    "above_median": true,
+    "submission_exists": true,
+    "valid_submission": true,
+    "is_lower_better": true,
+    "created_at": "2026-11-08T13:22:08.512950",
+    "submission_path": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v2/workspaces/exp/best_submission/submission.csv"
+}

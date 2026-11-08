@@ -1,0 +1,161 @@
+{
+  "run": "stanford-autodl-v2",
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "image_sha256": "451d8519af279052a9edfdd499267a2f3df5f969a8439d9192a1f9265fb5c220",
+  "completion": "published time limit",
+  "wall_budget_seconds": 43200,
+  "selected_node_id": "84c79a8dae404c0dae2bcd09d38d9daa",
+  "selected_internal_metric": 0.4378,
+  "official_private_score": 0.2664,
+  "official_competition": "stanford-covid-vaccine",
+  "valid_submission": true,
+  "gold_threshold": 0.34728,
+  "gold_level": true,
+  "csv_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340",
+  "prediction_file": "final-submission.csv.gz",
+  "row_count": 25680,
+  "journal_sha256": "1c93416a4b769c12e39d0ed4cb59c27b6fd62afb811305f12cdc73b460244397",
+  "completed_outer_iterations_in_segment": 19,
+  "total_nodes_in_final_journal": 82,
+  "new_nodes_in_segment": 82,
+  "executed_new_nodes": 22,
+  "skipped_new_nodes": 60,
+  "completed_tournaments_in_segment": 7,
+  "complete_batch_details": [
+    {
+      "outer_iteration_in_segment": 11,
+      "candidates": 10,
+      "executed": 1,
+      "cached_reads": 149,
+      "comparison_records": 173,
+      "forced_execution": false,
+      "max_round_limit": true
+    },
+    {
+      "outer_iteration_in_segment": 12,
+      "candidates": 10,
+      "executed": 1,
+      "cached_reads": 281,
+      "comparison_records": 294,
+      "forced_execution": true,
+      "max_round_limit": true
+    },
+    {
+      "outer_iteration_in_segment": 13,
+      "candidates": 10,
+      "executed": 1,
+      "cached_reads": 281,
+      "comparison_records": 294,
+      "forced_execution": true,
+      "max_round_limit": true
+    },
+    {
+      "outer_iteration_in_segment": 15,
+      "candidates": 10,
+      "executed": 2,
+      "cached_reads": 281,
+      "comparison_records": 294,
+      "forced_execution": false,
+      "max_round_limit": true
+    },
+    {
+      "outer_iteration_in_segment": 17,
+      "candidates": 10,
+      "executed": 3,
+      "cached_reads": 281,
+      "comparison_records": 294,
+      "forced_execution": false,
+      "max_round_limit": true
+    },
+    {
+      "outer_iteration_in_segment": 18,
+      "candidates": 10,
+      "executed": 1,
+      "cached_reads": 166,
+      "comparison_records": 198,
+      "forced_execution": false,
+      "max_round_limit": true
+    },
+    {
+      "outer_iteration_in_segment": 19,
+      "candidates": 10,
+      "executed": 1,
+      "cached_reads": 281,
+      "comparison_records": 294,
+      "forced_execution": false,
+      "max_round_limit": true
+    }
+  ],
+  "received_api_responses_by_role": {
+    "DeepSeek-V3.2": {
+      "http_receipts": 92,
+      "successes": 92,
+      "reported_input_tokens": 944454,
+      "reported_output_tokens": 449789
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "http_receipts": 22,
+      "successes": 22,
+      "reported_input_tokens": 207151,
+      "reported_output_tokens": 1554
+    },
+    "DeepSeek-V3.2-Thinking": {
+      "http_receipts": 134,
+      "successes": 134,
+      "reported_input_tokens": 2173401,
+      "reported_output_tokens": 248779
+    }
+  },
+  "logged_model_backoff_errors": 179,
+  "network_interruption": {
+    "cause": "Mac 熄屏、VPN 断连，导致模型 API 请求受阻并等待重试。",
+    "cause_source": "实验者在运行结束后确认；事后补记。",
+    "affected_model_role": "gpt-4o-mini-2024-07-18 feedback",
+    "feedback_call_elapsed_seconds_including_retries": 13491.88,
+    "elapsed_time_basis": "日志记录的单次反馈请求及重试总耗时；VPN 中断时长单独计量仍有缺口。",
+    "budget_effect": "等待计入标准 43,200 秒预算，压缩了实际可用于候选生成、筛选和执行的时间。"
+  },
+  "completed_model_calls_taking_at_least_15_minutes": [
+    {
+      "finished_log_time": "2026-11-08 09:27:56,209",
+      "seconds": 13491.88,
+      "input_tokens": 10904,
+      "output_tokens": 80
+    },
+    {
+      "finished_log_time": "2026-11-08 11:52:16,930",
+      "seconds": 2544.06,
+      "input_tokens": 11592,
+      "output_tokens": 5793
+    },
+    {
+      "finished_log_time": "2026-11-08 12:54:58,020",
+      "seconds": 1065.48,
+      "input_tokens": 11735,
+      "output_tokens": 5727
+    }
+  ],
+  "last_incomplete_iteration_excluded_from_journal_metrics": true,
+  "grading": "Official grade-sample on original private data; checkpoint selection by upstream validation only. The nine or other skipped codes have no measured private outcomes.",
+  "scope": "One task, one run in the pinned OCI environment via PRoot on RTX 4090. Controller and API calls on Mac. Historical hardware and network timing differ.",
+  "started_at": "2026-11-08T01:22:02.252000+08:00",
+  "cutoff_at": "2026-11-08T13:22:02.252000+08:00",
+  "cutoff_log": "Published wall-time cutoff signalled at 2026-11-08T13:22:02.268230",
+  "gpu_sampling": {
+    "interval_seconds": 10,
+    "within_budget_samples": 4318,
+    "nonzero_utilization_samples": 313,
+    "max_sampled_gpu_memory_mib": 933.0,
+    "meaning": "Device snapshots, not exact GPU computation time."
+  },
+  "continuation_gate": {
+    "baseline_run": "stanford-autodl-v2",
+    "selected_node": "84c79a8dae404c0dae2bcd09d38d9daa",
+    "baseline_csv_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340",
+    "official_12h_score": 0.2664,
+    "threshold": "0.25862",
+    "decision": "start_plus4h",
+    "decided_at_utc": "2026-11-08T05:22:09.163869+00:00"
+  },
+  "score_reference": "author-final-reference.json"
+}

@@ -1,0 +1,180 @@
+{
+  "run": "stanford-autodl-v2",
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "batch": 1,
+  "generation_order": [
+    "73e24ca3",
+    "082e3a2e",
+    "2598c276",
+    "72f590b4",
+    "5298b748",
+    "108d2986",
+    "20912f5a",
+    "1a9b5425",
+    "8c09a79a",
+    "d203709e"
+  ],
+  "rank_completed_log_timestamp": "2026-11-08 02:37:47,591",
+  "rank_seconds": 807.65,
+  "comparison_records": 173,
+  "logged_cache_reads": 149,
+  "comparator_http_responses": 24,
+  "successful_comparator_http_responses": 24,
+  "unique_successful_response_ids": 24,
+  "unique_unordered_pairs_in_upstream_requests": 24,
+  "max_round_limit_reached": true,
+  "forced_rank_zero_execution": false,
+  "nodes": [
+    {
+      "id": "73e24ca367f9479da66e006286406370",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 1,
+      "round": 21,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "082e3a2e03c74c4ab2f3742c1f038a9f",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 1,
+      "round": 21,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "2598c276d6bd4752af71eb121392102a",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 2,
+      "round": 3,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "72f590b460334c4282d5a5d85ed1db38",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 3,
+      "round": 1,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "5298b748c9b942e89f07954eeb3d65c6",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 0,
+      "round": 21,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "108d298687b74ef8b13313ca9fd089f8",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 3,
+      "round": 1,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "20912f5a7d5f4bb8ad1d0d9addfb68f3",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 0,
+      "round": 21,
+      "skipped": false,
+      "buggy": false,
+      "exception": null,
+      "csv_sha256": "89a9027b9a690dbbbe0f9335730a4e272103bd2d7ab593daa26f5c778fbd5cc5",
+      "valid_submission": true,
+      "official_score": 0.29349
+    },
+    {
+      "id": "1a9b542561004cd3860108df6c699e85",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 1,
+      "round": 21,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "8c09a79aecb5496aae3e731c583c4238",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 1,
+      "round": 21,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    },
+    {
+      "id": "d203709e3e9948ccbd89ac5f34e1a292",
+      "parent_id": "8dce0f8c46b54c088b605344dcc913af",
+      "rank": 3,
+      "round": 1,
+      "skipped": true,
+      "buggy": false,
+      "exception": null
+    }
+  ],
+  "stage": "first completed end-to-end tournament, not a full-budget final score",
+  "completed_at": "2026-11-08T02:39:58+08:00",
+  "worker_execution_seconds": 96.55973100662231,
+  "official_competition": "stanford-covid-vaccine",
+  "metric": "mean columnwise root mean squared error on three scored targets; lower is better",
+  "incumbent_at_completion": {
+    "node": "8dce0f8c46b54c088b605344dcc913af",
+    "official_score": 0.27231,
+    "valid_submission": true,
+    "csv_sha256": "75b1a04655bd09fb22753ed355f9b8ec75dea740befc9f6c02daa44932bb01dc",
+    "selection_method": "upstream journal validation metric; official scores not fed back"
+  },
+  "prediction_archives": {
+    "selected_by_tournament": "first-tournament-selected.csv.gz",
+    "upstream_incumbent": "best-at-first-tournament.csv.gz"
+  },
+  "first_tournament_evaluation_plan": {
+    "recorded_utc": "2026-11-07T18:02:52.184750+00:00",
+    "successful_pairwise_calls_at_recording": 0,
+    "question": "Did a real candidate group pass through generation, pairwise ranking, execution and the official task scorer?",
+    "observation": "Use the first completed live tournament batch in chronological order. Count generated, ranked, executed and skipped candidates and comparator API receipts. Grade each executed submission from this batch on the Mac; record missing or invalid submissions too. If all are invalid, preserve the failure and identify the first subsequent successful full chain separately.",
+    "holdout_isolation": "All scores outside agent workspace. No score changes selection, hyperparameters, stopping time, or the final best-node rule."
+  },
+  "interim_analysis": {
+    "predicted_positions": 25680,
+    "scored_positions": 16320,
+    "three_submission_results": {
+      "initial_valid": {
+        "official_score": 0.37879,
+        "rmse_by_target": {
+          "reactivity": 0.335,
+          "deg_Mg_pH10": 0.422669,
+          "deg_Mg_50C": 0.378688
+        }
+      },
+      "parent_incumbent": {
+        "official_score": 0.27231,
+        "rmse_by_target": {
+          "reactivity": 0.24157,
+          "deg_Mg_pH10": 0.310392,
+          "deg_Mg_50C": 0.264955
+        }
+      },
+      "tournament_selected": {
+        "official_score": 0.29349,
+        "rmse_by_target": {
+          "reactivity": 0.257707,
+          "deg_Mg_pH10": 0.333406,
+          "deg_Mg_50C": 0.289344
+        }
+      }
+    },
+    "parent_internal_metric": 0.4635,
+    "child_internal_metric": 0.4712,
+    "threshold_passing_comparison_records": 4,
+    "rank_zero_ties": 2,
+    "interpretation": "The batch winner produced a gold-threshold submission but did not outperform its parent. The original best-node rule retained the parent. The other nine codes were not executed; this batch does not establish top-1 accuracy or a causal effect of selection."
+  }
+}

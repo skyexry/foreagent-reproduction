@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "checked_steps": [
+    "clone",
+    "venv",
+    "install-offline",
+    "pip-check",
+    "freeze",
+    "data",
+    "pairwise-import",
+    "mechanism-tests",
+    "online-score-tests",
+    "pairwise",
+    "historical",
+    "corpus-original",
+    "corpus-independent-score"
+  ],
+  "fresh_clone": "work/acceptance-original-20261108",
+  "python": "Python 3.12.5",
+  "frozen_files": 85,
+  "pairwise": {
+    "reparsed_adopted_responses": 246,
+    "historical_api_calls": 266,
+    "new_api_calls": 0,
+    "correct": 136,
+    "denominator": 246,
+    "expected_summary": "exact match"
+  },
+  "historical": {
+    "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+    "runs_checked": 15,
+    "batches_replayed": 129,
+    "candidates_replayed": 1290,
+    "matches": {
+      "rank_and_round_match": 129,
+      "sorted_order_matches_log": 129,
+      "probability_decisions_match_log": 129,
+      "forced_fallback_match_log": 129,
+      "final_execution_matches_journal": 129,
+      "final_execution_order_matches_log": 129
+    },
+    "forced_fallback_batches": 87,
+    "logged_batches_outside_final_journal_or_incomplete": 11,
+    "mode": "Historical-response-sequence control-flow replay with log-observed probability decisions.",
+    "randomness_note": "Revival opponent identities are synthetic because original RNG state is unavailable. Normal pair identities and pending-node identities are independently log-checked. Stored responses are supplied by batch/position, not synthetic pair identity."
+  },
+  "corpus_original": {
+    "task_count": 26,
+    "replays": 7800,
+    "macro": {
+      "uniform_tie_best_hit": 0.20426480463980465,
+      "normalized_regret": 0.2810004951859252,
+      "random_best_hit": 0.12532051282051282,
+      "unique_feedback_queries": 13.08,
+      "expected_execution_count": 1.0288939413530256
+    },
+    "original_result_reference": "experiments/corpus26-v2/original/results.json"
+  },
+  "corpus_expected_fingerprints": "matched",
+  "new_api_calls": 0,
+  "new_training_runs": 0,
+  "full_generated_verification": {
+    "path_relative_to_session": "outputs/environment-baselines-local-v1/offline-verification-full.json",
+    "sha256": "e317c31c50d42e227c9845abd9c7ec8f2249a17cc4ab4dc4d490c69548e242e6"
+  }
+}

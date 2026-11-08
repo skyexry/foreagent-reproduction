@@ -1,0 +1,14 @@
+{
+  "baked-instructions.txt": "06e667de751ff7e4f24e22b03984bfc3e1734dd748e33b079e5746b3c6520a69",
+  "bridge.py": "80a4273983a4ad3d50ec68cbd6026d31763f414dd64cb9c7a2970634f7fdc43a",
+  "controller.py": "33f55d12dd9fbf59f4664607be87f1a0d1543805d1de05c602f4703b4a47bf28",
+  "first-prompt-audit.json": "97e89dd794419c710f3d910630df668b1bb167b0e58408be449d676abc193f2d",
+  "grade_checkpoint.py": "dc07e6d9e7638e4b4327e426214f45d2367cb74c89c2289898ce904c3cd4a45a",
+  "guest.sh": "60eef7e139b2940fb021f2fec9f990a344d67c64c35e4268368f546993935983",
+  "model_gateway.py": "bad9f6af3adae1f52ba1af924bc8707919bdacbfa9c49d311b91b8d5dff5ec32",
+  "protocol-v2.json": "aeee562fc0f0557862dfae7bddc34ef7aa9927db2285f5eed87f49b56006d3e8",
+  "run_frozen.py": "86ab826875df7ba93120f3af7b31c2e4b98c3ac8a305ebf7dcd21867c600503b",
+  "score_run.py": "770a35508e09ae562c19567fd6d26d1e24e9a446b5eaac0d69c6a64f16abe892",
+  "send_image.py": "828da158584b3cd46591b650ec08c3787f24624f7b9f53d9fb1682c8379726c9",
+  "worker.py": "42fdad8e0b205e269cae8004e6243ce30a528cbaaa3f3fd7066100cd2c61017e"
+}

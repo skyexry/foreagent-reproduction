@@ -1,0 +1,104 @@
+{
+  "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038": [
+    {
+      "upstream": [
+        "- **Compute**: You have access to 1 NVIDIA GeForce RTX 3090 with the appropriate drivers installed."
+      ],
+      "current": [
+        "- **Compute**: You have access to 1 NVIDIA GeForce RTX 4090 with the appropriate drivers installed."
+      ]
+    },
+    {
+      "upstream": [
+        "- <TOTAL_TIME_REMAINING: 11.0hrs 59.0mins 59.061172008514404secs>"
+      ],
+      "current": [
+        "- <TOTAL_TIME_REMAINING: 11.0hrs 59.0mins 52.117217779159546secs>"
+      ]
+    },
+    {
+      "upstream": [
+        "Your solution can use any relevant machine learning packages such as: `torch`, `xgboost`, `torch-geometric`, `numpy`, `pandas`, `lightGBM`, `scikit-learn`, `statsmodels`, `bayesian-optimization`, `timm`, `torchvision`. Feel free to use any other packages too (all packages are already installed!). For neural networks we suggest using PyTorch rather than TensorFlow."
+      ],
+      "current": [
+        "Your solution can use any relevant machine learning packages such as: `torch`, `scikit-learn`, `torchvision`, `lightGBM`, `xgboost`, `bayesian-optimization`, `numpy`, `timm`, `torch-geometric`, `statsmodels`, `pandas`. Feel free to use any other packages too (all packages are already installed!). For neural networks we suggest using PyTorch rather than TensorFlow."
+      ]
+    },
+    {
+      "upstream": [
+        "A GPU is available and should be used for computations where possible. Use multiple CPU cores for computations, but limit the number of cores to 13."
+      ],
+      "current": [
+        "A GPU is available and should be used for computations where possible. Use multiple CPU cores for computations, but limit the number of cores to 21."
+      ]
+    }
+  ],
+  "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0": [
+    {
+      "upstream": [
+        "- **Compute**: You have access to 1 NVIDIA GeForce RTX 3090 with the appropriate drivers installed."
+      ],
+      "current": [
+        "- **Compute**: You have access to 1 NVIDIA GeForce RTX 4090 with the appropriate drivers installed."
+      ]
+    },
+    {
+      "upstream": [
+        "- <TOTAL_TIME_REMAINING: 11.0hrs 59.0mins 58.93309283256531secs>"
+      ],
+      "current": [
+        "- <TOTAL_TIME_REMAINING: 11.0hrs 59.0mins 52.117217779159546secs>"
+      ]
+    },
+    {
+      "upstream": [
+        "Your solution can use any relevant machine learning packages such as: `numpy`, `statsmodels`, `timm`, `lightGBM`, `bayesian-optimization`, `torch-geometric`, `scikit-learn`, `torchvision`, `xgboost`, `pandas`, `torch`. Feel free to use any other packages too (all packages are already installed!). For neural networks we suggest using PyTorch rather than TensorFlow."
+      ],
+      "current": [
+        "Your solution can use any relevant machine learning packages such as: `torch`, `scikit-learn`, `torchvision`, `lightGBM`, `xgboost`, `bayesian-optimization`, `numpy`, `timm`, `torch-geometric`, `statsmodels`, `pandas`. Feel free to use any other packages too (all packages are already installed!). For neural networks we suggest using PyTorch rather than TensorFlow."
+      ]
+    },
+    {
+      "upstream": [
+        "A GPU is available and should be used for computations where possible. Use multiple CPU cores for computations, but limit the number of cores to 13."
+      ],
+      "current": [
+        "A GPU is available and should be used for computations where possible. Use multiple CPU cores for computations, but limit the number of cores to 21."
+      ]
+    }
+  ],
+  "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33": [
+    {
+      "upstream": [
+        "- **Compute**: You have access to 1 NVIDIA GeForce RTX 3090 with the appropriate drivers installed."
+      ],
+      "current": [
+        "- **Compute**: You have access to 1 NVIDIA GeForce RTX 4090 with the appropriate drivers installed."
+      ]
+    },
+    {
+      "upstream": [
+        "- <TOTAL_TIME_REMAINING: 11.0hrs 59.0mins 59.04043388366699secs>"
+      ],
+      "current": [
+        "- <TOTAL_TIME_REMAINING: 11.0hrs 59.0mins 52.117217779159546secs>"
+      ]
+    },
+    {
+      "upstream": [
+        "Your solution can use any relevant machine learning packages such as: `timm`, `xgboost`, `pandas`, `lightGBM`, `torchvision`, `scikit-learn`, `statsmodels`, `torch`, `numpy`, `torch-geometric`, `bayesian-optimization`. Feel free to use any other packages too (all packages are already installed!). For neural networks we suggest using PyTorch rather than TensorFlow."
+      ],
+      "current": [
+        "Your solution can use any relevant machine learning packages such as: `torch`, `scikit-learn`, `torchvision`, `lightGBM`, `xgboost`, `bayesian-optimization`, `numpy`, `timm`, `torch-geometric`, `statsmodels`, `pandas`. Feel free to use any other packages too (all packages are already installed!). For neural networks we suggest using PyTorch rather than TensorFlow."
+      ]
+    },
+    {
+      "upstream": [
+        "A GPU is available and should be used for computations where possible. Use multiple CPU cores for computations, but limit the number of cores to 13."
+      ],
+      "current": [
+        "A GPU is available and should be used for computations where possible. Use multiple CPU cores for computations, but limit the number of cores to 21."
+      ]
+    }
+  ]
+}

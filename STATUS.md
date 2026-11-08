@@ -10,4 +10,5 @@
 - **本机剩余验收已完成（environment-baselines-local-v1）**：新克隆及新 venv 重现 246 对结果、129 个完整历史批次及原版 7,800 次回放；4 项机制测试、5 项独立评分反例测试通过。新增独立 Mac 控制器/评分环境通过 `pip check`，完成两种作者配置的零调用构造与公共参数一致性核验。最终提交和作者三份提交的原评分与独立 ID 对齐分数一致。完整证据见[本机核验与剩余清单](experiments/environment-acceptance/README.md)、`offline-verification.json`、`online-verification.json`、`environment.json`、`config-verification.json`。本轮新增模型调用 0、候选训练 0；固定源码及既有基线参数保持原版本。
 - **评分器边界已实测并加核验**：作者原 Stanford 评分器在打乱行顺序后因 pandas 索引对齐改变分数；原始冻结提交与独立按 ID 对齐的 MCRMSE 一致，仍为 **0.26640**。保留作者评分源码，新核验工具检查 ID、列、有限值和两种评分的一致性；反例及具体数值见上述清单。
 - **本阶段已完成（2026-11-08 用户明确范围）**：以已完成并核验的 Stanford 单任务、单次标准 12 小时原版端到端运行作为复现验收，成绩 **0.26640**。原版重复性与 AIDE 公平在线对比转为后续可选研究；当前剩余必需 GPU 验收项为 0。硬件/执行适配、服务快照、Mac 熄屏及 VPN 断连等待、历史 RNG 缺口继续随结果披露。
+- **第一阶段材料已集中归集（phase1-reproduction-v1）**：统一入口为 [phase1-reproduction/README.md](phase1-reproduction/README.md)。归集固定作者代码、实际运行适配代码、完整在线日志/候选/预测、成绩与本机核验记录；原件保留，945 项副本/链接及原始来源逐项校验通过，来源和 SHA-256 见 SOURCES.json。完整记录和公开输入按本机附件管理，代码与摘要纳入 Git。
 - **当前唯一下一步**：从[后续改进清单](IMPROVEMENTS.md)确定下一轮独立研究问题与离线预算。评分器行顺序问题登记为 EVAL-01（评估工具正确性修正）；冻结原版及现有独立核验结果继续作为参照。

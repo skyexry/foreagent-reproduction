@@ -1,5 +1,7 @@
 # Environment & Baselines：作者原版 ForeAgent
 
+**第一阶段统一阅读入口：** [phase1-reproduction/README.md](phase1-reproduction/README.md)
+
 本阶段验证 [ForeAgent 作者仓库](https://github.com/zjunlp/predict-before-execute/tree/c4d52cf99bd870d830b456ac7c0684aec1aef375) 的发布配置。运行目录使用作者仓库的独立检出。获取相同源码：
 
 ```bash
