@@ -1,0 +1,106 @@
+{
+  "purpose": "Historical endpoint reference: grade each published final submission on the same official scorer and private answers used by the new run. Published agent metrics are separate.",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "competition": "stanford-covid-vaccine",
+  "number_of_author_runs": 3,
+  "mean_of_three_reported_official_scores": 0.25862,
+  "iteration_definition": "1-based count of Step N/5000 log events; N itself is based on journal size. A tournament generates multiple nodes in a single outer iteration.",
+  "runs": [
+    {
+      "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+      "seed_in_outer_log": "0",
+      "node_id": "f35059cb7c4249cf9d541ebebd2b327e",
+      "selection": {
+        "iteration_1based": 16,
+        "log_step_label": 61,
+        "journal_node_step_zero_based": 60,
+        "completed_tournament_index_at_selection": 5,
+        "elapsed_seconds": 19889.998,
+        "timestamp_in_author_log": "2025-12-23 08:30:48.407000",
+        "current_step_started": "2025-12-23 08:13:36.829000"
+      },
+      "was_tournament_candidate": false,
+      "rank_in_group": null,
+      "agent_metric": {
+        "value": 0.1645,
+        "maximize": false
+      },
+      "official_score": 0.25768,
+      "submission_sha256": "d6972c75f38f2b3695009f90e05c53281ef7e2db5b6e1bfa19f0f6058503814f",
+      "submission_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/submission/submission.csv",
+      "node_info_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/code/node_info.txt",
+      "first_three_errors": [
+        "JSONDecodeError",
+        "JSONDecodeError",
+        "JSONDecodeError"
+      ],
+      "seconds_to_first_best": 1316.941,
+      "final_node_origin": "debug of failed parent",
+      "last_best_check": "Final code/node_info.txt identifies the last log best, and published code/solution.py equals its journal node code."
+    },
+    {
+      "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+      "seed_in_outer_log": "0",
+      "node_id": "e33a88bdaa804323b1e4ad9845b51859",
+      "selection": {
+        "iteration_1based": 20,
+        "log_step_label": 92,
+        "journal_node_step_zero_based": 100,
+        "completed_tournament_index_at_selection": 9,
+        "elapsed_seconds": 31344.81,
+        "timestamp_in_author_log": "2025-12-23 12:28:30.003000",
+        "current_step_started": "2025-12-23 11:39:07.085000"
+      },
+      "was_tournament_candidate": true,
+      "rank_in_group": 0,
+      "agent_metric": {
+        "value": 0.3054,
+        "maximize": false
+      },
+      "official_score": 0.2432,
+      "submission_sha256": "87f3c12fb43703b6b6ec18e26cd58d29ab84934656aa974ccc68f7b2a27ee3f4",
+      "submission_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0/submission/submission.csv",
+      "node_info_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0/code/node_info.txt",
+      "first_three_errors": [
+        "JSONDecodeError",
+        "JSONDecodeError",
+        "JSONDecodeError"
+      ],
+      "seconds_to_first_best": 1055.188,
+      "final_node_origin": "ranked improvement",
+      "last_best_check": "Final code/node_info.txt identifies the last log best, and published code/solution.py equals its journal node code."
+    },
+    {
+      "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+      "seed_in_outer_log": "0",
+      "node_id": "c1e0beac30724c2087d05ae3f323b620",
+      "selection": {
+        "iteration_1based": 21,
+        "log_step_label": 102,
+        "journal_node_step_zero_based": 102,
+        "completed_tournament_index_at_selection": 10,
+        "elapsed_seconds": 28086.547,
+        "timestamp_in_author_log": "2025-12-23 10:47:29.058000",
+        "current_step_started": "2025-12-23 10:07:25.122000"
+      },
+      "was_tournament_candidate": true,
+      "rank_in_group": 0,
+      "agent_metric": {
+        "value": 0.4202,
+        "maximize": false
+      },
+      "official_score": 0.27497,
+      "submission_sha256": "4ae482906d8690d5dadfe9dd2cfc52663f7242a38933c8771195ac18a11e6cd8",
+      "submission_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33/submission/submission.csv",
+      "node_info_url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33/code/node_info.txt",
+      "first_three_errors": [
+        "JSONDecodeError",
+        "JSONDecodeError",
+        "JSONDecodeError"
+      ],
+      "seconds_to_first_best": 734.63,
+      "final_node_origin": "ranked improvement",
+      "last_best_check": "Final code/node_info.txt identifies the last log best, and published code/solution.py equals its journal node code."
+    }
+  ]
+}
