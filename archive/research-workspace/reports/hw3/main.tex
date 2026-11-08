@@ -1,0 +1,137 @@
+\documentclass{article}
+\usepackage[preprint]{neurips_2025}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{xurl}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+
+\title{Reliable Candidate Selection for\\Budget-Constrained Machine Learning Agents}
+\author{DATS-SHU-200 Data Mining\\Homework 3: Baseline Reproduction Draft}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Large language model (LLM) agents can automate parts of machine learning engineering, including writing training code, debugging failures, and improving existing solutions. A central difficulty is deciding which proposed solution deserves an expensive execution. For example, an agent may generate several modifications to a training pipeline, while only a small number can be trained and evaluated within the available time. Executing every proposal consumes resources; discarding proposals prematurely can remove the best solution. This project studies how an agent can use imperfect predictions of candidate quality to make better selection decisions under a limited comparison budget.
+
+Existing agent systems provide two complementary approaches to this problem. AIDE formulates machine learning engineering as tree search over code solutions: the agent drafts, debugs, and improves programs using execution feedback \citep{jiang2025aide}. This makes observed performance available for subsequent decisions, but requires running candidate programs. ForeAgent instead introduces a \emph{Predict-then-Verify} loop \citep{zheng2026predict}. During improvement, it generates multiple candidates and asks an LLM to compare their code using the task description and a data analysis report. A confidence-gated selection procedure then filters candidates before execution. This approach reduces reliance on running every proposal while retaining execution feedback for the candidates that are actually verified.
+
+However, a useful pairwise judgment does not automatically produce a reliable decision among many candidates. Judgments can conflict, and one mistaken comparison can eliminate a strong candidate. Confidence expresses the model's certainty about a particular comparison; it is neither a candidate's performance score nor a guarantee of correctness. Consequently, the rules for collecting and combining pairwise evidence are a distinct part of the agent's decision process. This motivates the research question: \emph{With the candidate pool and comparison feedback held fixed, can a different aggregation rule select better machine learning solutions than ForeAgent's confidence-gated tournament?} A subsequent extension would examine which comparisons to request under a shared budget. Neither improvement is assumed in advance.
+
+The baseline for this project is ForeAgent's candidate-selection component. Its released agent trajectories support a direct check of the original control logic using historical candidate batches and observations. Section~\ref{sec:reproduction} reports this conditional replay, establishing an implementation baseline for later aggregation experiments. The public Preference Corpus, containing 18,438 candidate pairs across 26 tasks, also supplies recorded execution scores for subsequent selection-quality evaluation \citep{zheng2026predict}. MLE-bench provides the broader machine learning engineering task setting \citep{chan2024mle}. Historical-output agreement, prediction accuracy, and end-to-end task performance each supply a different level of evidence.
+
+\section{Baseline Explanation}
+
+\subsection{Problem formulation and notation}
+
+Let $I$ denote a task description, $D$ its dataset, and $C$ a candidate program implementing a machine learning workflow. Let $M(C;I,D)$ denote its task-specific evaluation metric after execution. Define an oriented utility $u(C)$ so that higher values are always better: $u(C)=M(C;I,D)$ for a maximized metric such as AUC, and $u(C)=-M(C;I,D)$ for a minimized metric such as log loss. The underlying engineering objective is to find
+\begin{equation}
+  C^* \in \operatorname*{arg\,max}_{C\in\mathcal{C}} u(C),
+  \label{eq:objective}
+\end{equation}
+where $\mathcal{C}$ is the space of possible programs. Because obtaining $u(C)$ requires execution, ForeAgent predicts relative quality before spending this cost. This notation describes the optimization objective; the true utility is unavailable to the predictor at decision time.
+
+For candidates $C_i$ and $C_j$, the comparison input consists of $I$, a data analysis report $D_{\mathrm{rep}}$, the two programs, and a prompt $P$. A pretrained LLM with fixed parameters $\theta$ returns
+\begin{equation}
+  (z_{ij},\widehat{y}_{ij},c_{ij})
+  = f_{\theta}(I,D_{\mathrm{rep}},C_i,C_j;P),
+  \label{eq:predictor}
+\end{equation}
+where $z_{ij}$ is the generated reasoning, $\widehat{y}_{ij}\in\{0,1\}$ identifies the preferred input position, and $c_{ij}\in[0,1]$ is the reported confidence. The evaluation label identifies which candidate achieved the better recorded score. The index is relative to the presented pair, so it must be mapped back to candidate identity when comparisons are reused. Crucially, $c_{ij}$ concerns this particular judgment; confidence values from unrelated pairs cannot be treated as a global ranking of candidates.
+
+\subsection{System architecture: prediction followed by verification}
+
+ForeAgent builds on AIDE's search over program nodes. Executed nodes provide code, runtime observations, and measured performance that can inform later drafting, debugging, or improvement. ForeAgent modifies the \emph{improvement} stage by inserting prediction-based filtering between generation and execution \citep[Section~6.2]{zheng2026predict}:
+\begin{center}
+\small
+Executed parent $\longrightarrow$ Candidate generation $\longrightarrow$ LLM comparisons\\[2pt]
+$\longrightarrow$ Confidence-gated selection $\longrightarrow$ Execution and feedback.
+\end{center}
+The published setup proposes $m=10$ improvements to a parent solution, applies a confidence threshold $\tau=0.7$, and selects the top rank group with $k=1$. The selected candidates are subject to the execution policy described below. Actual execution trains and evaluates a candidate program; it is distinct from calling the LLM to compare code. Successful verification returns measured feedback to the search process, so the full agent retains interaction with its computational environment.
+
+The predictor is grounded in task and dataset context rather than code alone. The paper constructs its data reports through a profiling, verification, and verbalization pipeline: generated analysis code is executed, the resulting logs are checked, and the observations are turned into a textual report \citep[Section~3.4]{zheng2026predict}. The report provides information with which the LLM can assess whether a pipeline suits the data. It is part of the prediction input, not the candidate's hidden evaluation score. For the offline baseline, the released reports are reused rather than regenerated.
+
+\subsection{Inference-time selection and execution rules}
+
+The core method uses pretrained LLM inference without fitting an additional reward model or updating model parameters. Accordingly, the relevant technical specification is its decision rule, not a new training loss. The confidence gate accepts a comparison when
+\begin{equation}
+  a_{ij}=\mathbf{1}\{c_{ij}\geq\tau\},\qquad \tau=0.7.
+  \label{eq:gate}
+\end{equation}
+A high-confidence winner can advance; an inconclusive judgment does not immediately establish a loser. This is a gate on self-reported confidence, rather than a calibrated probability model fitted by this project.
+
+\paragraph{Tournament aggregation.}
+In the fixed released implementation, each round compares adjacent active candidates; an odd candidate receives a bye. Confident winners advance and losers are eliminated. Inconclusive pairs enter a pending list. Pending candidates are compared with randomly chosen advanced candidates; if none has advanced, one pending candidate advances directly. A pending winner advances without removing its already-advanced opponent; another inconclusive outcome also advances the pending candidate. The process stops at one survivor or after the round count exceeds $2m$. Final ordering prioritizes survivors, then wins and later rounds; equal consecutive $(\text{wins},\text{round})$ groups share a displayed rank \citep{foreagentcode}.
+
+\paragraph{Selection and probabilistic execution.}
+Let $r_i$ be the zero-based displayed rank. The multi-candidate branch marks $r_i<k$ candidates eligible and independently applies an execution probability $p_{\mathrm{exec}}=0.2$ to each. If these tests produce an empty execution set, the original code forces execution of the first rank-0 candidate in sorted order \citep{foreagentcode}. Formally, let $B_i\sim\mathrm{Bernoulli}(p_{\mathrm{exec}})$ and let $i_0$ index that first rank-0 candidate. The preliminary and final execution indicators are
+\begin{equation}
+  q_i=\mathbf{1}\{r_i<k\}\,B_i,\qquad
+  e_i=q_i+\mathbf{1}\!\left\{\sum_jq_j=0\right\}\mathbf{1}\{i=i_0\}.
+  \label{eq:execute}
+\end{equation}
+Thus the original multi-candidate policy executes at least one candidate, while ties may permit several executions. The probability gate and mandatory fallback together specify the execution decision used in Section~\ref{sec:reproduction}.
+
+\subsection{Baseline evaluation and the scope of this project}
+
+The paper evaluates two different capabilities. First, its \emph{Data-centric Solution Preference} task measures how well an LLM predicts pairwise winners. The Preference Corpus contains 895 curated solutions and 18,438 pairs from 26 tasks spanning computer vision, natural language processing, and data science. The principal metric is micro-averaged pairwise accuracy,
+\begin{equation}
+  \operatorname{Acc}_{\mathrm{pair}}
+  =\frac{1}{N}\sum_{\ell=1}^{N}
+    \mathbf{1}\{\widehat{y}_{\ell}=y_{\ell}\},
+  \label{eq:accuracy}
+\end{equation}
+where $N$ counts the evaluated pairs and $y_\ell$ is the recorded better-candidate label. The paper reports 61.5\% accuracy for DeepSeek-V3.2-Thinking, averaged over three full-corpus runs \citep[Table~2]{zheng2026predict}. This is a published reference result, not a result achieved by this project.
+
+Second, the full ForeAgent system is evaluated against AIDE on five MLE-bench tasks under a 12-hour limit, with three runs per task. That evaluation measures final task performance through Beat Ratio, the proportion of human leaderboard contestants outperformed, alongside execution-time and search-breadth analyses \citep[Sections~6.3--6.4]{zheng2026predict}. Pairwise accuracy does not establish these end-to-end outcomes: a predictor can make locally correct comparisons yet select poorly within a candidate pool, and a good offline selection does not establish actual training-time savings.
+
+This project treats the pairwise predictor and candidate-selection controller as related baseline components. Earlier exploratory prediction runs used a fixed sample of 246 pairs across 26 tasks. The frozen reproduction reported next focuses on the original ranking and complete execution-control logic, using released historical agent records. Its evaluation target is agreement with the recorded outputs, conditional on archived comparison responses and probability outcomes. This establishes the behavior of the original controller before subsequent selection-quality and ranking-improvement experiments.
+
+\input{baseline_reproduction}
+
+\clearpage
+\begin{thebibliography}{9}
+
+\bibitem[Jiang et~al.(2025)]{jiang2025aide}
+Zhengyao Jiang, Dominik Schmidt, Dhruv Srikanth, Dixing Xu, Ian Kaplan, Deniss Jacenko, and Yuxiang Wu.
+\newblock AIDE: AI-Driven Exploration in the Space of Code.
+\newblock \emph{arXiv:2502.13138}, 2025.
+\newblock \url{https://arxiv.org/abs/2502.13138}.
+
+\bibitem[Zheng et~al.(2026)]{zheng2026predict}
+Jingsheng Zheng, Jintian Zhang, Yujie Luo, Yuren Mao, Yunjun Gao, Lun Du, Huajun Chen, and Ningyu Zhang.
+\newblock Can We Predict Before Executing Machine Learning Agents?
+\newblock In \emph{Proceedings of ACL 2026 (Volume 1: Long Papers)}, pp.\ 3941--3974, 2026.
+\newblock \url{https://aclanthology.org/2026.acl-long.182/}.
+
+\bibitem[Chan et~al.(2024)]{chan2024mle}
+Jun Shern Chan et~al.
+\newblock MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering.
+\newblock \emph{arXiv:2410.07095}, 2024.
+\newblock \url{https://arxiv.org/abs/2410.07095}.
+
+\bibitem[ForeAgent authors(2026a)]{foreagentcode}
+ForeAgent authors.
+\newblock Released implementation of Predict Before Execute.
+\newblock GitHub repository, fixed commit \texttt{c4d52cf} (full identifier in the URL below).
+\newblock Relevant files: \texttt{world\_model.py}, \texttt{agent.py}, and \texttt{config.yaml} under \texttt{mle-bench/agents/aide/}.
+\newblock \url{https://github.com/zjunlp/predict-before-execute/tree/c4d52cf99bd870d830b456ac7c0684aec1aef375}.
+
+
+\bibitem[ForeAgent authors(2026b)]{foreagentdata}
+ForeAgent authors.
+\newblock PredictBeforeExecute: released ForeAgent execution records.
+\newblock Hugging Face dataset, fixed revision \texttt{6b322cb}; subdirectory \texttt{agent\_runs/ForeAgent/}.
+\newblock \url{https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent}.
+
+\end{thebibliography}
+
+\paragraph{Generative AI use.}
+OpenAI Codex assisted with source and log inspection, Python replay and verification tooling, English drafting, and LaTeX typesetting. Requests included (translated from Chinese): ``Replay the original version using the authors' real candidate groups, order, and saved judgments, and check agreement'' and ``Freeze this part and add it to HW3's Baseline Reproduction using the previous NeurIPS template.'' Original prompts and affected components are recorded in the accompanying \texttt{AI\_USAGE.txt}.
+
+\end{document}

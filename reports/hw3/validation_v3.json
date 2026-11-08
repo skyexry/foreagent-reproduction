@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "version": "v3",
+  "pdf": "DM_HW3_Baseline_Reproduction_v3.pdf",
+  "pages": 8,
+  "checks": {
+    "20.43%": true,
+    "12.53%": true,
+    "0.2810": true,
+    "0.3674": true,
+    "21.60%": true,
+    "0.26640": true,
+    "0.2663989312": true,
+    "129 / 129": true,
+    "1,290 / 1,290": true,
+    "13,491.88": true,
+    "0.25768": true,
+    "0.24320": true,
+    "0.27497": true,
+    "future_plan_omitted": true,
+    "no_unresolved_references": true,
+    "no_overfull_boxes": true,
+    "no_undefined_citations": true
+  },
+  "numeric_sources": [
+    "experiments/corpus26-v2/original/results.json",
+    "experiments/online-stanford-v2/final-summary.json",
+    "experiments/online-stanford-v2/author-final-reference.json",
+    "experiments/environment-acceptance/online-verification.json"
+  ],
+  "sha256": {
+    "main.tex": "d0c1e318a626f6c43fe860a3457640d6909b96831fbc99ca623a5801b2141c03",
+    "baseline_reproduction.tex": "f36e118878ff6f3f2d2d9558c271890d62e763a49e1677dccb89bfd35c4f28bd",
+    "DM_HW3_Baseline_Reproduction_v3.pdf": "206ce602eed13976a292b2b3bb21c8e3a350f55e2231f0c545799ab9fc050a9e"
+  },
+  "visual_review": "All nine first-build pages inspected; final build reflows references onto page 8 and its final two pages were inspected. Tables, equations and margins checked.",
+  "new_api_calls": 0,
+  "new_training_runs": 0
+}

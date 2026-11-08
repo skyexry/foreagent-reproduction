@@ -1,0 +1,20 @@
+{
+  "phase": "HW3 publication preparation",
+  "report_version": "v3",
+  "report_pages": 8,
+  "report_bytes_match_validated_source": true,
+  "archived_original_files_hash_checked": 227,
+  "root_and_phase1_navigation_links": "passed",
+  "secret_scan": {
+    "repository_files": 692,
+    "attachment_entries": 413,
+    "findings": 0
+  },
+  "baseline_frozen_files": 85,
+  "restored_record_entries": 413,
+  "public_data_separate": true,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "new_gpu_rentals": 0,
+  "report_completion": "Sections 1-3; Future Plan remains for subsequent work."
+}

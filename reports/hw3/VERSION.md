@@ -1,19 +1,26 @@
 # HW3 报告实验版本
 
-沿用现有六页 `DM_HW3_Baseline_Reproduction_v2.pdf`、`main.tex`、`baseline_reproduction.tex` 及原附带 NeurIPS 模板；本轮归集保持这些文件的原有字节。原路径与 SHA-256 见 `provenance/import_map.json`。
+## 当前版本：v3（2026-11-08）
 
-- Introduction / Baseline Explanation：研究动机、pairwise 与 selection 区别、原门控/pending/停止/并列及执行回退。
-- Baseline Reproduction 主结果：`historical-v1` 的 15 次运行、129/129 完整批次、1,290 候选条件历史重演，包含 RNG/复赛对手身份及日志覆盖缺口。
-- 246 对结果为此前小样本判断能力；26 任务 corpus26-v2 为另一离线选择效果实验。两者详细协议和汇总在仓库中分别列账，正文 Section 3 的 129/129 主张范围保持清楚。
-- 缓存修正、新汇总、新早停及完整在线验证的证据层级见根 README 与 EXPERIMENTS。
+交付：`DM_HW3_Baseline_Reproduction_v3.pdf`，8 页；对应源码为 `main.tex` 和 `baseline_reproduction.tex`，沿用现有 NeurIPS 模板。
 
-可在 TeX Live/MacTeX 下重新排版：
+- 保留 Introduction、Baseline Explanation 和 129 批历史条件回放：15 次作者运行、1,290 个候选；原 RNG/复赛对手身份的证据边界继续说明。
+- 新增 `corpus26-v2` 原版完整执行策略的离线筛选结果：26 任务、2,600 池实例、2,164 个不同集合、7,800 次回放；单选最佳命中 20.43%（随机 12.53%）、归一化 regret 0.2810（随机 0.3674）、完整模拟执行集合最佳命中 21.60%。并列评分、任务等权、固定反馈及候选池适配条件均已说明。
+- 新增 `stanford-autodl-v2` 单任务标准 12 小时端到端结果：私有集 MCRMSE 0.26640；列出作者同任务三次提交复评分、运行规模、环境与服务差异、Mac 熄屏/VPN 断连引发的请求重试等待及独立评分核验。
+- Future Plan 留待后续。AI 使用原始请求补记于 `AI_USAGE.txt`。
+- 现有报告更新复用已保存实验；新增 API 调用和候选训练均为 0。
+
+验证：LaTeX 编译、PDF 文本与实验 JSON 数字核对、逐页版面检查；结果和当前源码/PDF 哈希见 `validation_v3.json`。
+
+## 历史版本：v2
+
+`DM_HW3_Baseline_Reproduction_v2.pdf` 与 `baseline_freeze.json` 保留原有字节。v2 的主结果为 `historical-v1` 条件历史回放；其归档来源和 SHA-256 见 `provenance/import_map.json`。当前 TeX 对应 v3；旧版本的来源以原归档和冻结记录为准。早期概率阶段执行口径保留于 `experiments/superseded/`，当前报告使用 `corpus26-v2` 完整执行策略。
+
+## 编译
 
 ```bash
 cd reports/hw3
-mkdir -p build
-pdflatex -interaction=nonstopmode -halt-on-error -output-directory build main.tex
-pdflatex -interaction=nonstopmode -halt-on-error -output-directory build main.tex
+latexmk -norc -pdf -interaction=nonstopmode -halt-on-error -outdir=build main.tex
 ```
 
-`build/main.pdf` 为新生成文件；现有 PDF 是归档交付版本。模板引用均在同目录；文献在 TeX 内，无额外 bib 数据依赖。
+`build/main.pdf` 为生成文件；交付文件为上方标注的 v3 PDF。

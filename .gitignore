@@ -1,23 +1,17 @@
-# Credentials and local configuration
+# Secrets and local accounts
 .env
 .env.*
-!.env.example
 *.key
-secrets/
-
-# Python and editor artifacts
+# Local environments and generated artifacts
+.venv*/
 __pycache__/
 *.py[cod]
-.venv/
 .DS_Store
-
-# Downloaded papers, data, and experiment outputs
-*.pdf
-data/
-outputs/
-logs/
-
-runs/
-!.python-version
-!reports/hw3/*.pdf
 reports/hw3/build/
+# Datasets and full trajectories are separate attachments
+phase1-reproduction/records/
+phase1-reproduction/data/
+archive/research-workspace/data/
+archive/research-workspace/outputs/
+archive/research-workspace/runs/
+downloads/

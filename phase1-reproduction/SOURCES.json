@@ -27,12 +27,28 @@
       "type": "file"
     },
     {
+      "path": "IMPROVEMENTS.md",
+      "source": null,
+      "type": "file",
+      "category": "generated_navigation",
+      "bytes": 144,
+      "sha256": "ca657d275132f64654ba33d6296ed1d9fbc86950d5aab271caada39a117c13b7"
+    },
+    {
       "path": "README.md",
       "source": null,
       "category": "generated_reading_guide_or_copy_check",
-      "bytes": 4220,
-      "sha256": "87b75ed9799d3d6b7dfb18468e39a8f54a1dcf4f5fcc5f91fbce1be32b3a1195",
+      "bytes": 5922,
+      "sha256": "27bf87013dab4b16d59a8840b2438a4fba92e2980f5af025ebc131ab80c3e08b",
       "type": "file"
+    },
+    {
+      "path": "RELEASE_ASSETS.json",
+      "source": null,
+      "type": "file",
+      "category": "generated_release_asset_manifest",
+      "bytes": 839,
+      "sha256": "425e87e27c3281a34b053fa4caa85426c0b3c7fc7bb9861caf083e7c3764c8a2"
     },
     {
       "path": "code/author/LICENSE",
@@ -7574,8 +7590,8 @@
       "path": "verify_copy.py",
       "source": null,
       "category": "generated_reading_guide_or_copy_check",
-      "bytes": 1743,
-      "sha256": "68cc55e08d7f531a90ca1b86e657a5afd1acd266704b2fa3ab151a87c4ff050e",
+      "bytes": 5397,
+      "sha256": "c36fa2102b4eac310b84cba444e36b699355ce726dad694f13ed37cc7cac0eb6",
       "type": "file"
     }
   ],
@@ -7585,5 +7601,7 @@
     "secret_scan_regular_files": 941,
     "secret_scan_findings": 0,
     "frozen_baseline_files_verified": 85
-  }
+  },
+  "release_assets_manifest": "RELEASE_ASSETS.json",
+  "publication_layout": "Git contains code and summaries; complete records are restored from hw3-phase1-v1. Local original source paths remain provenance, not implicit runtime dependencies."
 }
