@@ -18,3 +18,8 @@
 原始用户请求：那你把 corpus26-v2 的离线筛选结果和这次端到端复现结果更新到 HW3 报告里，129 批历史回放保留，Future Plan 先不写。
 用途：核对 corpus26-v2、online-stanford-v2 和 environment-acceptance 的既有实验记录；更新英文报告、TeX、版本说明；编译与逐页版面检查。
 实验范围：复用既有结果；本次报告更新新增 API 调用0次、候选训练0次。Future Plan 留待后续。
+
+2026-11-08 GitHub/HW3 材料发布整理
+工具：OpenAI Codex。
+原始用户请求：那你把 phase1-reproduction 推送到 GitHub，完整日志作为附件上传，README 里加上下载链接。然后README也要更新，里面的文件整理一下，这个repo最终需要提交HW3
+用途：整理 README/目录与来源映射、日志附件打包、标准库恢复/核验工具和回归检查、GitHub 上传及下载回读。报告正文、NeurIPS 样式和 PDF 复用既有 v3。新增实验模型 API 调用和候选训练均为 0。

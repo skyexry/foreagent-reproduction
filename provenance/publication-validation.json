@@ -16,5 +16,14 @@
   "new_model_calls": 0,
   "new_training_runs": 0,
   "new_gpu_rentals": 0,
-  "report_completion": "Sections 1-3; Future Plan remains for subsequent work."
+  "report_completion": "Sections 1-3; Future Plan remains for subsequent work.",
+  "fresh_clone_prepublication": {
+    "git_material_entries": 529,
+    "restored_record_entries": 413,
+    "verified_after_restore": 942,
+    "standard_library_tests": 5,
+    "original_freeze_files": 85,
+    "working_tree": "clean after ignored records restoration"
+  },
+  "ai_usage": "reports/hw3/AI_USAGE.txt includes publication/verification assistance and exact user request"
 }
