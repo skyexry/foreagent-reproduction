@@ -15,27 +15,28 @@
     "Two registered offline final selectors on identical C0 traces: posterior reranking and archived rationale-direction tie-break, each across 3,400 episodes. Both gated out; C0 retained.",
     "Chronological execution-memory audit: 16 runs, 136 batches, 13 strict observed sibling pairs.",
     "CPU screen on 136 real batches: archived parsed judgments identify 128 full C0 top sets and graphs; 80 of 128 choices change with execution memory. A further switch is invariant to missing feedback.",
-    "Audited node predictions for all 80 fully identified switches; zero paired endpoints, 32 single-sided official CPU grades."
+    "Audited node predictions for all 80 fully identified switches; zero paired endpoints, 32 single-sided official CPU grades.",
+    "Advisor ranking gate on the author corpus and CPU embedding reranking; 3400 baseline traces matched. Same-task selective-history control completed."
   ],
   "development_tasks": 26,
   "environment_id": "foreagent-selection-replay-v1",
   "jobs": 850,
-  "next": "Review the six-pair Stanford and Statoil pilot budgets and endpoints before GPU execution.",
+  "next": "On the author corpus, separate target and reference generation runs and audit within-task retrieval gains against C0.",
   "research_review": {
-    "stage": "execution_memory_decision_screen_review",
+    "stage": "advisor_corpus_ranking",
     "summary": "research/离线候选选择.md",
     "evidence": "research/selection-study-v1/baseline.md",
     "literature": "research/selection-study-v1/literature.md",
     "proposal": "research/selection-study-v1/proposal.md",
     "proposal_scope": "Preregistered design for completed D1; its gate for D2 was not met.",
-    "results": "research/离线候选选择.md",
-    "verification": "experiments/posterior-ranking-v1/verification/selection_match.json",
-    "current_decision": "experiments/paired-prediction-audit/README.md",
+    "results": "experiments/embedding-rerank-v1/README.md",
+    "verification": "experiments/embedding-rerank-v1/verify.py",
+    "current_decision": "research/advisor-directions.md",
     "priority": [
-      "matched prospective execution on selector disagreements"
+      "task- and source-aware validation of within-task retrieval on the author corpus"
     ],
     "default_selection": "C0",
-    "priority_basis": "Of 130 in-domain batches, 81 are definite switches, 48 agree and one depends on a missing vote; none of the 80 identified changed pairs has historical validation for both arms.",
+    "priority_basis": "Both true top choices fall outside the top three in 31.2% of DeepSeek cases with at least four candidates (task macro). Cross-task fusion failed its gate; one-step same-task retrieval improved development scores.",
     "previous_wave": "experiments/trajectory-weighted-judge-v1/README.md",
     "training_baseline": "ForeCritic-style pairwise execution supervision with uniform cross-entropy",
     "signal_feasibility": "experiments/c0-judge-credit-check/run_1/summary.json",
