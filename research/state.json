@@ -12,14 +12,15 @@
     "Two preregistered offline diagnostics (D1, J1) completed; independent raw-data reconstruction and cross-check passed.",
     "Second-wave cross-bank module comparisons, actual C0 reruns and partial-oracle prioritization; baseline retained.",
     "Task-held-out four-arm training pilot: 104 fits and 17,000 selection episodes; 3,400 frozen C0 controls matched. Stop this representation/weight pilot.",
-    "Two registered offline final selectors on identical C0 traces: posterior reranking and archived rationale-direction tie-break, each across 3,400 episodes. Both gated out; C0 retained."
+    "Two registered offline final selectors on identical C0 traces: posterior reranking and archived rationale-direction tie-break, each across 3,400 episodes. Both gated out; C0 retained.",
+    "Chronological execution-memory audit: 16 runs, 136 batches, 13 strict observed sibling pairs."
   ],
   "development_tasks": 26,
   "environment_id": "foreagent-selection-replay-v1",
   "jobs": 850,
-  "next": "本轮已结束。",
+  "next": "Review matched prospective evaluation of C0 versus retrieval from earlier in-run validation results.",
   "research_review": {
-    "stage": "offline_selection_closed",
+    "stage": "execution_memory_chronology_review",
     "summary": "research/离线候选选择.md",
     "evidence": "research/selection-study-v1/baseline.md",
     "literature": "research/selection-study-v1/literature.md",
@@ -27,10 +28,12 @@
     "proposal_scope": "Preregistered design for completed D1; its gate for D2 was not met.",
     "results": "research/离线候选选择.md",
     "verification": "experiments/posterior-ranking-v1/verification/selection_match.json",
-    "current_decision": "research/离线候选选择.md",
-    "priority": [],
+    "current_decision": "experiments/chronological-memory-v1/README.md",
+    "priority": [
+      "matched prospective execution on selector disagreements"
+    ],
     "default_selection": "C0",
-    "priority_basis": "用户决定本轮收尾，保留 C0。",
+    "priority_basis": "130/136 batches have at least three historical scores; only 6 batches yield observed sibling comparisons.",
     "previous_wave": "experiments/trajectory-weighted-judge-v1/README.md",
     "training_baseline": "ForeCritic-style pairwise execution supervision with uniform cross-entropy",
     "signal_feasibility": "experiments/c0-judge-credit-check/run_1/summary.json",

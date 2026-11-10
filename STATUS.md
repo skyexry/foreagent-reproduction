@@ -1,5 +1,7 @@
 # 当前状态：作者原版单任务复现已完成
 
+**2026-11-10 · 执行前筛选**　[HW3 审阅稿（第 8 页）](reports/hw3/HW3_Execution_Memory_Review.pdf) · [按时间回放真实验证历史](experiments/chronological-memory-v1/README.md)。136 批中 130 批具备至少三份可用历史，6 批留下可直接比较的同批执行结果。当前供审阅的下一步是对两种方法分歧的选择做配对实测。
+
 - **2026-11-10，首次版本归并与持续同步规则。** 以远端 `09b301d` 为基点归并本地最新研究，保留原版 / HW3 发布材料与远端独有测试；交接入口为 [research/README.md](research/README.md)。[AGENTS.md](AGENTS.md)已写入每轮结束更新入口、验证、提交、推送及远端回读的持续授权。大型逐场 / 编码产物和补充公开输入通过校验附件衔接，范围与恢复说明见 [归并记录](provenance/first-alignment-20261110/README.md)。84 项现有测试、第一阶段副本核验与保护输入核验通过；本轮新增研究实验、训练和模型调用均 0。旧同步快照作为历史保留。
 
 - **2026-11-10，跨聊天交接入口已整理。** [research/README.md](research/README.md)汇总原版 / C0 的角色、已测方向的结果与收尾原因、ForeCritic 定位、最新五类备选及待开展的 Top-1 / Top-2 诊断；当前保留 C0，下一轮方案待选定。历史条目的“下一步”按原阶段保留，当前衔接从研究入口读取。本轮仅编辑交接文档；39 个本地文件链接检查通过，原环境操作说明逐字保留，`python3 -B -m reproduction.research_env_v1 status --json` 返回保护输入 verified，新增实验 / 训练 / 模型调用均 0。GitHub main 核为 `09b301d`，本机及本地 origin/main 仍为 `9442373`，发布与版本归并待执行。

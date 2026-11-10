@@ -1,0 +1,73 @@
+{
+  "batches": 136,
+  "runs": 16,
+  "tasks": {
+    "aerial-cactus-identification": {
+      "batches": 12,
+      "at_least_three": 12,
+      "at_least_ten": 0,
+      "evaluable_batches": 0,
+      "strict_pairs": 0,
+      "evaluable_runs": 0,
+      "memory": null,
+      "shuffled": null,
+      "logged": null
+    },
+    "histopathologic-cancer-detection": {
+      "batches": 4,
+      "at_least_three": 1,
+      "at_least_ten": 0,
+      "evaluable_batches": 0,
+      "strict_pairs": 0,
+      "evaluable_runs": 0,
+      "memory": null,
+      "shuffled": null,
+      "logged": null
+    },
+    "stanford-covid-vaccine": {
+      "batches": 49,
+      "at_least_three": 49,
+      "at_least_ten": 23,
+      "evaluable_batches": 3,
+      "strict_pairs": 10,
+      "evaluable_runs": 3,
+      "memory": 0.3888888888888889,
+      "shuffled": 0.4777777777777778,
+      "logged": 0.5
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "batches": 57,
+      "at_least_three": 57,
+      "at_least_ten": 37,
+      "evaluable_batches": 2,
+      "strict_pairs": 2,
+      "evaluable_runs": 1,
+      "memory": 0.5,
+      "shuffled": 0.515,
+      "logged": 0.5
+    },
+    "ventilator-pressure-prediction": {
+      "batches": 14,
+      "at_least_three": 11,
+      "at_least_ten": 0,
+      "evaluable_batches": 1,
+      "strict_pairs": 1,
+      "evaluable_runs": 1,
+      "memory": 0.0,
+      "shuffled": 0.53,
+      "logged": 0.5
+    }
+  },
+  "totals": {
+    "at_least_three": 130,
+    "at_least_ten": 60,
+    "evaluable_batches": 6,
+    "evaluable_runs": 5,
+    "strict_pairs": 13
+  },
+  "observed_task_macro": {
+    "memory": 0.2962962962962963,
+    "shuffled": 0.5075925925925926,
+    "logged": 0.5
+  }
+}

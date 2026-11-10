@@ -1,5 +1,7 @@
 # ForeAgent：复现与研究
 
+**2026-11-10 · 执行前筛选**　[HW3 审阅稿（第 8 页）](reports/hw3/HW3_Execution_Memory_Review.pdf) · [按时间回放真实验证历史](experiments/chronological-memory-v1/README.md)。136 批中 130 批具备至少三份可用历史，6 批留下可直接比较的同批执行结果。当前供审阅的下一步是对两种方法分歧的选择做配对实测。
+
 **本轮离线候选选择研究已结束，保留 C0。** [离线结果、理由字段与后续决定](research/离线候选选择.md)
 
 ## 从这三个入口开始
@@ -16,7 +18,7 @@
 
 HW3 对应第一阶段作者原版 ForeAgent 复现，标准 12 小时单任务官方 MCRMSE **0.26640**。代码包逐文件对应 `hw3-phase1-v1`；作者源码、运行适配、核验脚本及原始声明一并保留。
 
-[第一阶段结果与运行记录](phase1-reproduction/README.md) · [报告 v3 PDF](reports/hw3/DM_HW3_Baseline_Reproduction_v3.pdf) · [完整日志附件](https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1)。报告 v3 前三部分已完成，Future Plan 继续按后续研究方案补入。
+[第一阶段结果与运行记录](phase1-reproduction/README.md) · [报告 v3 PDF](reports/hw3/DM_HW3_Baseline_Reproduction_v3.pdf) · [完整日志附件](https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1)。v3 为前三节复现记录，含 Future Plan 的本轮审阅稿见页首。
 
 ## 文件夹怎样配合
 
