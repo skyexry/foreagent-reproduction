@@ -1,0 +1,1712 @@
+{
+  "34873641a2d1704e5e4a|36f6499e533ef4b9272d": {
+    "gap": 1.1107543548924061,
+    "mean_delta": 0.043534529436814795,
+    "mean_gap": 0.11075435489240622,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0435345294368148,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|3db708a9ec7f7ba4c5aa": {
+    "gap": 1.9752395795057631,
+    "mean_delta": 0.29349550002625197,
+    "mean_gap": 0.975239579505763,
+    "n": 6,
+    "shuffled": 1.12595874332484,
+    "terminal": 1.293495500026252,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|3f24e7d81e9c4472e423": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|4a238469e0c19cb3b077": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|4a282df1f65e9404842d": {
+    "gap": 1.0409006246594783,
+    "mean_delta": 0.11545113591728645,
+    "mean_gap": 0.0409006246594782,
+    "n": 2,
+    "shuffled": 1.0,
+    "terminal": 1.1154511359172865,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|4ec326c144236105bb77": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|63df4e0e925f9a45e884": {
+    "gap": 1.1402594408502458,
+    "mean_delta": 0.09649619945444442,
+    "mean_gap": 0.14025944085024583,
+    "n": 4,
+    "shuffled": 1.1417765713987098,
+    "terminal": 1.0964961994544444,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|7868e6a757398a9c7c0f": {
+    "gap": 1.1208842812358881,
+    "mean_delta": 0.08594648400684893,
+    "mean_gap": 0.12088428123588812,
+    "n": 2,
+    "shuffled": 1.085946484006849,
+    "terminal": 1.085946484006849,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|7ad578c7dcb99d002cdf": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|a43f26caa05713c27a41": {
+    "gap": 1.2413656843332246,
+    "mean_delta": 0.12825302963294555,
+    "mean_gap": 0.2413656843332246,
+    "n": 4,
+    "shuffled": 1.3333945744586497,
+    "terminal": 1.1282530296329456,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|a46d76df8466a8adc5de": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|aa0c6d94797e9c717db7": {
+    "gap": 1.5563728965939734,
+    "mean_delta": 0.040469115097488226,
+    "mean_gap": 0.5563728965939734,
+    "n": 7,
+    "shuffled": 1.0,
+    "terminal": 1.0404691150974883,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|fd56c230f137d18452e7": {
+    "gap": 1.9569960594503502,
+    "mean_delta": 0.48006435269936065,
+    "mean_gap": 0.9569960594503503,
+    "n": 3,
+    "shuffled": 1.0845688063452088,
+    "terminal": 1.4800643526993607,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "34873641a2d1704e5e4a|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "34873641a2d1704e5e4a"
+  },
+  "36f6499e533ef4b9272d|3db708a9ec7f7ba4c5aa": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|3f24e7d81e9c4472e423": {
+    "gap": 1.0135403355175507,
+    "mean_delta": 0.3386669929398117,
+    "mean_gap": 0.013540335517550734,
+    "n": 1,
+    "shuffled": 1.0926479784659724,
+    "terminal": 1.3386669929398116,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "36f6499e533ef4b9272d|4a238469e0c19cb3b077": {
+    "gap": 1.271066998464808,
+    "mean_delta": 0.02631284469666692,
+    "mean_gap": 0.271066998464808,
+    "n": 3,
+    "shuffled": 1.1658072558929804,
+    "terminal": 1.026312844696667,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|4a282df1f65e9404842d": {
+    "gap": 1.064165400620913,
+    "mean_delta": -0.0016998040381355217,
+    "mean_gap": 0.06416540062091287,
+    "n": 1,
+    "shuffled": 1.0040775023066162,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "36f6499e533ef4b9272d|4ec326c144236105bb77": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|63df4e0e925f9a45e884": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|7868e6a757398a9c7c0f": {
+    "gap": 1.0102681627429388,
+    "mean_delta": 0.0,
+    "mean_gap": 0.010268162742938803,
+    "n": 1,
+    "shuffled": 1.258435520269719,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|7ad578c7dcb99d002cdf": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|a43f26caa05713c27a41": {
+    "gap": 1.1235841593332592,
+    "mean_delta": -0.014102780929266187,
+    "mean_gap": 0.12358415933325921,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|a46d76df8466a8adc5de": {
+    "gap": 1.1753985974179546,
+    "mean_delta": 0.0,
+    "mean_gap": 0.17539859741795466,
+    "n": 2,
+    "shuffled": 1.0911483051207607,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|aa0c6d94797e9c717db7": {
+    "gap": 1.4024714601637678,
+    "mean_delta": 0.0,
+    "mean_gap": 0.4024714601637679,
+    "n": 1,
+    "shuffled": 1.3386669929398116,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|bab8a4084c41ccc59041": {
+    "gap": 1.0399238365626327,
+    "mean_delta": -0.04636556692999679,
+    "mean_gap": 0.039923836562632584,
+    "n": 2,
+    "shuffled": 1.0435506675004758,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "36f6499e533ef4b9272d|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "36f6499e533ef4b9272d|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|fd56c230f137d18452e7": {
+    "gap": 1.8938116860164769,
+    "mean_delta": 0.09264797846597249,
+    "mean_gap": 0.8938116860164768,
+    "n": 1,
+    "shuffled": 1.021503616179053,
+    "terminal": 1.0926479784659724,
+    "winner": "36f6499e533ef4b9272d"
+  },
+  "36f6499e533ef4b9272d|fd70e9b984ed76c8dd97": {
+    "gap": 1.0195524216020184,
+    "mean_delta": 0.04738108909714846,
+    "mean_gap": 0.019552421602018352,
+    "n": 2,
+    "shuffled": 1.017287220849827,
+    "terminal": 1.0473810890971484,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "3db708a9ec7f7ba4c5aa|3f24e7d81e9c4472e423": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3db708a9ec7f7ba4c5aa|4a238469e0c19cb3b077": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a238469e0c19cb3b077"
+  },
+  "3db708a9ec7f7ba4c5aa|4a282df1f65e9404842d": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "3db708a9ec7f7ba4c5aa|4ec326c144236105bb77": {
+    "gap": 1.405353185979239,
+    "mean_delta": 0.33936555699228854,
+    "mean_gap": 0.40535318597923886,
+    "n": 5,
+    "shuffled": 1.1282530296329456,
+    "terminal": 1.3393655569922887,
+    "winner": "4ec326c144236105bb77"
+  },
+  "3db708a9ec7f7ba4c5aa|63df4e0e925f9a45e884": {
+    "gap": 1.8004431876886267,
+    "mean_delta": 0.0,
+    "mean_gap": 0.8004431876886267,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "3db708a9ec7f7ba4c5aa|7868e6a757398a9c7c0f": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "3db708a9ec7f7ba4c5aa|7ad578c7dcb99d002cdf": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3db708a9ec7f7ba4c5aa"
+  },
+  "3db708a9ec7f7ba4c5aa|a43f26caa05713c27a41": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "3db708a9ec7f7ba4c5aa|a46d76df8466a8adc5de": {
+    "gap": 1.6963600107146046,
+    "mean_delta": -0.0480371439626179,
+    "mean_gap": 0.6963600107146046,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "3db708a9ec7f7ba4c5aa|aa0c6d94797e9c717db7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "aa0c6d94797e9c717db7"
+  },
+  "3db708a9ec7f7ba4c5aa|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "b079c84fba038b6e4b04"
+  },
+  "3db708a9ec7f7ba4c5aa|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "3db708a9ec7f7ba4c5aa|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "3db708a9ec7f7ba4c5aa|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "3db708a9ec7f7ba4c5aa|f6bfb1aaa357becad04e": {
+    "gap": 1.7893877380480068,
+    "mean_delta": 0.31581673824225925,
+    "mean_gap": 0.7893877380480068,
+    "n": 4,
+    "shuffled": 1.0,
+    "terminal": 1.3158167382422592,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "3db708a9ec7f7ba4c5aa|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3db708a9ec7f7ba4c5aa"
+  },
+  "3db708a9ec7f7ba4c5aa|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "3f24e7d81e9c4472e423|4a238469e0c19cb3b077": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|4a282df1f65e9404842d": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "3f24e7d81e9c4472e423|4ec326c144236105bb77": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|63df4e0e925f9a45e884": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|7868e6a757398a9c7c0f": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|7ad578c7dcb99d002cdf": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|a43f26caa05713c27a41": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|a46d76df8466a8adc5de": {
+    "gap": 1.3802113078241005,
+    "mean_delta": 0.0,
+    "mean_gap": 0.38021130782410045,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|aa0c6d94797e9c717db7": {
+    "gap": 1.3856279589478402,
+    "mean_delta": 0.0,
+    "mean_gap": 0.3856279589478403,
+    "n": 2,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "3f24e7d81e9c4472e423|bad225ecf143fa9607fb": {
+    "gap": 1.019463247058963,
+    "mean_delta": 0.12595874332483986,
+    "mean_gap": 0.019463247058963008,
+    "n": 8,
+    "shuffled": 1.100830042194595,
+    "terminal": 1.12595874332484,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "3f24e7d81e9c4472e423|f6bfb1aaa357becad04e": {
+    "gap": 1.0975230292950855,
+    "mean_delta": 0.4299072827112798,
+    "mean_gap": 0.09752302929508555,
+    "n": 2,
+    "shuffled": 1.026312844696667,
+    "terminal": 1.4299072827112798,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3f24e7d81e9c4472e423"
+  },
+  "3f24e7d81e9c4472e423|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "4a238469e0c19cb3b077|4a282df1f65e9404842d": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a238469e0c19cb3b077|4ec326c144236105bb77": {
+    "gap": 1.1660277921089024,
+    "mean_delta": -0.038769396677144685,
+    "mean_gap": 0.1660277921089024,
+    "n": 5,
+    "shuffled": 1.0391379146033113,
+    "terminal": 1.0,
+    "winner": "4a238469e0c19cb3b077"
+  },
+  "4a238469e0c19cb3b077|63df4e0e925f9a45e884": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "4a238469e0c19cb3b077|7868e6a757398a9c7c0f": {
+    "gap": 1.2687824995517303,
+    "mean_delta": 0.11792481023250252,
+    "mean_gap": 0.26878249955173034,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.1179248102325026,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "4a238469e0c19cb3b077|7ad578c7dcb99d002cdf": {
+    "gap": 1.66122625260692,
+    "mean_delta": 0.18442883554463368,
+    "mean_gap": 0.6612262526069198,
+    "n": 7,
+    "shuffled": 1.293495500026252,
+    "terminal": 1.1844288355446337,
+    "winner": "4a238469e0c19cb3b077"
+  },
+  "4a238469e0c19cb3b077|a43f26caa05713c27a41": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "4a238469e0c19cb3b077|a46d76df8466a8adc5de": {
+    "gap": 1.0946307925831127,
+    "mean_delta": 0.0215036161790529,
+    "mean_gap": 0.09463079258311265,
+    "n": 1,
+    "shuffled": 1.308368999891646,
+    "terminal": 1.021503616179053,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "4a238469e0c19cb3b077|aa0c6d94797e9c717db7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a238469e0c19cb3b077"
+  },
+  "4a238469e0c19cb3b077|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a238469e0c19cb3b077"
+  },
+  "4a238469e0c19cb3b077|bab8a4084c41ccc59041": {
+    "gap": 1.3109505478540173,
+    "mean_delta": -0.05152930805295549,
+    "mean_gap": 0.3109505478540172,
+    "n": 5,
+    "shuffled": 1.0886277188960596,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "4a238469e0c19cb3b077|bad225ecf143fa9607fb": {
+    "gap": 1.3199116897142276,
+    "mean_delta": 0.20203290439363322,
+    "mean_gap": 0.3199116897142275,
+    "n": 10,
+    "shuffled": 1.0455413792826127,
+    "terminal": 1.2020329043936333,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "4a238469e0c19cb3b077|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "4a238469e0c19cb3b077|f6bfb1aaa357becad04e": {
+    "gap": 1.1816953638440926,
+    "mean_delta": 0.08382173691590848,
+    "mean_gap": 0.18169536384409257,
+    "n": 5,
+    "shuffled": 1.0964961994544444,
+    "terminal": 1.0838217369159084,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "4a238469e0c19cb3b077|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a238469e0c19cb3b077"
+  },
+  "4a238469e0c19cb3b077|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "4a282df1f65e9404842d|4ec326c144236105bb77": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|63df4e0e925f9a45e884": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|7868e6a757398a9c7c0f": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|7ad578c7dcb99d002cdf": {
+    "gap": 2.0,
+    "mean_delta": 0.022907721778188814,
+    "mean_gap": 1.0,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0229077217781888,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|a43f26caa05713c27a41": {
+    "gap": 1.197488647635244,
+    "mean_delta": 0.08855903591727858,
+    "mean_gap": 0.1974886476352441,
+    "n": 3,
+    "shuffled": 1.0240922983778773,
+    "terminal": 1.0885590359172785,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|a46d76df8466a8adc5de": {
+    "gap": 1.217629841744485,
+    "mean_delta": 0.16955133484535562,
+    "mean_gap": 0.21762984174448516,
+    "n": 2,
+    "shuffled": 1.0,
+    "terminal": 1.1695513348453557,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|aa0c6d94797e9c717db7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|eb554c52de27be4d678c": {
+    "gap": 1.0456810326558794,
+    "mean_delta": 0.16580725589298048,
+    "mean_gap": 0.04568103265587942,
+    "n": 2,
+    "shuffled": 1.0473810890971484,
+    "terminal": 1.1658072558929804,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "4a282df1f65e9404842d|f6bfb1aaa357becad04e": {
+    "gap": 1.1647358813189197,
+    "mean_delta": -0.090863186325238,
+    "mean_gap": 0.16473588131891967,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|fd56c230f137d18452e7": {
+    "gap": 1.89771007895841,
+    "mean_delta": -0.16576498111864105,
+    "mean_gap": 0.8977100789584102,
+    "n": 1,
+    "shuffled": 1.5,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4a282df1f65e9404842d|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4a282df1f65e9404842d"
+  },
+  "4ec326c144236105bb77|63df4e0e925f9a45e884": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "4ec326c144236105bb77|7868e6a757398a9c7c0f": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "4ec326c144236105bb77|7ad578c7dcb99d002cdf": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4ec326c144236105bb77"
+  },
+  "4ec326c144236105bb77|a43f26caa05713c27a41": {
+    "gap": 1.3296824310247328,
+    "mean_delta": 0.5,
+    "mean_gap": 0.3296824310247329,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.5,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "4ec326c144236105bb77|a46d76df8466a8adc5de": {
+    "gap": 1.2493542510671851,
+    "mean_delta": 0.2584355202697191,
+    "mean_gap": 0.24935425106718503,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.258435520269719,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "4ec326c144236105bb77|aa0c6d94797e9c717db7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "aa0c6d94797e9c717db7"
+  },
+  "4ec326c144236105bb77|b079c84fba038b6e4b04": {
+    "gap": 1.3338017130420505,
+    "mean_delta": 0.039137914603311286,
+    "mean_gap": 0.3338017130420506,
+    "n": 4,
+    "shuffled": 1.0,
+    "terminal": 1.0391379146033113,
+    "winner": "4ec326c144236105bb77"
+  },
+  "4ec326c144236105bb77|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "4ec326c144236105bb77|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "4ec326c144236105bb77|eb554c52de27be4d678c": {
+    "gap": 1.519163533220167,
+    "mean_delta": 0.1579593197129618,
+    "mean_gap": 0.5191635332201668,
+    "n": 5,
+    "shuffled": 1.0,
+    "terminal": 1.1579593197129618,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "4ec326c144236105bb77|f6bfb1aaa357becad04e": {
+    "gap": 1.3457404718907937,
+    "mean_delta": 0.043550667500475815,
+    "mean_gap": 0.3457404718907938,
+    "n": 2,
+    "shuffled": 1.1091797098500935,
+    "terminal": 1.0435506675004758,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "4ec326c144236105bb77|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4ec326c144236105bb77"
+  },
+  "4ec326c144236105bb77|fd70e9b984ed76c8dd97": {
+    "gap": 1.4340936179434391,
+    "mean_delta": 0.3083689998916459,
+    "mean_gap": 0.4340936179434391,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.308368999891646,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "63df4e0e925f9a45e884|7868e6a757398a9c7c0f": {
+    "gap": 1.0130211307824102,
+    "mean_delta": 0.0,
+    "mean_gap": 0.013021130782410075,
+    "n": 1,
+    "shuffled": 1.8965320628967475,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|7ad578c7dcb99d002cdf": {
+    "gap": 1.89771007895841,
+    "mean_delta": -0.283090058360564,
+    "mean_gap": 0.8977100789584102,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|a43f26caa05713c27a41": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|a46d76df8466a8adc5de": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|aa0c6d94797e9c717db7": {
+    "gap": 1.4595147932437489,
+    "mean_delta": 0.0,
+    "mean_gap": 0.4595147932437489,
+    "n": 4,
+    "shuffled": 1.1844288355446337,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "63df4e0e925f9a45e884|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "63df4e0e925f9a45e884|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "63df4e0e925f9a45e884|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "63df4e0e925f9a45e884"
+  },
+  "63df4e0e925f9a45e884|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "7868e6a757398a9c7c0f|7ad578c7dcb99d002cdf": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|a43f26caa05713c27a41": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|a46d76df8466a8adc5de": {
+    "gap": 1.147346147510865,
+    "mean_delta": 0.0,
+    "mean_gap": 0.14734614751086503,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|aa0c6d94797e9c717db7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|bab8a4084c41ccc59041": {
+    "gap": 1.0443343512030714,
+    "mean_delta": 0.13644311544163296,
+    "mean_gap": 0.044334351203071304,
+    "n": 1,
+    "shuffled": 1.0744367391886664,
+    "terminal": 1.136443115441633,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "7868e6a757398a9c7c0f|bad225ecf143fa9607fb": {
+    "gap": 1.0132449686528675,
+    "mean_delta": 0.09114830512076055,
+    "mean_gap": 0.013244968652867522,
+    "n": 2,
+    "shuffled": 1.0145247055146578,
+    "terminal": 1.0911483051207607,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "7868e6a757398a9c7c0f|eb554c52de27be4d678c": {
+    "gap": 1.1265067412720617,
+    "mean_delta": 0.0,
+    "mean_gap": 0.1265067412720617,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "7868e6a757398a9c7c0f|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "7868e6a757398a9c7c0f"
+  },
+  "7868e6a757398a9c7c0f|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "7ad578c7dcb99d002cdf|a43f26caa05713c27a41": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "7ad578c7dcb99d002cdf|a46d76df8466a8adc5de": {
+    "gap": 1.7421153226467725,
+    "mean_delta": 0.10083004219459488,
+    "mean_gap": 0.7421153226467725,
+    "n": 4,
+    "shuffled": 1.2020329043936333,
+    "terminal": 1.100830042194595,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "7ad578c7dcb99d002cdf|aa0c6d94797e9c717db7": {
+    "gap": 1.568137524774258,
+    "mean_delta": -0.136294779487857,
+    "mean_gap": 0.568137524774258,
+    "n": 2,
+    "shuffled": 1.4800643526993607,
+    "terminal": 1.0,
+    "winner": "aa0c6d94797e9c717db7"
+  },
+  "7ad578c7dcb99d002cdf|b079c84fba038b6e4b04": {
+    "gap": 1.203920276725416,
+    "mean_delta": -0.0761628422639788,
+    "mean_gap": 0.2039202767254159,
+    "n": 3,
+    "shuffled": 1.4324024682285266,
+    "terminal": 1.0,
+    "winner": "b079c84fba038b6e4b04"
+  },
+  "7ad578c7dcb99d002cdf|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "7ad578c7dcb99d002cdf|bad225ecf143fa9607fb": {
+    "gap": 1.8965320628967475,
+    "mean_delta": 0.3333945744586496,
+    "mean_gap": 0.8965320628967475,
+    "n": 4,
+    "shuffled": 1.1579593197129618,
+    "terminal": 1.3333945744586497,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "7ad578c7dcb99d002cdf|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "7ad578c7dcb99d002cdf|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "7ad578c7dcb99d002cdf|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd56c230f137d18452e7"
+  },
+  "7ad578c7dcb99d002cdf|fd70e9b984ed76c8dd97": {
+    "gap": 1.9151578120446513,
+    "mean_delta": 0.014524705514657723,
+    "mean_gap": 0.9151578120446512,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0145247055146578,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "a43f26caa05713c27a41|a46d76df8466a8adc5de": {
+    "gap": 1.056727878805917,
+    "mean_delta": 0.004077502306616215,
+    "mean_gap": 0.056727878805916905,
+    "n": 1,
+    "shuffled": 1.1179248102325026,
+    "terminal": 1.0040775023066162,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "a43f26caa05713c27a41|aa0c6d94797e9c717db7": {
+    "gap": 1.264347387997998,
+    "mean_delta": 0.14056704170978565,
+    "mean_gap": 0.2643473879979982,
+    "n": 3,
+    "shuffled": 1.2232778731054097,
+    "terminal": 1.1405670417097857,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "a43f26caa05713c27a41|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "a43f26caa05713c27a41|bab8a4084c41ccc59041": {
+    "gap": 1.1550150006137871,
+    "mean_delta": 0.06452217255084557,
+    "mean_gap": 0.15501500061378706,
+    "n": 3,
+    "shuffled": 1.0435345294368148,
+    "terminal": 1.0645221725508456,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "a43f26caa05713c27a41|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "a43f26caa05713c27a41|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "a43f26caa05713c27a41|f6bfb1aaa357becad04e": {
+    "gap": 1.0327065335369827,
+    "mean_delta": -0.43994271418226627,
+    "mean_gap": 0.03270653353698269,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "a43f26caa05713c27a41|fd56c230f137d18452e7": {
+    "gap": 1.7436182401251399,
+    "mean_delta": -0.17403462871251354,
+    "mean_gap": 0.7436182401251399,
+    "n": 3,
+    "shuffled": 1.1154511359172865,
+    "terminal": 1.0,
+    "winner": "a43f26caa05713c27a41"
+  },
+  "a43f26caa05713c27a41|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "a46d76df8466a8adc5de|aa0c6d94797e9c717db7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "a46d76df8466a8adc5de|b079c84fba038b6e4b04": {
+    "gap": 1.5917887001716018,
+    "mean_delta": 0.22327787310540978,
+    "mean_gap": 0.5917887001716019,
+    "n": 3,
+    "shuffled": 1.1695513348453557,
+    "terminal": 1.2232778731054097,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "a46d76df8466a8adc5de|bab8a4084c41ccc59041": {
+    "gap": 1.2443073544136172,
+    "mean_delta": -0.4766641904331256,
+    "mean_gap": 0.2443073544136171,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "a46d76df8466a8adc5de|bad225ecf143fa9607fb": {
+    "gap": 1.1763491322902895,
+    "mean_delta": 0.6865981266649366,
+    "mean_gap": 0.1763491322902896,
+    "n": 2,
+    "shuffled": 1.6865981266649366,
+    "terminal": 1.6865981266649366,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "a46d76df8466a8adc5de|eb554c52de27be4d678c": {
+    "gap": 1.2995624869787792,
+    "mean_delta": 0.07443673918866642,
+    "mean_gap": 0.2995624869787792,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0744367391886664,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "a46d76df8466a8adc5de|f6bfb1aaa357becad04e": {
+    "gap": 1.1126729634684362,
+    "mean_delta": -0.1161400650270457,
+    "mean_gap": 0.11267296346843618,
+    "n": 3,
+    "shuffled": 1.4299072827112798,
+    "terminal": 1.0,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "a46d76df8466a8adc5de|fd56c230f137d18452e7": {
+    "gap": 1.7014824580105194,
+    "mean_delta": 0.10917970985009344,
+    "mean_gap": 0.7014824580105194,
+    "n": 2,
+    "shuffled": 1.4331852805127985,
+    "terminal": 1.1091797098500935,
+    "winner": "a46d76df8466a8adc5de"
+  },
+  "a46d76df8466a8adc5de|fd70e9b984ed76c8dd97": {
+    "gap": 1.1925446755577742,
+    "mean_delta": -0.03636531658718067,
+    "mean_gap": 0.19254467555777427,
+    "n": 2,
+    "shuffled": 1.0645221725508456,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "aa0c6d94797e9c717db7|b079c84fba038b6e4b04": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "aa0c6d94797e9c717db7"
+  },
+  "aa0c6d94797e9c717db7|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "aa0c6d94797e9c717db7|bad225ecf143fa9607fb": {
+    "gap": 1.4526567871606204,
+    "mean_delta": 0.08862771889605954,
+    "mean_gap": 0.45265678716062047,
+    "n": 6,
+    "shuffled": 1.0796491438241727,
+    "terminal": 1.0886277188960596,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "aa0c6d94797e9c717db7|eb554c52de27be4d678c": {
+    "gap": 1.492168931244102,
+    "mean_delta": 0.4331852805127984,
+    "mean_gap": 0.49216893124410194,
+    "n": 3,
+    "shuffled": 1.0885590359172785,
+    "terminal": 1.4331852805127985,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "aa0c6d94797e9c717db7|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "aa0c6d94797e9c717db7|fd56c230f137d18452e7": {
+    "gap": 1.491770459815263,
+    "mean_delta": 0.0,
+    "mean_gap": 0.49177045981526296,
+    "n": 1,
+    "shuffled": 1.0229077217781888,
+    "terminal": 1.0,
+    "winner": "aa0c6d94797e9c717db7"
+  },
+  "aa0c6d94797e9c717db7|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "b079c84fba038b6e4b04|bab8a4084c41ccc59041": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "b079c84fba038b6e4b04|bad225ecf143fa9607fb": {
+    "gap": 1.6926117861713317,
+    "mean_delta": 0.8965320628967475,
+    "mean_gap": 0.6926117861713317,
+    "n": 1,
+    "shuffled": 1.136443115441633,
+    "terminal": 1.8965320628967475,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "b079c84fba038b6e4b04|eb554c52de27be4d678c": {
+    "gap": 1.9009673412325572,
+    "mean_delta": 0.07964914382417258,
+    "mean_gap": 0.9009673412325572,
+    "n": 5,
+    "shuffled": 1.3158167382422592,
+    "terminal": 1.0796491438241727,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "b079c84fba038b6e4b04|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "b079c84fba038b6e4b04|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "b079c84fba038b6e4b04"
+  },
+  "b079c84fba038b6e4b04|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "bab8a4084c41ccc59041|bad225ecf143fa9607fb": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "bab8a4084c41ccc59041|eb554c52de27be4d678c": {
+    "gap": 1.0689066122382787,
+    "mean_delta": 0.14177657139870972,
+    "mean_gap": 0.06890661223827857,
+    "n": 5,
+    "shuffled": 1.3393655569922887,
+    "terminal": 1.1417765713987098,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "bab8a4084c41ccc59041|f6bfb1aaa357becad04e": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "bab8a4084c41ccc59041|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "bab8a4084c41ccc59041|fd70e9b984ed76c8dd97": {
+    "gap": 1.019915317377789,
+    "mean_delta": 0.045541379282612614,
+    "mean_gap": 0.01991531737778916,
+    "n": 4,
+    "shuffled": 1.0838217369159084,
+    "terminal": 1.0455413792826127,
+    "winner": "bab8a4084c41ccc59041"
+  },
+  "bad225ecf143fa9607fb|eb554c52de27be4d678c": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "bad225ecf143fa9607fb|f6bfb1aaa357becad04e": {
+    "gap": 1.1363926298934461,
+    "mean_delta": -0.16971193966434672,
+    "mean_gap": 0.1363926298934461,
+    "n": 4,
+    "shuffled": 1.0404691150974883,
+    "terminal": 1.0,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "bad225ecf143fa9607fb|fd56c230f137d18452e7": {
+    "gap": 1.832026152072273,
+    "mean_delta": 0.43240246822852657,
+    "mean_gap": 0.832026152072273,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.4324024682285266,
+    "winner": "bad225ecf143fa9607fb"
+  },
+  "bad225ecf143fa9607fb|fd70e9b984ed76c8dd97": {
+    "gap": 1.0341925921869366,
+    "mean_delta": 0.024092298377877245,
+    "mean_gap": 0.0341925921869367,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0240922983778773,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "eb554c52de27be4d678c|f6bfb1aaa357becad04e": {
+    "gap": 1.2069636586644172,
+    "mean_delta": 0.06248384256178316,
+    "mean_gap": 0.20696365866441735,
+    "n": 3,
+    "shuffled": 1.062483842561783,
+    "terminal": 1.062483842561783,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "eb554c52de27be4d678c|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "eb554c52de27be4d678c|fd70e9b984ed76c8dd97": {
+    "gap": 1.0955683204857287,
+    "mean_delta": 0.017287220849826875,
+    "mean_gap": 0.09556832048572882,
+    "n": 2,
+    "shuffled": 1.1405670417097857,
+    "terminal": 1.017287220849827,
+    "winner": "eb554c52de27be4d678c"
+  },
+  "f6bfb1aaa357becad04e|fd56c230f137d18452e7": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "f6bfb1aaa357becad04e"
+  },
+  "f6bfb1aaa357becad04e|fd70e9b984ed76c8dd97": {
+    "gap": 1.1064004633118583,
+    "mean_delta": 0.08456880634520884,
+    "mean_gap": 0.1064004633118583,
+    "n": 3,
+    "shuffled": 1.0,
+    "terminal": 1.0845688063452088,
+    "winner": "fd70e9b984ed76c8dd97"
+  },
+  "fd56c230f137d18452e7|fd70e9b984ed76c8dd97": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fd70e9b984ed76c8dd97"
+  }
+}

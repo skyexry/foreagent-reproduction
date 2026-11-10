@@ -1,0 +1,20 @@
+{
+  "id": "frontier02-direction-source-audit-v1",
+  "registered_utc": "2026-11-08T12:21:16.416141+00:00",
+  "stage": "Registered before reading c0-final-selection/run-001 scored results; C/H/L method definitions and source mapping implementation have been read. Existing coverage findings are known.",
+  "purpose": "Explanatory source/negative-control sensitivity audit; no new arm promotion or unseen-task confirmation.",
+  "population": "4 banks \u00d7 all 850 jobs, original per-bank actual C0 .7 unique revealed-edge trace from c0-final-selection/run-001/decisions.sealed.jsonl.gz. Each arm shares exact within-bank C0 schedule, acceptance edges and query cost. All 26 inspected development tasks.",
+  "sources": "Frozen DS prepared feedback mapped by candidate SHA and source_group_index to data/author_reference; GPT bank manifest and author archives, plus available raw backup records. Record source fields and exact availability per bank.",
+  "arms": {
+    "C": "actual original C0 top from sealed rows",
+    "H": "all candidates frozen .7 win fraction then degree aggregator",
+    "L": "all candidates frozen .5 parsed directions including C0 confidence defaults",
+    "E": "retain all .7+ directions; add [.5,.7) only when original archive confirms legal explicit index and explicit finite in-range confidence, no error or recorded fallback/parse failure; report evidence level/availability separately",
+    "N32": "32 negative-control replicates: fixed high .7+ directions; fixed L low accepted edge set; replace each low winner with deterministic fair winner using SHA256 of (version,replicate,job_id,unordered pair); same draws shared across banks; 32 mean is predefined diagnostic estimate, never best replicate"
+  },
+  "negative_control_seed": "SHA256 UTF8 JSON compact array [direction-audit-v1, replicate 0..31, job_id, sorted a, sorted b], unsigned first8 bytes then random.Random(seed).randrange(2) on sorted pair. Job repeat retained. No utility input.",
+  "scoring": "seal every arm selection and all 32 N selections before loading evaluation_labels.json; independently compute uniform-tie normalized regret and hit, with exact zero-range rule. Independently cross-check C/H/L against existing sealed choices and scalar formula.",
+  "inference": "task equal weight; GPT pooled task-first average across 3 banks; paired contrasts C-H,C-L,H-L,C-E,L-E,H-N32,L-N32,E-N32. 10000 task-cluster draws seed20261108093, leave each26 task out. All32 replicate task-macro gains range, SD, quantiles and share direction. Pool n10 vs n<10, C singleton/tied, source conservative exclusions. Stratified counts descriptive.",
+  "direction_audit": "report added [.5,.7) strict pair direction accuracy, true ties, acceptance, explicit/missing/malformed confidence, raw response presence, parser/default/error/fallback fields. Distinguish available archived prediction from directly verifiable raw model text. Missing raw text is unverified source detail, not an inferred error.",
+  "limits": "CPU only; zero API, training, GPU; max600 seconds each analysis invocation, fresh run directories preserve failures."
+}

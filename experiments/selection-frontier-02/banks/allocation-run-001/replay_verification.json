@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "byte_exact_repeated_outputs": [
+    "decisions.sealed.jsonl.gz",
+    "selection_seal.json",
+    "per_task.json",
+    "per_episode.jsonl"
+  ],
+  "summary_equal_except_measured_wall_seconds": true,
+  "independent_scoring_formula_checked": 5100,
+  "independent_policy_episodes": 2550
+}

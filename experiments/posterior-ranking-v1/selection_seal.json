@@ -1,0 +1,58 @@
+{
+  "decisions_sha256": "4ffe961c86a4fcd2ae6f3101c8d3461ad1d6ce15e978a511896403cb1e2c1186",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "prior_C_H_and_C0_trace_ledger_exact": {
+    "DS": 850,
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": 850,
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": 850,
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": 850
+  },
+  "protocol_sha256": "c0329efda4c2f015d48f650913028e1bda57b003298cb0986685782658e384f0",
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "ranking_cpu": {
+    "by_bank": {
+      "DS": {
+        "max_seconds": 0.004075,
+        "mean_seconds": 0.0034392999999999997,
+        "median_seconds": 0.00347,
+        "p95_seconds": 0.0036475500000000003,
+        "total_seconds": 2.923405
+      },
+      "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+        "max_seconds": 0.00387,
+        "mean_seconds": 0.003493065882352941,
+        "median_seconds": 0.003526,
+        "p95_seconds": 0.00366155,
+        "total_seconds": 2.969106
+      },
+      "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+        "max_seconds": 0.004047,
+        "mean_seconds": 0.003491921176470588,
+        "median_seconds": 0.003524,
+        "p95_seconds": 0.003655,
+        "total_seconds": 2.968133
+      },
+      "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+        "max_seconds": 0.004053,
+        "mean_seconds": 0.003492507058823529,
+        "median_seconds": 0.0035215,
+        "p95_seconds": 0.0036601000000000003,
+        "total_seconds": 2.968631
+      }
+    },
+    "total_seconds": 11.829274999999999
+  },
+  "rows": 3400,
+  "score_labels_loaded": false,
+  "script_sha256": "7ae1b5b7d27353efe9ac71a0e0368881f6ba4efffd2a38f5a42c53b79d7e624a",
+  "sealed_utc": "2026-11-08T13:49:19.383298+00:00",
+  "selection_arms": [
+    "C",
+    "R",
+    "H",
+    "E",
+    "B"
+  ],
+  "selection_wall_seconds": 12.5865694580134,
+  "validation_sha256": "e670b6788dd465f5a967dac4d4b1a3cd30a50a5d5c585afca8ab603ea2041ac6"
+}

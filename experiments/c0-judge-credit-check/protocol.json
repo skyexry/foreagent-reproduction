@@ -1,0 +1,7 @@
+{
+  "registered_utc": "2026-11-08T12:48:56.527655+00:00",
+  "scope": "Single feasibility check of a proposed training weight, DS1 only. Previously inspected development tasks. No model fitted; no policy promotion.",
+  "sample": "All 26 tasks; fixed original pool_id=0, both archived repeats. Each accepted first unique unordered pair with distinct execution scores. No sampling by result.",
+  "method": "Exact actual C0 replay. In two continuations separately force this edge to the higher/lower execution-utility candidate; retain original confidence, gate, initial seed, remaining bank and original query cap. Compare terminal normalized regret wrong minus right; check prefix and identity, and exact original branch. Use label only for training-signal design/diagnosis.",
+  "predictions_and_stop": "Terminal effect need not coincide with normalized score gap. Check signs including zero, and whether the same pair at the same pool/gap has different effects across the two repeats. Predefine example as lexicographically first recurring (task,pair) with such a difference. End after this check. Evidence of a varying supervision signal, not proof of generalization or winning training method."
+}

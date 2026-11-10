@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "all_alternative_selections_independent": 3400,
+    "frozen_DS_exact": 850,
+    "paired_task_contrasts_CI_LOO_independent": 50,
+    "selection_scores_independent": 13600
+  },
+  "implementation": "standalone parser, float fraction/degree selector, direct scoring and random-index bootstrap, independent of experiment functions",
+  "run": "experiments/selection-frontier-02/c0-final-selection/run-002",
+  "status": "passed",
+  "verifier_sha256": "215c68cdf60a0e3f75e4171b5239f2f27ede120273c1356d7115cd379128f39f"
+}

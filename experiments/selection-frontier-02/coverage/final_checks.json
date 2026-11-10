@@ -1,0 +1,7 @@
+{
+  "syntax": "zsh -n passed",
+  "independent_counts": "passed",
+  "subgroup_contribution_additivity": "passed",
+  "all_unique_budget_reads": 11004,
+  "j1_denominator": 850
+}

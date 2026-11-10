@@ -1,0 +1,43 @@
+{
+  "protocol_sha256": "a917d39958175ae06ae55b1719ca9d71209f8658eeb22db7fa383140950d9d6a",
+  "main_completed_run": "run-003",
+  "source_policy_revision": "schema_supplement.json; reasoning JSON auxiliary, strict E full raw only",
+  "commands": [
+    {
+      "command": "python3 -B experiments/selection-frontier-02/direction-audit/audit.py --output experiments/selection-frontier-02/direction-audit/run-001",
+      "status": "preserved_failure",
+      "reason": "Old E interpretation superseded during scoring by parent source instruction; final prior-metric crosscheck KeyError by_bank wrapper."
+    },
+    {
+      "command": "python3 -B experiments/selection-frontier-02/direction-audit/audit.py --output experiments/selection-frontier-02/direction-audit/run-002",
+      "status": "preserved_failure",
+      "reason": "Strict E selections sealed; same prior per_task wrapper KeyError. No method change from repair."
+    },
+    {
+      "command": "python3 -B experiments/selection-frontier-02/direction-audit/audit.py --output experiments/selection-frontier-02/direction-audit/run-003",
+      "status": "passed",
+      "elapsed_seconds": 17.093484916025773
+    },
+    {
+      "command": "python3 -B experiments/selection-frontier-02/direction-audit/default_half_sensitivity.py",
+      "status": "passed",
+      "scope": "Post-main source-informed conservative removal of exact-.5 edges; not method promotion."
+    },
+    {
+      "command": "python3 -B experiments/selection-frontier-02/direction-audit/check_and_summarize.py",
+      "status": "passed",
+      "scope": "Prespecified pool-size sensitivity and independent 5013-row raw-order check."
+    }
+  ],
+  "CPU_only": true,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "new_gpu_rentals": 0,
+  "main_checks": {
+    "C0_rows_verified": 3400,
+    "H_L_sealed_matches": 3400,
+    "independent_C_H_L_task_metric_matches": 624,
+    "unique_same_schedule_and_cost": 3400
+  },
+  "score_boundary": "All choices and negative replicates sealed before evaluation_labels.json access; original archive loading restricted to identity/prediction/response field use."
+}

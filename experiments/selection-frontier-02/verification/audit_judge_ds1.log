@@ -1,0 +1,10 @@
+DS1 all 850 original controls replayed exactly
+DS1 replayed D 0
+DS1 replayed A 0
+DS1 replayed D 1
+DS1 replayed A 1
+DS1 replayed D 2
+DS1 replayed A 2
+DS1 replayed D 3
+DS1 replayed A 3
+{"status": "passed", "checks": {"DS1_actual_control_exact_original": 850, "DS1_full_bank_oracle_gate_checks": 143016, "DS1_oracle_actual_paths_and_exposure_exact": 6800, "DS1_fold_scores_independent": 7650, "DS1_primary_contrasts_CI_LOO_independent": 6}, "opportunity": {"D0": {"eligible": 4438, "target": 2532, "altered": 848}, "A0": {"eligible": 4438, "target": 1906, "altered": 1906}, "D1": {"eligible": 4466, "target": 2589, "altered": 889}, "A1": {"eligible": 4466, "target": 1877, "altered": 1877}, "D2": {"eligible": 4445, "target": 2538, "altered": 857}, "A2": {"eligible": 4445, "target": 1907, "altered": 1907}, "D3": {"eligible": 4528, "target": 2612, "altered": 899}, "A3": {"eligible": 4528, "target": 1916, "altered": 1916}}, "DS1_sealed_prefix_sha256": "bc4130cec6bd3052a6c1ba15518cfece54d2724cf50f366c0d509f1d2b77dacd", "stage_DS1_sha256": "2d68b226a3393b76f8f650fd01734de6ca38335b7d3cb59f52d1fafde13611ac", "protocol_sha256": "9f728217c5ad0e8ea13831f4d6084b00d88ba25f0ba465c754d048776e2d4af3", "bank_sha256": "05cce565494e598d2b2820ee19a485c2351c5143b1660033323537839a040246", "script_sha256": "ace47071dd2ff674aa95ea61635f9dd9873699b35ee0785213de50a7137a20d2", "wall_seconds": 48.974047583003994, "scope": "DS1 only; all controls and eight oracle paths per job reproduced from independent mask/bank construction, frozen original tournament, sealed outputs read-only"}

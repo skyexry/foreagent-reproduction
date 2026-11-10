@@ -1,0 +1,10 @@
+{
+  "O_repeats": "One original control per job, paired with each of four D/A folds",
+  "abstention_change": "A changes only originally abstained strict pair; true direction and confidence=.7",
+  "canonical_pair": "| joined lexicographically sorted candidate IDs; existing bank key",
+  "created_before_oracle_label_load": true,
+  "direction_change": "D changes only incorrect accepted strict direction; confidence raw field unchanged",
+  "fold_exact": "int(sha256(UTF8(task + U+001F + canonical_pair)).hexdigest(),16)%4",
+  "gold_boundary": "Evaluator reads labels to make oracle feedback; frozen policy receives only modified raw feedback, no labels/oracle flags.",
+  "label_file_access": "Denied during every select() call, including O. Gold-backed oracle is intentionally evaluator-side."
+}

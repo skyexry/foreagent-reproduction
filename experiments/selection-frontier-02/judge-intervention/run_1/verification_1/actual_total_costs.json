@@ -1,0 +1,158 @@
+{
+  "DS1": {
+    "O": {
+      "budget_denials": 2339,
+      "cache_reads": 75171,
+      "comparison_records": 88084,
+      "unique_feedback_reads": 10574,
+      "selection_runs": 850,
+      "altered_queried": 0
+    },
+    "D": {
+      "budget_denials": 9603,
+      "cache_reads": 309251,
+      "comparison_records": 361150,
+      "unique_feedback_reads": 42296,
+      "selection_runs": 3400,
+      "altered_queried": 2197
+    },
+    "A": {
+      "budget_denials": 4944,
+      "cache_reads": 199070,
+      "comparison_records": 244828,
+      "unique_feedback_reads": 40814,
+      "selection_runs": 3400,
+      "altered_queried": 4787
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "O": {
+      "budget_denials": 566,
+      "cache_reads": 31324,
+      "comparison_records": 41385,
+      "unique_feedback_reads": 9495,
+      "selection_runs": 850,
+      "altered_queried": 0
+    },
+    "D": {
+      "budget_denials": 2370,
+      "cache_reads": 119882,
+      "comparison_records": 160186,
+      "unique_feedback_reads": 37934,
+      "selection_runs": 3400,
+      "altered_queried": 3034
+    },
+    "A": {
+      "budget_denials": 1204,
+      "cache_reads": 81354,
+      "comparison_records": 119118,
+      "unique_feedback_reads": 36560,
+      "selection_runs": 3400,
+      "altered_queried": 2233
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "O": {
+      "budget_denials": 604,
+      "cache_reads": 32072,
+      "comparison_records": 42174,
+      "unique_feedback_reads": 9498,
+      "selection_runs": 850,
+      "altered_queried": 0
+    },
+    "D": {
+      "budget_denials": 2471,
+      "cache_reads": 126152,
+      "comparison_records": 166641,
+      "unique_feedback_reads": 38018,
+      "selection_runs": 3400,
+      "altered_queried": 2956
+    },
+    "A": {
+      "budget_denials": 1204,
+      "cache_reads": 84114,
+      "comparison_records": 121902,
+      "unique_feedback_reads": 36584,
+      "selection_runs": 3400,
+      "altered_queried": 2311
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "O": {
+      "budget_denials": 687,
+      "cache_reads": 32282,
+      "comparison_records": 42432,
+      "unique_feedback_reads": 9463,
+      "selection_runs": 850,
+      "altered_queried": 0
+    },
+    "D": {
+      "budget_denials": 2742,
+      "cache_reads": 126669,
+      "comparison_records": 167318,
+      "unique_feedback_reads": 37907,
+      "selection_runs": 3400,
+      "altered_queried": 2928
+    },
+    "A": {
+      "budget_denials": 1349,
+      "cache_reads": 84151,
+      "comparison_records": 121954,
+      "unique_feedback_reads": 36454,
+      "selection_runs": 3400,
+      "altered_queried": 2315
+    }
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+    "O": {
+      "budget_denials": 1102,
+      "cache_reads": 32993,
+      "comparison_records": 38149,
+      "unique_feedback_reads": 4054,
+      "selection_runs": 324,
+      "altered_queried": 0
+    },
+    "D": {
+      "budget_denials": 4528,
+      "cache_reads": 135126,
+      "comparison_records": 155888,
+      "unique_feedback_reads": 16234,
+      "selection_runs": 1296,
+      "altered_queried": 595
+    },
+    "A": {
+      "budget_denials": 2275,
+      "cache_reads": 89166,
+      "comparison_records": 107135,
+      "unique_feedback_reads": 15694,
+      "selection_runs": 1296,
+      "altered_queried": 1966
+    }
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+    "O": {
+      "budget_denials": 2251,
+      "cache_reads": 75631,
+      "comparison_records": 88464,
+      "unique_feedback_reads": 10582,
+      "selection_runs": 850,
+      "altered_queried": 0
+    },
+    "D": {
+      "budget_denials": 9463,
+      "cache_reads": 312121,
+      "comparison_records": 363983,
+      "unique_feedback_reads": 42399,
+      "selection_runs": 3400,
+      "altered_queried": 2177
+    },
+    "A": {
+      "budget_denials": 4964,
+      "cache_reads": 199330,
+      "comparison_records": 245145,
+      "unique_feedback_reads": 40851,
+      "selection_runs": 3400,
+      "altered_queried": 4794
+    }
+  }
+}

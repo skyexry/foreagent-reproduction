@@ -1,0 +1,59 @@
+{
+  "DS1_sealed_prefix_sha256": "bc4130cec6bd3052a6c1ba15518cfece54d2724cf50f366c0d509f1d2b77dacd",
+  "bank_sha256": "05cce565494e598d2b2820ee19a485c2351c5143b1660033323537839a040246",
+  "checks": {
+    "DS1_actual_control_exact_original": 850,
+    "DS1_fold_scores_independent": 7650,
+    "DS1_full_bank_oracle_gate_checks": 143016,
+    "DS1_oracle_actual_paths_and_exposure_exact": 6800,
+    "DS1_primary_contrasts_CI_LOO_independent": 6
+  },
+  "opportunity": {
+    "A0": {
+      "altered": 1906,
+      "eligible": 4438,
+      "target": 1906
+    },
+    "A1": {
+      "altered": 1877,
+      "eligible": 4466,
+      "target": 1877
+    },
+    "A2": {
+      "altered": 1907,
+      "eligible": 4445,
+      "target": 1907
+    },
+    "A3": {
+      "altered": 1916,
+      "eligible": 4528,
+      "target": 1916
+    },
+    "D0": {
+      "altered": 848,
+      "eligible": 4438,
+      "target": 2532
+    },
+    "D1": {
+      "altered": 889,
+      "eligible": 4466,
+      "target": 2589
+    },
+    "D2": {
+      "altered": 857,
+      "eligible": 4445,
+      "target": 2538
+    },
+    "D3": {
+      "altered": 899,
+      "eligible": 4528,
+      "target": 2612
+    }
+  },
+  "protocol_sha256": "9f728217c5ad0e8ea13831f4d6084b00d88ba25f0ba465c754d048776e2d4af3",
+  "scope": "DS1 only; all controls and eight oracle paths per job reproduced from independent mask/bank construction, frozen original tournament, sealed outputs read-only",
+  "script_sha256": "ace47071dd2ff674aa95ea61635f9dd9873699b35ee0785213de50a7137a20d2",
+  "stage_DS1_sha256": "2d68b226a3393b76f8f650fd01734de6ca38335b7d3cb59f52d1fafde13611ac",
+  "status": "passed",
+  "wall_seconds": 48.974047583003994
+}

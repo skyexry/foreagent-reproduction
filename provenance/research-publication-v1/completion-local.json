@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "final_main_commit": "09b301dee08f52580933c36637736d0da5f8ea54",
+  "source_commit": "5f545087f9ce71453d79214bb6b1ea93f730132a",
+  "receipt_files_verified": 6,
+  "published_source_files_verified": 337,
+  "original_frozen_inputs": "unchanged",
+  "repository_private": true
+}

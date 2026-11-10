@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": {
+    "source_edge_directions": 14636,
+    "alternative_selection_sets": 3522,
+    "independent_scores": 4696,
+    "task_metrics": 288,
+    "matched_common_task_metrics": 640,
+    "independent_bootstrap_leave_one_contrasts": 105
+  },
+  "summary_sha256": "32120ac9f600d952fdcc58457b66908e8417eeb6de24dfd267ddce7ecbbd6142",
+  "execution": "standalone parser, Fraction selector, direct utility formulas, random-index bootstrap; main selection phase label-file block separately recorded",
+  "elapsed_seconds": 2.3101668750168756,
+  "script_sha256": "526a177197f485d1216b7759e4b7b7fd6b0fdf18a635f71fbf8dddb8559a98f4"
+}

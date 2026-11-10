@@ -1,0 +1,17 @@
+{
+  "audit.snapshot.py": "4fded15c13f9f429a198bfda7c98e1f93e8bf7a4b5b6db734a842fd671658983",
+  "decisions.sealed.jsonl.gz": "7ea71da482f6512d5a706e29c2c2f809283ba4820ba42440b8df42e82808c074",
+  "input_sha256.json": "8538f60e7325ffbb4fb7563c3e27b0994fc95f5486c9a1a81b01796679bd2167",
+  "per_episode.jsonl": "4640610b3fbf24d0652d20712697be6016e5f880827ebe00e5af0e02bbea1492",
+  "per_task.json": "eca1bfb1e200431dd9da7848cbef500e961bcab454850a6c6fdbf56677961127",
+  "protocol.json": "a917d39958175ae06ae55b1719ca9d71209f8658eeb22db7fa383140950d9d6a",
+  "schema_supplement.json": "a15d6a3c42e56e8c7ca6d98e6ba57d1fccad400761034dc89a3b54c9dadf2876",
+  "selection_seal.json": "5ff778d3ca36eeaeca22d892a881a6c1c1882c5ed273d3064e0fbde13a8bde55",
+  "source_accuracy.json": "21372747eb376289fd61dfcedfa43916f331568a19a54f6f8221389dffcfbabd",
+  "source_audit.sealed.jsonl.gz": "422da0cb191944433f2fdb0872283b7e68c89a2329c70be44fa42c3f8054adda",
+  "source_counts.json": "36e175c1b6784770533b0a8baa4018b3e262b8ad61201b72650dfdb3a3e0fba5",
+  "source_trace_counts.json": "ae28dc6ae2ef8c59ee840774fa0148a15d6e5da506bcb0a1d8bb95b24ae7f103",
+  "subgroups.json": "a15f87d084cd282cbf242270f50e9f733ccefb84fc0c74628ec941bf8d6b6c92",
+  "summary.json": "695004d8b8cb874bff135fe7c73ec09e27cbc15dfe82d84a05c232aca3142c21",
+  "verification.json": "3b3bc1abc56c7125fc459f9e56b502496321d37a7a355f2c4539b487637f1490"
+}

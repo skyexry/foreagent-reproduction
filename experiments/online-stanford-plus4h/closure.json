@@ -1,0 +1,13 @@
+{
+  "run": "stanford-autodl-v2-plus4h",
+  "status": "stopped_at_user_request",
+  "new_committed_nodes": 0,
+  "new_completed_worker_executions": 0,
+  "completed_api_receipts": 0,
+  "inherited_node_id": "84c79a8dae404c0dae2bcd09d38d9daa",
+  "unchanged_submission_sha256": "74937e70faa10812dcb245acb13aabae7f0b8a36e46e69dd95e94f91feb95340",
+  "official_regrade_of_inherited_file": 0.2664,
+  "new_independent_score": null,
+  "completed_four_hours": false,
+  "checked_at_utc": "2026-11-08T05:27:07.405711+00:00"
+}

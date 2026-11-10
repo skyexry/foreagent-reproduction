@@ -1,0 +1,12 @@
+{
+  "version": "v2_complete_execution_policy",
+  "baseline_protocol_sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907",
+  "agent_source_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de",
+  "variants": {
+    "original": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "cache-fixed": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536"
+  },
+  "change_from_v1": "Use exact AST of original agent.py execution-policy statements, including mandatory first-rank-0 fallback; both variants rerun from candidate input.",
+  "preserved": "Frozen candidate pools, candidate order, feedback source/hashes, replay seeds, hash seed 0, serial comparison scheduling, ranking and tie scoring.",
+  "scope": "Offline saved-feedback replay; execution callbacks record identities and scores are read from corpus after decisions."
+}

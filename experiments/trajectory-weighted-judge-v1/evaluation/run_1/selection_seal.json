@@ -1,0 +1,19 @@
+{
+  "baseline_reference_sha256": "848f6b26d39e0b9aafcc295ec6ceb512cad3f27b6353de0f4d11020b7bff5d59",
+  "code_candidates": 877,
+  "decisions_sha256": "f62cdb5d7b332531076bdc909242bc67133244a7e21a78cb7f37a9590d9d02a3",
+  "heldout_score_files_opened_by_replay": 0,
+  "missing_or_illegal_predictions": 0,
+  "predicted_pairs": 18224,
+  "prediction_seal_sha256": "6343009d9b35fc5f97d2dd0b06ee8eabaaf7762f20ccff8647c4009259a51300",
+  "predictions_sha256": "e1cab8fa722e081f8e465fbaf11fcb186c03088f5cba59c78483f732dc102161",
+  "protocol_sha256": "685f804875aa35a2c6b0e13ec6ac73747f793d338d3e8a7e2604a3757bc46c46",
+  "reference_selections_traces_and_ledgers_exact": {
+    "DS": 850,
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": 850,
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": 850,
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": 850
+  },
+  "replay_script_sha256": "f3e752de7d34b799cf16bf38cdcc35d872b74763f693b0652581bd67f826bd45",
+  "selection_count": 17000
+}

@@ -1,0 +1,78 @@
+{
+  "banks": {
+    "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+      "admitted_pairs": 6407,
+      "path": "experiments/selection-frontier-02/deepseek-transfer/banks_1/deepseek-reasoner_0p0_pboost_cot_20251205_214840.json.gz",
+      "sha256": "c978f76a9a93cdf82d8771cab6459e356e625f4c8db845430dccc44aa417a0b2",
+      "task_count": 10,
+      "tasks": [
+        "aptos2019-blindness-detection",
+        "denoising-dirty-documents",
+        "detecting-insults-in-social-commentary",
+        "dog-breed-identification",
+        "google-quest-challenge",
+        "jigsaw-toxic-comment-classification-challenge",
+        "leaf-classification",
+        "learning-agency-lab-automated-essay-scoring-2",
+        "lmsys-chatbot-arena",
+        "mlsp-2013-birds"
+      ]
+    },
+    "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+      "admitted_pairs": 17877,
+      "path": "experiments/selection-frontier-02/deepseek-transfer/banks_1/deepseek-reasoner_0p0_pboost_cot_20251209_135057.json.gz",
+      "sha256": "8ec20920997a8fba110957f028eccaaf97c60d6b554d91742f961188fb1f7dbe",
+      "task_count": 26,
+      "tasks": [
+        "aptos2019-blindness-detection",
+        "denoising-dirty-documents",
+        "detecting-insults-in-social-commentary",
+        "dog-breed-identification",
+        "google-quest-challenge",
+        "jigsaw-toxic-comment-classification-challenge",
+        "leaf-classification",
+        "learning-agency-lab-automated-essay-scoring-2",
+        "lmsys-chatbot-arena",
+        "mlsp-2013-birds",
+        "new-york-city-taxi-fare-prediction",
+        "nomad2018-predict-transparent-conductors",
+        "petfinder-pawpularity-score",
+        "plant-pathology-2020-fgvc7",
+        "predict-volcanic-eruptions-ingv-oe",
+        "random-acts-of-pizza",
+        "spooky-author-identification",
+        "stanford-covid-vaccine",
+        "statoil-iceberg-classifier-challenge",
+        "tabular-playground-series-dec-2021",
+        "tensorflow-speech-recognition-challenge",
+        "tgs-salt-identification-challenge",
+        "the-icml-2013-whale-challenge-right-whale-redux",
+        "tweet-sentiment-extraction",
+        "us-patent-phrase-to-phrase-matching",
+        "ventilator-pressure-prediction"
+      ]
+    }
+  },
+  "common_tasks": [
+    "aptos2019-blindness-detection",
+    "denoising-dirty-documents",
+    "detecting-insults-in-social-commentary",
+    "dog-breed-identification",
+    "google-quest-challenge",
+    "jigsaw-toxic-comment-classification-challenge",
+    "leaf-classification",
+    "learning-agency-lab-automated-essay-scoring-2",
+    "lmsys-chatbot-arena",
+    "mlsp-2013-birds"
+  ],
+  "common_tasks_count": 10,
+  "download_manifest_sha256": "cb79eec435efdacdcb645ae862cd46ba10f6dc6ca71be97d33c6fd5b2e6a3691",
+  "labels_in_bank": false,
+  "mapping_audit_sha256": "92d2a6dc03f1863424f21db91bae841d60b601dbf595b49154071834f0a33c73",
+  "missing_pair_total": 0,
+  "new_model_calls": 0,
+  "protocol_sha256": "9b652a1813a1447169c033e607b31b0eb3bdd577a0f4d7b63ef0756038c8b1f9",
+  "source_files_verified": 36,
+  "status": "passed",
+  "unavailable_tasks_are_omitted": true
+}

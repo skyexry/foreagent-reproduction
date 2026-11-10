@@ -1,0 +1,709 @@
+{
+  "registered_protocol_sha256": "9b652a1813a1447169c033e607b31b0eb3bdd577a0f4d7b63ef0756038c8b1f9",
+  "repo": "zjunlp/PredictBeforeExecute",
+  "revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "tasks": [
+    {
+      "found": [
+        {
+          "bytes": 12473965,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "109c05d635293f0793fcdfc948c0dfe7f179fb62",
+          "lfs": {
+            "oid": "f3368599b37f0b5d19a61d5879b8b857e714e38977b4635393128ce8fd5bef0e",
+            "pointerSize": 133,
+            "size": 12473965
+          },
+          "source_path": "solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/aptos2019-blindness-detection.json",
+          "task": "aptos2019-blindness-detection",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 12624650,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "141e92bee4b0aca0d55a78a955cede160e600ce9",
+          "lfs": {
+            "oid": "b246c72b73a2d7e4067da897a8d1188c33521172837e07c0aa1e7d3b3cf5b006",
+            "pointerSize": 133,
+            "size": 12624650
+          },
+          "source_path": "solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/aptos2019-blindness-detection.json",
+          "task": "aptos2019-blindness-detection",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report/alignment_aptos2019-blindness-detection_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_aptos2019-blindness-detection.json",
+      "metadata_sha256": "d9f80bc02aef6b89976de0c914c1996c1e460e13ae2ea2dd18b8c29dcfad3b7d",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "aptos2019-blindness-detection"
+    },
+    {
+      "found": [
+        {
+          "bytes": 12929120,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "97395f4c80db43d2fe13d8acaa9236b54e645569",
+          "lfs": {
+            "oid": "70100eddd3f7621b7ccf8618e0da92d22a57f8ceb922e3c6a246113f03ba449a",
+            "pointerSize": 133,
+            "size": 12929120
+          },
+          "source_path": "solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/denoising-dirty-documents.json",
+          "task": "denoising-dirty-documents",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 13112656,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "675c90d77fc719690ee4d674e8d100e2e3d26446",
+          "lfs": {
+            "oid": "8e3e027da094dcf41c229b6040d360f24288bc8799cf4487a0b8f4d4c3de8081",
+            "pointerSize": 133,
+            "size": 13112656
+          },
+          "source_path": "solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/denoising-dirty-documents.json",
+          "task": "denoising-dirty-documents",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report/alignment_denoising-dirty-documents_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_denoising-dirty-documents.json",
+      "metadata_sha256": "cce0c47a4364a80f99bb836c92305892591646624c77e821934844a4d5927903",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "denoising-dirty-documents"
+    },
+    {
+      "found": [
+        {
+          "bytes": 5128192,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "288d8c59aa1f7f5b44c81323c95c78a9e776f6c9",
+          "lfs": null,
+          "source_path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/detecting-insults-in-social-commentary.json",
+          "task": "detecting-insults-in-social-commentary",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 5281857,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "a9d344cfe0e67813b3a362325c74bffa25329294",
+          "lfs": null,
+          "source_path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/detecting-insults-in-social-commentary.json",
+          "task": "detecting-insults-in-social-commentary",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_detecting-insults-in-social-commentary.json",
+      "metadata_sha256": "0673ba50528086301696617b376c0d2025eaa289d09129838da831c330e1b0cc",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "detecting-insults-in-social-commentary"
+    },
+    {
+      "found": [
+        {
+          "bytes": 21849,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "b7f44e6ffe9306938d1ad00ddf76cc0c6befc58b",
+          "lfs": null,
+          "source_path": "solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/dog-breed-identification.json",
+          "task": "dog-breed-identification",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 21540,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "6ccc6f5c9705d5c06c9f864d90b58aaf159a6965",
+          "lfs": null,
+          "source_path": "solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/dog-breed-identification.json",
+          "task": "dog-breed-identification",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report/alignment_dog-breed-identification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_dog-breed-identification.json",
+      "metadata_sha256": "718525c99f2902d26d217f1747668fe10046011bdacbc569c9267ddbe827d36a",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "dog-breed-identification"
+    },
+    {
+      "found": [
+        {
+          "bytes": 13469402,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "86db7f1b22122cc3edc7fe4cf61d7d1966fab775",
+          "lfs": {
+            "oid": "eb71321b287c15006ef898e4962429ae95d56ac35115458a3b01d95b2aaeb93a",
+            "pointerSize": 133,
+            "size": 13469402
+          },
+          "source_path": "solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/google-quest-challenge.json",
+          "task": "google-quest-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 13708951,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "462a85c7a027ba07330a6a9536a4bbd1654f67a4",
+          "lfs": {
+            "oid": "1a7b4ba392d0c3eee29292204f168696cdedb838ffb49d84b2224a6a555e7ced",
+            "pointerSize": 133,
+            "size": 13708951
+          },
+          "source_path": "solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/google-quest-challenge.json",
+          "task": "google-quest-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report/alignment_google-quest-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_google-quest-challenge.json",
+      "metadata_sha256": "e2196e6ea29c60c79c0a173f1ef3e674b9f96631d2873fa3813a8b5ef4a57b70",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "google-quest-challenge"
+    },
+    {
+      "found": [
+        {
+          "bytes": 102949,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "9304a0e0c2974bcca17d87b7716763bec9cc83cd",
+          "lfs": null,
+          "source_path": "solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/jigsaw-toxic-comment-classification-challenge.json",
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 101886,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "64c16181edc8d30cedff0b69a0e853a1b059f42d",
+          "lfs": null,
+          "source_path": "solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/jigsaw-toxic-comment-classification-challenge.json",
+          "task": "jigsaw-toxic-comment-classification-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report/alignment_jigsaw-toxic-comment-classification-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_jigsaw-toxic-comment-classification-challenge.json",
+      "metadata_sha256": "811c775bd2dd4e144f5a9a2935456e5c7a4b6e61cb9e663041d6fdef24d6a942",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "jigsaw-toxic-comment-classification-challenge"
+    },
+    {
+      "found": [
+        {
+          "bytes": 1365998,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "8784cc80085a34041a1641cf1b4556d3a88d869c",
+          "lfs": null,
+          "source_path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/leaf-classification.json",
+          "task": "leaf-classification",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 1360530,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "ebe03e23f6db38ae0eca4884344dc86be0183de3",
+          "lfs": null,
+          "source_path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/leaf-classification.json",
+          "task": "leaf-classification",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_leaf-classification.json",
+      "metadata_sha256": "eb90c21530f4d5c333f7c8b3d39417382d0c2fd7a4125e0a658d96c09c669f30",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "leaf-classification"
+    },
+    {
+      "found": [
+        {
+          "bytes": 1791780,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "edfffa78d9e75245cc5896794f9b4f2001726b19",
+          "lfs": null,
+          "source_path": "solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/learning-agency-lab-automated-essay-scoring-2.json",
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 1751344,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "02612c034b99bd35c3d37be7729057403b28ac74",
+          "lfs": null,
+          "source_path": "solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/learning-agency-lab-automated-essay-scoring-2.json",
+          "task": "learning-agency-lab-automated-essay-scoring-2",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report/alignment_learning-agency-lab-automated-essay-scoring-2_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_learning-agency-lab-automated-essay-scoring-2.json",
+      "metadata_sha256": "cd75f6b6a61eb851af1e7b1681f94359b7dcbfac394c24cebb782b79f6142309",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "learning-agency-lab-automated-essay-scoring-2"
+    },
+    {
+      "found": [
+        {
+          "bytes": 13511798,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "2c5d134f871aec908850d2097aeb8bb518c6754a",
+          "lfs": {
+            "oid": "a652b8a299e1de0271c2d1db2b965dd013eefbe647fdf27696b3792ada555e38",
+            "pointerSize": 133,
+            "size": 13511798
+          },
+          "source_path": "solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/lmsys-chatbot-arena.json",
+          "task": "lmsys-chatbot-arena",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 13378007,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "598d80dfc10c4e566eabfe1a9fb3e5ec4a34b534",
+          "lfs": {
+            "oid": "4678e40d93e607cc061232d5b631ae51874c77697b336d669c4e49c923505b86",
+            "pointerSize": 133,
+            "size": 13378007
+          },
+          "source_path": "solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/lmsys-chatbot-arena.json",
+          "task": "lmsys-chatbot-arena",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report/alignment_lmsys-chatbot-arena_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_lmsys-chatbot-arena.json",
+      "metadata_sha256": "ab125d4bc7e8314e1c79c29696c5c84c631d32831519a6fbbf559e56e6a0df96",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "lmsys-chatbot-arena"
+    },
+    {
+      "found": [
+        {
+          "bytes": 13675467,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+          "git_blob_oid": "c8733500107474f1c68df02e12b5d3ee198ebecf",
+          "lfs": {
+            "oid": "d8988f1f79bf64f434e31029868408c1fdcdbce35bc7f9d02ab61e09b374e3be",
+            "pointerSize": 133,
+            "size": 13675467
+          },
+          "source_path": "solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251205_214840/mlsp-2013-birds.json",
+          "task": "mlsp-2013-birds",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json"
+        },
+        {
+          "bytes": 13823066,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "58151207faf67674db836dbf8d57c29d76c680c0",
+          "lfs": {
+            "oid": "5a03f2fe424b4f48d5555005d5a331c312c9333c31a1aff24f31bc7a9f93abdc",
+            "pointerSize": 133,
+            "size": 13823066
+          },
+          "source_path": "solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/mlsp-2013-birds.json",
+          "task": "mlsp-2013-birds",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report/alignment_mlsp-2013-birds_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_mlsp-2013-birds.json",
+      "metadata_sha256": "f8be6d550d218385c2025a7cb0a732ddbb28c18e493cfcdf72ee0993fd9d6ed1",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report?recursive=false&expand=false",
+      "missing_runs": [],
+      "task": "mlsp-2013-birds"
+    },
+    {
+      "found": [
+        {
+          "bytes": 5097832,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "9cd26431cfb93e37350889dee083135d096c45a3",
+          "lfs": null,
+          "source_path": "solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/new-york-city-taxi-fare-prediction.json",
+          "task": "new-york-city-taxi-fare-prediction",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report/alignment_new-york-city-taxi-fare-prediction_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_new-york-city-taxi-fare-prediction.json",
+      "metadata_sha256": "54b0f14e4a12a9c48a4ea6af3dab302e6ba1a270b6322369d41d34294e7a1066",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "new-york-city-taxi-fare-prediction"
+    },
+    {
+      "found": [
+        {
+          "bytes": 31146,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "51e2fa45f04304ece038507fdd6b69d33b44f15c",
+          "lfs": null,
+          "source_path": "solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/nomad2018-predict-transparent-conductors.json",
+          "task": "nomad2018-predict-transparent-conductors",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report/alignment_nomad2018-predict-transparent-conductors_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_nomad2018-predict-transparent-conductors.json",
+      "metadata_sha256": "418e7ba93e18ab8e8f1795a67897051d874e876e0976ea33bba84415f1b93270",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "nomad2018-predict-transparent-conductors"
+    },
+    {
+      "found": [
+        {
+          "bytes": 1892750,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "d11bba4521ad27388d703e1e6eb72bc21e73cfd1",
+          "lfs": null,
+          "source_path": "solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/petfinder-pawpularity-score.json",
+          "task": "petfinder-pawpularity-score",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report/alignment_petfinder-pawpularity-score_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_petfinder-pawpularity-score.json",
+      "metadata_sha256": "ad03395cecb402e6356b04eb098b0520cc299197dbad248a3c75d3ffeef3465f",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "petfinder-pawpularity-score"
+    },
+    {
+      "found": [
+        {
+          "bytes": 166805,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "e9542637860e055be4a2186f1345205dfaef917c",
+          "lfs": null,
+          "source_path": "solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/plant-pathology-2020-fgvc7.json",
+          "task": "plant-pathology-2020-fgvc7",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report/alignment_plant-pathology-2020-fgvc7_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_plant-pathology-2020-fgvc7.json",
+      "metadata_sha256": "c3f2f26095b90e549a796ba2091cb64fe5a6f8cad0367121556faa203de596b8",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "plant-pathology-2020-fgvc7"
+    },
+    {
+      "found": [
+        {
+          "bytes": 14378947,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "4f74bcf9e8991b418d146299121f63c8a6fdc7f9",
+          "lfs": {
+            "oid": "f862922861df1bb603b6a2c3619dadd6b3d091f8e1d84be0e7884138daf1ae58",
+            "pointerSize": 133,
+            "size": 14378947
+          },
+          "source_path": "solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/predict-volcanic-eruptions-ingv-oe.json",
+          "task": "predict-volcanic-eruptions-ingv-oe",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report/alignment_predict-volcanic-eruptions-ingv-oe_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_predict-volcanic-eruptions-ingv-oe.json",
+      "metadata_sha256": "e96a0e6578b8da74419b69d0c2655ef6f051d4bd86937627150756caa25f4c99",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "predict-volcanic-eruptions-ingv-oe"
+    },
+    {
+      "found": [
+        {
+          "bytes": 14024181,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "0d9d0f88446f1ffd078c9e91853e870091c79700",
+          "lfs": {
+            "oid": "38f5cb9d076cda572b3c812e7d9041c0098678f06f6243dad98e23e6b93c6509",
+            "pointerSize": 133,
+            "size": 14024181
+          },
+          "source_path": "solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/random-acts-of-pizza.json",
+          "task": "random-acts-of-pizza",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report/alignment_random-acts-of-pizza_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_random-acts-of-pizza.json",
+      "metadata_sha256": "0391b93a13042227e029f9a1c3ff82465fa614a5e0022a57c5311cf0d755a18c",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "random-acts-of-pizza"
+    },
+    {
+      "found": [
+        {
+          "bytes": 12700224,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "f062ba12047e1402e524fe03c66c663c09eed7ec",
+          "lfs": {
+            "oid": "e4ead50c5cc4770b79d4c89ed02c885316a1a7a02a5e94a084b81d7a946af748",
+            "pointerSize": 133,
+            "size": 12700224
+          },
+          "source_path": "solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/spooky-author-identification.json",
+          "task": "spooky-author-identification",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report/alignment_spooky-author-identification_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_spooky-author-identification.json",
+      "metadata_sha256": "34aca342df9f334a2103d394e91e8ea321c3ad92fd952ffdb4c0f10f765d632d",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "spooky-author-identification"
+    },
+    {
+      "found": [
+        {
+          "bytes": 14824281,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "49c08f19c1f43064781e5a6c2f7fb6deb9c6b953",
+          "lfs": {
+            "oid": "338ef8f018e99727bf893c0c12d4331fe0062bac7c581b4b59881dbacf3905ff",
+            "pointerSize": 133,
+            "size": 14824281
+          },
+          "source_path": "solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/stanford-covid-vaccine.json",
+          "task": "stanford-covid-vaccine",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report/alignment_stanford-covid-vaccine_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_stanford-covid-vaccine.json",
+      "metadata_sha256": "997ba4d98442ce19187f7be0051c02af7bc2ec753b5c6da0f5c17ad110bb9c19",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "stanford-covid-vaccine"
+    },
+    {
+      "found": [
+        {
+          "bytes": 13090753,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "ff063677fea037bf8cd2d20198c748107ead1456",
+          "lfs": {
+            "oid": "4c5b5ff3ddcf925036198c940d76f808f5b34ba7ab2a823c3c56d231f4203df6",
+            "pointerSize": 133,
+            "size": 13090753
+          },
+          "source_path": "solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/statoil-iceberg-classifier-challenge.json",
+          "task": "statoil-iceberg-classifier-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report/alignment_statoil-iceberg-classifier-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_statoil-iceberg-classifier-challenge.json",
+      "metadata_sha256": "c55ba9fb9733bd27eb46a5bc4d67a345d5d786569803e49873a17ab2ca461884",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "statoil-iceberg-classifier-challenge"
+    },
+    {
+      "found": [
+        {
+          "bytes": 3018341,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "a3238ddd3cf7be88fb8294b401a494e8a369cba8",
+          "lfs": null,
+          "source_path": "solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/tabular-playground-series-dec-2021.json",
+          "task": "tabular-playground-series-dec-2021",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report/alignment_tabular-playground-series-dec-2021_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_tabular-playground-series-dec-2021.json",
+      "metadata_sha256": "50c566105549c624c196e0ce80da0c610d28de37720790dee190cd88c5480f74",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "tabular-playground-series-dec-2021"
+    },
+    {
+      "found": [
+        {
+          "bytes": 18618984,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "159023197c701e96bd980bec95173e2ff92fa3ab",
+          "lfs": {
+            "oid": "e3351289a212c0010e76f5d8d10b5e2f7822ac6e5dae6bd0c6faafa5430236a9",
+            "pointerSize": 133,
+            "size": 18618984
+          },
+          "source_path": "solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/tensorflow-speech-recognition-challenge.json",
+          "task": "tensorflow-speech-recognition-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report/alignment_tensorflow-speech-recognition-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_tensorflow-speech-recognition-challenge.json",
+      "metadata_sha256": "ef96fc8c76046f340c7b78e75c0f91f05deadb08de69fac02e7bf8047da3c8f5",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "tensorflow-speech-recognition-challenge"
+    },
+    {
+      "found": [
+        {
+          "bytes": 11679527,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "8b2bab4d2b70633b8dcac09db29f09ed7b347b5c",
+          "lfs": {
+            "oid": "657efd3af3483fff02dad09a303bbed80489bbd4a691067378d4c469fdee522e",
+            "pointerSize": 133,
+            "size": 11679527
+          },
+          "source_path": "solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/tgs-salt-identification-challenge.json",
+          "task": "tgs-salt-identification-challenge",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report/alignment_tgs-salt-identification-challenge_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_tgs-salt-identification-challenge.json",
+      "metadata_sha256": "6ba5148b10e5df8321b73a83052ca02ca58e468a82c4b7dad0d4432c40ed5d3f",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "tgs-salt-identification-challenge"
+    },
+    {
+      "found": [
+        {
+          "bytes": 3079137,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "611ce51ae896aa13963209151e1f74be2b5da0a9",
+          "lfs": null,
+          "source_path": "solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/the-icml-2013-whale-challenge-right-whale-redux.json",
+          "task": "the-icml-2013-whale-challenge-right-whale-redux",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report/alignment_the-icml-2013-whale-challenge-right-whale-redux_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_the-icml-2013-whale-challenge-right-whale-redux.json",
+      "metadata_sha256": "350e949d1b03f3950104724b4aa752531d680eef444b322bf73933507a543d83",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "the-icml-2013-whale-challenge-right-whale-redux"
+    },
+    {
+      "found": [
+        {
+          "bytes": 2103924,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "cb8ad7a68dc6d25a847b802b790eac2f862b8a34",
+          "lfs": null,
+          "source_path": "solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/tweet-sentiment-extraction.json",
+          "task": "tweet-sentiment-extraction",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report/alignment_tweet-sentiment-extraction_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_tweet-sentiment-extraction.json",
+      "metadata_sha256": "72b303fe9c8389de4e96e1fd62e654cbe3074641a823b16ad6efeb3c12296e3f",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "tweet-sentiment-extraction"
+    },
+    {
+      "found": [
+        {
+          "bytes": 13037245,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "a1238b13638e0cee0c0b44bea86312aa5547bfff",
+          "lfs": {
+            "oid": "62893d7450e92d3de7f0ffbe85172a4ac1fac41b54fa022c34c61a0afbba922e",
+            "pointerSize": 133,
+            "size": 13037245
+          },
+          "source_path": "solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/us-patent-phrase-to-phrase-matching.json",
+          "task": "us-patent-phrase-to-phrase-matching",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report/alignment_us-patent-phrase-to-phrase-matching_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_us-patent-phrase-to-phrase-matching.json",
+      "metadata_sha256": "d8e21afb6db110b3cdcc36e047411251388ab7c0211ada002daac9f5b48a6042",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "us-patent-phrase-to-phrase-matching"
+    },
+    {
+      "found": [
+        {
+          "bytes": 12622609,
+          "feedback_run": "deepseek-reasoner_0p0_pboost_cot_20251209_135057",
+          "git_blob_oid": "fa380647aefb976200fc674444dd09c3272046a0",
+          "lfs": {
+            "oid": "6cd61b0196192862c4b9fc07276d66995b4bae330ef95d539a58b6569a7860e3",
+            "pointerSize": 133,
+            "size": 12622609
+          },
+          "source_path": "solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json",
+          "target": "/private/tmp/foreagent-deepseek-transfer-04/sources/deepseek-reasoner_0p0_pboost_cot_20251209_135057/ventilator-pressure-prediction.json",
+          "task": "ventilator-pressure-prediction",
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report/alignment_ventilator-pressure-prediction_n2_data-both_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json"
+        }
+      ],
+      "metadata_path": "/private/tmp/foreagent-deepseek-transfer-04/tree_ventilator-pressure-prediction.json",
+      "metadata_sha256": "91534aff2040d11315259dbd5a45dcc4e8e9a60de0f579df4bff629c527b3eef",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report?recursive=false&expand=false",
+      "missing_runs": [
+        "deepseek-reasoner_0p0_pboost_cot_20251205_214840"
+      ],
+      "task": "ventilator-pressure-prediction"
+    }
+  ]
+}

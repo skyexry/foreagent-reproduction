@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "files": {
+    "protocol.json": "9b652a1813a1447169c033e607b31b0eb3bdd577a0f4d7b63ef0756038c8b1f9",
+    "fetch.py": "49a7b1b0d084d4795b22ed291df22bd47a81de7e1101760a3c1070ace9ecce69",
+    "build_banks.py": "40f7fef7b0531a11ad3bfc709c25808c8c7c7db232e78f32a345a508d3dcacd0",
+    "experiment.py": "efa43cd52277a71878348e41453b310f3b7fd01508177a05a499a62a8b1eef14",
+    "verify.py": "526a177197f485d1216b7759e4b7b7fd6b0fdf18a635f71fbf8dddb8559a98f4",
+    "README.md": "335fabaea661e5ad50bd8a1675f70014851480f6068afe658555141db9119159",
+    "fetch_2/download_manifest.json": "cb79eec435efdacdcb645ae862cd46ba10f6dc6ca71be97d33c6fd5b2e6a3691",
+    "fetch_2/metadata_manifest.json": "5a50df86365bc1e7c2364c0ec3a5045bd45acabf78ba0abcc35dd581b5643e41",
+    "banks_1/manifest.json": "cc6455f6fded7e5ac76b3edbeb4200a965f04c20c08dc3c44e88e48872fb81ee",
+    "run_1/summary.json": "32120ac9f600d952fdcc58457b66908e8417eeb6de24dfd267ddce7ecbbd6142",
+    "run_1/verification_1/receipt.json": "7b5c04eced366cc3368d1890d944456ea49651af0e6d1864a5d6bd990b057acb"
+  },
+  "new_model_calls": 0,
+  "training": 0,
+  "GPU": 0
+}

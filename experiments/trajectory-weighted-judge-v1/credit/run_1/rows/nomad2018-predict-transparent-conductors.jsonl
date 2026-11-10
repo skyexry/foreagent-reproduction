@@ -1,0 +1,2 @@
+{"delta": 0.10473815461346726, "gap": 0.10473815461346726, "job": "nomad2018-predict-transparent-conductors:0:0", "pair": "4019a5e0cc3f8ba8e32e|5d91ced05fe7ba30e23f", "repeat": 0, "right": 0.0, "task": "nomad2018-predict-transparent-conductors", "wrong": 0.10473815461346726}
+{"delta": 0.10473815461346726, "gap": 0.10473815461346726, "job": "nomad2018-predict-transparent-conductors:0:1", "pair": "4019a5e0cc3f8ba8e32e|5d91ced05fe7ba30e23f", "repeat": 1, "right": 0.0, "task": "nomad2018-predict-transparent-conductors", "wrong": 0.10473815461346726}

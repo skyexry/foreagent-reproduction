@@ -1,0 +1,8 @@
+{
+  "id": "direction-default-half-sensitivity-v1",
+  "limits": "CPU only; zero models/training/GPU;600s",
+  "purpose": "The upstream parser default is exactly .5. Conservatively drop all added confidence==.5 edges, including genuinely explicit .5, to bound dependence on that ambiguity. Keep .7+ unchanged and all .5<conf<.7 directions. Explanation only; no method promotion or threshold search.",
+  "scoring": "seal V choices before separate label access; compare original C/H/L and paired task macro/bootstrap/leave-one with seed20261108093,10000 draws.",
+  "source": "direction-audit/run-003 sealed audit and actual per-bank C0 traces",
+  "stage": "Source-informed post-main-audit sensitivity; main C/H/L/E/N32 results already inspected."
+}

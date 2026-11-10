@@ -1,0 +1,544 @@
+Source audit sealed 71508
+All audit selections sealed before scoring 7ea71da482f6512d5a706e29c2c2f809283ba4820ba42440b8df42e82808c074
+{
+  "DS": {
+    "macro": {
+      "C": {
+        "regret": 0.26416156273452185,
+        "best_hit": 0.2367384004884005
+      },
+      "H": {
+        "regret": 0.29241113055664125,
+        "best_hit": 0.20080128205128206
+      },
+      "L": {
+        "regret": 0.24227455568734857,
+        "best_hit": 0.25745192307692305
+      },
+      "E": {
+        "regret": 0.29241113055664125,
+        "best_hit": 0.20080128205128206
+      },
+      "E_archive": {
+        "regret": 0.24227455568734857,
+        "best_hit": 0.25745192307692305
+      },
+      "N32": {
+        "regret": 0.28296311304769994,
+        "best_hit": 0.22720009157509155
+      }
+    },
+    "C-L": {
+      "gain": 0.021887007047173255,
+      "ci95": [
+        0.0021413273483559827,
+        0.044768653953480876
+      ],
+      "tasks_positive": 16,
+      "tasks_zero": 4,
+      "tasks_negative": 6,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": 0.02157737815035642,
+        "denoising-dirty-documents": 0.02404928558882312,
+        "detecting-insults-in-social-commentary": 0.01676275113407956,
+        "dog-breed-identification": 0.022762487329060183,
+        "google-quest-challenge": 0.02057498768293744,
+        "jigsaw-toxic-comment-classification-challenge": 0.022762487329060183,
+        "leaf-classification": 0.022483045437069672,
+        "learning-agency-lab-automated-essay-scoring-2": 0.022311722812278043,
+        "lmsys-chatbot-arena": 0.024748111442007246,
+        "mlsp-2013-birds": 0.024308297524454726,
+        "new-york-city-taxi-fare-prediction": 0.02324104851001889,
+        "nomad2018-predict-transparent-conductors": 0.022762487329060183,
+        "petfinder-pawpularity-score": 0.022762487329060183,
+        "plant-pathology-2020-fgvc7": 0.015156275384064628,
+        "predict-volcanic-eruptions-ingv-oe": 0.021555745229046103,
+        "random-acts-of-pizza": 0.019790370428178463,
+        "spooky-author-identification": 0.02239250819425666,
+        "stanford-covid-vaccine": 0.022755961514756496,
+        "statoil-iceberg-classifier-challenge": 0.020839373140153477,
+        "tabular-playground-series-dec-2021": 0.021530468081038315,
+        "tensorflow-speech-recognition-challenge": 0.022423847035331065,
+        "tgs-salt-identification-challenge": 0.019467901190988467,
+        "the-icml-2013-whale-challenge-right-whale-redux": 0.02562710740126853,
+        "tweet-sentiment-extraction": 0.02090567131180094,
+        "us-patent-phrase-to-phrase-matching": 0.0224768130109751,
+        "ventilator-pressure-prediction": 0.023033563706380503
+      },
+      "leave_one_min": 0.015156275384064628,
+      "leave_one_max": 0.02562710740126853
+    },
+    "L-N32": {
+      "gain": -0.04068855736035137,
+      "ci95": [
+        -0.07646735689524942,
+        -0.010600816217973664
+      ],
+      "tasks_positive": 7,
+      "tasks_zero": 2,
+      "tasks_negative": 17,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": -0.04556728840925671,
+        "denoising-dirty-documents": -0.042929303443325406,
+        "detecting-insults-in-social-commentary": -0.03680732827882303,
+        "dog-breed-identification": -0.04231609965476542,
+        "google-quest-challenge": -0.04055459465219927,
+        "jigsaw-toxic-comment-classification-challenge": -0.03536964524087252,
+        "leaf-classification": -0.04051565082603911,
+        "learning-agency-lab-automated-essay-scoring-2": -0.04056790095711703,
+        "lmsys-chatbot-arena": -0.04183280464900778,
+        "mlsp-2013-birds": -0.04314789486197634,
+        "new-york-city-taxi-fare-prediction": -0.04123780369676305,
+        "nomad2018-predict-transparent-conductors": -0.04231609965476542,
+        "petfinder-pawpularity-score": -0.028147998232441473,
+        "plant-pathology-2020-fgvc7": -0.03519457591528399,
+        "predict-volcanic-eruptions-ingv-oe": -0.04327481780311025,
+        "random-acts-of-pizza": -0.03953046955332026,
+        "spooky-author-identification": -0.04161101941581281,
+        "stanford-covid-vaccine": -0.04207929999046009,
+        "statoil-iceberg-classifier-challenge": -0.04086965825461483,
+        "tabular-playground-series-dec-2021": -0.04175069550176682,
+        "tensorflow-speech-recognition-challenge": -0.03981986065308265,
+        "tgs-salt-identification-challenge": -0.04100073991476827,
+        "the-icml-2013-whale-challenge-right-whale-redux": -0.044089239480367824,
+        "tweet-sentiment-extraction": -0.04301345920025284,
+        "us-patent-phrase-to-phrase-matching": -0.042321737500259,
+        "ventilator-pressure-prediction": -0.04203650562868332
+      },
+      "leave_one_min": -0.04556728840925671,
+      "leave_one_max": -0.028147998232441473
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "macro": {
+      "C": {
+        "regret": 0.27638816134865735,
+        "best_hit": 0.2820604395604395
+      },
+      "H": {
+        "regret": 0.2764352720341184,
+        "best_hit": 0.28289377289377293
+      },
+      "L": {
+        "regret": 0.2797149536789022,
+        "best_hit": 0.27107371794871793
+      },
+      "E": {
+        "regret": 0.2754858439068502,
+        "best_hit": 0.27757326007326005
+      },
+      "E_archive": {
+        "regret": 0.2797149536789022,
+        "best_hit": 0.27107371794871793
+      },
+      "N32": {
+        "regret": 0.2755617759616368,
+        "best_hit": 0.27573467548076924
+      }
+    },
+    "C-L": {
+      "gain": -0.003326792330244831,
+      "ci95": [
+        -0.02634630138465443,
+        0.016571157316789778
+      ],
+      "tasks_positive": 13,
+      "tasks_zero": 4,
+      "tasks_negative": 9,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": -0.0035163533048466113,
+        "denoising-dirty-documents": -0.0038912460228854085,
+        "detecting-insults-in-social-commentary": -0.002097253993757036,
+        "dog-breed-identification": -0.003459864023454624,
+        "google-quest-challenge": -0.003031093438785939,
+        "jigsaw-toxic-comment-classification-challenge": -0.003459864023454624,
+        "leaf-classification": -0.0039019974531129065,
+        "learning-agency-lab-automated-essay-scoring-2": -0.004352765042652902,
+        "lmsys-chatbot-arena": -0.004631733441919203,
+        "mlsp-2013-birds": -0.003301046872490312,
+        "new-york-city-taxi-fare-prediction": -0.005316814198372481,
+        "nomad2018-predict-transparent-conductors": -0.003459864023454624,
+        "petfinder-pawpularity-score": -0.003459864023454624,
+        "plant-pathology-2020-fgvc7": 0.00433790569673421,
+        "predict-volcanic-eruptions-ingv-oe": -0.00272523747823729,
+        "random-acts-of-pizza": -0.007063311246998996,
+        "spooky-author-identification": -0.0034699459320907625,
+        "stanford-covid-vaccine": -0.003095364671672749,
+        "statoil-iceberg-classifier-challenge": -0.005114756899780713,
+        "tabular-playground-series-dec-2021": -0.003937075344562065,
+        "tensorflow-speech-recognition-challenge": -0.0019388623092125678,
+        "tgs-salt-identification-challenge": 0.002096222408629944,
+        "the-icml-2013-whale-challenge-right-whale-redux": -0.0032591478734556633,
+        "tweet-sentiment-extraction": -0.006844484534147532,
+        "us-patent-phrase-to-phrase-matching": -0.004076216929088008,
+        "ventilator-pressure-prediction": -0.003526565609842113
+      },
+      "leave_one_min": -0.007063311246998996,
+      "leave_one_max": 0.00433790569673421
+    },
+    "L-N32": {
+      "gain": 0.00415317771726539,
+      "ci95": [
+        -0.011950996700495268,
+        0.023066094795435893
+      ],
+      "tasks_positive": 10,
+      "tasks_zero": 4,
+      "tasks_negative": 12,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": 0.002555874018143736,
+        "denoising-dirty-documents": 0.003995378623105122,
+        "detecting-insults-in-social-commentary": 0.0041774104504249295,
+        "dog-breed-identification": 0.004319304825956005,
+        "google-quest-challenge": 0.004530497558833293,
+        "jigsaw-toxic-comment-classification-challenge": 0.004319304825956005,
+        "leaf-classification": 0.004507163370903051,
+        "learning-agency-lab-automated-essay-scoring-2": 0.006036455480889938,
+        "lmsys-chatbot-arena": 0.004161169870368411,
+        "mlsp-2013-birds": 0.004441060292444646,
+        "new-york-city-taxi-fare-prediction": 0.0061497472467827155,
+        "nomad2018-predict-transparent-conductors": 0.004319304825956005,
+        "petfinder-pawpularity-score": 0.004319304825956005,
+        "plant-pathology-2020-fgvc7": -0.0021848726728467688,
+        "predict-volcanic-eruptions-ingv-oe": 0.0031698433080763174,
+        "random-acts-of-pizza": 0.006810680686069515,
+        "spooky-author-identification": 0.004815133184713868,
+        "stanford-covid-vaccine": 0.0033906066421328755,
+        "statoil-iceberg-classifier-challenge": 0.005549547638607884,
+        "tabular-playground-series-dec-2021": 0.005146266096910887,
+        "tensorflow-speech-recognition-challenge": 0.0025470516362215297,
+        "tgs-salt-identification-challenge": 0.00030128612929987197,
+        "the-icml-2013-whale-challenge-right-whale-redux": 0.005027683795571105,
+        "tweet-sentiment-extraction": 0.006394446313138798,
+        "us-patent-phrase-to-phrase-matching": 0.005125060480754043,
+        "ventilator-pressure-prediction": 0.004057911194530353
+      },
+      "leave_one_min": -0.0021848726728467688,
+      "leave_one_max": 0.006810680686069515
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "macro": {
+      "C": {
+        "regret": 0.25355899953207967,
+        "best_hit": 0.30520833333333336
+      },
+      "H": {
+        "regret": 0.2552251815461656,
+        "best_hit": 0.2971955128205128
+      },
+      "L": {
+        "regret": 0.28171427378226743,
+        "best_hit": 0.27564102564102566
+      },
+      "E": {
+        "regret": 0.2552251815461656,
+        "best_hit": 0.2971955128205128
+      },
+      "E_archive": {
+        "regret": 0.28171427378226743,
+        "best_hit": 0.27564102564102566
+      },
+      "N32": {
+        "regret": 0.26047644898113165,
+        "best_hit": 0.28040715144230766
+      }
+    },
+    "C-L": {
+      "gain": -0.02815527425018771,
+      "ci95": [
+        -0.08762794477058439,
+        0.01871244272585163
+      ],
+      "tasks_positive": 11,
+      "tasks_zero": 1,
+      "tasks_negative": 14,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": -0.033255685107529166,
+        "denoising-dirty-documents": -0.027490909409058427,
+        "detecting-insults-in-social-commentary": -0.025012806419911823,
+        "dog-breed-identification": -0.029281485220195216,
+        "google-quest-challenge": -0.030150425493805297,
+        "jigsaw-toxic-comment-classification-challenge": -0.009853120531338532,
+        "leaf-classification": -0.029532213239546044,
+        "learning-agency-lab-automated-essay-scoring-2": -0.030883882347459493,
+        "lmsys-chatbot-arena": -0.028369888133556963,
+        "mlsp-2013-birds": -0.029030925409569298,
+        "new-york-city-taxi-fare-prediction": -0.02864901762937366,
+        "nomad2018-predict-transparent-conductors": -0.031376248312464564,
+        "petfinder-pawpularity-score": -0.009281485220195215,
+        "plant-pathology-2020-fgvc7": -0.03126866909285491,
+        "predict-volcanic-eruptions-ingv-oe": -0.02795874103936902,
+        "random-acts-of-pizza": -0.0283447318265563,
+        "spooky-author-identification": -0.029271403311559075,
+        "stanford-covid-vaccine": -0.0291245840582391,
+        "statoil-iceberg-classifier-challenge": -0.03107297984606815,
+        "tabular-playground-series-dec-2021": -0.030313511077205993,
+        "tensorflow-speech-recognition-challenge": -0.029081784899614306,
+        "tgs-salt-identification-challenge": -0.029452483675248105,
+        "the-icml-2013-whale-challenge-right-whale-redux": -0.034571787485657805,
+        "tweet-sentiment-extraction": -0.03177549321998015,
+        "us-patent-phrase-to-phrase-matching": -0.028816911649719598,
+        "ventilator-pressure-prediction": -0.02881595684880418
+      },
+      "leave_one_min": -0.034571787485657805,
+      "leave_one_max": -0.009281485220195215
+    },
+    "L-N32": {
+      "gain": 0.021237824801135712,
+      "ci95": [
+        -0.012995310128649648,
+        0.0666630763866471
+      ],
+      "tasks_positive": 12,
+      "tasks_zero": 1,
+      "tasks_negative": 13,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": 0.022831531441367705,
+        "denoising-dirty-documents": 0.02223002659985454,
+        "detecting-insults-in-social-commentary": 0.018445723278378467,
+        "dog-breed-identification": 0.02208733779318114,
+        "google-quest-challenge": 0.02242942705010492,
+        "jigsaw-toxic-comment-classification-challenge": 0.0045697003112709165,
+        "leaf-classification": 0.0223020646841471,
+        "learning-agency-lab-automated-essay-scoring-2": 0.023962952320160547,
+        "lmsys-chatbot-arena": 0.0200786764942905,
+        "mlsp-2013-birds": 0.022280558837044023,
+        "new-york-city-taxi-fare-prediction": 0.021508909113214222,
+        "nomad2018-predict-transparent-conductors": 0.02437848492535074,
+        "petfinder-pawpularity-score": 0.011462337793181142,
+        "plant-pathology-2020-fgvc7": 0.021094743553597094,
+        "predict-volcanic-eruptions-ingv-oe": 0.020440927199755966,
+        "random-acts-of-pizza": 0.02269328549042525,
+        "spooky-author-identification": 0.021954943591981115,
+        "stanford-covid-vaccine": 0.022195226182407365,
+        "statoil-iceberg-classifier-challenge": 0.02465588192385769,
+        "tabular-playground-series-dec-2021": 0.02338053681329853,
+        "tensorflow-speech-recognition-challenge": 0.021692348995808207,
+        "tgs-salt-identification-challenge": 0.021565044683230665,
+        "the-icml-2013-whale-challenge-right-whale-redux": 0.025549051302112765,
+        "tweet-sentiment-extraction": 0.024890640312154724,
+        "us-patent-phrase-to-phrase-matching": 0.021916625354877203,
+        "ventilator-pressure-prediction": 0.021586458784476
+      },
+      "leave_one_min": 0.0045697003112709165,
+      "leave_one_max": 0.025549051302112765
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "macro": {
+      "C": {
+        "regret": 0.2875122232484245,
+        "best_hit": 0.25723824786324784
+      },
+      "H": {
+        "regret": 0.2837292691993621,
+        "best_hit": 0.2566826923076923
+      },
+      "L": {
+        "regret": 0.30165751501580224,
+        "best_hit": 0.2520032051282051
+      },
+      "E": {
+        "regret": 0.2837292691993621,
+        "best_hit": 0.2566826923076923
+      },
+      "E_archive": {
+        "regret": 0.30165751501580224,
+        "best_hit": 0.2520032051282051
+      },
+      "N32": {
+        "regret": 0.28437253618748126,
+        "best_hit": 0.25190655048076926
+      }
+    },
+    "C-L": {
+      "gain": -0.014145291767377725,
+      "ci95": [
+        -0.038269558821647245,
+        0.006734261230496854
+      ],
+      "tasks_positive": 11,
+      "tasks_zero": 2,
+      "tasks_negative": 13,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": -0.015132884988553783,
+        "denoising-dirty-documents": -0.012585406442782367,
+        "detecting-insults-in-social-commentary": -0.013278622904228463,
+        "dog-breed-identification": -0.014711103438072835,
+        "google-quest-challenge": -0.015301027334162031,
+        "jigsaw-toxic-comment-classification-challenge": -0.005282738749216151,
+        "leaf-classification": -0.014989810809698897,
+        "learning-agency-lab-automated-essay-scoring-2": -0.013311060413420884,
+        "lmsys-chatbot-arena": -0.011605585860345881,
+        "mlsp-2013-birds": -0.013800272622903075,
+        "new-york-city-taxi-fare-prediction": -0.01463710781304858,
+        "nomad2018-predict-transparent-conductors": -0.014711103438072835,
+        "petfinder-pawpularity-score": -0.010903219349300204,
+        "plant-pathology-2020-fgvc7": -0.018609988298167252,
+        "predict-volcanic-eruptions-ingv-oe": -0.013235814325680453,
+        "random-acts-of-pizza": -0.017773662165768984,
+        "spooky-author-identification": -0.014716969038578678,
+        "stanford-covid-vaccine": -0.015057884878144056,
+        "statoil-iceberg-classifier-challenge": -0.01565015868576217,
+        "tabular-playground-series-dec-2021": -0.015364960491418665,
+        "tensorflow-speech-recognition-challenge": -0.014350197178163096,
+        "tgs-salt-identification-challenge": -0.013951585620476641,
+        "the-icml-2013-whale-challenge-right-whale-redux": -0.01472256518752154,
+        "tweet-sentiment-extraction": -0.01544341909271635,
+        "us-patent-phrase-to-phrase-matching": -0.014159894958924706,
+        "ventilator-pressure-prediction": -0.014490541866692287
+      },
+      "leave_one_min": -0.018609988298167252,
+      "leave_one_max": -0.005282738749216151
+    },
+    "L-N32": {
+      "gain": 0.017284978828320995,
+      "ci95": [
+        -0.00042868460904456926,
+        0.04075289091024544
+      ],
+      "tasks_positive": 16,
+      "tasks_zero": 2,
+      "tasks_negative": 8,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": 0.018433943100608287,
+        "denoising-dirty-documents": 0.017737986094231273,
+        "detecting-insults-in-social-commentary": 0.01686226634614144,
+        "dog-breed-identification": 0.017976377981453837,
+        "google-quest-challenge": 0.018270007051334268,
+        "jigsaw-toxic-comment-classification-challenge": 0.00795874049954361,
+        "leaf-classification": 0.01837175352448365,
+        "learning-agency-lab-automated-essay-scoring-2": 0.017626105906833302,
+        "lmsys-chatbot-arena": 0.016075360255575183,
+        "mlsp-2013-birds": 0.017122501071917345,
+        "new-york-city-taxi-fare-prediction": 0.018328602442771763,
+        "nomad2018-predict-transparent-conductors": 0.017976377981453837,
+        "petfinder-pawpularity-score": 0.01619143231484167,
+        "plant-pathology-2020-fgvc7": 0.015248104966015186,
+        "predict-volcanic-eruptions-ingv-oe": 0.017612509243235132,
+        "random-acts-of-pizza": 0.020599780319806874,
+        "spooky-author-identification": 0.018107064272328163,
+        "stanford-covid-vaccine": 0.017683061237776996,
+        "statoil-iceberg-classifier-challenge": 0.01948545001418702,
+        "tabular-playground-series-dec-2021": 0.01918684774317168,
+        "tensorflow-speech-recognition-challenge": 0.017589420086012705,
+        "tgs-salt-identification-challenge": 0.016227034311202194,
+        "the-icml-2013-whale-challenge-right-whale-redux": 0.017119104611329882,
+        "tweet-sentiment-extraction": 0.016197833327834817,
+        "us-patent-phrase-to-phrase-matching": 0.017697935952126296,
+        "ventilator-pressure-prediction": 0.01772384888012947
+      },
+      "leave_one_min": 0.00795874049954361,
+      "leave_one_max": 0.020599780319806874
+    }
+  },
+  "GPT_task_first_pooled": {
+    "macro": {
+      "C": {
+        "regret": 0.2724864613763872,
+        "best_hit": 0.2815023402523403
+      },
+      "H": {
+        "regret": 0.271796574259882,
+        "best_hit": 0.27892399267399265
+      },
+      "L": {
+        "regret": 0.28769558082565727,
+        "best_hit": 0.26623931623931624
+      },
+      "E": {
+        "regret": 0.27148009821745933,
+        "best_hit": 0.2771504884004884
+      },
+      "E_archive": {
+        "regret": 0.28769558082565727,
+        "best_hit": 0.26623931623931624
+      },
+      "N32": {
+        "regret": 0.2734702537100832,
+        "best_hit": 0.2693494591346154
+      }
+    },
+    "C-L": {
+      "gain": -0.015209119449270076,
+      "ci95": [
+        -0.0425103159431583,
+        0.006729919290088645
+      ],
+      "tasks_positive": 12,
+      "tasks_zero": 1,
+      "tasks_negative": 13,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": -0.017301641133643176,
+        "denoising-dirty-documents": -0.014655853958242059,
+        "detecting-insults-in-social-commentary": -0.013462894439299095,
+        "dog-breed-identification": -0.01581748422724088,
+        "google-quest-challenge": -0.016160848755584413,
+        "jigsaw-toxic-comment-classification-challenge": -0.006198574434669761,
+        "leaf-classification": -0.016141340500785938,
+        "learning-agency-lab-automated-essay-scoring-2": -0.016182569267844414,
+        "lmsys-chatbot-arena": -0.014869069145274005,
+        "mlsp-2013-birds": -0.01537741496832088,
+        "new-york-city-taxi-fare-prediction": -0.016200979880264893,
+        "nomad2018-predict-transparent-conductors": -0.01651573859133066,
+        "petfinder-pawpularity-score": -0.007881522864316672,
+        "plant-pathology-2020-fgvc7": -0.015180250564762639,
+        "predict-volcanic-eruptions-ingv-oe": -0.014639930947762241,
+        "random-acts-of-pizza": -0.017727235079774747,
+        "spooky-author-identification": -0.01581943942740949,
+        "stanford-covid-vaccine": -0.015759277869351957,
+        "statoil-iceberg-classifier-challenge": -0.017279298477203664,
+        "tabular-playground-series-dec-2021": -0.016538515637728898,
+        "tensorflow-speech-recognition-challenge": -0.015123614795663312,
+        "tgs-salt-identification-challenge": -0.013769282295698253,
+        "the-icml-2013-whale-challenge-right-whale-redux": -0.01751783351554499,
+        "tweet-sentiment-extraction": -0.018021132282281332,
+        "us-patent-phrase-to-phrase-matching": -0.015684341179244093,
+        "ventilator-pressure-prediction": -0.015611021441779513
+      },
+      "leave_one_min": -0.018021132282281332,
+      "leave_one_max": -0.006198574434669761
+    },
+    "L-N32": {
+      "gain": 0.014225327115574025,
+      "ci95": [
+        -0.004458466757470126,
+        0.037723352255970635
+      ],
+      "tasks_positive": 13,
+      "tasks_zero": 1,
+      "tasks_negative": 12,
+      "leave_one_task_out": {
+        "aptos2019-blindness-detection": 0.014607116186706565,
+        "denoising-dirty-documents": 0.014654463772396972,
+        "detecting-insults-in-social-commentary": 0.013161800024981605,
+        "dog-breed-identification": 0.014794340200196987,
+        "google-quest-challenge": 0.015076643886757488,
+        "jigsaw-toxic-comment-classification-challenge": 0.005615915212256839,
+        "leaf-classification": 0.015060327193177927,
+        "learning-agency-lab-automated-essay-scoring-2": 0.015875171235961258,
+        "lmsys-chatbot-arena": 0.013438402206744691,
+        "mlsp-2013-birds": 0.014614706733801996,
+        "new-york-city-taxi-fare-prediction": 0.01532908626758956,
+        "nomad2018-predict-transparent-conductors": 0.015558055910920186,
+        "petfinder-pawpularity-score": 0.010657691644659602,
+        "plant-pathology-2020-fgvc7": 0.01138599194892183,
+        "predict-volcanic-eruptions-ingv-oe": 0.013741093250355798,
+        "random-acts-of-pizza": 0.016701248832100543,
+        "spooky-author-identification": 0.014959047016341041,
+        "stanford-covid-vaccine": 0.014422964687439073,
+        "statoil-iceberg-classifier-challenge": 0.016563626525550858,
+        "tabular-playground-series-dec-2021": 0.015904550217793693,
+        "tensorflow-speech-recognition-challenge": 0.013942940239347475,
+        "tgs-salt-identification-challenge": 0.01269778837457757,
+        "the-icml-2013-whale-challenge-right-whale-redux": 0.01589861323633791,
+        "tweet-sentiment-extraction": 0.015827639984376106,
+        "us-patent-phrase-to-phrase-matching": 0.014913207262585841,
+        "ventilator-pressure-prediction": 0.014456072953045266
+      },
+      "leave_one_min": 0.005615915212256839,
+      "leave_one_max": 0.016701248832100543
+    }
+  }
+}

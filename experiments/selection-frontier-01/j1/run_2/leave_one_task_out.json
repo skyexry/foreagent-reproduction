@@ -1,0 +1,106 @@
+[
+  {
+    "omitted_task": "aptos2019-blindness-detection",
+    "regret_gain": 0.173052131640037
+  },
+  {
+    "omitted_task": "denoising-dirty-documents",
+    "regret_gain": 0.18450712226834484
+  },
+  {
+    "omitted_task": "detecting-insults-in-social-commentary",
+    "regret_gain": 0.18268091782910556
+  },
+  {
+    "omitted_task": "dog-breed-identification",
+    "regret_gain": 0.18578422000866637
+  },
+  {
+    "omitted_task": "google-quest-challenge",
+    "regret_gain": 0.18229333982141763
+  },
+  {
+    "omitted_task": "jigsaw-toxic-comment-classification-challenge",
+    "regret_gain": 0.1457842200086664
+  },
+  {
+    "omitted_task": "leaf-classification",
+    "regret_gain": 0.185295366251612
+  },
+  {
+    "omitted_task": "learning-agency-lab-automated-essay-scoring-2",
+    "regret_gain": 0.18230504519889493
+  },
+  {
+    "omitted_task": "lmsys-chatbot-arena",
+    "regret_gain": 0.1842665732704563
+  },
+  {
+    "omitted_task": "mlsp-2013-birds",
+    "regret_gain": 0.17869834046747468
+  },
+  {
+    "omitted_task": "new-york-city-taxi-fare-prediction",
+    "regret_gain": 0.18180365944040566
+  },
+  {
+    "omitted_task": "nomad2018-predict-transparent-conductors",
+    "regret_gain": 0.18578422000866637
+  },
+  {
+    "omitted_task": "petfinder-pawpularity-score",
+    "regret_gain": 0.1776881620530527
+  },
+  {
+    "omitted_task": "plant-pathology-2020-fgvc7",
+    "regret_gain": 0.17991297419899271
+  },
+  {
+    "omitted_task": "predict-volcanic-eruptions-ingv-oe",
+    "regret_gain": 0.16730382421558582
+  },
+  {
+    "omitted_task": "random-acts-of-pizza",
+    "regret_gain": 0.1796937674462825
+  },
+  {
+    "omitted_task": "spooky-author-identification",
+    "regret_gain": 0.17997683580832866
+  },
+  {
+    "omitted_task": "stanford-covid-vaccine",
+    "regret_gain": 0.18128343509289593
+  },
+  {
+    "omitted_task": "statoil-iceberg-classifier-challenge",
+    "regret_gain": 0.17718476009964582
+  },
+  {
+    "omitted_task": "tabular-playground-series-dec-2021",
+    "regret_gain": 0.17493475294339736
+  },
+  {
+    "omitted_task": "tensorflow-speech-recognition-challenge",
+    "regret_gain": 0.1807196850495602
+  },
+  {
+    "omitted_task": "tgs-salt-identification-challenge",
+    "regret_gain": 0.17984678025143097
+  },
+  {
+    "omitted_task": "the-icml-2013-whale-challenge-right-whale-redux",
+    "regret_gain": 0.1726416091383189
+  },
+  {
+    "omitted_task": "tweet-sentiment-extraction",
+    "regret_gain": 0.1758264302206112
+  },
+  {
+    "omitted_task": "us-patent-phrase-to-phrase-matching",
+    "regret_gain": 0.183307280753304
+  },
+  {
+    "omitted_task": "ventilator-pressure-prediction",
+    "regret_gain": 0.18203004673150538
+  }
+]

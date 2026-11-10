@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "selection_replayed_with_label_file_reads_denied": 21250,
+  "label_access_attempts": [],
+  "poisoned_historical_metrics_selection_sha_matches": true,
+  "independent_episode_scores": 21250,
+  "independent_task_metrics": 754,
+  "macro_rows": 29,
+  "independent_task_bootstrap_and_leave_one_contrasts": 57,
+  "hashes_verified": "all saved output hashes and bound input hashes",
+  "elapsed_seconds": 10.89327175001381,
+  "summary_sha256": "16783266c9eb2b50daaef32991262d9164509cfe56ffe59225202ca7220163a0",
+  "verification_script_sha256": "4398e3ecffcaaea0923b4c6ae391a46da35766a92a4c230c90be645ed1540278"
+}

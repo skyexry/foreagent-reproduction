@@ -1,0 +1,2 @@
+# Core replay is standard library; certifi supports existing optional API tools/tests.
+certifi==2025.1.31

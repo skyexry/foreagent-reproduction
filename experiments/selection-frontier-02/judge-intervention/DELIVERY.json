@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "files": {
+    "protocol.json": "9f728217c5ad0e8ea13831f4d6084b00d88ba25f0ba465c754d048776e2d4af3",
+    "experiment.py": "8378986ce97e6a52264458101c02a2d24da820ac4cbcfa01f96cb67bb198f09e",
+    "verify.py": "be77a3bd3a2c55eb90d772f284d033a3083f23635add8edbe32a4df83f461fd2",
+    "report.py": "ac264c1c3b7aa179c2b5c9d772ca9d7084ca4090c67a7eb166e2736b60913e7b",
+    "README.md": "8344cc131ebbff1aa1c80e8cd40aac57aa71dca17a6f6c0f9321925c0774463d",
+    "run_1/summary.json": "c48175440121703cef25ff0fc0f5c81e6bc46debb4b0fa331fa7be05b5ce4721",
+    "run_1/selection_receipt.json": "1a0735407ced9b7280c9e026b16c2a9298f13241b5841517d70debec541fc735",
+    "run_1/verification_1/receipt.json": "0dae68b8ade84c7c8485d39e60edce1dfabe6c44ab7f14e4a81f3ea696ced1a4",
+    "run_1/verification_1/actual_total_costs.json": "8e77037fc3295025ce7f315ccd90f0ec9a0f279d5ff72a055e139906e9068c43",
+    "report_1/tables.json": "93a8ef9c1b1524926d42e437dab52c17d497764cbba1cbaa98fb2de6cecc9515"
+  },
+  "new_model_calls": 0,
+  "training": 0,
+  "GPU": 0,
+  "further_exploration_runs": 0
+}

@@ -1,0 +1,15 @@
+ M Proposal.md
+ M README.md
+ M experiments/foreagent_selection_audit.md
+ M verify_foreagent_selection.py
+?? Annotated_Bibliography.md
+?? audit_foreagent_mechanisms.py
+?? experiments/foreagent_mechanism_audit.md
+?? experiments/tournament_replay_attribution.md
+?? experiments/tournament_replay_protocol.md
+?? experiments/tournament_replay_report.md
+?? experiments/tournament_replay_results.json
+?? foreagent_selection.py
+?? replay_foreagent_selection.py
+?? tests/test_foreagent_mechanisms.py
+?? tests/test_foreagent_selection.py

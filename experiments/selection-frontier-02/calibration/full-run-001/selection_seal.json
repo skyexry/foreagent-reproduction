@@ -1,0 +1,18 @@
+{
+  "calibration_sha256": "158571cf3f2d8e2d778ab2597126479387f4e9b603fa448aa96e15781f7111e6",
+  "folds": 144,
+  "inputs": {
+    "experiments/selection-frontier-02/c0-final-selection/run-002/decisions.sealed.jsonl.gz": "848f6b26d39e0b9aafcc295ec6ceb512cad3f27b6353de0f4d11020b7bff5d59",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/per_task.json": "81e244170fd676a75410fe294fcd1457653e994ea349f060df1969a605052376",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/selection_seal.json": "9aef140d0f0c79fd6aa522ea9d7779657587e4b323f1639f3e22a1d16c157b1c",
+    "experiments/selection-frontier-02/deepseek-transfer/run_1/decisions.sealed.jsonl.gz": "53595a89afb643578d22fb6023fe5f694a1cf8876cfbf9aa87ee9804041ce8b1",
+    "experiments/selection-frontier-02/deepseek-transfer/run_1/per_task.json": "3a8777fe9be87d8484a496eb99f95fcbf2a33550a02f5ffc30c61ebbcb9c8eed",
+    "experiments/selection-frontier-02/deepseek-transfer/run_1/selection_seal.json": "8e5468b9d3b1ef05fbccf052896a4fb2b47cd45d2670d42aaf2e9026f7450305"
+  },
+  "predictions": 4696,
+  "predictions_sha256": "6b93bc2b025c5fc6efe517ff12561f7202b332c75f5cef62e5fddfd8b78faeb3",
+  "protocol_sha256": "682c0eb60e6466cbe2cb3f67681b3a161f4eb86e6b0dcab5ddacc19931733e76",
+  "script_sha256": "9242c274b99d150dc892466eb3cc94fd62d91dfc9216196cbf6a67791119be51",
+  "separation": "calibration uses explicitly allowed source-bank/non-target-task C/L outcomes; target prediction selects sealed C or L IDs; target labels joined only after both outputs sealed",
+  "target_score_labels_loaded": false
+}

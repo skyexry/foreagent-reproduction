@@ -1,0 +1,17 @@
+{
+  "authorization": "Parent clarified protocol D wording before execution; diagnostic only, no new pass criterion.",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261108093,
+  "full_26_task_analysis": "primary and unchanged",
+  "other_groups": [
+    "actual C0 singleton",
+    "actual C0 tied top",
+    "L selection equals C",
+    "L selection changes C"
+  ],
+  "pool_size_groups": [
+    "n=10",
+    "n<10"
+  ],
+  "stage": "before any selection or score loading in this run"
+}

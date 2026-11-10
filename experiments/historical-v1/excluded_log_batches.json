@@ -1,0 +1,310 @@
+[
+  {
+    "run": "aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d",
+    "batch": 6,
+    "completed": false,
+    "generated_short_ids": [
+      "23434668",
+      "3b693d18",
+      "2fea69bd",
+      "18a0aa66",
+      "b2a22f9b",
+      "6209ac82",
+      "ee011e07",
+      "633ea44d",
+      "f952b572",
+      "1dea8d14"
+    ],
+    "journal_missing_ids": [
+      "23434668",
+      "3b693d18",
+      "2fea69bd",
+      "18a0aa66",
+      "b2a22f9b",
+      "6209ac82",
+      "ee011e07",
+      "633ea44d",
+      "f952b572",
+      "1dea8d14"
+    ],
+    "reason": "unfinished_log_batch"
+  },
+  {
+    "run": "aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720",
+    "batch": 6,
+    "completed": false,
+    "generated_short_ids": [
+      "63e94f49",
+      "7fdd3fe6",
+      "c48b5b49",
+      "c4ab6580",
+      "26954d60",
+      "91a2943f",
+      "6549e242",
+      "c273ab13"
+    ],
+    "journal_missing_ids": [
+      "63e94f49",
+      "7fdd3fe6",
+      "c48b5b49",
+      "c4ab6580",
+      "26954d60",
+      "91a2943f",
+      "6549e242",
+      "c273ab13"
+    ],
+    "reason": "unfinished_log_batch"
+  },
+  {
+    "run": "histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d",
+    "batch": 2,
+    "completed": true,
+    "generated_short_ids": [
+      "2836c841",
+      "bf824146",
+      "ae458516",
+      "5cdaffa3",
+      "c15fc071",
+      "fff3980f",
+      "5d5aa202",
+      "7aaefd1b",
+      "c444c905",
+      "a5b1df72"
+    ],
+    "journal_missing_ids": [
+      "2836c841",
+      "bf824146",
+      "ae458516",
+      "5cdaffa3",
+      "c15fc071",
+      "fff3980f",
+      "5d5aa202",
+      "7aaefd1b",
+      "c444c905",
+      "a5b1df72"
+    ],
+    "reason": "generated_nodes_absent_from_final_journal"
+  },
+  {
+    "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+    "batch": 18,
+    "completed": false,
+    "generated_short_ids": [
+      "29d7635f",
+      "422906f5",
+      "0fa2dc89",
+      "0bc2627d"
+    ],
+    "journal_missing_ids": [
+      "29d7635f",
+      "422906f5",
+      "0fa2dc89",
+      "0bc2627d"
+    ],
+    "reason": "unfinished_log_batch"
+  },
+  {
+    "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+    "batch": 13,
+    "completed": false,
+    "generated_short_ids": [
+      "0169c251",
+      "0c3de79d",
+      "2facbe70",
+      "03ead2e6",
+      "48baa022",
+      "1ae6d2f6",
+      "c278578a",
+      "6b2b4ab1"
+    ],
+    "journal_missing_ids": [
+      "0169c251",
+      "0c3de79d",
+      "2facbe70",
+      "03ead2e6",
+      "48baa022",
+      "1ae6d2f6",
+      "c278578a",
+      "6b2b4ab1"
+    ],
+    "reason": "unfinished_log_batch"
+  },
+  {
+    "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+    "batch": 14,
+    "completed": true,
+    "generated_short_ids": [
+      "c85bef70",
+      "5bbe453e",
+      "2c066cd5",
+      "b4e80a11",
+      "11170159",
+      "4bee1883",
+      "dc909052",
+      "9de9603c",
+      "21fe58cb",
+      "0c18478e"
+    ],
+    "journal_missing_ids": [
+      "c85bef70",
+      "5bbe453e",
+      "2c066cd5",
+      "b4e80a11",
+      "11170159",
+      "4bee1883",
+      "dc909052",
+      "9de9603c",
+      "21fe58cb",
+      "0c18478e"
+    ],
+    "reason": "generated_nodes_absent_from_final_journal"
+  },
+  {
+    "run": "statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5",
+    "batch": 17,
+    "completed": true,
+    "generated_short_ids": [
+      "88d10d6f",
+      "e88f849a",
+      "a12770b7",
+      "1d9a3742",
+      "3bced83e",
+      "0316a593",
+      "e39bc3ed",
+      "83952010",
+      "08c5e264",
+      "3fe950fa"
+    ],
+    "journal_missing_ids": [
+      "88d10d6f",
+      "e88f849a",
+      "a12770b7",
+      "1d9a3742",
+      "3bced83e",
+      "0316a593",
+      "e39bc3ed",
+      "83952010",
+      "08c5e264",
+      "3fe950fa"
+    ],
+    "reason": "generated_nodes_absent_from_final_journal"
+  },
+  {
+    "run": "statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24",
+    "batch": 25,
+    "completed": false,
+    "generated_short_ids": [
+      "8eb156c1",
+      "7824b777",
+      "658a7a6c",
+      "5c13cb95",
+      "388b26e3",
+      "e57c975c",
+      "2a90e2ed",
+      "9eb85e7d",
+      "57686628",
+      "9a39de5e"
+    ],
+    "journal_missing_ids": [
+      "8eb156c1",
+      "7824b777",
+      "658a7a6c",
+      "5c13cb95",
+      "388b26e3",
+      "e57c975c",
+      "2a90e2ed",
+      "9eb85e7d",
+      "57686628",
+      "9a39de5e"
+    ],
+    "reason": "unfinished_log_batch"
+  },
+  {
+    "run": "statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411",
+    "batch": 18,
+    "completed": false,
+    "generated_short_ids": [
+      "6a68cd04",
+      "e6bb165c",
+      "7b8fcd82",
+      "0c6a87c0",
+      "b2e0d1c9",
+      "dffe3d87",
+      "5068e93e",
+      "d8dec0de",
+      "e6d15174"
+    ],
+    "journal_missing_ids": [
+      "6a68cd04",
+      "e6bb165c",
+      "7b8fcd82",
+      "0c6a87c0",
+      "b2e0d1c9",
+      "dffe3d87",
+      "5068e93e",
+      "d8dec0de",
+      "e6d15174"
+    ],
+    "reason": "unfinished_log_batch"
+  },
+  {
+    "run": "ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d",
+    "batch": 2,
+    "completed": true,
+    "generated_short_ids": [
+      "35e426da",
+      "3f365208",
+      "bd754cdc",
+      "89db67e0",
+      "e269b92b",
+      "953484af",
+      "fb5249fa",
+      "62b0fafd",
+      "e50b094b",
+      "4057b8c1"
+    ],
+    "journal_missing_ids": [
+      "35e426da",
+      "3f365208",
+      "bd754cdc",
+      "89db67e0",
+      "e269b92b",
+      "953484af",
+      "fb5249fa",
+      "62b0fafd",
+      "e50b094b",
+      "4057b8c1"
+    ],
+    "reason": "generated_nodes_absent_from_final_journal"
+  },
+  {
+    "run": "ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d",
+    "batch": 8,
+    "completed": true,
+    "generated_short_ids": [
+      "f5aee121",
+      "8c6a57be",
+      "a0b16ae2",
+      "2e2712cd",
+      "806b481b",
+      "0a857c5c",
+      "1641d578",
+      "f96f7739",
+      "a94970bc",
+      "7dd392c9"
+    ],
+    "journal_missing_ids": [
+      "f5aee121",
+      "8c6a57be",
+      "a0b16ae2",
+      "2e2712cd",
+      "806b481b",
+      "0a857c5c",
+      "1641d578",
+      "f96f7739",
+      "a94970bc",
+      "7dd392c9"
+    ],
+    "reason": "generated_nodes_absent_from_final_journal"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "changed_episode_outcomes_by_bank": {
+    "DS": {
+      "better": 1,
+      "changed": 1,
+      "episodes": 850,
+      "unchanged": 849
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "episodes": 850,
+      "unchanged": 850
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "episodes": 850,
+      "unchanged": 850
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "episodes": 850,
+      "unchanged": 850
+    }
+  },
+  "checks": [
+    "all sealed input and source SHA256",
+    "3400 exact original first groups",
+    "71508 strict extracted metadata records",
+    "3400 deterministic text selections",
+    "108800 deterministic sham selections",
+    "independent C0/text task equal metric reconstruction"
+  ],
+  "cost": {
+    "cpu_seconds": 10.450261999999999,
+    "gpu_hours": 0,
+    "new_model_calls": 0,
+    "paid_cost_usd": 0,
+    "training_runs": 0,
+    "wall_seconds": 8.481504833034705
+  },
+  "deployment_cost": "This archival postprocessor uses existing queried feedback and retained text; requires retaining rationale text; no new inference calls for same feedback schedule. New task performance and online wall cost remain separate.",
+  "failed_preflight_cost": "One local pre-score schema check attempt; no selection seal or evaluation produced. Its CPU/wall was not instrumented separately.",
+  "label_visibility": "selection stage reads only prediction.reasoning, prediction index/confidence, and solutions.path from raw source JSON; these source documents also contain gold fields which json.loads materializes but selector never accesses. Separate prepared evaluation_labels.json opens only after selections/flags and hash seal are written.",
+  "pre_score_correction": "First attempt stopped before seal/scoring because reference selected is an arm dictionary. Corrected control comparison to selected.C; added original source input SHA checks. Successful source preserved in run.executed.py. No rule or metric revision after scores.",
+  "source_mapping": "All 71508 source metadata rows matched source-file SHA and source-row candidate order, archived index/confidence and original reasoning JSON presence/mixed mismatch. Audit omitted reasoning_last_json_index in 71508/71508 rows; recovered with exact existing extractor.",
+  "verification_wall_seconds": 3.0737414589966647,
+  "verified": true
+}

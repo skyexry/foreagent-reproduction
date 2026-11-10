@@ -1,0 +1,66 @@
+{
+  "experiments/selection-frontier-01/protocol.json": {
+    "expected": "fbd9f027a7f2afdce09b24927825df21f8714e864ba1c996e1e0a2a010fe1100",
+    "actual": "fbd9f027a7f2afdce09b24927825df21f8714e864ba1c996e1e0a2a010fe1100"
+  },
+  "research/selection-study-v1/proposal.md": {
+    "expected": "a0f9ac91afcc7bed745cf21b994c2211f90516f4de210d09b7f31dbd259e827b",
+    "actual": "a0f9ac91afcc7bed745cf21b994c2211f90516f4de210d09b7f31dbd259e827b"
+  },
+  "research/registry.json": {
+    "expected": "c14bff7d545f01892a8109a05d1738821bb165fe34ad90073554ba9a6d21c98a",
+    "actual": "c14bff7d545f01892a8109a05d1738821bb165fe34ad90073554ba9a6d21c98a"
+  },
+  "research/protected_manifest.json": {
+    "expected": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+    "actual": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b"
+  },
+  "experiments/clean-ranking-v1/protocol.json": {
+    "expected": "11ca9136aaa6b98f2eb5028a8a0d9c3656741df9278989da1968129746b87e2d",
+    "actual": "11ca9136aaa6b98f2eb5028a8a0d9c3656741df9278989da1968129746b87e2d"
+  },
+  "experiments/clean-ranking-v1/prepared/jobs.jsonl": {
+    "expected": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c",
+    "actual": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c"
+  },
+  "experiments/clean-ranking-v1/prepared/evaluation_labels.json": {
+    "expected": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+    "actual": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7"
+  },
+  "experiments/clean-ranking-v1/results/summary.json": {
+    "expected": "f6953fe5e133d1cbafe8b290bcbe3121cf3c415b5df61b8c0f757bccaf97c450",
+    "actual": "f6953fe5e133d1cbafe8b290bcbe3121cf3c415b5df61b8c0f757bccaf97c450"
+  },
+  "experiments/clean-ranking-v1/results/decisions.jsonl.gz": {
+    "expected": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef",
+    "actual": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef"
+  },
+  "reproduction/clean_ranking_v1/ranking.py": {
+    "expected": "6996654fd6fb2f45ca5a390ea4387dc45fbd2b473d76583b66f12db4310af16a",
+    "actual": "6996654fd6fb2f45ca5a390ea4387dc45fbd2b473d76583b66f12db4310af16a"
+  },
+  "reproduction/clean_ranking_v1/run.py": {
+    "expected": "c17f55e233e858aad15f78e652158eacd4766f90a167d7c2518678e4c2de9cc9",
+    "actual": "c17f55e233e858aad15f78e652158eacd4766f90a167d7c2518678e4c2de9cc9"
+  },
+  "reproduction/clean_ranking_v1/__init__.py": {
+    "actual": "f069b4065767400cda322b460e53868c3cbcb21ff8b44f425a88e859c89ade48",
+    "binding": "recorded transitive import; protected manifest verified separately"
+  },
+  "reproduction/clean_ranking_v1/data.py": {
+    "actual": "29b6cea8d10e764e94f1cccb5b2ee25f1df1ee9bff7703decb5a0730debb510f",
+    "binding": "recorded transitive import; protected manifest verified separately"
+  },
+  "reproduction/clean_ranking_v1/correctness.py": {
+    "actual": "6b3c260a28d0b022feaf6d1df712739d41e4048b733a16144c0e52bc0b2885e9",
+    "binding": "recorded transitive import; protected manifest verified separately"
+  },
+  "reproduction/clean_ranking_v1/loader.py": {
+    "actual": "70837795a8c17e184dfaa11d4d1689ca9686b831aa1c150d792684183597da88",
+    "binding": "recorded transitive import; protected manifest verified separately"
+  },
+  "experiment.py": {
+    "actual": "3df6714ec1fa19cfca4b7d1b39bab21eca372bd9b56bcb827a713fa54ce1423a",
+    "snapshot": "3df6714ec1fa19cfca4b7d1b39bab21eca372bd9b56bcb827a713fa54ce1423a"
+  }
+}

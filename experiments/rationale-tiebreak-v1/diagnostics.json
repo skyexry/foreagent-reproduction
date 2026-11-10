@@ -1,0 +1,269 @@
+{
+  "interpretation": "Raw conditioning on unique accepted strict pairs with explicit retained reasoning JSON. Intermediate JSON may flag correctly parsed outcomes; mismatch is not truth. Bank/task/confidence strata are descriptive.",
+  "rows": [
+    {
+      "accuracy": 0.6288451840645487,
+      "correct": 1247,
+      "direction": "match",
+      "granularity": "bank",
+      "group": "DS",
+      "n": 1983
+    },
+    {
+      "accuracy": 0.0,
+      "correct": 0,
+      "direction": "mismatch",
+      "granularity": "bank",
+      "group": "DS",
+      "n": 3
+    },
+    {
+      "accuracy": 0.6045370938074801,
+      "correct": 986,
+      "direction": "match",
+      "granularity": "confidence",
+      "group": "DS|[0.7,0.8)",
+      "n": 1631
+    },
+    {
+      "accuracy": 0.0,
+      "correct": 0,
+      "direction": "mismatch",
+      "granularity": "confidence",
+      "group": "DS|[0.7,0.8)",
+      "n": 3
+    },
+    {
+      "accuracy": 0.7115384615384616,
+      "correct": 148,
+      "direction": "match",
+      "granularity": "confidence",
+      "group": "DS|[0.8,0.9)",
+      "n": 208
+    },
+    {
+      "accuracy": 0.7847222222222222,
+      "correct": 113,
+      "direction": "match",
+      "granularity": "confidence",
+      "group": "DS|[0.9,1]",
+      "n": 144
+    },
+    {
+      "accuracy": 0.5531914893617021,
+      "correct": 52,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|aptos2019-blindness-detection",
+      "n": 94
+    },
+    {
+      "accuracy": 0.831081081081081,
+      "correct": 123,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|denoising-dirty-documents",
+      "n": 148
+    },
+    {
+      "accuracy": 0.75,
+      "correct": 24,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|detecting-insults-in-social-commentary",
+      "n": 32
+    },
+    {
+      "accuracy": 1.0,
+      "correct": 1,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|dog-breed-identification",
+      "n": 1
+    },
+    {
+      "accuracy": 0.6721311475409836,
+      "correct": 82,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|google-quest-challenge",
+      "n": 122
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "correct": 1,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|jigsaw-toxic-comment-classification-challenge",
+      "n": 3
+    },
+    {
+      "accuracy": 0.7948717948717948,
+      "correct": 31,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|leaf-classification",
+      "n": 39
+    },
+    {
+      "accuracy": 0.6578947368421053,
+      "correct": 25,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|learning-agency-lab-automated-essay-scoring-2",
+      "n": 38
+    },
+    {
+      "accuracy": 0.7633587786259542,
+      "correct": 100,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|lmsys-chatbot-arena",
+      "n": 131
+    },
+    {
+      "accuracy": 0.5454545454545454,
+      "correct": 54,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|mlsp-2013-birds",
+      "n": 99
+    },
+    {
+      "accuracy": 0.4,
+      "correct": 40,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|new-york-city-taxi-fare-prediction",
+      "n": 100
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "correct": 4,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|petfinder-pawpularity-score",
+      "n": 6
+    },
+    {
+      "accuracy": 1.0,
+      "correct": 1,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|plant-pathology-2020-fgvc7",
+      "n": 1
+    },
+    {
+      "accuracy": 0.4807692307692308,
+      "correct": 50,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|predict-volcanic-eruptions-ingv-oe",
+      "n": 104
+    },
+    {
+      "accuracy": 0.5353535353535354,
+      "correct": 53,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|random-acts-of-pizza",
+      "n": 99
+    },
+    {
+      "accuracy": 0.7175572519083969,
+      "correct": 94,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|spooky-author-identification",
+      "n": 131
+    },
+    {
+      "accuracy": 0.5886524822695035,
+      "correct": 83,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|stanford-covid-vaccine",
+      "n": 141
+    },
+    {
+      "accuracy": 0.0,
+      "correct": 0,
+      "direction": "mismatch",
+      "granularity": "task",
+      "group": "DS|stanford-covid-vaccine",
+      "n": 1
+    },
+    {
+      "accuracy": 0.6129032258064516,
+      "correct": 76,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|statoil-iceberg-classifier-challenge",
+      "n": 124
+    },
+    {
+      "accuracy": 0.423728813559322,
+      "correct": 25,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|tabular-playground-series-dec-2021",
+      "n": 59
+    },
+    {
+      "accuracy": 0.5802469135802469,
+      "correct": 47,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|tensorflow-speech-recognition-challenge",
+      "n": 81
+    },
+    {
+      "accuracy": 0.6039603960396039,
+      "correct": 61,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|tgs-salt-identification-challenge",
+      "n": 101
+    },
+    {
+      "accuracy": 0.0,
+      "correct": 0,
+      "direction": "mismatch",
+      "granularity": "task",
+      "group": "DS|tgs-salt-identification-challenge",
+      "n": 2
+    },
+    {
+      "accuracy": 0.40476190476190477,
+      "correct": 17,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|the-icml-2013-whale-challenge-right-whale-redux",
+      "n": 42
+    },
+    {
+      "accuracy": 0.36363636363636365,
+      "correct": 8,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|tweet-sentiment-extraction",
+      "n": 22
+    },
+    {
+      "accuracy": 0.7518248175182481,
+      "correct": 103,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|us-patent-phrase-to-phrase-matching",
+      "n": 137
+    },
+    {
+      "accuracy": 0.71875,
+      "correct": 92,
+      "direction": "match",
+      "granularity": "task",
+      "group": "DS|ventilator-pressure-prediction",
+      "n": 128
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "input_summary_sha256": "16783266c9eb2b50daaef32991262d9164509cfe56ffe59225202ca7220163a0",
+  "input_episode_sha256": "59e880fdcf7255ceb222d776b58da0536146b90b25d8f1dd71a4d60cadb7c9c6",
+  "contrasts": 57,
+  "jobs_per_contrast": 850,
+  "paired_episode_records": 48450,
+  "all_task_macro_gains_match_main_summary": true
+}

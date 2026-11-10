@@ -1,0 +1,73 @@
+{
+  "id": "selection-frontier-01",
+  "registered_utc": "2026-11-08T11:55:45.546784+00:00",
+  "stage": "pre-outcome protocol",
+  "author_source": "https://github.com/SakanaAI/AI-Scientist/blob/1de1dbc1f4ee2c5f61e9c94348d55eb51d7fa2eb/ai_scientist/perform_experiments.py",
+  "organization": "Two fixed ideas and controls, separate numbered run directories, immutable executed script snapshots, final_info.json and experiment notes; local execution by Codex subagents. No native launcher.",
+  "population": {
+    "development_tasks": 26,
+    "pools": 425,
+    "jobs": 850,
+    "all_jobs": true
+  },
+  "fixed": {
+    "gate": 0.7,
+    "per_job_budget_max": 13,
+    "aggregator": "frozen top_set",
+    "tie": "uniform expected utility",
+    "task_macro": true,
+    "bootstrap_seed": 20261108093,
+    "paired_task_bootstrap_repeats": 10000,
+    "suggested_development_margin_locked": 0.01
+  },
+  "run_1": {
+    "id": "selection-prefix-value-d1",
+    "question": "同一随机链后选择停 S、随机再问一次 U 或主动再问一次 T，哪种选择的执行损失更低？",
+    "prediction": "R(T)-R(U)>0，额外错改的贡献至少与少纠正一样大。",
+    "primary": "R(T)-R(U), lower is better for T",
+    "secondary": [
+      "G(S→T) and G(S→U), 95% task-cluster intervals",
+      "D_harm and D_missed, raw benefit/harm and decision flips",
+      "hit, actual logical reads, per-task, leave-one-task-out, ties/invalid/identical edge diagnostics, pool range and raw utility gains"
+    ],
+    "protocol": "research/selection-study-v1/proposal.md §§D1、门槛与转向，含优先级。strictly match prefixes, project clean trace fields, seal selections before evaluating labels.",
+    "stop": "D1 only this wave; record the decision on D2 using the reviewed gates."
+  },
+  "run_2": {
+    "id": "judge-direction-diagnostic-j1",
+    "question": "同样的完整随机补问赛程、弃权和汇总，替换被裁判判反的有效胜者后，所选代码能改善多少？",
+    "prediction": "替换后任务等权损失更低。",
+    "schedule": "Use complete coverage_random traces only: chain followed by uniformly sampled unseen pairs; schedule independent of winning directions. Keep observed endpoint order, all original abstentions, actual unique costs and frozen aggregation. For true score ties retain original direction.",
+    "arms": [
+      "original recorded directions",
+      "evaluator-only: all valid strict direction errors corrected by existing execution labels on already queried edges; keep valid ties as recorded"
+    ],
+    "primary": "mean task regret(original) - regret(corrected); positive = potential gain on this fixed graph, not a feasible policy or theoretical bound",
+    "secondary": [
+      "per-task paired changes, task bootstrap 95%, corrected residual regret, improved/equal/worsened episodes, frequency of valid errors and set changes, paired best hit",
+      "predefined cases: first by frozen job order among improved and worsened, optional unchanged; describe without generalizing"
+    ],
+    "stop": "One evaluator-side counterfactual, no sweep or live judge; no policy or scoring-contract edits. Residual may combine missing edges, abstention and aggregation."
+  },
+  "resources": {
+    "max_seconds_per_analysis_invocation": 600,
+    "new_api_calls": 0,
+    "gpu": 0,
+    "candidate_training": 0,
+    "comparison_feedback": "replay only",
+    "runs": "one successful run per question, preserve any failed attempts; independent audit may recompute in temp"
+  },
+  "analysis_scope": "Fixed previously inspected development bank; clusters are tasks. Two separately prespecified diagnostic questions, descriptive intervals; no claim of confirmation or ranking the two different estimands.",
+  "frozen_sha256": {
+    "research/selection-study-v1/proposal.md": "a0f9ac91afcc7bed745cf21b994c2211f90516f4de210d09b7f31dbd259e827b",
+    "research/registry.json": "c14bff7d545f01892a8109a05d1738821bb165fe34ad90073554ba9a6d21c98a",
+    "research/protected_manifest.json": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+    "experiments/clean-ranking-v1/protocol.json": "11ca9136aaa6b98f2eb5028a8a0d9c3656741df9278989da1968129746b87e2d",
+    "experiments/clean-ranking-v1/prepared/jobs.jsonl": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c",
+    "experiments/clean-ranking-v1/prepared/evaluation_labels.json": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+    "experiments/clean-ranking-v1/results/summary.json": "f6953fe5e133d1cbafe8b290bcbe3121cf3c415b5df61b8c0f757bccaf97c450",
+    "experiments/clean-ranking-v1/results/decisions.jsonl.gz": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef",
+    "reproduction/clean_ranking_v1/ranking.py": "6996654fd6fb2f45ca5a390ea4387dc45fbd2b473d76583b66f12db4310af16a",
+    "reproduction/clean_ranking_v1/run.py": "c17f55e233e858aad15f78e652158eacd4766f90a167d7c2518678e4c2de9cc9"
+  }
+}

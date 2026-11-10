@@ -1,0 +1,55 @@
+{
+  "actual_C0_trace_edge_episodes": {
+    "DS": {
+      "above_half": 3494,
+      "exact_half": 130,
+      "low_edge_episodes": 3624
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "above_half": 2276,
+      "exact_half": 42,
+      "low_edge_episodes": 2318
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "above_half": 2369,
+      "exact_half": 39,
+      "low_edge_episodes": 2408
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "above_half": 2352,
+      "exact_half": 30,
+      "low_edge_episodes": 2382
+    }
+  },
+  "all_bank_unique_pairs": {
+    "DS": {
+      "above_half": 5392,
+      "exact_half": 241,
+      "exact_half_raw_proven": 0,
+      "low_added_unique": 5633,
+      "reasoning_mismatch_auxiliary": 741
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "above_half": 3256,
+      "exact_half": 59,
+      "exact_half_raw_proven": 8,
+      "low_added_unique": 3315,
+      "reasoning_mismatch_auxiliary": 0
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "above_half": 3349,
+      "exact_half": 57,
+      "exact_half_raw_proven": 0,
+      "low_added_unique": 3406,
+      "reasoning_mismatch_auxiliary": 0
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "above_half": 3323,
+      "exact_half": 59,
+      "exact_half_raw_proven": 0,
+      "low_added_unique": 3382,
+      "reasoning_mismatch_auxiliary": 0
+    }
+  },
+  "interpretation": "Exact .5 may be explicit or default; counts alone identify neither. Greater than .5 differs from documented fallback value, conditional on source-parser semantics."
+}

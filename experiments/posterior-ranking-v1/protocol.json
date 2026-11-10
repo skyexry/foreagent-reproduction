@@ -1,0 +1,66 @@
+{
+  "bootstrap": {
+    "draws": 10000,
+    "interval": "percentile 95%, linear interpolation",
+    "leave_one": "all 26 omitted-task means and min/max",
+    "seed": 20261108093,
+    "unit": "task, paired; GPT task-first mean over three banks"
+  },
+  "controls": {
+    "C": "original C0 selected C",
+    "H": "existing frozen top_set: ratio then valid-degree tiebreak, corresponding prior arm H",
+    "R": "maximum accepted wins / accepted distinct opponents; zero degree ratio 1/2; exact rational ties"
+  },
+  "decision": "Promote primary only if DS C-primary regret gain >=.01, GPT task-first pooled gain positive, primary gains vs each R and H positive for DS and pooled GPT; require C-primary 95% CI lower >0 and all leave-one gains positive in DS and pooled GPT for stability; else retain C0. Secondary descriptive only.",
+  "evidence": "only unique trace entries with winner present and valid finite confidence >=.7 and <=1; no raw text, low confidence, unqueried edges or duplicate evidence; verify source trace uniqueness",
+  "git_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "id": "posterior-ranking-v1",
+  "inputs": {
+    "experiments/clean-ranking-v1/prepared/evaluation_labels.json": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+    "experiments/clean-ranking-v1/prepared/jobs.jsonl": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/decisions.sealed.jsonl.gz": "848f6b26d39e0b9aafcc295ec6ceb512cad3f27b6353de0f4d11020b7bff5d59",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/per_episode.jsonl": "ca5ec391a6d9776e5e4a73a4693548e69367cacc129fdcbcd16f936a17580f7d",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/summary.json": "e5a50ff92aad5f9915bb36f497eef500065d212ca0217edc7e804748b964f28d",
+    "experiments/trajectory-weighted-judge-v1/evaluation/run_1/decisions.sealed.jsonl.gz": "f62cdb5d7b332531076bdc909242bc67133244a7e21a78cb7f37a9590d9d02a3",
+    "reproduction/clean_ranking_v1/ranking.py": "6996654fd6fb2f45ca5a390ea4387dc45fbd2b473d76583b66f12db4310af16a",
+    "reproduction/clean_ranking_v1/run.py": "c17f55e233e858aad15f78e652158eacd4766f90a167d7c2518678e4c2de9cc9"
+  },
+  "limitations": [
+    "All tasks are previously inspected development data",
+    "independence and fixed error odds are modelling assumptions, not calibrated probabilities",
+    "adaptive C0 scheduling and confidence masks remain fixed",
+    "offline final selection only; online generation and downstream behavior untested"
+  ],
+  "metrics": [
+    "normalized regret C0 minus new, task macro",
+    "best-hit probability under uniform selected ties",
+    "unique and accepted reads, cache ledger",
+    "CPU overhead per episode including median/p95/max",
+    "empirical selection changes, outcome up/tie/down",
+    "primary vs R and H"
+  ],
+  "model": {
+    "algorithm": "Exact forward/backward subset dynamic programming O(n^2 2^n), arbitrary precision integer, n<=10",
+    "fit": false,
+    "likelihood": "independent fixed p=2/3 per accepted winner; order weight 2**number_consistent",
+    "odds": 2,
+    "primary": "lowest posterior expected rank, equivalent highest expected rank percentile (n-rank)/(n-1)",
+    "prior": "Uniform over all n! complete best-to-worst orders",
+    "secondary": "highest posterior P(best)",
+    "ties": "exact integer numerator equality; return all maximizers, evaluate uniform choice"
+  },
+  "question": "Can one fixed posterior rank aggregator improve final selection on the identical accepted actual C0 trace?",
+  "registered_utc": "2026-11-08T13:47:07.827785+00:00",
+  "scope": "850 identical jobs x DS1 (bank DS) plus three archived GPT banks, all 26 previously inspected development tasks; original selected C sets frozen; existing offline data only.",
+  "sealing": "All 3400 new selection rows, controls and exact posterior summaries saved and SHA256 sealed before loading score labels or prior score receipts.",
+  "stage": "before posterior implementation, selection and scoring",
+  "stopping": "One fixed model and one complete four-bank pass. No sweep, training, new API calls, new data or online execution.",
+  "validation": [
+    "exact permutations small graphs including no edges, reversed edges and symmetric cycle ties",
+    "all 3400 C and H selections/metrics match prior sealed receipts",
+    "exact 3400 C0 traces/selected/stats match independent existing trajectory run",
+    "independent direct scoring check",
+    "new files confined to experiment directory"
+  ],
+  "version": 1
+}

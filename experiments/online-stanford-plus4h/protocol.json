@@ -1,0 +1,23 @@
+{
+  "id": "stanford-autodl-v2-plus4h",
+  "parent": "stanford-autodl-v2",
+  "question": "After the original 12-hour result is frozen, does four more wall-clock hours of upstream ForeAgent search change the validation-selected best submission and its official private score?",
+  "prediction_before_extension": "The search should have time for at least one more completed outer iteration if services remain available. Inherited validation best is available throughout; the private score can improve, stay unchanged or worsen.",
+  "budget_seconds": 14400,
+  "prompt_total_budget_seconds": 57600,
+  "stopping": "Four additional wall-clock hours from extension search startup, or the unchanged upstream 5000-node cap; report any earlier infrastructure stop separately.",
+  "inputs": "Last complete parent journal, its graph, validation metrics, candidate code and submissions; verified public task data and parent DA report. Incomplete parent step and its pending API calls are excluded.",
+  "fresh_process": "Fresh model client, random state, pairwise cache and worker scratch. This is a new continuation, not an exact continuation of unsaved process memory.",
+  "controls": "Same fixed upstream code, original cache semantics, confidence 0.70, ten candidates, top_k=1, execution probability 0.20 with original fallback, same provider roles, AutoDL RTX 4090 and same grading data.",
+  "metrics": "Primary: official score of the final upstream validation-selected best. Compare against the separately frozen 12-hour incumbent. Secondary: additional completed outer steps, generated/executed/skipped nodes, API receipts and logged failures.",
+  "isolation": "The 12-hour run, node selection and deadline are independent of private scores. After freezing the standard result, the external supervisor applies the preregistered threshold to allocate extra search. No private labels or official grades are passed to the search agent. Report the conditional four-hour result separately.",
+  "launch_gate": {
+    "rule": "run only when the valid official score of the standard 12-hour final upstream-selected submission is strictly greater than the threshold",
+    "threshold": "0.25862",
+    "scale": "official MLE-bench score, lower is better",
+    "reference": "user-selected five-decimal mean of the three regraded author finals",
+    "at_or_below": "stop after 12-hour grading; no extension process or extra model calls",
+    "above": "start the separately specified four-hour continuation",
+    "invalid_or_missing": "hold for verification; do not launch automatically"
+  }
+}

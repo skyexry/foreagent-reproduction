@@ -1,0 +1,6122 @@
+{
+  "DS": {
+    "aptos2019-blindness-detection": {
+      "B": {
+        "accepted_reads": 5.825,
+        "best_hit": 0.275,
+        "budget_denials": 3.325,
+        "cache_reads": 115.1,
+        "regret": 0.38381371241524936,
+        "selected_size": 1.25,
+        "unique_reads": 12.775
+      },
+      "C": {
+        "accepted_reads": 5.825,
+        "best_hit": 0.16458333333333333,
+        "budget_denials": 3.325,
+        "cache_reads": 115.1,
+        "regret": 0.39860317905261566,
+        "selected_size": 1.4,
+        "unique_reads": 12.775
+      },
+      "E": {
+        "accepted_reads": 5.825,
+        "best_hit": 0.275,
+        "budget_denials": 3.325,
+        "cache_reads": 115.1,
+        "regret": 0.38381371241524936,
+        "selected_size": 1.25,
+        "unique_reads": 12.775
+      },
+      "H": {
+        "accepted_reads": 5.825,
+        "best_hit": 0.25833333333333336,
+        "budget_denials": 3.325,
+        "cache_reads": 115.1,
+        "regret": 0.40480441161051717,
+        "selected_size": 1.4,
+        "unique_reads": 12.775
+      },
+      "R": {
+        "accepted_reads": 5.825,
+        "best_hit": 0.2125,
+        "budget_denials": 3.325,
+        "cache_reads": 115.1,
+        "regret": 0.3667440425250221,
+        "selected_size": 2.2,
+        "unique_reads": 12.775
+      }
+    },
+    "denoising-dirty-documents": {
+      "B": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.30625,
+        "budget_denials": 1.375,
+        "cache_reads": 65.7,
+        "regret": 0.10194361359392572,
+        "selected_size": 1.175,
+        "unique_reads": 12.2
+      },
+      "C": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.27708333333333335,
+        "budget_denials": 1.375,
+        "cache_reads": 65.7,
+        "regret": 0.09593622839549755,
+        "selected_size": 1.4,
+        "unique_reads": 12.2
+      },
+      "E": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.30625,
+        "budget_denials": 1.375,
+        "cache_reads": 65.7,
+        "regret": 0.10194361359392572,
+        "selected_size": 1.175,
+        "unique_reads": 12.2
+      },
+      "H": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.30625,
+        "budget_denials": 1.375,
+        "cache_reads": 65.7,
+        "regret": 0.10166498620425735,
+        "selected_size": 1.275,
+        "unique_reads": 12.2
+      },
+      "R": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.26666666666666666,
+        "budget_denials": 1.375,
+        "cache_reads": 65.7,
+        "regret": 0.10017904453513546,
+        "selected_size": 2.275,
+        "unique_reads": 12.2
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "B": {
+        "accepted_reads": 2.2,
+        "best_hit": 0.155,
+        "budget_denials": 9.625,
+        "cache_reads": 210.175,
+        "regret": 0.18430723014564424,
+        "selected_size": 1.875,
+        "unique_reads": 13.0
+      },
+      "C": {
+        "accepted_reads": 2.2,
+        "best_hit": 0.13951388888888888,
+        "budget_denials": 9.625,
+        "cache_reads": 210.175,
+        "regret": 0.17815306942807768,
+        "selected_size": 3.175,
+        "unique_reads": 13.0
+      },
+      "E": {
+        "accepted_reads": 2.2,
+        "best_hit": 0.155,
+        "budget_denials": 9.625,
+        "cache_reads": 210.175,
+        "regret": 0.18430723014564424,
+        "selected_size": 1.875,
+        "unique_reads": 13.0
+      },
+      "H": {
+        "accepted_reads": 2.2,
+        "best_hit": 0.155,
+        "budget_denials": 9.625,
+        "cache_reads": 210.175,
+        "regret": 0.18430723014564424,
+        "selected_size": 1.875,
+        "unique_reads": 13.0
+      },
+      "R": {
+        "accepted_reads": 2.2,
+        "best_hit": 0.13625,
+        "budget_denials": 9.625,
+        "cache_reads": 210.175,
+        "regret": 0.1776622100101379,
+        "selected_size": 2.0,
+        "unique_reads": 13.0
+      }
+    },
+    "dog-breed-identification": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "google-quest-challenge": {
+      "B": {
+        "accepted_reads": 7.5,
+        "best_hit": 0.25,
+        "budget_denials": 1.7,
+        "cache_reads": 68.475,
+        "regret": 0.11950808523825522,
+        "selected_size": 1.025,
+        "unique_reads": 12.65
+      },
+      "C": {
+        "accepted_reads": 7.5,
+        "best_hit": 0.23854166666666665,
+        "budget_denials": 1.7,
+        "cache_reads": 68.475,
+        "regret": 0.16132437359080867,
+        "selected_size": 1.575,
+        "unique_reads": 12.65
+      },
+      "E": {
+        "accepted_reads": 7.5,
+        "best_hit": 0.25,
+        "budget_denials": 1.7,
+        "cache_reads": 68.475,
+        "regret": 0.11950808523825522,
+        "selected_size": 1.025,
+        "unique_reads": 12.65
+      },
+      "H": {
+        "accepted_reads": 7.5,
+        "best_hit": 0.26749999999999996,
+        "budget_denials": 1.7,
+        "cache_reads": 68.475,
+        "regret": 0.12412202074133086,
+        "selected_size": 1.3,
+        "unique_reads": 12.65
+      },
+      "R": {
+        "accepted_reads": 7.5,
+        "best_hit": 0.22875,
+        "budget_denials": 1.7,
+        "cache_reads": 68.475,
+        "regret": 0.1558727966153386,
+        "selected_size": 2.05,
+        "unique_reads": 12.65
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "B": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 6.0
+      },
+      "C": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.5,
+        "regret": 0.7684515195369033,
+        "selected_size": 1.5,
+        "unique_reads": 6.0
+      },
+      "E": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 6.0
+      },
+      "H": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 6.0
+      },
+      "R": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 6.0
+      }
+    },
+    "leaf-classification": {
+      "B": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.1125,
+        "budget_denials": 2.675,
+        "cache_reads": 91.325,
+        "regret": 0.03583758889456769,
+        "selected_size": 1.25,
+        "unique_reads": 12.75
+      },
+      "C": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.08125,
+        "budget_denials": 2.675,
+        "cache_reads": 91.325,
+        "regret": 0.035472034256078123,
+        "selected_size": 1.475,
+        "unique_reads": 12.75
+      },
+      "E": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.1375,
+        "budget_denials": 2.675,
+        "cache_reads": 91.325,
+        "regret": 0.03542538867333188,
+        "selected_size": 1.25,
+        "unique_reads": 12.75
+      },
+      "H": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.1,
+        "budget_denials": 2.675,
+        "cache_reads": 91.325,
+        "regret": 0.0366355266686033,
+        "selected_size": 1.4,
+        "unique_reads": 12.75
+      },
+      "R": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.09791666666666667,
+        "budget_denials": 2.675,
+        "cache_reads": 91.325,
+        "regret": 0.04794682199153697,
+        "selected_size": 2.3,
+        "unique_reads": 12.75
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "B": {
+        "accepted_reads": 5.725,
+        "best_hit": 0.24583333333333335,
+        "budget_denials": 3.8,
+        "cache_reads": 123.8,
+        "regret": 0.12758321245214638,
+        "selected_size": 1.175,
+        "unique_reads": 12.825
+      },
+      "C": {
+        "accepted_reads": 5.725,
+        "best_hit": 0.25625,
+        "budget_denials": 3.8,
+        "cache_reads": 123.8,
+        "regret": 0.17652455894859337,
+        "selected_size": 1.55,
+        "unique_reads": 12.825
+      },
+      "E": {
+        "accepted_reads": 5.725,
+        "best_hit": 0.27083333333333337,
+        "budget_denials": 3.8,
+        "cache_reads": 123.8,
+        "regret": 0.11725175541862713,
+        "selected_size": 1.15,
+        "unique_reads": 12.825
+      },
+      "H": {
+        "accepted_reads": 5.725,
+        "best_hit": 0.2625,
+        "budget_denials": 3.8,
+        "cache_reads": 123.8,
+        "regret": 0.1255399476414693,
+        "selected_size": 1.45,
+        "unique_reads": 12.825
+      },
+      "R": {
+        "accepted_reads": 5.725,
+        "best_hit": 0.2791666666666667,
+        "budget_denials": 3.8,
+        "cache_reads": 123.8,
+        "regret": 0.17872750094826273,
+        "selected_size": 2.15,
+        "unique_reads": 12.825
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "B": {
+        "accepted_reads": 7.575,
+        "best_hit": 0.275,
+        "budget_denials": 1.5,
+        "cache_reads": 62.825,
+        "regret": 0.07698278877273748,
+        "selected_size": 1.05,
+        "unique_reads": 12.375
+      },
+      "C": {
+        "accepted_reads": 7.575,
+        "best_hit": 0.30833333333333335,
+        "budget_denials": 1.5,
+        "cache_reads": 62.825,
+        "regret": 0.07748827244746047,
+        "selected_size": 1.275,
+        "unique_reads": 12.375
+      },
+      "E": {
+        "accepted_reads": 7.575,
+        "best_hit": 0.275,
+        "budget_denials": 1.5,
+        "cache_reads": 62.825,
+        "regret": 0.07698278877273748,
+        "selected_size": 1.05,
+        "unique_reads": 12.375
+      },
+      "H": {
+        "accepted_reads": 7.575,
+        "best_hit": 0.25,
+        "budget_denials": 1.5,
+        "cache_reads": 62.825,
+        "regret": 0.09550205513982524,
+        "selected_size": 1.175,
+        "unique_reads": 12.375
+      },
+      "R": {
+        "accepted_reads": 7.575,
+        "best_hit": 0.24791666666666665,
+        "budget_denials": 1.5,
+        "cache_reads": 62.825,
+        "regret": 0.11918457825740825,
+        "selected_size": 2.15,
+        "unique_reads": 12.375
+      }
+    },
+    "mlsp-2013-birds": {
+      "B": {
+        "accepted_reads": 7.1,
+        "best_hit": 0.075,
+        "budget_denials": 1.575,
+        "cache_reads": 81.125,
+        "regret": 0.25764672137157707,
+        "selected_size": 1.075,
+        "unique_reads": 12.475
+      },
+      "C": {
+        "accepted_reads": 7.1,
+        "best_hit": 0.075,
+        "budget_denials": 1.575,
+        "cache_reads": 81.125,
+        "regret": 0.2570766721301375,
+        "selected_size": 1.45,
+        "unique_reads": 12.475
+      },
+      "E": {
+        "accepted_reads": 7.1,
+        "best_hit": 0.1,
+        "budget_denials": 1.575,
+        "cache_reads": 81.125,
+        "regret": 0.25532216883845954,
+        "selected_size": 1.075,
+        "unique_reads": 12.475
+      },
+      "H": {
+        "accepted_reads": 7.1,
+        "best_hit": 0.0625,
+        "budget_denials": 1.575,
+        "cache_reads": 81.125,
+        "regret": 0.26402150544313197,
+        "selected_size": 1.375,
+        "unique_reads": 12.475
+      },
+      "R": {
+        "accepted_reads": 7.1,
+        "best_hit": 0.05625,
+        "budget_denials": 1.575,
+        "cache_reads": 81.125,
+        "regret": 0.2764635490143767,
+        "selected_size": 2.125,
+        "unique_reads": 12.475
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "B": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.4,
+        "budget_denials": 1.375,
+        "cache_reads": 42.875,
+        "regret": 0.15499790522315599,
+        "selected_size": 1.075,
+        "unique_reads": 12.175
+      },
+      "C": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.3675,
+        "budget_denials": 1.375,
+        "cache_reads": 42.875,
+        "regret": 0.12495897297615521,
+        "selected_size": 1.25,
+        "unique_reads": 12.175
+      },
+      "E": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.4,
+        "budget_denials": 1.375,
+        "cache_reads": 42.875,
+        "regret": 0.17753319635689271,
+        "selected_size": 1.075,
+        "unique_reads": 12.175
+      },
+      "H": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.3875,
+        "budget_denials": 1.375,
+        "cache_reads": 42.875,
+        "regret": 0.1633880114659553,
+        "selected_size": 1.175,
+        "unique_reads": 12.175
+      },
+      "R": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.31875,
+        "budget_denials": 1.375,
+        "cache_reads": 42.875,
+        "regret": 0.13557152715895904,
+        "selected_size": 1.775,
+        "unique_reads": 12.175
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "B": {
+        "accepted_reads": 1.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 1.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 1.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 1.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 1.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "B": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 27.0,
+        "regret": 0.8096057955613685,
+        "selected_size": 1.0,
+        "unique_reads": 10.0
+      },
+      "C": {
+        "accepted_reads": 6.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 27.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 10.0
+      },
+      "E": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 27.0,
+        "regret": 0.8096057955613685,
+        "selected_size": 1.0,
+        "unique_reads": 10.0
+      },
+      "H": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 27.0,
+        "regret": 0.8096057955613685,
+        "selected_size": 1.0,
+        "unique_reads": 10.0
+      },
+      "R": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 27.0,
+        "regret": 0.40480289778068423,
+        "selected_size": 2.0,
+        "unique_reads": 10.0
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "B": {
+        "accepted_reads": 4.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 24.0,
+        "regret": 0.1697338715194636,
+        "selected_size": 1.0,
+        "unique_reads": 8.5
+      },
+      "C": {
+        "accepted_reads": 4.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 24.0,
+        "regret": 0.3598891701443525,
+        "selected_size": 2.0,
+        "unique_reads": 8.5
+      },
+      "E": {
+        "accepted_reads": 4.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 24.0,
+        "regret": 0.1697338715194636,
+        "selected_size": 1.0,
+        "unique_reads": 8.5
+      },
+      "H": {
+        "accepted_reads": 4.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 24.0,
+        "regret": 0.1697338715194636,
+        "selected_size": 1.0,
+        "unique_reads": 8.5
+      },
+      "R": {
+        "accepted_reads": 4.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 24.0,
+        "regret": 0.3598891701443525,
+        "selected_size": 2.0,
+        "unique_reads": 8.5
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "B": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.19375,
+        "budget_denials": 1.225,
+        "cache_reads": 61.0,
+        "regret": 0.5632615702063468,
+        "selected_size": 1.15,
+        "unique_reads": 12.6
+      },
+      "C": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.13125,
+        "budget_denials": 1.225,
+        "cache_reads": 61.0,
+        "regret": 0.5990865775342729,
+        "selected_size": 1.3,
+        "unique_reads": 12.6
+      },
+      "E": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.19375,
+        "budget_denials": 1.225,
+        "cache_reads": 61.0,
+        "regret": 0.5403498173044577,
+        "selected_size": 1.15,
+        "unique_reads": 12.6
+      },
+      "H": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.15208333333333332,
+        "budget_denials": 1.225,
+        "cache_reads": 61.0,
+        "regret": 0.5768080613463358,
+        "selected_size": 1.275,
+        "unique_reads": 12.6
+      },
+      "R": {
+        "accepted_reads": 7.6,
+        "best_hit": 0.175,
+        "budget_denials": 1.225,
+        "cache_reads": 61.0,
+        "regret": 0.5399998511113608,
+        "selected_size": 1.975,
+        "unique_reads": 12.6
+      }
+    },
+    "random-acts-of-pizza": {
+      "B": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.0625,
+        "budget_denials": 1.575,
+        "cache_reads": 86.075,
+        "regret": 0.3531236379276782,
+        "selected_size": 1.1,
+        "unique_reads": 12.7
+      },
+      "C": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 1.575,
+        "cache_reads": 86.075,
+        "regret": 0.37734798620515353,
+        "selected_size": 1.475,
+        "unique_reads": 12.7
+      },
+      "E": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.0625,
+        "budget_denials": 1.575,
+        "cache_reads": 86.075,
+        "regret": 0.3546692586689114,
+        "selected_size": 1.1,
+        "unique_reads": 12.7
+      },
+      "H": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.0625,
+        "budget_denials": 1.575,
+        "cache_reads": 86.075,
+        "regret": 0.3598248813074174,
+        "selected_size": 1.2,
+        "unique_reads": 12.7
+      },
+      "R": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.11666666666666667,
+        "budget_denials": 1.575,
+        "cache_reads": 86.075,
+        "regret": 0.3488289498620491,
+        "selected_size": 1.975,
+        "unique_reads": 12.7
+      }
+    },
+    "spooky-author-identification": {
+      "B": {
+        "accepted_reads": 7.975,
+        "best_hit": 0.2375,
+        "budget_denials": 1.275,
+        "cache_reads": 50.3,
+        "regret": 0.1879609818541897,
+        "selected_size": 1.075,
+        "unique_reads": 12.1
+      },
+      "C": {
+        "accepted_reads": 7.975,
+        "best_hit": 0.1875,
+        "budget_denials": 1.275,
+        "cache_reads": 50.3,
+        "regret": 0.21612175857239588,
+        "selected_size": 1.15,
+        "unique_reads": 12.1
+      },
+      "E": {
+        "accepted_reads": 7.975,
+        "best_hit": 0.2125,
+        "budget_denials": 1.275,
+        "cache_reads": 50.3,
+        "regret": 0.19343599989553623,
+        "selected_size": 1.075,
+        "unique_reads": 12.1
+      },
+      "H": {
+        "accepted_reads": 7.975,
+        "best_hit": 0.18125,
+        "budget_denials": 1.275,
+        "cache_reads": 50.3,
+        "regret": 0.20103193067809338,
+        "selected_size": 1.15,
+        "unique_reads": 12.1
+      },
+      "R": {
+        "accepted_reads": 7.975,
+        "best_hit": 0.16458333333333333,
+        "budget_denials": 1.275,
+        "cache_reads": 50.3,
+        "regret": 0.23399925865279805,
+        "selected_size": 1.85,
+        "unique_reads": 12.1
+      }
+    },
+    "stanford-covid-vaccine": {
+      "B": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.0,
+        "budget_denials": 0.475,
+        "cache_reads": 41.85,
+        "regret": 0.2246663349847453,
+        "selected_size": 1.05,
+        "unique_reads": 12.375
+      },
+      "C": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.0,
+        "budget_denials": 0.475,
+        "cache_reads": 41.85,
+        "regret": 0.25084902730767006,
+        "selected_size": 1.325,
+        "unique_reads": 12.375
+      },
+      "E": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.0,
+        "budget_denials": 0.475,
+        "cache_reads": 41.85,
+        "regret": 0.218874574355517,
+        "selected_size": 1.05,
+        "unique_reads": 12.375
+      },
+      "H": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.0,
+        "budget_denials": 0.475,
+        "cache_reads": 41.85,
+        "regret": 0.243555069594409,
+        "selected_size": 1.275,
+        "unique_reads": 12.375
+      },
+      "R": {
+        "accepted_reads": 8.325,
+        "best_hit": 0.0,
+        "budget_denials": 0.475,
+        "cache_reads": 41.85,
+        "regret": 0.26083114637050886,
+        "selected_size": 1.95,
+        "unique_reads": 12.375
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "B": {
+        "accepted_reads": 7.275,
+        "best_hit": 0.05,
+        "budget_denials": 2.0,
+        "cache_reads": 69.55,
+        "regret": 0.2280794076999662,
+        "selected_size": 1.1,
+        "unique_reads": 12.25
+      },
+      "C": {
+        "accepted_reads": 7.275,
+        "best_hit": 0.04583333333333333,
+        "budget_denials": 2.0,
+        "cache_reads": 69.55,
+        "regret": 0.2669448910966154,
+        "selected_size": 1.425,
+        "unique_reads": 12.25
+      },
+      "E": {
+        "accepted_reads": 7.275,
+        "best_hit": 0.05,
+        "budget_denials": 2.0,
+        "cache_reads": 69.55,
+        "regret": 0.2280794076999662,
+        "selected_size": 1.1,
+        "unique_reads": 12.25
+      },
+      "H": {
+        "accepted_reads": 7.275,
+        "best_hit": 0.06666666666666667,
+        "budget_denials": 2.0,
+        "cache_reads": 69.55,
+        "regret": 0.2311783757325291,
+        "selected_size": 1.25,
+        "unique_reads": 12.25
+      },
+      "R": {
+        "accepted_reads": 7.275,
+        "best_hit": 0.12916666666666668,
+        "budget_denials": 2.0,
+        "cache_reads": 69.55,
+        "regret": 0.2736180154956242,
+        "selected_size": 1.975,
+        "unique_reads": 12.25
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "B": {
+        "accepted_reads": 5.85,
+        "best_hit": 0.008333333333333333,
+        "budget_denials": 3.475,
+        "cache_reads": 110.725,
+        "regret": 0.3139742099235329,
+        "selected_size": 1.375,
+        "unique_reads": 12.8
+      },
+      "C": {
+        "accepted_reads": 5.85,
+        "best_hit": 0.008333333333333333,
+        "budget_denials": 3.475,
+        "cache_reads": 110.725,
+        "regret": 0.33877047852480546,
+        "selected_size": 1.7,
+        "unique_reads": 12.8
+      },
+      "E": {
+        "accepted_reads": 5.85,
+        "best_hit": 0.008333333333333333,
+        "budget_denials": 3.475,
+        "cache_reads": 110.725,
+        "regret": 0.3139742099235329,
+        "selected_size": 1.375,
+        "unique_reads": 12.8
+      },
+      "H": {
+        "accepted_reads": 5.85,
+        "best_hit": 0.008333333333333333,
+        "budget_denials": 3.475,
+        "cache_reads": 110.725,
+        "regret": 0.32926776142249636,
+        "selected_size": 1.5,
+        "unique_reads": 12.8
+      },
+      "R": {
+        "accepted_reads": 5.85,
+        "best_hit": 0.014583333333333332,
+        "budget_denials": 3.475,
+        "cache_reads": 110.725,
+        "regret": 0.3389376593018958,
+        "selected_size": 2.2,
+        "unique_reads": 12.8
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "B": {
+        "accepted_reads": 4.8,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 4.225,
+        "cache_reads": 139.925,
+        "regret": 0.40158341702247774,
+        "selected_size": 1.175,
+        "unique_reads": 12.925
+      },
+      "C": {
+        "accepted_reads": 4.8,
+        "best_hit": 0.09107142857142857,
+        "budget_denials": 4.225,
+        "cache_reads": 139.925,
+        "regret": 0.3762477710634603,
+        "selected_size": 1.525,
+        "unique_reads": 12.925
+      },
+      "E": {
+        "accepted_reads": 4.8,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 4.225,
+        "cache_reads": 139.925,
+        "regret": 0.40158341702247774,
+        "selected_size": 1.175,
+        "unique_reads": 12.925
+      },
+      "H": {
+        "accepted_reads": 4.8,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 4.225,
+        "cache_reads": 139.925,
+        "regret": 0.3918687688638759,
+        "selected_size": 1.175,
+        "unique_reads": 12.925
+      },
+      "R": {
+        "accepted_reads": 4.8,
+        "best_hit": 0.041666666666666664,
+        "budget_denials": 4.225,
+        "cache_reads": 139.925,
+        "regret": 0.40785039675517554,
+        "selected_size": 1.55,
+        "unique_reads": 12.925
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "B": {
+        "accepted_reads": 7.35,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 2.4,
+        "cache_reads": 75.825,
+        "regret": 0.2510853552346277,
+        "selected_size": 1.15,
+        "unique_reads": 12.675
+      },
+      "C": {
+        "accepted_reads": 7.35,
+        "best_hit": 0.020833333333333332,
+        "budget_denials": 2.4,
+        "cache_reads": 75.825,
+        "regret": 0.2920377523536649,
+        "selected_size": 1.375,
+        "unique_reads": 12.675
+      },
+      "E": {
+        "accepted_reads": 7.35,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 2.4,
+        "cache_reads": 75.825,
+        "regret": 0.2510853552346277,
+        "selected_size": 1.15,
+        "unique_reads": 12.675
+      },
+      "H": {
+        "accepted_reads": 7.35,
+        "best_hit": 0.008333333333333333,
+        "budget_denials": 2.4,
+        "cache_reads": 75.825,
+        "regret": 0.25016202633843604,
+        "selected_size": 1.3,
+        "unique_reads": 12.675
+      },
+      "R": {
+        "accepted_reads": 7.35,
+        "best_hit": 0.06666666666666667,
+        "budget_denials": 2.4,
+        "cache_reads": 75.825,
+        "regret": 0.27654987797524366,
+        "selected_size": 2.125,
+        "unique_reads": 12.675
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "B": {
+        "accepted_reads": 3.525,
+        "best_hit": 0.2754166666666667,
+        "budget_denials": 7.35,
+        "cache_reads": 173.25,
+        "regret": 0.5486448446242012,
+        "selected_size": 1.5,
+        "unique_reads": 12.95
+      },
+      "C": {
+        "accepted_reads": 3.525,
+        "best_hit": 0.26083333333333336,
+        "budget_denials": 7.35,
+        "cache_reads": 173.25,
+        "regret": 0.5763107698245301,
+        "selected_size": 1.825,
+        "unique_reads": 12.95
+      },
+      "E": {
+        "accepted_reads": 3.525,
+        "best_hit": 0.28583333333333333,
+        "budget_denials": 7.35,
+        "cache_reads": 173.25,
+        "regret": 0.5354099325318289,
+        "selected_size": 1.425,
+        "unique_reads": 12.95
+      },
+      "H": {
+        "accepted_reads": 3.525,
+        "best_hit": 0.2504166666666667,
+        "budget_denials": 7.35,
+        "cache_reads": 173.25,
+        "regret": 0.590918213994134,
+        "selected_size": 1.575,
+        "unique_reads": 12.95
+      },
+      "R": {
+        "accepted_reads": 3.525,
+        "best_hit": 0.20249999999999999,
+        "budget_denials": 7.35,
+        "cache_reads": 173.25,
+        "regret": 0.6394448888464498,
+        "selected_size": 2.025,
+        "unique_reads": 12.95
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "B": {
+        "accepted_reads": 5.05,
+        "best_hit": 0.0,
+        "budget_denials": 6.4,
+        "cache_reads": 134.7,
+        "regret": 0.7649632774585393,
+        "selected_size": 1.25,
+        "unique_reads": 12.975
+      },
+      "C": {
+        "accepted_reads": 5.05,
+        "best_hit": 0.009821428571428571,
+        "budget_denials": 6.4,
+        "cache_reads": 134.7,
+        "regret": 0.7624071273017236,
+        "selected_size": 1.85,
+        "unique_reads": 12.975
+      },
+      "E": {
+        "accepted_reads": 5.05,
+        "best_hit": 0.0,
+        "budget_denials": 6.4,
+        "cache_reads": 134.7,
+        "regret": 0.7649632774585393,
+        "selected_size": 1.25,
+        "unique_reads": 12.975
+      },
+      "H": {
+        "accepted_reads": 5.05,
+        "best_hit": 0.0,
+        "budget_denials": 6.4,
+        "cache_reads": 134.7,
+        "regret": 0.7601192015203131,
+        "selected_size": 1.4,
+        "unique_reads": 12.975
+      },
+      "R": {
+        "accepted_reads": 5.05,
+        "best_hit": 0.01875,
+        "budget_denials": 6.4,
+        "cache_reads": 134.7,
+        "regret": 0.7483451028997538,
+        "selected_size": 2.35,
+        "unique_reads": 12.975
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "B": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0625,
+        "budget_denials": 0.225,
+        "cache_reads": 24.225,
+        "regret": 0.10268069788411513,
+        "selected_size": 1.05,
+        "unique_reads": 11.2
+      },
+      "C": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.1125,
+        "budget_denials": 0.225,
+        "cache_reads": 24.225,
+        "regret": 0.1026085426425147,
+        "selected_size": 1.225,
+        "unique_reads": 11.2
+      },
+      "E": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0625,
+        "budget_denials": 0.225,
+        "cache_reads": 24.225,
+        "regret": 0.10268069788411513,
+        "selected_size": 1.05,
+        "unique_reads": 11.2
+      },
+      "H": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.1125,
+        "budget_denials": 0.225,
+        "cache_reads": 24.225,
+        "regret": 0.10314805147225217,
+        "selected_size": 1.175,
+        "unique_reads": 11.2
+      },
+      "R": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.15416666666666667,
+        "budget_denials": 0.225,
+        "cache_reads": 24.225,
+        "regret": 0.08923498846266857,
+        "selected_size": 1.5,
+        "unique_reads": 11.2
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "B": {
+        "accepted_reads": 8.15,
+        "best_hit": 0.2625,
+        "budget_denials": 0.9,
+        "cache_reads": 46.425,
+        "regret": 0.0820566411759184,
+        "selected_size": 1.025,
+        "unique_reads": 12.15
+      },
+      "C": {
+        "accepted_reads": 8.15,
+        "best_hit": 0.29583333333333334,
+        "budget_denials": 0.9,
+        "cache_reads": 46.425,
+        "regret": 0.07558989776408127,
+        "selected_size": 1.225,
+        "unique_reads": 12.15
+      },
+      "E": {
+        "accepted_reads": 8.15,
+        "best_hit": 0.2625,
+        "budget_denials": 0.9,
+        "cache_reads": 46.425,
+        "regret": 0.08753091134687736,
+        "selected_size": 1.025,
+        "unique_reads": 12.15
+      },
+      "H": {
+        "accepted_reads": 8.15,
+        "best_hit": 0.29583333333333334,
+        "budget_denials": 0.9,
+        "cache_reads": 46.425,
+        "regret": 0.08548169006081399,
+        "selected_size": 1.25,
+        "unique_reads": 12.15
+      },
+      "R": {
+        "accepted_reads": 8.15,
+        "best_hit": 0.26666666666666666,
+        "budget_denials": 0.9,
+        "cache_reads": 46.425,
+        "regret": 0.09024093722952758,
+        "selected_size": 2.0,
+        "unique_reads": 12.15
+      }
+    }
+  },
+  "GPT_task_first_pooled": {
+    "aptos2019-blindness-detection": {
+      "B": {
+        "accepted_reads": 7.133333333333333,
+        "best_hit": 0.1361111111111111,
+        "budget_denials": 1.7583333333333335,
+        "cache_reads": 81.375,
+        "regret": 0.4745630987392464,
+        "selected_size": 1.1333333333333335,
+        "unique_reads": 12.508333333333333
+      },
+      "C": {
+        "accepted_reads": 7.133333333333333,
+        "best_hit": 0.09861111111111111,
+        "budget_denials": 1.7583333333333335,
+        "cache_reads": 81.375,
+        "regret": 0.45460876794906296,
+        "selected_size": 1.425,
+        "unique_reads": 12.508333333333333
+      },
+      "E": {
+        "accepted_reads": 7.133333333333333,
+        "best_hit": 0.1361111111111111,
+        "budget_denials": 1.7583333333333335,
+        "cache_reads": 81.375,
+        "regret": 0.4741150704743853,
+        "selected_size": 1.1333333333333335,
+        "unique_reads": 12.508333333333333
+      },
+      "H": {
+        "accepted_reads": 7.133333333333333,
+        "best_hit": 0.10833333333333334,
+        "budget_denials": 1.7583333333333335,
+        "cache_reads": 81.375,
+        "regret": 0.4678127683933411,
+        "selected_size": 1.3583333333333334,
+        "unique_reads": 12.508333333333333
+      },
+      "R": {
+        "accepted_reads": 7.133333333333333,
+        "best_hit": 0.0963888888888889,
+        "budget_denials": 1.7583333333333335,
+        "cache_reads": 81.375,
+        "regret": 0.4308426276620499,
+        "selected_size": 2.1999999999999997,
+        "unique_reads": 12.508333333333333
+      }
+    },
+    "denoising-dirty-documents": {
+      "B": {
+        "accepted_reads": 9.016666666666666,
+        "best_hit": 0.3416666666666666,
+        "budget_denials": 0.03333333333333333,
+        "cache_reads": 11.308333333333332,
+        "regret": 0.3353617414004078,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.566666666666666
+      },
+      "C": {
+        "accepted_reads": 9.016666666666666,
+        "best_hit": 0.3333333333333333,
+        "budget_denials": 0.03333333333333333,
+        "cache_reads": 11.308333333333332,
+        "regret": 0.3469996359543059,
+        "selected_size": 1.1,
+        "unique_reads": 10.566666666666666
+      },
+      "E": {
+        "accepted_reads": 9.016666666666666,
+        "best_hit": 0.35000000000000003,
+        "budget_denials": 0.03333333333333333,
+        "cache_reads": 11.308333333333332,
+        "regret": 0.33512407279257345,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.566666666666666
+      },
+      "H": {
+        "accepted_reads": 9.016666666666666,
+        "best_hit": 0.3416666666666666,
+        "budget_denials": 0.03333333333333333,
+        "cache_reads": 11.308333333333332,
+        "regret": 0.35452497323540655,
+        "selected_size": 1.0999999999999999,
+        "unique_reads": 10.566666666666666
+      },
+      "R": {
+        "accepted_reads": 9.016666666666666,
+        "best_hit": 0.3125,
+        "budget_denials": 0.03333333333333333,
+        "cache_reads": 11.308333333333332,
+        "regret": 0.3553611706474416,
+        "selected_size": 1.3,
+        "unique_reads": 10.566666666666666
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "B": {
+        "accepted_reads": 6.2749999999999995,
+        "best_hit": 0.17646825396825397,
+        "budget_denials": 3.358333333333333,
+        "cache_reads": 109.80833333333334,
+        "regret": 0.08191215093310979,
+        "selected_size": 1.3083333333333333,
+        "unique_reads": 12.783333333333333
+      },
+      "C": {
+        "accepted_reads": 6.2749999999999995,
+        "best_hit": 0.17271825396825394,
+        "budget_denials": 3.358333333333333,
+        "cache_reads": 109.80833333333334,
+        "regret": 0.08392033352888424,
+        "selected_size": 1.7,
+        "unique_reads": 12.783333333333333
+      },
+      "E": {
+        "accepted_reads": 6.2749999999999995,
+        "best_hit": 0.17646825396825397,
+        "budget_denials": 3.358333333333333,
+        "cache_reads": 109.80833333333334,
+        "regret": 0.08514776895673859,
+        "selected_size": 1.2916666666666667,
+        "unique_reads": 12.783333333333333
+      },
+      "H": {
+        "accepted_reads": 6.2749999999999995,
+        "best_hit": 0.1968849206349206,
+        "budget_denials": 3.358333333333333,
+        "cache_reads": 109.80833333333334,
+        "regret": 0.0730416765577655,
+        "selected_size": 1.6833333333333333,
+        "unique_reads": 12.783333333333333
+      },
+      "R": {
+        "accepted_reads": 6.2749999999999995,
+        "best_hit": 0.19549603174603172,
+        "budget_denials": 3.358333333333333,
+        "cache_reads": 109.80833333333334,
+        "regret": 0.08727398288560691,
+        "selected_size": 2.375,
+        "unique_reads": 12.783333333333333
+      }
+    },
+    "dog-breed-identification": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "google-quest-challenge": {
+      "B": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.4375,
+        "budget_denials": 0.26666666666666666,
+        "cache_reads": 14.424999999999999,
+        "regret": 0.18059771510347775,
+        "selected_size": 1.05,
+        "unique_reads": 10.575000000000001
+      },
+      "C": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.44722222222222224,
+        "budget_denials": 0.26666666666666666,
+        "cache_reads": 14.424999999999999,
+        "regret": 0.1794530778356014,
+        "selected_size": 1.1166666666666667,
+        "unique_reads": 10.575000000000001
+      },
+      "E": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.4458333333333333,
+        "budget_denials": 0.26666666666666666,
+        "cache_reads": 14.424999999999999,
+        "regret": 0.17964265684907865,
+        "selected_size": 1.05,
+        "unique_reads": 10.575000000000001
+      },
+      "H": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.4513888888888889,
+        "budget_denials": 0.26666666666666666,
+        "cache_reads": 14.424999999999999,
+        "regret": 0.17263443107606546,
+        "selected_size": 1.1166666666666667,
+        "unique_reads": 10.575000000000001
+      },
+      "R": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.4131944444444444,
+        "budget_denials": 0.26666666666666666,
+        "cache_reads": 14.424999999999999,
+        "regret": 0.18589444266650398,
+        "selected_size": 1.3833333333333335,
+        "unique_reads": 10.575000000000001
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "B": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "C": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.08333333333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 0.7595272551857221,
+        "selected_size": 1.5,
+        "unique_reads": 4.0
+      },
+      "E": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "H": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.08333333333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 0.7595272551857221,
+        "selected_size": 1.5,
+        "unique_reads": 4.0
+      },
+      "R": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.08333333333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 0.7595272551857221,
+        "selected_size": 1.5,
+        "unique_reads": 4.0
+      }
+    },
+    "leaf-classification": {
+      "B": {
+        "accepted_reads": 8.616666666666667,
+        "best_hit": 0.15694444444444444,
+        "budget_denials": 0.34166666666666673,
+        "cache_reads": 34.041666666666664,
+        "regret": 0.029235229371504565,
+        "selected_size": 1.0916666666666666,
+        "unique_reads": 11.433333333333332
+      },
+      "C": {
+        "accepted_reads": 8.616666666666667,
+        "best_hit": 0.1763888888888889,
+        "budget_denials": 0.34166666666666673,
+        "cache_reads": 34.041666666666664,
+        "regret": 0.03239424144361696,
+        "selected_size": 1.2249999999999999,
+        "unique_reads": 11.433333333333332
+      },
+      "E": {
+        "accepted_reads": 8.616666666666667,
+        "best_hit": 0.14583333333333334,
+        "budget_denials": 0.34166666666666673,
+        "cache_reads": 34.041666666666664,
+        "regret": 0.030161456319696463,
+        "selected_size": 1.075,
+        "unique_reads": 11.433333333333332
+      },
+      "H": {
+        "accepted_reads": 8.616666666666667,
+        "best_hit": 0.1486111111111111,
+        "budget_denials": 0.34166666666666673,
+        "cache_reads": 34.041666666666664,
+        "regret": 0.029132581308837602,
+        "selected_size": 1.2,
+        "unique_reads": 11.433333333333332
+      },
+      "R": {
+        "accepted_reads": 8.616666666666667,
+        "best_hit": 0.17222222222222225,
+        "budget_denials": 0.34166666666666673,
+        "cache_reads": 34.041666666666664,
+        "regret": 0.03079708380154869,
+        "selected_size": 1.8333333333333333,
+        "unique_reads": 11.433333333333332
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "B": {
+        "accepted_reads": 8.533333333333333,
+        "best_hit": 0.6613888888888889,
+        "budget_denials": 0.7916666666666666,
+        "cache_reads": 42.24166666666667,
+        "regret": 0.05624859563469612,
+        "selected_size": 1.1166666666666667,
+        "unique_reads": 11.958333333333334
+      },
+      "C": {
+        "accepted_reads": 8.533333333333333,
+        "best_hit": 0.6356944444444445,
+        "budget_denials": 0.7916666666666666,
+        "cache_reads": 42.24166666666667,
+        "regret": 0.06285773909082094,
+        "selected_size": 1.2333333333333334,
+        "unique_reads": 11.958333333333334
+      },
+      "E": {
+        "accepted_reads": 8.533333333333333,
+        "best_hit": 0.6530555555555556,
+        "budget_denials": 0.7916666666666666,
+        "cache_reads": 42.24166666666667,
+        "regret": 0.05627752678700069,
+        "selected_size": 1.1166666666666667,
+        "unique_reads": 11.958333333333334
+      },
+      "H": {
+        "accepted_reads": 8.533333333333333,
+        "best_hit": 0.6238888888888888,
+        "budget_denials": 0.7916666666666666,
+        "cache_reads": 42.24166666666667,
+        "regret": 0.06856493293976884,
+        "selected_size": 1.2666666666666666,
+        "unique_reads": 11.958333333333334
+      },
+      "R": {
+        "accepted_reads": 8.533333333333333,
+        "best_hit": 0.5704166666666667,
+        "budget_denials": 0.7916666666666666,
+        "cache_reads": 42.24166666666667,
+        "regret": 0.09519762666064845,
+        "selected_size": 1.9000000000000001,
+        "unique_reads": 11.958333333333334
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "B": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.125,
+        "budget_denials": 0.25,
+        "cache_reads": 26.866666666666664,
+        "regret": 0.2803687813473894,
+        "selected_size": 1.0333333333333332,
+        "unique_reads": 11.108333333333334
+      },
+      "C": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.12222222222222223,
+        "budget_denials": 0.25,
+        "cache_reads": 26.866666666666664,
+        "regret": 0.2952949507062216,
+        "selected_size": 1.1583333333333334,
+        "unique_reads": 11.108333333333334
+      },
+      "E": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.125,
+        "budget_denials": 0.25,
+        "cache_reads": 26.866666666666664,
+        "regret": 0.280534454258109,
+        "selected_size": 1.0333333333333332,
+        "unique_reads": 11.108333333333334
+      },
+      "H": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.125,
+        "budget_denials": 0.25,
+        "cache_reads": 26.866666666666664,
+        "regret": 0.2886930877225175,
+        "selected_size": 1.1083333333333334,
+        "unique_reads": 11.108333333333334
+      },
+      "R": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.09999999999999999,
+        "budget_denials": 0.25,
+        "cache_reads": 26.866666666666664,
+        "regret": 0.2957312405562624,
+        "selected_size": 1.5666666666666667,
+        "unique_reads": 11.108333333333334
+      }
+    },
+    "mlsp-2013-birds": {
+      "B": {
+        "accepted_reads": 8.841666666666667,
+        "best_hit": 0.075,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 24.675,
+        "regret": 0.2691564766997012,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 10.758333333333333
+      },
+      "C": {
+        "accepted_reads": 8.841666666666667,
+        "best_hit": 0.061111111111111116,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 24.675,
+        "regret": 0.27484947092386625,
+        "selected_size": 1.2166666666666666,
+        "unique_reads": 10.758333333333333
+      },
+      "E": {
+        "accepted_reads": 8.841666666666667,
+        "best_hit": 0.075,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 24.675,
+        "regret": 0.2691564766997012,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 10.758333333333333
+      },
+      "H": {
+        "accepted_reads": 8.841666666666667,
+        "best_hit": 0.07083333333333333,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 24.675,
+        "regret": 0.26918028118101706,
+        "selected_size": 1.1083333333333334,
+        "unique_reads": 10.758333333333333
+      },
+      "R": {
+        "accepted_reads": 8.841666666666667,
+        "best_hit": 0.06041666666666667,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 24.675,
+        "regret": 0.28984948396856813,
+        "selected_size": 1.5583333333333333,
+        "unique_reads": 10.758333333333333
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "B": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3833333333333333,
+        "budget_denials": 0.10833333333333334,
+        "cache_reads": 12.741666666666667,
+        "regret": 0.09034622302220259,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.683333333333332
+      },
+      "C": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3958333333333333,
+        "budget_denials": 0.10833333333333334,
+        "cache_reads": 12.741666666666667,
+        "regret": 0.1013378729626895,
+        "selected_size": 1.1500000000000001,
+        "unique_reads": 10.683333333333332
+      },
+      "E": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3833333333333333,
+        "budget_denials": 0.10833333333333334,
+        "cache_reads": 12.741666666666667,
+        "regret": 0.09032283835529901,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.683333333333332
+      },
+      "H": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.39166666666666666,
+        "budget_denials": 0.10833333333333334,
+        "cache_reads": 12.741666666666667,
+        "regret": 0.08813916799642614,
+        "selected_size": 1.0999999999999999,
+        "unique_reads": 10.683333333333332
+      },
+      "R": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3861111111111111,
+        "budget_denials": 0.10833333333333334,
+        "cache_reads": 12.741666666666667,
+        "regret": 0.10509097173112997,
+        "selected_size": 1.2916666666666667,
+        "unique_reads": 10.683333333333332
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.8333333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 3.6666666666666665,
+        "regret": 0.017456359102244544,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 2.3333333333333335
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.8333333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 3.6666666666666665,
+        "regret": 0.017456359102244544,
+        "selected_size": 1.0,
+        "unique_reads": 2.3333333333333335
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.8333333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 3.6666666666666665,
+        "regret": 0.017456359102244544,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 2.3333333333333335
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.8333333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 3.6666666666666665,
+        "regret": 0.017456359102244544,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 2.3333333333333335
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.8333333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 3.6666666666666665,
+        "regret": 0.017456359102244544,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 2.3333333333333335
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "B": {
+        "accepted_reads": 5.833333333333333,
+        "best_hit": 0.5833333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 8.833333333333334,
+        "regret": 0.38493429926022804,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 7.5
+      },
+      "C": {
+        "accepted_reads": 5.833333333333333,
+        "best_hit": 0.5833333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 8.833333333333334,
+        "regret": 0.3532019318537895,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 7.5
+      },
+      "E": {
+        "accepted_reads": 5.833333333333333,
+        "best_hit": 0.5833333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 8.833333333333334,
+        "regret": 0.38493429926022804,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 7.5
+      },
+      "H": {
+        "accepted_reads": 5.833333333333333,
+        "best_hit": 0.5833333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 8.833333333333334,
+        "regret": 0.3532019318537895,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 7.5
+      },
+      "R": {
+        "accepted_reads": 5.833333333333333,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 8.833333333333334,
+        "regret": 0.4365352651871228,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 7.5
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "B": {
+        "accepted_reads": 4.333333333333333,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 38.5,
+        "regret": 0.3582301429841968,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 7.666666666666667
+      },
+      "C": {
+        "accepted_reads": 4.333333333333333,
+        "best_hit": 0.05555555555555555,
+        "budget_denials": 0.0,
+        "cache_reads": 38.5,
+        "regret": 0.30331501372070596,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 7.666666666666667
+      },
+      "E": {
+        "accepted_reads": 4.333333333333333,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 38.5,
+        "regret": 0.3582301429841968,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 7.666666666666667
+      },
+      "H": {
+        "accepted_reads": 4.333333333333333,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 38.5,
+        "regret": 0.3257394358167433,
+        "selected_size": 1.3333333333333333,
+        "unique_reads": 7.666666666666667
+      },
+      "R": {
+        "accepted_reads": 4.333333333333333,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 38.5,
+        "regret": 0.24125447538254555,
+        "selected_size": 1.8333333333333333,
+        "unique_reads": 7.666666666666667
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "B": {
+        "accepted_reads": 8.933333333333334,
+        "best_hit": 0.65,
+        "budget_denials": 0.15,
+        "cache_reads": 15.325000000000001,
+        "regret": 0.21066706056363627,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 10.808333333333332
+      },
+      "C": {
+        "accepted_reads": 8.933333333333334,
+        "best_hit": 0.6333333333333333,
+        "budget_denials": 0.15,
+        "cache_reads": 15.325000000000001,
+        "regret": 0.2356684019980976,
+        "selected_size": 1.0666666666666667,
+        "unique_reads": 10.808333333333332
+      },
+      "E": {
+        "accepted_reads": 8.933333333333334,
+        "best_hit": 0.6416666666666666,
+        "budget_denials": 0.15,
+        "cache_reads": 15.325000000000001,
+        "regret": 0.21668821505740077,
+        "selected_size": 1.0,
+        "unique_reads": 10.808333333333332
+      },
+      "H": {
+        "accepted_reads": 8.933333333333334,
+        "best_hit": 0.6375000000000001,
+        "budget_denials": 0.15,
+        "cache_reads": 15.325000000000001,
+        "regret": 0.2282638600193445,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.808333333333332
+      },
+      "R": {
+        "accepted_reads": 8.933333333333334,
+        "best_hit": 0.5854166666666667,
+        "budget_denials": 0.15,
+        "cache_reads": 15.325000000000001,
+        "regret": 0.2563461591571255,
+        "selected_size": 1.3499999999999999,
+        "unique_reads": 10.808333333333332
+      }
+    },
+    "random-acts-of-pizza": {
+      "B": {
+        "accepted_reads": 8.291666666666666,
+        "best_hit": 0.027083333333333334,
+        "budget_denials": 0.9500000000000001,
+        "cache_reads": 50.96666666666667,
+        "regret": 0.41431635799268535,
+        "selected_size": 1.0999999999999999,
+        "unique_reads": 11.991666666666667
+      },
+      "C": {
+        "accepted_reads": 8.291666666666666,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 0.9500000000000001,
+        "cache_reads": 50.96666666666667,
+        "regret": 0.41581490885215505,
+        "selected_size": 1.3,
+        "unique_reads": 11.991666666666667
+      },
+      "E": {
+        "accepted_reads": 8.291666666666666,
+        "best_hit": 0.027083333333333334,
+        "budget_denials": 0.9500000000000001,
+        "cache_reads": 50.96666666666667,
+        "regret": 0.4143702146983288,
+        "selected_size": 1.0999999999999999,
+        "unique_reads": 11.991666666666667
+      },
+      "H": {
+        "accepted_reads": 8.291666666666666,
+        "best_hit": 0.035416666666666666,
+        "budget_denials": 0.9500000000000001,
+        "cache_reads": 50.96666666666667,
+        "regret": 0.407381391583804,
+        "selected_size": 1.2083333333333333,
+        "unique_reads": 11.991666666666667
+      },
+      "R": {
+        "accepted_reads": 8.291666666666666,
+        "best_hit": 0.04236111111111112,
+        "budget_denials": 0.9500000000000001,
+        "cache_reads": 50.96666666666667,
+        "regret": 0.4064350534683728,
+        "selected_size": 2.033333333333333,
+        "unique_reads": 11.991666666666667
+      }
+    },
+    "spooky-author-identification": {
+      "B": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3,
+        "budget_denials": 0.024999999999999998,
+        "cache_reads": 2.975,
+        "regret": 0.10620435624325908,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 9.5
+      },
+      "C": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3,
+        "budget_denials": 0.024999999999999998,
+        "cache_reads": 2.975,
+        "regret": 0.10750471725090281,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 9.5
+      },
+      "E": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3,
+        "budget_denials": 0.024999999999999998,
+        "cache_reads": 2.975,
+        "regret": 0.10620435624325908,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 9.5
+      },
+      "H": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3,
+        "budget_denials": 0.024999999999999998,
+        "cache_reads": 2.975,
+        "regret": 0.10620435624325908,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 9.5
+      },
+      "R": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3,
+        "budget_denials": 0.024999999999999998,
+        "cache_reads": 2.975,
+        "regret": 0.10761624374873884,
+        "selected_size": 1.075,
+        "unique_reads": 9.5
+      }
+    },
+    "stanford-covid-vaccine": {
+      "B": {
+        "accepted_reads": 9.058333333333332,
+        "best_hit": 0.1625,
+        "budget_denials": 0.16666666666666666,
+        "cache_reads": 20.083333333333332,
+        "regret": 0.22484302079227572,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.799999999999999
+      },
+      "C": {
+        "accepted_reads": 9.058333333333332,
+        "best_hit": 0.15416666666666667,
+        "budget_denials": 0.16666666666666666,
+        "cache_reads": 20.083333333333332,
+        "regret": 0.22152358969712105,
+        "selected_size": 1.0666666666666667,
+        "unique_reads": 10.799999999999999
+      },
+      "E": {
+        "accepted_reads": 9.058333333333332,
+        "best_hit": 0.1625,
+        "budget_denials": 0.16666666666666666,
+        "cache_reads": 20.083333333333332,
+        "regret": 0.22484302079227572,
+        "selected_size": 1.0250000000000001,
+        "unique_reads": 10.799999999999999
+      },
+      "H": {
+        "accepted_reads": 9.058333333333332,
+        "best_hit": 0.16666666666666666,
+        "budget_denials": 0.16666666666666666,
+        "cache_reads": 20.083333333333332,
+        "regret": 0.2205012238314488,
+        "selected_size": 1.0916666666666666,
+        "unique_reads": 10.799999999999999
+      },
+      "R": {
+        "accepted_reads": 9.058333333333332,
+        "best_hit": 0.14472222222222222,
+        "budget_denials": 0.16666666666666666,
+        "cache_reads": 20.083333333333332,
+        "regret": 0.2112586267487575,
+        "selected_size": 1.5250000000000001,
+        "unique_reads": 10.799999999999999
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "B": {
+        "accepted_reads": 8.791666666666666,
+        "best_hit": 0.14583333333333334,
+        "budget_denials": 0.15833333333333333,
+        "cache_reads": 28.933333333333334,
+        "regret": 0.19579336157153956,
+        "selected_size": 1.05,
+        "unique_reads": 11.291666666666666
+      },
+      "C": {
+        "accepted_reads": 8.791666666666666,
+        "best_hit": 0.1486111111111111,
+        "budget_denials": 0.15833333333333333,
+        "cache_reads": 28.933333333333334,
+        "regret": 0.16333920752180056,
+        "selected_size": 1.1916666666666667,
+        "unique_reads": 11.291666666666666
+      },
+      "E": {
+        "accepted_reads": 8.791666666666666,
+        "best_hit": 0.15833333333333333,
+        "budget_denials": 0.15833333333333333,
+        "cache_reads": 28.933333333333334,
+        "regret": 0.18070070073624667,
+        "selected_size": 1.0583333333333333,
+        "unique_reads": 11.291666666666666
+      },
+      "H": {
+        "accepted_reads": 8.791666666666666,
+        "best_hit": 0.13194444444444445,
+        "budget_denials": 0.15833333333333333,
+        "cache_reads": 28.933333333333334,
+        "regret": 0.17988879853149567,
+        "selected_size": 1.2333333333333334,
+        "unique_reads": 11.291666666666666
+      },
+      "R": {
+        "accepted_reads": 8.791666666666666,
+        "best_hit": 0.16458333333333333,
+        "budget_denials": 0.15833333333333333,
+        "cache_reads": 28.933333333333334,
+        "regret": 0.16577037992299312,
+        "selected_size": 1.7083333333333333,
+        "unique_reads": 11.291666666666666
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "B": {
+        "accepted_reads": 8.866666666666667,
+        "best_hit": 0.0,
+        "budget_denials": 0.016666666666666666,
+        "cache_reads": 15.866666666666667,
+        "regret": 0.41350896677001675,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 10.441666666666666
+      },
+      "C": {
+        "accepted_reads": 8.866666666666667,
+        "best_hit": 0.0,
+        "budget_denials": 0.016666666666666666,
+        "cache_reads": 15.866666666666667,
+        "regret": 0.4079456567379551,
+        "selected_size": 1.1083333333333334,
+        "unique_reads": 10.441666666666666
+      },
+      "E": {
+        "accepted_reads": 8.866666666666667,
+        "best_hit": 0.0,
+        "budget_denials": 0.016666666666666666,
+        "cache_reads": 15.866666666666667,
+        "regret": 0.4131261157951804,
+        "selected_size": 1.0083333333333333,
+        "unique_reads": 10.441666666666666
+      },
+      "H": {
+        "accepted_reads": 8.866666666666667,
+        "best_hit": 0.0,
+        "budget_denials": 0.016666666666666666,
+        "cache_reads": 15.866666666666667,
+        "regret": 0.40944481215340983,
+        "selected_size": 1.0833333333333333,
+        "unique_reads": 10.441666666666666
+      },
+      "R": {
+        "accepted_reads": 8.866666666666667,
+        "best_hit": 0.004166666666666667,
+        "budget_denials": 0.016666666666666666,
+        "cache_reads": 15.866666666666667,
+        "regret": 0.41969497221184,
+        "selected_size": 1.4083333333333332,
+        "unique_reads": 10.441666666666666
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "B": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.05000000000000001,
+        "budget_denials": 0.2916666666666667,
+        "cache_reads": 32.75,
+        "regret": 0.29236145636800226,
+        "selected_size": 1.0333333333333334,
+        "unique_reads": 11.591666666666667
+      },
+      "C": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.061111111111111116,
+        "budget_denials": 0.2916666666666667,
+        "cache_reads": 32.75,
+        "regret": 0.29922666994182523,
+        "selected_size": 1.1500000000000001,
+        "unique_reads": 11.591666666666667
+      },
+      "E": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.05000000000000001,
+        "budget_denials": 0.2916666666666667,
+        "cache_reads": 32.75,
+        "regret": 0.2851764609034804,
+        "selected_size": 1.0416666666666667,
+        "unique_reads": 11.591666666666667
+      },
+      "H": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.061111111111111116,
+        "budget_denials": 0.2916666666666667,
+        "cache_reads": 32.75,
+        "regret": 0.2884070567313427,
+        "selected_size": 1.1666666666666667,
+        "unique_reads": 11.591666666666667
+      },
+      "R": {
+        "accepted_reads": 8.758333333333333,
+        "best_hit": 0.06319444444444444,
+        "budget_denials": 0.2916666666666667,
+        "cache_reads": 32.75,
+        "regret": 0.3020757220295292,
+        "selected_size": 1.6666666666666667,
+        "unique_reads": 11.591666666666667
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "B": {
+        "accepted_reads": 8.983333333333333,
+        "best_hit": 0.19583333333333333,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 11.416666666666666,
+        "regret": 0.425529995337242,
+        "selected_size": 1.0166666666666666,
+        "unique_reads": 10.141666666666667
+      },
+      "C": {
+        "accepted_reads": 8.983333333333333,
+        "best_hit": 0.21666666666666665,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 11.416666666666666,
+        "regret": 0.4138659473223199,
+        "selected_size": 1.0916666666666668,
+        "unique_reads": 10.141666666666667
+      },
+      "E": {
+        "accepted_reads": 8.983333333333333,
+        "best_hit": 0.19583333333333333,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 11.416666666666666,
+        "regret": 0.425529995337242,
+        "selected_size": 1.0166666666666666,
+        "unique_reads": 10.141666666666667
+      },
+      "H": {
+        "accepted_reads": 8.983333333333333,
+        "best_hit": 0.20833333333333334,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 11.416666666666666,
+        "regret": 0.4229599253951968,
+        "selected_size": 1.0583333333333333,
+        "unique_reads": 10.141666666666667
+      },
+      "R": {
+        "accepted_reads": 8.983333333333333,
+        "best_hit": 0.2111111111111111,
+        "budget_denials": 0.11666666666666665,
+        "cache_reads": 11.416666666666666,
+        "regret": 0.40784764354878345,
+        "selected_size": 1.2916666666666667,
+        "unique_reads": 10.141666666666667
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "B": {
+        "accepted_reads": 6.0249999999999995,
+        "best_hit": 0.09722222222222221,
+        "budget_denials": 4.033333333333334,
+        "cache_reads": 120.02499999999999,
+        "regret": 0.666012041004414,
+        "selected_size": 1.3,
+        "unique_reads": 12.858333333333334
+      },
+      "C": {
+        "accepted_reads": 6.0249999999999995,
+        "best_hit": 0.08634259259259258,
+        "budget_denials": 4.033333333333334,
+        "cache_reads": 120.02499999999999,
+        "regret": 0.6848488192402863,
+        "selected_size": 1.6833333333333333,
+        "unique_reads": 12.858333333333334
+      },
+      "E": {
+        "accepted_reads": 6.0249999999999995,
+        "best_hit": 0.10555555555555556,
+        "budget_denials": 4.033333333333334,
+        "cache_reads": 120.02499999999999,
+        "regret": 0.6497530056224157,
+        "selected_size": 1.2583333333333335,
+        "unique_reads": 12.858333333333334
+      },
+      "H": {
+        "accepted_reads": 6.0249999999999995,
+        "best_hit": 0.08125,
+        "budget_denials": 4.033333333333334,
+        "cache_reads": 120.02499999999999,
+        "regret": 0.673789046959795,
+        "selected_size": 1.5333333333333332,
+        "unique_reads": 12.858333333333334
+      },
+      "R": {
+        "accepted_reads": 6.0249999999999995,
+        "best_hit": 0.05277777777777778,
+        "budget_denials": 4.033333333333334,
+        "cache_reads": 120.02499999999999,
+        "regret": 0.6914898078135542,
+        "selected_size": 2.266666666666667,
+        "unique_reads": 12.858333333333334
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "B": {
+        "accepted_reads": 6.741666666666667,
+        "best_hit": 0.05000000000000001,
+        "budget_denials": 2.25,
+        "cache_reads": 98.90833333333335,
+        "regret": 0.7322195873984761,
+        "selected_size": 1.2249999999999999,
+        "unique_reads": 12.674999999999999
+      },
+      "C": {
+        "accepted_reads": 6.741666666666667,
+        "best_hit": 0.03402777777777778,
+        "budget_denials": 2.25,
+        "cache_reads": 98.90833333333335,
+        "regret": 0.7544704850016322,
+        "selected_size": 1.6333333333333335,
+        "unique_reads": 12.674999999999999
+      },
+      "E": {
+        "accepted_reads": 6.741666666666667,
+        "best_hit": 0.05000000000000001,
+        "budget_denials": 2.25,
+        "cache_reads": 98.90833333333335,
+        "regret": 0.7310186461776098,
+        "selected_size": 1.1916666666666667,
+        "unique_reads": 12.674999999999999
+      },
+      "H": {
+        "accepted_reads": 6.741666666666667,
+        "best_hit": 0.03402777777777778,
+        "budget_denials": 2.25,
+        "cache_reads": 98.90833333333335,
+        "regret": 0.7478818723318855,
+        "selected_size": 1.55,
+        "unique_reads": 12.674999999999999
+      },
+      "R": {
+        "accepted_reads": 6.741666666666667,
+        "best_hit": 0.030555555555555555,
+        "budget_denials": 2.25,
+        "cache_reads": 98.90833333333335,
+        "regret": 0.7530139358405968,
+        "selected_size": 2.566666666666667,
+        "unique_reads": 12.674999999999999
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "B": {
+        "accepted_reads": 9.058333333333334,
+        "best_hit": 0.5458333333333333,
+        "budget_denials": 0.11666666666666668,
+        "cache_reads": 14.258333333333333,
+        "regret": 0.039150118648525516,
+        "selected_size": 1.0333333333333332,
+        "unique_reads": 10.483333333333334
+      },
+      "C": {
+        "accepted_reads": 9.058333333333334,
+        "best_hit": 0.5458333333333333,
+        "budget_denials": 0.11666666666666668,
+        "cache_reads": 14.258333333333333,
+        "regret": 0.03303336523377088,
+        "selected_size": 1.1083333333333334,
+        "unique_reads": 10.483333333333334
+      },
+      "E": {
+        "accepted_reads": 9.058333333333334,
+        "best_hit": 0.5458333333333333,
+        "budget_denials": 0.11666666666666668,
+        "cache_reads": 14.258333333333333,
+        "regret": 0.039150118648525516,
+        "selected_size": 1.0333333333333332,
+        "unique_reads": 10.483333333333334
+      },
+      "H": {
+        "accepted_reads": 9.058333333333334,
+        "best_hit": 0.5416666666666666,
+        "budget_denials": 0.11666666666666668,
+        "cache_reads": 14.258333333333333,
+        "regret": 0.03665189903350067,
+        "selected_size": 1.0833333333333333,
+        "unique_reads": 10.483333333333334
+      },
+      "R": {
+        "accepted_reads": 9.058333333333334,
+        "best_hit": 0.5395833333333333,
+        "budget_denials": 0.11666666666666668,
+        "cache_reads": 14.258333333333333,
+        "regret": 0.032269687944345725,
+        "selected_size": 1.3666666666666665,
+        "unique_reads": 10.483333333333334
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "B": {
+        "accepted_reads": 8.916666666666666,
+        "best_hit": 0.08750000000000001,
+        "budget_denials": 0.17500000000000002,
+        "cache_reads": 25.349999999999998,
+        "regret": 0.07787006264988376,
+        "selected_size": 1.0583333333333333,
+        "unique_reads": 11.0
+      },
+      "C": {
+        "accepted_reads": 8.916666666666666,
+        "best_hit": 0.10694444444444444,
+        "budget_denials": 0.17500000000000002,
+        "cache_reads": 25.349999999999998,
+        "regret": 0.08218957673066844,
+        "selected_size": 1.1083333333333334,
+        "unique_reads": 11.0
+      },
+      "E": {
+        "accepted_reads": 8.916666666666666,
+        "best_hit": 0.08750000000000001,
+        "budget_denials": 0.17500000000000002,
+        "cache_reads": 25.349999999999998,
+        "regret": 0.0771245578625148,
+        "selected_size": 1.0583333333333333,
+        "unique_reads": 11.0
+      },
+      "H": {
+        "accepted_reads": 8.916666666666666,
+        "best_hit": 0.09583333333333333,
+        "budget_denials": 0.17500000000000002,
+        "cache_reads": 25.349999999999998,
+        "regret": 0.0776878055728048,
+        "selected_size": 1.1083333333333334,
+        "unique_reads": 11.0
+      },
+      "R": {
+        "accepted_reads": 8.916666666666666,
+        "best_hit": 0.08263888888888889,
+        "budget_denials": 0.17500000000000002,
+        "cache_reads": 25.349999999999998,
+        "regret": 0.07928766033893898,
+        "selected_size": 1.5666666666666667,
+        "unique_reads": 11.0
+      }
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "aptos2019-blindness-detection": {
+      "B": {
+        "accepted_reads": 7.425,
+        "best_hit": 0.15,
+        "budget_denials": 1.275,
+        "cache_reads": 76.35,
+        "regret": 0.5017925137903115,
+        "selected_size": 1.125,
+        "unique_reads": 12.625
+      },
+      "C": {
+        "accepted_reads": 7.425,
+        "best_hit": 0.041666666666666664,
+        "budget_denials": 1.275,
+        "cache_reads": 76.35,
+        "regret": 0.47326037613898625,
+        "selected_size": 1.575,
+        "unique_reads": 12.625
+      },
+      "E": {
+        "accepted_reads": 7.425,
+        "best_hit": 0.15,
+        "budget_denials": 1.275,
+        "cache_reads": 76.35,
+        "regret": 0.5017925137903115,
+        "selected_size": 1.125,
+        "unique_reads": 12.625
+      },
+      "H": {
+        "accepted_reads": 7.425,
+        "best_hit": 0.05,
+        "budget_denials": 1.275,
+        "cache_reads": 76.35,
+        "regret": 0.5193226471484755,
+        "selected_size": 1.35,
+        "unique_reads": 12.625
+      },
+      "R": {
+        "accepted_reads": 7.425,
+        "best_hit": 0.03833333333333333,
+        "budget_denials": 1.275,
+        "cache_reads": 76.35,
+        "regret": 0.4599275856990731,
+        "selected_size": 2.075,
+        "unique_reads": 12.625
+      }
+    },
+    "denoising-dirty-documents": {
+      "B": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.35,
+        "budget_denials": 0.025,
+        "cache_reads": 10.925,
+        "regret": 0.35820939666386375,
+        "selected_size": 1.05,
+        "unique_reads": 10.375
+      },
+      "C": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.375,
+        "budget_denials": 0.025,
+        "cache_reads": 10.925,
+        "regret": 0.3573213530401388,
+        "selected_size": 1.1,
+        "unique_reads": 10.375
+      },
+      "E": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.375,
+        "budget_denials": 0.025,
+        "cache_reads": 10.925,
+        "regret": 0.35749639084036067,
+        "selected_size": 1.05,
+        "unique_reads": 10.375
+      },
+      "H": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.375,
+        "budget_denials": 0.025,
+        "cache_reads": 10.925,
+        "regret": 0.35745679903937305,
+        "selected_size": 1.125,
+        "unique_reads": 10.375
+      },
+      "R": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.35,
+        "budget_denials": 0.025,
+        "cache_reads": 10.925,
+        "regret": 0.3466963949268157,
+        "selected_size": 1.3,
+        "unique_reads": 10.375
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "B": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.09607142857142857,
+        "budget_denials": 2.575,
+        "cache_reads": 96.275,
+        "regret": 0.07843340113549757,
+        "selected_size": 1.475,
+        "unique_reads": 12.725
+      },
+      "C": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.10357142857142858,
+        "budget_denials": 2.575,
+        "cache_reads": 96.275,
+        "regret": 0.07038371454612295,
+        "selected_size": 1.825,
+        "unique_reads": 12.725
+      },
+      "E": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.09607142857142857,
+        "budget_denials": 2.575,
+        "cache_reads": 96.275,
+        "regret": 0.07874697770020127,
+        "selected_size": 1.45,
+        "unique_reads": 12.725
+      },
+      "H": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.11690476190476191,
+        "budget_denials": 2.575,
+        "cache_reads": 96.275,
+        "regret": 0.052084960566710525,
+        "selected_size": 1.725,
+        "unique_reads": 12.725
+      },
+      "R": {
+        "accepted_reads": 6.8,
+        "best_hit": 0.14607142857142857,
+        "budget_denials": 2.575,
+        "cache_reads": 96.275,
+        "regret": 0.07490771161144016,
+        "selected_size": 2.375,
+        "unique_reads": 12.725
+      }
+    },
+    "dog-breed-identification": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "google-quest-challenge": {
+      "B": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.3875,
+        "budget_denials": 0.375,
+        "cache_reads": 20.35,
+        "regret": 0.20476883491971512,
+        "selected_size": 1.125,
+        "unique_reads": 10.85
+      },
+      "C": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.39583333333333337,
+        "budget_denials": 0.375,
+        "cache_reads": 20.35,
+        "regret": 0.2064531768391064,
+        "selected_size": 1.175,
+        "unique_reads": 10.85
+      },
+      "E": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.3875,
+        "budget_denials": 0.375,
+        "cache_reads": 20.35,
+        "regret": 0.20476883491971512,
+        "selected_size": 1.125,
+        "unique_reads": 10.85
+      },
+      "H": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.4041666666666667,
+        "budget_denials": 0.375,
+        "cache_reads": 20.35,
+        "regret": 0.20094530578775224,
+        "selected_size": 1.25,
+        "unique_reads": 10.85
+      },
+      "R": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.36666666666666664,
+        "budget_denials": 0.375,
+        "cache_reads": 20.35,
+        "regret": 0.2163434371631629,
+        "selected_size": 1.575,
+        "unique_reads": 10.85
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "B": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "C": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "E": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "H": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "R": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      }
+    },
+    "leaf-classification": {
+      "B": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 0.225,
+        "cache_reads": 23.725,
+        "regret": 0.0371596564152833,
+        "selected_size": 1.125,
+        "unique_reads": 11.25
+      },
+      "C": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.09583333333333334,
+        "budget_denials": 0.225,
+        "cache_reads": 23.725,
+        "regret": 0.0382755215567338,
+        "selected_size": 1.15,
+        "unique_reads": 11.25
+      },
+      "E": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.05,
+        "budget_denials": 0.225,
+        "cache_reads": 23.725,
+        "regret": 0.041181238335456734,
+        "selected_size": 1.075,
+        "unique_reads": 11.25
+      },
+      "H": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 0.225,
+        "cache_reads": 23.725,
+        "regret": 0.03137515942052468,
+        "selected_size": 1.225,
+        "unique_reads": 11.25
+      },
+      "R": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.09583333333333334,
+        "budget_denials": 0.225,
+        "cache_reads": 23.725,
+        "regret": 0.0337641160084522,
+        "selected_size": 1.675,
+        "unique_reads": 11.25
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "B": {
+        "accepted_reads": 8.375,
+        "best_hit": 0.7008333333333334,
+        "budget_denials": 1.075,
+        "cache_reads": 51.725,
+        "regret": 0.05255279388529303,
+        "selected_size": 1.175,
+        "unique_reads": 12.2
+      },
+      "C": {
+        "accepted_reads": 8.375,
+        "best_hit": 0.6487499999999999,
+        "budget_denials": 1.075,
+        "cache_reads": 51.725,
+        "regret": 0.08588281318799984,
+        "selected_size": 1.35,
+        "unique_reads": 12.2
+      },
+      "E": {
+        "accepted_reads": 8.375,
+        "best_hit": 0.7008333333333334,
+        "budget_denials": 1.075,
+        "cache_reads": 51.725,
+        "regret": 0.05255279388529303,
+        "selected_size": 1.175,
+        "unique_reads": 12.2
+      },
+      "H": {
+        "accepted_reads": 8.375,
+        "best_hit": 0.655,
+        "budget_denials": 1.075,
+        "cache_reads": 51.725,
+        "regret": 0.07888071252654844,
+        "selected_size": 1.425,
+        "unique_reads": 12.2
+      },
+      "R": {
+        "accepted_reads": 8.375,
+        "best_hit": 0.5591666666666667,
+        "budget_denials": 1.075,
+        "cache_reads": 51.725,
+        "regret": 0.11816271527832445,
+        "selected_size": 2.1,
+        "unique_reads": 12.2
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "B": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.1,
+        "budget_denials": 0.275,
+        "cache_reads": 23.75,
+        "regret": 0.3271870737437418,
+        "selected_size": 1.0,
+        "unique_reads": 11.275
+      },
+      "C": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 0.275,
+        "cache_reads": 23.75,
+        "regret": 0.3574464517122309,
+        "selected_size": 1.1,
+        "unique_reads": 11.275
+      },
+      "E": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.1,
+        "budget_denials": 0.275,
+        "cache_reads": 23.75,
+        "regret": 0.3271870737437418,
+        "selected_size": 1.0,
+        "unique_reads": 11.275
+      },
+      "H": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.075,
+        "budget_denials": 0.275,
+        "cache_reads": 23.75,
+        "regret": 0.36333763917094924,
+        "selected_size": 1.0,
+        "unique_reads": 11.275
+      },
+      "R": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.058333333333333334,
+        "budget_denials": 0.275,
+        "cache_reads": 23.75,
+        "regret": 0.35470073135167635,
+        "selected_size": 1.375,
+        "unique_reads": 11.275
+      }
+    },
+    "mlsp-2013-birds": {
+      "B": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.125,
+        "budget_denials": 0.175,
+        "cache_reads": 26.0,
+        "regret": 0.2822557948150207,
+        "selected_size": 1.0,
+        "unique_reads": 10.65
+      },
+      "C": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.1,
+        "budget_denials": 0.175,
+        "cache_reads": 26.0,
+        "regret": 0.2934344434453229,
+        "selected_size": 1.275,
+        "unique_reads": 10.65
+      },
+      "E": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.125,
+        "budget_denials": 0.175,
+        "cache_reads": 26.0,
+        "regret": 0.2822557948150207,
+        "selected_size": 1.0,
+        "unique_reads": 10.65
+      },
+      "H": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.1125,
+        "budget_denials": 0.175,
+        "cache_reads": 26.0,
+        "regret": 0.2901645023409044,
+        "selected_size": 1.15,
+        "unique_reads": 10.65
+      },
+      "R": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.0625,
+        "budget_denials": 0.175,
+        "cache_reads": 26.0,
+        "regret": 0.3014005146137254,
+        "selected_size": 1.625,
+        "unique_reads": 10.65
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "B": {
+        "accepted_reads": 9.275,
+        "best_hit": 0.4,
+        "budget_denials": 0.125,
+        "cache_reads": 8.925,
+        "regret": 0.10219877933978369,
+        "selected_size": 1.025,
+        "unique_reads": 10.775
+      },
+      "C": {
+        "accepted_reads": 9.275,
+        "best_hit": 0.3875,
+        "budget_denials": 0.125,
+        "cache_reads": 8.925,
+        "regret": 0.10335059936366431,
+        "selected_size": 1.125,
+        "unique_reads": 10.775
+      },
+      "E": {
+        "accepted_reads": 9.275,
+        "best_hit": 0.4,
+        "budget_denials": 0.125,
+        "cache_reads": 8.925,
+        "regret": 0.10217953674233231,
+        "selected_size": 1.025,
+        "unique_reads": 10.775
+      },
+      "H": {
+        "accepted_reads": 9.275,
+        "best_hit": 0.4,
+        "budget_denials": 0.125,
+        "cache_reads": 8.925,
+        "regret": 0.09279508551122595,
+        "selected_size": 1.025,
+        "unique_reads": 10.775
+      },
+      "R": {
+        "accepted_reads": 9.275,
+        "best_hit": 0.38333333333333336,
+        "budget_denials": 0.125,
+        "cache_reads": 8.925,
+        "regret": 0.10347778509108144,
+        "selected_size": 1.2,
+        "unique_reads": 10.775
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "B": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.75,
+        "budget_denials": 0.0,
+        "cache_reads": 12.5,
+        "regret": 0.25,
+        "selected_size": 1.5,
+        "unique_reads": 7.5
+      },
+      "C": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.75,
+        "budget_denials": 0.0,
+        "cache_reads": 12.5,
+        "regret": 0.25,
+        "selected_size": 1.5,
+        "unique_reads": 7.5
+      },
+      "E": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.75,
+        "budget_denials": 0.0,
+        "cache_reads": 12.5,
+        "regret": 0.25,
+        "selected_size": 1.5,
+        "unique_reads": 7.5
+      },
+      "H": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.75,
+        "budget_denials": 0.0,
+        "cache_reads": 12.5,
+        "regret": 0.25,
+        "selected_size": 1.5,
+        "unique_reads": 7.5
+      },
+      "R": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.75,
+        "budget_denials": 0.0,
+        "cache_reads": 12.5,
+        "regret": 0.25,
+        "selected_size": 1.5,
+        "unique_reads": 7.5
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "B": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 41.0,
+        "regret": 0.11129164671273167,
+        "selected_size": 1.5,
+        "unique_reads": 7.0
+      },
+      "C": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 41.0,
+        "regret": 0.09181090511048769,
+        "selected_size": 1.0,
+        "unique_reads": 7.0
+      },
+      "E": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 41.0,
+        "regret": 0.11129164671273167,
+        "selected_size": 1.5,
+        "unique_reads": 7.0
+      },
+      "H": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 41.0,
+        "regret": 0.11129164671273167,
+        "selected_size": 1.5,
+        "unique_reads": 7.0
+      },
+      "R": {
+        "accepted_reads": 4.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 41.0,
+        "regret": 0.11129164671273167,
+        "selected_size": 1.5,
+        "unique_reads": 7.0
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "B": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.575,
+        "budget_denials": 0.225,
+        "cache_reads": 17.175,
+        "regret": 0.25043300007966585,
+        "selected_size": 1.025,
+        "unique_reads": 10.875
+      },
+      "C": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.5875,
+        "budget_denials": 0.225,
+        "cache_reads": 17.175,
+        "regret": 0.27955353856223325,
+        "selected_size": 1.05,
+        "unique_reads": 10.875
+      },
+      "E": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.575,
+        "budget_denials": 0.225,
+        "cache_reads": 17.175,
+        "regret": 0.2553298708017707,
+        "selected_size": 1.0,
+        "unique_reads": 10.875
+      },
+      "H": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.5625,
+        "budget_denials": 0.225,
+        "cache_reads": 17.175,
+        "regret": 0.2861705498410064,
+        "selected_size": 1.05,
+        "unique_reads": 10.875
+      },
+      "R": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.5583333333333333,
+        "budget_denials": 0.225,
+        "cache_reads": 17.175,
+        "regret": 0.29809590294799815,
+        "selected_size": 1.35,
+        "unique_reads": 10.875
+      }
+    },
+    "random-acts-of-pizza": {
+      "B": {
+        "accepted_reads": 8.175,
+        "best_hit": 0.05625,
+        "budget_denials": 1.125,
+        "cache_reads": 59.325,
+        "regret": 0.4188525486299848,
+        "selected_size": 1.125,
+        "unique_reads": 12.175
+      },
+      "C": {
+        "accepted_reads": 8.175,
+        "best_hit": 0.025,
+        "budget_denials": 1.125,
+        "cache_reads": 59.325,
+        "regret": 0.45480647208761243,
+        "selected_size": 1.325,
+        "unique_reads": 12.175
+      },
+      "E": {
+        "accepted_reads": 8.175,
+        "best_hit": 0.05625,
+        "budget_denials": 1.125,
+        "cache_reads": 59.325,
+        "regret": 0.4188525486299848,
+        "selected_size": 1.125,
+        "unique_reads": 12.175
+      },
+      "H": {
+        "accepted_reads": 8.175,
+        "best_hit": 0.04375,
+        "budget_denials": 1.125,
+        "cache_reads": 59.325,
+        "regret": 0.41892149117796196,
+        "selected_size": 1.25,
+        "unique_reads": 12.175
+      },
+      "R": {
+        "accepted_reads": 8.175,
+        "best_hit": 0.06458333333333334,
+        "budget_denials": 1.125,
+        "cache_reads": 59.325,
+        "regret": 0.40362805988789247,
+        "selected_size": 2.2,
+        "unique_reads": 12.175
+      }
+    },
+    "spooky-author-identification": {
+      "B": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 2.325,
+        "regret": 0.09657136799733791,
+        "selected_size": 1.0,
+        "unique_reads": 9.5
+      },
+      "C": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 2.325,
+        "regret": 0.09657136799733791,
+        "selected_size": 1.0,
+        "unique_reads": 9.5
+      },
+      "E": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 2.325,
+        "regret": 0.09657136799733791,
+        "selected_size": 1.0,
+        "unique_reads": 9.5
+      },
+      "H": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 2.325,
+        "regret": 0.09657136799733791,
+        "selected_size": 1.0,
+        "unique_reads": 9.5
+      },
+      "R": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 2.325,
+        "regret": 0.09824093657336191,
+        "selected_size": 1.075,
+        "unique_reads": 9.5
+      }
+    },
+    "stanford-covid-vaccine": {
+      "B": {
+        "accepted_reads": 9.2,
+        "best_hit": 0.175,
+        "budget_denials": 0.075,
+        "cache_reads": 15.3,
+        "regret": 0.2182966585412212,
+        "selected_size": 1.0,
+        "unique_reads": 10.575
+      },
+      "C": {
+        "accepted_reads": 9.2,
+        "best_hit": 0.1625,
+        "budget_denials": 0.075,
+        "cache_reads": 15.3,
+        "regret": 0.21320374375274326,
+        "selected_size": 1.125,
+        "unique_reads": 10.575
+      },
+      "E": {
+        "accepted_reads": 9.2,
+        "best_hit": 0.175,
+        "budget_denials": 0.075,
+        "cache_reads": 15.3,
+        "regret": 0.2182966585412212,
+        "selected_size": 1.0,
+        "unique_reads": 10.575
+      },
+      "H": {
+        "accepted_reads": 9.2,
+        "best_hit": 0.1875,
+        "budget_denials": 0.075,
+        "cache_reads": 15.3,
+        "regret": 0.2098528810319454,
+        "selected_size": 1.075,
+        "unique_reads": 10.575
+      },
+      "R": {
+        "accepted_reads": 9.2,
+        "best_hit": 0.13333333333333333,
+        "budget_denials": 0.075,
+        "cache_reads": 15.3,
+        "regret": 0.2008261824730046,
+        "selected_size": 1.425,
+        "unique_reads": 10.575
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "B": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.1,
+        "budget_denials": 0.1,
+        "cache_reads": 24.15,
+        "regret": 0.23401353746150547,
+        "selected_size": 1.05,
+        "unique_reads": 10.95
+      },
+      "C": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.125,
+        "budget_denials": 0.1,
+        "cache_reads": 24.15,
+        "regret": 0.18679498397165917,
+        "selected_size": 1.15,
+        "unique_reads": 10.95
+      },
+      "E": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.125,
+        "budget_denials": 0.1,
+        "cache_reads": 24.15,
+        "regret": 0.21210229179230863,
+        "selected_size": 1.05,
+        "unique_reads": 10.95
+      },
+      "H": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.1375,
+        "budget_denials": 0.1,
+        "cache_reads": 24.15,
+        "regret": 0.20802424931025496,
+        "selected_size": 1.25,
+        "unique_reads": 10.95
+      },
+      "R": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.14583333333333331,
+        "budget_denials": 0.1,
+        "cache_reads": 24.15,
+        "regret": 0.1799093565207012,
+        "selected_size": 1.575,
+        "unique_reads": 10.95
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "B": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.475,
+        "regret": 0.4079093108859193,
+        "selected_size": 1.025,
+        "unique_reads": 10.525
+      },
+      "C": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.475,
+        "regret": 0.39829949817457994,
+        "selected_size": 1.175,
+        "unique_reads": 10.525
+      },
+      "E": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.475,
+        "regret": 0.4079093108859193,
+        "selected_size": 1.025,
+        "unique_reads": 10.525
+      },
+      "H": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.475,
+        "regret": 0.4000205339728632,
+        "selected_size": 1.15,
+        "unique_reads": 10.525
+      },
+      "R": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 18.475,
+        "regret": 0.40597727885879936,
+        "selected_size": 1.525,
+        "unique_reads": 10.525
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "B": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.05,
+        "budget_denials": 0.35,
+        "cache_reads": 34.375,
+        "regret": 0.2692713416507545,
+        "selected_size": 1.05,
+        "unique_reads": 11.5
+      },
+      "C": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.05,
+        "budget_denials": 0.35,
+        "cache_reads": 34.375,
+        "regret": 0.2796184571192724,
+        "selected_size": 1.225,
+        "unique_reads": 11.5
+      },
+      "E": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.05,
+        "budget_denials": 0.35,
+        "cache_reads": 34.375,
+        "regret": 0.2692713416507545,
+        "selected_size": 1.05,
+        "unique_reads": 11.5
+      },
+      "H": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.058333333333333334,
+        "budget_denials": 0.35,
+        "cache_reads": 34.375,
+        "regret": 0.25008243038184386,
+        "selected_size": 1.1,
+        "unique_reads": 11.5
+      },
+      "R": {
+        "accepted_reads": 8.925,
+        "best_hit": 0.052083333333333336,
+        "budget_denials": 0.35,
+        "cache_reads": 34.375,
+        "regret": 0.27345653419045063,
+        "selected_size": 1.675,
+        "unique_reads": 11.5
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "B": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.275,
+        "budget_denials": 0.175,
+        "cache_reads": 16.875,
+        "regret": 0.3687003262641642,
+        "selected_size": 1.0,
+        "unique_reads": 10.3
+      },
+      "C": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.2875,
+        "budget_denials": 0.175,
+        "cache_reads": 16.875,
+        "regret": 0.35775033038335374,
+        "selected_size": 1.1,
+        "unique_reads": 10.3
+      },
+      "E": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.275,
+        "budget_denials": 0.175,
+        "cache_reads": 16.875,
+        "regret": 0.3687003262641642,
+        "selected_size": 1.0,
+        "unique_reads": 10.3
+      },
+      "H": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.2875,
+        "budget_denials": 0.175,
+        "cache_reads": 16.875,
+        "regret": 0.36330812552092706,
+        "selected_size": 1.05,
+        "unique_reads": 10.3
+      },
+      "R": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.2833333333333333,
+        "budget_denials": 0.175,
+        "cache_reads": 16.875,
+        "regret": 0.3721435531488782,
+        "selected_size": 1.4,
+        "unique_reads": 10.3
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "B": {
+        "accepted_reads": 6.5,
+        "best_hit": 0.175,
+        "budget_denials": 2.825,
+        "cache_reads": 104.1,
+        "regret": 0.6483615152876888,
+        "selected_size": 1.225,
+        "unique_reads": 12.725
+      },
+      "C": {
+        "accepted_reads": 6.5,
+        "best_hit": 0.18333333333333332,
+        "budget_denials": 2.825,
+        "cache_reads": 104.1,
+        "regret": 0.6439274893457986,
+        "selected_size": 1.425,
+        "unique_reads": 12.725
+      },
+      "E": {
+        "accepted_reads": 6.5,
+        "best_hit": 0.2,
+        "budget_denials": 2.825,
+        "cache_reads": 104.1,
+        "regret": 0.6098998158657256,
+        "selected_size": 1.175,
+        "unique_reads": 12.725
+      },
+      "H": {
+        "accepted_reads": 6.5,
+        "best_hit": 0.1625,
+        "budget_denials": 2.825,
+        "cache_reads": 104.1,
+        "regret": 0.6605199073166935,
+        "selected_size": 1.3,
+        "unique_reads": 12.725
+      },
+      "R": {
+        "accepted_reads": 6.5,
+        "best_hit": 0.08958333333333333,
+        "budget_denials": 2.825,
+        "cache_reads": 104.1,
+        "regret": 0.7253129777467745,
+        "selected_size": 2.1,
+        "unique_reads": 12.725
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "B": {
+        "accepted_reads": 6.325,
+        "best_hit": 0.025,
+        "budget_denials": 2.7,
+        "cache_reads": 107.875,
+        "regret": 0.7664644575812607,
+        "selected_size": 1.3,
+        "unique_reads": 12.825
+      },
+      "C": {
+        "accepted_reads": 6.325,
+        "best_hit": 0.01875,
+        "budget_denials": 2.7,
+        "cache_reads": 107.875,
+        "regret": 0.7922694422463511,
+        "selected_size": 1.825,
+        "unique_reads": 12.825
+      },
+      "E": {
+        "accepted_reads": 6.325,
+        "best_hit": 0.025,
+        "budget_denials": 2.7,
+        "cache_reads": 107.875,
+        "regret": 0.7664644575812607,
+        "selected_size": 1.3,
+        "unique_reads": 12.825
+      },
+      "H": {
+        "accepted_reads": 6.325,
+        "best_hit": 0.01875,
+        "budget_denials": 2.7,
+        "cache_reads": 107.875,
+        "regret": 0.7922682810915255,
+        "selected_size": 1.575,
+        "unique_reads": 12.825
+      },
+      "R": {
+        "accepted_reads": 6.325,
+        "best_hit": 0.03125,
+        "budget_denials": 2.7,
+        "cache_reads": 107.875,
+        "regret": 0.7744243493788444,
+        "selected_size": 2.75,
+        "unique_reads": 12.825
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "B": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.4375,
+        "budget_denials": 0.1,
+        "cache_reads": 12.625,
+        "regret": 0.07361911215823456,
+        "selected_size": 1.025,
+        "unique_reads": 10.425
+      },
+      "C": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.475,
+        "budget_denials": 0.1,
+        "cache_reads": 12.625,
+        "regret": 0.05820211904436967,
+        "selected_size": 1.1,
+        "unique_reads": 10.425
+      },
+      "E": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.4375,
+        "budget_denials": 0.1,
+        "cache_reads": 12.625,
+        "regret": 0.07361911215823456,
+        "selected_size": 1.025,
+        "unique_reads": 10.425
+      },
+      "H": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.475,
+        "budget_denials": 0.1,
+        "cache_reads": 12.625,
+        "regret": 0.06751381817234413,
+        "selected_size": 1.05,
+        "unique_reads": 10.425
+      },
+      "R": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.5208333333333333,
+        "budget_denials": 0.1,
+        "cache_reads": 12.625,
+        "regret": 0.049692718539759845,
+        "selected_size": 1.3,
+        "unique_reads": 10.425
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "B": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.0875,
+        "budget_denials": 0.275,
+        "cache_reads": 29.8,
+        "regret": 0.08588417278857352,
+        "selected_size": 1.1,
+        "unique_reads": 11.15
+      },
+      "C": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.1125,
+        "budget_denials": 0.275,
+        "cache_reads": 29.8,
+        "regret": 0.09747539743898549,
+        "selected_size": 1.1,
+        "unique_reads": 11.15
+      },
+      "E": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.0875,
+        "budget_denials": 0.275,
+        "cache_reads": 29.8,
+        "regret": 0.08588417278857352,
+        "selected_size": 1.1,
+        "unique_reads": 11.15
+      },
+      "H": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.075,
+        "budget_denials": 0.275,
+        "cache_reads": 29.8,
+        "regret": 0.08640897884717826,
+        "selected_size": 1.175,
+        "unique_reads": 11.15
+      },
+      "R": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.05833333333333333,
+        "budget_denials": 0.275,
+        "cache_reads": 29.8,
+        "regret": 0.08679145535270286,
+        "selected_size": 1.6,
+        "unique_reads": 11.15
+      }
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "aptos2019-blindness-detection": {
+      "B": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.15833333333333333,
+        "budget_denials": 2.2,
+        "cache_reads": 88.65,
+        "regret": 0.5464486777949489,
+        "selected_size": 1.225,
+        "unique_reads": 12.35
+      },
+      "C": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.16666666666666669,
+        "budget_denials": 2.2,
+        "cache_reads": 88.65,
+        "regret": 0.5302339306878798,
+        "selected_size": 1.275,
+        "unique_reads": 12.35
+      },
+      "E": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.13333333333333333,
+        "budget_denials": 2.2,
+        "cache_reads": 88.65,
+        "regret": 0.5467056214585045,
+        "selected_size": 1.225,
+        "unique_reads": 12.35
+      },
+      "H": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.175,
+        "budget_denials": 2.2,
+        "cache_reads": 88.65,
+        "regret": 0.5244501688683816,
+        "selected_size": 1.425,
+        "unique_reads": 12.35
+      },
+      "R": {
+        "accepted_reads": 6.95,
+        "best_hit": 0.1675,
+        "budget_denials": 2.2,
+        "cache_reads": 88.65,
+        "regret": 0.464361034365811,
+        "selected_size": 2.25,
+        "unique_reads": 12.35
+      }
+    },
+    "denoising-dirty-documents": {
+      "B": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 12.45,
+        "regret": 0.3624192153393534,
+        "selected_size": 1.025,
+        "unique_reads": 11.0
+      },
+      "C": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 12.45,
+        "regret": 0.36134328407115085,
+        "selected_size": 1.1,
+        "unique_reads": 11.0
+      },
+      "E": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.325,
+        "budget_denials": 0.075,
+        "cache_reads": 12.45,
+        "regret": 0.3624192153393534,
+        "selected_size": 1.025,
+        "unique_reads": 11.0
+      },
+      "H": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3125,
+        "budget_denials": 0.075,
+        "cache_reads": 12.45,
+        "regret": 0.39654558423647157,
+        "selected_size": 1.125,
+        "unique_reads": 11.0
+      },
+      "R": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.3,
+        "budget_denials": 0.075,
+        "cache_reads": 12.45,
+        "regret": 0.3855126459513528,
+        "selected_size": 1.325,
+        "unique_reads": 11.0
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "B": {
+        "accepted_reads": 6.15,
+        "best_hit": 0.24583333333333335,
+        "budget_denials": 3.425,
+        "cache_reads": 114.1,
+        "regret": 0.0695851624338368,
+        "selected_size": 1.25,
+        "unique_reads": 12.875
+      },
+      "C": {
+        "accepted_reads": 6.15,
+        "best_hit": 0.15416666666666667,
+        "budget_denials": 3.425,
+        "cache_reads": 114.1,
+        "regret": 0.08475234849897813,
+        "selected_size": 1.725,
+        "unique_reads": 12.875
+      },
+      "E": {
+        "accepted_reads": 6.15,
+        "best_hit": 0.24583333333333335,
+        "budget_denials": 3.425,
+        "cache_reads": 114.1,
+        "regret": 0.07385691988309519,
+        "selected_size": 1.225,
+        "unique_reads": 12.875
+      },
+      "H": {
+        "accepted_reads": 6.15,
+        "best_hit": 0.22916666666666666,
+        "budget_denials": 3.425,
+        "cache_reads": 114.1,
+        "regret": 0.07454218143079869,
+        "selected_size": 1.55,
+        "unique_reads": 12.875
+      },
+      "R": {
+        "accepted_reads": 6.15,
+        "best_hit": 0.18125,
+        "budget_denials": 3.425,
+        "cache_reads": 114.1,
+        "regret": 0.0807293529852879,
+        "selected_size": 2.4,
+        "unique_reads": 12.875
+      }
+    },
+    "dog-breed-identification": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "google-quest-challenge": {
+      "B": {
+        "accepted_reads": 9.225,
+        "best_hit": 0.475,
+        "budget_denials": 0.375,
+        "cache_reads": 16.075,
+        "regret": 0.14412216569074887,
+        "selected_size": 1.025,
+        "unique_reads": 10.975
+      },
+      "C": {
+        "accepted_reads": 9.225,
+        "best_hit": 0.525,
+        "budget_denials": 0.375,
+        "cache_reads": 16.075,
+        "regret": 0.15063775361403037,
+        "selected_size": 1.075,
+        "unique_reads": 10.975
+      },
+      "E": {
+        "accepted_reads": 9.225,
+        "best_hit": 0.5,
+        "budget_denials": 0.375,
+        "cache_reads": 16.075,
+        "regret": 0.14125699092755162,
+        "selected_size": 1.025,
+        "unique_reads": 10.975
+      },
+      "H": {
+        "accepted_reads": 9.225,
+        "best_hit": 0.5,
+        "budget_denials": 0.375,
+        "cache_reads": 16.075,
+        "regret": 0.1443982596030883,
+        "selected_size": 1.1,
+        "unique_reads": 10.975
+      },
+      "R": {
+        "accepted_reads": 9.225,
+        "best_hit": 0.4604166666666667,
+        "budget_denials": 0.375,
+        "cache_reads": 16.075,
+        "regret": 0.15454237276189015,
+        "selected_size": 1.4,
+        "unique_reads": 10.975
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "B": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 17.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "C": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.25,
+        "budget_denials": 0.0,
+        "cache_reads": 17.0,
+        "regret": 0.5142908827785829,
+        "selected_size": 2.0,
+        "unique_reads": 4.0
+      },
+      "E": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 17.0,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "H": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.25,
+        "budget_denials": 0.0,
+        "cache_reads": 17.0,
+        "regret": 0.5142908827785829,
+        "selected_size": 2.0,
+        "unique_reads": 4.0
+      },
+      "R": {
+        "accepted_reads": 3.0,
+        "best_hit": 0.25,
+        "budget_denials": 0.0,
+        "cache_reads": 17.0,
+        "regret": 0.5142908827785829,
+        "selected_size": 2.0,
+        "unique_reads": 4.0
+      }
+    },
+    "leaf-classification": {
+      "B": {
+        "accepted_reads": 8.6,
+        "best_hit": 0.2875,
+        "budget_denials": 0.25,
+        "cache_reads": 33.1,
+        "regret": 0.017693211547628422,
+        "selected_size": 1.025,
+        "unique_reads": 11.45
+      },
+      "C": {
+        "accepted_reads": 8.6,
+        "best_hit": 0.325,
+        "budget_denials": 0.25,
+        "cache_reads": 33.1,
+        "regret": 0.021445977474641168,
+        "selected_size": 1.325,
+        "unique_reads": 11.45
+      },
+      "E": {
+        "accepted_reads": 8.6,
+        "best_hit": 0.2875,
+        "budget_denials": 0.25,
+        "cache_reads": 33.1,
+        "regret": 0.017693211547628422,
+        "selected_size": 1.025,
+        "unique_reads": 11.45
+      },
+      "H": {
+        "accepted_reads": 8.6,
+        "best_hit": 0.3,
+        "budget_denials": 0.25,
+        "cache_reads": 33.1,
+        "regret": 0.01749609838035005,
+        "selected_size": 1.1,
+        "unique_reads": 11.45
+      },
+      "R": {
+        "accepted_reads": 8.6,
+        "best_hit": 0.30208333333333337,
+        "budget_denials": 0.25,
+        "cache_reads": 33.1,
+        "regret": 0.018528626920266928,
+        "selected_size": 1.75,
+        "unique_reads": 11.45
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "B": {
+        "accepted_reads": 8.55,
+        "best_hit": 0.65,
+        "budget_denials": 0.875,
+        "cache_reads": 36.925,
+        "regret": 0.07879292496661246,
+        "selected_size": 1.0,
+        "unique_reads": 11.925
+      },
+      "C": {
+        "accepted_reads": 8.55,
+        "best_hit": 0.5875,
+        "budget_denials": 0.875,
+        "cache_reads": 36.925,
+        "regret": 0.07619950766406272,
+        "selected_size": 1.075,
+        "unique_reads": 11.925
+      },
+      "E": {
+        "accepted_reads": 8.55,
+        "best_hit": 0.625,
+        "budget_denials": 0.875,
+        "cache_reads": 36.925,
+        "regret": 0.07887971842352616,
+        "selected_size": 1.0,
+        "unique_reads": 11.925
+      },
+      "H": {
+        "accepted_reads": 8.55,
+        "best_hit": 0.6,
+        "budget_denials": 0.875,
+        "cache_reads": 36.925,
+        "regret": 0.08908714763337816,
+        "selected_size": 1.1,
+        "unique_reads": 11.925
+      },
+      "R": {
+        "accepted_reads": 8.55,
+        "best_hit": 0.5520833333333333,
+        "budget_denials": 0.875,
+        "cache_reads": 36.925,
+        "regret": 0.12145629012753192,
+        "selected_size": 1.725,
+        "unique_reads": 11.925
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "B": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.15,
+        "budget_denials": 0.225,
+        "cache_reads": 27.825,
+        "regret": 0.23343168480377946,
+        "selected_size": 1.025,
+        "unique_reads": 11.15
+      },
+      "C": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.1375,
+        "budget_denials": 0.225,
+        "cache_reads": 27.825,
+        "regret": 0.25255003222182404,
+        "selected_size": 1.125,
+        "unique_reads": 11.15
+      },
+      "E": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.15,
+        "budget_denials": 0.225,
+        "cache_reads": 27.825,
+        "regret": 0.23343168480377946,
+        "selected_size": 1.025,
+        "unique_reads": 11.15
+      },
+      "H": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.15,
+        "budget_denials": 0.225,
+        "cache_reads": 27.825,
+        "regret": 0.23155842235056096,
+        "selected_size": 1.125,
+        "unique_reads": 11.15
+      },
+      "R": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.12083333333333332,
+        "budget_denials": 0.225,
+        "cache_reads": 27.825,
+        "regret": 0.22923277840827155,
+        "selected_size": 1.65,
+        "unique_reads": 11.15
+      }
+    },
+    "mlsp-2013-birds": {
+      "B": {
+        "accepted_reads": 8.8,
+        "best_hit": 0.025,
+        "budget_denials": 0.05,
+        "cache_reads": 26.425,
+        "regret": 0.2824920647689862,
+        "selected_size": 1.0,
+        "unique_reads": 10.65
+      },
+      "C": {
+        "accepted_reads": 8.8,
+        "best_hit": 0.020833333333333332,
+        "budget_denials": 0.05,
+        "cache_reads": 26.425,
+        "regret": 0.2852054722386658,
+        "selected_size": 1.2,
+        "unique_reads": 10.65
+      },
+      "E": {
+        "accepted_reads": 8.8,
+        "best_hit": 0.025,
+        "budget_denials": 0.05,
+        "cache_reads": 26.425,
+        "regret": 0.2824920647689862,
+        "selected_size": 1.0,
+        "unique_reads": 10.65
+      },
+      "H": {
+        "accepted_reads": 8.8,
+        "best_hit": 0.025,
+        "budget_denials": 0.05,
+        "cache_reads": 26.425,
+        "regret": 0.27467492110460295,
+        "selected_size": 1.1,
+        "unique_reads": 10.65
+      },
+      "R": {
+        "accepted_reads": 8.8,
+        "best_hit": 0.0375,
+        "budget_denials": 0.05,
+        "cache_reads": 26.425,
+        "regret": 0.3121196170330197,
+        "selected_size": 1.6,
+        "unique_reads": 10.65
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "B": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.325,
+        "budget_denials": 0.125,
+        "cache_reads": 15.4,
+        "regret": 0.06035508850752769,
+        "selected_size": 1.0,
+        "unique_reads": 10.775
+      },
+      "C": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.3875,
+        "budget_denials": 0.125,
+        "cache_reads": 15.4,
+        "regret": 0.0723753354904536,
+        "selected_size": 1.175,
+        "unique_reads": 10.775
+      },
+      "E": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.325,
+        "budget_denials": 0.125,
+        "cache_reads": 15.4,
+        "regret": 0.06030417710426837,
+        "selected_size": 1.0,
+        "unique_reads": 10.775
+      },
+      "H": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.3625,
+        "budget_denials": 0.125,
+        "cache_reads": 15.4,
+        "regret": 0.06258686313225778,
+        "selected_size": 1.125,
+        "unique_reads": 10.775
+      },
+      "R": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.375,
+        "budget_denials": 0.125,
+        "cache_reads": 15.4,
+        "regret": 0.07116863639594621,
+        "selected_size": 1.35,
+        "unique_reads": 10.775
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.05236907730673363,
+        "selected_size": 2.0,
+        "unique_reads": 3.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.05236907730673363,
+        "selected_size": 1.0,
+        "unique_reads": 3.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.05236907730673363,
+        "selected_size": 2.0,
+        "unique_reads": 3.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.05236907730673363,
+        "selected_size": 2.0,
+        "unique_reads": 3.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 11.0,
+        "regret": 0.05236907730673363,
+        "selected_size": 2.0,
+        "unique_reads": 3.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "B": {
+        "accepted_reads": 5.5,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 13.5,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "C": {
+        "accepted_reads": 5.5,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 13.5,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "E": {
+        "accepted_reads": 5.5,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 13.5,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "H": {
+        "accepted_reads": 5.5,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 13.5,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "R": {
+        "accepted_reads": 5.5,
+        "best_hit": 0.75,
+        "budget_denials": 0.0,
+        "cache_reads": 13.5,
+        "regret": 0.25,
+        "selected_size": 1.5,
+        "unique_reads": 7.5
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "B": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 46.5,
+        "regret": 0.4816993911199294,
+        "selected_size": 1.0,
+        "unique_reads": 7.0
+      },
+      "C": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.16666666666666666,
+        "budget_denials": 0.0,
+        "cache_reads": 46.5,
+        "regret": 0.3364347449317009,
+        "selected_size": 2.0,
+        "unique_reads": 7.0
+      },
+      "E": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 46.5,
+        "regret": 0.4816993911199294,
+        "selected_size": 1.0,
+        "unique_reads": 7.0
+      },
+      "H": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 46.5,
+        "regret": 0.3842272696175689,
+        "selected_size": 1.5,
+        "unique_reads": 7.0
+      },
+      "R": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 46.5,
+        "regret": 0.3062358897174525,
+        "selected_size": 2.0,
+        "unique_reads": 7.0
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "B": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.7,
+        "budget_denials": 0.15,
+        "cache_reads": 10.15,
+        "regret": 0.2148914109237412,
+        "selected_size": 1.0,
+        "unique_reads": 10.925
+      },
+      "C": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.675,
+        "budget_denials": 0.15,
+        "cache_reads": 10.15,
+        "regret": 0.2239038189508335,
+        "selected_size": 1.075,
+        "unique_reads": 10.925
+      },
+      "E": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.7,
+        "budget_denials": 0.15,
+        "cache_reads": 10.15,
+        "regret": 0.2148914109237412,
+        "selected_size": 1.0,
+        "unique_reads": 10.925
+      },
+      "H": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.675,
+        "budget_denials": 0.15,
+        "cache_reads": 10.15,
+        "regret": 0.2319442595295254,
+        "selected_size": 1.025,
+        "unique_reads": 10.925
+      },
+      "R": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.6208333333333333,
+        "budget_denials": 0.15,
+        "cache_reads": 10.15,
+        "regret": 0.2489078930325141,
+        "selected_size": 1.25,
+        "unique_reads": 10.925
+      }
+    },
+    "random-acts-of-pizza": {
+      "B": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.025,
+        "budget_denials": 1.05,
+        "cache_reads": 51.625,
+        "regret": 0.4288651500013615,
+        "selected_size": 1.075,
+        "unique_reads": 12.025
+      },
+      "C": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.0625,
+        "budget_denials": 1.05,
+        "cache_reads": 51.625,
+        "regret": 0.39233282610899395,
+        "selected_size": 1.35,
+        "unique_reads": 12.025
+      },
+      "E": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.025,
+        "budget_denials": 1.05,
+        "cache_reads": 51.625,
+        "regret": 0.4288651500013615,
+        "selected_size": 1.075,
+        "unique_reads": 12.025
+      },
+      "H": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.05,
+        "budget_denials": 1.05,
+        "cache_reads": 51.625,
+        "regret": 0.40383183399306943,
+        "selected_size": 1.175,
+        "unique_reads": 12.025
+      },
+      "R": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.05,
+        "budget_denials": 1.05,
+        "cache_reads": 51.625,
+        "regret": 0.4153810446502167,
+        "selected_size": 1.95,
+        "unique_reads": 12.025
+      }
+    },
+    "spooky-author-identification": {
+      "B": {
+        "accepted_reads": 9.05,
+        "best_hit": 0.275,
+        "budget_denials": 0.0,
+        "cache_reads": 2.8,
+        "regret": 0.10927170259951735,
+        "selected_size": 1.025,
+        "unique_reads": 9.325
+      },
+      "C": {
+        "accepted_reads": 9.05,
+        "best_hit": 0.275,
+        "budget_denials": 0.0,
+        "cache_reads": 2.8,
+        "regret": 0.11478196205420292,
+        "selected_size": 1.0,
+        "unique_reads": 9.325
+      },
+      "E": {
+        "accepted_reads": 9.05,
+        "best_hit": 0.275,
+        "budget_denials": 0.0,
+        "cache_reads": 2.8,
+        "regret": 0.10927170259951735,
+        "selected_size": 1.025,
+        "unique_reads": 9.325
+      },
+      "H": {
+        "accepted_reads": 9.05,
+        "best_hit": 0.275,
+        "budget_denials": 0.0,
+        "cache_reads": 2.8,
+        "regret": 0.10927170259951735,
+        "selected_size": 1.025,
+        "unique_reads": 9.325
+      },
+      "R": {
+        "accepted_reads": 9.05,
+        "best_hit": 0.275,
+        "budget_denials": 0.0,
+        "cache_reads": 2.8,
+        "regret": 0.11196382039788429,
+        "selected_size": 1.075,
+        "unique_reads": 9.325
+      }
+    },
+    "stanford-covid-vaccine": {
+      "B": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.15,
+        "budget_denials": 0.1,
+        "cache_reads": 18.95,
+        "regret": 0.21960627198605143,
+        "selected_size": 1.0,
+        "unique_reads": 10.825
+      },
+      "C": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.15,
+        "budget_denials": 0.1,
+        "cache_reads": 18.95,
+        "regret": 0.2131104917004897,
+        "selected_size": 1.0,
+        "unique_reads": 10.825
+      },
+      "E": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.15,
+        "budget_denials": 0.1,
+        "cache_reads": 18.95,
+        "regret": 0.21960627198605143,
+        "selected_size": 1.0,
+        "unique_reads": 10.825
+      },
+      "H": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.1625,
+        "budget_denials": 0.1,
+        "cache_reads": 18.95,
+        "regret": 0.21381075654749995,
+        "selected_size": 1.075,
+        "unique_reads": 10.825
+      },
+      "R": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.175,
+        "budget_denials": 0.1,
+        "cache_reads": 18.95,
+        "regret": 0.21241600450083492,
+        "selected_size": 1.5,
+        "unique_reads": 10.825
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "B": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.2,
+        "budget_denials": 0.25,
+        "cache_reads": 34.725,
+        "regret": 0.22663934337152,
+        "selected_size": 1.0,
+        "unique_reads": 11.625
+      },
+      "C": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.19583333333333333,
+        "budget_denials": 0.25,
+        "cache_reads": 34.725,
+        "regret": 0.17632911170379573,
+        "selected_size": 1.3,
+        "unique_reads": 11.625
+      },
+      "E": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.2125,
+        "budget_denials": 0.25,
+        "cache_reads": 34.725,
+        "regret": 0.20301479956750193,
+        "selected_size": 1.025,
+        "unique_reads": 11.625
+      },
+      "H": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.17083333333333334,
+        "budget_denials": 0.25,
+        "cache_reads": 34.725,
+        "regret": 0.2010085831002324,
+        "selected_size": 1.25,
+        "unique_reads": 11.625
+      },
+      "R": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.20208333333333334,
+        "budget_denials": 0.25,
+        "cache_reads": 34.725,
+        "regret": 0.16931104638590586,
+        "selected_size": 1.825,
+        "unique_reads": 11.625
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "B": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 19.2,
+        "regret": 0.42266310814831753,
+        "selected_size": 1.0,
+        "unique_reads": 10.475
+      },
+      "C": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 19.2,
+        "regret": 0.4164423389154514,
+        "selected_size": 1.1,
+        "unique_reads": 10.475
+      },
+      "E": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 19.2,
+        "regret": 0.42151455522380826,
+        "selected_size": 1.0,
+        "unique_reads": 10.475
+      },
+      "H": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 19.2,
+        "regret": 0.42136558376796457,
+        "selected_size": 1.075,
+        "unique_reads": 10.475
+      },
+      "R": {
+        "accepted_reads": 8.65,
+        "best_hit": 0.0125,
+        "budget_denials": 0.025,
+        "cache_reads": 19.2,
+        "regret": 0.4251059719649663,
+        "selected_size": 1.475,
+        "unique_reads": 10.475
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "B": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.05,
+        "budget_denials": 0.15,
+        "cache_reads": 29.225,
+        "regret": 0.3031588007641766,
+        "selected_size": 1.0,
+        "unique_reads": 11.35
+      },
+      "C": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.05,
+        "budget_denials": 0.15,
+        "cache_reads": 29.225,
+        "regret": 0.32419765579101306,
+        "selected_size": 1.15,
+        "unique_reads": 11.35
+      },
+      "E": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.05,
+        "budget_denials": 0.15,
+        "cache_reads": 29.225,
+        "regret": 0.2816038143706111,
+        "selected_size": 1.025,
+        "unique_reads": 11.35
+      },
+      "H": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.05,
+        "budget_denials": 0.15,
+        "cache_reads": 29.225,
+        "regret": 0.3120070240877689,
+        "selected_size": 1.175,
+        "unique_reads": 11.35
+      },
+      "R": {
+        "accepted_reads": 8.875,
+        "best_hit": 0.0375,
+        "budget_denials": 0.15,
+        "cache_reads": 29.225,
+        "regret": 0.33674150060811464,
+        "selected_size": 1.675,
+        "unique_reads": 11.35
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "B": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.175,
+        "budget_denials": 0.0,
+        "cache_reads": 3.65,
+        "regret": 0.4635873067025604,
+        "selected_size": 1.0,
+        "unique_reads": 9.825
+      },
+      "C": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.1875,
+        "budget_denials": 0.0,
+        "cache_reads": 3.65,
+        "regret": 0.4576730010639432,
+        "selected_size": 1.05,
+        "unique_reads": 9.825
+      },
+      "E": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.175,
+        "budget_denials": 0.0,
+        "cache_reads": 3.65,
+        "regret": 0.4635873067025604,
+        "selected_size": 1.0,
+        "unique_reads": 9.825
+      },
+      "H": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.1875,
+        "budget_denials": 0.0,
+        "cache_reads": 3.65,
+        "regret": 0.4587375799266041,
+        "selected_size": 1.025,
+        "unique_reads": 9.825
+      },
+      "R": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.175,
+        "budget_denials": 0.0,
+        "cache_reads": 3.65,
+        "regret": 0.4568474741318589,
+        "selected_size": 1.1,
+        "unique_reads": 9.825
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "B": {
+        "accepted_reads": 6.025,
+        "best_hit": 0.0375,
+        "budget_denials": 3.2,
+        "cache_reads": 115.15,
+        "regret": 0.7833061496777949,
+        "selected_size": 1.175,
+        "unique_reads": 12.85
+      },
+      "C": {
+        "accepted_reads": 6.025,
+        "best_hit": 0.03958333333333333,
+        "budget_denials": 3.2,
+        "cache_reads": 115.15,
+        "regret": 0.7639349877823873,
+        "selected_size": 1.6,
+        "unique_reads": 12.85
+      },
+      "E": {
+        "accepted_reads": 6.025,
+        "best_hit": 0.0375,
+        "budget_denials": 3.2,
+        "cache_reads": 115.15,
+        "regret": 0.7894013309113825,
+        "selected_size": 1.125,
+        "unique_reads": 12.85
+      },
+      "H": {
+        "accepted_reads": 6.025,
+        "best_hit": 0.04375,
+        "budget_denials": 3.2,
+        "cache_reads": 115.15,
+        "regret": 0.7587165238230139,
+        "selected_size": 1.5,
+        "unique_reads": 12.85
+      },
+      "R": {
+        "accepted_reads": 6.025,
+        "best_hit": 0.02708333333333333,
+        "budget_denials": 3.2,
+        "cache_reads": 115.15,
+        "regret": 0.7316179679823598,
+        "selected_size": 2.25,
+        "unique_reads": 12.85
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "B": {
+        "accepted_reads": 6.675,
+        "best_hit": 0.1,
+        "budget_denials": 2.375,
+        "cache_reads": 101.175,
+        "regret": 0.6478567398275883,
+        "selected_size": 1.375,
+        "unique_reads": 12.55
+      },
+      "C": {
+        "accepted_reads": 6.675,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 2.375,
+        "cache_reads": 101.175,
+        "regret": 0.6789923736069515,
+        "selected_size": 1.75,
+        "unique_reads": 12.55
+      },
+      "E": {
+        "accepted_reads": 6.675,
+        "best_hit": 0.1,
+        "budget_denials": 2.375,
+        "cache_reads": 101.175,
+        "regret": 0.6437693103200633,
+        "selected_size": 1.275,
+        "unique_reads": 12.55
+      },
+      "H": {
+        "accepted_reads": 6.675,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 2.375,
+        "cache_reads": 101.175,
+        "regret": 0.6632062603345635,
+        "selected_size": 1.675,
+        "unique_reads": 12.55
+      },
+      "R": {
+        "accepted_reads": 6.675,
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 2.375,
+        "cache_reads": 101.175,
+        "regret": 0.7269239403777612,
+        "selected_size": 2.725,
+        "unique_reads": 12.55
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "B": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.575,
+        "budget_denials": 0.05,
+        "cache_reads": 11.65,
+        "regret": 0.024004437392432597,
+        "selected_size": 1.025,
+        "unique_reads": 10.25
+      },
+      "C": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.5625,
+        "budget_denials": 0.05,
+        "cache_reads": 11.65,
+        "regret": 0.022512601510006548,
+        "selected_size": 1.1,
+        "unique_reads": 10.25
+      },
+      "E": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.575,
+        "budget_denials": 0.05,
+        "cache_reads": 11.65,
+        "regret": 0.024004437392432597,
+        "selected_size": 1.025,
+        "unique_reads": 10.25
+      },
+      "H": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.525,
+        "budget_denials": 0.05,
+        "cache_reads": 11.65,
+        "regret": 0.025338178162866133,
+        "selected_size": 1.075,
+        "unique_reads": 10.25
+      },
+      "R": {
+        "accepted_reads": 9.15,
+        "best_hit": 0.5291666666666667,
+        "budget_denials": 0.05,
+        "cache_reads": 11.65,
+        "regret": 0.027563399332036796,
+        "selected_size": 1.3,
+        "unique_reads": 10.25
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "B": {
+        "accepted_reads": 8.775,
+        "best_hit": 0.1,
+        "budget_denials": 0.15,
+        "cache_reads": 28.15,
+        "regret": 0.07056726809073269,
+        "selected_size": 1.05,
+        "unique_reads": 11.1
+      },
+      "C": {
+        "accepted_reads": 8.775,
+        "best_hit": 0.10833333333333332,
+        "budget_denials": 0.15,
+        "cache_reads": 28.15,
+        "regret": 0.0704844716672992,
+        "selected_size": 1.175,
+        "unique_reads": 11.1
+      },
+      "E": {
+        "accepted_reads": 8.775,
+        "best_hit": 0.1,
+        "budget_denials": 0.15,
+        "cache_reads": 28.15,
+        "regret": 0.06833075372862585,
+        "selected_size": 1.05,
+        "unique_reads": 11.1
+      },
+      "H": {
+        "accepted_reads": 8.775,
+        "best_hit": 0.1,
+        "budget_denials": 0.15,
+        "cache_reads": 28.15,
+        "regret": 0.07038955788490366,
+        "selected_size": 1.075,
+        "unique_reads": 11.1
+      },
+      "R": {
+        "accepted_reads": 8.775,
+        "best_hit": 0.10208333333333333,
+        "budget_denials": 0.15,
+        "cache_reads": 28.15,
+        "regret": 0.07255499306733695,
+        "selected_size": 1.675,
+        "unique_reads": 11.1
+      }
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "aptos2019-blindness-detection": {
+      "B": {
+        "accepted_reads": 7.025,
+        "best_hit": 0.1,
+        "budget_denials": 1.8,
+        "cache_reads": 79.125,
+        "regret": 0.3754481046324788,
+        "selected_size": 1.05,
+        "unique_reads": 12.55
+      },
+      "C": {
+        "accepted_reads": 7.025,
+        "best_hit": 0.0875,
+        "budget_denials": 1.8,
+        "cache_reads": 79.125,
+        "regret": 0.3603319970203228,
+        "selected_size": 1.425,
+        "unique_reads": 12.55
+      },
+      "E": {
+        "accepted_reads": 7.025,
+        "best_hit": 0.125,
+        "budget_denials": 1.8,
+        "cache_reads": 79.125,
+        "regret": 0.3738470761743399,
+        "selected_size": 1.05,
+        "unique_reads": 12.55
+      },
+      "H": {
+        "accepted_reads": 7.025,
+        "best_hit": 0.1,
+        "budget_denials": 1.8,
+        "cache_reads": 79.125,
+        "regret": 0.3596654891631662,
+        "selected_size": 1.3,
+        "unique_reads": 12.55
+      },
+      "R": {
+        "accepted_reads": 7.025,
+        "best_hit": 0.08333333333333333,
+        "budget_denials": 1.8,
+        "cache_reads": 79.125,
+        "regret": 0.3682392629212655,
+        "selected_size": 2.275,
+        "unique_reads": 12.55
+      }
+    },
+    "denoising-dirty-documents": {
+      "B": {
+        "accepted_reads": 8.95,
+        "best_hit": 0.35,
+        "budget_denials": 0.0,
+        "cache_reads": 10.55,
+        "regret": 0.2854566121980063,
+        "selected_size": 1.0,
+        "unique_reads": 10.325
+      },
+      "C": {
+        "accepted_reads": 8.95,
+        "best_hit": 0.3,
+        "budget_denials": 0.0,
+        "cache_reads": 10.55,
+        "regret": 0.322334270751628,
+        "selected_size": 1.1,
+        "unique_reads": 10.325
+      },
+      "E": {
+        "accepted_reads": 8.95,
+        "best_hit": 0.35,
+        "budget_denials": 0.0,
+        "cache_reads": 10.55,
+        "regret": 0.2854566121980063,
+        "selected_size": 1.0,
+        "unique_reads": 10.325
+      },
+      "H": {
+        "accepted_reads": 8.95,
+        "best_hit": 0.3375,
+        "budget_denials": 0.0,
+        "cache_reads": 10.55,
+        "regret": 0.3095725364303751,
+        "selected_size": 1.05,
+        "unique_reads": 10.325
+      },
+      "R": {
+        "accepted_reads": 8.95,
+        "best_hit": 0.2875,
+        "budget_denials": 0.0,
+        "cache_reads": 10.55,
+        "regret": 0.3338744710641563,
+        "selected_size": 1.275,
+        "unique_reads": 10.325
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "B": {
+        "accepted_reads": 5.875,
+        "best_hit": 0.1875,
+        "budget_denials": 4.075,
+        "cache_reads": 119.05,
+        "regret": 0.09771788922999497,
+        "selected_size": 1.2,
+        "unique_reads": 12.75
+      },
+      "C": {
+        "accepted_reads": 5.875,
+        "best_hit": 0.26041666666666663,
+        "budget_denials": 4.075,
+        "cache_reads": 119.05,
+        "regret": 0.09662493754155169,
+        "selected_size": 1.55,
+        "unique_reads": 12.75
+      },
+      "E": {
+        "accepted_reads": 5.875,
+        "best_hit": 0.1875,
+        "budget_denials": 4.075,
+        "cache_reads": 119.05,
+        "regret": 0.10283940928691929,
+        "selected_size": 1.2,
+        "unique_reads": 12.75
+      },
+      "H": {
+        "accepted_reads": 5.875,
+        "best_hit": 0.24458333333333332,
+        "budget_denials": 4.075,
+        "cache_reads": 119.05,
+        "regret": 0.09249788767578727,
+        "selected_size": 1.775,
+        "unique_reads": 12.75
+      },
+      "R": {
+        "accepted_reads": 5.875,
+        "best_hit": 0.25916666666666666,
+        "budget_denials": 4.075,
+        "cache_reads": 119.05,
+        "regret": 0.10618488406009267,
+        "selected_size": 2.35,
+        "unique_reads": 12.75
+      }
+    },
+    "dog-breed-identification": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "google-quest-challenge": {
+      "B": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.45,
+        "budget_denials": 0.05,
+        "cache_reads": 6.85,
+        "regret": 0.1929021446999692,
+        "selected_size": 1.0,
+        "unique_reads": 9.9
+      },
+      "C": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.4208333333333333,
+        "budget_denials": 0.05,
+        "cache_reads": 6.85,
+        "regret": 0.18126830305366745,
+        "selected_size": 1.1,
+        "unique_reads": 9.9
+      },
+      "E": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.45,
+        "budget_denials": 0.05,
+        "cache_reads": 6.85,
+        "regret": 0.1929021446999692,
+        "selected_size": 1.0,
+        "unique_reads": 9.9
+      },
+      "H": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.45,
+        "budget_denials": 0.05,
+        "cache_reads": 6.85,
+        "regret": 0.17255972783735582,
+        "selected_size": 1.0,
+        "unique_reads": 9.9
+      },
+      "R": {
+        "accepted_reads": 9.075,
+        "best_hit": 0.4125,
+        "budget_denials": 0.05,
+        "cache_reads": 6.85,
+        "regret": 0.18679751807445888,
+        "selected_size": 1.175,
+        "unique_reads": 9.9
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "B": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "C": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 0.7642908827785829,
+        "selected_size": 1.5,
+        "unique_reads": 4.0
+      },
+      "E": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 1.0,
+        "selected_size": 1.0,
+        "unique_reads": 4.0
+      },
+      "H": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 0.7642908827785829,
+        "selected_size": 1.5,
+        "unique_reads": 4.0
+      },
+      "R": {
+        "accepted_reads": 3.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 8.5,
+        "regret": 0.7642908827785829,
+        "selected_size": 1.5,
+        "unique_reads": 4.0
+      }
+    },
+    "leaf-classification": {
+      "B": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.1,
+        "budget_denials": 0.55,
+        "cache_reads": 45.3,
+        "regret": 0.03285282015160197,
+        "selected_size": 1.125,
+        "unique_reads": 11.6
+      },
+      "C": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.10833333333333332,
+        "budget_denials": 0.55,
+        "cache_reads": 45.3,
+        "regret": 0.03746122529947592,
+        "selected_size": 1.2,
+        "unique_reads": 11.6
+      },
+      "E": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.1,
+        "budget_denials": 0.55,
+        "cache_reads": 45.3,
+        "regret": 0.03160991907600423,
+        "selected_size": 1.125,
+        "unique_reads": 11.6
+      },
+      "H": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.0625,
+        "budget_denials": 0.55,
+        "cache_reads": 45.3,
+        "regret": 0.03852648612563809,
+        "selected_size": 1.275,
+        "unique_reads": 11.6
+      },
+      "R": {
+        "accepted_reads": 8.25,
+        "best_hit": 0.11875,
+        "budget_denials": 0.55,
+        "cache_reads": 45.3,
+        "regret": 0.04009850847592694,
+        "selected_size": 2.075,
+        "unique_reads": 11.6
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "B": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.6333333333333333,
+        "budget_denials": 0.425,
+        "cache_reads": 38.075,
+        "regret": 0.03740006805218288,
+        "selected_size": 1.175,
+        "unique_reads": 11.75
+      },
+      "C": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.6708333333333333,
+        "budget_denials": 0.425,
+        "cache_reads": 38.075,
+        "regret": 0.026490896420400284,
+        "selected_size": 1.275,
+        "unique_reads": 11.75
+      },
+      "E": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.6333333333333333,
+        "budget_denials": 0.425,
+        "cache_reads": 38.075,
+        "regret": 0.03740006805218288,
+        "selected_size": 1.175,
+        "unique_reads": 11.75
+      },
+      "H": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.6166666666666667,
+        "budget_denials": 0.425,
+        "cache_reads": 38.075,
+        "regret": 0.03772693865937994,
+        "selected_size": 1.275,
+        "unique_reads": 11.75
+      },
+      "R": {
+        "accepted_reads": 8.675,
+        "best_hit": 0.6,
+        "budget_denials": 0.425,
+        "cache_reads": 38.075,
+        "regret": 0.045973874576088966,
+        "selected_size": 1.875,
+        "unique_reads": 11.75
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "B": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.125,
+        "budget_denials": 0.25,
+        "cache_reads": 29.025,
+        "regret": 0.2804875854946469,
+        "selected_size": 1.075,
+        "unique_reads": 10.9
+      },
+      "C": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.14583333333333331,
+        "budget_denials": 0.25,
+        "cache_reads": 29.025,
+        "regret": 0.2758883681846098,
+        "selected_size": 1.25,
+        "unique_reads": 10.9
+      },
+      "E": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.125,
+        "budget_denials": 0.25,
+        "cache_reads": 29.025,
+        "regret": 0.28098460422680577,
+        "selected_size": 1.075,
+        "unique_reads": 10.9
+      },
+      "H": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.15,
+        "budget_denials": 0.25,
+        "cache_reads": 29.025,
+        "regret": 0.27118320164604226,
+        "selected_size": 1.2,
+        "unique_reads": 10.9
+      },
+      "R": {
+        "accepted_reads": 8.725,
+        "best_hit": 0.12083333333333332,
+        "budget_denials": 0.25,
+        "cache_reads": 29.025,
+        "regret": 0.3032602119088391,
+        "selected_size": 1.675,
+        "unique_reads": 10.9
+      }
+    },
+    "mlsp-2013-birds": {
+      "B": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.075,
+        "budget_denials": 0.125,
+        "cache_reads": 21.6,
+        "regret": 0.24272157051509669,
+        "selected_size": 1.025,
+        "unique_reads": 10.975
+      },
+      "C": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.0625,
+        "budget_denials": 0.125,
+        "cache_reads": 21.6,
+        "regret": 0.24590849708761003,
+        "selected_size": 1.175,
+        "unique_reads": 10.975
+      },
+      "E": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.075,
+        "budget_denials": 0.125,
+        "cache_reads": 21.6,
+        "regret": 0.24272157051509669,
+        "selected_size": 1.025,
+        "unique_reads": 10.975
+      },
+      "H": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.075,
+        "budget_denials": 0.125,
+        "cache_reads": 21.6,
+        "regret": 0.24270142009754386,
+        "selected_size": 1.075,
+        "unique_reads": 10.975
+      },
+      "R": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.08125,
+        "budget_denials": 0.125,
+        "cache_reads": 21.6,
+        "regret": 0.2560283202589592,
+        "selected_size": 1.45,
+        "unique_reads": 10.975
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "B": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.425,
+        "budget_denials": 0.075,
+        "cache_reads": 13.9,
+        "regret": 0.10848480121929638,
+        "selected_size": 1.05,
+        "unique_reads": 10.5
+      },
+      "C": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.4125,
+        "budget_denials": 0.075,
+        "cache_reads": 13.9,
+        "regret": 0.12828768403395058,
+        "selected_size": 1.15,
+        "unique_reads": 10.5
+      },
+      "E": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.425,
+        "budget_denials": 0.075,
+        "cache_reads": 13.9,
+        "regret": 0.10848480121929638,
+        "selected_size": 1.05,
+        "unique_reads": 10.5
+      },
+      "H": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.4125,
+        "budget_denials": 0.075,
+        "cache_reads": 13.9,
+        "regret": 0.10903555534579468,
+        "selected_size": 1.15,
+        "unique_reads": 10.5
+      },
+      "R": {
+        "accepted_reads": 9.0,
+        "best_hit": 0.4,
+        "budget_denials": 0.075,
+        "cache_reads": 13.9,
+        "regret": 0.14062649370636224,
+        "selected_size": 1.325,
+        "unique_reads": 10.5
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "B": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "C": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "E": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "H": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      },
+      "R": {
+        "accepted_reads": 2.0,
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "selected_size": 1.0,
+        "unique_reads": 2.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "B": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.5,
+        "regret": 0.9048028977806842,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "C": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.5,
+        "regret": 0.8096057955613685,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "E": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.5,
+        "regret": 0.9048028977806842,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "H": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.5,
+        "regret": 0.8096057955613685,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      },
+      "R": {
+        "accepted_reads": 6.0,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.5,
+        "regret": 0.8096057955613685,
+        "selected_size": 1.0,
+        "unique_reads": 7.5
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "B": {
+        "accepted_reads": 5.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 28.0,
+        "regret": 0.4816993911199294,
+        "selected_size": 1.0,
+        "unique_reads": 9.0
+      },
+      "C": {
+        "accepted_reads": 5.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 28.0,
+        "regret": 0.4816993911199294,
+        "selected_size": 1.0,
+        "unique_reads": 9.0
+      },
+      "E": {
+        "accepted_reads": 5.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 28.0,
+        "regret": 0.4816993911199294,
+        "selected_size": 1.0,
+        "unique_reads": 9.0
+      },
+      "H": {
+        "accepted_reads": 5.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 28.0,
+        "regret": 0.4816993911199294,
+        "selected_size": 1.0,
+        "unique_reads": 9.0
+      },
+      "R": {
+        "accepted_reads": 5.5,
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 28.0,
+        "regret": 0.3062358897174525,
+        "selected_size": 2.0,
+        "unique_reads": 9.0
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "B": {
+        "accepted_reads": 8.75,
+        "best_hit": 0.675,
+        "budget_denials": 0.075,
+        "cache_reads": 18.65,
+        "regret": 0.1666767706875017,
+        "selected_size": 1.0,
+        "unique_reads": 10.625
+      },
+      "C": {
+        "accepted_reads": 8.75,
+        "best_hit": 0.6375,
+        "budget_denials": 0.075,
+        "cache_reads": 18.65,
+        "regret": 0.20354784848122615,
+        "selected_size": 1.075,
+        "unique_reads": 10.625
+      },
+      "E": {
+        "accepted_reads": 8.75,
+        "best_hit": 0.65,
+        "budget_denials": 0.075,
+        "cache_reads": 18.65,
+        "regret": 0.17984336344669033,
+        "selected_size": 1.0,
+        "unique_reads": 10.625
+      },
+      "H": {
+        "accepted_reads": 8.75,
+        "best_hit": 0.675,
+        "budget_denials": 0.075,
+        "cache_reads": 18.65,
+        "regret": 0.1666767706875017,
+        "selected_size": 1.0,
+        "unique_reads": 10.625
+      },
+      "R": {
+        "accepted_reads": 8.75,
+        "best_hit": 0.5770833333333333,
+        "budget_denials": 0.075,
+        "cache_reads": 18.65,
+        "regret": 0.22203468149086433,
+        "selected_size": 1.45,
+        "unique_reads": 10.625
+      }
+    },
+    "random-acts-of-pizza": {
+      "B": {
+        "accepted_reads": 8.45,
+        "best_hit": 0.0,
+        "budget_denials": 0.675,
+        "cache_reads": 41.95,
+        "regret": 0.3952313753467097,
+        "selected_size": 1.1,
+        "unique_reads": 11.775
+      },
+      "C": {
+        "accepted_reads": 8.45,
+        "best_hit": 0.0125,
+        "budget_denials": 0.675,
+        "cache_reads": 41.95,
+        "regret": 0.4003054283598589,
+        "selected_size": 1.225,
+        "unique_reads": 11.775
+      },
+      "E": {
+        "accepted_reads": 8.45,
+        "best_hit": 0.0,
+        "budget_denials": 0.675,
+        "cache_reads": 41.95,
+        "regret": 0.39539294546364,
+        "selected_size": 1.1,
+        "unique_reads": 11.775
+      },
+      "H": {
+        "accepted_reads": 8.45,
+        "best_hit": 0.0125,
+        "budget_denials": 0.675,
+        "cache_reads": 41.95,
+        "regret": 0.39939084958038046,
+        "selected_size": 1.2,
+        "unique_reads": 11.775
+      },
+      "R": {
+        "accepted_reads": 8.45,
+        "best_hit": 0.0125,
+        "budget_denials": 0.675,
+        "cache_reads": 41.95,
+        "regret": 0.4002960558670091,
+        "selected_size": 1.95,
+        "unique_reads": 11.775
+      }
+    },
+    "spooky-author-identification": {
+      "B": {
+        "accepted_reads": 9.175,
+        "best_hit": 0.3,
+        "budget_denials": 0.0,
+        "cache_reads": 3.8,
+        "regret": 0.11276999813292199,
+        "selected_size": 1.0,
+        "unique_reads": 9.675
+      },
+      "C": {
+        "accepted_reads": 9.175,
+        "best_hit": 0.3,
+        "budget_denials": 0.0,
+        "cache_reads": 3.8,
+        "regret": 0.11116082170116759,
+        "selected_size": 1.025,
+        "unique_reads": 9.675
+      },
+      "E": {
+        "accepted_reads": 9.175,
+        "best_hit": 0.3,
+        "budget_denials": 0.0,
+        "cache_reads": 3.8,
+        "regret": 0.11276999813292199,
+        "selected_size": 1.0,
+        "unique_reads": 9.675
+      },
+      "H": {
+        "accepted_reads": 9.175,
+        "best_hit": 0.3,
+        "budget_denials": 0.0,
+        "cache_reads": 3.8,
+        "regret": 0.11276999813292199,
+        "selected_size": 1.0,
+        "unique_reads": 9.675
+      },
+      "R": {
+        "accepted_reads": 9.175,
+        "best_hit": 0.3,
+        "budget_denials": 0.0,
+        "cache_reads": 3.8,
+        "regret": 0.11264397427497026,
+        "selected_size": 1.075,
+        "unique_reads": 9.675
+      }
+    },
+    "stanford-covid-vaccine": {
+      "B": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.1625,
+        "budget_denials": 0.325,
+        "cache_reads": 26.0,
+        "regret": 0.23662613184955456,
+        "selected_size": 1.075,
+        "unique_reads": 11.0
+      },
+      "C": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.15,
+        "budget_denials": 0.325,
+        "cache_reads": 26.0,
+        "regret": 0.23825653363813024,
+        "selected_size": 1.075,
+        "unique_reads": 11.0
+      },
+      "E": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.1625,
+        "budget_denials": 0.325,
+        "cache_reads": 26.0,
+        "regret": 0.23662613184955456,
+        "selected_size": 1.075,
+        "unique_reads": 11.0
+      },
+      "H": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.15,
+        "budget_denials": 0.325,
+        "cache_reads": 26.0,
+        "regret": 0.23784003391490102,
+        "selected_size": 1.125,
+        "unique_reads": 11.0
+      },
+      "R": {
+        "accepted_reads": 8.825,
+        "best_hit": 0.12583333333333332,
+        "budget_denials": 0.325,
+        "cache_reads": 26.0,
+        "regret": 0.22053369327243294,
+        "selected_size": 1.65,
+        "unique_reads": 11.0
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "B": {
+        "accepted_reads": 8.85,
+        "best_hit": 0.1375,
+        "budget_denials": 0.125,
+        "cache_reads": 27.925,
+        "regret": 0.12672720388159314,
+        "selected_size": 1.1,
+        "unique_reads": 11.3
+      },
+      "C": {
+        "accepted_reads": 8.85,
+        "best_hit": 0.125,
+        "budget_denials": 0.125,
+        "cache_reads": 27.925,
+        "regret": 0.1268935268899468,
+        "selected_size": 1.125,
+        "unique_reads": 11.3
+      },
+      "E": {
+        "accepted_reads": 8.85,
+        "best_hit": 0.1375,
+        "budget_denials": 0.125,
+        "cache_reads": 27.925,
+        "regret": 0.1269850108489295,
+        "selected_size": 1.1,
+        "unique_reads": 11.3
+      },
+      "H": {
+        "accepted_reads": 8.85,
+        "best_hit": 0.0875,
+        "budget_denials": 0.125,
+        "cache_reads": 27.925,
+        "regret": 0.13063356318399968,
+        "selected_size": 1.2,
+        "unique_reads": 11.3
+      },
+      "R": {
+        "accepted_reads": 8.85,
+        "best_hit": 0.14583333333333331,
+        "budget_denials": 0.125,
+        "cache_reads": 27.925,
+        "regret": 0.14809073686237229,
+        "selected_size": 1.725,
+        "unique_reads": 11.3
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "B": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 9.925,
+        "regret": 0.4099544812758135,
+        "selected_size": 1.0,
+        "unique_reads": 10.325
+      },
+      "C": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 9.925,
+        "regret": 0.40909513312383383,
+        "selected_size": 1.05,
+        "unique_reads": 10.325
+      },
+      "E": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 9.925,
+        "regret": 0.4099544812758135,
+        "selected_size": 1.0,
+        "unique_reads": 10.325
+      },
+      "H": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 9.925,
+        "regret": 0.40694831871940185,
+        "selected_size": 1.025,
+        "unique_reads": 10.325
+      },
+      "R": {
+        "accepted_reads": 9.025,
+        "best_hit": 0.0,
+        "budget_denials": 0.025,
+        "cache_reads": 9.925,
+        "regret": 0.42800166581175436,
+        "selected_size": 1.225,
+        "unique_reads": 10.325
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "B": {
+        "accepted_reads": 8.475,
+        "best_hit": 0.05,
+        "budget_denials": 0.375,
+        "cache_reads": 34.65,
+        "regret": 0.30465422668907566,
+        "selected_size": 1.05,
+        "unique_reads": 11.925
+      },
+      "C": {
+        "accepted_reads": 8.475,
+        "best_hit": 0.08333333333333334,
+        "budget_denials": 0.375,
+        "cache_reads": 34.65,
+        "regret": 0.2938638969151902,
+        "selected_size": 1.075,
+        "unique_reads": 11.925
+      },
+      "E": {
+        "accepted_reads": 8.475,
+        "best_hit": 0.05,
+        "budget_denials": 0.375,
+        "cache_reads": 34.65,
+        "regret": 0.30465422668907566,
+        "selected_size": 1.05,
+        "unique_reads": 11.925
+      },
+      "H": {
+        "accepted_reads": 8.475,
+        "best_hit": 0.075,
+        "budget_denials": 0.375,
+        "cache_reads": 34.65,
+        "regret": 0.30313171572441533,
+        "selected_size": 1.225,
+        "unique_reads": 11.925
+      },
+      "R": {
+        "accepted_reads": 8.475,
+        "best_hit": 0.1,
+        "budget_denials": 0.375,
+        "cache_reads": 34.65,
+        "regret": 0.29602913129002234,
+        "selected_size": 1.65,
+        "unique_reads": 11.925
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "B": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.1375,
+        "budget_denials": 0.175,
+        "cache_reads": 13.725,
+        "regret": 0.4443023530450015,
+        "selected_size": 1.05,
+        "unique_reads": 10.3
+      },
+      "C": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.175,
+        "budget_denials": 0.175,
+        "cache_reads": 13.725,
+        "regret": 0.4261745105196629,
+        "selected_size": 1.125,
+        "unique_reads": 10.3
+      },
+      "E": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.1375,
+        "budget_denials": 0.175,
+        "cache_reads": 13.725,
+        "regret": 0.4443023530450015,
+        "selected_size": 1.05,
+        "unique_reads": 10.3
+      },
+      "H": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.15,
+        "budget_denials": 0.175,
+        "cache_reads": 13.725,
+        "regret": 0.4468340707380592,
+        "selected_size": 1.1,
+        "unique_reads": 10.3
+      },
+      "R": {
+        "accepted_reads": 9.125,
+        "best_hit": 0.175,
+        "budget_denials": 0.175,
+        "cache_reads": 13.725,
+        "regret": 0.3945519033656132,
+        "selected_size": 1.375,
+        "unique_reads": 10.3
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "B": {
+        "accepted_reads": 5.55,
+        "best_hit": 0.07916666666666666,
+        "budget_denials": 6.075,
+        "cache_reads": 140.825,
+        "regret": 0.5663684580477584,
+        "selected_size": 1.5,
+        "unique_reads": 13.0
+      },
+      "C": {
+        "accepted_reads": 5.55,
+        "best_hit": 0.03611111111111111,
+        "budget_denials": 6.075,
+        "cache_reads": 140.825,
+        "regret": 0.6466839805926727,
+        "selected_size": 2.025,
+        "unique_reads": 13.0
+      },
+      "E": {
+        "accepted_reads": 5.55,
+        "best_hit": 0.07916666666666666,
+        "budget_denials": 6.075,
+        "cache_reads": 140.825,
+        "regret": 0.5499578700901389,
+        "selected_size": 1.475,
+        "unique_reads": 13.0
+      },
+      "H": {
+        "accepted_reads": 5.55,
+        "best_hit": 0.0375,
+        "budget_denials": 6.075,
+        "cache_reads": 140.825,
+        "regret": 0.6021307097396776,
+        "selected_size": 1.8,
+        "unique_reads": 13.0
+      },
+      "R": {
+        "accepted_reads": 5.55,
+        "best_hit": 0.041666666666666664,
+        "budget_denials": 6.075,
+        "cache_reads": 140.825,
+        "regret": 0.6175384777115281,
+        "selected_size": 2.45,
+        "unique_reads": 13.0
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "B": {
+        "accepted_reads": 7.225,
+        "best_hit": 0.025,
+        "budget_denials": 1.675,
+        "cache_reads": 87.675,
+        "regret": 0.7823375647865793,
+        "selected_size": 1.0,
+        "unique_reads": 12.65
+      },
+      "C": {
+        "accepted_reads": 7.225,
+        "best_hit": 0.0,
+        "budget_denials": 1.675,
+        "cache_reads": 87.675,
+        "regret": 0.7921496391515936,
+        "selected_size": 1.325,
+        "unique_reads": 12.65
+      },
+      "E": {
+        "accepted_reads": 7.225,
+        "best_hit": 0.025,
+        "budget_denials": 1.675,
+        "cache_reads": 87.675,
+        "regret": 0.7828221706315055,
+        "selected_size": 1.0,
+        "unique_reads": 12.65
+      },
+      "H": {
+        "accepted_reads": 7.225,
+        "best_hit": 0.0,
+        "budget_denials": 1.675,
+        "cache_reads": 87.675,
+        "regret": 0.7881710755695677,
+        "selected_size": 1.4,
+        "unique_reads": 12.65
+      },
+      "R": {
+        "accepted_reads": 7.225,
+        "best_hit": 0.02708333333333333,
+        "budget_denials": 1.675,
+        "cache_reads": 87.675,
+        "regret": 0.7576935177651849,
+        "selected_size": 2.225,
+        "unique_reads": 12.65
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "B": {
+        "accepted_reads": 8.9,
+        "best_hit": 0.625,
+        "budget_denials": 0.2,
+        "cache_reads": 18.5,
+        "regret": 0.019826806394909392,
+        "selected_size": 1.05,
+        "unique_reads": 10.775
+      },
+      "C": {
+        "accepted_reads": 8.9,
+        "best_hit": 0.6,
+        "budget_denials": 0.2,
+        "cache_reads": 18.5,
+        "regret": 0.01838537514693642,
+        "selected_size": 1.125,
+        "unique_reads": 10.775
+      },
+      "E": {
+        "accepted_reads": 8.9,
+        "best_hit": 0.625,
+        "budget_denials": 0.2,
+        "cache_reads": 18.5,
+        "regret": 0.019826806394909392,
+        "selected_size": 1.05,
+        "unique_reads": 10.775
+      },
+      "H": {
+        "accepted_reads": 8.9,
+        "best_hit": 0.625,
+        "budget_denials": 0.2,
+        "cache_reads": 18.5,
+        "regret": 0.01710370076529174,
+        "selected_size": 1.125,
+        "unique_reads": 10.775
+      },
+      "R": {
+        "accepted_reads": 8.9,
+        "best_hit": 0.56875,
+        "budget_denials": 0.2,
+        "cache_reads": 18.5,
+        "regret": 0.019552945961240527,
+        "selected_size": 1.5,
+        "unique_reads": 10.775
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "B": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.075,
+        "budget_denials": 0.1,
+        "cache_reads": 18.1,
+        "regret": 0.07715874707034506,
+        "selected_size": 1.025,
+        "unique_reads": 10.75
+      },
+      "C": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.1,
+        "budget_denials": 0.1,
+        "cache_reads": 18.1,
+        "regret": 0.07860886108572061,
+        "selected_size": 1.05,
+        "unique_reads": 10.75
+      },
+      "E": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.075,
+        "budget_denials": 0.1,
+        "cache_reads": 18.1,
+        "regret": 0.07715874707034506,
+        "selected_size": 1.025,
+        "unique_reads": 10.75
+      },
+      "H": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.1125,
+        "budget_denials": 0.1,
+        "cache_reads": 18.1,
+        "regret": 0.07626487998633248,
+        "selected_size": 1.075,
+        "unique_reads": 10.75
+      },
+      "R": {
+        "accepted_reads": 9.1,
+        "best_hit": 0.0875,
+        "budget_denials": 0.1,
+        "cache_reads": 18.1,
+        "regret": 0.07851653259677714,
+        "selected_size": 1.425,
+        "unique_reads": 10.75
+      }
+    }
+  }
+}

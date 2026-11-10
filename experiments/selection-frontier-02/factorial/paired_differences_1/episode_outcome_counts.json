@@ -1,0 +1,286 @@
+{
+  "DeepSeek/C0_trace/g50_raw_vs_g70_raw": {
+    "equal": 436,
+    "worsened": 183,
+    "improved": 231
+  },
+  "DeepSeek/C0_trace/g50_raw_vs_actual_C0": {
+    "improved": 287,
+    "worsened": 198,
+    "equal": 365
+  },
+  "DeepSeek/C0_trace/g50_smooth_vs_g70_raw": {
+    "equal": 460,
+    "worsened": 177,
+    "improved": 213
+  },
+  "DeepSeek/C0_trace/g50_smooth_vs_actual_C0": {
+    "improved": 272,
+    "worsened": 196,
+    "equal": 382
+  },
+  "DeepSeek/C0_trace/g70_raw_vs_actual_C0": {
+    "improved": 156,
+    "worsened": 124,
+    "equal": 570
+  },
+  "DeepSeek/C0_trace/g70_smooth_vs_g70_raw": {
+    "equal": 818,
+    "improved": 23,
+    "worsened": 9
+  },
+  "DeepSeek/C0_trace/g70_smooth_vs_actual_C0": {
+    "improved": 176,
+    "worsened": 129,
+    "equal": 545
+  },
+  "DeepSeek/coverage_random/g50_raw_vs_g70_raw": {
+    "improved": 254,
+    "worsened": 258,
+    "equal": 338
+  },
+  "DeepSeek/coverage_random/g50_raw_vs_actual_C0": {
+    "improved": 336,
+    "worsened": 354,
+    "equal": 160
+  },
+  "DeepSeek/coverage_random/g50_smooth_vs_g70_raw": {
+    "improved": 253,
+    "worsened": 258,
+    "equal": 339
+  },
+  "DeepSeek/coverage_random/g50_smooth_vs_actual_C0": {
+    "improved": 338,
+    "worsened": 352,
+    "equal": 160
+  },
+  "DeepSeek/coverage_random/g70_raw_vs_actual_C0": {
+    "improved": 326,
+    "worsened": 337,
+    "equal": 187
+  },
+  "DeepSeek/coverage_random/g70_smooth_vs_g70_raw": {
+    "equal": 848,
+    "improved": 1,
+    "worsened": 1
+  },
+  "DeepSeek/coverage_random/g70_smooth_vs_actual_C0": {
+    "improved": 326,
+    "worsened": 337,
+    "equal": 187
+  },
+  "DeepSeek/random_pairs/g50_raw_vs_g70_raw": {
+    "equal": 357,
+    "improved": 248,
+    "worsened": 245
+  },
+  "DeepSeek/random_pairs/g50_raw_vs_actual_C0": {
+    "improved": 330,
+    "equal": 189,
+    "worsened": 331
+  },
+  "DeepSeek/random_pairs/g50_smooth_vs_g70_raw": {
+    "equal": 368,
+    "improved": 248,
+    "worsened": 234
+  },
+  "DeepSeek/random_pairs/g50_smooth_vs_actual_C0": {
+    "improved": 332,
+    "equal": 187,
+    "worsened": 331
+  },
+  "DeepSeek/random_pairs/g70_raw_vs_actual_C0": {
+    "improved": 313,
+    "worsened": 331,
+    "equal": 206
+  },
+  "DeepSeek/random_pairs/g70_smooth_vs_g70_raw": {
+    "equal": 844,
+    "worsened": 4,
+    "improved": 2
+  },
+  "DeepSeek/random_pairs/g70_smooth_vs_actual_C0": {
+    "improved": 312,
+    "worsened": 332,
+    "equal": 206
+  },
+  "GPT_task_first_mean/coverage_random/g50_raw_vs_g70_raw": {
+    "improved": 306,
+    "worsened": 314,
+    "equal": 230
+  },
+  "GPT_task_first_mean/coverage_random/g50_smooth_vs_g70_raw": {
+    "improved": 304,
+    "worsened": 316,
+    "equal": 230
+  },
+  "GPT_task_first_mean/coverage_random/g70_smooth_vs_g70_raw": {
+    "equal": 834,
+    "worsened": 10,
+    "improved": 6
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/coverage_random/g50_raw_vs_g70_raw": {
+    "improved": 192,
+    "worsened": 207,
+    "equal": 451
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/coverage_random/g50_smooth_vs_g70_raw": {
+    "improved": 188,
+    "worsened": 209,
+    "equal": 453
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/coverage_random/g70_smooth_vs_g70_raw": {
+    "equal": 844,
+    "worsened": 5,
+    "improved": 1
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/coverage_random/g50_raw_vs_g70_raw": {
+    "improved": 187,
+    "worsened": 209,
+    "equal": 454
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/coverage_random/g50_smooth_vs_g70_raw": {
+    "improved": 186,
+    "worsened": 210,
+    "equal": 454
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/coverage_random/g70_smooth_vs_g70_raw": {
+    "equal": 844,
+    "worsened": 3,
+    "improved": 3
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/coverage_random/g50_raw_vs_g70_raw": {
+    "equal": 444,
+    "worsened": 208,
+    "improved": 198
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/coverage_random/g50_smooth_vs_g70_raw": {
+    "equal": 445,
+    "worsened": 207,
+    "improved": 198
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/coverage_random/g70_smooth_vs_g70_raw": {
+    "equal": 846,
+    "worsened": 2,
+    "improved": 2
+  },
+  "DeepSeek/direct_gate_vs_smoothing": {
+    "worsened": 253,
+    "improved": 259,
+    "equal": 338
+  },
+  "DeepSeek/smooth_at_g50": {
+    "equal": 843,
+    "worsened": 5,
+    "improved": 2
+  },
+  "DeepSeek/gate_at_smooth": {
+    "improved": 252,
+    "worsened": 259,
+    "equal": 339
+  },
+  "DeepSeek/interaction": {
+    "equal": 841,
+    "worsened": 6,
+    "improved": 3
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/direct_gate_vs_smoothing": {
+    "worsened": 192,
+    "improved": 206,
+    "equal": 452
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/smooth_at_g50": {
+    "equal": 843,
+    "worsened": 5,
+    "improved": 2
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/gate_at_smooth": {
+    "improved": 188,
+    "worsened": 208,
+    "equal": 454
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406/interaction": {
+    "equal": 837,
+    "improved": 7,
+    "worsened": 6
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/direct_gate_vs_smoothing": {
+    "worsened": 186,
+    "improved": 210,
+    "equal": 454
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/smooth_at_g50": {
+    "equal": 849,
+    "worsened": 1
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/gate_at_smooth": {
+    "improved": 185,
+    "worsened": 211,
+    "equal": 454
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746/interaction": {
+    "equal": 843,
+    "worsened": 4,
+    "improved": 3
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/direct_gate_vs_smoothing": {
+    "equal": 443,
+    "improved": 208,
+    "worsened": 199
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/smooth_at_g50": {
+    "equal": 846,
+    "worsened": 2,
+    "improved": 2
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/gate_at_smooth": {
+    "equal": 444,
+    "worsened": 207,
+    "improved": 199
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620/interaction": {
+    "equal": 842,
+    "improved": 4,
+    "worsened": 4
+  },
+  "GPT_task_first_mean/direct_gate_vs_smoothing": {
+    "worsened": 306,
+    "improved": 313,
+    "equal": 231
+  },
+  "GPT_task_first_mean/smooth_at_g50": {
+    "equal": 839,
+    "worsened": 8,
+    "improved": 3
+  },
+  "GPT_task_first_mean/gate_at_smooth": {
+    "improved": 304,
+    "worsened": 315,
+    "equal": 231
+  },
+  "GPT_task_first_mean/interaction": {
+    "equal": 823,
+    "improved": 13,
+    "worsened": 14
+  },
+  "judge/gpt-5_1_1p0_pboost_cot_20251210_154406_vs_DeepSeek": {
+    "improved": 339,
+    "worsened": 349,
+    "equal": 162
+  },
+  "judge/gpt-5_1_1p0_pboost_cot_20251211_161746_vs_DeepSeek": {
+    "improved": 325,
+    "worsened": 371,
+    "equal": 154
+  },
+  "judge/gpt-5_1_1p0_pboost_cot_20251211_171620_vs_DeepSeek": {
+    "improved": 332,
+    "worsened": 360,
+    "equal": 158
+  },
+  "judge/GPT_task_first_mean_vs_DeepSeek": {
+    "improved": 354,
+    "worsened": 417,
+    "equal": 79
+  }
+}

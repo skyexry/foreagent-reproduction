@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "discovery_folds": 104,
+  "discovery_predictions": 3400,
+  "calibration_and_prediction_equal_between_stages": true
+}

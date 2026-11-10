@@ -1,0 +1,574 @@
+{
+  "DS1": {
+    "tasks": 26,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": 0.004322764036873392,
+        "ci95": [
+          -0.019061154833387012,
+          0.0356551091491167
+        ],
+        "hit_gain": 0.007123492826617831,
+        "leave_one_range": [
+          -0.008091156081825302,
+          0.008957811625801497
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.06040191649305626,
+        "ci95": [
+          0.0390076821383217,
+          0.08335810111211737
+        ],
+        "hit_gain": 0.058596802503052506,
+        "leave_one_range": [
+          0.054564279913443495,
+          0.06484200764168194
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.06472468052992965,
+        "ci95": [
+          0.036170253103244135,
+          0.10214887602205322
+        ],
+        "hit_gain": 0.06572029532967033,
+        "leave_one_range": [
+          0.05009586746169128,
+          0.06933768224003026
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 11.208653846153847,
+        "cache_reads": 75.22115384615384,
+        "budget_denials": 2.2490384615384618,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 11.181249999999999,
+        "cache_reads": 77.69615384615385,
+        "budget_denials": 2.3084134615384615,
+        "altered_queried": 0.5920673076923078,
+        "eligible_queried": 2.806730769230769,
+        "target_queried": 1.5177884615384616
+      },
+      "A": {
+        "unique_feedback_reads": 10.765625,
+        "cache_reads": 49.86754807692308,
+        "budget_denials": 1.1884615384615385,
+        "altered_queried": 1.2512019230769231,
+        "eligible_queried": 2.686298076923077,
+        "target_queried": 1.2512019230769231
+      }
+    },
+    "fold_averaged_episode_outcomes": {
+      "g_D": {
+        "improved": 531,
+        "worsened": 141,
+        "unchanged": 178
+      },
+      "g_A": {
+        "improved": 493,
+        "worsened": 153,
+        "unchanged": 204
+      },
+      "g_D_minus_g_A": {
+        "improved": 364,
+        "worsened": 407,
+        "unchanged": 79
+      }
+    }
+  },
+  "GPT_task_first_pooled": {
+    "tasks": 26,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": 0.05133167989616304,
+        "ci95": [
+          0.031131628037758537,
+          0.07414450740608756
+        ],
+        "hit_gain": 0.047409601393976396,
+        "leave_one_range": [
+          0.04564676571236652,
+          0.054034263728231266
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.02409391741865139,
+        "ci95": [
+          0.015242368251407571,
+          0.03427748503131729
+        ],
+        "hit_gain": 0.02148854039479039,
+        "leave_one_range": [
+          0.02110411627483095,
+          0.025057674115397447
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.07542559731481442,
+        "ci95": [
+          0.05182409240216657,
+          0.10134775007097763
+        ],
+        "hit_gain": 0.06889814178876678,
+        "leave_one_range": [
+          0.06829971237962118,
+          0.078442621207407
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 9.979166666666666,
+        "cache_reads": 32.84006410256411,
+        "budget_denials": 0.5951923076923078,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 9.981971153846153,
+        "cache_reads": 31.867548076923075,
+        "budget_denials": 0.6076121794871795,
+        "altered_queried": 0.7830929487179487,
+        "eligible_queried": 2.4964743589743588,
+        "target_queried": 1.8836538461538461
+      },
+      "A": {
+        "unique_feedback_reads": 9.599439102564103,
+        "cache_reads": 21.63966346153846,
+        "budget_denials": 0.30104166666666665,
+        "altered_queried": 0.5998397435897436,
+        "eligible_queried": 2.407612179487179,
+        "target_queried": 0.5998397435897436
+      }
+    },
+    "fold_averaged_episode_outcomes": null
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+    "tasks": 10,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": -0.007114657843770961,
+        "ci95": [
+          -0.038848706114846726,
+          0.024930361429885833
+        ],
+        "hit_gain": -0.011457093253968256,
+        "leave_one_range": [
+          -0.016918999190981183,
+          0.0038485832939446065
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.0723598267191667,
+        "ci95": [
+          0.03779113710590146,
+          0.11015057700485133
+        ],
+        "hit_gain": 0.05413963293650794,
+        "leave_one_range": [
+          0.058584101564470505,
+          0.08039980746574077
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.06524516887539573,
+        "ci95": [
+          0.019060014108605694,
+          0.12438014884461576
+        ],
+        "hit_gain": 0.04268253968253968,
+        "leave_one_range": [
+          0.042855120104355146,
+          0.07249463208377303
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 10.895,
+        "cache_reads": 85.7125,
+        "budget_denials": 2.755,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 10.965625,
+        "cache_reads": 87.58874999999999,
+        "budget_denials": 2.83,
+        "altered_queried": 0.40750000000000003,
+        "eligible_queried": 2.703125,
+        "target_queried": 1.324375
+      },
+      "A": {
+        "unique_feedback_reads": 10.56875,
+        "cache_reads": 57.24875000000001,
+        "budget_denials": 1.421875,
+        "altered_queried": 1.32375,
+        "eligible_queried": 2.62125,
+        "target_queried": 1.32375
+      }
+    },
+    "fold_averaged_episode_outcomes": {
+      "g_D": {
+        "improved": 180,
+        "unchanged": 92,
+        "worsened": 52
+      },
+      "g_A": {
+        "improved": 199,
+        "unchanged": 56,
+        "worsened": 69
+      },
+      "g_D_minus_g_A": {
+        "improved": 115,
+        "worsened": 182,
+        "unchanged": 27
+      }
+    }
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+    "tasks": 26,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": 0.0030345834597341587,
+        "ci95": [
+          -0.013349657148335312,
+          0.01882616774574027
+        ],
+        "hit_gain": -0.007923057844932847,
+        "leave_one_range": [
+          -0.0009257531170437514,
+          0.007327682782919374
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.038362361121558004,
+        "ci95": [
+          0.023496855970984155,
+          0.056019172768128504
+        ],
+        "hit_gain": 0.06001688415750916,
+        "leave_one_range": [
+          0.03209492114088703,
+          0.041663462941394676
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.041396944581292165,
+        "ci95": [
+          0.023267815952929583,
+          0.05852266701400774
+        ],
+        "hit_gain": 0.052093826312576315,
+        "leave_one_range": [
+          0.03802570251445299,
+          0.0472245383493397
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 11.161538461538461,
+        "cache_reads": 76.9423076923077,
+        "budget_denials": 2.164423076923077,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 11.196874999999999,
+        "cache_reads": 79.24014423076923,
+        "budget_denials": 2.2747596153846152,
+        "altered_queried": 0.5735576923076923,
+        "eligible_queried": 2.823557692307692,
+        "target_queried": 1.4983173076923075
+      },
+      "A": {
+        "unique_feedback_reads": 10.783653846153847,
+        "cache_reads": 51.02163461538461,
+        "budget_denials": 1.1932692307692307,
+        "altered_queried": 1.271153846153846,
+        "eligible_queried": 2.6834134615384615,
+        "target_queried": 1.271153846153846
+      }
+    },
+    "fold_averaged_episode_outcomes": {
+      "g_D": {
+        "improved": 517,
+        "unchanged": 181,
+        "worsened": 152
+      },
+      "g_A": {
+        "improved": 461,
+        "worsened": 201,
+        "unchanged": 188
+      },
+      "g_D_minus_g_A": {
+        "worsened": 366,
+        "improved": 418,
+        "unchanged": 66
+      }
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "tasks": 26,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": 0.05243172462786809,
+        "ci95": [
+          0.024334832996641704,
+          0.08490025313330454
+        ],
+        "hit_gain": 0.05374656593406593,
+        "leave_one_range": [
+          0.04055287205003061,
+          0.05861396009845303
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.02275721592849356,
+        "ci95": [
+          0.013324598919514817,
+          0.033325690956977426
+        ],
+        "hit_gain": 0.01617101648351648,
+        "leave_one_range": [
+          0.01935910226700914,
+          0.023862311981655747
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.07518894055636165,
+        "ci95": [
+          0.047555992792428295,
+          0.10762558469963654
+        ],
+        "hit_gain": 0.06991758241758242,
+        "leave_one_range": [
+          0.0642203766156639,
+          0.07978146466408634
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 9.951923076923077,
+        "cache_reads": 32.07403846153846,
+        "budget_denials": 0.5442307692307693,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 9.940865384615384,
+        "cache_reads": 30.708653846153844,
+        "budget_denials": 0.5697115384615384,
+        "altered_queried": 0.7932692307692307,
+        "eligible_queried": 2.5004807692307693,
+        "target_queried": 1.9146634615384615
+      },
+      "A": {
+        "unique_feedback_reads": 9.57860576923077,
+        "cache_reads": 21.013221153846153,
+        "budget_denials": 0.2894230769230769,
+        "altered_queried": 0.5778846153846154,
+        "eligible_queried": 2.3939903846153845,
+        "target_queried": 0.5778846153846154
+      }
+    },
+    "fold_averaged_episode_outcomes": {
+      "g_D": {
+        "worsened": 148,
+        "improved": 499,
+        "unchanged": 203
+      },
+      "g_A": {
+        "improved": 300,
+        "worsened": 109,
+        "unchanged": 441
+      },
+      "g_D_minus_g_A": {
+        "worsened": 230,
+        "improved": 456,
+        "unchanged": 164
+      }
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "tasks": 26,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": 0.05036330325281427,
+        "ci95": [
+          0.029544732762555842,
+          0.0750711720992933
+        ],
+        "hit_gain": 0.04340945512820512,
+        "leave_one_range": [
+          0.043321073536440345,
+          0.05290152615599417
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.023158223610164248,
+        "ci95": [
+          0.01106067441267697,
+          0.03819781713487467
+        ],
+        "hit_gain": 0.019819711538461536,
+        "leave_one_range": [
+          0.018921998077939702,
+          0.024193349021730474
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.07352152686297851,
+        "ci95": [
+          0.046110045524005966,
+          0.10388334013135136
+        ],
+        "hit_gain": 0.06322916666666666,
+        "leave_one_range": [
+          0.06691463106340213,
+          0.07650573143598409
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 9.991346153846154,
+        "cache_reads": 34.05384615384615,
+        "budget_denials": 0.5807692307692307,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 10.011298076923076,
+        "cache_reads": 32.98317307692308,
+        "budget_denials": 0.5939903846153846,
+        "altered_queried": 0.7608173076923077,
+        "eligible_queried": 2.4903846153846154,
+        "target_queried": 1.8603365384615385
+      },
+      "A": {
+        "unique_feedback_reads": 9.62548076923077,
+        "cache_reads": 22.457692307692305,
+        "budget_denials": 0.28942307692307695,
+        "altered_queried": 0.6194711538461538,
+        "eligible_queried": 2.4084134615384616,
+        "target_queried": 0.6194711538461538
+      }
+    },
+    "fold_averaged_episode_outcomes": {
+      "g_D": {
+        "improved": 481,
+        "unchanged": 215,
+        "worsened": 154
+      },
+      "g_A": {
+        "improved": 281,
+        "worsened": 132,
+        "unchanged": 437
+      },
+      "g_D_minus_g_A": {
+        "worsened": 224,
+        "improved": 447,
+        "unchanged": 179
+      }
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "tasks": 26,
+    "contrasts": {
+      "A_minus_D": {
+        "gain": 0.05120001180780672,
+        "ci95": [
+          0.022718564826338793,
+          0.08436570352267102
+        ],
+        "hit_gain": 0.04507278311965812,
+        "leave_one_range": [
+          0.0401519543245053,
+          0.05523271603925943
+        ]
+      },
+      "O_minus_A": {
+        "gain": 0.026366312717296336,
+        "ci95": [
+          0.012411395752743234,
+          0.04241069861114446
+        ],
+        "hit_gain": 0.02847489316239317,
+        "leave_one_range": [
+          0.02146915792102663,
+          0.02837293624818135
+        ]
+      },
+      "O_minus_D": {
+        "gain": 0.07756632452510305,
+        "ci95": [
+          0.05065660684501732,
+          0.10724461855879909
+        ],
+        "hit_gain": 0.07354767628205129,
+        "leave_one_range": [
+          0.06852489057268665,
+          0.08069882735519199
+        ]
+      }
+    },
+    "cost_and_exposure_task_macro": {
+      "O": {
+        "unique_feedback_reads": 9.99423076923077,
+        "cache_reads": 32.39230769230769,
+        "budget_denials": 0.6605769230769231,
+        "altered_queried": 0.0,
+        "eligible_queried": 0.0,
+        "target_queried": 0.0
+      },
+      "D": {
+        "unique_feedback_reads": 9.993749999999999,
+        "cache_reads": 31.910817307692305,
+        "budget_denials": 0.6591346153846154,
+        "altered_queried": 0.7951923076923078,
+        "eligible_queried": 2.4985576923076924,
+        "target_queried": 1.8759615384615385
+      },
+      "A": {
+        "unique_feedback_reads": 9.59423076923077,
+        "cache_reads": 21.448076923076922,
+        "budget_denials": 0.32427884615384617,
+        "altered_queried": 0.6021634615384616,
+        "eligible_queried": 2.4204326923076924,
+        "target_queried": 0.6021634615384616
+      }
+    },
+    "fold_averaged_episode_outcomes": {
+      "g_D": {
+        "unchanged": 197,
+        "worsened": 156,
+        "improved": 497
+      },
+      "g_A": {
+        "unchanged": 449,
+        "worsened": 113,
+        "improved": 288
+      },
+      "g_D_minus_g_A": {
+        "unchanged": 183,
+        "worsened": 262,
+        "improved": 405
+      }
+    }
+  }
+}

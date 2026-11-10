@@ -1,0 +1,18 @@
+{
+  "bank_manifest_sha256": "cc6455f6fded7e5ac76b3edbeb4200a965f04c20c08dc3c44e88e48872fb81ee",
+  "blocked_label_access_attempts": [],
+  "checks": {
+    "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+      "H_L_T_independent_selection_checks": 972,
+      "actual_C0_restricted_terminal_replays": 324
+    },
+    "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+      "H_L_T_independent_selection_checks": 2550,
+      "actual_C0_restricted_terminal_replays": 850
+    }
+  },
+  "decisions_sha256": "53595a89afb643578d22fb6023fe5f694a1cf8876cfbf9aa87ee9804041ce8b1",
+  "evaluations": 4696,
+  "jobs": 1174,
+  "labels_loaded": false
+}

@@ -1,0 +1,20 @@
+{
+  "experiments/clean-ranking-v1/prepared/code_files.json": "b5febcccede59dbffb87aaad93b31cd9674135bd36d1d77621245aac8c7f1df3",
+  "experiments/clean-ranking-v1/prepared/evaluation_labels.json": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+  "experiments/clean-ranking-v1/prepared/feedback.json": "05cce565494e598d2b2820ee19a485c2351c5143b1660033323537839a040246",
+  "experiments/clean-ranking-v1/prepared/jobs.jsonl": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c",
+  "experiments/clean-ranking-v1/results/decisions.jsonl.gz": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef",
+  "experiments/clean-ranking-v1/results/summary.json": "f6953fe5e133d1cbafe8b290bcbe3121cf3c415b5df61b8c0f757bccaf97c450",
+  "experiments/round-08/data_manifest.json": "b75b9845082d1febebe2b9c1ed20ba634b9e19e7709e72a1fc8ebe16eaacb5ae",
+  "experiments/round-08/recovered_feedback.json": "6d6b27e3efddae25aefe45e9c203e451eb2d59a1505d3aff0b03373cbab7b5e1",
+  "experiments/selection-frontier-01/j1/run_2/per_episode.jsonl": "61856a9308a2e879e09add03ba3a1e16bf54538ba05a83f4334948f16ddc0992",
+  "experiments/selection-frontier-01/verification/receipt.json": "9fa338e50d8557eccd68466ac318e602a047afc2be70ddc4417c9d24a3df36f2",
+  "experiments/selection-frontier-02/c0-final-selection/experiment.py": "93e8e56b3d5819471142aa5ee996bf20fc48bb2bef1fac083db2c15cf753e4b4",
+  "experiments/selection-frontier-02/deepseek-transfer/banks_1/deepseek-reasoner_0p0_pboost_cot_20251205_214840.json.gz": "c978f76a9a93cdf82d8771cab6459e356e625f4c8db845430dccc44aa417a0b2",
+  "experiments/selection-frontier-02/deepseek-transfer/banks_1/deepseek-reasoner_0p0_pboost_cot_20251209_135057.json.gz": "8ec20920997a8fba110957f028eccaaf97c60d6b554d91742f961188fb1f7dbe",
+  "experiments/selection-frontier-02/deepseek-transfer/banks_1/manifest.json": "cc6455f6fded7e5ac76b3edbeb4200a965f04c20c08dc3c44e88e48872fb81ee",
+  "experiments/selection-frontier-02/deepseek-transfer/banks_1/mapping_audit.json": "92d2a6dc03f1863424f21db91bae841d60b601dbf595b49154071834f0a33c73",
+  "experiments/selection-frontier-02/deepseek-transfer/protocol.json": "9b652a1813a1447169c033e607b31b0eb3bdd577a0f4d7b63ef0756038c8b1f9",
+  "research/protected_manifest.json": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+  "research/registry.json": "c14bff7d545f01892a8109a05d1738821bb165fe34ad90073554ba9a6d21c98a"
+}

@@ -1,0 +1,20 @@
+{
+  "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+    "added_strict_correct": 984,
+    "added_strict_total": 1584,
+    "added_valid": 1584,
+    "high_strict_correct": 1377,
+    "high_strict_total": 1992,
+    "high_valid": 1992,
+    "queried_missing_source_pairs": 0
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+    "added_strict_correct": 2071,
+    "added_strict_total": 3736,
+    "added_valid": 3736,
+    "high_strict_correct": 3464,
+    "high_strict_total": 5617,
+    "high_valid": 5617,
+    "queried_missing_source_pairs": 0
+  }
+}

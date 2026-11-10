@@ -1,0 +1,29 @@
+{
+  "4019a5e0cc3f8ba8e32e|5d91ced05fe7ba30e23f": {
+    "gap": 1.1047381546134674,
+    "mean_delta": 0.10473815461346726,
+    "mean_gap": 0.10473815461346726,
+    "n": 2,
+    "shuffled": 1.1047381546134674,
+    "terminal": 1.1047381546134674,
+    "winner": "4019a5e0cc3f8ba8e32e"
+  },
+  "4019a5e0cc3f8ba8e32e|6d6f86115cd624f73516": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "4019a5e0cc3f8ba8e32e"
+  },
+  "5d91ced05fe7ba30e23f|6d6f86115cd624f73516": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "5d91ced05fe7ba30e23f"
+  }
+}

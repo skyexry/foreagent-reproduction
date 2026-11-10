@@ -1,0 +1,87 @@
+{
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "source_run": "deepseek-reasoner_1p0_pboost_cot_20251209_164656",
+  "note": "One released author run, not the three-run paper aggregate; endpoint/snapshot unverified. Matched by ordered filename suffixes AND scores; require exactly one match.",
+  "source_files": {
+    "leaf-classification": {
+      "path": "solutions_subset_50/leaf-classification/report/alignment_leaf-classification_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "1fea23aa8af45a1e808c01cb74147bf3314031f1af1a21eb47e5c428331ba54f"
+    },
+    "detecting-insults-in-social-commentary": {
+      "path": "solutions_subset_50/detecting-insults-in-social-commentary/report/alignment_detecting-insults-in-social-commentary_n2_data-both_deepseek-reasoner_1p0_pboost_cot_20251209_164656.json",
+      "sha256": "34de4fa89de0b4c7c2dcd082bfa5b1dd2bafcd1f60d5f0ea89753b37c1ea0917"
+    }
+  },
+  "results": [
+    {
+      "task": "leaf-classification",
+      "source_group_index": 2,
+      "best_index": 0,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 80,
+      "best_index": 0,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 97,
+      "best_index": 1,
+      "author_prediction": 0,
+      "author_correct": 0
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 98,
+      "best_index": 0,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "task": "leaf-classification",
+      "source_group_index": 103,
+      "best_index": 1,
+      "author_prediction": 1,
+      "author_correct": 1
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 119,
+      "best_index": 1,
+      "author_prediction": 1,
+      "author_correct": 1
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 204,
+      "best_index": 0,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 246,
+      "best_index": 0,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 326,
+      "best_index": 0,
+      "author_prediction": 0,
+      "author_correct": 1
+    },
+    {
+      "task": "detecting-insults-in-social-commentary",
+      "source_group_index": 329,
+      "best_index": 1,
+      "author_prediction": 1,
+      "author_correct": 1
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "path": "prepare_coverage.py",
+    "sha256": "06f34938f24e93f0090b6de5926ffee69bcacd89020ca901b14cdf753de14b3a"
+  },
+  {
+    "path": "requirements-smoke.txt",
+    "sha256": "393023e465e37aa72dec13d7ed389175bbe42a06c1af63c5ea966b1382583942"
+  },
+  {
+    "path": "run_smoke.py",
+    "sha256": "6f0d437097e7860d605d4c7707e61ecd1f41ce510b8660fae5c5f12c158b2c8f"
+  },
+  {
+    "path": "foreagent_selection.py",
+    "sha256": "26c9a12649ad271f4dcb0569e2421cf5562e03d7d8ac6c9231e1dc83aa5d8566"
+  },
+  {
+    "path": "retry_coverage.py",
+    "sha256": "f7a46d136b33fc19014090d00b9c1ed4a14d3baf4953b9a79a92006fbb1a8d1d"
+  },
+  {
+    "path": "run_coverage.py",
+    "sha256": "b30bc40e2c21ae3db14ef616395ec28bba9f436793ca947986323b62b6eb7eb1"
+  },
+  {
+    "path": "replay_foreagent_selection.py",
+    "sha256": "6dd06eac2c3ed1aee33798c24ffc305f68834ffaa73519300613e716925a257d"
+  },
+  {
+    "path": "check_api.py",
+    "sha256": "02b96e65d98319332377887788492314ab04d1115d3c2e19018ba70dc3e99035"
+  },
+  {
+    "path": "verify_foreagent_selection.py",
+    "sha256": "6a92893e4932b659d859b60413458388e14aeed03e5f8805876965e05957c2da"
+  },
+  {
+    "path": "compare_coverage.py",
+    "sha256": "a369b42bdd36020592b13772f0138150672fdbbcb792721110edeeb3439db381"
+  },
+  {
+    "path": "report_coverage_retry.py",
+    "sha256": "684b5a417b1fb4f72c6996e8d5f6725f25e02f28ec405621f7fdf76999c9d767"
+  },
+  {
+    "path": "README.md",
+    "sha256": "80fd7df43e18b7e7176d28681c1f12593a726d275a4d8dd4dd9f3e18fd88a37a"
+  },
+  {
+    "path": "audit_foreagent_mechanisms.py",
+    "sha256": "6d553b94646fd8bea88a441fc1e5fbe8ec4d8570a83377e1c7c1b24f44c2529e"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "dbd510bfca2df4df9fbdf96bdf16edb1d8dfb7c0b8ced1600d9e49fb38b2f16e"
+  },
+  {
+    "path": "Annotated_Bibliography.md",
+    "sha256": "2baa035270f2b8b91c003f170e5816e3ccd3cd24392d3179d0718baf53ed5a72"
+  },
+  {
+    "path": "prepare_smoke.py",
+    "sha256": "44ccea66ee220bcde1c23d610482ffe75081a1cabaad11d8a525cdb07ca78a5b"
+  },
+  {
+    "path": "Proposal.md",
+    "sha256": "6acaa99a28f97466d033a8d8b8d0126f8f695d6cd19b3eb1ea28e1aab3fcbbf5"
+  },
+  {
+    "path": "export_coverage_audit.py",
+    "sha256": "7aaa7c1ac953bcbe8fd6c0e51b4681af78e150617523a00ace04fbfab223a527"
+  },
+  {
+    "path": "analyze_coverage.py",
+    "sha256": "e51823d2bc2be1e193c44276e0229d59e2b28385ca328051e162740b150e8cb4"
+  },
+  {
+    "path": "report_coverage.py",
+    "sha256": "1bfdd64ae8373bc719c8026d5909a94b3cfe04bbb32d9d32bcc0e73461db51be"
+  },
+  {
+    "path": "experiments/coverage_manifest.json",
+    "sha256": "aca79ff3eeab767429ab36572429178fc4f468a7d76acadc2c6edf2556c1da24"
+  },
+  {
+    "path": "experiments/foreagent_selection_audit.md",
+    "sha256": "7cb3122e302e74befa9a9c2c11b7671cf979655777504ef86f110d23ce85dd63"
+  },
+  {
+    "path": "experiments/tournament_replay_report.md",
+    "sha256": "943b8663cdd569ec8778b8cf13d407035511949558466a15354d8d6c6875796e"
+  },
+  {
+    "path": "experiments/coverage_analysis.md",
+    "sha256": "c3f4f105362c1248bf9c2e4ee5c3403bbb8378e6330ec2fcc8a8ad2f832cb06b"
+  },
+  {
+    "path": "experiments/coverage_report.md",
+    "sha256": "43b03871995492d6f644ad87fdd87daa5bdd0ee1c354644b9a41549916a59bea"
+  },
+  {
+    "path": "experiments/tournament_replay_results.json",
+    "sha256": "434309e5566f245c5da9d5638981fe5108f903851ba7c3ace3a6146bfb0497a0"
+  },
+  {
+    "path": "experiments/coverage_author_reference.json",
+    "sha256": "acf3bb87957244855f49be71543641d4306e1f7c3224b8bcd302fc4ecb346431"
+  },
+  {
+    "path": "experiments/coverage_analysis.json",
+    "sha256": "8b9b9c47e3b15d973af170956113c78d1341fea5af109c4861f131ba37c01e85"
+  },
+  {
+    "path": "experiments/coverage_results.json",
+    "sha256": "393e2d89734e700f10aae8500735ee95ef0cafe1402406b2a2ac40e977a44ecb"
+  },
+  {
+    "path": "experiments/smoke_manifest.json",
+    "sha256": "4080ab658065fdf8e5bf11827a093cb64fe4256ee5a1f67dfb709947840b6259"
+  },
+  {
+    "path": "experiments/foreagent_selection_checks.json",
+    "sha256": "d859de7d567876d0e00a061f9b4200a7596f669e11c75d1d6dc12c1f0e55d3a6"
+  },
+  {
+    "path": "experiments/coverage_retry_results.json",
+    "sha256": "a209d8ff90294f2662686fd0f24c2187d18dc9fcb19a0126d48e1164c09827ea"
+  },
+  {
+    "path": "experiments/coverage_retry_report.md",
+    "sha256": "9f0de73968560e78257e894f6cd132341ad34ffe4578b6e23f81a8e487cec0c4"
+  },
+  {
+    "path": "experiments/foreagent_replay_coverage_check.json",
+    "sha256": "a196b081b743446c65e363b3c8d81e34ae3953171e553ef3ae7827b0da10443e"
+  },
+  {
+    "path": "experiments/smoke_report.md",
+    "sha256": "44b1ec58b806df6694f3afc88112e40ac107a3a15e0aad039785c4a68df25117"
+  },
+  {
+    "path": "experiments/author_reference.json",
+    "sha256": "79de9d68ae5c19640b8632d550d1297e67d89e686c6e79015931277c68edae0b"
+  },
+  {
+    "path": "experiments/tournament_replay_protocol.md",
+    "sha256": "fa470d5040331f7300ccd14f2bb51918842ba5fe9529461884b6ead27183f5b6"
+  },
+  {
+    "path": "experiments/tournament_replay_attribution.md",
+    "sha256": "40ec1e5ab03719429bd81257b961be74da5a4f46110d1deee4aaa48d40c41925"
+  },
+  {
+    "path": "experiments/smoke_results.json",
+    "sha256": "cfd8d693946d5bad09e25ce7db5dabb59624fd59db3487f6410d4aa5b2841c8e"
+  },
+  {
+    "path": "experiments/coverage_scoring.md",
+    "sha256": "6e5594459f6dd53411ab001d064f83ba2369bd6fd593d52efefdd1a88f6990d9"
+  },
+  {
+    "path": "experiments/foreagent_mechanism_audit.md",
+    "sha256": "26741b5d2ceed401838f5042791251e350150903fa1fb1e259924cf258d262ea"
+  },
+  {
+    "path": "tests/test_foreagent_mechanisms.py",
+    "sha256": "b527a525a1244816ea1cf637368882f4d5146ea76f3602ee6cb32d8eb83bcd7b"
+  },
+  {
+    "path": "tests/test_foreagent_selection.py",
+    "sha256": "2770d103fa34af65952535803a1988bb0d9bfc018e97ee04e7a6b57551f32eb0"
+  },
+  {
+    "path": "tests/test_coverage_budget.py",
+    "sha256": "2bd3d240b478ee666cabdb75cc97c6ae01154f338ba927c8921356813b1c4b55"
+  },
+  {
+    "path": "vendor/foreagent/LICENSE",
+    "sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "path": "vendor/foreagent/README.md",
+    "sha256": "347950aca3a03ca788292e515ce4539ceec3ad3cdba0d106aad16163a35e1cef"
+  },
+  {
+    "path": "vendor/foreagent/prompt.py",
+    "sha256": "6dcf6990dae5b1d993a1c6e499c1d422a1dfd72e82571f76f52b96c681950cb3"
+  },
+  {
+    "path": "vendor/foreagent/eval.py",
+    "sha256": "000eedb80a3ed2a1d1d83599739c63df8ffba4bb9e12d5823397129c7b94dafb"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "banks": {
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "sha256": "ff0b1a472deb1211e5750f0815516284e4005897fe9f5ccc2cf2a77e95c562ee",
+      "byte_exact_rebuild": true,
+      "pairs": 17877,
+      "order_reversed_vs_DS": 0,
+      "labels_absent": true
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "sha256": "5306f91bbba7f077f11c16f3f387116e51d436ce3394dbd477bd4adcd4e6da6d",
+      "byte_exact_rebuild": true,
+      "pairs": 17877,
+      "order_reversed_vs_DS": 0,
+      "labels_absent": true
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "sha256": "dbef2d4953cde41b1502c517deec8c90a59c568adafacab7c83fe500df433eea",
+      "byte_exact_rebuild": true,
+      "pairs": 17877,
+      "order_reversed_vs_DS": 0,
+      "labels_absent": true
+    }
+  },
+  "mapping_audit_byte_exact_rebuild": true,
+  "checks": "independent set/schema/order endpoint/group-index checks plus full source-to-gzip deterministic rebuild",
+  "initial_verification_attempt": "First temporary directory outside project hit builder relative manifest path requirement; rerun used temporary directory inside bank output scope."
+}

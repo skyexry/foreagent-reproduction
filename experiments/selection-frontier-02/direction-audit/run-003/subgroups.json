@@ -1,0 +1,330 @@
+{
+  "DS": {
+    "C_singleton": {
+      "C-E": {
+        "conditional_task_macro_gain": -0.030666220708827074,
+        "full_task_macro_contribution": -0.029951402242018713
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.031023243702228084,
+        "full_task_macro_contribution": 0.015464413768694677
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.061689464411055155,
+        "full_task_macro_contribution": 0.045415816010713386
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": -0.0426496811269833,
+        "full_task_macro_contribution": -0.02882571777493021
+      },
+      "episodes": 607,
+      "tasks": 25
+    },
+    "C_tied": {
+      "C-E": {
+        "conditional_task_macro_gain": -0.0003353050389748289,
+        "full_task_macro_contribution": 0.001701834419899295
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.012779947077241177,
+        "full_task_macro_contribution": 0.006422593278478582
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.013115252116216001,
+        "full_task_macro_contribution": 0.004720758858579285
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": -0.02366295037640888,
+        "full_task_macro_contribution": -0.011862839585421156
+      },
+      "episodes": 243,
+      "tasks": 23
+    },
+    "n<10": {
+      "C-E": {
+        "conditional_task_macro_gain": -0.17019979547991523,
+        "full_task_macro_contribution": -0.0327307298999837
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.038031059724977785,
+        "full_task_macro_contribution": 0.0073136653317264965
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.20823085520489304,
+        "full_task_macro_contribution": 0.040044395231710196
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": -0.14118039787849138,
+        "full_task_macro_contribution": -0.027150076515094494
+      },
+      "episodes": 10,
+      "tasks": 5
+    },
+    "n=10": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.005548105429736733,
+        "full_task_macro_contribution": 0.004481162077864284
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.018043184981029328,
+        "full_task_macro_contribution": 0.014573341715446763
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.01249507955129259,
+        "full_task_macro_contribution": 0.010092179637582476
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": -0.016761928665556126,
+        "full_task_macro_contribution": -0.013538480845256872
+      },
+      "episodes": 840,
+      "tasks": 21
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "C_singleton": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.00126862962940753,
+        "full_task_macro_contribution": 0.0007161239280091799
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.0005757185658450871,
+        "full_task_macro_contribution": -0.002442773557407626
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.0019296774084655301,
+        "full_task_macro_contribution": -0.0012699473777326167
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.0017695253343294433,
+        "full_task_macro_contribution": 0.00347488367162665
+      },
+      "episodes": 702,
+      "tasks": 26
+    },
+    "C_tied": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.0007198884410103603,
+        "full_task_macro_contribution": 0.0001861935137979487
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.017515932533968975,
+        "full_task_macro_contribution": -0.0008840187728372084
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.02018504458844072,
+        "full_task_macro_contribution": -0.0020097342670511715
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.0196514024612749,
+        "full_task_macro_contribution": 0.000678294045638747
+      },
+      "episodes": 148,
+      "tasks": 21
+    },
+    "n<10": {
+      "C-E": {
+        "conditional_task_macro_gain": -0.003896148320448796,
+        "full_task_macro_contribution": -0.0007492592923939993
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.03898884860094417,
+        "full_task_macro_contribution": -0.007497855500181571
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.03509270028049537,
+        "full_task_macro_contribution": -0.006748596207787571
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.03252088749401387,
+        "full_task_macro_contribution": 0.006254016825771898
+      },
+      "episodes": 10,
+      "tasks": 5
+    },
+    "n=10": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.0020448092899633015,
+        "full_task_macro_contribution": 0.0016515767342011281
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.005164173448493102,
+        "full_task_macro_contribution": 0.004171063169936736
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.0042948466018142084,
+        "full_task_macro_contribution": 0.003468914563003784
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": -0.002601038896246144,
+        "full_task_macro_contribution": -0.002100839108506501
+      },
+      "episodes": 840,
+      "tasks": 21
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "C_singleton": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.000252541750280709,
+        "full_task_macro_contribution": 5.02529800874452e-05
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.013457475900132514,
+        "full_task_macro_contribution": -0.013966296454266959
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.013710017650413221,
+        "full_task_macro_contribution": -0.014016549434354405
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.013500783799038235,
+        "full_task_macro_contribution": 0.010108725544864366
+      },
+      "episodes": 705,
+      "tasks": 25
+    },
+    "C_tied": {
+      "C-E": {
+        "conditional_task_macro_gain": -0.01017545461679428,
+        "full_task_macro_contribution": -0.001716434994173327
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.020660293473713544,
+        "full_task_macro_contribution": -0.014188977795920743
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.010484838856919268,
+        "full_task_macro_contribution": -0.012472542801747416
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.012570536089612864,
+        "full_task_macro_contribution": 0.01112909925627134
+      },
+      "episodes": 145,
+      "tasks": 21
+    },
+    "n<10": {
+      "C-E": {
+        "conditional_task_macro_gain": -0.009558504937173617,
+        "full_task_macro_contribution": -0.001838174026379542
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.17673208861963824,
+        "full_task_macro_contribution": -0.033986940119161195
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.1671735836824646,
+        "full_task_macro_contribution": -0.03214876609278165
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.13422042294662337,
+        "full_task_macro_contribution": 0.025811619797427576
+      },
+      "episodes": 10,
+      "tasks": 5
+    },
+    "n=10": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.00021294249141119863,
+        "full_task_macro_contribution": 0.00017199201229366044
+      },
+      "C-L": {
+        "conditional_task_macro_gain": 0.0072201577425386135,
+        "full_task_macro_contribution": 0.005831665868973495
+      },
+      "H-L": {
+        "conditional_task_macro_gain": 0.0070072152511274155,
+        "full_task_macro_contribution": 0.005659673856679836
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": -0.005662793804932791,
+        "full_task_macro_contribution": -0.004573794996291868
+      },
+      "episodes": 840,
+      "tasks": 21
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "C_singleton": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.006318618134618804,
+        "full_task_macro_contribution": 0.0040450012642272454
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.002665101249001305,
+        "full_task_macro_contribution": -0.0027373068772773303
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.008983719383620109,
+        "full_task_macro_contribution": -0.006782308141504576
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.007917683631225947,
+        "full_task_macro_contribution": 0.006800903900861017
+      },
+      "episodes": 715,
+      "tasks": 26
+    },
+    "C_tied": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.006112109079572389,
+        "full_task_macro_contribution": -0.00026204721516483653
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.02396953636043795,
+        "full_task_macro_contribution": -0.011407984890100387
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.030081645440010338,
+        "full_task_macro_contribution": -0.01114593767493555
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.023068765991452942,
+        "full_task_macro_contribution": 0.010484074927459975
+      },
+      "episodes": 135,
+      "tasks": 22
+    },
+    "n<10": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.0,
+        "full_task_macro_contribution": 0.0
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.04668681958767448,
+        "full_task_macro_contribution": -0.008978234536091246
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.04668681958767448,
+        "full_task_macro_contribution": -0.008978234536091246
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.07265428081980523,
+        "full_task_macro_contribution": 0.013971977080731774
+      },
+      "episodes": 10,
+      "tasks": 5
+    },
+    "n=10": {
+      "C-E": {
+        "conditional_task_macro_gain": 0.004683657394077267,
+        "full_task_macro_contribution": 0.003782954049062408
+      },
+      "C-L": {
+        "conditional_task_macro_gain": -0.006397308953021345,
+        "full_task_macro_contribution": -0.005167057231286471
+      },
+      "H-L": {
+        "conditional_task_macro_gain": -0.011080966347098611,
+        "full_task_macro_contribution": -0.00895001128034888
+      },
+      "L-N32": {
+        "conditional_task_macro_gain": 0.004101811687491412,
+        "full_task_macro_contribution": 0.003313001747589218
+      },
+      "episodes": 840,
+      "tasks": 21
+    }
+  }
+}

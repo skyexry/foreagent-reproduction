@@ -1,0 +1,7 @@
+{
+  "episode_outcome_counts.json": "70065a05e5ddef6eed77c33013fb79abbb3761415c2a26226245294af3e395e2",
+  "leave_one_task_out_all_contrasts.json": "a7ca799929038a18c18d5ab06a48aea1965c5f91ce959ee2ad7deddb0e766934",
+  "per_episode_paired.jsonl.gz": "3eda3c1e9b0577243bbb7bbb8b9e713acd5a53737f52ceceada48e8b86c5262f",
+  "receipt.json": "78a29d509ef84d31eb241ed5a49b7b560bb89dbd0ead185e601209535de50743",
+  "script.snapshot.py": "f11d75a35e6989d6e2fc3c3949e8af4fa6306d14487e1760368a2693519e5ea5"
+}

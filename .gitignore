@@ -15,3 +15,64 @@ archive/research-workspace/data/
 archive/research-workspace/outputs/
 archive/research-workspace/runs/
 downloads/
+
+# Local research downloads and caches
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# Downloaded papers, data, and experiment outputs
+*.pdf
+data/
+outputs/
+logs/
+
+runs/
+!.python-version
+!reports/hw3/*.pdf
+reports/hw3/build/
+
+# Historical workspace backup and already published release ZIP
+archive/local-before-hw3-publication/
+reports/hw3/HW3_Reproduction_Code.zip
+
+# Large research evidence: research-evidence-20261110 Release
+/experiments/selection-frontier-01/d1/run_1/per_job_evidence.jsonl
+/experiments/selection-frontier-01/d1/run_1/projected_full_traces.jsonl
+/experiments/selection-frontier-01/d1/run_1/sealed_selections.jsonl
+/experiments/selection-frontier-01/j1/run_2/per_edge.jsonl
+/experiments/selection-frontier-01/j1/run_2/per_episode.jsonl
+/experiments/selection-frontier-02/banks/allocation-run-001/per_episode.jsonl
+/experiments/selection-frontier-02/c0-final-selection/run-001/per_episode.jsonl
+/experiments/selection-frontier-02/c0-final-selection/run-002/per_episode.jsonl
+/experiments/selection-frontier-02/calibration/discovery-run-001/per_episode.jsonl
+/experiments/selection-frontier-02/calibration/full-run-001/per_episode.jsonl
+/experiments/selection-frontier-02/coverage/allocation_episodes.jsonl
+/experiments/selection-frontier-02/coverage/j1_coverage_episodes.jsonl
+/experiments/selection-frontier-02/deepseek-transfer/run_1/per_episode.jsonl
+/experiments/selection-frontier-02/direction-audit/run-001/per_episode.jsonl
+/experiments/selection-frontier-02/direction-audit/run-001/source_audit.sealed.jsonl.gz
+/experiments/selection-frontier-02/direction-audit/run-002/per_episode.jsonl
+/experiments/selection-frontier-02/direction-audit/run-002/source_audit.sealed.jsonl.gz
+/experiments/selection-frontier-02/direction-audit/run-003/per_episode.jsonl
+/experiments/selection-frontier-02/direction-audit/run-003/source_audit.sealed.jsonl.gz
+/experiments/selection-frontier-02/factorial/all_banks_run_2/per_edge.jsonl
+/experiments/selection-frontier-02/factorial/all_banks_run_2/per_episode.jsonl
+/experiments/selection-frontier-02/factorial/all_banks_run_2/selections.sealed.jsonl
+/experiments/selection-frontier-02/factorial/all_banks_run_2/verification_1/selections.sealed.jsonl
+/experiments/selection-frontier-02/factorial/ds_run_1/per_edge.jsonl
+/experiments/selection-frontier-02/factorial/ds_run_1/per_episode.jsonl
+/experiments/selection-frontier-02/factorial/ds_run_1/selections.sealed.jsonl
+/experiments/selection-frontier-02/judge-intervention/run_1/decisions.oracle.jsonl.gz
+/experiments/selection-frontier-02/judge-intervention/run_1/per_episode_fold_averaged.jsonl
+/experiments/trajectory-weighted-judge-v1/evaluation/run_1/decisions.sealed.jsonl.gz
+/experiments/trajectory-weighted-judge-v1/representation/run_1/embeddings.npz

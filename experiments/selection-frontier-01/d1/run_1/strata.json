@@ -1,0 +1,569 @@
+{
+  "T_changed_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.00951356845191288,
+      "D_missed": 0.009138897765103276,
+      "delta_T_minus_U": -0.00037467068680960486,
+      "gains:T": 0.0,
+      "gains:U": -0.00037467068680960486
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 560,
+    "pools": 374,
+    "task_macro_conditional": {
+      "D_harm": -0.015071856281640443,
+      "D_missed": 0.01465008611340634,
+      "delta_T_minus_U": -0.00042177016823410435,
+      "gains:T": 0.0,
+      "gains:U": -0.00042177016823410435
+    },
+    "tasks": 25
+  },
+  "T_changed_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.019096267729256412,
+      "D_missed": -0.0158289901055965,
+      "delta_T_minus_U": 0.0032672776236599096,
+      "gains:T": -0.010440019323181464,
+      "gains:U": -0.007172741699521553
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 290,
+    "pools": 239,
+    "task_macro_conditional": {
+      "D_harm": 0.05675985681831341,
+      "D_missed": -0.057693492904824346,
+      "delta_T_minus_U": -0.0009336360865109393,
+      "gains:T": -0.005378202054638313,
+      "gains:U": -0.006311838141149254
+    },
+    "tasks": 22
+  },
+  "T_judge_abstained": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.007964966993979503,
+      "D_missed": 0.00715990937318483,
+      "delta_T_minus_U": -0.0008050576207946739,
+      "gains:T": 0.0,
+      "gains:U": -0.0008050576207946739
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 404,
+    "pools": 300,
+    "task_macro_conditional": {
+      "D_harm": -0.01913350513238819,
+      "D_missed": 0.01874317940252806,
+      "delta_T_minus_U": -0.00039032572986012873,
+      "gains:T": 0.0,
+      "gains:U": -0.00039032572986012873
+    },
+    "tasks": 23
+  },
+  "T_judge_correct": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.005958224303704144,
+      "D_missed": -0.016138838140144426,
+      "delta_T_minus_U": -0.010180613836440281,
+      "gains:T": 0.0015721220150492305,
+      "gains:U": -0.00860849182139105
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 268,
+    "pools": 214,
+    "task_macro_conditional": {
+      "D_harm": 0.004668033858710096,
+      "D_missed": -0.060169330297199446,
+      "delta_T_minus_U": -0.055501296438489355,
+      "gains:T": 0.04689063105229121,
+      "gains:U": -0.008610665386198141
+    },
+    "tasks": 24
+  },
+  "T_judge_incorrect": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.01158944196761889,
+      "D_missed": 0.002288836426466369,
+      "delta_T_minus_U": 0.01387827839408526,
+      "gains:T": -0.012012141338230694,
+      "gains:U": 0.0018661370558545657
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 178,
+    "pools": 157,
+    "task_macro_conditional": {
+      "D_harm": 0.09057550523045392,
+      "D_missed": 0.01092133919947272,
+      "delta_T_minus_U": 0.10149684442992664,
+      "gains:T": -0.08969783850334843,
+      "gains:U": 0.011799005926578206
+    },
+    "tasks": 22
+  },
+  "T_judge_utility_tie": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 0,
+    "pools": 0,
+    "task_macro_conditional": {
+      "D_harm": null,
+      "D_missed": null,
+      "delta_T_minus_U": null,
+      "gains:T": null,
+      "gains:U": null
+    },
+    "tasks": 0
+  },
+  "T_touches_S_top_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 0,
+    "pools": 0,
+    "task_macro_conditional": {
+      "D_harm": null,
+      "D_missed": null,
+      "delta_T_minus_U": null,
+      "gains:T": null,
+      "gains:U": null
+    },
+    "tasks": 0
+  },
+  "T_touches_S_top_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.009582699277343532,
+      "D_missed": -0.006690092340493226,
+      "delta_T_minus_U": 0.002892606936850305,
+      "gains:T": -0.010440019323181464,
+      "gains:U": -0.007547412386331157
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 850,
+    "pools": 425,
+    "task_macro_conditional": {
+      "D_harm": 0.009582699277343532,
+      "D_missed": -0.006690092340493226,
+      "delta_T_minus_U": 0.002892606936850305,
+      "gains:T": -0.010440019323181464,
+      "gains:U": -0.007547412386331157
+    },
+    "tasks": 26
+  },
+  "T_valid_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.007964966993979503,
+      "D_missed": 0.00715990937318483,
+      "delta_T_minus_U": -0.0008050576207946739,
+      "gains:T": 0.0,
+      "gains:U": -0.0008050576207946739
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 404,
+    "pools": 300,
+    "task_macro_conditional": {
+      "D_harm": -0.01913350513238819,
+      "D_missed": 0.01874317940252806,
+      "delta_T_minus_U": -0.00039032572986012873,
+      "gains:T": 0.0,
+      "gains:U": -0.00039032572986012873
+    },
+    "tasks": 23
+  },
+  "T_valid_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.017547666271323033,
+      "D_missed": -0.013850001713678055,
+      "delta_T_minus_U": 0.003697664557644979,
+      "gains:T": -0.010440019323181464,
+      "gains:U": -0.006742354765536484
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 446,
+    "pools": 321,
+    "task_macro_conditional": {
+      "D_harm": 0.03376405145962879,
+      "D_missed": -0.03079142431076975,
+      "delta_T_minus_U": 0.002972627148859038,
+      "gains:T": -0.008152080878491905,
+      "gains:U": -0.005179453729632868
+    },
+    "tasks": 25
+  },
+  "U_changed_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0179751426201423,
+      "D_missed": -0.015733988300887868,
+      "delta_T_minus_U": 0.0022411543192544345,
+      "gains:T": -0.0022411543192544345,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 579,
+    "pools": 388,
+    "task_macro_conditional": {
+      "D_harm": 0.03017353240405721,
+      "D_missed": -0.02327955538673051,
+      "delta_T_minus_U": 0.006893977017326701,
+      "gains:T": -0.006893977017326701,
+      "gains:U": 0.0
+    },
+    "tasks": 26
+  },
+  "U_changed_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.00839244334279877,
+      "D_missed": 0.00904389596039464,
+      "delta_T_minus_U": 0.0006514526175958707,
+      "gains:T": -0.008198865003927028,
+      "gains:U": -0.007547412386331157
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 271,
+    "pools": 234,
+    "task_macro_conditional": {
+      "D_harm": -0.03931270752272271,
+      "D_missed": 0.029182063141554606,
+      "delta_T_minus_U": -0.010130644381168103,
+      "gains:T": -0.018916710464908136,
+      "gains:U": -0.029047354846076238
+    },
+    "tasks": 22
+  },
+  "U_judge_abstained": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.01618268753703755,
+      "D_missed": -0.011232962521356988,
+      "delta_T_minus_U": 0.004949725015680562,
+      "gains:T": -0.004949725015680562,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 395,
+    "pools": 301,
+    "task_macro_conditional": {
+      "D_harm": 0.03721213294075969,
+      "D_missed": -0.026412432983512382,
+      "delta_T_minus_U": 0.010799699957247303,
+      "gains:T": -0.010799699957247303,
+      "gains:U": 0.0
+    },
+    "tasks": 24
+  },
+  "U_judge_correct": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.002489975566753681,
+      "D_missed": 0.0060687897709753484,
+      "delta_T_minus_U": 0.008558765337729028,
+      "gains:T": -0.00508310654451285,
+      "gains:U": 0.0034756587932161793
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 286,
+    "pools": 231,
+    "task_macro_conditional": {
+      "D_harm": 0.013914291144803323,
+      "D_missed": 0.013204032216383763,
+      "delta_T_minus_U": 0.027118323361187083,
+      "gains:T": -0.004120455093330368,
+      "gains:U": 0.022997868267856717
+    },
+    "tasks": 24
+  },
+  "U_judge_incorrect": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.009089963826447698,
+      "D_missed": -0.0015259195901115878,
+      "delta_T_minus_U": -0.010615883416559287,
+      "gains:T": -0.00040718776298805006,
+      "gains:U": -0.011023071179547336
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 169,
+    "pools": 151,
+    "task_macro_conditional": {
+      "D_harm": -0.06774821537527462,
+      "D_missed": -0.011811592042138054,
+      "delta_T_minus_U": -0.07955980741741267,
+      "gains:T": 0.0025131688842204175,
+      "gains:U": -0.07704663853319225
+    },
+    "tasks": 22
+  },
+  "U_judge_utility_tie": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 0,
+    "pools": 0,
+    "task_macro_conditional": {
+      "D_harm": null,
+      "D_missed": null,
+      "delta_T_minus_U": null,
+      "gains:T": null,
+      "gains:U": null
+    },
+    "tasks": 0
+  },
+  "U_touches_S_top_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.010249708087982161,
+      "D_missed": -0.008572568752452664,
+      "delta_T_minus_U": 0.0016771393355294966,
+      "gains:T": -0.003827834551662211,
+      "gains:U": -0.002150695216132715
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 547,
+    "pools": 365,
+    "task_macro_conditional": {
+      "D_harm": 0.0224350292486855,
+      "D_missed": -0.015922280228871162,
+      "delta_T_minus_U": 0.006512749019814335,
+      "gains:T": -0.010454580041355828,
+      "gains:U": -0.003941831021541494
+    },
+    "tasks": 23
+  },
+  "U_touches_S_top_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.0006670088106386287,
+      "D_missed": 0.0018824764119594376,
+      "delta_T_minus_U": 0.0012154676013208091,
+      "gains:T": -0.006612184771519252,
+      "gains:U": -0.0053967171701984435
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 303,
+    "pools": 243,
+    "task_macro_conditional": {
+      "D_harm": -0.00188960887120817,
+      "D_missed": 0.004656633621180155,
+      "delta_T_minus_U": 0.002767024749971986,
+      "gains:T": -0.011711197530219809,
+      "gains:U": -0.008944172780247823
+    },
+    "tasks": 25
+  },
+  "U_valid_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.01618268753703755,
+      "D_missed": -0.011232962521356988,
+      "delta_T_minus_U": 0.004949725015680562,
+      "gains:T": -0.004949725015680562,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 395,
+    "pools": 301,
+    "task_macro_conditional": {
+      "D_harm": 0.03721213294075969,
+      "D_missed": -0.026412432983512382,
+      "delta_T_minus_U": 0.010799699957247303,
+      "gains:T": -0.010799699957247303,
+      "gains:U": 0.0
+    },
+    "tasks": 24
+  },
+  "U_valid_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": -0.006599988259694018,
+      "D_missed": 0.004542870180863761,
+      "delta_T_minus_U": -0.0020571180788302576,
+      "gains:T": -0.0054902943075009,
+      "gains:U": -0.007547412386331157
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 455,
+    "pools": 331,
+    "task_macro_conditional": {
+      "D_harm": -0.01885693024738354,
+      "D_missed": 0.005320026327216795,
+      "delta_T_minus_U": -0.013536903920166748,
+      "gains:T": -0.00975201631589266,
+      "gains:U": -0.02328892023605941
+    },
+    "tasks": 25
+  },
+  "pool_size_10": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.001798028166176527,
+      "D_missed": -0.006690092340493226,
+      "delta_T_minus_U": -0.0048920641743167,
+      "gains:T": 0.005129322899152546,
+      "gains:U": 0.0002372587248358468
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 840,
+    "pools": 420,
+    "task_macro_conditional": {
+      "D_harm": 0.0022261301105042713,
+      "D_missed": -0.00828297146918209,
+      "delta_T_minus_U": -0.006056841358677819,
+      "gains:T": 0.006350590256093629,
+      "gains:U": 0.0002937488974158103
+    },
+    "tasks": 21
+  },
+  "pool_size_3": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 4,
+    "pools": 2,
+    "task_macro_conditional": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "tasks": 2
+  },
+  "pool_size_5": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 2,
+    "pools": 1,
+    "task_macro_conditional": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "tasks": 1
+  },
+  "pool_size_6": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 2,
+    "pools": 1,
+    "task_macro_conditional": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "tasks": 1
+  },
+  "pool_size_7": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.007784671111167004,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.007784671111167004,
+      "gains:T": -0.015569342222334009,
+      "gains:U": -0.007784671111167004
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 2,
+    "pools": 1,
+    "task_macro_conditional": {
+      "D_harm": 0.20240144889034212,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.20240144889034212,
+      "gains:T": -0.40480289778068423,
+      "gains:U": -0.20240144889034212
+    },
+    "tasks": 1
+  },
+  "same_edge_False": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.009582699277343532,
+      "D_missed": -0.006690092340493226,
+      "delta_T_minus_U": 0.002892606936850305,
+      "gains:T": -0.010440019323181464,
+      "gains:U": -0.007547412386331157
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 841,
+    "pools": 423,
+    "task_macro_conditional": {
+      "D_harm": 0.01038398510101474,
+      "D_missed": -0.007222252502015663,
+      "delta_T_minus_U": 0.0031617325989990778,
+      "gains:T": -0.011325797300006296,
+      "gains:U": -0.00816406470100722
+    },
+    "tasks": 24
+  },
+  "same_edge_True": {
+    "full_jobs_denominator": 850,
+    "full_task_macro_contribution": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "full_tasks_denominator": 26,
+    "jobs": 9,
+    "pools": 7,
+    "task_macro_conditional": {
+      "D_harm": 0.0,
+      "D_missed": 0.0,
+      "delta_T_minus_U": 0.0,
+      "gains:T": 0.0,
+      "gains:U": 0.0
+    },
+    "tasks": 6
+  }
+}

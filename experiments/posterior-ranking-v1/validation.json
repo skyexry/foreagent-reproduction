@@ -1,0 +1,12 @@
+{
+  "empty_graph_uniform_ties": true,
+  "exact_integer": true,
+  "exact_permutation_graphs": 840,
+  "exhaustive_all_directed_or_absent_graphs_n_le_4": true,
+  "max_permutation_n": 6,
+  "reverse_graph_rank_identity": true,
+  "script_sha256": "7ae1b5b7d27353efe9ac71a0e0368881f6ba4efffd2a38f5a42c53b79d7e624a",
+  "status": "passed",
+  "symmetric_cycle_ties": true,
+  "wall_seconds": 0.09552608395460993
+}

@@ -1,0 +1,4 @@
+{"delta": 0.11781701677672894, "gap": 0.11781701677672894, "job": "dog-breed-identification:0:0", "pair": "830b02e1d103a1e1e594|87c7e67866102708eca4", "repeat": 0, "right": 0.0, "task": "dog-breed-identification", "wrong": 0.11781701677672894}
+{"delta": 1.0, "gap": 1.0, "job": "dog-breed-identification:0:0", "pair": "22280b9ccbc5b3b6b79e|87c7e67866102708eca4", "repeat": 0, "right": 0.0, "task": "dog-breed-identification", "wrong": 1.0}
+{"delta": 1.0, "gap": 1.0, "job": "dog-breed-identification:0:1", "pair": "22280b9ccbc5b3b6b79e|87c7e67866102708eca4", "repeat": 1, "right": 0.0, "task": "dog-breed-identification", "wrong": 1.0}
+{"delta": 0.11781701677672894, "gap": 0.11781701677672894, "job": "dog-breed-identification:0:1", "pair": "830b02e1d103a1e1e594|87c7e67866102708eca4", "repeat": 1, "right": 0.0, "task": "dog-breed-identification", "wrong": 0.11781701677672894}

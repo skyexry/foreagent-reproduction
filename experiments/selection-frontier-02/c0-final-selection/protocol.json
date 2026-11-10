@@ -1,0 +1,15 @@
+{
+  "id": "c0-final-selection-03",
+  "registered_utc": "2026-11-08T12:16:33.648382+00:00",
+  "motivation": "Initial factorial DS fixed C0 traces, after inspection, indicated gate .5 all-candidate win fraction .242 vs actual C0 .264; DS is discovery, GPT actual C0 paths not yet evaluated with this selector. Preserve negative general random-schedule results.",
+  "frozen_scope": "No baseline code edits. Run actual corrected_tournament from clean-ranking-v1 via select/load_world per bank per job, .7 scheduling gate, original pairing/randomness/rematch/budget. For DS replay exact saved top, trace, ledger and aggregate. For all banks verify terminal output after same exact trace. Only unique revealed raw comparisons can enter new final decision. Numeric index and confidence parsed by frozen response_values, .5 rule retains valid raw index at c>=.5 including default c=.5 as in bank; gold confined to scoring.",
+  "arms": {
+    "C": "actual C0 top group",
+    "H": "all candidates, only .7+ edges, legacy top_set",
+    "L": "all candidates, all parsed .5+ edges, legacy top_set",
+    "T": "within actual C0 top group choose max legacy (fraction,degree) from full evidence of L against ALL opponents; tie retained; if all candidates in group have zero degree select unchanged. Main L, T a prespecified subordinate ablation on replacing vs breaking ties only."
+  },
+  "primary": "R(C)−R(L) on actual C0 schedule per bank. Common-seed paired 850 episodes, identical number of unique reads. Factor attribution compare H−L, C−H, L−T. Hit, costs, CI, D subgroup sensitivity, task leave-one, per-job hashes/policy seal. GPT task-first pooled intervals and all individual results.",
+  "decision": "DS discovery gain >=.01 and positive after every task omission; GPT pooled improvement positive, at least 2/3 individual gains positive, model dependence flagged. If passes but GPT interval includes zero classify research priority only. If fails do not promote overall; discuss judge-specific or design a different finite diagnostic. Do not select T post-hoc solely by point estimate. No inference to unseen tasks.",
+  "bounds": "4 banks × 850 full episodes; no tuning, external API, training, GPUs, max 600 seconds per run. Snapshot/manifest/results/notes; fresh output dir."
+}

@@ -1,0 +1,80 @@
+{
+  "exploratory_repeat_seed": {
+    "differing": 745,
+    "differing_fraction": 0.7412935323383084,
+    "matched_pool_pairs": 1005,
+    "mean_absolute_delta_difference": 0.1744003290398584,
+    "scope": "Both seeds queried the same edge in the same pool; context and paths may differ. Development diagnostic only."
+  },
+  "exposed": 3349,
+  "negative_mean_delta": 703,
+  "occurrence_signs": {
+    "negative": 1113,
+    "positive": 2809,
+    "zero": 1717
+  },
+  "pairs": 17877,
+  "per_task_ess_fraction": {
+    "gap": {
+      "max": 0.9977290765104246,
+      "median": 0.968932480984499,
+      "min": 0.8970337542820781
+    },
+    "shuffled": {
+      "max": 0.9991200929870149,
+      "median": 0.9921292766711236,
+      "min": 0.9044124384647785
+    },
+    "terminal": {
+      "max": 0.9991200929870149,
+      "median": 0.9921292766711236,
+      "min": 0.9044124384647785
+    }
+  },
+  "positive_mean_delta": 1728,
+  "raw_weights": {
+    "gap": {
+      "effective_sample_size": 17312.58320039211,
+      "max": 2.0,
+      "mean": 1.0648470686691243,
+      "median": 1.0,
+      "min": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "p95": 1.5464957715866237
+    },
+    "shuffled": {
+      "effective_sample_size": 17730.41179357912,
+      "max": 2.0,
+      "mean": 1.0193538163756002,
+      "median": 1.0,
+      "min": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "p95": 1.1021425659828261
+    },
+    "terminal": {
+      "effective_sample_size": 17730.41179357912,
+      "max": 2.0,
+      "mean": 1.0193538163756002,
+      "median": 1.0,
+      "min": 1.0,
+      "p25": 1.0,
+      "p75": 1.0,
+      "p95": 1.1021425659828261
+    }
+  },
+  "scope": "Full prepared pair corpus before trainer code-identity and fold-overlap exclusions; final fitting ESS is fold-specific.",
+  "terminal_increment_given_positive": {
+    "effective_sample_size": 746.9009164647168,
+    "max": 1.0,
+    "mean": 0.2002246385107656,
+    "median": 0.10863004791532882,
+    "min": 1.0442178965952564e-07,
+    "p25": 0.03491603677472038,
+    "p75": 0.2866884175661508,
+    "p95": 0.7102639354431163
+  },
+  "unexposed": 14528,
+  "zero_mean_delta": 15446
+}

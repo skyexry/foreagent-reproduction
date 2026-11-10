@@ -1,0 +1,10 @@
+{
+  "id": "frontier-02-second-opinion",
+  "registered_utc": "2026-11-08T12:22:13.408324+00:00",
+  "why": "Valid coverage improved without a better final choice; .5 directions change sign across judges. Test if spending a real second opinion on a previously unanswered chain edge helps more than exploring a new edge at identical logical call cost.",
+  "control": "Registered coverage_random complete schedule: original random n-1 chain + uniform unseen edges until B.",
+  "intervention": "Same n-1 chain with primary bank. Take originally abstained edges in original chain order (label-, confidence magnitude-, and winner-blind). While budget remains, ask one backup bank on each such edge, require parseable winner and confidence>=.7. Fill any leftover budget with original control suffix in original order. Aggregate one accepted winner per pair under frozen top_set; primary valid always retained. When n=3 or complete-graph budgets still count each backup as one call.",
+  "swap_controls": "A0=new-edge control. A1=spend same revisit slots and retain all primary abstentions (sham; tests opportunity cost). A2=actual backup. Use three matched DS primary→each GPT backup, and each GPT primary→DS backup. Pool repeats within task before task bootstrap. Validate primary control matches historical .7 exactly. Do not compare six scenarios as independent datasets.",
+  "criteria": "Advance as a general allocation direction only if A2 gain over A0 averages >=.01 for DS-primary, >0 on GPT-primary, >=2/3 positive in each group, all DS-primary leave-one-task-out gains positive, no extra input calls. Report CI and sign by task, actual C0 in relevant bank as separate system-level reference. A1-A2 decomposes effect of rescued signal vs giving up novel edges. This CPU replay uses one distinct stored model judgment per call, not a repeated cached draw. Backend-token and latency costs need live data.",
+  "cost": "max 13 historical judgment reads per job, exactly matched A0/A1/A2; no API, candidate runs or GPU. Both bank orders × all 850 existing jobs, no tuning; input manifests from parent experiment and banks/manifest.json; no live v1 contracts changed."
+}

@@ -1,0 +1,16 @@
+{
+  "all_controls_match": 4574,
+  "bank_decision_sha256": {
+    "DS1": "bc4130cec6bd3052a6c1ba15518cfece54d2724cf50f366c0d509f1d2b77dacd",
+    "deepseek-reasoner_0p0_pboost_cot_20251205_214840": "8ea48bb6dc73fed5b4619e1ed554f9c90d5a798c00c4a44c48fb3d986c6c7ec9",
+    "deepseek-reasoner_0p0_pboost_cot_20251209_135057": "6146f72d58797421729652b2a1502bb86008df288fe2dee2fdaba352deb5b792",
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": "8ec9e4b2cc2fd066067beb369f6ad27ce2698af246d1da75c86aa657bc46b5eb",
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": "b66cb4349dd2baf71c7985897c779c5f1d701c21c1c361730137e4da07624ea3",
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": "0fb0555d7378b231af74aed3baebadbf23509c37e1bc5ef264d8d1d45224a4b5"
+  },
+  "decisions_sha256": "6bb4bf502db3908be39cdebddad4a5c30e4bdfb2c92c91e725955e93672baf46",
+  "frozen_C0_direct_label_access_attempts": [],
+  "oracle_feedback_only_passed_to_frozen_C0": true,
+  "oracle_labels_used_by_evaluator": true,
+  "selection_records": 41166
+}

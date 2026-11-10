@@ -1,0 +1,15 @@
+{
+  "experiment": "rationale-tiebreak-v1",
+  "registered_before_selection_and_score": true,
+  "scope": "One fixed offline postprocessor on frozen C0 first groups; 26 development tasks, DS and three GPT banks; no training or calls",
+  "inputs": {"audit": "experiments/selection-frontier-02/direction-audit/run-003/source_audit.sealed.jsonl.gz", "decisions": "experiments/trajectory-weighted-judge-v1/evaluation/run_1/decisions.sealed.jsonl.gz", "jobs": "experiments/clean-ranking-v1/prepared/jobs.jsonl", "labels_after_seal": "experiments/clean-ranking-v1/prepared/evaluation_labels.json"},
+  "signal": "Retained reasoning last flat index-bearing JSON, same frozen regex extractor as source audit. Both extracted and archived indices must be strict integer 0/1, excluding bool. Direction mismatch alone flags; confidence mismatch alone never flags. This is an apparent consistency signal, never adjudicated truth; intermediate reasoning JSON can create false flags.",
+  "audit_schema_disclosure": "Audit lacks reasoning_last_json_index in every row. Recover via source_file/source_row prediction.reasoning; verify source hashes against frozen source audit and candidate path suffix order against frozen feedback order, plus presence/index/confidence and old mixed mismatch fields. Never inspect raw scores/correctness before seal.",
+  "text_rule": "Only original C0 ties: if any accepted queried flagged edge touches a finalist, compute finalist penalty flagged wins minus flagged losses over accepted queried edges; retain minimizers within original first group. Otherwise retain entire C0 group.",
+  "control": "32 deterministic shuffles per episode of flag positions across accepted queried edges, preserving number of flags. Same finalist minimization rule, no flags means no trigger. Seed SHA256(experiment:bank:job:replicate). Control reported as replicate mean, plus replicate distribution.",
+  "selection_seal": "Write all C0/text/sham selected sets and extracted flag metadata, hash seal, verify C0 against frozen reference and feedback source order/gate, before labels are opened.",
+  "metrics": "Within episode uniform tie expected normalized regret and best-hit; average episodes within task, then tasks equally. GPT pooled averages banks within task then tasks. Paired task-cluster bootstrap 10000 draws, seed 812808, percentile 95% CI. Leave-one-task-out sign stability.",
+  "diagnostic": "Unique accepted strict pairs with explicit reasoning index: archive winner accuracy grouped by direction match/mismatch, bank, task and confidence bands [0.7,0.8),[0.8,0.9),[0.9,1]. Raw conditioning only; no causal interpretation.",
+  "gate": "DS C0-minus-text regret gain >=0.01; GPT pooled gain >0; text beats mean sham in both; 95% paired bootstrap lower bounds >0 for text-v-C0 and text-v-sham, and all leave-one-task-out gains >0, in both DS and GPT pooled. Otherwise close this exact text signal; no followup experiments.",
+  "cost_cap": {"new_model_calls":0,"training_runs":0,"gpu_hours":0,"paid_cost_usd":0}
+}

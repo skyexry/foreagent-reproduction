@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "paired_fixed_prediction_CI_independent": 66,
+    "predictions_match_calibration_and_sealed_C_L": 4696,
+    "scores_independent": 14088
+  },
+  "predictions": 4696,
+  "scope": "target selections independently checked against calibration bit and source C/L; direct label scoring; per-task/pooled metrics and fixed-prediction descriptive bootstrap rechecked",
+  "status": "passed",
+  "verifier_sha256": "ca0722912cb09f490f134bc9fbcdfdbbd0252b82d2a8f159b42ae84f6e8f3cdd"
+}

@@ -1,0 +1,7 @@
+{
+  "stage": "Before scoring audit arms and before reading existing new C0 scalar results; source schema has now been inspected.",
+  "reason": "Alignment prediction confidence may already contain parser default .5. Full model-response fields exist only in available recovery backups; retained reasoning sometimes carries explicit final JSON.",
+  "E_exact_rule": "High .7+ unchanged. Low [.5,.7) accepted only when final index-bearing JSON object in available raw_response/raw_responses text or retained prediction.reasoning explicitly has legal strict 0/1 index and numeric finite [0,1] confidence matching bank parsed direction and confidence; any recorded error/fallback flag excludes. Prefer full raw text if available; otherwise retained reasoning JSON is separately labelled partial-response evidence.",
+  "E_archive": "Additional sensitivity: high unchanged plus low whose alignment prediction itself explicitly carries legal strict best_index and confidence, with no recorded error/fallback. This detects visible archive default/missing fields but is weaker than direct response proof.",
+  "scope": "These explanatory audit arms supplement protocol E; original 32 fair-direction controls and all scoring rules unchanged. No post-hoc promotion."
+}

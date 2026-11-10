@@ -1,0 +1,10 @@
+{
+  "decisions.sealed.jsonl.gz": "4fd44dc02cbb8b10696ae8515709d90aa366cd78a142994fe3acdff981b98e47",
+  "per_task.json": "75e9637d925bdee0c3e1fc45a277c4118c15a1597dc66bb6ffd83c64d95cc294",
+  "protocol.json": "5acdf3a73cb8f903a8d8ab5fd473bd78f485846f92a7d967fb7f876d2a5e04fe",
+  "script.snapshot.py": "be001db28b50d3ac89f91944d675eed2880926ee0269ea312e9fb06b519e8558",
+  "selection_seal.json": "49cb46024f8fbc63a7449b0edd3f4c3d9840ccb2b54bac804f0d3529dd9d9b1e",
+  "source_confidence_counts.json": "2a78c9b9a566087946c8f69734b38f63b955c02295230efb47e54ed4516a51f4",
+  "summary.json": "94f35b086441df50068aa205b4aa074caaeb6901bfac15538eda5178e915efe8",
+  "verification.json": "fbbb8be2acb5ed6c1622d0666401d082a2537229afa4c7dc0b21ca793b4082d7"
+}

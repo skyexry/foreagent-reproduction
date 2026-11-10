@@ -1,0 +1,16 @@
+There was a problem when trying to write in your cache folder (/Users/shrinn81/.cache/huggingface/hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+Traceback (most recent call last):
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/trajectory-weighted-judge-v1/representation/encode.py", line 12, in <module>
+    from transformers import RobertaTokenizerFast, T5EncoderModel
+  File "/private/tmp/foreagent-r1-codet5-packages/transformers/__init__.py", line 26, in <module>
+    from . import dependency_versions_check
+  File "/private/tmp/foreagent-r1-codet5-packages/transformers/dependency_versions_check.py", line 57, in <module>
+    require_version_core(deps[pkg])
+  File "/private/tmp/foreagent-r1-codet5-packages/transformers/utils/versions.py", line 117, in require_version_core
+    return require_version(requirement, hint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/foreagent-r1-codet5-packages/transformers/utils/versions.py", line 111, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+  File "/private/tmp/foreagent-r1-codet5-packages/transformers/utils/versions.py", line 39, in _compare_versions
+    raise ValueError(
+ValueError: Unable to compare versions for tqdm>=4.27: need=4.27 found=None. This is unusual. Consider reinstalling tqdm.

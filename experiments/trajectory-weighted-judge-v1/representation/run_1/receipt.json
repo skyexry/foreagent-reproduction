@@ -1,0 +1,37 @@
+{
+  "model": "Salesforce/codet5-small",
+  "revision": "b1ee9570c289f21b5922b9c768a1ce12957bf968",
+  "files": {
+    "added_tokens.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "config.json": "c067a6377fc235b103a1577fcb8a114e2885b700198bad22e34f84659d0025ca",
+    "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+    "pytorch_model.bin": "968fb0f45e1efc8cf3dd50012d1f82ad82098107cbadde2c0fdd8e61bac02908",
+    "special_tokens_map.json": "2454193b9f88437a3c0497300f21a2a4372115b5367ea71f07e912589baedaa6",
+    "tokenizer_config.json": "ccc2672ac229eef1a36010a147b8d3e7881d39a30b9bca7ddaa73a30fccfd517",
+    "vocab.json": "43bb485f4de0f2fd49b370bef4efab23ea3ab6d0019e72bdd9cec1436a6eaa2b"
+  },
+  "feature_sha256": "e4289aff01d44ee4acd3877904763245d9575f6621cdca62ae2ad337549318a9",
+  "coverage": {
+    "code": {
+      "records": 877,
+      "original_tokens": 2949714,
+      "kept_tokens": 1541538,
+      "fraction": 0.5226059204383883,
+      "docs_with_all_tokens": 215
+    },
+    "context": {
+      "records": 26,
+      "original_tokens": 281019,
+      "kept_tokens": 49625,
+      "fraction": 0.17658948327337298,
+      "docs_with_all_tokens": 0
+    }
+  },
+  "dimensions": 512,
+  "chunks": 6710,
+  "device": "cpu",
+  "batch_size": 12,
+  "torch_version": "2.11.0",
+  "seconds": 130.88832841604017,
+  "model_training": false
+}

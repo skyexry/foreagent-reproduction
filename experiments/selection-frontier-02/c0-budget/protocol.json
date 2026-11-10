@@ -1,0 +1,9 @@
+{
+  "id": "actual-c0-structural-budget-01",
+  "registered_utc": "2026-11-08T12:26:04.550851+00:00",
+  "question": "Can actual C0 preserve selection quality while buying fewer judgments? Earlier D1 stop was after a random chain, a different mechanism.",
+  "method": "Single prespecified alternative: unchanged .7 real C0 tournament with host unique-read cap min(existing B,n-1), compared to actual C0 at original B. n-1 is the cost of a complete no-abstention knockout; original tournament and cache/fallback semantics after an exhausted cap are preserved. Same candidates/seeds/banks. No budget sweep. If quality or resource criterion fails retain original cap.",
+  "primary": "Paired regret deterioration = short cap minus full cap and realized read savings. To recommend cost change on this evidence require DS upper 95% CI for deterioration <=.01 and savings>=1 macro unique read, pooled GPT same and all individual point deterioration <=.01. Include both DS0 banks under the same rule if available, report their populations separately. Decision is about replay cost, actual token/wall-clock speedup requires online study.",
+  "data": "all 850/26 four core banks; additional two DS0 banks measured for all their available jobs and report paired subset. reuse frozen full-C0 terminal selection/ledger (actual), execute shorter path from scratch and verify unique reads are a prefix of full schedule, no cached repeated evidence counts. Separate selection seal and evaluation; equal information at first decision. 10000 paired task cluster resamples seed 20261108093; report lost/better/worse and reads/hit.",
+  "bounds": "600s per invocation, no paid API or training, fixed dev tasks; no final scorer changes. Registered before observing the effect of this cap and DS0 transfer results."
+}

@@ -1,0 +1,92 @@
+{
+  "3909ab17cf68ff0e434b|390e58c2f7061442ec06": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3909ab17cf68ff0e434b"
+  },
+  "3909ab17cf68ff0e434b|8ce70a64e3abef966916": {
+    "gap": 1.0528219971056445,
+    "mean_delta": -0.46309696092619335,
+    "mean_gap": 0.0528219971056444,
+    "n": 1,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3909ab17cf68ff0e434b"
+  },
+  "3909ab17cf68ff0e434b|ce9ee137214aeda40a43": {
+    "gap": 2.0,
+    "mean_delta": 0.7684515195369033,
+    "mean_gap": 1.0,
+    "n": 2,
+    "shuffled": 1.7684515195369033,
+    "terminal": 1.7684515195369033,
+    "winner": "3909ab17cf68ff0e434b"
+  },
+  "3909ab17cf68ff0e434b|fb9846835836775bcddd": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "3909ab17cf68ff0e434b"
+  },
+  "390e58c2f7061442ec06|8ce70a64e3abef966916": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "8ce70a64e3abef966916"
+  },
+  "390e58c2f7061442ec06|ce9ee137214aeda40a43": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "390e58c2f7061442ec06"
+  },
+  "390e58c2f7061442ec06|fb9846835836775bcddd": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "fb9846835836775bcddd"
+  },
+  "8ce70a64e3abef966916|ce9ee137214aeda40a43": {
+    "gap": 1.9471780028943555,
+    "mean_delta": 0.4630969609261933,
+    "mean_gap": 0.9471780028943556,
+    "n": 1,
+    "shuffled": 1.4630969609261932,
+    "terminal": 1.4630969609261932,
+    "winner": "8ce70a64e3abef966916"
+  },
+  "8ce70a64e3abef966916|fb9846835836775bcddd": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "8ce70a64e3abef966916"
+  },
+  "ce9ee137214aeda40a43|fb9846835836775bcddd": {
+    "gap": 1.9428364688856683,
+    "mean_delta": 0.7112879884225716,
+    "mean_gap": 0.9428364688856682,
+    "n": 2,
+    "shuffled": 1.7112879884225716,
+    "terminal": 1.7112879884225716,
+    "winner": "fb9846835836775bcddd"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/factorial/experiment.py\", line 409, in main\n    summary = analyze(out,args.bank)\n              ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/factorial/experiment.py\", line 201, in analyze\n    binding[str(Path(p).relative_to(ROOT))] = sha(p)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py\", line 682, in relative_to\n    raise ValueError(f\"{str(self)!r} is not in the subpath of {str(other)!r}\")\nValueError: 'experiments/selection-frontier-02/banks/gpt-5_1_1p0_pboost_cot_20251210_154406.json.gz' is not in the subpath of '/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent'\n",
+  "elapsed_seconds": 0.1154351249570027,
+  "new_API_calls": 0,
+  "GPU": 0,
+  "candidate_training": 0
+}

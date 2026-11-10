@@ -1,0 +1,13 @@
+{
+  "phase": "completed before evaluation_labels.json open",
+  "sha256": "14747a938423d6ca0b6e91e8794682c90eace7d75331cefd47e730ee7a95818e",
+  "selection_records": 11050,
+  "selection_inputs": [
+    "candidate IDs/order, seed, budget, feedback banks, frozen endpoint schedules, C0 code"
+  ],
+  "checks": {
+    "zero_label_schedules_rebuilt": 1700,
+    "actual_C0_whole_procedure_rebuilt": 850,
+    "original_fixed_graph_selections_rebuilt": 1700
+  }
+}

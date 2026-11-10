@@ -1,0 +1,19 @@
+{
+  "frozen_hashes_match": true,
+  "all_jobs_matched": 850,
+  "complete_random_schedules_original_rebuilt": 850,
+  "complete_random_schedules_corrected_unchanged": 850,
+  "original_saved_selections_rebuilt": 850,
+  "independent_integer_ratio_selections_match_both_arms": 1700,
+  "independent_scores_match_both_arms": 1700,
+  "original_saved_episode_metrics_rebuilt": 850,
+  "original_saved_task_summaries_rebuilt": 26,
+  "original_saved_macro_rebuilt": true,
+  "all_abstentions_preserved": true,
+  "all_true_tie_directions_preserved": true,
+  "all_endpoint_orders_preserved": true,
+  "all_cost_ledgers_preserved": true,
+  "changed_sets_require_strict_error": true,
+  "protocol_unchanged_at_end": true,
+  "original_selections_sealed_before_label_read_sha256": "77df06da6bc20e8debc553ca1453830c1edd7c68b9de8660c060f3ba349582d5"
+}

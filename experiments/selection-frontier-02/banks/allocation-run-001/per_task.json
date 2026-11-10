@@ -1,0 +1,1676 @@
+{
+  "GPT_task_first_pooled": {
+    "aptos2019-blindness-detection": {
+      "coverage_random": {
+        "best_hit": 0.1715277777777778,
+        "regret": 0.3759254492503083,
+        "unique_reads": 13.0,
+        "valid_edges": 7.925,
+        "zero_valid_degree_candidates": 1.3916666666666666
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.1775,
+        "regret": 0.3493717507594654,
+        "unique_reads": 13.0,
+        "valid_edges": 7.625,
+        "zero_valid_degree_candidates": 0.7000000000000001
+      }
+    },
+    "denoising-dirty-documents": {
+      "coverage_random": {
+        "best_hit": 0.14930555555555555,
+        "regret": 0.3893719968436938,
+        "unique_reads": 13.0,
+        "valid_edges": 11.183333333333332,
+        "zero_valid_degree_candidates": 0.25
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.1822222222222222,
+        "regret": 0.41247947614921987,
+        "unique_reads": 13.0,
+        "valid_edges": 11.174999999999999,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "coverage_random": {
+        "best_hit": 0.20166666666666666,
+        "regret": 0.10075329496045717,
+        "unique_reads": 13.0,
+        "valid_edges": 6.9750000000000005,
+        "zero_valid_degree_candidates": 1.675
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.22472222222222224,
+        "regret": 0.08957042838688445,
+        "unique_reads": 13.0,
+        "valid_edges": 6.933333333333334,
+        "zero_valid_degree_candidates": 0.6916666666666668
+      }
+    },
+    "dog-breed-identification": {
+      "coverage_random": {
+        "best_hit": 1.0,
+        "regret": 0.0,
+        "unique_reads": 3.0,
+        "valid_edges": 3.0,
+        "zero_valid_degree_candidates": 0.0
+      },
+      "valid_coverage_v1": {
+        "best_hit": 1.0,
+        "regret": 0.0,
+        "unique_reads": 3.0,
+        "valid_edges": 3.0,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "google-quest-challenge": {
+      "coverage_random": {
+        "best_hit": 0.16527777777777777,
+        "regret": 0.26202588744318905,
+        "unique_reads": 13.0,
+        "valid_edges": 11.283333333333333,
+        "zero_valid_degree_candidates": 0.17500000000000002
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.23152777777777778,
+        "regret": 0.2692609195291427,
+        "unique_reads": 13.0,
+        "valid_edges": 11.333333333333334,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "coverage_random": {
+        "best_hit": 0.0,
+        "regret": 1.0,
+        "unique_reads": 10.0,
+        "valid_edges": 7.666666666666667,
+        "zero_valid_degree_candidates": 0.0
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.0,
+        "regret": 1.0,
+        "unique_reads": 10.0,
+        "valid_edges": 7.666666666666667,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "leaf-classification": {
+      "coverage_random": {
+        "best_hit": 0.19930555555555554,
+        "regret": 0.05453301288082354,
+        "unique_reads": 13.0,
+        "valid_edges": 11.258333333333333,
+        "zero_valid_degree_candidates": 0.16666666666666666
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.17666666666666667,
+        "regret": 0.061344533775430365,
+        "unique_reads": 13.0,
+        "valid_edges": 11.258333333333333,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "coverage_random": {
+        "best_hit": 0.29583333333333334,
+        "regret": 0.12917127395955838,
+        "unique_reads": 13.0,
+        "valid_edges": 9.366666666666667,
+        "zero_valid_degree_candidates": 0.5833333333333334
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.3422222222222222,
+        "regret": 0.11790036782137192,
+        "unique_reads": 13.0,
+        "valid_edges": 9.408333333333333,
+        "zero_valid_degree_candidates": 0.03333333333333333
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "coverage_random": {
+        "best_hit": 0.21875,
+        "regret": 0.2096213381051493,
+        "unique_reads": 13.0,
+        "valid_edges": 10.916666666666666,
+        "zero_valid_degree_candidates": 0.35833333333333334
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.19958333333333333,
+        "regret": 0.26322513856302593,
+        "unique_reads": 13.0,
+        "valid_edges": 10.891666666666666,
+        "zero_valid_degree_candidates": 0.016666666666666666
+      }
+    },
+    "mlsp-2013-birds": {
+      "coverage_random": {
+        "best_hit": 0.012500000000000002,
+        "regret": 0.30942403994414797,
+        "unique_reads": 13.0,
+        "valid_edges": 11.116666666666667,
+        "zero_valid_degree_candidates": 0.19999999999999998
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.04722222222222222,
+        "regret": 0.29399569096049816,
+        "unique_reads": 13.0,
+        "valid_edges": 11.133333333333333,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "coverage_random": {
+        "best_hit": 0.17222222222222225,
+        "regret": 0.07764546520090042,
+        "unique_reads": 13.0,
+        "valid_edges": 10.775,
+        "zero_valid_degree_candidates": 0.23333333333333336
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.20000000000000004,
+        "regret": 0.11127066418576692,
+        "unique_reads": 13.0,
+        "valid_edges": 10.958333333333334,
+        "zero_valid_degree_candidates": 0.016666666666666666
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "coverage_random": {
+        "best_hit": 0.8333333333333334,
+        "regret": 0.017456359102244544,
+        "unique_reads": 3.0,
+        "valid_edges": 2.0,
+        "zero_valid_degree_candidates": 0.0
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.8333333333333334,
+        "regret": 0.017456359102244544,
+        "unique_reads": 3.0,
+        "valid_edges": 2.0,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "coverage_random": {
+        "best_hit": 0.0,
+        "regret": 0.9206690814839035,
+        "unique_reads": 13.0,
+        "valid_edges": 10.166666666666666,
+        "zero_valid_degree_candidates": 0.0
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.3055555555555555,
+        "regret": 0.620402253829421,
+        "unique_reads": 13.0,
+        "valid_edges": 10.0,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "coverage_random": {
+        "best_hit": 0.0,
+        "regret": 0.29324872864928986,
+        "unique_reads": 13.0,
+        "valid_edges": 9.5,
+        "zero_valid_degree_candidates": 0.16666666666666666
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.0,
+        "regret": 0.3257394358167433,
+        "unique_reads": 13.0,
+        "valid_edges": 8.5,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "coverage_random": {
+        "best_hit": 0.4305555555555555,
+        "regret": 0.29488761357509224,
+        "unique_reads": 13.0,
+        "valid_edges": 10.383333333333333,
+        "zero_valid_degree_candidates": 0.39999999999999997
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.3252777777777778,
+        "regret": 0.3717533501199252,
+        "unique_reads": 13.0,
+        "valid_edges": 10.15,
+        "zero_valid_degree_candidates": 0.049999999999999996
+      }
+    },
+    "random-acts-of-pizza": {
+      "coverage_random": {
+        "best_hit": 0.04305555555555555,
+        "regret": 0.4175242751812775,
+        "unique_reads": 13.0,
+        "valid_edges": 8.875,
+        "zero_valid_degree_candidates": 0.7999999999999999
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.06402777777777778,
+        "regret": 0.4178200262123708,
+        "unique_reads": 13.0,
+        "valid_edges": 8.908333333333333,
+        "zero_valid_degree_candidates": 0.16666666666666666
+      }
+    },
+    "spooky-author-identification": {
+      "coverage_random": {
+        "best_hit": 0.2388888888888889,
+        "regret": 0.18670663268421148,
+        "unique_reads": 13.0,
+        "valid_edges": 12.483333333333334,
+        "zero_valid_degree_candidates": 0.041666666666666664
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.2354166666666667,
+        "regret": 0.2052822450528018,
+        "unique_reads": 13.0,
+        "valid_edges": 12.441666666666668,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "stanford-covid-vaccine": {
+      "coverage_random": {
+        "best_hit": 0.2238888888888889,
+        "regret": 0.18779050029272484,
+        "unique_reads": 13.0,
+        "valid_edges": 11.466666666666667,
+        "zero_valid_degree_candidates": 0.10000000000000002
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.12902777777777777,
+        "regret": 0.19279107882662114,
+        "unique_reads": 13.0,
+        "valid_edges": 11.341666666666667,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "coverage_random": {
+        "best_hit": 0.07361111111111111,
+        "regret": 0.2289744885457959,
+        "unique_reads": 13.0,
+        "valid_edges": 10.591666666666667,
+        "zero_valid_degree_candidates": 0.39166666666666666
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.2111111111111111,
+        "regret": 0.19288698578380112,
+        "unique_reads": 13.0,
+        "valid_edges": 10.383333333333333,
+        "zero_valid_degree_candidates": 0.016666666666666666
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "coverage_random": {
+        "best_hit": 0.013888888888888888,
+        "regret": 0.35782977668091265,
+        "unique_reads": 13.0,
+        "valid_edges": 11.208333333333334,
+        "zero_valid_degree_candidates": 0.18333333333333335
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.014583333333333332,
+        "regret": 0.319768365807785,
+        "unique_reads": 13.0,
+        "valid_edges": 11.183333333333332,
+        "zero_valid_degree_candidates": 0.008333333333333333
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "coverage_random": {
+        "best_hit": 0.07777777777777778,
+        "regret": 0.3254002760490542,
+        "unique_reads": 13.0,
+        "valid_edges": 9.950000000000001,
+        "zero_valid_degree_candidates": 0.5416666666666666
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.048611111111111105,
+        "regret": 0.35204184529504645,
+        "unique_reads": 13.0,
+        "valid_edges": 9.775,
+        "zero_valid_degree_candidates": 0.03333333333333333
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "coverage_random": {
+        "best_hit": 0.14958333333333335,
+        "regret": 0.4200416625331694,
+        "unique_reads": 13.0,
+        "valid_edges": 11.558333333333332,
+        "zero_valid_degree_candidates": 0.13333333333333333
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.19166666666666665,
+        "regret": 0.3928080662575262,
+        "unique_reads": 13.0,
+        "valid_edges": 11.541666666666666,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "coverage_random": {
+        "best_hit": 0.10972222222222222,
+        "regret": 0.6463292507895758,
+        "unique_reads": 13.0,
+        "valid_edges": 6.483333333333333,
+        "zero_valid_degree_candidates": 2.1166666666666667
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.10291666666666666,
+        "regret": 0.6602187515998521,
+        "unique_reads": 13.0,
+        "valid_edges": 6.308333333333334,
+        "zero_valid_degree_candidates": 1.0833333333333333
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "coverage_random": {
+        "best_hit": 0.06458333333333333,
+        "regret": 0.7344714962116748,
+        "unique_reads": 13.0,
+        "valid_edges": 7.55,
+        "zero_valid_degree_candidates": 1.3
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.06180555555555556,
+        "regret": 0.7416895896995156,
+        "unique_reads": 13.0,
+        "valid_edges": 7.408333333333334,
+        "zero_valid_degree_candidates": 0.43333333333333335
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "coverage_random": {
+        "best_hit": 0.31805555555555554,
+        "regret": 0.1202012733664811,
+        "unique_reads": 13.0,
+        "valid_edges": 11.5,
+        "zero_valid_degree_candidates": 0.10833333333333334
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.3383333333333334,
+        "regret": 0.12445774975803485,
+        "unique_reads": 13.0,
+        "valid_edges": 11.633333333333333,
+        "zero_valid_degree_candidates": 0.0
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "coverage_random": {
+        "best_hit": 0.14375000000000002,
+        "regret": 0.0711683576670235,
+        "unique_reads": 13.0,
+        "valid_edges": 10.808333333333332,
+        "zero_valid_degree_candidates": 0.2833333333333333
+      },
+      "valid_coverage_v1": {
+        "best_hit": 0.1451388888888889,
+        "regret": 0.08354290698456011,
+        "unique_reads": 13.0,
+        "valid_edges": 10.9,
+        "zero_valid_degree_candidates": 0.0
+      }
+    }
+  },
+  "by_bank": {
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "aptos2019-blindness-detection": {
+        "coverage_random": {
+          "best_hit": 0.14583333333333331,
+          "regret": 0.3576595570769901,
+          "unique_reads": 13.0,
+          "valid_edges": 8.275,
+          "zero_valid_degree_candidates": 1.225
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.17791666666666667,
+          "regret": 0.3660818289672056,
+          "unique_reads": 13.0,
+          "valid_edges": 8.1,
+          "zero_valid_degree_candidates": 0.475
+        }
+      },
+      "denoising-dirty-documents": {
+        "coverage_random": {
+          "best_hit": 0.17916666666666667,
+          "regret": 0.362982974454486,
+          "unique_reads": 13.0,
+          "valid_edges": 11.225,
+          "zero_valid_degree_candidates": 0.275
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.20083333333333334,
+          "regret": 0.4006825515231224,
+          "unique_reads": 13.0,
+          "valid_edges": 11.05,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "coverage_random": {
+          "best_hit": 0.09583333333333334,
+          "regret": 0.06467446094179574,
+          "unique_reads": 13.0,
+          "valid_edges": 7.7,
+          "zero_valid_degree_candidates": 1.075
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.15708333333333332,
+          "regret": 0.07547136020041008,
+          "unique_reads": 13.0,
+          "valid_edges": 7.8,
+          "zero_valid_degree_candidates": 0.3
+        }
+      },
+      "dog-breed-identification": {
+        "coverage_random": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 3.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 3.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "google-quest-challenge": {
+        "coverage_random": {
+          "best_hit": 0.16041666666666668,
+          "regret": 0.2738443207209632,
+          "unique_reads": 13.0,
+          "valid_edges": 10.8,
+          "zero_valid_degree_candidates": 0.25
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.2625,
+          "regret": 0.2697736970524514,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 1.0,
+          "unique_reads": 10.0,
+          "valid_edges": 8.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 1.0,
+          "unique_reads": 10.0,
+          "valid_edges": 8.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "leaf-classification": {
+        "coverage_random": {
+          "best_hit": 0.18541666666666667,
+          "regret": 0.06194277650231256,
+          "unique_reads": 13.0,
+          "valid_edges": 11.6,
+          "zero_valid_degree_candidates": 0.125
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.19166666666666668,
+          "regret": 0.06695964162984772,
+          "unique_reads": 13.0,
+          "valid_edges": 11.575,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "coverage_random": {
+          "best_hit": 0.3145833333333333,
+          "regret": 0.12920248798227135,
+          "unique_reads": 13.0,
+          "valid_edges": 9.15,
+          "zero_valid_degree_candidates": 0.525
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.2633333333333333,
+          "regret": 0.12072200831209035,
+          "unique_reads": 13.0,
+          "valid_edges": 9.15,
+          "zero_valid_degree_candidates": 0.025
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "coverage_random": {
+          "best_hit": 0.24583333333333335,
+          "regret": 0.1937920730175929,
+          "unique_reads": 13.0,
+          "valid_edges": 10.775,
+          "zero_valid_degree_candidates": 0.425
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.15,
+          "regret": 0.2649652531829249,
+          "unique_reads": 13.0,
+          "valid_edges": 10.8,
+          "zero_valid_degree_candidates": 0.025
+        }
+      },
+      "mlsp-2013-birds": {
+        "coverage_random": {
+          "best_hit": 0.0125,
+          "regret": 0.30940359640087395,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.3
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.075,
+          "regret": 0.307665886588775,
+          "unique_reads": 13.0,
+          "valid_edges": 10.85,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "new-york-city-taxi-fare-prediction": {
+        "coverage_random": {
+          "best_hit": 0.17083333333333334,
+          "regret": 0.09500299863575157,
+          "unique_reads": 13.0,
+          "valid_edges": 10.85,
+          "zero_valid_degree_candidates": 0.275
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.20416666666666666,
+          "regret": 0.11988226597018639,
+          "unique_reads": 13.0,
+          "valid_edges": 10.85,
+          "zero_valid_degree_candidates": 0.05
+        }
+      },
+      "nomad2018-predict-transparent-conductors": {
+        "coverage_random": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 2.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 2.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "petfinder-pawpularity-score": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.9048028977806842,
+          "unique_reads": 13.0,
+          "valid_edges": 10.5,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.25,
+          "regret": 0.6548028977806842,
+          "unique_reads": 13.0,
+          "valid_edges": 11.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "plant-pathology-2020-fgvc7": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.09181090511048769,
+          "unique_reads": 13.0,
+          "valid_edges": 10.5,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 0.09181090511048769,
+          "unique_reads": 13.0,
+          "valid_edges": 9.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "predict-volcanic-eruptions-ingv-oe": {
+        "coverage_random": {
+          "best_hit": 0.4333333333333333,
+          "regret": 0.2889439658634783,
+          "unique_reads": 13.0,
+          "valid_edges": 10.65,
+          "zero_valid_degree_candidates": 0.3
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.30833333333333335,
+          "regret": 0.3682319898795573,
+          "unique_reads": 13.0,
+          "valid_edges": 10.25,
+          "zero_valid_degree_candidates": 0.025
+        }
+      },
+      "random-acts-of-pizza": {
+        "coverage_random": {
+          "best_hit": 0.025,
+          "regret": 0.4519353136421945,
+          "unique_reads": 13.0,
+          "valid_edges": 8.625,
+          "zero_valid_degree_candidates": 0.875
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.05500000000000001,
+          "regret": 0.45565749604420286,
+          "unique_reads": 13.0,
+          "valid_edges": 8.925,
+          "zero_valid_degree_candidates": 0.075
+        }
+      },
+      "spooky-author-identification": {
+        "coverage_random": {
+          "best_hit": 0.2625,
+          "regret": 0.16275581816759715,
+          "unique_reads": 13.0,
+          "valid_edges": 12.4,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.225,
+          "regret": 0.17982323149069449,
+          "unique_reads": 13.0,
+          "valid_edges": 12.275,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "stanford-covid-vaccine": {
+        "coverage_random": {
+          "best_hit": 0.23833333333333334,
+          "regret": 0.1807136799376689,
+          "unique_reads": 13.0,
+          "valid_edges": 11.55,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.13333333333333333,
+          "regret": 0.1915931292827641,
+          "unique_reads": 13.0,
+          "valid_edges": 11.4,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "statoil-iceberg-classifier-challenge": {
+        "coverage_random": {
+          "best_hit": 0.041666666666666664,
+          "regret": 0.22963192809124777,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.25
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.14791666666666667,
+          "regret": 0.1917595832016811,
+          "unique_reads": 13.0,
+          "valid_edges": 10.85,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "tabular-playground-series-dec-2021": {
+        "coverage_random": {
+          "best_hit": 0.03333333333333333,
+          "regret": 0.3385784340377992,
+          "unique_reads": 13.0,
+          "valid_edges": 11.25,
+          "zero_valid_degree_candidates": 0.225
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.022916666666666665,
+          "regret": 0.31316906822206797,
+          "unique_reads": 13.0,
+          "valid_edges": 11.3,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "tensorflow-speech-recognition-challenge": {
+        "coverage_random": {
+          "best_hit": 0.1,
+          "regret": 0.3074096843528057,
+          "unique_reads": 13.0,
+          "valid_edges": 10.475,
+          "zero_valid_degree_candidates": 0.375
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.075,
+          "regret": 0.36458750589539857,
+          "unique_reads": 13.0,
+          "valid_edges": 10.2,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "tgs-salt-identification-challenge": {
+        "coverage_random": {
+          "best_hit": 0.1125,
+          "regret": 0.4760752328891954,
+          "unique_reads": 13.0,
+          "valid_edges": 11.525,
+          "zero_valid_degree_candidates": 0.125
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.2125,
+          "regret": 0.40636055760677625,
+          "unique_reads": 13.0,
+          "valid_edges": 11.475,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "the-icml-2013-whale-challenge-right-whale-redux": {
+        "coverage_random": {
+          "best_hit": 0.17083333333333334,
+          "regret": 0.6311719683400274,
+          "unique_reads": 13.0,
+          "valid_edges": 7.425,
+          "zero_valid_degree_candidates": 1.775
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.19041666666666665,
+          "regret": 0.6431356444889097,
+          "unique_reads": 13.0,
+          "valid_edges": 7.2,
+          "zero_valid_degree_candidates": 0.725
+        }
+      },
+      "tweet-sentiment-extraction": {
+        "coverage_random": {
+          "best_hit": 0.07083333333333333,
+          "regret": 0.7379739908372759,
+          "unique_reads": 13.0,
+          "valid_edges": 7.1,
+          "zero_valid_degree_candidates": 1.475
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.07166666666666667,
+          "regret": 0.7330065037117202,
+          "unique_reads": 13.0,
+          "valid_edges": 7.475,
+          "zero_valid_degree_candidates": 0.45
+        }
+      },
+      "us-patent-phrase-to-phrase-matching": {
+        "coverage_random": {
+          "best_hit": 0.33541666666666664,
+          "regret": 0.13000573730808157,
+          "unique_reads": 13.0,
+          "valid_edges": 11.5,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.29541666666666666,
+          "regret": 0.13205147721970298,
+          "unique_reads": 13.0,
+          "valid_edges": 11.7,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "ventilator-pressure-prediction": {
+        "coverage_random": {
+          "best_hit": 0.175,
+          "regret": 0.05079562726669148,
+          "unique_reads": 13.0,
+          "valid_edges": 11.0,
+          "zero_valid_degree_candidates": 0.15
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.15833333333333333,
+          "regret": 0.06831264605451244,
+          "unique_reads": 13.0,
+          "valid_edges": 10.925,
+          "zero_valid_degree_candidates": 0.0
+        }
+      }
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "aptos2019-blindness-detection": {
+        "coverage_random": {
+          "best_hit": 0.16041666666666668,
+          "regret": 0.4330571642820088,
+          "unique_reads": 13.0,
+          "valid_edges": 7.875,
+          "zero_valid_degree_candidates": 1.5
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.185,
+          "regret": 0.3503565658366551,
+          "unique_reads": 13.0,
+          "valid_edges": 7.6,
+          "zero_valid_degree_candidates": 0.75
+        }
+      },
+      "denoising-dirty-documents": {
+        "coverage_random": {
+          "best_hit": 0.11875,
+          "regret": 0.4215926626568667,
+          "unique_reads": 13.0,
+          "valid_edges": 11.05,
+          "zero_valid_degree_candidates": 0.3
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.15416666666666667,
+          "regret": 0.41728295743855676,
+          "unique_reads": 13.0,
+          "valid_edges": 10.975,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "coverage_random": {
+          "best_hit": 0.2425,
+          "regret": 0.16471158312537632,
+          "unique_reads": 13.0,
+          "valid_edges": 6.6,
+          "zero_valid_degree_candidates": 2.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.22041666666666665,
+          "regret": 0.09833449723311467,
+          "unique_reads": 13.0,
+          "valid_edges": 6.575,
+          "zero_valid_degree_candidates": 0.875
+        }
+      },
+      "dog-breed-identification": {
+        "coverage_random": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 3.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 3.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "google-quest-challenge": {
+        "coverage_random": {
+          "best_hit": 0.16458333333333333,
+          "regret": 0.23004867358443812,
+          "unique_reads": 13.0,
+          "valid_edges": 11.3,
+          "zero_valid_degree_candidates": 0.15
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.225,
+          "regret": 0.21988326897821658,
+          "unique_reads": 13.0,
+          "valid_edges": 11.3,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 1.0,
+          "unique_reads": 10.0,
+          "valid_edges": 7.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 1.0,
+          "unique_reads": 10.0,
+          "valid_edges": 7.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "leaf-classification": {
+        "coverage_random": {
+          "best_hit": 0.22083333333333335,
+          "regret": 0.03966740437025018,
+          "unique_reads": 13.0,
+          "valid_edges": 11.1,
+          "zero_valid_degree_candidates": 0.125
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.22083333333333335,
+          "regret": 0.0627824036479894,
+          "unique_reads": 13.0,
+          "valid_edges": 11.25,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "coverage_random": {
+          "best_hit": 0.29375,
+          "regret": 0.12417237367627292,
+          "unique_reads": 13.0,
+          "valid_edges": 9.5,
+          "zero_valid_degree_candidates": 0.6
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.4104166666666667,
+          "regret": 0.08708393839991632,
+          "unique_reads": 13.0,
+          "valid_edges": 9.475,
+          "zero_valid_degree_candidates": 0.025
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "coverage_random": {
+          "best_hit": 0.24583333333333335,
+          "regret": 0.18613979379781875,
+          "unique_reads": 13.0,
+          "valid_edges": 11.075,
+          "zero_valid_degree_candidates": 0.275
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.22374999999999998,
+          "regret": 0.26552089355392977,
+          "unique_reads": 13.0,
+          "valid_edges": 10.975,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "mlsp-2013-birds": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.33778381510590755,
+          "unique_reads": 13.0,
+          "valid_edges": 11.15,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.03333333333333333,
+          "regret": 0.2989475937055051,
+          "unique_reads": 13.0,
+          "valid_edges": 11.075,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "new-york-city-taxi-fare-prediction": {
+        "coverage_random": {
+          "best_hit": 0.17916666666666667,
+          "regret": 0.059872101510032416,
+          "unique_reads": 13.0,
+          "valid_edges": 10.475,
+          "zero_valid_degree_candidates": 0.225
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.19791666666666669,
+          "regret": 0.08534540607641011,
+          "unique_reads": 13.0,
+          "valid_edges": 10.975,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "nomad2018-predict-transparent-conductors": {
+        "coverage_random": {
+          "best_hit": 0.5,
+          "regret": 0.05236907730673363,
+          "unique_reads": 3.0,
+          "valid_edges": 2.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.5,
+          "regret": 0.05236907730673363,
+          "unique_reads": 3.0,
+          "valid_edges": 2.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "petfinder-pawpularity-score": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.9048028977806842,
+          "unique_reads": 13.0,
+          "valid_edges": 9.5,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.3333333333333333,
+          "regret": 0.6032019318537895,
+          "unique_reads": 13.0,
+          "valid_edges": 9.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "plant-pathology-2020-fgvc7": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.4037080112198129,
+          "unique_reads": 13.0,
+          "valid_edges": 8.0,
+          "zero_valid_degree_candidates": 0.5
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 0.4037080112198129,
+          "unique_reads": 13.0,
+          "valid_edges": 7.5,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "predict-volcanic-eruptions-ingv-oe": {
+        "coverage_random": {
+          "best_hit": 0.4666666666666667,
+          "regret": 0.29240456491673394,
+          "unique_reads": 13.0,
+          "valid_edges": 10.175,
+          "zero_valid_degree_candidates": 0.475
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.4133333333333334,
+          "regret": 0.3561908671916904,
+          "unique_reads": 13.0,
+          "valid_edges": 10.025,
+          "zero_valid_degree_candidates": 0.075
+        }
+      },
+      "random-acts-of-pizza": {
+        "coverage_random": {
+          "best_hit": 0.07291666666666666,
+          "regret": 0.3949687952549833,
+          "unique_reads": 13.0,
+          "valid_edges": 8.9,
+          "zero_valid_degree_candidates": 0.75
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.09125,
+          "regret": 0.3695534536141973,
+          "unique_reads": 13.0,
+          "valid_edges": 8.825,
+          "zero_valid_degree_candidates": 0.3
+        }
+      },
+      "spooky-author-identification": {
+        "coverage_random": {
+          "best_hit": 0.22083333333333335,
+          "regret": 0.20473536266052142,
+          "unique_reads": 13.0,
+          "valid_edges": 12.6,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.27083333333333337,
+          "regret": 0.22619137075827048,
+          "unique_reads": 13.0,
+          "valid_edges": 12.625,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "stanford-covid-vaccine": {
+        "coverage_random": {
+          "best_hit": 0.16875,
+          "regret": 0.1991497789828479,
+          "unique_reads": 13.0,
+          "valid_edges": 11.6,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.13333333333333333,
+          "regret": 0.1865843471085974,
+          "unique_reads": 13.0,
+          "valid_edges": 11.4,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "statoil-iceberg-classifier-challenge": {
+        "coverage_random": {
+          "best_hit": 0.08541666666666667,
+          "regret": 0.23994520274066816,
+          "unique_reads": 13.0,
+          "valid_edges": 10.125,
+          "zero_valid_degree_candidates": 0.55
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.2520833333333333,
+          "regret": 0.16684130805558278,
+          "unique_reads": 13.0,
+          "valid_edges": 9.95,
+          "zero_valid_degree_candidates": 0.05
+        }
+      },
+      "tabular-playground-series-dec-2021": {
+        "coverage_random": {
+          "best_hit": 0.008333333333333333,
+          "regret": 0.3644511972903651,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.2
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.014583333333333332,
+          "regret": 0.3136627512439752,
+          "unique_reads": 13.0,
+          "valid_edges": 10.925,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "tensorflow-speech-recognition-challenge": {
+        "coverage_random": {
+          "best_hit": 0.1,
+          "regret": 0.33954996498008116,
+          "unique_reads": 13.0,
+          "valid_edges": 10.025,
+          "zero_valid_degree_candidates": 0.45
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.07083333333333333,
+          "regret": 0.34533225594694655,
+          "unique_reads": 13.0,
+          "valid_edges": 9.85,
+          "zero_valid_degree_candidates": 0.05
+        }
+      },
+      "tgs-salt-identification-challenge": {
+        "coverage_random": {
+          "best_hit": 0.17583333333333334,
+          "regret": 0.42443026926113603,
+          "unique_reads": 13.0,
+          "valid_edges": 11.55,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.17291666666666666,
+          "regret": 0.4152881715031266,
+          "unique_reads": 13.0,
+          "valid_edges": 11.55,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "the-icml-2013-whale-challenge-right-whale-redux": {
+        "coverage_random": {
+          "best_hit": 0.0375,
+          "regret": 0.723216763262567,
+          "unique_reads": 13.0,
+          "valid_edges": 6.2,
+          "zero_valid_degree_candidates": 2.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.018333333333333333,
+          "regret": 0.7570376508135077,
+          "unique_reads": 13.0,
+          "valid_edges": 6.275,
+          "zero_valid_degree_candidates": 0.8
+        }
+      },
+      "tweet-sentiment-extraction": {
+        "coverage_random": {
+          "best_hit": 0.07916666666666666,
+          "regret": 0.6886173720917237,
+          "unique_reads": 13.0,
+          "valid_edges": 7.875,
+          "zero_valid_degree_candidates": 1.175
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.07875,
+          "regret": 0.7222778996899379,
+          "unique_reads": 13.0,
+          "valid_edges": 7.475,
+          "zero_valid_degree_candidates": 0.475
+        }
+      },
+      "us-patent-phrase-to-phrase-matching": {
+        "coverage_random": {
+          "best_hit": 0.325,
+          "regret": 0.11289825675726257,
+          "unique_reads": 13.0,
+          "valid_edges": 11.75,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.39458333333333334,
+          "regret": 0.11318637178606569,
+          "unique_reads": 13.0,
+          "valid_edges": 12.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "ventilator-pressure-prediction": {
+        "coverage_random": {
+          "best_hit": 0.12708333333333333,
+          "regret": 0.08890173065838163,
+          "unique_reads": 13.0,
+          "valid_edges": 10.525,
+          "zero_valid_degree_candidates": 0.35
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.18125,
+          "regret": 0.07391805358643339,
+          "unique_reads": 13.0,
+          "valid_edges": 10.475,
+          "zero_valid_degree_candidates": 0.0
+        }
+      }
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "aptos2019-blindness-detection": {
+        "coverage_random": {
+          "best_hit": 0.20833333333333334,
+          "regret": 0.3370596263919259,
+          "unique_reads": 13.0,
+          "valid_edges": 7.625,
+          "zero_valid_degree_candidates": 1.45
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.16958333333333334,
+          "regret": 0.3316768574745356,
+          "unique_reads": 13.0,
+          "valid_edges": 7.175,
+          "zero_valid_degree_candidates": 0.875
+        }
+      },
+      "denoising-dirty-documents": {
+        "coverage_random": {
+          "best_hit": 0.15,
+          "regret": 0.3835403534197286,
+          "unique_reads": 13.0,
+          "valid_edges": 11.275,
+          "zero_valid_degree_candidates": 0.175
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.19166666666666668,
+          "regret": 0.41947291948598037,
+          "unique_reads": 13.0,
+          "valid_edges": 11.5,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "coverage_random": {
+          "best_hit": 0.26666666666666666,
+          "regret": 0.07287384081419947,
+          "unique_reads": 13.0,
+          "valid_edges": 6.625,
+          "zero_valid_degree_candidates": 1.95
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.2966666666666667,
+          "regret": 0.09490542772712862,
+          "unique_reads": 13.0,
+          "valid_edges": 6.425,
+          "zero_valid_degree_candidates": 0.9
+        }
+      },
+      "dog-breed-identification": {
+        "coverage_random": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 3.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 3.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "google-quest-challenge": {
+        "coverage_random": {
+          "best_hit": 0.17083333333333334,
+          "regret": 0.2821846680241658,
+          "unique_reads": 13.0,
+          "valid_edges": 11.75,
+          "zero_valid_degree_candidates": 0.125
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.20708333333333334,
+          "regret": 0.31812579255676027,
+          "unique_reads": 13.0,
+          "valid_edges": 11.8,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 1.0,
+          "unique_reads": 10.0,
+          "valid_edges": 8.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 1.0,
+          "unique_reads": 10.0,
+          "valid_edges": 8.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "leaf-classification": {
+        "coverage_random": {
+          "best_hit": 0.19166666666666668,
+          "regret": 0.06198885776990788,
+          "unique_reads": 13.0,
+          "valid_edges": 11.075,
+          "zero_valid_degree_candidates": 0.25
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.11750000000000001,
+          "regret": 0.05429155604845398,
+          "unique_reads": 13.0,
+          "valid_edges": 10.95,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "coverage_random": {
+          "best_hit": 0.2791666666666667,
+          "regret": 0.1341389602201309,
+          "unique_reads": 13.0,
+          "valid_edges": 9.45,
+          "zero_valid_degree_candidates": 0.625
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.35291666666666666,
+          "regret": 0.14589515675210912,
+          "unique_reads": 13.0,
+          "valid_edges": 9.6,
+          "zero_valid_degree_candidates": 0.05
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "coverage_random": {
+          "best_hit": 0.16458333333333333,
+          "regret": 0.24893214750003628,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.375
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.225,
+          "regret": 0.259189268952223,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.025
+        }
+      },
+      "mlsp-2013-birds": {
+        "coverage_random": {
+          "best_hit": 0.025,
+          "regret": 0.28108470832566235,
+          "unique_reads": 13.0,
+          "valid_edges": 11.3,
+          "zero_valid_degree_candidates": 0.2
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.03333333333333333,
+          "regret": 0.27537359258721444,
+          "unique_reads": 13.0,
+          "valid_edges": 11.475,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "new-york-city-taxi-fare-prediction": {
+        "coverage_random": {
+          "best_hit": 0.16666666666666669,
+          "regret": 0.07806129545691728,
+          "unique_reads": 13.0,
+          "valid_edges": 11.0,
+          "zero_valid_degree_candidates": 0.2
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.19791666666666669,
+          "regret": 0.1285843205107043,
+          "unique_reads": 13.0,
+          "valid_edges": 11.05,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "nomad2018-predict-transparent-conductors": {
+        "coverage_random": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 2.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 1.0,
+          "regret": 0.0,
+          "unique_reads": 3.0,
+          "valid_edges": 2.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "petfinder-pawpularity-score": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.9524014488903421,
+          "unique_reads": 13.0,
+          "valid_edges": 10.5,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.3333333333333333,
+          "regret": 0.6032019318537895,
+          "unique_reads": 13.0,
+          "valid_edges": 10.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "plant-pathology-2020-fgvc7": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.3842272696175689,
+          "unique_reads": 13.0,
+          "valid_edges": 10.0,
+          "zero_valid_degree_candidates": 0.0
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 0.4816993911199294,
+          "unique_reads": 13.0,
+          "valid_edges": 9.0,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "predict-volcanic-eruptions-ingv-oe": {
+        "coverage_random": {
+          "best_hit": 0.39166666666666666,
+          "regret": 0.3033143099450646,
+          "unique_reads": 13.0,
+          "valid_edges": 10.325,
+          "zero_valid_degree_candidates": 0.425
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.25416666666666665,
+          "regret": 0.3908371932885278,
+          "unique_reads": 13.0,
+          "valid_edges": 10.175,
+          "zero_valid_degree_candidates": 0.05
+        }
+      },
+      "random-acts-of-pizza": {
+        "coverage_random": {
+          "best_hit": 0.03125,
+          "regret": 0.40566871664665466,
+          "unique_reads": 13.0,
+          "valid_edges": 9.1,
+          "zero_valid_degree_candidates": 0.775
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.04583333333333333,
+          "regret": 0.42824912897871226,
+          "unique_reads": 13.0,
+          "valid_edges": 8.975,
+          "zero_valid_degree_candidates": 0.125
+        }
+      },
+      "spooky-author-identification": {
+        "coverage_random": {
+          "best_hit": 0.23333333333333334,
+          "regret": 0.1926287172245158,
+          "unique_reads": 13.0,
+          "valid_edges": 12.45,
+          "zero_valid_degree_candidates": 0.025
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.21041666666666664,
+          "regret": 0.20983213290944036,
+          "unique_reads": 13.0,
+          "valid_edges": 12.425,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "stanford-covid-vaccine": {
+        "coverage_random": {
+          "best_hit": 0.26458333333333334,
+          "regret": 0.18350804195765769,
+          "unique_reads": 13.0,
+          "valid_edges": 11.25,
+          "zero_valid_degree_candidates": 0.1
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.12041666666666666,
+          "regret": 0.20019576008850187,
+          "unique_reads": 13.0,
+          "valid_edges": 11.225,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "statoil-iceberg-classifier-challenge": {
+        "coverage_random": {
+          "best_hit": 0.09375,
+          "regret": 0.21734633480547175,
+          "unique_reads": 13.0,
+          "valid_edges": 10.75,
+          "zero_valid_degree_candidates": 0.375
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.23333333333333334,
+          "regret": 0.22006006609413947,
+          "unique_reads": 13.0,
+          "valid_edges": 10.35,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "tabular-playground-series-dec-2021": {
+        "coverage_random": {
+          "best_hit": 0.0,
+          "regret": 0.3704596987145736,
+          "unique_reads": 13.0,
+          "valid_edges": 11.475,
+          "zero_valid_degree_candidates": 0.125
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.00625,
+          "regret": 0.33247327795731185,
+          "unique_reads": 13.0,
+          "valid_edges": 11.325,
+          "zero_valid_degree_candidates": 0.025
+        }
+      },
+      "tensorflow-speech-recognition-challenge": {
+        "coverage_random": {
+          "best_hit": 0.03333333333333333,
+          "regret": 0.32924117881427567,
+          "unique_reads": 13.0,
+          "valid_edges": 9.35,
+          "zero_valid_degree_candidates": 0.8
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.0,
+          "regret": 0.3462057740427942,
+          "unique_reads": 13.0,
+          "valid_edges": 9.275,
+          "zero_valid_degree_candidates": 0.05
+        }
+      },
+      "tgs-salt-identification-challenge": {
+        "coverage_random": {
+          "best_hit": 0.16041666666666668,
+          "regret": 0.3596194854491769,
+          "unique_reads": 13.0,
+          "valid_edges": 11.6,
+          "zero_valid_degree_candidates": 0.175
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.18958333333333333,
+          "regret": 0.3567754696626758,
+          "unique_reads": 13.0,
+          "valid_edges": 11.6,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "the-icml-2013-whale-challenge-right-whale-redux": {
+        "coverage_random": {
+          "best_hit": 0.12083333333333332,
+          "regret": 0.584599020766133,
+          "unique_reads": 13.0,
+          "valid_edges": 5.825,
+          "zero_valid_degree_candidates": 2.475
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.1,
+          "regret": 0.5804829594971388,
+          "unique_reads": 13.0,
+          "valid_edges": 5.45,
+          "zero_valid_degree_candidates": 1.725
+        }
+      },
+      "tweet-sentiment-extraction": {
+        "coverage_random": {
+          "best_hit": 0.04375,
+          "regret": 0.7768231257060247,
+          "unique_reads": 13.0,
+          "valid_edges": 7.675,
+          "zero_valid_degree_candidates": 1.25
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.034999999999999996,
+          "regret": 0.7697843656968886,
+          "unique_reads": 13.0,
+          "valid_edges": 7.275,
+          "zero_valid_degree_candidates": 0.375
+        }
+      },
+      "us-patent-phrase-to-phrase-matching": {
+        "coverage_random": {
+          "best_hit": 0.29375,
+          "regret": 0.11769982603409915,
+          "unique_reads": 13.0,
+          "valid_edges": 11.25,
+          "zero_valid_degree_candidates": 0.125
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.325,
+          "regret": 0.12813540026833584,
+          "unique_reads": 13.0,
+          "valid_edges": 11.2,
+          "zero_valid_degree_candidates": 0.0
+        }
+      },
+      "ventilator-pressure-prediction": {
+        "coverage_random": {
+          "best_hit": 0.12916666666666668,
+          "regret": 0.0738077150759974,
+          "unique_reads": 13.0,
+          "valid_edges": 10.9,
+          "zero_valid_degree_candidates": 0.35
+        },
+        "valid_coverage_v1": {
+          "best_hit": 0.09583333333333333,
+          "regret": 0.10839802131273449,
+          "unique_reads": 13.0,
+          "valid_edges": 11.3,
+          "zero_valid_degree_candidates": 0.0
+        }
+      }
+    }
+  }
+}

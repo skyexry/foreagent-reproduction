@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "C0_rows_verified": 3400,
+    "H_L_sealed_matches": 3400,
+    "independent_C_H_L_task_metric_matches": 624,
+    "unique_same_schedule_and_cost": 3400
+  },
+  "decision_rows": 3400,
+  "elapsed_seconds": 17.093484916025773,
+  "new_gpu_rentals": 0,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "same_schedule": "each bank own actual C0 trace, all arms fixed within bank",
+  "scope": "Explanatory retrospective development audit; additional arms never promoted",
+  "selection_first": true,
+  "source_rows": 71508
+}

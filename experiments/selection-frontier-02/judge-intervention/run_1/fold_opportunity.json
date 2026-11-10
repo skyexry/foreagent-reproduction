@@ -1,0 +1,350 @@
+{
+  "DS1": {
+    "A0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1906,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 1906,
+      "eligible_true_tie_addresses": 0
+    },
+    "A1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1877,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 1877,
+      "eligible_true_tie_addresses": 0
+    },
+    "A2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1907,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 1907,
+      "eligible_true_tie_addresses": 0
+    },
+    "A3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1916,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 1916,
+      "eligible_true_tie_addresses": 0
+    },
+    "D0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 848,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 2532,
+      "eligible_true_tie_addresses": 0
+    },
+    "D1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 889,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 2589,
+      "eligible_true_tie_addresses": 0
+    },
+    "D2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 857,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 2538,
+      "eligible_true_tie_addresses": 0
+    },
+    "D3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 899,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 2612,
+      "eligible_true_tie_addresses": 0
+    }
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+    "A0": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 734,
+      "eligible_addresses": 1586,
+      "eligible_target_addresses": 734,
+      "eligible_true_tie_addresses": 0
+    },
+    "A1": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 709,
+      "eligible_addresses": 1606,
+      "eligible_target_addresses": 709,
+      "eligible_true_tie_addresses": 0
+    },
+    "A2": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 751,
+      "eligible_addresses": 1608,
+      "eligible_target_addresses": 751,
+      "eligible_true_tie_addresses": 0
+    },
+    "A3": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 751,
+      "eligible_addresses": 1607,
+      "eligible_target_addresses": 751,
+      "eligible_true_tie_addresses": 0
+    },
+    "D0": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 248,
+      "eligible_addresses": 1586,
+      "eligible_target_addresses": 852,
+      "eligible_true_tie_addresses": 0
+    },
+    "D1": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 264,
+      "eligible_addresses": 1606,
+      "eligible_target_addresses": 897,
+      "eligible_true_tie_addresses": 0
+    },
+    "D2": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 263,
+      "eligible_addresses": 1608,
+      "eligible_target_addresses": 857,
+      "eligible_true_tie_addresses": 0
+    },
+    "D3": {
+      "all_pair_addresses": 6407,
+      "altered_addresses": 262,
+      "eligible_addresses": 1607,
+      "eligible_target_addresses": 856,
+      "eligible_true_tie_addresses": 0
+    }
+  },
+  "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+    "A0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1834,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 1834,
+      "eligible_true_tie_addresses": 0
+    },
+    "A1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1891,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 1891,
+      "eligible_true_tie_addresses": 0
+    },
+    "A2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1942,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 1942,
+      "eligible_true_tie_addresses": 0
+    },
+    "A3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1953,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 1953,
+      "eligible_true_tie_addresses": 0
+    },
+    "D0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 892,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 2604,
+      "eligible_true_tie_addresses": 0
+    },
+    "D1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 872,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 2575,
+      "eligible_true_tie_addresses": 0
+    },
+    "D2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 817,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 2503,
+      "eligible_true_tie_addresses": 0
+    },
+    "D3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 904,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 2575,
+      "eligible_true_tie_addresses": 0
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "A0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 856,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 856,
+      "eligible_true_tie_addresses": 0
+    },
+    "A1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 798,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 798,
+      "eligible_true_tie_addresses": 0
+    },
+    "A2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 790,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 790,
+      "eligible_true_tie_addresses": 0
+    },
+    "A3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 879,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 879,
+      "eligible_true_tie_addresses": 0
+    },
+    "D0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1387,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 3582,
+      "eligible_true_tie_addresses": 0
+    },
+    "D1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1406,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 3668,
+      "eligible_true_tie_addresses": 0
+    },
+    "D2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1427,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 3655,
+      "eligible_true_tie_addresses": 0
+    },
+    "D3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1403,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 3649,
+      "eligible_true_tie_addresses": 0
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "A0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 885,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 885,
+      "eligible_true_tie_addresses": 0
+    },
+    "A1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 844,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 844,
+      "eligible_true_tie_addresses": 0
+    },
+    "A2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 825,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 825,
+      "eligible_true_tie_addresses": 0
+    },
+    "A3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 853,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 853,
+      "eligible_true_tie_addresses": 0
+    },
+    "D0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1391,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 3553,
+      "eligible_true_tie_addresses": 0
+    },
+    "D1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1366,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 3622,
+      "eligible_true_tie_addresses": 0
+    },
+    "D2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1364,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 3620,
+      "eligible_true_tie_addresses": 0
+    },
+    "D3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1388,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 3675,
+      "eligible_true_tie_addresses": 0
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "A0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 810,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 810,
+      "eligible_true_tie_addresses": 0
+    },
+    "A1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 851,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 851,
+      "eligible_true_tie_addresses": 0
+    },
+    "A2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 829,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 829,
+      "eligible_true_tie_addresses": 0
+    },
+    "A3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 895,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 895,
+      "eligible_true_tie_addresses": 0
+    },
+    "D0": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1417,
+      "eligible_addresses": 4438,
+      "eligible_target_addresses": 3628,
+      "eligible_true_tie_addresses": 0
+    },
+    "D1": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1383,
+      "eligible_addresses": 4466,
+      "eligible_target_addresses": 3615,
+      "eligible_true_tie_addresses": 0
+    },
+    "D2": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1355,
+      "eligible_addresses": 4445,
+      "eligible_target_addresses": 3616,
+      "eligible_true_tie_addresses": 0
+    },
+    "D3": {
+      "all_pair_addresses": 17877,
+      "altered_addresses": 1402,
+      "eligible_addresses": 4528,
+      "eligible_target_addresses": 3633,
+      "eligible_true_tie_addresses": 0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "earlier_run": "run-001",
+  "final_run": "run-002",
+  "byte_exact_files": [
+    "decisions.sealed.jsonl.gz",
+    "per_episode.jsonl",
+    "per_task.json",
+    "subgroups.json",
+    "mechanisms.json"
+  ],
+  "summary_and_criteria_equal": true,
+  "reason": "Tightened saved historical rows to selection/trace/ledger fields before selection; loaded saved score metrics only after sealing. Removed a redundant expression in score-only best-ID calculation. Preserved run-001."
+}

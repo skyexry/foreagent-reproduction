@@ -1,0 +1,165 @@
+{
+  "experiment_id": "judge-direction-diagnostic-j1",
+  "status": "success",
+  "started_utc": "2026-11-08T12:00:14.822785+00:00",
+  "ended_utc": "2026-11-08T12:00:15.421940+00:00",
+  "elapsed_wall_seconds": 0.5990359169663861,
+  "max_seconds": 600,
+  "protocol_sha256": "fbd9f027a7f2afdce09b24927825df21f8714e864ba1c996e1e0a2a010fe1100",
+  "script_sha256": "3df6714ec1fa19cfca4b7d1b39bab21eca372bd9b56bcb827a713fa54ce1423a",
+  "new_api_calls": 0,
+  "candidate_training": 0,
+  "gpu": 0,
+  "error": null,
+  "results": {
+    "experiment_id": "judge-direction-diagnostic-j1",
+    "protocol_sha256": "fbd9f027a7f2afdce09b24927825df21f8714e864ba1c996e1e0a2a010fe1100",
+    "macro": {
+      "original": {
+        "regret": 0.276784831898676,
+        "best_hit": 0.2097275641025641,
+        "unique_feedback_reads": 12.115384615384615,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      },
+      "corrected": {
+        "regret": 0.0981461588134198,
+        "best_hit": 0.4303685897435897,
+        "unique_feedback_reads": 12.115384615384615,
+        "cache_reads": 0.0,
+        "budget_denials": 0.0
+      }
+    },
+    "primary_regret_gain_original_minus_corrected": {
+      "mean": 0.17863867308525613,
+      "task_cluster_percentile_95": [
+        0.11544985336311336,
+        0.26236971492445155
+      ],
+      "seed": 20261108093,
+      "repeats": 10000,
+      "resampling_unit": "paired complete task",
+      "tasks": 26,
+      "tasks_improved": 24,
+      "tasks_equal": 2,
+      "tasks_worsened": 0
+    },
+    "paired_best_hit_gain_corrected_minus_original": {
+      "mean": 0.22064102564102564,
+      "task_cluster_percentile_95": [
+        0.14914663461538463,
+        0.30904046474358976
+      ],
+      "seed": 20261108093,
+      "repeats": 10000,
+      "resampling_unit": "paired complete task",
+      "tasks": 26
+    },
+    "corrected_residual_regret": {
+      "mean": 0.0981461588134198,
+      "task_cluster_percentile_95": [
+        0.06335285040254747,
+        0.14292376520572198
+      ],
+      "seed": 20261108093,
+      "repeats": 10000,
+      "resampling_unit": "paired complete task",
+      "tasks": 26
+    },
+    "counts": {
+      "abstained": 5097,
+      "queries": 11004,
+      "valid": 5907,
+      "true_ties_all_queried": 0,
+      "valid_strict_correct": 3697,
+      "valid_strict_error": 2210,
+      "episodes_with_strict_error": 769,
+      "set_changed": 622,
+      "set_changed_with_error": 622,
+      "original_selection_tied": 349,
+      "corrected_selection_tied": 351,
+      "improved": 549,
+      "worsened": 73,
+      "equal": 228
+    },
+    "rates": {
+      "valid_strict_error_per_valid_query": 0.37413238530556964,
+      "valid_strict_error_per_valid_nontie_query": 0.37413238530556964,
+      "valid_strict_error_per_all_queries": 0.20083605961468556,
+      "set_changed_per_episode": 0.731764705882353,
+      "episodes_with_error_per_episode": 0.9047058823529411
+    },
+    "denominators": {
+      "planned_tasks": 26,
+      "included_tasks": 26,
+      "planned_pools": 425,
+      "included_task_pool_pairs": 425,
+      "planned_episodes": 850,
+      "included_episodes": 850,
+      "selection_evaluations": 1700,
+      "excluded_episodes": 0,
+      "failed_episodes": 0,
+      "query_occurrences": 11004,
+      "valid_query_occurrences": 5907,
+      "valid_true_tie_occurrences": 0,
+      "valid_nontie_query_occurrences": 5907,
+      "distinct_queried_task_pair_counts": {
+        "queries": 6483,
+        "abstained": 2864,
+        "valid_strict_correct": 2322,
+        "valid": 3619,
+        "valid_strict_error": 1297
+      },
+      "candidate_count_by_episode": {
+        "10": 840,
+        "3": 4,
+        "5": 2,
+        "7": 2,
+        "6": 2
+      }
+    },
+    "costs": {
+      "each_arm": {
+        "total_logical_unique_feedback_reads": 11004,
+        "mean_logical_reads_per_episode": 12.945882352941176,
+        "task_macro_logical_reads": 12.115384615384615,
+        "cache_reads": 0,
+        "budget_denials": 0
+      },
+      "pairwise_logical_read_difference": 0,
+      "physical_new_api_calls": 0,
+      "candidate_training": 0,
+      "gpu": 0,
+      "explanation": "Each counterfactual arm inherits the exact complete original ledger; the local analysis rereads saved files only."
+    },
+    "checks": {
+      "frozen_hashes_match": true,
+      "all_jobs_matched": 850,
+      "complete_random_schedules_original_rebuilt": 850,
+      "complete_random_schedules_corrected_unchanged": 850,
+      "original_saved_selections_rebuilt": 850,
+      "independent_integer_ratio_selections_match_both_arms": 1700,
+      "independent_scores_match_both_arms": 1700,
+      "original_saved_episode_metrics_rebuilt": 850,
+      "original_saved_task_summaries_rebuilt": 26,
+      "original_saved_macro_rebuilt": true,
+      "all_abstentions_preserved": true,
+      "all_true_tie_directions_preserved": true,
+      "all_endpoint_orders_preserved": true,
+      "all_cost_ledgers_preserved": true,
+      "changed_sets_require_strict_error": true,
+      "protocol_unchanged_at_end": true,
+      "original_selections_sealed_before_label_read_sha256": "77df06da6bc20e8debc553ca1453830c1edd7c68b9de8660c060f3ba349582d5"
+    },
+    "elapsed_analysis_seconds": 0.4075494579738006,
+    "scope": "One evaluator-side counterfactual on a fixed previously inspected development graph; existing execution labels define utility.",
+    "identification_limits": [
+      "Potential gain is conditional on this exact full random graph, gate, top_set and saved execution labels.",
+      "A feasible learned judge and a theoretical upper bound require separate evidence.",
+      "Residual combines graph missingness, unchanged abstentions, frozen aggregation and preserved true ties; their individual contributions remain unidentified.",
+      "Candidate generation quality, execution-label noise, actual rerun quality, new-task generalization, live timing/token costs and online end-to-end improvement require separate experiments.",
+      "Intervals describe resampling of 26 development tasks; repeated judge feedback and candidate execution variability are outside this resampling."
+    ]
+  },
+  "hash_manifest_scope": "All output files except output_sha256.json itself, which would require a self hash."
+}

@@ -1,0 +1,281 @@
+{
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "original_world_model_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+  "runs_checked": 15,
+  "batches_replayed": 129,
+  "candidates_replayed": 1290,
+  "comparison_records_replayed": 23873,
+  "matches": {
+    "rank_and_round_match": 129,
+    "sorted_order_matches_log": 129,
+    "probability_decisions_match_log": 129,
+    "forced_fallback_match_log": 129,
+    "final_execution_matches_journal": 129,
+    "final_execution_order_matches_log": 129
+  },
+  "candidate_rank_round_matches": 1290,
+  "forced_fallback_batches": 87,
+  "logged_batches_outside_final_journal_or_incomplete": 11,
+  "network_calls": 0,
+  "candidate_training_runs": 0,
+  "mode": "Historical-response-sequence control-flow replay with log-observed probability decisions.",
+  "randomness_note": "Revival opponent identities are synthetic because original RNG state is unavailable. Normal pair identities and pending-node identities are independently log-checked. Stored responses are supplied by batch/position, not synthetic pair identity.",
+  "scope": "Verifies original ranking and execution state updates conditional on released historical responses/actions; independent generation of LLM responses and recovery of original RNG state are separate tasks.",
+  "per_run": [
+    {
+      "run": "aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 6,
+      "verified_batches": 5,
+      "candidate_count": 50,
+      "rank_matches": 5,
+      "execution_matches": 5
+    },
+    {
+      "run": "aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 6,
+      "verified_batches": 5,
+      "candidate_count": 50,
+      "rank_matches": 5,
+      "execution_matches": 5
+    },
+    {
+      "run": "aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 2,
+      "verified_batches": 2,
+      "candidate_count": 20,
+      "rank_matches": 2,
+      "execution_matches": 2
+    },
+    {
+      "run": "histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 1,
+      "verified_batches": 1,
+      "candidate_count": 10,
+      "rank_matches": 1,
+      "execution_matches": 1
+    },
+    {
+      "run": "histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 2,
+      "verified_batches": 2,
+      "candidate_count": 20,
+      "rank_matches": 2,
+      "execution_matches": 2
+    },
+    {
+      "run": "histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 2,
+      "verified_batches": 1,
+      "candidate_count": 10,
+      "rank_matches": 1,
+      "execution_matches": 1
+    },
+    {
+      "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 18,
+      "verified_batches": 17,
+      "candidate_count": 170,
+      "rank_matches": 17,
+      "execution_matches": 17
+    },
+    {
+      "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 13,
+      "verified_batches": 12,
+      "candidate_count": 120,
+      "rank_matches": 12,
+      "execution_matches": 12
+    },
+    {
+      "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 14,
+      "verified_batches": 13,
+      "candidate_count": 130,
+      "rank_matches": 13,
+      "execution_matches": 13
+    },
+    {
+      "run": "statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 17,
+      "verified_batches": 16,
+      "candidate_count": 160,
+      "rank_matches": 16,
+      "execution_matches": 16
+    },
+    {
+      "run": "statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 25,
+      "verified_batches": 24,
+      "candidate_count": 240,
+      "rank_matches": 24,
+      "execution_matches": 24
+    },
+    {
+      "run": "statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 18,
+      "verified_batches": 17,
+      "candidate_count": 170,
+      "rank_matches": 17,
+      "execution_matches": 17
+    },
+    {
+      "run": "ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 2,
+      "verified_batches": 1,
+      "candidate_count": 10,
+      "rank_matches": 1,
+      "execution_matches": 1
+    },
+    {
+      "run": "ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 6,
+      "verified_batches": 6,
+      "candidate_count": 60,
+      "rank_matches": 6,
+      "execution_matches": 6
+    },
+    {
+      "run": "ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d",
+      "config": {
+        "model": "DeepSeek-V3.2-Thinking",
+        "temperature": 1.0,
+        "confidence_threshold": 0.7,
+        "exec_probability": 0.2,
+        "num_candidates": 10,
+        "top_k": 1,
+        "explicit_controller_seed_fields": []
+      },
+      "logged_batches": 8,
+      "verified_batches": 7,
+      "candidate_count": 70,
+      "rank_matches": 7,
+      "execution_matches": 7
+    }
+  ]
+}

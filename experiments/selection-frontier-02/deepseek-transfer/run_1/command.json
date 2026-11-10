@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "experiments/selection-frontier-02/deepseek-transfer/experiment.py",
+    "--out",
+    "run_1"
+  ],
+  "base_code_sha256": "93e8e56b3d5819471142aa5ee996bf20fc48bb2bef1fac083db2c15cf753e4b4",
+  "max_seconds": 600,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "script_sha256": "efa43cd52277a71878348e41453b310f3b7fd01508177a05a499a62a8b1eef14"
+}

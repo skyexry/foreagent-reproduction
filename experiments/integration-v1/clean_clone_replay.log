@@ -1,0 +1,101 @@
+{"upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375", "source_path": "mle-bench/agents/aide/aide/world_model.py", "source_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79", "method": "Pinned source executed with package imports removed and Node/query replaced by local stubs. No network or candidate-code execution.", "cache_reversal_check": {"fake_api_calls": 1, "AB_winner_slot": 0, "BA_cached_winner_slot": 0, "AB_winner_identity": "A", "BA_cached_winner_identity": "B", "expected_BA_slot_for_cached_A": 1}, "fully_confident_tournament": {"candidates": 10, "fake_api_calls": 9, "comparison_records": 9, "top_rank_ids": ["4"]}, "all_low_confidence_check": {"candidates": 2, "fake_api_calls": 1, "comparison_records": 10, "last_round": 5, "rank_meta": {"A": {"rank": 0, "round": 5}, "B": {"rank": 0, "round": 5}}}, "execution_probability_check": {"configured_probability": 0.2, "draw_0_19": true, "draw_0_21": false}}
+VERIFIED selection
+{"combined": {"valid": 246, "correct": 136, "valid_output_rate": 1.0, "accuracy_valid_only": 0.5528455284552846, "accuracy_full_sample": 0.5528455284552846, "macro_accuracy_full_sample": 0.5679487179487179}, "author_comparison_on_valid": {"author_correct": 130, "both_correct": 106, "ours_only": 30, "author_only": 24, "both_wrong": 86}, "known_cost_cny": 10.2097816, "unknown_cost_calls": 20}
+{"reparsed_adopted_responses": 246, "historical_api_calls": 266, "new_api_calls": 0, "correct": 136, "denominator": 246, "expected_summary": "exact match"}
+VERIFIED pairwise
+aptos2019-blindness-detection: 100 paired scenarios
+leaf-classification: 100 paired scenarios
+learning-agency-lab-automated-essay-scoring-2: 100 paired scenarios
+random-acts-of-pizza: 100 paired scenarios
+tweet-sentiment-extraction: 100 paired scenarios
+{"overall": {"original": {"top1_hit": 0.174, "rank_regret": 0.33888888888888885, "top_tie": 0.28800000000000003, "top_size": 1.3960000000000001, "uniform_top_hit": 0.17156666666666667, "random_hit": 0.1, "random_rank_regret": 0.5, "attempts": 99.85, "unique_feedback": 15.506, "cache_hits": 84.344, "reversed_cache_hits": 26.552, "cache_identity_errors": 1.0779999999999998, "missing_confidence_unique": 1.506, "safety_exit": 0.958}, "cache_fixed": {"top1_hit": 0.164, "rank_regret": 0.3408888888888889, "top_tie": 0.3, "top_size": 1.404, "uniform_top_hit": 0.16856666666666667, "random_hit": 0.1, "random_rank_regret": 0.5, "attempts": 97.116, "unique_feedback": 15.626, "cache_hits": 81.49, "reversed_cache_hits": 25.346, "cache_identity_errors": 0, "missing_confidence_unique": 1.52, "safety_exit": 0.964}}, "paired": {"scenarios": 500, "selected_changed": 87, "fixed_better_rank": 42, "fixed_worse_rank": 45, "fixed_only_hit": 9, "original_only_hit": 14}}
+VERIFIED five-task
+{"gate_cases": 18, "stop_cases": 14, "routing_cases": 6, "native_checks": 100, "author": {"n": 10531, "correct": 6885, "accuracy": 0.6537840660905897, "task_macro_accuracy": 0.6356279805074185, "tasks": 26, "mean_confidence": 0.7362368246130472}, "ours": {"n": 162, "correct": 102, "accuracy": 0.6296296296296297, "task_macro_accuracy": 0.6326617826617826, "tasks": 26, "mean_confidence": 0.7453703703703703}}
+VERIFIED mechanisms
+aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d batches 5 ranking matches 5 execution matches 5
+aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720 batches 5 ranking matches 5 execution matches 5
+aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a batches 2 ranking matches 2 execution matches 2
+histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2 batches 1 ranking matches 1 execution matches 1
+histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733 batches 2 ranking matches 2 execution matches 2
+histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d batches 1 ranking matches 1 execution matches 1
+stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038 batches 17 ranking matches 17 execution matches 17
+stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0 batches 12 ranking matches 12 execution matches 12
+stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33 batches 13 ranking matches 13 execution matches 13
+statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5 batches 16 ranking matches 16 execution matches 16
+statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24 batches 24 ranking matches 24 execution matches 24
+statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411 batches 17 ranking matches 17 execution matches 17
+ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d batches 1 ranking matches 1 execution matches 1
+ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc batches 6 ranking matches 6 execution matches 6
+ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d batches 7 ranking matches 7 execution matches 7
+SUMMARY {"dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06", "original_world_model_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79", "runs_checked": 15, "batches_replayed": 129, "candidates_replayed": 1290, "comparison_records_replayed": 23873, "matches": {"rank_and_round_match": 129, "sorted_order_matches_log": 129, "probability_decisions_match_log": 129, "forced_fallback_match_log": 129, "final_execution_matches_journal": 129, "final_execution_order_matches_log": 129}, "candidate_rank_round_matches": 1290, "forced_fallback_batches": 87, "logged_batches_outside_final_journal_or_incomplete": 11, "network_calls": 0, "candidate_training_runs": 0, "mode": "Historical-response-sequence control-flow replay with log-observed probability decisions.", "randomness_note": "Revival opponent identities are synthetic because original RNG state is unavailable. Normal pair identities and pending-node identities are independently log-checked. Stored responses are supplied by batch/position, not synthetic pair identity.", "scope": "Verifies original ranking and execution state updates conditional on released historical responses/actions; independent generation of LLM responses and recovery of original RNG state are separate tasks."}
+{
+  "raw_source_files_hash_and_size_checked": 45,
+  "runs": 15,
+  "batches": 129,
+  "candidate_rank_round_pairs_independently_checked": 1290,
+  "final_execution_sets_independently_checked": 129,
+  "excluded_batches": 11,
+  "excluded_categories": {
+    "unfinished_log_batch": 6,
+    "generated_nodes_absent_from_final_journal": 5
+  },
+  "original_world_model_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+  "original_agent_sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+}
+VERIFIED historical
+Completed aptos2019-blindness-detection hit 0.2546 random 0.1
+Completed denoising-dirty-documents hit 0.3083 random 0.1
+Completed detecting-insults-in-social-commentary hit 0.1571 random 0.1
+Completed dog-breed-identification hit 0.7733 random 0.3333
+Completed google-quest-challenge hit 0.3294 random 0.1
+Completed jigsaw-toxic-comment-classification-challenge hit 0.0467 random 0.2
+Completed leaf-classification hit 0.1146 random 0.1
+Completed learning-agency-lab-automated-essay-scoring-2 hit 0.2944 random 0.1
+Completed lmsys-chatbot-arena hit 0.1956 random 0.1
+Completed mlsp-2013-birds hit 0.0608 random 0.1
+Completed new-york-city-taxi-fare-prediction hit 0.2517 random 0.1
+Completed nomad2018-predict-transparent-conductors hit 0.695 random 0.3333
+Completed petfinder-pawpularity-score hit 0.44 random 0.125
+Completed plant-pathology-2020-fgvc7 hit 0.0133 random 0.1667
+Completed predict-volcanic-eruptions-ingv-oe hit 0.165 random 0.1
+Completed random-acts-of-pizza hit 0.0567 random 0.1
+Completed spooky-author-identification hit 0.175 random 0.1
+Completed stanford-covid-vaccine hit 0.075 random 0.1
+Completed statoil-iceberg-classifier-challenge hit 0.0961 random 0.1
+Completed tabular-playground-series-dec-2021 hit 0.0417 random 0.1
+Completed tensorflow-speech-recognition-challenge hit 0.0567 random 0.1
+Completed tgs-salt-identification-challenge hit 0.1392 random 0.1
+Completed the-icml-2013-whale-challenge-right-whale-redux hit 0.2239 random 0.1
+Completed tweet-sentiment-extraction hit 0.0216 random 0.1
+Completed us-patent-phrase-to-phrase-matching hit 0.1794 random 0.1
+Completed ventilator-pressure-prediction hit 0.1459 random 0.1
+MACRO {"top_group_size": 1.477051282051282, "contains_best": 0.28974358974358977, "uniform_tie_best_hit": 0.20426480463980465, "random_best_hit": 0.12532051282051282, "random_same_size_contains_best": 0.18611324786324784, "selected_percentile": 0.5975634751051417, "random_percentile": 0.5, "normalized_regret": 0.2810004951859252, "random_normalized_regret": 0.3673656658608246, "expected_empty_execution": 0.0, "expected_execution_count": 1.0288939413530256, "expected_execute_best": 0.21446383006851283, "probability_phase_expected_empty_execution": 0.7334836849427693, "actual_empty_execution": 0.0, "probability_phase_empty_execution": 0.7405128205128205, "forced_fallback": 0.7405128205128205, "actual_execution_count": 1.0283333333333333, "actual_execute_best": 0.21602564102564104, "comparisons": 80.38794871794872, "unique_feedback_queries": 13.08, "cache_hits": 67.30794871794872, "cache_direction_mismatches": 0.956025641025641, "missing_confidence_comparisons": 14.216410256410256, "low_confidence_comparisons": 68.75628205128206, "rounds": 16.59307692307692, "safety_exit": 0.8112820512820513, "tie": 0.3119230769230769}
+Completed aptos2019-blindness-detection hit 0.2882 random 0.1
+Completed denoising-dirty-documents hit 0.335 random 0.1
+Completed detecting-insults-in-social-commentary hit 0.1496 random 0.1
+Completed dog-breed-identification hit 0.7733 random 0.3333
+Completed google-quest-challenge hit 0.3689 random 0.1
+Completed jigsaw-toxic-comment-classification-challenge hit 0.0 random 0.2
+Completed leaf-classification hit 0.0896 random 0.1
+Completed learning-agency-lab-automated-essay-scoring-2 hit 0.3583 random 0.1
+Completed lmsys-chatbot-arena hit 0.1806 random 0.1
+Completed mlsp-2013-birds hit 0.0806 random 0.1
+Completed new-york-city-taxi-fare-prediction hit 0.2733 random 0.1
+Completed nomad2018-predict-transparent-conductors hit 0.84 random 0.3333
+Completed petfinder-pawpularity-score hit 0.4417 random 0.125
+Completed plant-pathology-2020-fgvc7 hit 0.0 random 0.1667
+Completed predict-volcanic-eruptions-ingv-oe hit 0.1406 random 0.1
+Completed random-acts-of-pizza hit 0.0658 random 0.1
+Completed spooky-author-identification hit 0.175 random 0.1
+Completed stanford-covid-vaccine hit 0.055 random 0.1
+Completed statoil-iceberg-classifier-challenge hit 0.1025 random 0.1
+Completed tabular-playground-series-dec-2021 hit 0.0133 random 0.1
+Completed tensorflow-speech-recognition-challenge hit 0.0667 random 0.1
+Completed tgs-salt-identification-challenge hit 0.1514 random 0.1
+Completed the-icml-2013-whale-challenge-right-whale-redux hit 0.2136 random 0.1
+Completed tweet-sentiment-extraction hit 0.0188 random 0.1
+Completed us-patent-phrase-to-phrase-matching hit 0.1828 random 0.1
+Completed ventilator-pressure-prediction hit 0.1476 random 0.1
+MACRO {"top_group_size": 1.488076923076923, "contains_best": 0.29307692307692307, "uniform_tie_best_hit": 0.21199984737484737, "random_best_hit": 0.12532051282051282, "random_same_size_contains_best": 0.1848429487179487, "selected_percentile": 0.6057660765160765, "random_percentile": 0.5, "normalized_regret": 0.2775339758406862, "random_normalized_regret": 0.3673656658608246, "expected_empty_execution": 0.0, "expected_execution_count": 1.0295827618658462, "expected_execute_best": 0.223995317248, "probability_phase_expected_empty_execution": 0.7319673772504616, "actual_empty_execution": 0.0, "probability_phase_empty_execution": 0.7352564102564102, "forced_fallback": 0.7352564102564102, "actual_execution_count": 1.0292307692307692, "actual_execute_best": 0.22435897435897437, "comparisons": 78.81371794871795, "unique_feedback_queries": 13.137564102564102, "cache_hits": 65.67615384615385, "cache_direction_mismatches": 0, "missing_confidence_comparisons": 14.056923076923077, "low_confidence_comparisons": 68.10320512820513, "rounds": 16.779102564102562, "safety_exit": 0.826025641025641, "tie": 0.31653846153846155}
+{"original": {"replays": 7800, "independent_scoring": "passed", "frozen_fingerprints": "matched", "comparison_records": 627026, "cache_reads": 525002, "unique_feedback_within_replay_summed": 102024, "distinct_feedback_across_experiment": 13595, "direction_mismatches": 7457, "actual_api_calls": 0, "candidate_training_runs": 0, "forced_fallbacks": 5776, "final_empty": 0}, "cache-fixed": {"replays": 7800, "independent_scoring": "passed", "frozen_fingerprints": "matched", "comparison_records": 614747, "cache_reads": 512274, "unique_feedback_within_replay_summed": 102473, "distinct_feedback_across_experiment": 13592, "direction_mismatches": 0, "actual_api_calls": 0, "candidate_training_runs": 0, "forced_fallbacks": 5735, "final_empty": 0}}
+VERIFIED corpus

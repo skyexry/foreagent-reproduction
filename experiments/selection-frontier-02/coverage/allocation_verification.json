@@ -1,0 +1,15 @@
+{
+  "frozen_random_full_schedules_verified_label_free": 850,
+  "independent_policy_trace_matches": 850,
+  "labels_enter_only_after_decision_replay": true,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "official_decisions_sha256": "a59373d0c9326afd18f3af9f59e4272088adc4177f51b00d1894e647b944ccc6",
+  "official_statuses": {
+    "ok": 850
+  },
+  "policy_sha256": "67c02ebd8c9dbc507c3446e938359e3fba0e20064335f207e5f5e98e1e428f66",
+  "protocol_sha256": "797f6c92ed5f2b824526017734017175e9cc624613d423c84893b1aa7aed9e37",
+  "same_chain_and_feedback_prefix": 850,
+  "same_unique_budget": 850
+}

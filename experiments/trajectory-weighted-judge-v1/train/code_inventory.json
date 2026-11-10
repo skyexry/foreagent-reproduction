@@ -1,0 +1,41 @@
+{
+  "all_inference_pairs": 18224,
+  "code_bytes": 9426606,
+  "code_fingerprints_sha256": "88d7f2017cd4100c76d3be748107bbd82b42a25abed6277be88ec4fa45836cc4",
+  "codes": 877,
+  "exact_or_ast_cross_task_groups": {
+    "ast_sha256": [],
+    "byte_sha256": []
+  },
+  "policy": "Remove same-content supervised pairs and training pairs with either code byte/AST-identical to any heldout code; predict all heldout pairs.",
+  "residual_risk": "AST identity retains identifiers and literal values; renamed or structurally edited near-duplicates can remain.",
+  "task_candidate_counts": {
+    "aptos2019-blindness-detection": 49,
+    "denoising-dirty-documents": 45,
+    "detecting-insults-in-social-commentary": 27,
+    "dog-breed-identification": 3,
+    "google-quest-challenge": 49,
+    "jigsaw-toxic-comment-classification-challenge": 5,
+    "leaf-classification": 17,
+    "learning-agency-lab-automated-essay-scoring-2": 20,
+    "lmsys-chatbot-arena": 50,
+    "mlsp-2013-birds": 49,
+    "new-york-city-taxi-fare-prediction": 30,
+    "nomad2018-predict-transparent-conductors": 3,
+    "petfinder-pawpularity-score": 30,
+    "plant-pathology-2020-fgvc7": 6,
+    "predict-volcanic-eruptions-ingv-oe": 50,
+    "random-acts-of-pizza": 49,
+    "spooky-author-identification": 50,
+    "stanford-covid-vaccine": 50,
+    "statoil-iceberg-classifier-challenge": 50,
+    "tabular-playground-series-dec-2021": 24,
+    "tensorflow-speech-recognition-challenge": 45,
+    "tgs-salt-identification-challenge": 40,
+    "the-icml-2013-whale-challenge-right-whale-redux": 23,
+    "tweet-sentiment-extraction": 13,
+    "us-patent-phrase-to-phrase-matching": 50,
+    "ventilator-pressure-prediction": 50
+  },
+  "tasks": 26
+}

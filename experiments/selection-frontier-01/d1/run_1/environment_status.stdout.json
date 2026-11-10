@@ -1,0 +1,34 @@
+{
+  "acceptance": "experiments/research-env-v1/acceptance.json",
+  "acceptance_script_sha256": "59ad6257fafe504b954865cbe11aa904eccde68324e4558ab2ab7a1afb93094e",
+  "acceptance_sha256": "72b68e6cc19269dc12cdbc82e1a99d636cf86caa29cc6e5ced9936277061314f",
+  "baseline": "C0 corrected_tournament",
+  "completed": [
+    "Policy boundary and host-controlled query budget",
+    "Frozen scorer and independent evaluation",
+    "850 baseline + 850 random-control episodes reproduce saved results",
+    "17 contract/isolation tests",
+    "Module and primary-literature review; one conditional proposal with a matched-prefix diagnostic"
+  ],
+  "development_tasks": 26,
+  "environment_id": "foreagent-selection-replay-v1",
+  "jobs": 850,
+  "next": "Compare evidence of quality loss and cost across generation, judging, comparison allocation, aggregation and execution before choosing an optimization target.",
+  "research_review": {
+    "stage": "comparing_module_opportunities",
+    "summary": "research/selection-study-v1/README.md",
+    "evidence": "research/selection-study-v1/baseline.md",
+    "literature": "research/selection-study-v1/literature.md",
+    "proposal": "research/selection-study-v1/proposal.md",
+    "new_experiment_runs": 0,
+    "proposal_scope": "Optional diagnostic for comparison allocation and stopping"
+  },
+  "pending": [
+    "Select a research direction from cross-module evidence and review its diagnostic before experiment registration",
+    "AI Scientist pinned-version native adapter, isolated coder workspace and aggregate experiment budget",
+    "New-task confirmation and live end-to-end environment acceptance"
+  ],
+  "pools": 425,
+  "status": "离线 Environment 与 Evals 已验收",
+  "current_protected_files": "verified"
+}

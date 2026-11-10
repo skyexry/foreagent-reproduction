@@ -1,0 +1,137 @@
+{
+  "registered_protocol_sha256": "9b652a1813a1447169c033e607b31b0eb3bdd577a0f4d7b63ef0756038c8b1f9",
+  "repo": "zjunlp/PredictBeforeExecute",
+  "revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "tasks": [
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/aptos2019-blindness-detection/report?recursive=false&expand=false",
+      "task": "aptos2019-blindness-detection"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/denoising-dirty-documents/report?recursive=false&expand=false",
+      "task": "denoising-dirty-documents"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/detecting-insults-in-social-commentary/report?recursive=false&expand=false",
+      "task": "detecting-insults-in-social-commentary"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/dog-breed-identification/report?recursive=false&expand=false",
+      "task": "dog-breed-identification"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/google-quest-challenge/report?recursive=false&expand=false",
+      "task": "google-quest-challenge"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/report?recursive=false&expand=false",
+      "task": "jigsaw-toxic-comment-classification-challenge"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/leaf-classification/report?recursive=false&expand=false",
+      "task": "leaf-classification"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/report?recursive=false&expand=false",
+      "task": "learning-agency-lab-automated-essay-scoring-2"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/lmsys-chatbot-arena/report?recursive=false&expand=false",
+      "task": "lmsys-chatbot-arena"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/mlsp-2013-birds/report?recursive=false&expand=false",
+      "task": "mlsp-2013-birds"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/new-york-city-taxi-fare-prediction/report?recursive=false&expand=false",
+      "task": "new-york-city-taxi-fare-prediction"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/nomad2018-predict-transparent-conductors/report?recursive=false&expand=false",
+      "task": "nomad2018-predict-transparent-conductors"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/petfinder-pawpularity-score/report?recursive=false&expand=false",
+      "task": "petfinder-pawpularity-score"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/plant-pathology-2020-fgvc7/report?recursive=false&expand=false",
+      "task": "plant-pathology-2020-fgvc7"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/predict-volcanic-eruptions-ingv-oe/report?recursive=false&expand=false",
+      "task": "predict-volcanic-eruptions-ingv-oe"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/random-acts-of-pizza/report?recursive=false&expand=false",
+      "task": "random-acts-of-pizza"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/spooky-author-identification/report?recursive=false&expand=false",
+      "task": "spooky-author-identification"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/stanford-covid-vaccine/report?recursive=false&expand=false",
+      "task": "stanford-covid-vaccine"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/statoil-iceberg-classifier-challenge/report?recursive=false&expand=false",
+      "task": "statoil-iceberg-classifier-challenge"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tabular-playground-series-dec-2021/report?recursive=false&expand=false",
+      "task": "tabular-playground-series-dec-2021"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tensorflow-speech-recognition-challenge/report?recursive=false&expand=false",
+      "task": "tensorflow-speech-recognition-challenge"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tgs-salt-identification-challenge/report?recursive=false&expand=false",
+      "task": "tgs-salt-identification-challenge"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/report?recursive=false&expand=false",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/tweet-sentiment-extraction/report?recursive=false&expand=false",
+      "task": "tweet-sentiment-extraction"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/us-patent-phrase-to-phrase-matching/report?recursive=false&expand=false",
+      "task": "us-patent-phrase-to-phrase-matching"
+    },
+    {
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "metadata_url": "https://huggingface.co/api/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/solutions_subset_50/ventilator-pressure-prediction/report?recursive=false&expand=false",
+      "task": "ventilator-pressure-prediction"
+    }
+  ]
+}

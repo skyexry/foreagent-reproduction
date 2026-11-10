@@ -1,0 +1,259 @@
+{
+  "absent_from_archived_feedback_by_task": {
+    "aptos2019-blindness-detection": {},
+    "denoising-dirty-documents": {
+      "no_archived_pair": 16
+    },
+    "detecting-insults-in-social-commentary": {
+      "no_archived_pair": 1
+    },
+    "dog-breed-identification": {},
+    "google-quest-challenge": {
+      "no_archived_pair": 1
+    },
+    "jigsaw-toxic-comment-classification-challenge": {},
+    "leaf-classification": {},
+    "learning-agency-lab-automated-essay-scoring-2": {},
+    "lmsys-chatbot-arena": {
+      "no_archived_pair": 5
+    },
+    "mlsp-2013-birds": {
+      "no_archived_pair": 3
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "no_archived_pair": 6
+    },
+    "nomad2018-predict-transparent-conductors": {},
+    "petfinder-pawpularity-score": {
+      "no_archived_pair": 196
+    },
+    "plant-pathology-2020-fgvc7": {},
+    "predict-volcanic-eruptions-ingv-oe": {
+      "no_archived_pair": 12
+    },
+    "random-acts-of-pizza": {},
+    "spooky-author-identification": {
+      "no_archived_pair": 5
+    },
+    "stanford-covid-vaccine": {
+      "no_archived_pair": 3
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "no_archived_pair": 2
+    },
+    "tabular-playground-series-dec-2021": {
+      "no_archived_pair": 1
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "no_archived_pair": 24
+    },
+    "tgs-salt-identification-challenge": {
+      "no_archived_pair": 66
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "no_archived_pair": 1
+    },
+    "tweet-sentiment-extraction": {},
+    "us-patent-phrase-to-phrase-matching": {
+      "no_archived_pair": 2
+    },
+    "ventilator-pressure-prediction": {
+      "no_archived_pair": 3
+    }
+  },
+  "checked_all_folds": [
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 2,
+      "task": "aptos2019-blindness-detection",
+      "train_rows": 16699,
+      "verified_winners": 4704
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "denoising-dirty-documents",
+      "train_rows": 16897,
+      "verified_winners": 3960
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "detecting-insults-in-social-commentary",
+      "train_rows": 17521,
+      "verified_winners": 1404
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "dog-breed-identification",
+      "train_rows": 17868,
+      "verified_winners": 12
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "google-quest-challenge",
+      "train_rows": 16696,
+      "verified_winners": 4704
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "train_rows": 17861,
+      "verified_winners": 40
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "leaf-classification",
+      "train_rows": 17735,
+      "verified_winners": 544
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "train_rows": 17681,
+      "verified_winners": 760
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "lmsys-chatbot-arena",
+      "train_rows": 16651,
+      "verified_winners": 4900
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "mlsp-2013-birds",
+      "train_rows": 16698,
+      "verified_winners": 4704
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "new-york-city-taxi-fare-prediction",
+      "train_rows": 17442,
+      "verified_winners": 1740
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "nomad2018-predict-transparent-conductors",
+      "train_rows": 17868,
+      "verified_winners": 12
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "petfinder-pawpularity-score",
+      "train_rows": 17632,
+      "verified_winners": 1740
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "plant-pathology-2020-fgvc7",
+      "train_rows": 17856,
+      "verified_winners": 60
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "train_rows": 16658,
+      "verified_winners": 4900
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "random-acts-of-pizza",
+      "train_rows": 16695,
+      "verified_winners": 4704
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "spooky-author-identification",
+      "train_rows": 16651,
+      "verified_winners": 4900
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "stanford-covid-vaccine",
+      "train_rows": 16649,
+      "verified_winners": 4900
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "statoil-iceberg-classifier-challenge",
+      "train_rows": 16648,
+      "verified_winners": 4900
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 5,
+      "task": "tabular-playground-series-dec-2021",
+      "train_rows": 17597,
+      "verified_winners": 1104
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "tensorflow-speech-recognition-challenge",
+      "train_rows": 16905,
+      "verified_winners": 3960
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 5,
+      "task": "tgs-salt-identification-challenge",
+      "train_rows": 17158,
+      "verified_winners": 3120
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "train_rows": 17619,
+      "verified_winners": 1012
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "tweet-sentiment-extraction",
+      "train_rows": 17793,
+      "verified_winners": 312
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "us-patent-phrase-to-phrase-matching",
+      "train_rows": 16648,
+      "verified_winners": 4900
+    },
+    {
+      "heldout_overlap_removed": 0,
+      "same_ast_training_rows_excluded": 6,
+      "task": "ventilator-pressure-prediction",
+      "train_rows": 16649,
+      "verified_winners": 4900
+    }
+  ],
+  "exact_per_fold_weight_file_hashes": true,
+  "model_spec_sha256": "63a6bda637ddc72e1384f1d49a82f5e3c39a60e25582a56ae86b4e91f5e383a2",
+  "original_credit_directions": 17877,
+  "prediction_seal_sha256": "6343009d9b35fc5f97d2dd0b06ee8eabaaf7762f20ccff8647c4009259a51300",
+  "recomputed_scalers": true,
+  "reconstructed_train_membership": true,
+  "residual": "Canonical AST equality retains literal values and identifiers; edited code can cross tasks.",
+  "status": "passed",
+  "verified_archived_directions": true,
+  "verified_embedding_source_documents": 903,
+  "verified_winner_tie_decisions": 72896
+}

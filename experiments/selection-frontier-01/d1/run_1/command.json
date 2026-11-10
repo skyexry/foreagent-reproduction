@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "experiment.py",
+    "--out_dir=run_1"
+  ],
+  "cwd": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-01/d1",
+  "python_executable": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+  "python_version": "3.12.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "started_utc": "2026-11-08T11:59:34.860118+00:00",
+  "deadline_seconds": 600,
+  "script_source": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-01/d1/experiment.py",
+  "snapshot_sha256": "ff8614f27bbc7ff5b5e758e69fbe5096ca960da6f0a6c6cea5dc5de0cc50076d"
+}

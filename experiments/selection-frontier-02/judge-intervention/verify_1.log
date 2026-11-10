@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": {
+    "candidate_code_identity_sha_checks": 877,
+    "independent_label_free_fold_and_opportunity_pairs": 95792,
+    "independent_oracle_queried_direction_confidence": 475411,
+    "original_control_exact": 4574,
+    "independent_selection_scores": 41166,
+    "four_fold_job_averages": 4574,
+    "task_metrics": 4200,
+    "independent_task_bootstrap_leave_one_contrasts": 90
+  },
+  "summary_sha256": "c48175440121703cef25ff0fc0f5c81e6bc46debb4b0fa331fa7be05b5ce4721",
+  "script_sha256": "be77a3bd3a2c55eb90d772f284d033a3083f23635add8edbe32a4df83f461fd2",
+  "elapsed_seconds": 8.221491792006418,
+  "method": "independent raw parser, digest-byte fold, oracle eligibility and direction reconstruction, direct scoring, fold-first/task-first averaging and random-index bootstrap",
+  "oracle_boundary": "No deployment claim; gold is explicitly evaluator-side. Frozen C0 label file access was denied during main select calls."
+}

@@ -1,0 +1,8 @@
+[
+  "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+  "-B",
+  "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-01/d1/run_1/experiment.py",
+  "--out_dir",
+  "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-01/d1/run_1",
+  "--internal-select"
+]

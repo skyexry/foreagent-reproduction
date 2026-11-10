@@ -1,0 +1,32 @@
+{
+  "arms": [
+    "uniform",
+    "gap",
+    "terminal",
+    "shuffled"
+  ],
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "claim_scope": "compact frozen-encoder linear pilot; not a ForeCritic-9B reproduction",
+  "dtype": "float64",
+  "embedding_dimension": 512,
+  "encoder_revision": "b1ee9570c289f21b5922b9c768a1ce12957bf968",
+  "epsilon": 1e-08,
+  "feature": "concat(standardized_code, standardized_code * standardized_task_context)",
+  "feature_access": "code and task-context embeddings only; IDs serve indexing and tie-breaking; no source names, outcomes, weights, confidence, origins or costs in features",
+  "id": "trajectory-weighted-judge-v1-encoder-linear-v1",
+  "initialization": "all zeros, separately identical for every arm and fold",
+  "l2": 0.001,
+  "learning_rate": 0.02,
+  "loss": "mean across training tasks of within-task arm-weighted binary cross entropy + 0.001*||theta||^2/2",
+  "optimizer": "full-batch Adam",
+  "parameter_count": 1024,
+  "representation": "Salesforce/CodeT5-small frozen encoder",
+  "samples": "finite strict pairs from credit; same byte/AST pairs removed; any training pair sharing either code byte/AST with any heldout candidate removed",
+  "scaler": "code per-dimension mean/std on unique retained training candidates; context on unique training tasks; population std floor 1e-6; each standardized vector clipped [-5,5] before interaction",
+  "score": "dot(theta,feature); no intercept; p(a wins)=sigmoid(score(a)-score(b))",
+  "steps": 80,
+  "threads": 1,
+  "tie_rule": "exact zero score difference chooses lexicographically first candidate; ties are explicitly recorded",
+  "validation": "26 outer leave-one-task-out folds; no validation-set early stopping or hyperparameter selection; identical samples/scalers/steps/init across arms"
+}

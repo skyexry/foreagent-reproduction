@@ -1,0 +1,27 @@
+{"fold": "aptos2019-blindness-detection", "training_pairs": 16699, "wall_seconds": 0.5345239639282227}
+{"fold": "denoising-dirty-documents", "training_pairs": 16897, "wall_seconds": 0.5313899517059326}
+{"fold": "detecting-insults-in-social-commentary", "training_pairs": 17521, "wall_seconds": 0.526770830154419}
+{"fold": "dog-breed-identification", "training_pairs": 17868, "wall_seconds": 0.547050952911377}
+{"fold": "google-quest-challenge", "training_pairs": 16696, "wall_seconds": 0.5249910354614258}
+{"fold": "jigsaw-toxic-comment-classification-challenge", "training_pairs": 17861, "wall_seconds": 0.5415949821472168}
+{"fold": "leaf-classification", "training_pairs": 17735, "wall_seconds": 0.5408341884613037}
+{"fold": "learning-agency-lab-automated-essay-scoring-2", "training_pairs": 17681, "wall_seconds": 0.5433530807495117}
+{"fold": "lmsys-chatbot-arena", "training_pairs": 16651, "wall_seconds": 0.5410089492797852}
+{"fold": "mlsp-2013-birds", "training_pairs": 16698, "wall_seconds": 0.5243089199066162}
+{"fold": "new-york-city-taxi-fare-prediction", "training_pairs": 17442, "wall_seconds": 0.5432062149047852}
+{"fold": "nomad2018-predict-transparent-conductors", "training_pairs": 17868, "wall_seconds": 0.5418193340301514}
+{"fold": "petfinder-pawpularity-score", "training_pairs": 17632, "wall_seconds": 0.534365177154541}
+{"fold": "plant-pathology-2020-fgvc7", "training_pairs": 17856, "wall_seconds": 0.543687105178833}
+{"fold": "predict-volcanic-eruptions-ingv-oe", "training_pairs": 16658, "wall_seconds": 0.5186271667480469}
+{"fold": "random-acts-of-pizza", "training_pairs": 16695, "wall_seconds": 0.5201132297515869}
+{"fold": "spooky-author-identification", "training_pairs": 16651, "wall_seconds": 0.517888069152832}
+{"fold": "stanford-covid-vaccine", "training_pairs": 16649, "wall_seconds": 0.5098550319671631}
+{"fold": "statoil-iceberg-classifier-challenge", "training_pairs": 16648, "wall_seconds": 0.5126299858093262}
+{"fold": "tabular-playground-series-dec-2021", "training_pairs": 17597, "wall_seconds": 0.5414218902587891}
+{"fold": "tensorflow-speech-recognition-challenge", "training_pairs": 16905, "wall_seconds": 0.516693115234375}
+{"fold": "tgs-salt-identification-challenge", "training_pairs": 17158, "wall_seconds": 0.5264298915863037}
+{"fold": "the-icml-2013-whale-challenge-right-whale-redux", "training_pairs": 17619, "wall_seconds": 0.5205702781677246}
+{"fold": "tweet-sentiment-extraction", "training_pairs": 17793, "wall_seconds": 0.5413761138916016}
+{"fold": "us-patent-phrase-to-phrase-matching", "training_pairs": 16648, "wall_seconds": 0.5129489898681641}
+{"fold": "ventilator-pressure-prediction", "training_pairs": 16649, "wall_seconds": 0.5210111141204834}
+{"predictions_sha256": "e1cab8fa722e081f8e465fbaf11fcb186c03088f5cba59c78483f732dc102161", "fits": 104, "prediction_rows": 18224, "wall_seconds": 17.116925954818726}

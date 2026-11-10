@@ -1,0 +1,5 @@
+{
+  "status": "preserved_superseded_diagnostic",
+  "reason": "Parent source-evidence instruction received during scoring: reasoning JSON only auxiliary. Run-002 E requires full raw text, while N32 and C/H/L stay unchanged. No run-001 scalar result inspected before revision.",
+  "revision_utc": "2026-11-08T12:25:52.024295+00:00"
+}

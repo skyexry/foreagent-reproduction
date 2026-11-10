@@ -1,0 +1,8 @@
+{
+  "DeepSeek": {
+    "task_pair_order_sha256": "d4216ca36087f6222046a7b983da8a37ac15b78aee35033be3a493e8c6cbf5e3",
+    "pairs": 17877,
+    "accepted_0.7": 10271,
+    "accepted_0.5": 15904
+  }
+}

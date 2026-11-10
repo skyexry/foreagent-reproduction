@@ -1,0 +1,34 @@
+{
+  "DeepSeek": {
+    "task_pair_order_sha256": "d4216ca36087f6222046a7b983da8a37ac15b78aee35033be3a493e8c6cbf5e3",
+    "original_order_sha256": "8cf9e3e0eed4d90a683761a22ff43e79ad82ea46b09c6df2893df4f112f76f92",
+    "order_semantics": "original bank order retained; pair signature uses unordered endpoints",
+    "pairs": 17877,
+    "accepted_0.7": 10271,
+    "accepted_0.5": 15904
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "task_pair_order_sha256": "d4216ca36087f6222046a7b983da8a37ac15b78aee35033be3a493e8c6cbf5e3",
+    "original_order_sha256": "8cf9e3e0eed4d90a683761a22ff43e79ad82ea46b09c6df2893df4f112f76f92",
+    "order_semantics": "original bank order retained; pair signature uses unordered endpoints",
+    "pairs": 17877,
+    "accepted_0.7": 14554,
+    "accepted_0.5": 17869
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "task_pair_order_sha256": "d4216ca36087f6222046a7b983da8a37ac15b78aee35033be3a493e8c6cbf5e3",
+    "original_order_sha256": "8cf9e3e0eed4d90a683761a22ff43e79ad82ea46b09c6df2893df4f112f76f92",
+    "order_semantics": "original bank order retained; pair signature uses unordered endpoints",
+    "pairs": 17877,
+    "accepted_0.7": 14470,
+    "accepted_0.5": 17876
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "task_pair_order_sha256": "d4216ca36087f6222046a7b983da8a37ac15b78aee35033be3a493e8c6cbf5e3",
+    "original_order_sha256": "8cf9e3e0eed4d90a683761a22ff43e79ad82ea46b09c6df2893df4f112f76f92",
+    "order_semantics": "original bank order retained; pair signature uses unordered endpoints",
+    "pairs": 17877,
+    "accepted_0.7": 14492,
+    "accepted_0.5": 17874
+  }
+}

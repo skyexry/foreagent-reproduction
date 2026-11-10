@@ -1,0 +1,18 @@
+{
+  "bank_signature_checks.json": "2e595e169a6f038f91419a587ae7e581d797c8d8fb9a6e55aaaaea86b00d7527",
+  "checks.json": "c2d8d9797030d8f3a474dba159aec4ece6bfd28819d808af621d9b3317bf4cc4",
+  "command.json": "865ed724f776f9104af8a5ad4911d10af73241e6fc7e8bbc6fa2ee3de71c1cdd",
+  "contrasts.json": "88f585df45d6936338a3133a239ba11eaa2f106fd11ed0e6ba14fdb7662ea2c4",
+  "experiment.snapshot.py": "1291e05ad86a47aa1d28951118f61d4a5e5395c86104e13bdd36775669cfd669",
+  "failure.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "final_info.json": "13b735ea20917e67dc29841257a369707e49dc488a4b6e3b4c74b67a53122802",
+  "input_sha256.json": "cef6a98d0ebf5f23820e95bfe853d71fb192010d8a90461d1cfe31a0f2071514",
+  "leave_one_task_out.json": "6dbb8c39b089559eaa3fca2c231aacb81a368f0019f9cd92fcaafe3f1dfe559f",
+  "per_edge.jsonl": "0736e1cbe1e05ea3aab19e2a2cf8eeb0142e30ab2d0fe973d34769042b282802",
+  "per_episode.jsonl": "60b2272b031ece0d66db81ef0723416843055b8b047934757082c7e8048503e8",
+  "per_task.json": "ee68345bbeaceeb35be0d2df7b93117d3b40724abd15bdf37bcd46c349817a0b",
+  "protocol.snapshot.json": "797f6c92ed5f2b824526017734017175e9cc624613d423c84893b1aa7aed9e37",
+  "selection_seal.json": "eaa25c3d1583fdb1bbbddb2c7efd0b7d825f3fae709a59e23136227fb64c3b34",
+  "selections.sealed.jsonl": "14747a938423d6ca0b6e91e8794682c90eace7d75331cefd47e730ee7a95818e",
+  "summary.json": "168f223c0a648bc80445a87be023a48b66ae78204431d130faf12a870a616f88"
+}

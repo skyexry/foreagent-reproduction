@@ -1,0 +1,532 @@
+{
+  "DS": {
+    "aptos2019-blindness-detection": {
+      "best_hit": 0.1875,
+      "regret": 0.34849057133339867
+    },
+    "denoising-dirty-documents": {
+      "best_hit": 0.3375,
+      "regret": 0.12810618488957096
+    },
+    "detecting-insults-in-social-commentary": {
+      "best_hit": 0.4041666666666667,
+      "regret": 0.02183187360610482
+    },
+    "dog-breed-identification": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "google-quest-challenge": {
+      "best_hit": 0.30833333333333335,
+      "regret": 0.10663688243774008
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "best_hit": 0.0,
+      "regret": 0.7684515195369033
+    },
+    "leaf-classification": {
+      "best_hit": 0.12083333333333332,
+      "regret": 0.028485986956315296
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "best_hit": 0.17083333333333334,
+      "regret": 0.16525544602903983
+    },
+    "lmsys-chatbot-arena": {
+      "best_hit": 0.15833333333333333,
+      "regret": 0.12712887527113698
+    },
+    "mlsp-2013-birds": {
+      "best_hit": 0.07083333333333333,
+      "regret": 0.29572710014232906
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "best_hit": 0.3875,
+      "regret": 0.1424736295530047
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "petfinder-pawpularity-score": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "plant-pathology-2020-fgvc7": {
+      "best_hit": 0.0,
+      "regret": 0.1697338715194636
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "best_hit": 0.15,
+      "regret": 0.5689180250339209
+    },
+    "random-acts-of-pizza": {
+      "best_hit": 0.1375,
+      "regret": 0.3030450636831105
+    },
+    "spooky-author-identification": {
+      "best_hit": 0.2,
+      "regret": 0.20687228020230788
+    },
+    "stanford-covid-vaccine": {
+      "best_hit": 0.0,
+      "regret": 0.2509998625472051
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "best_hit": 0.17916666666666667,
+      "regret": 0.21886703637394772
+    },
+    "tabular-playground-series-dec-2021": {
+      "best_hit": 0.0125,
+      "regret": 0.3079699973242588
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "best_hit": 0.0625,
+      "regret": 0.3514579513528717
+    },
+    "tgs-salt-identification-challenge": {
+      "best_hit": 0.07708333333333334,
+      "regret": 0.20967309890187197
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "best_hit": 0.12708333333333333,
+      "regret": 0.6479262716297387
+    },
+    "tweet-sentiment-extraction": {
+      "best_hit": 0.05,
+      "regret": 0.7159867268702425
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "best_hit": 0.2375,
+      "regret": 0.09546668469038759
+    },
+    "ventilator-pressure-prediction": {
+      "best_hit": 0.3375,
+      "regret": 0.0823668071970893
+    }
+  },
+  "GPT_task_first_pooled": {
+    "aptos2019-blindness-detection": {
+      "best_hit": 0.07777777777777778,
+      "regret": 0.41722117641004025
+    },
+    "denoising-dirty-documents": {
+      "best_hit": 0.3333333333333333,
+      "regret": 0.3760403926792764
+    },
+    "detecting-insults-in-social-commentary": {
+      "best_hit": 0.2152777777777778,
+      "regret": 0.14278507822742884
+    },
+    "dog-breed-identification": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "google-quest-challenge": {
+      "best_hit": 0.4083333333333334,
+      "regret": 0.1708689646270131
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "best_hit": 0.0,
+      "regret": 1.0
+    },
+    "leaf-classification": {
+      "best_hit": 0.16666666666666666,
+      "regret": 0.024297834604990496
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "best_hit": 0.6034722222222223,
+      "regret": 0.05373061307573257
+    },
+    "lmsys-chatbot-arena": {
+      "best_hit": 0.09999999999999999,
+      "regret": 0.3190053277553934
+    },
+    "mlsp-2013-birds": {
+      "best_hit": 0.01875,
+      "regret": 0.2858512023968662
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "best_hit": 0.3833333333333333,
+      "regret": 0.09179084772778189
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "petfinder-pawpularity-score": {
+      "best_hit": 0.4166666666666667,
+      "regret": 0.5516009659268947
+    },
+    "plant-pathology-2020-fgvc7": {
+      "best_hit": 0.0,
+      "regret": 0.31924585528266197
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "best_hit": 0.6083333333333333,
+      "regret": 0.25974758032408524
+    },
+    "random-acts-of-pizza": {
+      "best_hit": 0.04583333333333334,
+      "regret": 0.3680711375388084
+    },
+    "spooky-author-identification": {
+      "best_hit": 0.3,
+      "regret": 0.10745583724668746
+    },
+    "stanford-covid-vaccine": {
+      "best_hit": 0.10416666666666667,
+      "regret": 0.2229787486443441
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "best_hit": 0.21944444444444444,
+      "regret": 0.1267938512727309
+    },
+    "tabular-playground-series-dec-2021": {
+      "best_hit": 0.008333333333333333,
+      "regret": 0.4042356428075213
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "best_hit": 0.041666666666666664,
+      "regret": 0.3165734057312644
+    },
+    "tgs-salt-identification-challenge": {
+      "best_hit": 0.16666666666666666,
+      "regret": 0.46507099561088555
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "best_hit": 0.04513888888888889,
+      "regret": 0.6414286377109348
+    },
+    "tweet-sentiment-extraction": {
+      "best_hit": 0.07291666666666667,
+      "regret": 0.6993792836256209
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "best_hit": 0.5611111111111111,
+      "regret": 0.03636194143369057
+    },
+    "ventilator-pressure-prediction": {
+      "best_hit": 0.029166666666666664,
+      "regret": 0.08735114636720255
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "aptos2019-blindness-detection": {
+      "best_hit": 0.05,
+      "regret": 0.4724643545299842
+    },
+    "denoising-dirty-documents": {
+      "best_hit": 0.35,
+      "regret": 0.3465368030543692
+    },
+    "detecting-insults-in-social-commentary": {
+      "best_hit": 0.21458333333333335,
+      "regret": 0.10444896528856265
+    },
+    "dog-breed-identification": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "google-quest-challenge": {
+      "best_hit": 0.3,
+      "regret": 0.21717244145582354
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "best_hit": 0.0,
+      "regret": 1.0
+    },
+    "leaf-classification": {
+      "best_hit": 0.1625,
+      "regret": 0.027222185815276745
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "best_hit": 0.55625,
+      "regret": 0.0635602877080429
+    },
+    "lmsys-chatbot-arena": {
+      "best_hit": 0.0875,
+      "regret": 0.3281497162506164
+    },
+    "mlsp-2013-birds": {
+      "best_hit": 0.0,
+      "regret": 0.2974048722194307
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "best_hit": 0.4,
+      "regret": 0.05696396244309796
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "petfinder-pawpularity-score": {
+      "best_hit": 0.75,
+      "regret": 0.25
+    },
+    "plant-pathology-2020-fgvc7": {
+      "best_hit": 0.0,
+      "regret": 0.2867551481152085
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "best_hit": 0.625,
+      "regret": 0.2818402412097317
+    },
+    "random-acts-of-pizza": {
+      "best_hit": 0.0875,
+      "regret": 0.36472029149900315
+    },
+    "spooky-author-identification": {
+      "best_hit": 0.325,
+      "regret": 0.09631932028143445
+    },
+    "stanford-covid-vaccine": {
+      "best_hit": 0.125,
+      "regret": 0.22231622754729014
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "best_hit": 0.12083333333333332,
+      "regret": 0.14542266206350693
+    },
+    "tabular-playground-series-dec-2021": {
+      "best_hit": 0.0,
+      "regret": 0.4150625185272956
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "best_hit": 0.025,
+      "regret": 0.3176434999753238
+    },
+    "tgs-salt-identification-challenge": {
+      "best_hit": 0.2,
+      "regret": 0.49665249118546795
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "best_hit": 0.0875,
+      "regret": 0.6489453930957726
+    },
+    "tweet-sentiment-extraction": {
+      "best_hit": 0.04375,
+      "regret": 0.7076539294790284
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "best_hit": 0.55,
+      "regret": 0.04279329640353509
+    },
+    "ventilator-pressure-prediction": {
+      "best_hit": 0.0,
+      "regret": 0.09580785777929826
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "aptos2019-blindness-detection": {
+      "best_hit": 0.10833333333333332,
+      "regret": 0.4299513713032409
+    },
+    "denoising-dirty-documents": {
+      "best_hit": 0.325,
+      "regret": 0.4061076793495705
+    },
+    "detecting-insults-in-social-commentary": {
+      "best_hit": 0.12083333333333332,
+      "regret": 0.1914693185060629
+    },
+    "dog-breed-identification": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "google-quest-challenge": {
+      "best_hit": 0.425,
+      "regret": 0.12891424677377827
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "best_hit": 0.0,
+      "regret": 1.0
+    },
+    "leaf-classification": {
+      "best_hit": 0.2875,
+      "regret": 0.015177776990870414
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "best_hit": 0.6,
+      "regret": 0.03613957948245576
+    },
+    "lmsys-chatbot-arena": {
+      "best_hit": 0.1375,
+      "regret": 0.2753399593877803
+    },
+    "mlsp-2013-birds": {
+      "best_hit": 0.0,
+      "regret": 0.2914694675043138
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "best_hit": 0.35,
+      "regret": 0.08827100608069072
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "petfinder-pawpularity-score": {
+      "best_hit": 0.5,
+      "regret": 0.5
+    },
+    "plant-pathology-2020-fgvc7": {
+      "best_hit": 0.0,
+      "regret": 0.2867551481152085
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "best_hit": 0.6375,
+      "regret": 0.2569724234714884
+    },
+    "random-acts-of-pizza": {
+      "best_hit": 0.0,
+      "regret": 0.4157516609499668
+    },
+    "spooky-author-identification": {
+      "best_hit": 0.275,
+      "regret": 0.1150340097701064
+    },
+    "stanford-covid-vaccine": {
+      "best_hit": 0.1,
+      "regret": 0.21703302074939262
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "best_hit": 0.2375,
+      "regret": 0.13154174605697236
+    },
+    "tabular-playground-series-dec-2021": {
+      "best_hit": 0.025,
+      "regret": 0.39064169249018194
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "best_hit": 0.025,
+      "regret": 0.32919016380553584
+    },
+    "tgs-salt-identification-challenge": {
+      "best_hit": 0.175,
+      "regret": 0.453398039687621
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "best_hit": 0.0,
+      "regret": 0.6289430831805768
+    },
+    "tweet-sentiment-extraction": {
+      "best_hit": 0.1375,
+      "regret": 0.6166421736123283
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "best_hit": 0.65,
+      "regret": 0.034126940771897006
+    },
+    "ventilator-pressure-prediction": {
+      "best_hit": 0.05,
+      "regret": 0.08212268095207508
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "aptos2019-blindness-detection": {
+      "best_hit": 0.075,
+      "regret": 0.3492478033968957
+    },
+    "denoising-dirty-documents": {
+      "best_hit": 0.325,
+      "regret": 0.3754766956338897
+    },
+    "detecting-insults-in-social-commentary": {
+      "best_hit": 0.3104166666666667,
+      "regret": 0.13243695088766097
+    },
+    "dog-breed-identification": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "google-quest-challenge": {
+      "best_hit": 0.5,
+      "regret": 0.16652020565143755
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "best_hit": 0.0,
+      "regret": 1.0
+    },
+    "leaf-classification": {
+      "best_hit": 0.05,
+      "regret": 0.030493541008824333
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "best_hit": 0.6541666666666667,
+      "regret": 0.06149197203669906
+    },
+    "lmsys-chatbot-arena": {
+      "best_hit": 0.075,
+      "regret": 0.35352630762778364
+    },
+    "mlsp-2013-birds": {
+      "best_hit": 0.05625,
+      "regret": 0.268679267466854
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "best_hit": 0.4,
+      "regret": 0.13013757465955694
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "best_hit": 1.0,
+      "regret": 0.0
+    },
+    "petfinder-pawpularity-score": {
+      "best_hit": 0.0,
+      "regret": 0.9048028977806842
+    },
+    "plant-pathology-2020-fgvc7": {
+      "best_hit": 0.0,
+      "regret": 0.3842272696175689
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "best_hit": 0.5625,
+      "regret": 0.2404300762910357
+    },
+    "random-acts-of-pizza": {
+      "best_hit": 0.05,
+      "regret": 0.32374146016745514
+    },
+    "spooky-author-identification": {
+      "best_hit": 0.3,
+      "regret": 0.11101418168852153
+    },
+    "stanford-covid-vaccine": {
+      "best_hit": 0.0875,
+      "regret": 0.22958699763634965
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "best_hit": 0.3,
+      "regret": 0.10341714569771343
+    },
+    "tabular-playground-series-dec-2021": {
+      "best_hit": 0.0,
+      "regret": 0.4070027174050863
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "best_hit": 0.075,
+      "regret": 0.3028865534129337
+    },
+    "tgs-salt-identification-challenge": {
+      "best_hit": 0.125,
+      "regret": 0.4451624559595677
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "best_hit": 0.04791666666666666,
+      "regret": 0.6463974368564551
+    },
+    "tweet-sentiment-extraction": {
+      "best_hit": 0.0375,
+      "regret": 0.7738417477855057
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "best_hit": 0.4833333333333333,
+      "regret": 0.03216558712563962
+    },
+    "ventilator-pressure-prediction": {
+      "best_hit": 0.0375,
+      "regret": 0.08412290037023434
+    }
+  }
+}

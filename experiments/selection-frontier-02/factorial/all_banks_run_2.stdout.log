@@ -1,0 +1,59 @@
+label-free selection detecting-insults-in-social-commentary:9:1
+label-free selection leaf-classification:17:1
+label-free selection mlsp-2013-birds:7:1
+label-free selection predict-volcanic-eruptions-ingv-oe:14:1
+label-free selection stanford-covid-vaccine:4:1
+label-free selection tabular-playground-series-dec-2021:14:1
+label-free selection the-icml-2013-whale-challenge-right-whale-redux:4:1
+label-free selection us-patent-phrase-to-phrase-matching:14:1
+{
+  "status": "success",
+  "out": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/factorial/all_banks_run_2",
+  "criteria": {
+    "g50_raw": {
+      "DS_gain_ge_001": false,
+      "DS_all_leave_one_positive": false,
+      "GPT_at_least_2_positive": false,
+      "GPT_task_first_mean_positive": false,
+      "GPT_individual_gains": [
+        -0.0061739844250974585,
+        0.0036496817616449404,
+        -0.0031940464270232114
+      ],
+      "GPT_task_first_gain": -0.0019061163634919046,
+      "research_priority_criteria_pass": false
+    },
+    "g70_smooth": {
+      "DS_gain_ge_001": false,
+      "DS_all_leave_one_positive": false,
+      "GPT_at_least_2_positive": true,
+      "GPT_task_first_mean_positive": false,
+      "GPT_individual_gains": [
+        -0.0010633177629556373,
+        0.0002067774224169816,
+        0.00011855448160556087
+      ],
+      "GPT_task_first_gain": -0.0002459952863110304,
+      "research_priority_criteria_pass": false
+    },
+    "g50_smooth": {
+      "DS_gain_ge_001": false,
+      "DS_all_leave_one_positive": false,
+      "GPT_at_least_2_positive": false,
+      "GPT_task_first_mean_positive": false,
+      "GPT_individual_gains": [
+        -0.006775509696254732,
+        0.0032451120061807084,
+        -0.0033882187873697164
+      ],
+      "GPT_task_first_gain": -0.002306205492481241,
+      "research_priority_criteria_pass": false
+    },
+    "judge_swap": {
+      "pooled_gain_ge_001": false,
+      "pooled_all_leave_one_positive": false,
+      "at_least_2_individual_positive": false,
+      "research_priority_criteria_pass": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "excluded_label_and_repeat_perturbation_invariant": 144,
+    "fit_and_delete_one_rule_independent": 144,
+    "source_banks_and_training_tasks_match_plan": 144,
+    "target_task_excluded": 144
+  },
+  "folds": 144,
+  "scope": "calibration audit uses only allowed source-bank/non-target-task outcomes and independently checks bit; target-task and heldout-repeat adversarial perturbations leave fitted output exactly unchanged",
+  "status": "passed",
+  "verifier_sha256": "ca0722912cb09f490f134bc9fbcdfdbbd0252b82d2a8f159b42ae84f6e8f3cdd"
+}

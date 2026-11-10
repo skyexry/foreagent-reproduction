@@ -1,5 +1,29 @@
 # 实验账本
 
+## 2026-11-08｜固定 C0 轨迹的两个终选实验
+
+[全局重排](experiments/posterior-ranking-v1/README.md)使用固定的含噪比较模型；[理由冲突破同分](experiments/rationale-tiebreak-v1/README.md)使用已问对局的文本标记和逐场打乱对照。均先封存选择，再读取执行效用；同一批 26 个开发任务、相同裁判调用。两轮均未达采用门槛。第二轮在评分前修正对旧参考文件 selected.C 的读取。新增模型调用、训练、GPU 均为零。[当前结论](research/离线候选选择.md)
+
+## 2026-11-08｜trajectory-weighted-judge-v1
+
+四臂训练只改变样本权重。26 折任务留出、104 次 CPU 线性拟合、17,000 场自适应离线选优和 3,400 份原 C0 控制匹配。相对等权，终局加权主比较收益 0.00116 [−0.00232, 0.00448]。停止该先导。付费调用、GPU 和新候选训练均为零。[协议、成本与复跑](experiments/trajectory-weighted-judge-v1/README.md) · [下一阶段方案](research/研究路线.md)
+
+## c0-judge-credit-check｜训练信号可行性检查
+
+单一 DeepSeek 历史判断，每个开发任务第一个池的两次重复。52 场原 C0 首选、轨迹和账本复现，306 次已采纳严格比较各自分叉；58 对重复出现，其中 44 对在相同候选分差下产生不同终局代价。此结果只验证信号可计算，模型训练、付费调用、GPU 使用均为0。[协议](experiments/c0-judge-credit-check/protocol.json) · [结果](experiments/c0-judge-credit-check/run_1/summary.json)
+
+## 2026-11-08｜selection-frontier-02（分阶段登记后执行）
+
+- [总协议](experiments/selection-frontier-02/protocol.json)及后续各分支协议均保留时序。覆盖改动、门槛×汇总、等预算第二意见、C0 后处理与截短赛程实际运行；又核查了两份额外 DeepSeek 温度0资料、来源、负对照及跨任务校准。
+- 六份裁判归档的部分理想化诊断共 4,574 个原控制与 36,592 个干预选择；已采纳方向纠正和弃权救回均有机会。结论用于判定优先级，真实新裁判的效果待测。
+- [实验结果、控制与复跑](experiments/selection-frontier-02/README.md) · [第一项改动与下一步](experiments/selection-frontier-02/优先改动.md)。保留所有阴性与恢复记录，本机 CPU；实际新增 API、GPU、训练均0。
+
+## 2026-11-08｜selection-frontier-01（事前登记，已执行）
+
+- [协议](experiments/selection-frontier-01/protocol.json)在两名执行子代理启动前登记 D1 与 J1，各自固定主比较、反事实条件、开发区间与停止规则。全量26任务、425池、850场，本机CPU。
+- D1 主动相对随机补问损失差 +0.00289，区间跨零且留一任务变号，结束 D2 分支。J1 对同一已有稀疏赛程纠正有效错向，平均损失 0.27678 → 0.09815；该对照使用执行标签。
+- [运行记录与复跑](experiments/selection-frontier-01/README.md) · [独立核验收据](experiments/selection-frontier-01/verification/receipt.json)。新增付费模型调用、训练、GPU均为0。
+
 **发布附记（research-publication-v1，2026-11-08）：**现有研究接口、C0 与审计/实验材料已同步到原私有 GitHub 仓库；337 个发布文件逐项核对，代码/数据附件下载后校验通过。HW3 代码包逐文件对应 `hw3-phase1-v1` 的 777 个 Git blob，来源/摘要核验 529 项通过；研究输入 1,182 个文件从独立目录恢复后通过状态核验和三场策略短测。该轮属于发布与可恢复性验收，新增研究方法实验、模型调用和训练均 0。源字节上传中两份 CSV 的换行转换已修正并回读确认。收据：`provenance/research-publication-v1/`；HW3 指引：`reports/hw3/SUBMISSION.md`。
 
 ## A7 · research-env-v1 · 离线研究接口固定与验收

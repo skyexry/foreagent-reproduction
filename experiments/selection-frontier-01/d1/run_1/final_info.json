@@ -1,0 +1,194 @@
+{
+  "costs": {
+    "GPU": 0,
+    "cache_reads": 0,
+    "candidate_training": 0,
+    "failures": 0,
+    "logical_reads": {
+      "S": 7598,
+      "T": 8448,
+      "U": 8448
+    },
+    "new_API_calls": 0
+  },
+  "decision": "Retain C0; end this development decision and inspect influential task evidence before any new strategy.",
+  "experiment_id": "selection-prefix-value-d1",
+  "finished_utc": "2026-11-08T11:59:37.632000+00:00",
+  "full_length_verification_sha256": "6e11872e66e2c2ebea88792884d89757625ecce0659fd007e46d4e3901910d94",
+  "gates": {
+    "D_harm_positive_and_at_least_D_missed": true,
+    "all_T_minus_U_positive": true,
+    "both_weak_vs_stop": false,
+    "eligible_for_D2_registration": false,
+    "every_leave_one_T_minus_U_positive": false,
+    "leave_one_direction_changes_or_touches_zero": true,
+    "margin": 0.01
+  },
+  "intervals": {
+    "D_harm": {
+      "mean": 0.009582699277343532,
+      "task_cluster_95": [
+        -0.002314740452194897,
+        0.027493292467821197
+      ]
+    },
+    "D_missed": {
+      "mean": -0.006690092340493226,
+      "task_cluster_95": [
+        -0.013668947160774166,
+        0.0005804268921432161
+      ]
+    },
+    "benefit:T": {
+      "mean": 0.024230359504312102,
+      "task_cluster_95": [
+        0.01723607235034886,
+        0.031390374783065327
+      ]
+    },
+    "benefit:U": {
+      "mean": 0.017540267163818877,
+      "task_cluster_95": [
+        0.011730038475287615,
+        0.023874127191012298
+      ]
+    },
+    "best_hit:S": {
+      "mean": 0.2030448717948718,
+      "task_cluster_95": [
+        0.11845953525641026,
+        0.31285536858974355
+      ]
+    },
+    "best_hit:T": {
+      "mean": 0.18778846153846154,
+      "task_cluster_95": [
+        0.10611738782051282,
+        0.29609054487179487
+      ]
+    },
+    "best_hit:U": {
+      "mean": 0.19384615384615383,
+      "task_cluster_95": [
+        0.11264383012820513,
+        0.30229967948717934
+      ]
+    },
+    "delta_T_minus_U": {
+      "mean": 0.002892606936850305,
+      "task_cluster_95": [
+        -0.013129629850422417,
+        0.023516346009228105
+      ]
+    },
+    "gains:T": {
+      "mean": -0.010440019323181464,
+      "task_cluster_95": [
+        -0.046038558480149816,
+        0.012347120925869289
+      ]
+    },
+    "gains:U": {
+      "mean": -0.007547412386331157,
+      "task_cluster_95": [
+        -0.025619539259864824,
+        0.00461698148195974
+      ]
+    },
+    "harm:T": {
+      "mean": 0.03467037882749357,
+      "task_cluster_95": [
+        0.014651993745282815,
+        0.06741964004678729
+      ]
+    },
+    "harm:U": {
+      "mean": 0.025087679550150035,
+      "task_cluster_95": [
+        0.014455503531504856,
+        0.04147144864839988
+      ]
+    },
+    "regret:S": {
+      "mean": 0.29243066201900114,
+      "task_cluster_95": [
+        0.2150501274196581,
+        0.37974791759279175
+      ]
+    },
+    "regret:T": {
+      "mean": 0.3028706813421826,
+      "task_cluster_95": [
+        0.21611511324472638,
+        0.39927777418625343
+      ]
+    },
+    "regret:U": {
+      "mean": 0.2999780744053323,
+      "task_cluster_95": [
+        0.2189223418331661,
+        0.39092019600733
+      ]
+    }
+  },
+  "jobs": 850,
+  "leave_one_range": [
+    -0.005087746741289367,
+    0.005179576438000463
+  ],
+  "limitations": [
+    "D1 compares the complete old active edge rule against random at the first post-chain query.",
+    "Two seeds are paired repeats rather than independent task corpora.",
+    "Conditional diagnostic strata describe associations; raw utility scales differ across tasks.",
+    "No new-task, online-agent, retraining, judge-repeat or monetary-cost effect is estimated.",
+    "AI Scientist-style records are local scripts and numbered run artifacts; native launcher integration remains a separate task."
+  ],
+  "macro": {
+    "D_harm": 0.009582699277343532,
+    "D_missed": -0.006690092340493226,
+    "benefit:T": 0.024230359504312102,
+    "benefit:U": 0.017540267163818877,
+    "best_hit:S": 0.2030448717948718,
+    "best_hit:T": 0.18778846153846154,
+    "best_hit:U": 0.19384615384615383,
+    "delta_T_minus_U": 0.002892606936850305,
+    "gains:T": -0.010440019323181464,
+    "gains:U": -0.007547412386331157,
+    "harm:T": 0.03467037882749357,
+    "harm:U": 0.025087679550150035,
+    "logical_reads:S": 8.0,
+    "logical_reads:T": 9.0,
+    "logical_reads:U": 9.0,
+    "raw_utility_gains:T": -25416841135.226215,
+    "raw_utility_gains:U": -5745.033432884293,
+    "regret:S": 0.29243066201900114,
+    "regret:T": 0.3028706813421826,
+    "regret:U": 0.2999780744053323
+  },
+  "per_job_primary_counts": {
+    "equal": 433,
+    "improved": 215,
+    "worsened": 202
+  },
+  "per_task_primary_counts": {
+    "equal": 4,
+    "improved": 14,
+    "worsened": 8
+  },
+  "pool_size_counts": {
+    "3": 4,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "10": 840
+  },
+  "pools": 425,
+  "same_next_edge_jobs": 9,
+  "scope": "Fixed previously inspected 26-task development bank, 425 pools and two paired seeds; task bootstrap describes task-composition variation. Preserved one original judge draw; execution labels are historical, direction-normalized scores.",
+  "script_sha256": "ff8614f27bbc7ff5b5e758e69fbe5096ca960da6f0a6c6cea5dc5de0cc50076d",
+  "seal_sha256": "7dc35a70fa8c95a25b9115d7e409a05c06bd4b8af867893e0ca1daefdbcf758b",
+  "selections": 2550,
+  "status": "success",
+  "tasks": 26,
+  "wall_seconds": 2.8569455000106245
+}

@@ -1,0 +1,542 @@
+{
+  "cost": {
+    "cpu_seconds": 10.450261999999999,
+    "gpu_hours": 0,
+    "new_model_calls": 0,
+    "paid_cost_usd": 0,
+    "training_runs": 0,
+    "wall_seconds": 8.481504833034705
+  },
+  "decision": "retain C0; close this exact retained-reasoning direction mismatch tie-break signal",
+  "episodes": 3400,
+  "experiment": "rationale-tiebreak-v1",
+  "exposure": {
+    "DS": {
+      "changed_episodes": 1,
+      "episodes": 850,
+      "episodes_with_accepted_flag": 8,
+      "tied_episodes": 243,
+      "unique_accepted_pairs": 3349,
+      "unique_accepted_with_direction_mismatch": 3,
+      "unique_accepted_with_usable_explicit_direction": 1986
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "changed_episodes": 0,
+      "episodes": 850,
+      "episodes_with_accepted_flag": 0,
+      "tied_episodes": 148,
+      "unique_accepted_pairs": 4348,
+      "unique_accepted_with_direction_mismatch": 0,
+      "unique_accepted_with_usable_explicit_direction": 0
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "changed_episodes": 0,
+      "episodes": 850,
+      "episodes_with_accepted_flag": 0,
+      "tied_episodes": 145,
+      "unique_accepted_pairs": 4253,
+      "unique_accepted_with_direction_mismatch": 0,
+      "unique_accepted_with_usable_explicit_direction": 0
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "changed_episodes": 0,
+      "episodes": 850,
+      "episodes_with_accepted_flag": 0,
+      "tied_episodes": 135,
+      "unique_accepted_pairs": 4213,
+      "unique_accepted_with_direction_mismatch": 0,
+      "unique_accepted_with_usable_explicit_direction": 0
+    }
+  },
+  "gate_passed": false,
+  "labels_sha256": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+  "metric_vector": [
+    "normalized_regret",
+    "uniform_tie_best_hit"
+  ],
+  "metrics": {
+    "DS": {
+      "C0": [
+        0.26416156273452196,
+        0.2367384004884005
+      ],
+      "hit_gain_text_minus_C0": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "hit_gain_text_minus_sham": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_C0_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0013800191895014908
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0004784066523605168
+        ],
+        "mean": 0.00046000639650049693
+      },
+      "regret_gain_sham_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0012257051333167358
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0004249111128831351
+        ],
+        "mean": 0.0004085683777722453
+      },
+      "sham_mean": [
+        0.2641101247157923,
+        0.23673840048840056
+      ],
+      "sham_replicate_regret_gains_C0_minus_sham": [
+        0.000624608056430942,
+        0.000624608056430942,
+        -0.00016460165993037457,
+        -0.0002954047365700818,
+        0.00016460165993043008,
+        0.0004600063965005119,
+        -0.00016460165993037457,
+        -0.0002954047365700818,
+        0.000624608056430942,
+        0.00016460165993043008,
+        0.00016460165993043008,
+        0.00016460165993043008,
+        -0.0002954047365700818,
+        0.000624608056430942,
+        -0.0004600063965004564,
+        -0.0004600063965004564,
+        -0.00016460165993037457,
+        0.00016460165993043008,
+        0.000624608056430942,
+        0.00029540473657013733,
+        -0.0002954047365700818,
+        -0.0006246080564308865,
+        0.00029540473657013733,
+        0.000624608056430942,
+        -0.0006246080564308865,
+        0.000624608056430942,
+        -0.00016460165993037457,
+        0.00016460165993043008,
+        0.0,
+        0.0,
+        -0.0002954047365700818,
+        -0.0004600063965004564
+      ],
+      "text": [
+        0.26370155633802145,
+        0.2367384004884005
+      ]
+    },
+    "GPT_task_first_pooled": {
+      "C0": [
+        0.27248646137638716,
+        0.2815023402523403
+      ],
+      "hit_gain_text_minus_C0": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "hit_gain_text_minus_sham": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_C0_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_sham_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "sham_mean": [
+        0.2724864613763846,
+        0.28150234025233883
+      ],
+      "sham_replicate_regret_gains_C0_minus_sham": [
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17
+      ],
+      "text": [
+        0.27248646137638716,
+        0.2815023402523403
+      ]
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "C0": [
+        0.27638816134865735,
+        0.2820604395604395
+      ],
+      "hit_gain_text_minus_C0": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "hit_gain_text_minus_sham": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_C0_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_sham_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "sham_mean": [
+        0.27638816134865746,
+        0.28206043956044036
+      ],
+      "sham_replicate_regret_gains_C0_minus_sham": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "text": [
+        0.27638816134865735,
+        0.2820604395604395
+      ]
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "C0": [
+        0.2535589995320797,
+        0.3052083333333334
+      ],
+      "hit_gain_text_minus_C0": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "hit_gain_text_minus_sham": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_C0_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_sham_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "sham_mean": [
+        0.2535589995320805,
+        0.30520833333333386
+      ],
+      "sham_replicate_regret_gains_C0_minus_sham": [
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17,
+        -5.551115123125783e-17
+      ],
+      "text": [
+        0.2535589995320797,
+        0.3052083333333334
+      ]
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "C0": [
+        0.2875122232484244,
+        0.25723824786324784
+      ],
+      "hit_gain_text_minus_C0": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "hit_gain_text_minus_sham": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_C0_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "regret_gain_sham_minus_text": {
+        "all_leave_one_task_out_positive": false,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_task_out_range": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "sham_mean": [
+        0.2875122232484248,
+        0.2572382478632472
+      ],
+      "sham_replicate_regret_gains_C0_minus_sham": [
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17
+      ],
+      "text": [
+        0.2875122232484244,
+        0.25723824786324784
+      ]
+    }
+  },
+  "selection_seal_sha256": "ad95b328226931aa1f1b5f22224f1b55c4727b2f3b196e2ac4fab0c35c20e36b",
+  "source_disclosure": "All audit rows lacked extracted reasoning index; recovered from frozen raw prediction.reasoning using same last-flat-JSON extractor and verified every candidate order, parsed prediction and audit presence/mixed mismatch. Reasoning may contain intermediate JSON; flags carry uncertainty.",
+  "tasks": 26
+}

@@ -1,0 +1,116 @@
+J1 started 2026-11-08T12:00:14.822785+00:00
+Original choices and complete direction-independent schedules reconstructed: 850/850
+{
+  "macro": {
+    "original": {
+      "regret": 0.276784831898676,
+      "best_hit": 0.2097275641025641,
+      "unique_feedback_reads": 12.115384615384615,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    },
+    "corrected": {
+      "regret": 0.0981461588134198,
+      "best_hit": 0.4303685897435897,
+      "unique_feedback_reads": 12.115384615384615,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    }
+  },
+  "primary_regret_gain_original_minus_corrected": {
+    "mean": 0.17863867308525613,
+    "task_cluster_percentile_95": [
+      0.11544985336311336,
+      0.26236971492445155
+    ],
+    "seed": 20261108093,
+    "repeats": 10000,
+    "resampling_unit": "paired complete task",
+    "tasks": 26,
+    "tasks_improved": 24,
+    "tasks_equal": 2,
+    "tasks_worsened": 0
+  },
+  "paired_best_hit_gain_corrected_minus_original": {
+    "mean": 0.22064102564102564,
+    "task_cluster_percentile_95": [
+      0.14914663461538463,
+      0.30904046474358976
+    ],
+    "seed": 20261108093,
+    "repeats": 10000,
+    "resampling_unit": "paired complete task",
+    "tasks": 26
+  },
+  "corrected_residual_regret": {
+    "mean": 0.0981461588134198,
+    "task_cluster_percentile_95": [
+      0.06335285040254747,
+      0.14292376520572198
+    ],
+    "seed": 20261108093,
+    "repeats": 10000,
+    "resampling_unit": "paired complete task",
+    "tasks": 26
+  },
+  "counts": {
+    "abstained": 5097,
+    "queries": 11004,
+    "valid": 5907,
+    "true_ties_all_queried": 0,
+    "valid_strict_correct": 3697,
+    "valid_strict_error": 2210,
+    "episodes_with_strict_error": 769,
+    "set_changed": 622,
+    "set_changed_with_error": 622,
+    "original_selection_tied": 349,
+    "corrected_selection_tied": 351,
+    "improved": 549,
+    "worsened": 73,
+    "equal": 228
+  },
+  "denominators": {
+    "planned_tasks": 26,
+    "included_tasks": 26,
+    "planned_pools": 425,
+    "included_task_pool_pairs": 425,
+    "planned_episodes": 850,
+    "included_episodes": 850,
+    "selection_evaluations": 1700,
+    "excluded_episodes": 0,
+    "failed_episodes": 0,
+    "query_occurrences": 11004,
+    "valid_query_occurrences": 5907,
+    "valid_true_tie_occurrences": 0,
+    "valid_nontie_query_occurrences": 5907,
+    "distinct_queried_task_pair_counts": {
+      "queries": 6483,
+      "abstained": 2864,
+      "valid_strict_correct": 2322,
+      "valid": 3619,
+      "valid_strict_error": 1297
+    },
+    "candidate_count_by_episode": {
+      "10": 840,
+      "3": 4,
+      "5": 2,
+      "7": 2,
+      "6": 2
+    }
+  },
+  "costs": {
+    "each_arm": {
+      "total_logical_unique_feedback_reads": 11004,
+      "mean_logical_reads_per_episode": 12.945882352941176,
+      "task_macro_logical_reads": 12.115384615384615,
+      "cache_reads": 0,
+      "budget_denials": 0
+    },
+    "pairwise_logical_read_difference": 0,
+    "physical_new_api_calls": 0,
+    "candidate_training": 0,
+    "gpu": 0,
+    "explanation": "Each counterfactual arm inherits the exact complete original ledger; the local analysis rereads saved files only."
+  }
+}
+J1 successful 2026-11-08T12:00:15.421899+00:00

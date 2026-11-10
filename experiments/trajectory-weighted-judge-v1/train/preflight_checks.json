@@ -1,0 +1,18 @@
+{
+  "actual_corpus_fits_before_representation": 0,
+  "first_fold_data_boundary": {
+    "heldout": "aptos2019-blindness-detection",
+    "heldout_credit_opened": false,
+    "training_pairs": 16699,
+    "training_tasks": 25
+  },
+  "source_compile": true,
+  "status": "passed",
+  "synthetic_optimizer_check": {
+    "candidates": 3,
+    "features": 2,
+    "fits": 2,
+    "steps_each": 80,
+    "swapped_input_and_complemented_labels_parameter_max_abs_difference": 0.0
+  }
+}

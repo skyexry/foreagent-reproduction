@@ -1,0 +1,42 @@
+{
+  "archive": {
+    "counts": {
+      "admitted": 17877,
+      "admitted_retained_text": 17874,
+      "all_retained_text": 18435,
+      "all_rows": 18438
+    },
+    "field": "prediction.reasoning, nonempty stripped text; presence is not accuracy",
+    "median_chars_present": 9857.5,
+    "tasks": 26
+  },
+  "order_of_metrics": [
+    "C0",
+    "mean_rank",
+    "p_best"
+  ],
+  "rows": 3400,
+  "sha256_uncompressed_selections": "0ef7090ef868d36852a3d75d065df9da16eefaf8aed7d962d94f0a148bae20b6",
+  "task_macro_regret": {
+    "DS": [
+      0.26416156273452196,
+      0.2855409409946286,
+      0.2863092654301703
+    ],
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": [
+      0.27638816134865735,
+      0.27278284909393935,
+      0.2747779707979829
+    ],
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": [
+      0.25355899953207967,
+      0.2768834198619621,
+      0.2786087059140723
+    ],
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": [
+      0.2875122232484244,
+      0.2955016384341446,
+      0.2954849231654482
+    ]
+  }
+}

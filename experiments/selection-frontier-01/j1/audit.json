@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "audit_utc": "2026-11-08T12:02:11.657774+00:00",
+  "audit_seconds": 0.3283869579900056,
+  "audit_script_sha256": "2573066361eff1e15d407b61cf7ad072021405295590410142683990d2e81685",
+  "run_2_output_manifest_sha256": "548228e29e1c3cda5e6f60585768a4eea2da05dacc4361ed3c2902166560ecb4",
+  "frozen_input_hashes_verified": 11,
+  "output_hashes_verified": 17,
+  "episodes_independently_rebuilt": 850,
+  "edges_checked": 11004,
+  "tasks_independently_rebuilt": 26,
+  "bootstrap_endpoint_95_intervals_rebuilt": 3,
+  "first_predefined_cases_checked": {
+    "improved": "aptos2019-blindness-detection:0:0",
+    "worsened": "aptos2019-blindness-detection:4:0",
+    "equal": "aptos2019-blindness-detection:4:1"
+  },
+  "source": "Frozen raw decisions, jobs and labels; independent script imports no experiment or reproduction modules.",
+  "counts": {
+    "queries": 11004,
+    "valid": 5907,
+    "abstained": 5097,
+    "strict_error": 2210,
+    "true_ties": 0,
+    "improved": 549,
+    "worsened": 73,
+    "equal": 228
+  }
+}

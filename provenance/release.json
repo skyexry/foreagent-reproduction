@@ -1,0 +1,43 @@
+{
+  "repository": "skyexry/foreagent-reproduction",
+  "branch": "codex/baseline-reproduction-v1",
+  "tag": "baseline-reproduction-v1",
+  "tag_commit": "fd55d93a1ea063e64620de4c4c87c49f517eff66",
+  "annotated_tag_object": "4139bae42d8dfd0292dadedae53f5669f837608f",
+  "release_id": 437545823,
+  "release_url": "https://github.com/skyexry/foreagent-reproduction/releases/tag/baseline-reproduction-v1",
+  "published_at": "2026-11-07T11:58:29Z",
+  "is_draft": false,
+  "is_prerelease": false,
+  "repository_visibility": "private (unchanged)",
+  "verification": "All three assets downloaded from GitHub and matched frozen byte counts and SHA-256; API digests matched. Frozen 85-file manifest remains unchanged.",
+  "assets": [
+    {
+      "filename": "ForeAgent_Full_Execution_Paired_Replay_v2.zip",
+      "bytes": 10780881,
+      "sha256": "c3130b0484b901d53160ac7c9458aef850f599487a03b3f6d812156ad84cb354",
+      "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/baseline-reproduction-v1/ForeAgent_Full_Execution_Paired_Replay_v2.zip",
+      "github_asset_id": 720574035,
+      "github_digest": "sha256:c3130b0484b901d53160ac7c9458aef850f599487a03b3f6d812156ad84cb354",
+      "download_verified": true
+    },
+    {
+      "filename": "ForeAgent_Real_Author_Batches_Replay.zip",
+      "bytes": 73612647,
+      "sha256": "9069e8161cbef6f159f5a2a9fe9fd205de9d30c6f98a7b19e551e7029d03bf84",
+      "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/baseline-reproduction-v1/ForeAgent_Real_Author_Batches_Replay.zip",
+      "github_asset_id": 720574041,
+      "github_digest": "sha256:9069e8161cbef6f159f5a2a9fe9fd205de9d30c6f98a7b19e551e7029d03bf84",
+      "download_verified": true
+    },
+    {
+      "filename": "pairwise-246-evidence.zip",
+      "bytes": 5022504,
+      "sha256": "b2302988988e75911fae236de724793b3b59999c8315ebe50cbbd9f2a70f5391",
+      "url": "https://github.com/skyexry/foreagent-reproduction/releases/download/baseline-reproduction-v1/pairwise-246-evidence.zip",
+      "github_asset_id": 720574036,
+      "github_digest": "sha256:b2302988988e75911fae236de724793b3b59999c8315ebe50cbbd9f2a70f5391",
+      "download_verified": true
+    }
+  ]
+}

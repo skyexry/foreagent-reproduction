@@ -1,0 +1,22 @@
+{
+  "README.md": "fd50ba3c28d9faa51fc99c0771227b8efd706e1fe01b8f250b3ce4ab9d5a1b02",
+  "allocation_episodes.jsonl": "a2c5571c43697450a84d397f67378facd7926d64aaa0c9f441c9eb729157c88b",
+  "allocation_summary.json": "93d84c61d64b0db3048717b88b9e8b4a5fe22a8b3d609983eae28bfc538b8381",
+  "allocation_tasks.jsonl": "124fa0ad7e95f75b126c6f85f8c819e3b70b8065064ce5d26cd8a239110c354d",
+  "allocation_verification.json": "cbd2b0d8de29908e3e0dbd91a187024d7e99cc420998210b8d3ac78ff6336fe4",
+  "analysis.log": "da30d51d70bf35ee21ae45ff1c168799bd386f5d300ab9a7e0b27c63663b32b2",
+  "analyze.py": "8395248961662c802d56d68b80fcacbcf171be3b8715ed1325a35a121a099187",
+  "execution_receipt.json": "d5d859d6a61abd600943ee22386d9d90aba2842831430c13f0ba92285606062b",
+  "final_checks.json": "9090db3274c400e2db135af699d3055a1d536f3bada28b5ea9c4498fa3e700e4",
+  "full-001-evaluate.log": "7b2e22a81996b57e0d7be5946ab74f69a6735b252f88ad5b0ad3f4bac40fd1ac",
+  "full-001.log": "95a8626c17bb7fba08bd619e295e03c0866813f70c0ba893f9d2894168feff7c",
+  "input_sha256.json": "3840446d2feea07de09c161d6f0e736aa2bea568d86bb463991aada495075d7d",
+  "j1_coverage_cases.json": "699d4e601b037cfbff7c84ff7693efd9f329f7051189c00b6b5359d8d25ff939",
+  "j1_coverage_episodes.jsonl": "4e510600defdc51b06264d1629c375d2caecc8927cff8160455ce151901f0eb4",
+  "j1_coverage_summary.json": "2b4fb1ebcd3eca6149b74dbc8f5f25235b785b26759003f6adbe1d6a96ec881f",
+  "plan.md": "6f0f0cf97b6fc93004c5e16436e65c1d352b637913693fa9e583622a7fb08b89",
+  "rerun.sh": "da1fcfc879dfd60bc104db554ea18724731e09f21a8847f12d10f95239babda9",
+  "smoke-001.log": "e67f9fafa0e88f70592bdb03a2e409282ce64458ed606f940d6ebf931a03a7f3",
+  "smoke-002-evaluate.log": "239df623155770408182f89acdffbde62562e133b65bcde49516a7de0c12e4c7",
+  "smoke-002.log": "239df623155770408182f89acdffbde62562e133b65bcde49516a7de0c12e4c7"
+}

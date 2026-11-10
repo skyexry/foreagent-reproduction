@@ -1,0 +1,22 @@
+{
+  "command.json": "0a3f567b18617f6bcf59e2b810b92ee51ea62e23def83c2816d61d9793d07dba",
+  "decisions.oracle.jsonl.gz": "6bb4bf502db3908be39cdebddad4a5c30e4bdfb2c92c91e725955e93672baf46",
+  "execution_details.preregistered.json": "ce899607f1851e836658dd78e40f3a226a579c17639a842fcb7688e2cb22f507",
+  "experiment.snapshot.py": "8378986ce97e6a52264458101c02a2d24da820ac4cbcfa01f96cb67bb198f09e",
+  "failure.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "final_info.json": "5494a12169a7e55b2e045d63a91a70376962cdde1b884ff0b38dc916440ccde1",
+  "fold_opportunity.json": "b17969d66c9eb8c141b60981e04382d97eece385bb4cd11f8cab81b79d2df1c8",
+  "input_sha256.json": "f2887ca68a894e42276e2aec9f5f90f4e72361f3f5b23b1390cc5aa2d9a82f1e",
+  "per_episode_fold_averaged.jsonl": "15903cadf46d43694f34bf2ea22ed41a437b3608d71b30634c6208661051d2c6",
+  "per_fold_scores.jsonl.gz": "9706971e60cf7b38d5502c5e880f4807d69c30b67e954f6dd512b61e04dc6026",
+  "per_task.json": "c527b2357e0473a2cd9cd3f599b80749fc6d3842b822913f1eeb37aef4784ee5",
+  "protocol.snapshot.json": "9f728217c5ad0e8ea13831f4d6084b00d88ba25f0ba465c754d048776e2d4af3",
+  "selection_receipt.json": "1a0735407ced9b7280c9e026b16c2a9298f13241b5841517d70debec541fc735",
+  "stage_DS1.json": "2d68b226a3393b76f8f650fd01734de6ca38335b7d3cb59f52d1fafde13611ac",
+  "stage_deepseek-reasoner_0p0_pboost_cot_20251205_214840.json": "3b5da4c40069c9cf1a6c6b3dbfd82d61cf01e881980d949ea1cbd77421787fae",
+  "stage_deepseek-reasoner_0p0_pboost_cot_20251209_135057.json": "9ab594e9e334cd3f6aa8dab95d9d9a13c60f088270466b328c739d995001ca66",
+  "stage_gpt-5_1_1p0_pboost_cot_20251210_154406.json": "eb81c0c9b54c8e57585b042615be55093827edeee40ee601e6fde345d9e0fe71",
+  "stage_gpt-5_1_1p0_pboost_cot_20251211_161746.json": "ab27baf13086983950d80243654bbcf0f5d97b440dd05e80affd72b48d90cd4c",
+  "stage_gpt-5_1_1p0_pboost_cot_20251211_171620.json": "1715da475a9d3cfed1f21417a9add2779f359cd51faa550e771bc4537a0e586b",
+  "summary.json": "c48175440121703cef25ff0fc0f5c81e6bc46debb4b0fa331fa7be05b5ce4721"
+}

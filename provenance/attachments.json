@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pairwise",
+    "filename": "pairwise-246-evidence.zip",
+    "sha256": "b2302988988e75911fae236de724793b3b59999c8315ebe50cbbd9f2a70f5391",
+    "bytes": 5022504,
+    "availability": "local attachment; remote release URL pending owner confirmation",
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/baseline-reproduction-v1-attachments/pairwise-246-evidence.zip"
+  },
+  {
+    "id": "historical-archive",
+    "filename": "ForeAgent_Real_Author_Batches_Replay.zip",
+    "sha256": "9069e8161cbef6f159f5a2a9fe9fd205de9d30c6f98a7b19e551e7029d03bf84",
+    "bytes": 73612647,
+    "availability": "local attachment; remote release URL pending owner confirmation",
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Real_Author_Batches_Replay.zip"
+  },
+  {
+    "id": "corpus-traces",
+    "filename": "ForeAgent_Full_Execution_Paired_Replay_v2.zip",
+    "sha256": "c3130b0484b901d53160ac7c9458aef850f599487a03b3f6d812156ad84cb354",
+    "bytes": 10780881,
+    "availability": "local attachment; remote release URL pending owner confirmation",
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Full_Execution_Paired_Replay_v2.zip"
+  }
+]

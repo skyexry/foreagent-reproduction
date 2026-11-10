@@ -1,0 +1,30 @@
+{
+  "id": "selection-frontier-02",
+  "registered_utc": "2026-11-08T12:10:35.488200+00:00",
+  "population": "all 850 jobs, 425 pools, 26 previously inspected development tasks. Historical source findings known. No new task confirmation.",
+  "decision_unit": "paired task macro normalized regret; define gain as baseline minus intervention. Positive favors intervention. Use all ties uniformly; 10000 paired task-cluster bootstrap draws with seed 20261108093, leave each of 26 tasks out. Always report hit, unique reads, heterogeneity.",
+  "coverage_diagnostic": "On all J1 episodes and improved/unchanged/worsened subsets identify actual best candidate(s), query degree, valid degree and correctly directed ever-beaten competitors. Distinguish no incident query, all incident edges abstain, one or multiple valid edges, lack of distinguishing evidence and tie-break suppression in all-correct graph. Count valid undefeated competitors (incl. unobserved separately); best selected/partial tie/miss; describe an example and contributions with explicit denominators.",
+  "allocation": "At same random chain (Random(seed) shuffle input IDs; n-1 edges), choose unseen edge maximizing lexicographic (number of zero-valid-degree endpoints, -min(valid degrees), -sum(valid degrees), -sum(queried degrees)); uniform among ties with label-free seeded shuffled sorted candidates/edges. Continue to original job budget. Compare to coverage_random full and C0 (whole procedure); fixed top_set. Run real v1 CLI plus evaluate; record failures. Prediction: better valid coverage and lower loss.",
+  "fixed_schedule": "Use the previously recorded complete coverage_random schedule, which is independent of outcomes; verify zero-label schedule. For each of four banks use exactly those edges, all jobs. Independently recompute baseline gate .7 plus existing win fraction then valid degree.",
+  "gate": "Gate-only change .7 to .5 incl with properly parsed raw index, confidence defaults according to C0; preserve invalid responses without direction. No hyperparameter search. Prediction: more nonempty evidence and lower regret.",
+  "aggregation": "Keep gate .7, change top code to maximum (w+1)/(d+2), then larger valid degree, then keep all ties incl d=0. Beta(1,1) fixed smoothing; diagnostic selection rule revision only. Test same method at gate .5 as prespecified interaction, report difference in differences. Prediction: smoothing avoids promotion on a single weakly-supported win.",
+  "judge": "Matched single-draw replacement: DS vs each and task-first average of all three archived GPT-5.1 feedback banks on same pairs at the .7 legacy rule. Report judgment direction accuracy among accepted, abstentions, macro regret/hit; no token/currency or judge-only attribution beyond entire judge setting. All three GPT records are repeats on same tasks.",
+  "strong_controls": "For DS also check the fixed gate/smoothing interventions along recorded random_pairs schedule (different seed path) and saved C0 unique-edge trace with same revealed edges; on C0 replay these are fixed-trace reaggregations and are not new full tournament runs. Compare to C0 actual selection separately; declare actual-query differences.",
+  "criteria": "Common working margin 0.01 normalized regret. Research priority (not deployment) for a feasible single change requires DS gain >=.01 plus positive DS leave-one gains, and direction on >=2/3 GPT banks with positive pooled task-macro GPT gain. Distinguish CI excluding zero, otherwise descriptive. For allocation independent generator-bank replays required if initiated for promotion. For judge setting swap require positive >=.01 pooled gain over DS, all leave-one pooled positive and >=2 individual gains positive. If several qualify compare directly, use smaller intervention if indistinguishable and perform head-to-head; a combined arm alone requires follow-up for attribution. A default switch requires evidence vs actual C0, plus method freeze and fresh confirmation. If no arm qualifies, register a second mechanistically distinct finite intervention or calibrated diagnostic before claiming a priority; runtime limits and dev scope persist.",
+  "version": "v1 official path only for allocation, new nondeploying evaluator-side diagnostic version frontier-02-fixed-graph-v1 for raw .5 directions, alternative judge or aggregation. Selection decisions recorded/sealed before score labels are joined. J1 oracle for diagnosis only.",
+  "cost": "CPU only, zero paid API/remote GPU/full training; max 600s per analysis or official run; preserve failures and new output directory on retries.",
+  "frozen_sha256": {
+    "research/registry.json": "c14bff7d545f01892a8109a05d1738821bb165fe34ad90073554ba9a6d21c98a",
+    "research/protected_manifest.json": "b0cdb733519172d201ff428ed5219872123a064847152cb2e1ad7eaf9135eb3b",
+    "experiments/clean-ranking-v1/prepared/jobs.jsonl": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c",
+    "experiments/clean-ranking-v1/prepared/feedback.json": "05cce565494e598d2b2820ee19a485c2351c5143b1660033323537839a040246",
+    "experiments/clean-ranking-v1/prepared/evaluation_labels.json": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+    "experiments/clean-ranking-v1/prepared/code_files.json": "b5febcccede59dbffb87aaad93b31cd9674135bd36d1d77621245aac8c7f1df3",
+    "experiments/clean-ranking-v1/results/decisions.jsonl.gz": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef",
+    "experiments/clean-ranking-v1/results/summary.json": "f6953fe5e133d1cbafe8b290bcbe3121cf3c415b5df61b8c0f757bccaf97c450",
+    "experiments/round-08/data_manifest.json": "b75b9845082d1febebe2b9c1ed20ba634b9e19e7709e72a1fc8ebe16eaacb5ae",
+    "experiments/round-08/recovered_feedback.json": "6d6b27e3efddae25aefe45e9c203e451eb2d59a1505d3aff0b03373cbab7b5e1",
+    "experiments/selection-frontier-01/j1/run_2/per_episode.jsonl": "61856a9308a2e879e09add03ba3a1e16bf54538ba05a83f4334948f16ddc0992",
+    "experiments/selection-frontier-01/verification/receipt.json": "9fa338e50d8557eccd68466ac318e602a047afc2be70ddc4417c9d24a3df36f2"
+  }
+}

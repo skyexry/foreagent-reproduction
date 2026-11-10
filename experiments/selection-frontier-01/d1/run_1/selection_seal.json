@@ -1,0 +1,20 @@
+{
+  "historical_metrics_retained": false,
+  "jobs": 850,
+  "labels_opened": false,
+  "projected_historical_branches": 1700,
+  "projection_fields": [
+    "a",
+    "b",
+    "winner",
+    "confidence",
+    "source_group_index"
+  ],
+  "sealed_utc": "2026-11-08T11:59:36.563859+00:00",
+  "selections": 2550,
+  "sha256": {
+    "projected_full_traces.jsonl": "366546d074e2448db4ea7655775fb3624299a0daaecff9f8c670fcffe0bcf567",
+    "sealed_selections.jsonl": "28ebf101ed0e29d8bd592ddcfc68004ab43b5f6c49c5340b1e627a7ec15e1d87"
+  },
+  "status": "sealed"
+}

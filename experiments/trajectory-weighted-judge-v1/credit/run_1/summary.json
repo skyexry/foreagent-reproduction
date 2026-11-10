@@ -1,0 +1,1540 @@
+{
+  "branch_reruns": 5639,
+  "candidate_executions": 0,
+  "elapsed_seconds": 36.88963945803698,
+  "eligible_pairs": 17877,
+  "exposed_pairs": 3349,
+  "fitting_normalization": "Trainer divides raw arm weights by the retained training task mean; each training task receives equal total weight.",
+  "gpu": 0,
+  "jobs": 850,
+  "model_fits": 0,
+  "original_52_rows_verified": 306,
+  "paid_calls": 0,
+  "per_task": [
+    {
+      "branch_reruns": 233,
+      "eligible_pairs": 1176,
+      "exploratory_repeat_seed": {
+        "differing": 38,
+        "matched_pool_pairs": 45,
+        "mean_absolute_difference": 0.2716052566625729
+      },
+      "exposed_pairs": 162,
+      "exposure_classes": {
+        "0": 1014,
+        "1": 108,
+        "2-3": 50,
+        "4+": 4
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 32,
+      "occurrence_signs": {
+        "negative": 45,
+        "positive": 128,
+        "zero": 60
+      },
+      "original_52_rows_verified": 10,
+      "positive_mean_delta_pairs": 100,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1138.0903766210006,
+          "max": 2.0,
+          "mean": 1.0561096903802036,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.6052728362437683
+        },
+        "shuffled": {
+          "effective_sample_size": 1156.6238335537407,
+          "max": 2.0,
+          "mean": 1.0280362226702264,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1198316297310806
+        },
+        "terminal": {
+          "effective_sample_size": 1156.6238335537407,
+          "max": 2.0,
+          "mean": 1.0280362226702264,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1198316297310806
+        }
+      },
+      "task": "aptos2019-blindness-detection",
+      "terminal_nonzero_increment_pairs": 100
+    },
+    {
+      "branch_reruns": 304,
+      "eligible_pairs": 974,
+      "exploratory_repeat_seed": {
+        "differing": 35,
+        "matched_pool_pairs": 47,
+        "mean_absolute_difference": 0.0869387148477797
+      },
+      "exposed_pairs": 211,
+      "exposure_classes": {
+        "0": 763,
+        "1": 144,
+        "2-3": 62,
+        "4+": 5
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 51,
+      "occurrence_signs": {
+        "negative": 68,
+        "positive": 138,
+        "zero": 98
+      },
+      "original_52_rows_verified": 16,
+      "positive_mean_delta_pairs": 96,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 936.7764171404972,
+          "max": 2.0,
+          "mean": 1.084212978167411,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.6636663982723157
+        },
+        "shuffled": {
+          "effective_sample_size": 969.2825889351863,
+          "max": 1.9609760623492303,
+          "mean": 1.013858001165879,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.083722487316346
+        },
+        "terminal": {
+          "effective_sample_size": 969.2825889351863,
+          "max": 1.9609760623492303,
+          "mean": 1.013858001165879,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.083722487316346
+        }
+      },
+      "task": "denoising-dirty-documents",
+      "terminal_nonzero_increment_pairs": 96
+    },
+    {
+      "branch_reruns": 88,
+      "eligible_pairs": 350,
+      "exploratory_repeat_seed": {
+        "differing": 12,
+        "matched_pool_pairs": 16,
+        "mean_absolute_difference": 0.2432484560014795
+      },
+      "exposed_pairs": 44,
+      "exposure_classes": {
+        "0": 306,
+        "1": 20,
+        "2-3": 19,
+        "4+": 5
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 10,
+      "occurrence_signs": {
+        "negative": 21,
+        "positive": 61,
+        "zero": 6
+      },
+      "original_52_rows_verified": 2,
+      "positive_mean_delta_pairs": 31,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 338.54365384601175,
+          "max": 2.0,
+          "mean": 1.0493347393166383,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.438774050090622
+        },
+        "shuffled": {
+          "effective_sample_size": 343.93848689567625,
+          "max": 1.9928279171086627,
+          "mean": 1.0287738434549965,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.07129169330726
+        },
+        "terminal": {
+          "effective_sample_size": 343.93848689567625,
+          "max": 1.9928279171086627,
+          "mean": 1.0287738434549965,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.07129169330726
+        }
+      },
+      "task": "detecting-insults-in-social-commentary",
+      "terminal_nonzero_increment_pairs": 31
+    },
+    {
+      "branch_reruns": 4,
+      "eligible_pairs": 3,
+      "exploratory_repeat_seed": {
+        "differing": 0,
+        "matched_pool_pairs": 2,
+        "mean_absolute_difference": 0.0
+      },
+      "exposed_pairs": 2,
+      "exposure_classes": {
+        "0": 1,
+        "2-3": 2
+      },
+      "jobs": 2,
+      "negative_mean_delta_pairs": 0,
+      "occurrence_signs": {
+        "positive": 4
+      },
+      "original_52_rows_verified": 4,
+      "positive_mean_delta_pairs": 2,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 2.7132373153943354,
+          "max": 2.0,
+          "mean": 1.3726056722589097,
+          "median": 1.117817016776729,
+          "min": 1.0,
+          "p25": 1.0589085083883645,
+          "p75": 1.5589085083883645,
+          "p95": 1.9117817016776728
+        },
+        "shuffled": {
+          "effective_sample_size": 2.7132373153943354,
+          "max": 2.0,
+          "mean": 1.3726056722589097,
+          "median": 1.117817016776729,
+          "min": 1.0,
+          "p25": 1.0589085083883645,
+          "p75": 1.5589085083883645,
+          "p95": 1.9117817016776728
+        },
+        "terminal": {
+          "effective_sample_size": 2.7132373153943354,
+          "max": 2.0,
+          "mean": 1.3726056722589097,
+          "median": 1.117817016776729,
+          "min": 1.0,
+          "p25": 1.0589085083883645,
+          "p75": 1.5589085083883645,
+          "p95": 1.9117817016776728
+        }
+      },
+      "task": "dog-breed-identification",
+      "terminal_nonzero_increment_pairs": 2
+    },
+    {
+      "branch_reruns": 300,
+      "eligible_pairs": 1175,
+      "exploratory_repeat_seed": {
+        "differing": 39,
+        "matched_pool_pairs": 60,
+        "mean_absolute_difference": 0.17571090104461862
+      },
+      "exposed_pairs": 201,
+      "exposure_classes": {
+        "0": 974,
+        "1": 126,
+        "2-3": 70,
+        "4+": 5
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 39,
+      "occurrence_signs": {
+        "negative": 51,
+        "positive": 146,
+        "zero": 103
+      },
+      "original_52_rows_verified": 16,
+      "positive_mean_delta_pairs": 100,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1142.6210176094874,
+          "max": 2.0,
+          "mean": 1.0585766578657643,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.4646485634436215
+        },
+        "shuffled": {
+          "effective_sample_size": 1164.9736726570288,
+          "max": 2.0,
+          "mean": 1.0200595846992797,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.132554136087705
+        },
+        "terminal": {
+          "effective_sample_size": 1164.9736726570288,
+          "max": 2.0,
+          "mean": 1.0200595846992797,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.132554136087705
+        }
+      },
+      "task": "google-quest-challenge",
+      "terminal_nonzero_increment_pairs": 100
+    },
+    {
+      "branch_reruns": 6,
+      "eligible_pairs": 10,
+      "exploratory_repeat_seed": {
+        "differing": 2,
+        "matched_pool_pairs": 2,
+        "mean_absolute_difference": 0.46309696092619335
+      },
+      "exposed_pairs": 4,
+      "exposure_classes": {
+        "0": 6,
+        "1": 2,
+        "2-3": 2
+      },
+      "jobs": 2,
+      "negative_mean_delta_pairs": 1,
+      "occurrence_signs": {
+        "negative": 1,
+        "positive": 5
+      },
+      "original_52_rows_verified": 6,
+      "positive_mean_delta_pairs": 3,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 8.970337542820781,
+          "max": 2.0,
+          "mean": 1.2942836468885668,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.7203328509406624,
+          "p95": 1.97623010130246
+        },
+        "shuffled": {
+          "effective_sample_size": 9.385752730822606,
+          "max": 1.7684515195369033,
+          "mean": 1.1942836468885667,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.347322720694645,
+          "p95": 1.742727930535454
+        },
+        "terminal": {
+          "effective_sample_size": 9.385752730822606,
+          "max": 1.7684515195369033,
+          "mean": 1.1942836468885667,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.347322720694645,
+          "p95": 1.742727930535454
+        }
+      },
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "terminal_nonzero_increment_pairs": 3
+    },
+    {
+      "branch_reruns": 272,
+      "eligible_pairs": 136,
+      "exploratory_repeat_seed": {
+        "differing": 30,
+        "matched_pool_pairs": 34,
+        "mean_absolute_difference": 0.0591858172225998
+      },
+      "exposed_pairs": 83,
+      "exposure_classes": {
+        "0": 53,
+        "1": 19,
+        "2-3": 39,
+        "4+": 25
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 26,
+      "occurrence_signs": {
+        "negative": 61,
+        "positive": 127,
+        "zero": 84
+      },
+      "original_52_rows_verified": 16,
+      "positive_mean_delta_pairs": 46,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 126.86002272944427,
+          "max": 2.0,
+          "mean": 1.2223878477796897,
+          "median": 1.021700661390461,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.3580971469681176,
+          "p95": 1.9791671685793997
+        },
+        "shuffled": {
+          "effective_sample_size": 135.88033264623402,
+          "max": 1.2402980497380167,
+          "mean": 1.0094950410350894,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0028230901994366,
+          "p95": 1.052301952533877
+        },
+        "terminal": {
+          "effective_sample_size": 135.88033264623402,
+          "max": 1.2402980497380167,
+          "mean": 1.0094950410350894,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0028230901994366,
+          "p95": 1.052301952533877
+        }
+      },
+      "task": "leaf-classification",
+      "terminal_nonzero_increment_pairs": 46
+    },
+    {
+      "branch_reruns": 229,
+      "eligible_pairs": 190,
+      "exploratory_repeat_seed": {
+        "differing": 28,
+        "matched_pool_pairs": 33,
+        "mean_absolute_difference": 0.2722007463403443
+      },
+      "exposed_pairs": 82,
+      "exposure_classes": {
+        "0": 108,
+        "1": 25,
+        "2-3": 35,
+        "4+": 22
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 17,
+      "occurrence_signs": {
+        "negative": 48,
+        "positive": 126,
+        "zero": 55
+      },
+      "original_52_rows_verified": 7,
+      "positive_mean_delta_pairs": 54,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 180.70350164131185,
+          "max": 2.0,
+          "mean": 1.150518090309585,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.1898323476293537,
+          "p95": 1.8178138180996315
+        },
+        "shuffled": {
+          "effective_sample_size": 187.35884405572617,
+          "max": 1.8965320628967475,
+          "mean": 1.0507837049878963,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0257577081169695,
+          "p95": 1.3254845481612736
+        },
+        "terminal": {
+          "effective_sample_size": 187.35884405572617,
+          "max": 1.8965320628967475,
+          "mean": 1.0507837049878963,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0257577081169695,
+          "p95": 1.3254845481612736
+        }
+      },
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "terminal_nonzero_increment_pairs": 54
+    },
+    {
+      "branch_reruns": 303,
+      "eligible_pairs": 1220,
+      "exploratory_repeat_seed": {
+        "differing": 42,
+        "matched_pool_pairs": 59,
+        "mean_absolute_difference": 0.10773235568860007
+      },
+      "exposed_pairs": 214,
+      "exposure_classes": {
+        "0": 1006,
+        "1": 138,
+        "2-3": 72,
+        "4+": 4
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 33,
+      "occurrence_signs": {
+        "negative": 46,
+        "positive": 172,
+        "zero": 85
+      },
+      "original_52_rows_verified": 15,
+      "positive_mean_delta_pairs": 123,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1187.3480337216058,
+          "max": 2.0,
+          "mean": 1.0502084676293926,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.3656876926932373
+        },
+        "shuffled": {
+          "effective_sample_size": 1211.1917580706051,
+          "max": 2.0,
+          "mean": 1.017083593622718,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0734147535552396
+        },
+        "terminal": {
+          "effective_sample_size": 1211.1917580706051,
+          "max": 2.0,
+          "mean": 1.017083593622718,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0734147535552396
+        }
+      },
+      "task": "lmsys-chatbot-arena",
+      "terminal_nonzero_increment_pairs": 123
+    },
+    {
+      "branch_reruns": 284,
+      "eligible_pairs": 1173,
+      "exploratory_repeat_seed": {
+        "differing": 35,
+        "matched_pool_pairs": 49,
+        "mean_absolute_difference": 0.10146662048516164
+      },
+      "exposed_pairs": 199,
+      "exposure_classes": {
+        "0": 974,
+        "1": 136,
+        "2-3": 57,
+        "4+": 6
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 46,
+      "occurrence_signs": {
+        "negative": 61,
+        "positive": 136,
+        "zero": 87
+      },
+      "original_52_rows_verified": 16,
+      "positive_mean_delta_pairs": 94,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1144.4919289756692,
+          "max": 2.0,
+          "mean": 1.0546021259232392,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.3926274266959586
+        },
+        "shuffled": {
+          "effective_sample_size": 1169.7727134513702,
+          "max": 1.6577458959856533,
+          "mean": 1.0109228451622716,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0581612255934436
+        },
+        "terminal": {
+          "effective_sample_size": 1169.7727134513702,
+          "max": 1.6577458959856533,
+          "mean": 1.0109228451622716,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0581612255934436
+        }
+      },
+      "task": "mlsp-2013-birds",
+      "terminal_nonzero_increment_pairs": 94
+    },
+    {
+      "branch_reruns": 333,
+      "eligible_pairs": 429,
+      "exploratory_repeat_seed": {
+        "differing": 41,
+        "matched_pool_pairs": 64,
+        "mean_absolute_difference": 0.14567915701264125
+      },
+      "exposed_pairs": 159,
+      "exposure_classes": {
+        "0": 270,
+        "1": 63,
+        "2-3": 76,
+        "4+": 20
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 30,
+      "occurrence_signs": {
+        "negative": 45,
+        "positive": 157,
+        "zero": 131
+      },
+      "original_52_rows_verified": 14,
+      "positive_mean_delta_pairs": 79,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 412.4056220424626,
+          "max": 2.0,
+          "mean": 1.0897770864522922,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.01856549069433,
+          "p95": 1.6371879114376815
+        },
+        "shuffled": {
+          "effective_sample_size": 424.8955495848197,
+          "max": 1.7530963228709115,
+          "mean": 1.0295062833862354,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.2104207578129507
+        },
+        "terminal": {
+          "effective_sample_size": 424.8955495848197,
+          "max": 1.7530963228709115,
+          "mean": 1.0295062833862354,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.2104207578129507
+        }
+      },
+      "task": "new-york-city-taxi-fare-prediction",
+      "terminal_nonzero_increment_pairs": 79
+    },
+    {
+      "branch_reruns": 2,
+      "eligible_pairs": 3,
+      "exploratory_repeat_seed": {
+        "differing": 0,
+        "matched_pool_pairs": 1,
+        "mean_absolute_difference": 0.0
+      },
+      "exposed_pairs": 1,
+      "exposure_classes": {
+        "0": 2,
+        "2-3": 1
+      },
+      "jobs": 2,
+      "negative_mean_delta_pairs": 0,
+      "occurrence_signs": {
+        "positive": 2
+      },
+      "original_52_rows_verified": 2,
+      "positive_mean_delta_pairs": 1,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 2.993187229531274,
+          "max": 1.1047381546134674,
+          "mean": 1.034912718204489,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0523690773067336,
+          "p95": 1.0942643391521205
+        },
+        "shuffled": {
+          "effective_sample_size": 2.993187229531274,
+          "max": 1.1047381546134674,
+          "mean": 1.034912718204489,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0523690773067336,
+          "p95": 1.0942643391521205
+        },
+        "terminal": {
+          "effective_sample_size": 2.993187229531274,
+          "max": 1.1047381546134674,
+          "mean": 1.034912718204489,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0523690773067336,
+          "p95": 1.0942643391521205
+        }
+      },
+      "task": "nomad2018-predict-transparent-conductors",
+      "terminal_nonzero_increment_pairs": 1
+    },
+    {
+      "branch_reruns": 12,
+      "eligible_pairs": 239,
+      "exploratory_repeat_seed": {
+        "differing": 0,
+        "matched_pool_pairs": 2,
+        "mean_absolute_difference": 0.0
+      },
+      "exposed_pairs": 10,
+      "exposure_classes": {
+        "0": 229,
+        "1": 8,
+        "2-3": 2
+      },
+      "jobs": 2,
+      "negative_mean_delta_pairs": 1,
+      "occurrence_signs": {
+        "negative": 1,
+        "positive": 4,
+        "zero": 7
+      },
+      "original_52_rows_verified": 12,
+      "positive_mean_delta_pairs": 4,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 236.77304425340355,
+          "max": 2.0,
+          "mean": 1.012655805026769,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0
+        },
+        "shuffled": {
+          "effective_sample_size": 236.96334328250643,
+          "max": 1.8096057955613685,
+          "mean": 1.011891187481114,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0
+        },
+        "terminal": {
+          "effective_sample_size": 236.96334328250643,
+          "max": 1.8096057955613685,
+          "mean": 1.011891187481114,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0
+        }
+      },
+      "task": "petfinder-pawpularity-score",
+      "terminal_nonzero_increment_pairs": 4
+    },
+    {
+      "branch_reruns": 9,
+      "eligible_pairs": 15,
+      "exploratory_repeat_seed": {
+        "differing": 4,
+        "matched_pool_pairs": 4,
+        "mean_absolute_difference": 0.23378600259971277
+      },
+      "exposed_pairs": 5,
+      "exposure_classes": {
+        "0": 10,
+        "1": 1,
+        "2-3": 4
+      },
+      "jobs": 2,
+      "negative_mean_delta_pairs": 1,
+      "occurrence_signs": {
+        "negative": 2,
+        "positive": 7
+      },
+      "original_52_rows_verified": 9,
+      "positive_mean_delta_pairs": 4,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 14.175305915234706,
+          "max": 2.0,
+          "mean": 1.1614421563932409,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.2408496955599646,
+          "p95": 1.6371895737839501
+        },
+        "shuffled": {
+          "effective_sample_size": 14.922641241102193,
+          "max": 1.209636040227133,
+          "mean": 1.043848486921621,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0595197372921938,
+          "p95": 1.195999521105562
+        },
+        "terminal": {
+          "effective_sample_size": 14.922641241102193,
+          "max": 1.209636040227133,
+          "mean": 1.043848486921621,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0595197372921938,
+          "p95": 1.195999521105562
+        }
+      },
+      "task": "plant-pathology-2020-fgvc7",
+      "terminal_nonzero_increment_pairs": 4
+    },
+    {
+      "branch_reruns": 304,
+      "eligible_pairs": 1213,
+      "exploratory_repeat_seed": {
+        "differing": 50,
+        "matched_pool_pairs": 64,
+        "mean_absolute_difference": 0.3438267650083162
+      },
+      "exposed_pairs": 195,
+      "exposure_classes": {
+        "0": 1018,
+        "1": 113,
+        "2-3": 76,
+        "4+": 6
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 35,
+      "occurrence_signs": {
+        "negative": 53,
+        "positive": 143,
+        "zero": 108
+      },
+      "original_52_rows_verified": 16,
+      "positive_mean_delta_pairs": 98,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1165.2871078615851,
+          "max": 2.0,
+          "mean": 1.0695495042326624,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.7292216449568647
+        },
+        "shuffled": {
+          "effective_sample_size": 1193.042405592438,
+          "max": 2.0,
+          "mean": 1.0291980041942725,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1987636999054163
+        },
+        "terminal": {
+          "effective_sample_size": 1193.042405592438,
+          "max": 2.0,
+          "mean": 1.0291980041942725,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1987636999054163
+        }
+      },
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "terminal_nonzero_increment_pairs": 98
+    },
+    {
+      "branch_reruns": 278,
+      "eligible_pairs": 1176,
+      "exploratory_repeat_seed": {
+        "differing": 46,
+        "matched_pool_pairs": 60,
+        "mean_absolute_difference": 0.2180104948735337
+      },
+      "exposed_pairs": 174,
+      "exposure_classes": {
+        "0": 1002,
+        "1": 98,
+        "2-3": 70,
+        "4+": 6
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 44,
+      "occurrence_signs": {
+        "negative": 62,
+        "positive": 143,
+        "zero": 73
+      },
+      "original_52_rows_verified": 14,
+      "positive_mean_delta_pairs": 89,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1147.8033770195739,
+          "max": 2.0,
+          "mean": 1.0548202911716733,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.485812099820276
+        },
+        "shuffled": {
+          "effective_sample_size": 1169.396218442424,
+          "max": 1.7161508704061899,
+          "mean": 1.0171677903532585,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1148580483146597
+        },
+        "terminal": {
+          "effective_sample_size": 1169.396218442424,
+          "max": 1.7161508704061899,
+          "mean": 1.0171677903532585,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1148580483146597
+        }
+      },
+      "task": "random-acts-of-pizza",
+      "terminal_nonzero_increment_pairs": 89
+    },
+    {
+      "branch_reruns": 319,
+      "eligible_pairs": 1220,
+      "exploratory_repeat_seed": {
+        "differing": 36,
+        "matched_pool_pairs": 58,
+        "mean_absolute_difference": 0.0861576409947046
+      },
+      "exposed_pairs": 216,
+      "exposure_classes": {
+        "0": 1004,
+        "1": 139,
+        "2-3": 74,
+        "4+": 3
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 35,
+      "occurrence_signs": {
+        "negative": 46,
+        "positive": 133,
+        "zero": 140
+      },
+      "original_52_rows_verified": 13,
+      "positive_mean_delta_pairs": 93,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1184.1131490347277,
+          "max": 2.0,
+          "mean": 1.0596184677252911,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.5013267573889146
+        },
+        "shuffled": {
+          "effective_sample_size": 1215.5753481690663,
+          "max": 1.764184418064577,
+          "mean": 1.0121491808213217,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0629876021447466
+        },
+        "terminal": {
+          "effective_sample_size": 1215.5753481690663,
+          "max": 1.764184418064577,
+          "mean": 1.0121491808213217,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0629876021447466
+        }
+      },
+      "task": "spooky-author-identification",
+      "terminal_nonzero_increment_pairs": 93
+    },
+    {
+      "branch_reruns": 333,
+      "eligible_pairs": 1222,
+      "exploratory_repeat_seed": {
+        "differing": 43,
+        "matched_pool_pairs": 63,
+        "mean_absolute_difference": 0.13110738172783235
+      },
+      "exposed_pairs": 229,
+      "exposure_classes": {
+        "0": 993,
+        "1": 157,
+        "2-3": 66,
+        "4+": 6
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 62,
+      "occurrence_signs": {
+        "negative": 79,
+        "positive": 148,
+        "zero": 106
+      },
+      "original_52_rows_verified": 18,
+      "positive_mean_delta_pairs": 103,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1188.2679004118393,
+          "max": 2.0,
+          "mean": 1.0628770315646938,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.4457916755494309
+        },
+        "shuffled": {
+          "effective_sample_size": 1218.7634905315447,
+          "max": 1.58135340704148,
+          "mean": 1.0111188793910468,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0625414008426017
+        },
+        "terminal": {
+          "effective_sample_size": 1218.7634905315447,
+          "max": 1.58135340704148,
+          "mean": 1.0111188793910468,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0625414008426017
+        }
+      },
+      "task": "stanford-covid-vaccine",
+      "terminal_nonzero_increment_pairs": 103
+    },
+    {
+      "branch_reruns": 291,
+      "eligible_pairs": 1223,
+      "exploratory_repeat_seed": {
+        "differing": 42,
+        "matched_pool_pairs": 52,
+        "mean_absolute_difference": 0.2290284979119397
+      },
+      "exposed_pairs": 200,
+      "exposure_classes": {
+        "0": 1023,
+        "1": 127,
+        "2-3": 69,
+        "4+": 4
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 40,
+      "occurrence_signs": {
+        "negative": 58,
+        "positive": 144,
+        "zero": 89
+      },
+      "original_52_rows_verified": 17,
+      "positive_mean_delta_pairs": 109,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1187.1369659255802,
+          "max": 2.0,
+          "mean": 1.0589198081689295,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.5338758382071642
+        },
+        "shuffled": {
+          "effective_sample_size": 1215.4768943276154,
+          "max": 1.7780581513874931,
+          "mean": 1.017727951754138,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1002672955821324
+        },
+        "terminal": {
+          "effective_sample_size": 1215.4768943276154,
+          "max": 1.7780581513874931,
+          "mean": 1.017727951754138,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1002672955821324
+        }
+      },
+      "task": "statoil-iceberg-classifier-challenge",
+      "terminal_nonzero_increment_pairs": 109
+    },
+    {
+      "branch_reruns": 234,
+      "eligible_pairs": 275,
+      "exploratory_repeat_seed": {
+        "differing": 29,
+        "matched_pool_pairs": 38,
+        "mean_absolute_difference": 0.1470487039737229
+      },
+      "exposed_pairs": 101,
+      "exposure_classes": {
+        "0": 174,
+        "1": 33,
+        "2-3": 51,
+        "4+": 17
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 22,
+      "occurrence_signs": {
+        "negative": 53,
+        "positive": 124,
+        "zero": 57
+      },
+      "original_52_rows_verified": 13,
+      "positive_mean_delta_pairs": 67,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 262.09481075503055,
+          "max": 2.0,
+          "mean": 1.1234577740604605,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.1001713607251136,
+          "p95": 1.8224031558643135
+        },
+        "shuffled": {
+          "effective_sample_size": 272.0199937477108,
+          "max": 1.9926903553299486,
+          "mean": 1.0382738089095052,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.2632113100753402
+        },
+        "terminal": {
+          "effective_sample_size": 272.0199937477108,
+          "max": 1.9926903553299486,
+          "mean": 1.0382738089095052,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.2632113100753402
+        }
+      },
+      "task": "tabular-playground-series-dec-2021",
+      "terminal_nonzero_increment_pairs": 67
+    },
+    {
+      "branch_reruns": 192,
+      "eligible_pairs": 966,
+      "exploratory_repeat_seed": {
+        "differing": 21,
+        "matched_pool_pairs": 33,
+        "mean_absolute_difference": 0.15125841412423904
+      },
+      "exposed_pairs": 123,
+      "exposure_classes": {
+        "0": 843,
+        "1": 76,
+        "2-3": 45,
+        "4+": 2
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 26,
+      "occurrence_signs": {
+        "negative": 38,
+        "positive": 128,
+        "zero": 26
+      },
+      "original_52_rows_verified": 6,
+      "positive_mean_delta_pairs": 83,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 943.8761320479458,
+          "max": 2.0,
+          "mean": 1.0494704213430208,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.4521608647543567
+        },
+        "shuffled": {
+          "effective_sample_size": 954.4674850983439,
+          "max": 2.0,
+          "mean": 1.0259226283082017,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1675159081180082
+        },
+        "terminal": {
+          "effective_sample_size": 954.4674850983439,
+          "max": 2.0,
+          "mean": 1.0259226283082017,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.1675159081180082
+        }
+      },
+      "task": "tensorflow-speech-recognition-challenge",
+      "terminal_nonzero_increment_pairs": 83
+    },
+    {
+      "branch_reruns": 294,
+      "eligible_pairs": 714,
+      "exploratory_repeat_seed": {
+        "differing": 50,
+        "matched_pool_pairs": 58,
+        "mean_absolute_difference": 0.2974874620539188
+      },
+      "exposed_pairs": 156,
+      "exposure_classes": {
+        "0": 558,
+        "1": 82,
+        "2-3": 58,
+        "4+": 16
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 42,
+      "occurrence_signs": {
+        "negative": 73,
+        "positive": 142,
+        "zero": 79
+      },
+      "original_52_rows_verified": 12,
+      "positive_mean_delta_pairs": 79,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 685.88136952378,
+          "max": 2.0,
+          "mean": 1.088024236404223,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.7018164442336503
+        },
+        "shuffled": {
+          "effective_sample_size": 706.3624684971155,
+          "max": 1.8165411422468942,
+          "mean": 1.028908723104375,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.2311318548815664
+        },
+        "terminal": {
+          "effective_sample_size": 706.3624684971155,
+          "max": 1.8165411422468942,
+          "mean": 1.028908723104375,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.2311318548815664
+        }
+      },
+      "task": "tgs-salt-identification-challenge",
+      "terminal_nonzero_increment_pairs": 79
+    },
+    {
+      "branch_reruns": 141,
+      "eligible_pairs": 252,
+      "exploratory_repeat_seed": {
+        "differing": 16,
+        "matched_pool_pairs": 17,
+        "mean_absolute_difference": 0.45653826879709697
+      },
+      "exposed_pairs": 56,
+      "exposure_classes": {
+        "0": 196,
+        "1": 19,
+        "2-3": 23,
+        "4+": 14
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 14,
+      "occurrence_signs": {
+        "negative": 27,
+        "positive": 95,
+        "zero": 19
+      },
+      "original_52_rows_verified": 7,
+      "positive_mean_delta_pairs": 38,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 240.4352167006131,
+          "max": 2.0,
+          "mean": 1.102065132704151,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.7595435617946522
+        },
+        "shuffled": {
+          "effective_sample_size": 246.09001242958936,
+          "max": 1.9341096899119097,
+          "mean": 1.0526923955685377,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.3897845897045236
+        },
+        "terminal": {
+          "effective_sample_size": 246.09001242958936,
+          "max": 1.9341096899119097,
+          "mean": 1.0526923955685377,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.3897845897045236
+        }
+      },
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "terminal_nonzero_increment_pairs": 38
+    },
+    {
+      "branch_reruns": 202,
+      "eligible_pairs": 78,
+      "exploratory_repeat_seed": {
+        "differing": 35,
+        "matched_pool_pairs": 35,
+        "mean_absolute_difference": 0.15303358128754177
+      },
+      "exposed_pairs": 36,
+      "exposure_classes": {
+        "0": 42,
+        "2-3": 11,
+        "4+": 25
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 10,
+      "occurrence_signs": {
+        "negative": 51,
+        "positive": 113,
+        "zero": 38
+      },
+      "original_52_rows_verified": 10,
+      "positive_mean_delta_pairs": 26,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 75.82058152427489,
+          "max": 1.7849704044303332,
+          "mean": 1.1208198108785628,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.1822663248937326,
+          "p95": 1.5633877266904086
+        },
+        "shuffled": {
+          "effective_sample_size": 77.7619607112455,
+          "max": 1.2256503359575524,
+          "mean": 1.026535260787779,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0193366088395404,
+          "p95": 1.18213235066078
+        },
+        "terminal": {
+          "effective_sample_size": 77.7619607112455,
+          "max": 1.2256503359575524,
+          "mean": 1.026535260787779,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0193366088395404,
+          "p95": 1.18213235066078
+        }
+      },
+      "task": "tweet-sentiment-extraction",
+      "terminal_nonzero_increment_pairs": 26
+    },
+    {
+      "branch_reruns": 346,
+      "eligible_pairs": 1223,
+      "exploratory_repeat_seed": {
+        "differing": 35,
+        "matched_pool_pairs": 63,
+        "mean_absolute_difference": 0.12466896275519258
+      },
+      "exposed_pairs": 248,
+      "exposure_classes": {
+        "0": 975,
+        "1": 171,
+        "2-3": 72,
+        "4+": 5
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 41,
+      "occurrence_signs": {
+        "negative": 67,
+        "positive": 139,
+        "zero": 140
+      },
+      "original_52_rows_verified": 19,
+      "positive_mean_delta_pairs": 99,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1188.216028348014,
+          "max": 2.0,
+          "mean": 1.0630493601869182,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.516809044160478
+        },
+        "shuffled": {
+          "effective_sample_size": 1217.9333391449238,
+          "max": 1.9711894911195085,
+          "mean": 1.0101692821373132,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0187525185654251
+        },
+        "terminal": {
+          "effective_sample_size": 1217.9333391449238,
+          "max": 1.9711894911195085,
+          "mean": 1.0101692821373132,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.0187525185654251
+        }
+      },
+      "task": "us-patent-phrase-to-phrase-matching",
+      "terminal_nonzero_increment_pairs": 99
+    },
+    {
+      "branch_reruns": 326,
+      "eligible_pairs": 1222,
+      "exploratory_repeat_seed": {
+        "differing": 36,
+        "matched_pool_pairs": 46,
+        "mean_absolute_difference": 0.04270588778485388
+      },
+      "exposed_pairs": 238,
+      "exposure_classes": {
+        "0": 984,
+        "1": 173,
+        "2-3": 62,
+        "4+": 3
+      },
+      "jobs": 40,
+      "negative_mean_delta_pairs": 45,
+      "occurrence_signs": {
+        "negative": 56,
+        "positive": 144,
+        "zero": 126
+      },
+      "original_52_rows_verified": 16,
+      "positive_mean_delta_pairs": 107,
+      "raw_weights": {
+        "gap": {
+          "effective_sample_size": 1185.463466323001,
+          "max": 2.0,
+          "mean": 1.0536760986575977,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.4114023585173394
+        },
+        "shuffled": {
+          "effective_sample_size": 1217.057763116044,
+          "max": 2.0,
+          "mean": 1.0100419804781946,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.021914891737845
+        },
+        "terminal": {
+          "effective_sample_size": 1217.057763116044,
+          "max": 2.0,
+          "mean": 1.0100419804781946,
+          "median": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p95": 1.021914891737845
+        }
+      },
+      "task": "ventilator-pressure-prediction",
+      "terminal_nonzero_increment_pairs": 107
+    }
+  ],
+  "shuffle_key": "seed:task:exposure_class",
+  "shuffle_seed": 20261108,
+  "tasks": 26,
+  "terminal_nonzero_increment_pairs": 1728,
+  "training_partition_rule": "Trainer loads tasks/<task>.json only for training tasks; this summary is audit-only."
+}

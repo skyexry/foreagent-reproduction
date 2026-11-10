@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/verification/audit_outputs.py", line 266, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/verification/audit_outputs.py", line 125, in main
+    assert set(item)=={'order','predicted_best_index','confidence','source_group_index'}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

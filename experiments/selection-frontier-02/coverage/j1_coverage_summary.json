@@ -1,0 +1,410 @@
+{
+  "definitions": {
+    "actual_best": "all candidates tied for maximum frozen execution utility",
+    "best_only": "every selected candidate is an actual best; a subset of tied true-best IDs is sufficient for hit=1",
+    "contribution": "sum episode regret / task episode count / 26; subgroup contributions sum to full task-macro regret",
+    "correctly_ever_beaten": "distinct directly compared strictly lower-utility opponents defeated at least once on a valid edge",
+    "degree_tiebreak_suppression": "best candidate reaches global maximum win fraction but every best at that fraction has smaller valid degree than selected competitors",
+    "lack_of_distinguishing_evidence": "a nonbest valid-undefeated candidate has no observed accepted loss; unobserved candidates kept separate",
+    "oracle_scope": "J1 only corrects strict wrong directions on already accepted, already queried edges; abstentions/ties/budget retained",
+    "partial_tie": "selected set includes best and nonbest; uniform-tie hit lies strictly between 0 and 1",
+    "valid_undefeated": "valid degree > 0 and valid wins == valid degree; zero-valid candidates separately counted"
+  },
+  "groups": {
+    "all": {
+      "corrected": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 181,
+          "multiple_valid_edges": 363,
+          "no_incident_query": 0,
+          "one_valid_edge": 306
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 850,
+          "all_best_zero_valid": 181,
+          "degree_suppressed_best_multiple_valid": 56,
+          "degree_suppressed_best_one_valid": 205,
+          "has_nonbest_valid_undefeated": 828,
+          "has_nonbest_zero_valid": 618,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 177,
+          "mechanism_best_retained": 412,
+          "mechanism_degree_tiebreak_suppression": 261,
+          "nonbest_valid_undefeated_total": 2051,
+          "nonbest_zero_valid_total": 1473,
+          "selection_best_only": 189,
+          "selection_miss": 438,
+          "selection_partial_tie": 223
+        },
+        "mean_best_correct_direct_victories": 1.371764705882353,
+        "mean_best_query_degree": 2.570588235294118,
+        "mean_best_valid_degree": 1.371764705882353,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 177,
+            "residual_task_macro_contribution": 0.03665115326158887
+          },
+          "best_only": {
+            "episodes": 189,
+            "residual_task_macro_contribution": 0.0
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 261,
+            "residual_task_macro_contribution": 0.030974871442759382
+          },
+          "partial_tie": {
+            "episodes": 223,
+            "residual_task_macro_contribution": 0.030520134109071558
+          }
+        }
+      },
+      "corrected_residual_task_macro_contribution": 0.0981461588134198,
+      "episodes": 850,
+      "original": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 181,
+          "multiple_valid_edges": 363,
+          "no_incident_query": 0,
+          "one_valid_edge": 306
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 850,
+          "all_best_zero_valid": 181,
+          "degree_suppressed_best_multiple_valid": 35,
+          "degree_suppressed_best_one_valid": 155,
+          "has_nonbest_valid_undefeated": 838,
+          "has_nonbest_zero_valid": 618,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 177,
+          "mechanism_best_retained": 194,
+          "mechanism_best_win_fraction_suppression": 289,
+          "mechanism_degree_tiebreak_suppression": 190,
+          "nonbest_valid_undefeated_total": 2385,
+          "nonbest_zero_valid_total": 1473,
+          "selection_best_only": 78,
+          "selection_miss": 656,
+          "selection_partial_tie": 116
+        },
+        "mean_best_correct_direct_victories": 0.9117647058823529,
+        "mean_best_query_degree": 2.570588235294118,
+        "mean_best_valid_degree": 1.371764705882353,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 177,
+            "residual_task_macro_contribution": 0.06062442261121559
+          },
+          "best_only": {
+            "episodes": 78,
+            "residual_task_macro_contribution": 0.0
+          },
+          "best_win_fraction_suppression": {
+            "episodes": 289,
+            "residual_task_macro_contribution": 0.13177887019890658
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 190,
+            "residual_task_macro_contribution": 0.049826084910064065
+          },
+          "partial_tie": {
+            "episodes": 116,
+            "residual_task_macro_contribution": 0.03455545417848985
+          }
+        }
+      },
+      "original_residual_task_macro_contribution": 0.276784831898676,
+      "tasks_represented": 26
+    },
+    "equal": {
+      "corrected": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 47,
+          "multiple_valid_edges": 110,
+          "no_incident_query": 0,
+          "one_valid_edge": 71
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 228,
+          "all_best_zero_valid": 47,
+          "degree_suppressed_best_multiple_valid": 26,
+          "degree_suppressed_best_one_valid": 56,
+          "has_nonbest_valid_undefeated": 218,
+          "has_nonbest_zero_valid": 166,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 43,
+          "mechanism_best_retained": 103,
+          "mechanism_degree_tiebreak_suppression": 82,
+          "nonbest_valid_undefeated_total": 541,
+          "nonbest_zero_valid_total": 439,
+          "selection_best_only": 63,
+          "selection_miss": 125,
+          "selection_partial_tie": 40
+        },
+        "mean_best_correct_direct_victories": 1.4736842105263157,
+        "mean_best_query_degree": 2.6008771929824563,
+        "mean_best_valid_degree": 1.4736842105263157,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 43,
+            "residual_task_macro_contribution": 0.004853655891757329
+          },
+          "best_only": {
+            "episodes": 63,
+            "residual_task_macro_contribution": 0.0
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 82,
+            "residual_task_macro_contribution": 0.006327168213351125
+          },
+          "partial_tie": {
+            "episodes": 40,
+            "residual_task_macro_contribution": 0.0115321353639893
+          }
+        }
+      },
+      "corrected_residual_task_macro_contribution": 0.022712959469097755,
+      "episodes": 228,
+      "original": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 47,
+          "multiple_valid_edges": 110,
+          "no_incident_query": 0,
+          "one_valid_edge": 71
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 228,
+          "all_best_zero_valid": 47,
+          "degree_suppressed_best_multiple_valid": 16,
+          "degree_suppressed_best_one_valid": 49,
+          "has_nonbest_valid_undefeated": 219,
+          "has_nonbest_zero_valid": 166,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 43,
+          "mechanism_best_retained": 103,
+          "mechanism_best_win_fraction_suppression": 17,
+          "mechanism_degree_tiebreak_suppression": 65,
+          "nonbest_valid_undefeated_total": 571,
+          "nonbest_zero_valid_total": 439,
+          "selection_best_only": 63,
+          "selection_miss": 125,
+          "selection_partial_tie": 40
+        },
+        "mean_best_correct_direct_victories": 1.3859649122807018,
+        "mean_best_query_degree": 2.6008771929824563,
+        "mean_best_valid_degree": 1.4736842105263157,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 43,
+            "residual_task_macro_contribution": 0.004853655891757329
+          },
+          "best_only": {
+            "episodes": 63,
+            "residual_task_macro_contribution": 0.0
+          },
+          "best_win_fraction_suppression": {
+            "episodes": 17,
+            "residual_task_macro_contribution": 0.0014641671448470792
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 65,
+            "residual_task_macro_contribution": 0.004863001068504047
+          },
+          "partial_tie": {
+            "episodes": 40,
+            "residual_task_macro_contribution": 0.0115321353639893
+          }
+        }
+      },
+      "original_residual_task_macro_contribution": 0.022712959469097755,
+      "tasks_represented": 23
+    },
+    "improved": {
+      "corrected": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 119,
+          "multiple_valid_edges": 228,
+          "no_incident_query": 0,
+          "one_valid_edge": 202
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 549,
+          "all_best_zero_valid": 119,
+          "degree_suppressed_best_multiple_valid": 22,
+          "degree_suppressed_best_one_valid": 129,
+          "has_nonbest_valid_undefeated": 537,
+          "has_nonbest_zero_valid": 407,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 119,
+          "mechanism_best_retained": 279,
+          "mechanism_degree_tiebreak_suppression": 151,
+          "nonbest_valid_undefeated_total": 1311,
+          "nonbest_zero_valid_total": 931,
+          "selection_best_only": 126,
+          "selection_miss": 270,
+          "selection_partial_tie": 153
+        },
+        "mean_best_correct_direct_victories": 1.3533697632058288,
+        "mean_best_query_degree": 2.5719489981785064,
+        "mean_best_valid_degree": 1.3533697632058288,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 119,
+            "residual_task_macro_contribution": 0.028953032679539335
+          },
+          "best_only": {
+            "episodes": 126,
+            "residual_task_macro_contribution": 0.0
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 151,
+            "residual_task_macro_contribution": 0.0201601200395994
+          },
+          "partial_tie": {
+            "episodes": 153,
+            "residual_task_macro_contribution": 0.015830644483665654
+          }
+        }
+      },
+      "corrected_residual_task_macro_contribution": 0.06494379720280441,
+      "episodes": 549,
+      "original": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 119,
+          "multiple_valid_edges": 228,
+          "no_incident_query": 0,
+          "one_valid_edge": 202
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 549,
+          "all_best_zero_valid": 119,
+          "degree_suppressed_best_multiple_valid": 18,
+          "degree_suppressed_best_one_valid": 96,
+          "has_nonbest_valid_undefeated": 549,
+          "has_nonbest_zero_valid": 407,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 119,
+          "mechanism_best_retained": 66,
+          "mechanism_best_win_fraction_suppression": 250,
+          "mechanism_degree_tiebreak_suppression": 114,
+          "nonbest_valid_undefeated_total": 1608,
+          "nonbest_zero_valid_total": 931,
+          "selection_miss": 483,
+          "selection_partial_tie": 66
+        },
+        "mean_best_correct_direct_victories": 0.7213114754098361,
+        "mean_best_query_degree": 2.5719489981785064,
+        "mean_best_valid_degree": 1.3533697632058288,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 119,
+            "residual_task_macro_contribution": 0.053903441938788516
+          },
+          "best_win_fraction_suppression": {
+            "episodes": 250,
+            "residual_task_macro_contribution": 0.1287867980670216
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 114,
+            "residual_task_macro_contribution": 0.04353700884537303
+          },
+          "partial_tie": {
+            "episodes": 66,
+            "residual_task_macro_contribution": 0.02213333440687324
+          }
+        }
+      },
+      "original_residual_task_macro_contribution": 0.24836058325805627,
+      "tasks_represented": 24
+    },
+    "worsened": {
+      "corrected": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 15,
+          "multiple_valid_edges": 25,
+          "no_incident_query": 0,
+          "one_valid_edge": 33
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 73,
+          "all_best_zero_valid": 15,
+          "degree_suppressed_best_multiple_valid": 8,
+          "degree_suppressed_best_one_valid": 20,
+          "has_nonbest_valid_undefeated": 73,
+          "has_nonbest_zero_valid": 45,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 15,
+          "mechanism_best_retained": 30,
+          "mechanism_degree_tiebreak_suppression": 28,
+          "nonbest_valid_undefeated_total": 199,
+          "nonbest_zero_valid_total": 103,
+          "selection_miss": 43,
+          "selection_partial_tie": 30
+        },
+        "mean_best_correct_direct_victories": 1.1917808219178083,
+        "mean_best_query_degree": 2.4657534246575343,
+        "mean_best_valid_degree": 1.1917808219178083,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 15,
+            "residual_task_macro_contribution": 0.0028444646902921903
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 28,
+            "residual_task_macro_contribution": 0.0044875831898088464
+          },
+          "partial_tie": {
+            "episodes": 30,
+            "residual_task_macro_contribution": 0.0031573542614165965
+          }
+        }
+      },
+      "corrected_residual_task_macro_contribution": 0.010489402141517635,
+      "episodes": 73,
+      "original": {
+        "actual_best_node_coverage_counts": {
+          "all_incident_abstain": 15,
+          "multiple_valid_edges": 25,
+          "no_incident_query": 0,
+          "one_valid_edge": 33
+        },
+        "episode_counts": {
+          "all_actual_best_nodes": 73,
+          "all_best_zero_valid": 15,
+          "degree_suppressed_best_multiple_valid": 1,
+          "degree_suppressed_best_one_valid": 10,
+          "has_nonbest_valid_undefeated": 70,
+          "has_nonbest_zero_valid": 45,
+          "mechanism_best_has_no_valid_evidence_win_fraction_suppression": 15,
+          "mechanism_best_retained": 25,
+          "mechanism_best_win_fraction_suppression": 22,
+          "mechanism_degree_tiebreak_suppression": 11,
+          "nonbest_valid_undefeated_total": 206,
+          "nonbest_zero_valid_total": 103,
+          "selection_best_only": 15,
+          "selection_miss": 48,
+          "selection_partial_tie": 10
+        },
+        "mean_best_correct_direct_victories": 0.863013698630137,
+        "mean_best_query_degree": 2.4657534246575343,
+        "mean_best_valid_degree": 1.1917808219178083,
+        "regret_contributions_by_selection_or_miss": {
+          "best_has_no_valid_evidence_win_fraction_suppression": {
+            "episodes": 15,
+            "residual_task_macro_contribution": 0.0018673247806697164
+          },
+          "best_only": {
+            "episodes": 15,
+            "residual_task_macro_contribution": 0.0
+          },
+          "best_win_fraction_suppression": {
+            "episodes": 22,
+            "residual_task_macro_contribution": 0.0015279049870378873
+          },
+          "degree_tiebreak_suppression": {
+            "episodes": 11,
+            "residual_task_macro_contribution": 0.0014260749961870199
+          },
+          "partial_tie": {
+            "episodes": 10,
+            "residual_task_macro_contribution": 0.0008899844076273104
+          }
+        }
+      },
+      "original_residual_task_macro_contribution": 0.005711289171521934,
+      "tasks_represented": 19
+    }
+  },
+  "verified_existing_j1_episodes": 850
+}

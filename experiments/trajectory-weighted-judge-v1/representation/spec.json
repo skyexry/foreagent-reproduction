@@ -1,0 +1,42 @@
+{
+  "repo": "Salesforce/codet5-small",
+  "revision": "b1ee9570c289f21b5922b9c768a1ce12957bf968",
+  "files": {
+    "added_tokens.json": {
+      "bytes": 2,
+      "git_blob_sha1": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+      "sha256": null
+    },
+    "config.json": {
+      "bytes": 1566,
+      "git_blob_sha1": "056c085b0bf1966a4658710891af6de209b608be",
+      "sha256": null
+    },
+    "merges.txt": {
+      "bytes": 294364,
+      "git_blob_sha1": "319fd0bbb49414442ca8c66a675ebce7b3fec747",
+      "sha256": null
+    },
+    "pytorch_model.bin": {
+      "bytes": 242026427,
+      "git_blob_sha1": "a0c0f3d49327e59f912fb4b7970cbe5b74590902",
+      "sha256": "968fb0f45e1efc8cf3dd50012d1f82ad82098107cbadde2c0fdd8e61bac02908"
+    },
+    "special_tokens_map.json": {
+      "bytes": 12512,
+      "git_blob_sha1": "e830a2bc8cae841f929043d588e1edcffb28fe9a",
+      "sha256": null
+    },
+    "tokenizer_config.json": {
+      "bytes": 1477,
+      "git_blob_sha1": "263a6f72aceb1716442638a3bcf20afe1eb0de9a",
+      "sha256": null
+    },
+    "vocab.json": {
+      "bytes": 703051,
+      "git_blob_sha1": "38ed64670805e4a3ff4cfa6f764629324a4e3c1e",
+      "sha256": null
+    }
+  },
+  "encoding": "CodeT5-small encoder only, FP32 eval, no parameter updates. Tokenize entire code / combined task description and supplied C0 data-analysis report on input only. Split into consecutive chunks of 254 content tokens plus BOS/EOS; max 8 chunks evenly spaced across a document including first and last, no duplicate chunk. Mean-pool all content-token final hidden states from selected chunks, L2 normalize each document. No input filename/utility as feature. Remove machine-generated metadata block before Data loading in context reports when present; no truncation chosen using outcomes. Expose actual coverage and report lengths. Frozen unsupervised embeddings computed once across heldout/train; all fitted scalers in training folds only."
+}

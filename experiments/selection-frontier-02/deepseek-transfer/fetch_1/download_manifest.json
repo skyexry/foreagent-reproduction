@@ -1,0 +1,9 @@
+{
+  "elapsed_seconds": 0.10403137502726167,
+  "files": [],
+  "metadata_manifest_sha256": "9afe81404798bbbb5073b63a2caffcecf4725559370629c8b2a5d0890fb05c56",
+  "new_API_or_model_calls": 0,
+  "script_sha256": "49a7b1b0d084d4795b22ed291df22bd47a81de7e1101760a3c1070ace9ecce69",
+  "status": "partial",
+  "timestamp_utc": "2026-11-08T12:21:11.725937+00:00"
+}

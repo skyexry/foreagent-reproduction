@@ -1,0 +1,35 @@
+{
+  "C_H_L_independent_task_numeric_checks": 624,
+  "fallback_interpretation": "confidence defaults documented in local code; archival field presence verified, full author parse history partly observed",
+  "negative_replicates": {
+    "DS": {
+      "actual_L_better_than_fair_replicates": 32,
+      "replicates": 32
+    },
+    "GPT_task_first_pooled": {
+      "actual_L_better_than_fair_replicates": 3,
+      "replicates": 32
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "actual_L_better_than_fair_replicates": 5,
+      "replicates": 32
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "actual_L_better_than_fair_replicates": 3,
+      "replicates": 32
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "actual_L_better_than_fair_replicates": 1,
+      "replicates": 32
+    }
+  },
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "reasoning_json": "auxiliary only; strict E requires full response explicit JSON",
+  "sealed_rows": 3400,
+  "sealed_source_pairs": 71508,
+  "source_order_check": {
+    "backup_admitted_pairs": 5013,
+    "same_endpoint_order": 5013
+  }
+}

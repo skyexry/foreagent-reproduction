@@ -1,0 +1,46 @@
+{
+  "protocol_sha256": "797f6c92ed5f2b824526017734017175e9cc624613d423c84893b1aa7aed9e37",
+  "official_full_run": "experiments/research-env-v1/runs/frontier02-valid-coverage-full-001",
+  "attempts": [
+    {
+      "name": "smoke-001",
+      "scope": 3,
+      "exit_code": 1,
+      "stage": "isolation enforcement probe before any output directory or experiment jobs",
+      "error": "sandbox-exec: sandbox_apply: Operation not permitted",
+      "log": "smoke-001.log",
+      "interpretation": "outer tool sandbox launch failure; zero episode scores generated"
+    },
+    {
+      "name": "smoke-002",
+      "scope": 3,
+      "host_permission": "require_escalated reviewed execution",
+      "episode_status": {
+        "ok": 3
+      },
+      "independent_evaluate": "passed",
+      "log": "smoke-002.log"
+    },
+    {
+      "name": "full-001",
+      "scope": 850,
+      "host_permission": "require_escalated reviewed execution",
+      "episode_status": {
+        "ok": 850
+      },
+      "independent_evaluate": "passed",
+      "log": "full-001.log",
+      "selection_wall_seconds": 42.80864050000673
+    }
+  ],
+  "policy_isolation": {
+    "network": true,
+    "outside_write": true,
+    "private_read": true
+  },
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "new_gpu_rentals": 0,
+  "analysis_rule": "labels loaded after sealed official selection and independent source-only trace replay",
+  "run_timeout_seconds": 600
+}

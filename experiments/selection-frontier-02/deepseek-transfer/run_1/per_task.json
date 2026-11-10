@@ -1,0 +1,3970 @@
+{
+  "available_new_banks": {
+    "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.14583333333333331,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.4576682939522062,
+          "selected_size": 1.475,
+          "unique_reads": 12.825
+        },
+        "H": {
+          "best_hit": 0.18541666666666667,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.4615150139382848,
+          "selected_size": 1.25,
+          "unique_reads": 12.825
+        },
+        "L": {
+          "best_hit": 0.1875,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.3685497191682375,
+          "selected_size": 1.175,
+          "unique_reads": 12.825
+        },
+        "T": {
+          "best_hit": 0.125,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.4586849030855201,
+          "selected_size": 1.1,
+          "unique_reads": 12.825
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.34791666666666665,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.15979840235112047,
+          "selected_size": 1.625,
+          "unique_reads": 12.3
+        },
+        "H": {
+          "best_hit": 0.3125,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.10917020460629268,
+          "selected_size": 1.15,
+          "unique_reads": 12.3
+        },
+        "L": {
+          "best_hit": 0.2875,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.08441809584207019,
+          "selected_size": 1.075,
+          "unique_reads": 12.3
+        },
+        "T": {
+          "best_hit": 0.3125,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.14158789015209589,
+          "selected_size": 1.025,
+          "unique_reads": 12.3
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.04228174603174603,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.18871128823113917,
+          "selected_size": 4.225,
+          "unique_reads": 13.0
+        },
+        "H": {
+          "best_hit": 0.04,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.15955743150822868,
+          "selected_size": 2.55,
+          "unique_reads": 13.0
+        },
+        "L": {
+          "best_hit": 0.225,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.0784612440126016,
+          "selected_size": 1.9,
+          "unique_reads": 13.0
+        },
+        "T": {
+          "best_hit": 0.11875,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.11962439743208711,
+          "selected_size": 1.35,
+          "unique_reads": 13.0
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.2875,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.1768082901645047,
+          "selected_size": 1.325,
+          "unique_reads": 12.475
+        },
+        "H": {
+          "best_hit": 0.2875,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.14709417441202913,
+          "selected_size": 1.075,
+          "unique_reads": 12.475
+        },
+        "L": {
+          "best_hit": 0.3125,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.1466417406496161,
+          "selected_size": 1.15,
+          "unique_reads": 12.475
+        },
+        "T": {
+          "best_hit": 0.3,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.14458284209382788,
+          "selected_size": 1.025,
+          "unique_reads": 12.475
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.125,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 0.6408285094066573,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 0.5369030390738067,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.14791666666666667,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.04491338195743767,
+          "selected_size": 1.575,
+          "unique_reads": 12.45
+        },
+        "H": {
+          "best_hit": 0.190625,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.02893830846576003,
+          "selected_size": 1.45,
+          "unique_reads": 12.45
+        },
+        "L": {
+          "best_hit": 0.2791666666666667,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.024911374978235194,
+          "selected_size": 1.25,
+          "unique_reads": 12.45
+        },
+        "T": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.04496061351272711,
+          "selected_size": 1.1,
+          "unique_reads": 12.45
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.32083333333333336,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.1502615970321846,
+          "selected_size": 1.675,
+          "unique_reads": 12.8
+        },
+        "H": {
+          "best_hit": 0.31958333333333333,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.1371057253794194,
+          "selected_size": 1.475,
+          "unique_reads": 12.8
+        },
+        "L": {
+          "best_hit": 0.2,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.1623435952475019,
+          "selected_size": 1.225,
+          "unique_reads": 12.8
+        },
+        "T": {
+          "best_hit": 0.3375,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.13063367438981127,
+          "selected_size": 1.075,
+          "unique_reads": 12.8
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.12858643669445768,
+          "selected_size": 1.6,
+          "unique_reads": 12.3
+        },
+        "H": {
+          "best_hit": 0.18958333333333333,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.11311304973554268,
+          "selected_size": 1.45,
+          "unique_reads": 12.3
+        },
+        "L": {
+          "best_hit": 0.13333333333333333,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.15891313932707196,
+          "selected_size": 1.2,
+          "unique_reads": 12.3
+        },
+        "T": {
+          "best_hit": 0.15,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.1471978914134611,
+          "selected_size": 1.075,
+          "unique_reads": 12.3
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.10916666666666666,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.29181650683743954,
+          "selected_size": 1.475,
+          "unique_reads": 12.8
+        },
+        "H": {
+          "best_hit": 0.13,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.2721274236363368,
+          "selected_size": 1.7,
+          "unique_reads": 12.8
+        },
+        "L": {
+          "best_hit": 0.1125,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.32716474441220045,
+          "selected_size": 1.15,
+          "unique_reads": 12.8
+        },
+        "T": {
+          "best_hit": 0.1375,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.2799662620385671,
+          "selected_size": 1.025,
+          "unique_reads": 12.8
+        }
+      }
+    },
+    "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.13125,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.31819216302245024,
+          "selected_size": 1.875,
+          "unique_reads": 12.65
+        },
+        "H": {
+          "best_hit": 0.24375,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.359602187826639,
+          "selected_size": 1.4,
+          "unique_reads": 12.65
+        },
+        "L": {
+          "best_hit": 0.14166666666666666,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.4128226316922454,
+          "selected_size": 1.4,
+          "unique_reads": 12.65
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.3907198680609426,
+          "selected_size": 1.1,
+          "unique_reads": 12.65
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.42791666666666667,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.10414918703360783,
+          "selected_size": 1.4,
+          "unique_reads": 12.55
+        },
+        "H": {
+          "best_hit": 0.49874999999999997,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.10769624655693581,
+          "selected_size": 1.325,
+          "unique_reads": 12.55
+        },
+        "L": {
+          "best_hit": 0.45,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.09620977494489444,
+          "selected_size": 1.2,
+          "unique_reads": 12.55
+        },
+        "T": {
+          "best_hit": 0.425,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.10815531230724784,
+          "selected_size": 1.075,
+          "unique_reads": 12.55
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.17583333333333334,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.08688562197033131,
+          "selected_size": 3.9,
+          "unique_reads": 13.0
+        },
+        "H": {
+          "best_hit": 0.18,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.07885912798008529,
+          "selected_size": 2.95,
+          "unique_reads": 13.0
+        },
+        "L": {
+          "best_hit": 0.2625,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.0478976836208839,
+          "selected_size": 1.95,
+          "unique_reads": 13.0
+        },
+        "T": {
+          "best_hit": 0.23333333333333334,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.039947381839655335,
+          "selected_size": 1.4,
+          "unique_reads": 13.0
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.25,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.1416516954171875,
+          "selected_size": 1.475,
+          "unique_reads": 12.75
+        },
+        "H": {
+          "best_hit": 0.25,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.157518968677209,
+          "selected_size": 1.525,
+          "unique_reads": 12.75
+        },
+        "L": {
+          "best_hit": 0.27708333333333335,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.19679610932004643,
+          "selected_size": 1.3,
+          "unique_reads": 12.75
+        },
+        "T": {
+          "best_hit": 0.2625,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.14579460708641429,
+          "selected_size": 1.05,
+          "unique_reads": 12.75
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.41666666666666663,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 0.19741919922817225,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "H": {
+          "best_hit": 0.41666666666666663,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 0.19741919922817225,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "T": {
+          "best_hit": 0.25,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 0.5184515195369034,
+          "selected_size": 1.5,
+          "unique_reads": 6.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.17791666666666667,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.06818695511370487,
+          "selected_size": 1.575,
+          "unique_reads": 12.575
+        },
+        "H": {
+          "best_hit": 0.21000000000000002,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.056005692022480055,
+          "selected_size": 1.425,
+          "unique_reads": 12.575
+        },
+        "L": {
+          "best_hit": 0.16666666666666669,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.07356123567837683,
+          "selected_size": 1.25,
+          "unique_reads": 12.575
+        },
+        "T": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.07070532677162764,
+          "selected_size": 1.05,
+          "unique_reads": 12.575
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.4291666666666667,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.13082905281939233,
+          "selected_size": 1.3,
+          "unique_reads": 12.65
+        },
+        "H": {
+          "best_hit": 0.4625,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.11618251395383991,
+          "selected_size": 1.1,
+          "unique_reads": 12.65
+        },
+        "L": {
+          "best_hit": 0.39375,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.12906286214857937,
+          "selected_size": 1.175,
+          "unique_reads": 12.65
+        },
+        "T": {
+          "best_hit": 0.4375,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.13188772845560168,
+          "selected_size": 1.05,
+          "unique_reads": 12.65
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.20833333333333334,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.11360735963997985,
+          "selected_size": 1.4,
+          "unique_reads": 12.625
+        },
+        "H": {
+          "best_hit": 0.175,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.12539229511688504,
+          "selected_size": 1.25,
+          "unique_reads": 12.625
+        },
+        "L": {
+          "best_hit": 0.2375,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.08436163654836584,
+          "selected_size": 1.125,
+          "unique_reads": 12.625
+        },
+        "T": {
+          "best_hit": 0.225,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.09608785288877533,
+          "selected_size": 1.025,
+          "unique_reads": 12.625
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.0875,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.26029621262650465,
+          "selected_size": 1.475,
+          "unique_reads": 12.55
+        },
+        "H": {
+          "best_hit": 0.1125,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.23076531177676424,
+          "selected_size": 1.3,
+          "unique_reads": 12.55
+        },
+        "L": {
+          "best_hit": 0.1125,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.24362921777252863,
+          "selected_size": 1.15,
+          "unique_reads": 12.55
+        },
+        "T": {
+          "best_hit": 0.1,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.24547131295654054,
+          "selected_size": 1.025,
+          "unique_reads": 12.55
+        }
+      },
+      "new-york-city-taxi-fare-prediction": {
+        "C": {
+          "best_hit": 0.2375,
+          "budget_denials": 1.375,
+          "cache_reads": 47.875,
+          "regret": 0.1264550283519742,
+          "selected_size": 1.15,
+          "unique_reads": 12.325
+        },
+        "H": {
+          "best_hit": 0.275,
+          "budget_denials": 1.375,
+          "cache_reads": 47.875,
+          "regret": 0.11501299549743915,
+          "selected_size": 1.125,
+          "unique_reads": 12.325
+        },
+        "L": {
+          "best_hit": 0.29583333333333334,
+          "budget_denials": 1.375,
+          "cache_reads": 47.875,
+          "regret": 0.1064145317718898,
+          "selected_size": 1.2,
+          "unique_reads": 12.325
+        },
+        "T": {
+          "best_hit": 0.2375,
+          "budget_denials": 1.375,
+          "cache_reads": 47.875,
+          "regret": 0.11888957874467869,
+          "selected_size": 1.025,
+          "unique_reads": 12.325
+        }
+      },
+      "nomad2018-predict-transparent-conductors": {
+        "C": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 12.0,
+          "regret": 0.10473815461346726,
+          "selected_size": 1.0,
+          "unique_reads": 3.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 12.0,
+          "regret": 0.10473815461346726,
+          "selected_size": 1.0,
+          "unique_reads": 3.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 12.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 3.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 12.0,
+          "regret": 0.10473815461346726,
+          "selected_size": 1.0,
+          "unique_reads": 3.0
+        }
+      },
+      "petfinder-pawpularity-score": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 15.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 9.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 15.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 9.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 15.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 9.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 15.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 9.0
+        }
+      },
+      "plant-pathology-2020-fgvc7": {
+        "C": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 61.0,
+          "regret": 0.3233221591297805,
+          "selected_size": 4.0,
+          "unique_reads": 7.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 61.0,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 7.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 61.0,
+          "regret": 0.09181090511048769,
+          "selected_size": 1.0,
+          "unique_reads": 7.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 61.0,
+          "regret": 0.09181090511048769,
+          "selected_size": 1.0,
+          "unique_reads": 7.0
+        }
+      },
+      "predict-volcanic-eruptions-ingv-oe": {
+        "C": {
+          "best_hit": 0.22083333333333335,
+          "budget_denials": 2.1,
+          "cache_reads": 73.425,
+          "regret": 0.48045089243261074,
+          "selected_size": 1.4,
+          "unique_reads": 12.475
+        },
+        "H": {
+          "best_hit": 0.21875,
+          "budget_denials": 2.1,
+          "cache_reads": 73.425,
+          "regret": 0.5345088503319839,
+          "selected_size": 1.425,
+          "unique_reads": 12.475
+        },
+        "L": {
+          "best_hit": 0.19375,
+          "budget_denials": 2.1,
+          "cache_reads": 73.425,
+          "regret": 0.5511955275880343,
+          "selected_size": 1.2,
+          "unique_reads": 12.475
+        },
+        "T": {
+          "best_hit": 0.2,
+          "budget_denials": 2.1,
+          "cache_reads": 73.425,
+          "regret": 0.5223088215687398,
+          "selected_size": 1.0,
+          "unique_reads": 12.475
+        }
+      },
+      "random-acts-of-pizza": {
+        "C": {
+          "best_hit": 0.0925,
+          "budget_denials": 2.1,
+          "cache_reads": 83.65,
+          "regret": 0.33637054105713726,
+          "selected_size": 1.5,
+          "unique_reads": 12.6
+        },
+        "H": {
+          "best_hit": 0.05625,
+          "budget_denials": 2.1,
+          "cache_reads": 83.65,
+          "regret": 0.3358533774975841,
+          "selected_size": 1.325,
+          "unique_reads": 12.6
+        },
+        "L": {
+          "best_hit": 0.041666666666666664,
+          "budget_denials": 2.1,
+          "cache_reads": 83.65,
+          "regret": 0.347311208223694,
+          "selected_size": 1.225,
+          "unique_reads": 12.6
+        },
+        "T": {
+          "best_hit": 0.0875,
+          "budget_denials": 2.1,
+          "cache_reads": 83.65,
+          "regret": 0.33546270514367077,
+          "selected_size": 1.05,
+          "unique_reads": 12.6
+        }
+      },
+      "spooky-author-identification": {
+        "C": {
+          "best_hit": 0.2125,
+          "budget_denials": 0.55,
+          "cache_reads": 40.1,
+          "regret": 0.23911281717732077,
+          "selected_size": 1.25,
+          "unique_reads": 11.775
+        },
+        "H": {
+          "best_hit": 0.225,
+          "budget_denials": 0.55,
+          "cache_reads": 40.1,
+          "regret": 0.22598117773439924,
+          "selected_size": 1.175,
+          "unique_reads": 11.775
+        },
+        "L": {
+          "best_hit": 0.2,
+          "budget_denials": 0.55,
+          "cache_reads": 40.1,
+          "regret": 0.1826932138126232,
+          "selected_size": 1.1,
+          "unique_reads": 11.775
+        },
+        "T": {
+          "best_hit": 0.25,
+          "budget_denials": 0.55,
+          "cache_reads": 40.1,
+          "regret": 0.22738366414806555,
+          "selected_size": 1.075,
+          "unique_reads": 11.775
+        }
+      },
+      "stanford-covid-vaccine": {
+        "C": {
+          "best_hit": 0.03333333333333333,
+          "budget_denials": 0.95,
+          "cache_reads": 46.2,
+          "regret": 0.23144484255495906,
+          "selected_size": 1.225,
+          "unique_reads": 12.225
+        },
+        "H": {
+          "best_hit": 0.0125,
+          "budget_denials": 0.95,
+          "cache_reads": 46.2,
+          "regret": 0.21271661246477497,
+          "selected_size": 1.225,
+          "unique_reads": 12.225
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.95,
+          "cache_reads": 46.2,
+          "regret": 0.2367852781296135,
+          "selected_size": 1.05,
+          "unique_reads": 12.225
+        },
+        "T": {
+          "best_hit": 0.025,
+          "budget_denials": 0.95,
+          "cache_reads": 46.2,
+          "regret": 0.2533715156487287,
+          "selected_size": 1.0,
+          "unique_reads": 12.225
+        }
+      },
+      "statoil-iceberg-classifier-challenge": {
+        "C": {
+          "best_hit": 0.05,
+          "budget_denials": 1.325,
+          "cache_reads": 72.225,
+          "regret": 0.20544512627784606,
+          "selected_size": 1.35,
+          "unique_reads": 12.575
+        },
+        "H": {
+          "best_hit": 0.04583333333333333,
+          "budget_denials": 1.325,
+          "cache_reads": 72.225,
+          "regret": 0.2060497828544015,
+          "selected_size": 1.3,
+          "unique_reads": 12.575
+        },
+        "L": {
+          "best_hit": 0.175,
+          "budget_denials": 1.325,
+          "cache_reads": 72.225,
+          "regret": 0.14894168299264848,
+          "selected_size": 1.275,
+          "unique_reads": 12.575
+        },
+        "T": {
+          "best_hit": 0.05,
+          "budget_denials": 1.325,
+          "cache_reads": 72.225,
+          "regret": 0.18814321137228787,
+          "selected_size": 1.05,
+          "unique_reads": 12.575
+        }
+      },
+      "tabular-playground-series-dec-2021": {
+        "C": {
+          "best_hit": 0.016666666666666666,
+          "budget_denials": 2.525,
+          "cache_reads": 94.175,
+          "regret": 0.35426184846622155,
+          "selected_size": 1.525,
+          "unique_reads": 12.95
+        },
+        "H": {
+          "best_hit": 0.0375,
+          "budget_denials": 2.525,
+          "cache_reads": 94.175,
+          "regret": 0.34120613871008076,
+          "selected_size": 1.225,
+          "unique_reads": 12.95
+        },
+        "L": {
+          "best_hit": 0.025,
+          "budget_denials": 2.525,
+          "cache_reads": 94.175,
+          "regret": 0.3273861175390878,
+          "selected_size": 1.375,
+          "unique_reads": 12.95
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 2.525,
+          "cache_reads": 94.175,
+          "regret": 0.33541884185444115,
+          "selected_size": 1.075,
+          "unique_reads": 12.95
+        }
+      },
+      "tensorflow-speech-recognition-challenge": {
+        "C": {
+          "best_hit": 0.03333333333333333,
+          "budget_denials": 5.5,
+          "cache_reads": 136.5,
+          "regret": 0.38760946001461305,
+          "selected_size": 1.7,
+          "unique_reads": 12.975
+        },
+        "H": {
+          "best_hit": 0.025,
+          "budget_denials": 5.5,
+          "cache_reads": 136.5,
+          "regret": 0.37412594571317564,
+          "selected_size": 1.375,
+          "unique_reads": 12.975
+        },
+        "L": {
+          "best_hit": 0.06458333333333334,
+          "budget_denials": 5.5,
+          "cache_reads": 136.5,
+          "regret": 0.37599521453032037,
+          "selected_size": 1.575,
+          "unique_reads": 12.975
+        },
+        "T": {
+          "best_hit": 0.0375,
+          "budget_denials": 5.5,
+          "cache_reads": 136.5,
+          "regret": 0.35358974536693466,
+          "selected_size": 1.15,
+          "unique_reads": 12.975
+        }
+      },
+      "tgs-salt-identification-challenge": {
+        "C": {
+          "best_hit": 0.15208333333333332,
+          "budget_denials": 1.025,
+          "cache_reads": 60.375,
+          "regret": 0.24185337347935584,
+          "selected_size": 1.35,
+          "unique_reads": 12.425
+        },
+        "H": {
+          "best_hit": 0.24166666666666664,
+          "budget_denials": 1.025,
+          "cache_reads": 60.375,
+          "regret": 0.2078102276004353,
+          "selected_size": 1.225,
+          "unique_reads": 12.425
+        },
+        "L": {
+          "best_hit": 0.22083333333333335,
+          "budget_denials": 1.025,
+          "cache_reads": 60.375,
+          "regret": 0.20017539089966313,
+          "selected_size": 1.15,
+          "unique_reads": 12.425
+        },
+        "T": {
+          "best_hit": 0.2,
+          "budget_denials": 1.025,
+          "cache_reads": 60.375,
+          "regret": 0.21591065052990732,
+          "selected_size": 1.0,
+          "unique_reads": 12.425
+        }
+      },
+      "the-icml-2013-whale-challenge-right-whale-redux": {
+        "C": {
+          "best_hit": 0.04419642857142857,
+          "budget_denials": 6.35,
+          "cache_reads": 178.25,
+          "regret": 0.723709408095662,
+          "selected_size": 1.675,
+          "unique_reads": 12.975
+        },
+        "H": {
+          "best_hit": 0.025,
+          "budget_denials": 6.35,
+          "cache_reads": 178.25,
+          "regret": 0.7628843742428223,
+          "selected_size": 1.325,
+          "unique_reads": 12.975
+        },
+        "L": {
+          "best_hit": 0.21041666666666664,
+          "budget_denials": 6.35,
+          "cache_reads": 178.25,
+          "regret": 0.6041142925439565,
+          "selected_size": 1.6,
+          "unique_reads": 12.975
+        },
+        "T": {
+          "best_hit": 0.0625,
+          "budget_denials": 6.35,
+          "cache_reads": 178.25,
+          "regret": 0.7217123700537782,
+          "selected_size": 1.075,
+          "unique_reads": 12.975
+        }
+      },
+      "tweet-sentiment-extraction": {
+        "C": {
+          "best_hit": 0.0875,
+          "budget_denials": 4.9,
+          "cache_reads": 125.525,
+          "regret": 0.7155389538513631,
+          "selected_size": 1.8,
+          "unique_reads": 12.875
+        },
+        "H": {
+          "best_hit": 0.1,
+          "budget_denials": 4.9,
+          "cache_reads": 125.525,
+          "regret": 0.6785479969515548,
+          "selected_size": 1.5,
+          "unique_reads": 12.875
+        },
+        "L": {
+          "best_hit": 0.025,
+          "budget_denials": 4.9,
+          "cache_reads": 125.525,
+          "regret": 0.8018893495755629,
+          "selected_size": 1.3,
+          "unique_reads": 12.875
+        },
+        "T": {
+          "best_hit": 0.1,
+          "budget_denials": 4.9,
+          "cache_reads": 125.525,
+          "regret": 0.7147981337235649,
+          "selected_size": 1.0,
+          "unique_reads": 12.875
+        }
+      },
+      "us-patent-phrase-to-phrase-matching": {
+        "C": {
+          "best_hit": 0.33125,
+          "budget_denials": 0.375,
+          "cache_reads": 31.925,
+          "regret": 0.09245782535881596,
+          "selected_size": 1.225,
+          "unique_reads": 11.275
+        },
+        "H": {
+          "best_hit": 0.3375,
+          "budget_denials": 0.375,
+          "cache_reads": 31.925,
+          "regret": 0.10717752331347649,
+          "selected_size": 1.125,
+          "unique_reads": 11.275
+        },
+        "L": {
+          "best_hit": 0.25,
+          "budget_denials": 0.375,
+          "cache_reads": 31.925,
+          "regret": 0.09852934257275489,
+          "selected_size": 1.075,
+          "unique_reads": 11.275
+        },
+        "T": {
+          "best_hit": 0.3,
+          "budget_denials": 0.375,
+          "cache_reads": 31.925,
+          "regret": 0.09012124063928698,
+          "selected_size": 1.0,
+          "unique_reads": 11.275
+        }
+      },
+      "ventilator-pressure-prediction": {
+        "C": {
+          "best_hit": 0.20083333333333334,
+          "budget_denials": 1.25,
+          "cache_reads": 56.725,
+          "regret": 0.0857928950025609,
+          "selected_size": 1.375,
+          "unique_reads": 12.4
+        },
+        "H": {
+          "best_hit": 0.1125,
+          "budget_denials": 1.25,
+          "cache_reads": 56.725,
+          "regret": 0.10656410412475278,
+          "selected_size": 1.25,
+          "unique_reads": 12.4
+        },
+        "L": {
+          "best_hit": 0.2875,
+          "budget_denials": 1.25,
+          "cache_reads": 56.725,
+          "regret": 0.08842890454655075,
+          "selected_size": 1.025,
+          "unique_reads": 12.4
+        },
+        "T": {
+          "best_hit": 0.25,
+          "budget_denials": 1.25,
+          "cache_reads": 56.725,
+          "regret": 0.07998405120110573,
+          "selected_size": 1.0,
+          "unique_reads": 12.4
+        }
+      }
+    }
+  },
+  "matched_common_all_banks": {
+    "DS": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.16458333333333333,
+          "budget_denials": 3.325,
+          "cache_reads": 115.1,
+          "regret": 0.39860317905261566,
+          "selected_size": 1.4,
+          "unique_reads": 12.775
+        },
+        "H": {
+          "best_hit": 0.25833333333333336,
+          "budget_denials": 3.325,
+          "cache_reads": 115.1,
+          "regret": 0.40480441161051717,
+          "selected_size": 1.4,
+          "unique_reads": 12.775
+        },
+        "L": {
+          "best_hit": 0.19583333333333333,
+          "budget_denials": 3.325,
+          "cache_reads": 115.1,
+          "regret": 0.3689754495850216,
+          "selected_size": 1.375,
+          "unique_reads": 12.775
+        },
+        "T": {
+          "best_hit": 0.15,
+          "budget_denials": 3.325,
+          "cache_reads": 115.1,
+          "regret": 0.4103494123488164,
+          "selected_size": 1.075,
+          "unique_reads": 12.775
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.27708333333333335,
+          "budget_denials": 1.375,
+          "cache_reads": 65.7,
+          "regret": 0.09593622839549755,
+          "selected_size": 1.4,
+          "unique_reads": 12.2
+        },
+        "H": {
+          "best_hit": 0.30625,
+          "budget_denials": 1.375,
+          "cache_reads": 65.7,
+          "regret": 0.10166498620425735,
+          "selected_size": 1.275,
+          "unique_reads": 12.2
+        },
+        "L": {
+          "best_hit": 0.3375,
+          "budget_denials": 1.375,
+          "cache_reads": 65.7,
+          "regret": 0.12810618488957096,
+          "selected_size": 1.075,
+          "unique_reads": 12.2
+        },
+        "T": {
+          "best_hit": 0.3,
+          "budget_denials": 1.375,
+          "cache_reads": 65.7,
+          "regret": 0.10951373449938659,
+          "selected_size": 1.05,
+          "unique_reads": 12.2
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.13951388888888888,
+          "budget_denials": 9.625,
+          "cache_reads": 210.175,
+          "regret": 0.17815306942807768,
+          "selected_size": 3.175,
+          "unique_reads": 13.0
+        },
+        "H": {
+          "best_hit": 0.155,
+          "budget_denials": 9.625,
+          "cache_reads": 210.175,
+          "regret": 0.18430723014564424,
+          "selected_size": 1.875,
+          "unique_reads": 13.0
+        },
+        "L": {
+          "best_hit": 0.3770833333333333,
+          "budget_denials": 9.625,
+          "cache_reads": 210.175,
+          "regret": 0.02815966455356204,
+          "selected_size": 1.6,
+          "unique_reads": 13.0
+        },
+        "T": {
+          "best_hit": 0.27083333333333337,
+          "budget_denials": 9.625,
+          "cache_reads": 210.175,
+          "regret": 0.12749973564146672,
+          "selected_size": 1.2,
+          "unique_reads": 13.0
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.23854166666666665,
+          "budget_denials": 1.7,
+          "cache_reads": 68.475,
+          "regret": 0.16132437359080867,
+          "selected_size": 1.575,
+          "unique_reads": 12.65
+        },
+        "H": {
+          "best_hit": 0.26749999999999996,
+          "budget_denials": 1.7,
+          "cache_reads": 68.475,
+          "regret": 0.12412202074133086,
+          "selected_size": 1.3,
+          "unique_reads": 12.65
+        },
+        "L": {
+          "best_hit": 0.30833333333333335,
+          "budget_denials": 1.7,
+          "cache_reads": 68.475,
+          "regret": 0.10663688243774008,
+          "selected_size": 1.15,
+          "unique_reads": 12.65
+        },
+        "T": {
+          "best_hit": 0.275,
+          "budget_denials": 1.7,
+          "cache_reads": 68.475,
+          "regret": 0.13289228172590425,
+          "selected_size": 1.05,
+          "unique_reads": 12.65
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 18.5,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 6.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 18.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 18.5,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 6.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 18.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.08125,
+          "budget_denials": 2.675,
+          "cache_reads": 91.325,
+          "regret": 0.035472034256078123,
+          "selected_size": 1.475,
+          "unique_reads": 12.75
+        },
+        "H": {
+          "best_hit": 0.1,
+          "budget_denials": 2.675,
+          "cache_reads": 91.325,
+          "regret": 0.0366355266686033,
+          "selected_size": 1.4,
+          "unique_reads": 12.75
+        },
+        "L": {
+          "best_hit": 0.12083333333333332,
+          "budget_denials": 2.675,
+          "cache_reads": 91.325,
+          "regret": 0.028485986956315296,
+          "selected_size": 1.3,
+          "unique_reads": 12.75
+        },
+        "T": {
+          "best_hit": 0.05,
+          "budget_denials": 2.675,
+          "cache_reads": 91.325,
+          "regret": 0.02814691258255665,
+          "selected_size": 1.075,
+          "unique_reads": 12.75
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.25625,
+          "budget_denials": 3.8,
+          "cache_reads": 123.8,
+          "regret": 0.17652455894859337,
+          "selected_size": 1.55,
+          "unique_reads": 12.825
+        },
+        "H": {
+          "best_hit": 0.2625,
+          "budget_denials": 3.8,
+          "cache_reads": 123.8,
+          "regret": 0.1255399476414693,
+          "selected_size": 1.45,
+          "unique_reads": 12.825
+        },
+        "L": {
+          "best_hit": 0.17083333333333334,
+          "budget_denials": 3.8,
+          "cache_reads": 123.8,
+          "regret": 0.16525544602903983,
+          "selected_size": 1.325,
+          "unique_reads": 12.825
+        },
+        "T": {
+          "best_hit": 0.2125,
+          "budget_denials": 3.8,
+          "cache_reads": 123.8,
+          "regret": 0.15494907062720337,
+          "selected_size": 1.1,
+          "unique_reads": 12.825
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.30833333333333335,
+          "budget_denials": 1.5,
+          "cache_reads": 62.825,
+          "regret": 0.07748827244746047,
+          "selected_size": 1.275,
+          "unique_reads": 12.375
+        },
+        "H": {
+          "best_hit": 0.25,
+          "budget_denials": 1.5,
+          "cache_reads": 62.825,
+          "regret": 0.09550205513982524,
+          "selected_size": 1.175,
+          "unique_reads": 12.375
+        },
+        "L": {
+          "best_hit": 0.15833333333333333,
+          "budget_denials": 1.5,
+          "cache_reads": 62.825,
+          "regret": 0.12712887527113698,
+          "selected_size": 1.175,
+          "unique_reads": 12.375
+        },
+        "T": {
+          "best_hit": 0.2875,
+          "budget_denials": 1.5,
+          "cache_reads": 62.825,
+          "regret": 0.07974272338655984,
+          "selected_size": 1.05,
+          "unique_reads": 12.375
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.075,
+          "budget_denials": 1.575,
+          "cache_reads": 81.125,
+          "regret": 0.2570766721301375,
+          "selected_size": 1.45,
+          "unique_reads": 12.475
+        },
+        "H": {
+          "best_hit": 0.0625,
+          "budget_denials": 1.575,
+          "cache_reads": 81.125,
+          "regret": 0.26402150544313197,
+          "selected_size": 1.375,
+          "unique_reads": 12.475
+        },
+        "L": {
+          "best_hit": 0.07083333333333333,
+          "budget_denials": 1.575,
+          "cache_reads": 81.125,
+          "regret": 0.2957219270150011,
+          "selected_size": 1.275,
+          "unique_reads": 12.475
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 1.575,
+          "cache_reads": 81.125,
+          "regret": 0.26262141414863616,
+          "selected_size": 1.05,
+          "unique_reads": 12.475
+        }
+      }
+    },
+    "DS0_task_first_pooled": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.13854166666666667,
+          "budget_denials": 2.8875,
+          "cache_reads": 107.0125,
+          "regret": 0.3879302284873282,
+          "selected_size": 1.675,
+          "unique_reads": 12.7375
+        },
+        "H": {
+          "best_hit": 0.21458333333333335,
+          "budget_denials": 2.8875,
+          "cache_reads": 107.0125,
+          "regret": 0.4105586008824619,
+          "selected_size": 1.325,
+          "unique_reads": 12.7375
+        },
+        "L": {
+          "best_hit": 0.16458333333333333,
+          "budget_denials": 2.8875,
+          "cache_reads": 107.0125,
+          "regret": 0.3906861754302414,
+          "selected_size": 1.2875,
+          "unique_reads": 12.7375
+        },
+        "T": {
+          "best_hit": 0.1,
+          "budget_denials": 2.8875,
+          "cache_reads": 107.0125,
+          "regret": 0.42470238557323137,
+          "selected_size": 1.1,
+          "unique_reads": 12.7375
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.3879166666666667,
+          "budget_denials": 1.525,
+          "cache_reads": 64.4375,
+          "regret": 0.13197379469236414,
+          "selected_size": 1.5125,
+          "unique_reads": 12.425
+        },
+        "H": {
+          "best_hit": 0.405625,
+          "budget_denials": 1.525,
+          "cache_reads": 64.4375,
+          "regret": 0.10843322558161425,
+          "selected_size": 1.2374999999999998,
+          "unique_reads": 12.425
+        },
+        "L": {
+          "best_hit": 0.36875,
+          "budget_denials": 1.525,
+          "cache_reads": 64.4375,
+          "regret": 0.09031393539348231,
+          "selected_size": 1.1375,
+          "unique_reads": 12.425
+        },
+        "T": {
+          "best_hit": 0.36875,
+          "budget_denials": 1.525,
+          "cache_reads": 64.4375,
+          "regret": 0.12487160122967186,
+          "selected_size": 1.0499999999999998,
+          "unique_reads": 12.425
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.10905753968253969,
+          "budget_denials": 10.1125,
+          "cache_reads": 223.55,
+          "regret": 0.13779845510073524,
+          "selected_size": 4.0625,
+          "unique_reads": 13.0
+        },
+        "H": {
+          "best_hit": 0.11,
+          "budget_denials": 10.1125,
+          "cache_reads": 223.55,
+          "regret": 0.11920827974415699,
+          "selected_size": 2.75,
+          "unique_reads": 13.0
+        },
+        "L": {
+          "best_hit": 0.24375000000000002,
+          "budget_denials": 10.1125,
+          "cache_reads": 223.55,
+          "regret": 0.06317946381674275,
+          "selected_size": 1.9249999999999998,
+          "unique_reads": 13.0
+        },
+        "T": {
+          "best_hit": 0.17604166666666665,
+          "budget_denials": 10.1125,
+          "cache_reads": 223.55,
+          "regret": 0.07978588963587122,
+          "selected_size": 1.375,
+          "unique_reads": 13.0
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.26875,
+          "budget_denials": 2.8125,
+          "cache_reads": 82.225,
+          "regret": 0.1592299927908461,
+          "selected_size": 1.4,
+          "unique_reads": 12.6125
+        },
+        "H": {
+          "best_hit": 0.26875,
+          "budget_denials": 2.8125,
+          "cache_reads": 82.225,
+          "regret": 0.15230657154461907,
+          "selected_size": 1.2999999999999998,
+          "unique_reads": 12.6125
+        },
+        "L": {
+          "best_hit": 0.2947916666666667,
+          "budget_denials": 2.8125,
+          "cache_reads": 82.225,
+          "regret": 0.17171892498483127,
+          "selected_size": 1.225,
+          "unique_reads": 12.6125
+        },
+        "T": {
+          "best_hit": 0.28125,
+          "budget_denials": 2.8125,
+          "cache_reads": 82.225,
+          "regret": 0.14518872459012108,
+          "selected_size": 1.0375,
+          "unique_reads": 12.6125
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.2708333333333333,
+          "budget_denials": 0.0,
+          "cache_reads": 30.75,
+          "regret": 0.4191238543174147,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "H": {
+          "best_hit": 0.20833333333333331,
+          "budget_denials": 0.0,
+          "cache_reads": 30.75,
+          "regret": 0.3671611191509895,
+          "selected_size": 1.75,
+          "unique_reads": 6.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 30.75,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "T": {
+          "best_hit": 0.125,
+          "budget_denials": 0.0,
+          "cache_reads": 30.75,
+          "regret": 0.7592257597684517,
+          "selected_size": 1.25,
+          "unique_reads": 6.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.16291666666666665,
+          "budget_denials": 1.8625,
+          "cache_reads": 85.5625,
+          "regret": 0.05655016853557127,
+          "selected_size": 1.575,
+          "unique_reads": 12.5125
+        },
+        "H": {
+          "best_hit": 0.2003125,
+          "budget_denials": 1.8625,
+          "cache_reads": 85.5625,
+          "regret": 0.04247200024412004,
+          "selected_size": 1.4375,
+          "unique_reads": 12.5125
+        },
+        "L": {
+          "best_hit": 0.22291666666666668,
+          "budget_denials": 1.8625,
+          "cache_reads": 85.5625,
+          "regret": 0.049236305328306015,
+          "selected_size": 1.25,
+          "unique_reads": 12.5125
+        },
+        "T": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.8625,
+          "cache_reads": 85.5625,
+          "regret": 0.05783297014217737,
+          "selected_size": 1.0750000000000002,
+          "unique_reads": 12.5125
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.375,
+          "budget_denials": 3.05,
+          "cache_reads": 99.88749999999999,
+          "regret": 0.14054532492578847,
+          "selected_size": 1.4875,
+          "unique_reads": 12.725000000000001
+        },
+        "H": {
+          "best_hit": 0.3910416666666667,
+          "budget_denials": 3.05,
+          "cache_reads": 99.88749999999999,
+          "regret": 0.12664411966662964,
+          "selected_size": 1.2875,
+          "unique_reads": 12.725000000000001
+        },
+        "L": {
+          "best_hit": 0.296875,
+          "budget_denials": 3.05,
+          "cache_reads": 99.88749999999999,
+          "regret": 0.14570322869804064,
+          "selected_size": 1.2000000000000002,
+          "unique_reads": 12.725000000000001
+        },
+        "T": {
+          "best_hit": 0.3875,
+          "budget_denials": 3.05,
+          "cache_reads": 99.88749999999999,
+          "regret": 0.13126070142270646,
+          "selected_size": 1.0625,
+          "unique_reads": 12.725000000000001
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.18541666666666667,
+          "budget_denials": 1.8625,
+          "cache_reads": 76.475,
+          "regret": 0.12109689816721877,
+          "selected_size": 1.5,
+          "unique_reads": 12.4625
+        },
+        "H": {
+          "best_hit": 0.18229166666666666,
+          "budget_denials": 1.8625,
+          "cache_reads": 76.475,
+          "regret": 0.11925267242621386,
+          "selected_size": 1.35,
+          "unique_reads": 12.4625
+        },
+        "L": {
+          "best_hit": 0.18541666666666667,
+          "budget_denials": 1.8625,
+          "cache_reads": 76.475,
+          "regret": 0.1216373879377189,
+          "selected_size": 1.1625,
+          "unique_reads": 12.4625
+        },
+        "T": {
+          "best_hit": 0.1875,
+          "budget_denials": 1.8625,
+          "cache_reads": 76.475,
+          "regret": 0.12164287215111821,
+          "selected_size": 1.0499999999999998,
+          "unique_reads": 12.4625
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.09833333333333333,
+          "budget_denials": 2.6375,
+          "cache_reads": 91.4375,
+          "regret": 0.27605635973197207,
+          "selected_size": 1.475,
+          "unique_reads": 12.675
+        },
+        "H": {
+          "best_hit": 0.12125,
+          "budget_denials": 2.6375,
+          "cache_reads": 91.4375,
+          "regret": 0.2514463677065505,
+          "selected_size": 1.5,
+          "unique_reads": 12.675
+        },
+        "L": {
+          "best_hit": 0.1125,
+          "budget_denials": 2.6375,
+          "cache_reads": 91.4375,
+          "regret": 0.28539698109236455,
+          "selected_size": 1.15,
+          "unique_reads": 12.675
+        },
+        "T": {
+          "best_hit": 0.11875000000000001,
+          "budget_denials": 2.6375,
+          "cache_reads": 91.4375,
+          "regret": 0.26271878749755384,
+          "selected_size": 1.025,
+          "unique_reads": 12.675
+        }
+      }
+    },
+    "GPT_task_first_pooled": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.09861111111111111,
+          "budget_denials": 1.7583333333333335,
+          "cache_reads": 81.375,
+          "regret": 0.45460876794906296,
+          "selected_size": 1.425,
+          "unique_reads": 12.508333333333333
+        },
+        "H": {
+          "best_hit": 0.10833333333333334,
+          "budget_denials": 1.7583333333333335,
+          "cache_reads": 81.375,
+          "regret": 0.4678127683933411,
+          "selected_size": 1.3583333333333334,
+          "unique_reads": 12.508333333333333
+        },
+        "L": {
+          "best_hit": 0.07777777777777778,
+          "budget_denials": 1.7583333333333335,
+          "cache_reads": 81.375,
+          "regret": 0.41750484528900556,
+          "selected_size": 1.1083333333333334,
+          "unique_reads": 12.508333333333333
+        },
+        "T": {
+          "best_hit": 0.125,
+          "budget_denials": 1.7583333333333335,
+          "cache_reads": 81.375,
+          "regret": 0.45593719795725834,
+          "selected_size": 1.0416666666666667,
+          "unique_reads": 12.508333333333333
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.3333333333333333,
+          "budget_denials": 0.03333333333333333,
+          "cache_reads": 11.308333333333332,
+          "regret": 0.3469996359543059,
+          "selected_size": 1.1,
+          "unique_reads": 10.566666666666666
+        },
+        "H": {
+          "best_hit": 0.3416666666666666,
+          "budget_denials": 0.03333333333333333,
+          "cache_reads": 11.308333333333332,
+          "regret": 0.35452497323540655,
+          "selected_size": 1.0999999999999999,
+          "unique_reads": 10.566666666666666
+        },
+        "L": {
+          "best_hit": 0.3333333333333333,
+          "budget_denials": 0.03333333333333333,
+          "cache_reads": 11.308333333333332,
+          "regret": 0.3760403926792764,
+          "selected_size": 1.0083333333333333,
+          "unique_reads": 10.566666666666666
+        },
+        "T": {
+          "best_hit": 0.325,
+          "budget_denials": 0.03333333333333333,
+          "cache_reads": 11.308333333333332,
+          "regret": 0.3549797974940774,
+          "selected_size": 1.0,
+          "unique_reads": 10.566666666666666
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.17271825396825394,
+          "budget_denials": 3.358333333333333,
+          "cache_reads": 109.80833333333334,
+          "regret": 0.08392033352888424,
+          "selected_size": 1.7,
+          "unique_reads": 12.783333333333333
+        },
+        "H": {
+          "best_hit": 0.1968849206349206,
+          "budget_denials": 3.358333333333333,
+          "cache_reads": 109.80833333333334,
+          "regret": 0.0730416765577655,
+          "selected_size": 1.6833333333333333,
+          "unique_reads": 12.783333333333333
+        },
+        "L": {
+          "best_hit": 0.2152777777777778,
+          "budget_denials": 3.358333333333333,
+          "cache_reads": 109.80833333333334,
+          "regret": 0.14278507822742884,
+          "selected_size": 1.3166666666666667,
+          "unique_reads": 12.783333333333333
+        },
+        "T": {
+          "best_hit": 0.1729166666666667,
+          "budget_denials": 3.358333333333333,
+          "cache_reads": 109.80833333333334,
+          "regret": 0.08581393021226634,
+          "selected_size": 1.0999999999999999,
+          "unique_reads": 12.783333333333333
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.44722222222222224,
+          "budget_denials": 0.26666666666666666,
+          "cache_reads": 14.424999999999999,
+          "regret": 0.1794530778356014,
+          "selected_size": 1.1166666666666667,
+          "unique_reads": 10.575000000000001
+        },
+        "H": {
+          "best_hit": 0.4513888888888889,
+          "budget_denials": 0.26666666666666666,
+          "cache_reads": 14.424999999999999,
+          "regret": 0.17263443107606546,
+          "selected_size": 1.1166666666666667,
+          "unique_reads": 10.575000000000001
+        },
+        "L": {
+          "best_hit": 0.4083333333333334,
+          "budget_denials": 0.26666666666666666,
+          "cache_reads": 14.424999999999999,
+          "regret": 0.1708689646270131,
+          "selected_size": 1.0250000000000001,
+          "unique_reads": 10.575000000000001
+        },
+        "T": {
+          "best_hit": 0.4583333333333333,
+          "budget_denials": 0.26666666666666666,
+          "cache_reads": 14.424999999999999,
+          "regret": 0.17577279254959757,
+          "selected_size": 1.0083333333333333,
+          "unique_reads": 10.575000000000001
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.08333333333333333,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 0.7595272551857221,
+          "selected_size": 1.5,
+          "unique_reads": 4.0
+        },
+        "H": {
+          "best_hit": 0.08333333333333333,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 0.7595272551857221,
+          "selected_size": 1.5,
+          "unique_reads": 4.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.1763888888888889,
+          "budget_denials": 0.34166666666666673,
+          "cache_reads": 34.041666666666664,
+          "regret": 0.03239424144361696,
+          "selected_size": 1.2249999999999999,
+          "unique_reads": 11.433333333333332
+        },
+        "H": {
+          "best_hit": 0.1486111111111111,
+          "budget_denials": 0.34166666666666673,
+          "cache_reads": 34.041666666666664,
+          "regret": 0.029132581308837602,
+          "selected_size": 1.2,
+          "unique_reads": 11.433333333333332
+        },
+        "L": {
+          "best_hit": 0.16666666666666666,
+          "budget_denials": 0.34166666666666673,
+          "cache_reads": 34.041666666666664,
+          "regret": 0.024297834604990496,
+          "selected_size": 1.125,
+          "unique_reads": 11.433333333333332
+        },
+        "T": {
+          "best_hit": 0.16666666666666666,
+          "budget_denials": 0.34166666666666673,
+          "cache_reads": 34.041666666666664,
+          "regret": 0.03031807786523458,
+          "selected_size": 1.0166666666666666,
+          "unique_reads": 11.433333333333332
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.6356944444444445,
+          "budget_denials": 0.7916666666666666,
+          "cache_reads": 42.24166666666667,
+          "regret": 0.06285773909082094,
+          "selected_size": 1.2333333333333334,
+          "unique_reads": 11.958333333333334
+        },
+        "H": {
+          "best_hit": 0.6238888888888888,
+          "budget_denials": 0.7916666666666666,
+          "cache_reads": 42.24166666666667,
+          "regret": 0.06856493293976884,
+          "selected_size": 1.2666666666666666,
+          "unique_reads": 11.958333333333334
+        },
+        "L": {
+          "best_hit": 0.6034722222222223,
+          "budget_denials": 0.7916666666666666,
+          "cache_reads": 42.24166666666667,
+          "regret": 0.05373061307573257,
+          "selected_size": 1.125,
+          "unique_reads": 11.958333333333334
+        },
+        "T": {
+          "best_hit": 0.6465277777777777,
+          "budget_denials": 0.7916666666666666,
+          "cache_reads": 42.24166666666667,
+          "regret": 0.05825725242195957,
+          "selected_size": 1.0583333333333333,
+          "unique_reads": 11.958333333333334
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.12222222222222223,
+          "budget_denials": 0.25,
+          "cache_reads": 26.866666666666664,
+          "regret": 0.2952949507062216,
+          "selected_size": 1.1583333333333334,
+          "unique_reads": 11.108333333333334
+        },
+        "H": {
+          "best_hit": 0.125,
+          "budget_denials": 0.25,
+          "cache_reads": 26.866666666666664,
+          "regret": 0.2886930877225175,
+          "selected_size": 1.1083333333333334,
+          "unique_reads": 11.108333333333334
+        },
+        "L": {
+          "best_hit": 0.09999999999999999,
+          "budget_denials": 0.25,
+          "cache_reads": 26.866666666666664,
+          "regret": 0.3190053277553934,
+          "selected_size": 1.0833333333333333,
+          "unique_reads": 11.108333333333334
+        },
+        "T": {
+          "best_hit": 0.10833333333333334,
+          "budget_denials": 0.25,
+          "cache_reads": 26.866666666666664,
+          "regret": 0.29916027323095773,
+          "selected_size": 1.0083333333333333,
+          "unique_reads": 11.108333333333334
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.061111111111111116,
+          "budget_denials": 0.11666666666666665,
+          "cache_reads": 24.675,
+          "regret": 0.27484947092386625,
+          "selected_size": 1.2166666666666666,
+          "unique_reads": 10.758333333333333
+        },
+        "H": {
+          "best_hit": 0.07083333333333333,
+          "budget_denials": 0.11666666666666665,
+          "cache_reads": 24.675,
+          "regret": 0.26918028118101706,
+          "selected_size": 1.1083333333333334,
+          "unique_reads": 10.758333333333333
+        },
+        "L": {
+          "best_hit": 0.01875,
+          "budget_denials": 0.11666666666666665,
+          "cache_reads": 24.675,
+          "regret": 0.2858512023968662,
+          "selected_size": 1.075,
+          "unique_reads": 10.758333333333333
+        },
+        "T": {
+          "best_hit": 0.03333333333333333,
+          "budget_denials": 0.11666666666666665,
+          "cache_reads": 24.675,
+          "regret": 0.2760747318554418,
+          "selected_size": 1.0083333333333333,
+          "unique_reads": 10.758333333333333
+        }
+      }
+    },
+    "deepseek-reasoner_0p0_pboost_cot_20251205_214840": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.14583333333333331,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.4576682939522062,
+          "selected_size": 1.475,
+          "unique_reads": 12.825
+        },
+        "H": {
+          "best_hit": 0.18541666666666667,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.4615150139382848,
+          "selected_size": 1.25,
+          "unique_reads": 12.825
+        },
+        "L": {
+          "best_hit": 0.1875,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.3685497191682375,
+          "selected_size": 1.175,
+          "unique_reads": 12.825
+        },
+        "T": {
+          "best_hit": 0.125,
+          "budget_denials": 3.125,
+          "cache_reads": 97.25,
+          "regret": 0.4586849030855201,
+          "selected_size": 1.1,
+          "unique_reads": 12.825
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.34791666666666665,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.15979840235112047,
+          "selected_size": 1.625,
+          "unique_reads": 12.3
+        },
+        "H": {
+          "best_hit": 0.3125,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.10917020460629268,
+          "selected_size": 1.15,
+          "unique_reads": 12.3
+        },
+        "L": {
+          "best_hit": 0.2875,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.08441809584207019,
+          "selected_size": 1.075,
+          "unique_reads": 12.3
+        },
+        "T": {
+          "best_hit": 0.3125,
+          "budget_denials": 1.225,
+          "cache_reads": 59.625,
+          "regret": 0.14158789015209589,
+          "selected_size": 1.025,
+          "unique_reads": 12.3
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.04228174603174603,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.18871128823113917,
+          "selected_size": 4.225,
+          "unique_reads": 13.0
+        },
+        "H": {
+          "best_hit": 0.04,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.15955743150822868,
+          "selected_size": 2.55,
+          "unique_reads": 13.0
+        },
+        "L": {
+          "best_hit": 0.225,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.0784612440126016,
+          "selected_size": 1.9,
+          "unique_reads": 13.0
+        },
+        "T": {
+          "best_hit": 0.11875,
+          "budget_denials": 11.475,
+          "cache_reads": 227.65,
+          "regret": 0.11962439743208711,
+          "selected_size": 1.35,
+          "unique_reads": 13.0
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.2875,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.1768082901645047,
+          "selected_size": 1.325,
+          "unique_reads": 12.475
+        },
+        "H": {
+          "best_hit": 0.2875,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.14709417441202913,
+          "selected_size": 1.075,
+          "unique_reads": 12.475
+        },
+        "L": {
+          "best_hit": 0.3125,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.1466417406496161,
+          "selected_size": 1.15,
+          "unique_reads": 12.475
+        },
+        "T": {
+          "best_hit": 0.3,
+          "budget_denials": 2.15,
+          "cache_reads": 64.075,
+          "regret": 0.14458284209382788,
+          "selected_size": 1.025,
+          "unique_reads": 12.475
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.125,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 0.6408285094066573,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 0.5369030390738067,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 34.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.14791666666666667,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.04491338195743767,
+          "selected_size": 1.575,
+          "unique_reads": 12.45
+        },
+        "H": {
+          "best_hit": 0.190625,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.02893830846576003,
+          "selected_size": 1.45,
+          "unique_reads": 12.45
+        },
+        "L": {
+          "best_hit": 0.2791666666666667,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.024911374978235194,
+          "selected_size": 1.25,
+          "unique_reads": 12.45
+        },
+        "T": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.925,
+          "cache_reads": 92.3,
+          "regret": 0.04496061351272711,
+          "selected_size": 1.1,
+          "unique_reads": 12.45
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.32083333333333336,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.1502615970321846,
+          "selected_size": 1.675,
+          "unique_reads": 12.8
+        },
+        "H": {
+          "best_hit": 0.31958333333333333,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.1371057253794194,
+          "selected_size": 1.475,
+          "unique_reads": 12.8
+        },
+        "L": {
+          "best_hit": 0.2,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.1623435952475019,
+          "selected_size": 1.225,
+          "unique_reads": 12.8
+        },
+        "T": {
+          "best_hit": 0.3375,
+          "budget_denials": 3.225,
+          "cache_reads": 114.85,
+          "regret": 0.13063367438981127,
+          "selected_size": 1.075,
+          "unique_reads": 12.8
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.12858643669445768,
+          "selected_size": 1.6,
+          "unique_reads": 12.3
+        },
+        "H": {
+          "best_hit": 0.18958333333333333,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.11311304973554268,
+          "selected_size": 1.45,
+          "unique_reads": 12.3
+        },
+        "L": {
+          "best_hit": 0.13333333333333333,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.15891313932707196,
+          "selected_size": 1.2,
+          "unique_reads": 12.3
+        },
+        "T": {
+          "best_hit": 0.15,
+          "budget_denials": 1.4,
+          "cache_reads": 74.275,
+          "regret": 0.1471978914134611,
+          "selected_size": 1.075,
+          "unique_reads": 12.3
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.10916666666666666,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.29181650683743954,
+          "selected_size": 1.475,
+          "unique_reads": 12.8
+        },
+        "H": {
+          "best_hit": 0.13,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.2721274236363368,
+          "selected_size": 1.7,
+          "unique_reads": 12.8
+        },
+        "L": {
+          "best_hit": 0.1125,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.32716474441220045,
+          "selected_size": 1.15,
+          "unique_reads": 12.8
+        },
+        "T": {
+          "best_hit": 0.1375,
+          "budget_denials": 3.025,
+          "cache_reads": 93.1,
+          "regret": 0.2799662620385671,
+          "selected_size": 1.025,
+          "unique_reads": 12.8
+        }
+      }
+    },
+    "deepseek-reasoner_0p0_pboost_cot_20251209_135057": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.13125,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.31819216302245024,
+          "selected_size": 1.875,
+          "unique_reads": 12.65
+        },
+        "H": {
+          "best_hit": 0.24375,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.359602187826639,
+          "selected_size": 1.4,
+          "unique_reads": 12.65
+        },
+        "L": {
+          "best_hit": 0.14166666666666666,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.4128226316922454,
+          "selected_size": 1.4,
+          "unique_reads": 12.65
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 2.65,
+          "cache_reads": 116.775,
+          "regret": 0.3907198680609426,
+          "selected_size": 1.1,
+          "unique_reads": 12.65
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.42791666666666667,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.10414918703360783,
+          "selected_size": 1.4,
+          "unique_reads": 12.55
+        },
+        "H": {
+          "best_hit": 0.49874999999999997,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.10769624655693581,
+          "selected_size": 1.325,
+          "unique_reads": 12.55
+        },
+        "L": {
+          "best_hit": 0.45,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.09620977494489444,
+          "selected_size": 1.2,
+          "unique_reads": 12.55
+        },
+        "T": {
+          "best_hit": 0.425,
+          "budget_denials": 1.825,
+          "cache_reads": 69.25,
+          "regret": 0.10815531230724784,
+          "selected_size": 1.075,
+          "unique_reads": 12.55
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.17583333333333334,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.08688562197033131,
+          "selected_size": 3.9,
+          "unique_reads": 13.0
+        },
+        "H": {
+          "best_hit": 0.18,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.07885912798008529,
+          "selected_size": 2.95,
+          "unique_reads": 13.0
+        },
+        "L": {
+          "best_hit": 0.2625,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.0478976836208839,
+          "selected_size": 1.95,
+          "unique_reads": 13.0
+        },
+        "T": {
+          "best_hit": 0.23333333333333334,
+          "budget_denials": 8.75,
+          "cache_reads": 219.45,
+          "regret": 0.039947381839655335,
+          "selected_size": 1.4,
+          "unique_reads": 13.0
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.25,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.1416516954171875,
+          "selected_size": 1.475,
+          "unique_reads": 12.75
+        },
+        "H": {
+          "best_hit": 0.25,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.157518968677209,
+          "selected_size": 1.525,
+          "unique_reads": 12.75
+        },
+        "L": {
+          "best_hit": 0.27708333333333335,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.19679610932004643,
+          "selected_size": 1.3,
+          "unique_reads": 12.75
+        },
+        "T": {
+          "best_hit": 0.2625,
+          "budget_denials": 3.475,
+          "cache_reads": 100.375,
+          "regret": 0.14579460708641429,
+          "selected_size": 1.05,
+          "unique_reads": 12.75
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.41666666666666663,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 0.19741919922817225,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "H": {
+          "best_hit": 0.41666666666666663,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 0.19741919922817225,
+          "selected_size": 2.5,
+          "unique_reads": 6.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "T": {
+          "best_hit": 0.25,
+          "budget_denials": 0.0,
+          "cache_reads": 27.5,
+          "regret": 0.5184515195369034,
+          "selected_size": 1.5,
+          "unique_reads": 6.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.17791666666666667,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.06818695511370487,
+          "selected_size": 1.575,
+          "unique_reads": 12.575
+        },
+        "H": {
+          "best_hit": 0.21000000000000002,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.056005692022480055,
+          "selected_size": 1.425,
+          "unique_reads": 12.575
+        },
+        "L": {
+          "best_hit": 0.16666666666666669,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.07356123567837683,
+          "selected_size": 1.25,
+          "unique_reads": 12.575
+        },
+        "T": {
+          "best_hit": 0.1625,
+          "budget_denials": 1.8,
+          "cache_reads": 78.825,
+          "regret": 0.07070532677162764,
+          "selected_size": 1.05,
+          "unique_reads": 12.575
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.4291666666666667,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.13082905281939233,
+          "selected_size": 1.3,
+          "unique_reads": 12.65
+        },
+        "H": {
+          "best_hit": 0.4625,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.11618251395383991,
+          "selected_size": 1.1,
+          "unique_reads": 12.65
+        },
+        "L": {
+          "best_hit": 0.39375,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.12906286214857937,
+          "selected_size": 1.175,
+          "unique_reads": 12.65
+        },
+        "T": {
+          "best_hit": 0.4375,
+          "budget_denials": 2.875,
+          "cache_reads": 84.925,
+          "regret": 0.13188772845560168,
+          "selected_size": 1.05,
+          "unique_reads": 12.65
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.20833333333333334,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.11360735963997985,
+          "selected_size": 1.4,
+          "unique_reads": 12.625
+        },
+        "H": {
+          "best_hit": 0.175,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.12539229511688504,
+          "selected_size": 1.25,
+          "unique_reads": 12.625
+        },
+        "L": {
+          "best_hit": 0.2375,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.08436163654836584,
+          "selected_size": 1.125,
+          "unique_reads": 12.625
+        },
+        "T": {
+          "best_hit": 0.225,
+          "budget_denials": 2.325,
+          "cache_reads": 78.675,
+          "regret": 0.09608785288877533,
+          "selected_size": 1.025,
+          "unique_reads": 12.625
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.0875,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.26029621262650465,
+          "selected_size": 1.475,
+          "unique_reads": 12.55
+        },
+        "H": {
+          "best_hit": 0.1125,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.23076531177676424,
+          "selected_size": 1.3,
+          "unique_reads": 12.55
+        },
+        "L": {
+          "best_hit": 0.1125,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.24362921777252863,
+          "selected_size": 1.15,
+          "unique_reads": 12.55
+        },
+        "T": {
+          "best_hit": 0.1,
+          "budget_denials": 2.25,
+          "cache_reads": 89.775,
+          "regret": 0.24547131295654054,
+          "selected_size": 1.025,
+          "unique_reads": 12.55
+        }
+      }
+    },
+    "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.041666666666666664,
+          "budget_denials": 1.275,
+          "cache_reads": 76.35,
+          "regret": 0.47326037613898625,
+          "selected_size": 1.575,
+          "unique_reads": 12.625
+        },
+        "H": {
+          "best_hit": 0.05,
+          "budget_denials": 1.275,
+          "cache_reads": 76.35,
+          "regret": 0.5193226471484755,
+          "selected_size": 1.35,
+          "unique_reads": 12.625
+        },
+        "L": {
+          "best_hit": 0.05,
+          "budget_denials": 1.275,
+          "cache_reads": 76.35,
+          "regret": 0.4718481441041866,
+          "selected_size": 1.15,
+          "unique_reads": 12.625
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 1.275,
+          "cache_reads": 76.35,
+          "regret": 0.47548537174849737,
+          "selected_size": 1.025,
+          "unique_reads": 12.625
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.375,
+          "budget_denials": 0.025,
+          "cache_reads": 10.925,
+          "regret": 0.3573213530401388,
+          "selected_size": 1.1,
+          "unique_reads": 10.375
+        },
+        "H": {
+          "best_hit": 0.375,
+          "budget_denials": 0.025,
+          "cache_reads": 10.925,
+          "regret": 0.35745679903937305,
+          "selected_size": 1.125,
+          "unique_reads": 10.375
+        },
+        "L": {
+          "best_hit": 0.35,
+          "budget_denials": 0.025,
+          "cache_reads": 10.925,
+          "regret": 0.3465368030543692,
+          "selected_size": 1.0,
+          "unique_reads": 10.375
+        },
+        "T": {
+          "best_hit": 0.35,
+          "budget_denials": 0.025,
+          "cache_reads": 10.925,
+          "regret": 0.3697048781146565,
+          "selected_size": 1.0,
+          "unique_reads": 10.375
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.10357142857142858,
+          "budget_denials": 2.575,
+          "cache_reads": 96.275,
+          "regret": 0.07038371454612295,
+          "selected_size": 1.825,
+          "unique_reads": 12.725
+        },
+        "H": {
+          "best_hit": 0.11690476190476191,
+          "budget_denials": 2.575,
+          "cache_reads": 96.275,
+          "regret": 0.052084960566710525,
+          "selected_size": 1.725,
+          "unique_reads": 12.725
+        },
+        "L": {
+          "best_hit": 0.21458333333333335,
+          "budget_denials": 2.575,
+          "cache_reads": 96.275,
+          "regret": 0.10444896528856265,
+          "selected_size": 1.325,
+          "unique_reads": 12.725
+        },
+        "T": {
+          "best_hit": 0.13125,
+          "budget_denials": 2.575,
+          "cache_reads": 96.275,
+          "regret": 0.083990322428024,
+          "selected_size": 1.175,
+          "unique_reads": 12.725
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.39583333333333337,
+          "budget_denials": 0.375,
+          "cache_reads": 20.35,
+          "regret": 0.2064531768391064,
+          "selected_size": 1.175,
+          "unique_reads": 10.85
+        },
+        "H": {
+          "best_hit": 0.4041666666666667,
+          "budget_denials": 0.375,
+          "cache_reads": 20.35,
+          "regret": 0.20094530578775224,
+          "selected_size": 1.25,
+          "unique_reads": 10.85
+        },
+        "L": {
+          "best_hit": 0.3,
+          "budget_denials": 0.375,
+          "cache_reads": 20.35,
+          "regret": 0.21717244145582354,
+          "selected_size": 1.05,
+          "unique_reads": 10.85
+        },
+        "T": {
+          "best_hit": 0.4,
+          "budget_denials": 0.375,
+          "cache_reads": 20.35,
+          "regret": 0.20277481012315363,
+          "selected_size": 1.025,
+          "unique_reads": 10.85
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.09583333333333334,
+          "budget_denials": 0.225,
+          "cache_reads": 23.725,
+          "regret": 0.0382755215567338,
+          "selected_size": 1.15,
+          "unique_reads": 11.25
+        },
+        "H": {
+          "best_hit": 0.08333333333333334,
+          "budget_denials": 0.225,
+          "cache_reads": 23.725,
+          "regret": 0.03137515942052468,
+          "selected_size": 1.225,
+          "unique_reads": 11.25
+        },
+        "L": {
+          "best_hit": 0.1625,
+          "budget_denials": 0.225,
+          "cache_reads": 23.725,
+          "regret": 0.027222185815276745,
+          "selected_size": 1.2,
+          "unique_reads": 11.25
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 0.225,
+          "cache_reads": 23.725,
+          "regret": 0.03855976086916378,
+          "selected_size": 1.025,
+          "unique_reads": 11.25
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.6487499999999999,
+          "budget_denials": 1.075,
+          "cache_reads": 51.725,
+          "regret": 0.08588281318799984,
+          "selected_size": 1.35,
+          "unique_reads": 12.2
+        },
+        "H": {
+          "best_hit": 0.655,
+          "budget_denials": 1.075,
+          "cache_reads": 51.725,
+          "regret": 0.07888071252654844,
+          "selected_size": 1.425,
+          "unique_reads": 12.2
+        },
+        "L": {
+          "best_hit": 0.55625,
+          "budget_denials": 1.075,
+          "cache_reads": 51.725,
+          "regret": 0.0635602877080429,
+          "selected_size": 1.175,
+          "unique_reads": 12.2
+        },
+        "T": {
+          "best_hit": 0.69375,
+          "budget_denials": 1.075,
+          "cache_reads": 51.725,
+          "regret": 0.06999559135425754,
+          "selected_size": 1.1,
+          "unique_reads": 12.2
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.08333333333333334,
+          "budget_denials": 0.275,
+          "cache_reads": 23.75,
+          "regret": 0.3574464517122309,
+          "selected_size": 1.1,
+          "unique_reads": 11.275
+        },
+        "H": {
+          "best_hit": 0.075,
+          "budget_denials": 0.275,
+          "cache_reads": 23.75,
+          "regret": 0.36333763917094924,
+          "selected_size": 1.0,
+          "unique_reads": 11.275
+        },
+        "L": {
+          "best_hit": 0.0875,
+          "budget_denials": 0.275,
+          "cache_reads": 23.75,
+          "regret": 0.3281497162506164,
+          "selected_size": 1.1,
+          "unique_reads": 11.275
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 0.275,
+          "cache_reads": 23.75,
+          "regret": 0.3670537645386794,
+          "selected_size": 1.0,
+          "unique_reads": 11.275
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.1,
+          "budget_denials": 0.175,
+          "cache_reads": 26.0,
+          "regret": 0.2934344434453229,
+          "selected_size": 1.275,
+          "unique_reads": 10.65
+        },
+        "H": {
+          "best_hit": 0.1125,
+          "budget_denials": 0.175,
+          "cache_reads": 26.0,
+          "regret": 0.2901645023409044,
+          "selected_size": 1.15,
+          "unique_reads": 10.65
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.175,
+          "cache_reads": 26.0,
+          "regret": 0.2974048722194307,
+          "selected_size": 1.025,
+          "unique_reads": 10.65
+        },
+        "T": {
+          "best_hit": 0.05,
+          "budget_denials": 0.175,
+          "cache_reads": 26.0,
+          "regret": 0.29431634438114973,
+          "selected_size": 1.0,
+          "unique_reads": 10.65
+        }
+      }
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.16666666666666669,
+          "budget_denials": 2.2,
+          "cache_reads": 88.65,
+          "regret": 0.5302339306878798,
+          "selected_size": 1.275,
+          "unique_reads": 12.35
+        },
+        "H": {
+          "best_hit": 0.175,
+          "budget_denials": 2.2,
+          "cache_reads": 88.65,
+          "regret": 0.5244501688683816,
+          "selected_size": 1.425,
+          "unique_reads": 12.35
+        },
+        "L": {
+          "best_hit": 0.10833333333333332,
+          "budget_denials": 2.2,
+          "cache_reads": 88.65,
+          "regret": 0.430878933504531,
+          "selected_size": 1.1,
+          "unique_reads": 12.35
+        },
+        "T": {
+          "best_hit": 0.15,
+          "budget_denials": 2.2,
+          "cache_reads": 88.65,
+          "regret": 0.5228819945804892,
+          "selected_size": 1.025,
+          "unique_reads": 12.35
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.325,
+          "budget_denials": 0.075,
+          "cache_reads": 12.45,
+          "regret": 0.36134328407115085,
+          "selected_size": 1.1,
+          "unique_reads": 11.0
+        },
+        "H": {
+          "best_hit": 0.3125,
+          "budget_denials": 0.075,
+          "cache_reads": 12.45,
+          "regret": 0.39654558423647157,
+          "selected_size": 1.125,
+          "unique_reads": 11.0
+        },
+        "L": {
+          "best_hit": 0.325,
+          "budget_denials": 0.075,
+          "cache_reads": 12.45,
+          "regret": 0.4061076793495705,
+          "selected_size": 1.025,
+          "unique_reads": 11.0
+        },
+        "T": {
+          "best_hit": 0.325,
+          "budget_denials": 0.075,
+          "cache_reads": 12.45,
+          "regret": 0.3853260183769365,
+          "selected_size": 1.0,
+          "unique_reads": 11.0
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.15416666666666667,
+          "budget_denials": 3.425,
+          "cache_reads": 114.1,
+          "regret": 0.08475234849897813,
+          "selected_size": 1.725,
+          "unique_reads": 12.875
+        },
+        "H": {
+          "best_hit": 0.22916666666666666,
+          "budget_denials": 3.425,
+          "cache_reads": 114.1,
+          "regret": 0.07454218143079869,
+          "selected_size": 1.55,
+          "unique_reads": 12.875
+        },
+        "L": {
+          "best_hit": 0.12083333333333332,
+          "budget_denials": 3.425,
+          "cache_reads": 114.1,
+          "regret": 0.1914693185060629,
+          "selected_size": 1.225,
+          "unique_reads": 12.875
+        },
+        "T": {
+          "best_hit": 0.1375,
+          "budget_denials": 3.425,
+          "cache_reads": 114.1,
+          "regret": 0.07690314118059924,
+          "selected_size": 1.1,
+          "unique_reads": 12.875
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.525,
+          "budget_denials": 0.375,
+          "cache_reads": 16.075,
+          "regret": 0.15063775361403037,
+          "selected_size": 1.075,
+          "unique_reads": 10.975
+        },
+        "H": {
+          "best_hit": 0.5,
+          "budget_denials": 0.375,
+          "cache_reads": 16.075,
+          "regret": 0.1443982596030883,
+          "selected_size": 1.1,
+          "unique_reads": 10.975
+        },
+        "L": {
+          "best_hit": 0.425,
+          "budget_denials": 0.375,
+          "cache_reads": 16.075,
+          "regret": 0.12891424677377827,
+          "selected_size": 1.025,
+          "unique_reads": 10.975
+        },
+        "T": {
+          "best_hit": 0.525,
+          "budget_denials": 0.375,
+          "cache_reads": 16.075,
+          "regret": 0.15198383968828333,
+          "selected_size": 1.0,
+          "unique_reads": 10.975
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.25,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "regret": 0.5142908827785829,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        },
+        "H": {
+          "best_hit": 0.25,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "regret": 0.5142908827785829,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.325,
+          "budget_denials": 0.25,
+          "cache_reads": 33.1,
+          "regret": 0.021445977474641168,
+          "selected_size": 1.325,
+          "unique_reads": 11.45
+        },
+        "H": {
+          "best_hit": 0.3,
+          "budget_denials": 0.25,
+          "cache_reads": 33.1,
+          "regret": 0.01749609838035005,
+          "selected_size": 1.1,
+          "unique_reads": 11.45
+        },
+        "L": {
+          "best_hit": 0.2875,
+          "budget_denials": 0.25,
+          "cache_reads": 33.1,
+          "regret": 0.015177776990870414,
+          "selected_size": 1.075,
+          "unique_reads": 11.45
+        },
+        "T": {
+          "best_hit": 0.35,
+          "budget_denials": 0.25,
+          "cache_reads": 33.1,
+          "regret": 0.014370976323381312,
+          "selected_size": 1.0,
+          "unique_reads": 11.45
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.5875,
+          "budget_denials": 0.875,
+          "cache_reads": 36.925,
+          "regret": 0.07619950766406272,
+          "selected_size": 1.075,
+          "unique_reads": 11.925
+        },
+        "H": {
+          "best_hit": 0.6,
+          "budget_denials": 0.875,
+          "cache_reads": 36.925,
+          "regret": 0.08908714763337816,
+          "selected_size": 1.1,
+          "unique_reads": 11.925
+        },
+        "L": {
+          "best_hit": 0.6,
+          "budget_denials": 0.875,
+          "cache_reads": 36.925,
+          "regret": 0.03613957948245576,
+          "selected_size": 1.0,
+          "unique_reads": 11.925
+        },
+        "T": {
+          "best_hit": 0.575,
+          "budget_denials": 0.875,
+          "cache_reads": 36.925,
+          "regret": 0.07583452842504687,
+          "selected_size": 1.0,
+          "unique_reads": 11.925
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.1375,
+          "budget_denials": 0.225,
+          "cache_reads": 27.825,
+          "regret": 0.25255003222182404,
+          "selected_size": 1.125,
+          "unique_reads": 11.15
+        },
+        "H": {
+          "best_hit": 0.15,
+          "budget_denials": 0.225,
+          "cache_reads": 27.825,
+          "regret": 0.23155842235056096,
+          "selected_size": 1.125,
+          "unique_reads": 11.15
+        },
+        "L": {
+          "best_hit": 0.1375,
+          "budget_denials": 0.225,
+          "cache_reads": 27.825,
+          "regret": 0.2753399593877803,
+          "selected_size": 1.125,
+          "unique_reads": 11.15
+        },
+        "T": {
+          "best_hit": 0.125,
+          "budget_denials": 0.225,
+          "cache_reads": 27.825,
+          "regret": 0.2651364626429557,
+          "selected_size": 1.025,
+          "unique_reads": 11.15
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.020833333333333332,
+          "budget_denials": 0.05,
+          "cache_reads": 26.425,
+          "regret": 0.2852054722386658,
+          "selected_size": 1.2,
+          "unique_reads": 10.65
+        },
+        "H": {
+          "best_hit": 0.025,
+          "budget_denials": 0.05,
+          "cache_reads": 26.425,
+          "regret": 0.27467492110460295,
+          "selected_size": 1.1,
+          "unique_reads": 10.65
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.05,
+          "cache_reads": 26.425,
+          "regret": 0.2914694675043138,
+          "selected_size": 1.05,
+          "unique_reads": 10.65
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.05,
+          "cache_reads": 26.425,
+          "regret": 0.2887427390923189,
+          "selected_size": 1.0,
+          "unique_reads": 10.65
+        }
+      }
+    },
+    "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+      "aptos2019-blindness-detection": {
+        "C": {
+          "best_hit": 0.0875,
+          "budget_denials": 1.8,
+          "cache_reads": 79.125,
+          "regret": 0.3603319970203228,
+          "selected_size": 1.425,
+          "unique_reads": 12.55
+        },
+        "H": {
+          "best_hit": 0.1,
+          "budget_denials": 1.8,
+          "cache_reads": 79.125,
+          "regret": 0.3596654891631662,
+          "selected_size": 1.3,
+          "unique_reads": 12.55
+        },
+        "L": {
+          "best_hit": 0.075,
+          "budget_denials": 1.8,
+          "cache_reads": 79.125,
+          "regret": 0.3497874582582991,
+          "selected_size": 1.075,
+          "unique_reads": 12.55
+        },
+        "T": {
+          "best_hit": 0.15,
+          "budget_denials": 1.8,
+          "cache_reads": 79.125,
+          "regret": 0.3694442275427885,
+          "selected_size": 1.075,
+          "unique_reads": 12.55
+        }
+      },
+      "denoising-dirty-documents": {
+        "C": {
+          "best_hit": 0.3,
+          "budget_denials": 0.0,
+          "cache_reads": 10.55,
+          "regret": 0.322334270751628,
+          "selected_size": 1.1,
+          "unique_reads": 10.325
+        },
+        "H": {
+          "best_hit": 0.3375,
+          "budget_denials": 0.0,
+          "cache_reads": 10.55,
+          "regret": 0.3095725364303751,
+          "selected_size": 1.05,
+          "unique_reads": 10.325
+        },
+        "L": {
+          "best_hit": 0.325,
+          "budget_denials": 0.0,
+          "cache_reads": 10.55,
+          "regret": 0.3754766956338897,
+          "selected_size": 1.0,
+          "unique_reads": 10.325
+        },
+        "T": {
+          "best_hit": 0.3,
+          "budget_denials": 0.0,
+          "cache_reads": 10.55,
+          "regret": 0.3099084959906392,
+          "selected_size": 1.0,
+          "unique_reads": 10.325
+        }
+      },
+      "detecting-insults-in-social-commentary": {
+        "C": {
+          "best_hit": 0.26041666666666663,
+          "budget_denials": 4.075,
+          "cache_reads": 119.05,
+          "regret": 0.09662493754155169,
+          "selected_size": 1.55,
+          "unique_reads": 12.75
+        },
+        "H": {
+          "best_hit": 0.24458333333333332,
+          "budget_denials": 4.075,
+          "cache_reads": 119.05,
+          "regret": 0.09249788767578727,
+          "selected_size": 1.775,
+          "unique_reads": 12.75
+        },
+        "L": {
+          "best_hit": 0.3104166666666667,
+          "budget_denials": 4.075,
+          "cache_reads": 119.05,
+          "regret": 0.13243695088766097,
+          "selected_size": 1.4,
+          "unique_reads": 12.75
+        },
+        "T": {
+          "best_hit": 0.25,
+          "budget_denials": 4.075,
+          "cache_reads": 119.05,
+          "regret": 0.09654832702817576,
+          "selected_size": 1.025,
+          "unique_reads": 12.75
+        }
+      },
+      "dog-breed-identification": {
+        "C": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "H": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "L": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "T": {
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "google-quest-challenge": {
+        "C": {
+          "best_hit": 0.4208333333333333,
+          "budget_denials": 0.05,
+          "cache_reads": 6.85,
+          "regret": 0.18126830305366745,
+          "selected_size": 1.1,
+          "unique_reads": 9.9
+        },
+        "H": {
+          "best_hit": 0.45,
+          "budget_denials": 0.05,
+          "cache_reads": 6.85,
+          "regret": 0.17255972783735582,
+          "selected_size": 1.0,
+          "unique_reads": 9.9
+        },
+        "L": {
+          "best_hit": 0.5,
+          "budget_denials": 0.05,
+          "cache_reads": 6.85,
+          "regret": 0.16652020565143755,
+          "selected_size": 1.0,
+          "unique_reads": 9.9
+        },
+        "T": {
+          "best_hit": 0.45,
+          "budget_denials": 0.05,
+          "cache_reads": 6.85,
+          "regret": 0.17255972783735582,
+          "selected_size": 1.0,
+          "unique_reads": 9.9
+        }
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "C": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 0.7642908827785829,
+          "selected_size": 1.5,
+          "unique_reads": 4.0
+        },
+        "H": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 0.7642908827785829,
+          "selected_size": 1.5,
+          "unique_reads": 4.0
+        },
+        "L": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "T": {
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        }
+      },
+      "leaf-classification": {
+        "C": {
+          "best_hit": 0.10833333333333332,
+          "budget_denials": 0.55,
+          "cache_reads": 45.3,
+          "regret": 0.03746122529947592,
+          "selected_size": 1.2,
+          "unique_reads": 11.6
+        },
+        "H": {
+          "best_hit": 0.0625,
+          "budget_denials": 0.55,
+          "cache_reads": 45.3,
+          "regret": 0.03852648612563809,
+          "selected_size": 1.275,
+          "unique_reads": 11.6
+        },
+        "L": {
+          "best_hit": 0.05,
+          "budget_denials": 0.55,
+          "cache_reads": 45.3,
+          "regret": 0.030493541008824333,
+          "selected_size": 1.1,
+          "unique_reads": 11.6
+        },
+        "T": {
+          "best_hit": 0.075,
+          "budget_denials": 0.55,
+          "cache_reads": 45.3,
+          "regret": 0.03802349640315865,
+          "selected_size": 1.025,
+          "unique_reads": 11.6
+        }
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "C": {
+          "best_hit": 0.6708333333333333,
+          "budget_denials": 0.425,
+          "cache_reads": 38.075,
+          "regret": 0.026490896420400284,
+          "selected_size": 1.275,
+          "unique_reads": 11.75
+        },
+        "H": {
+          "best_hit": 0.6166666666666667,
+          "budget_denials": 0.425,
+          "cache_reads": 38.075,
+          "regret": 0.03772693865937994,
+          "selected_size": 1.275,
+          "unique_reads": 11.75
+        },
+        "L": {
+          "best_hit": 0.6541666666666667,
+          "budget_denials": 0.425,
+          "cache_reads": 38.075,
+          "regret": 0.06149197203669906,
+          "selected_size": 1.2,
+          "unique_reads": 11.75
+        },
+        "T": {
+          "best_hit": 0.6708333333333333,
+          "budget_denials": 0.425,
+          "cache_reads": 38.075,
+          "regret": 0.028941637486574294,
+          "selected_size": 1.075,
+          "unique_reads": 11.75
+        }
+      },
+      "lmsys-chatbot-arena": {
+        "C": {
+          "best_hit": 0.14583333333333331,
+          "budget_denials": 0.25,
+          "cache_reads": 29.025,
+          "regret": 0.2758883681846098,
+          "selected_size": 1.25,
+          "unique_reads": 10.9
+        },
+        "H": {
+          "best_hit": 0.15,
+          "budget_denials": 0.25,
+          "cache_reads": 29.025,
+          "regret": 0.27118320164604226,
+          "selected_size": 1.2,
+          "unique_reads": 10.9
+        },
+        "L": {
+          "best_hit": 0.075,
+          "budget_denials": 0.25,
+          "cache_reads": 29.025,
+          "regret": 0.35352630762778364,
+          "selected_size": 1.025,
+          "unique_reads": 10.9
+        },
+        "T": {
+          "best_hit": 0.125,
+          "budget_denials": 0.25,
+          "cache_reads": 29.025,
+          "regret": 0.2652905925112381,
+          "selected_size": 1.0,
+          "unique_reads": 10.9
+        }
+      },
+      "mlsp-2013-birds": {
+        "C": {
+          "best_hit": 0.0625,
+          "budget_denials": 0.125,
+          "cache_reads": 21.6,
+          "regret": 0.24590849708761003,
+          "selected_size": 1.175,
+          "unique_reads": 10.975
+        },
+        "H": {
+          "best_hit": 0.075,
+          "budget_denials": 0.125,
+          "cache_reads": 21.6,
+          "regret": 0.24270142009754386,
+          "selected_size": 1.075,
+          "unique_reads": 10.975
+        },
+        "L": {
+          "best_hit": 0.05625,
+          "budget_denials": 0.125,
+          "cache_reads": 21.6,
+          "regret": 0.268679267466854,
+          "selected_size": 1.15,
+          "unique_reads": 10.975
+        },
+        "T": {
+          "best_hit": 0.05,
+          "budget_denials": 0.125,
+          "cache_reads": 21.6,
+          "regret": 0.24516511209285677,
+          "selected_size": 1.025,
+          "unique_reads": 10.975
+        }
+      }
+    }
+  }
+}

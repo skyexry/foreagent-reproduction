@@ -1,0 +1,455 @@
+{
+  "best_valid_coverage_transitions_descriptive": {
+    "remained_nonzero": {
+      "episodes": 649,
+      "outcomes": {
+        "improved": 212,
+        "unchanged": 156,
+        "worsened": 281
+      },
+      "regret_gain_episode_mean": -0.00803222264885027
+    },
+    "remained_zero": {
+      "episodes": 78,
+      "outcomes": {
+        "improved": 21,
+        "unchanged": 32,
+        "worsened": 25
+      },
+      "regret_gain_episode_mean": -0.025523514818596642
+    },
+    "valid_gained": {
+      "episodes": 103,
+      "outcomes": {
+        "improved": 46,
+        "unchanged": 21,
+        "worsened": 36
+      },
+      "regret_gain_episode_mean": 0.031321468272676636
+    },
+    "valid_lost": {
+      "episodes": 20,
+      "outcomes": {
+        "improved": 5,
+        "unchanged": 4,
+        "worsened": 11
+      },
+      "regret_gain_episode_mean": -0.08117837508516619
+    }
+  },
+  "contrasts": {
+    "C0": {
+      "hit_gain": {
+        "bootstrap_seed": 20261108093,
+        "draws": 10000,
+        "gain": -0.022427503052503055,
+        "task_cluster_percentile_95": [
+          -0.06934546703296704,
+          0.013530916132478631
+        ],
+        "tasks_negative": 12,
+        "tasks_positive": 9,
+        "tasks_zero": 5
+      },
+      "leave_one_max": -0.006150237617937784,
+      "leave_one_min": -0.028184223642223484,
+      "leave_one_task_out": [
+        {
+          "gain": -0.023955230704458406,
+          "omitted_task": "aptos2019-blindness-detection"
+        },
+        {
+          "gain": -0.020230147491755425,
+          "omitted_task": "denoising-dirty-documents"
+        },
+        {
+          "gain": -0.023258840895717427,
+          "omitted_task": "detecting-insults-in-social-commentary"
+        },
+        {
+          "gain": -0.02234235352916515,
+          "omitted_task": "dog-breed-identification"
+        },
+        {
+          "gain": -0.02162732465270575,
+          "omitted_task": "google-quest-challenge"
+        },
+        {
+          "gain": -0.013080414310641284,
+          "omitted_task": "jigsaw-toxic-comment-classification-challenge"
+        },
+        {
+          "gain": -0.022351995449112896,
+          "omitted_task": "leaf-classification"
+        },
+        {
+          "gain": -0.022375104702269874,
+          "omitted_task": "learning-agency-lab-automated-essay-scoring-2"
+        },
+        {
+          "gain": -0.01976404395060457,
+          "omitted_task": "lmsys-chatbot-arena"
+        },
+        {
+          "gain": -0.0214535158108627,
+          "omitted_task": "mlsp-2013-birds"
+        },
+        {
+          "gain": -0.021130872827605694,
+          "omitted_task": "new-york-city-taxi-fare-prediction"
+        },
+        {
+          "gain": -0.02234235352916515,
+          "omitted_task": "nomad2018-predict-transparent-conductors"
+        },
+        {
+          "gain": -0.006150237617937784,
+          "omitted_task": "petfinder-pawpularity-score"
+        },
+        {
+          "gain": -0.02614545950166293,
+          "omitted_task": "plant-pathology-2020-fgvc7"
+        },
+        {
+          "gain": -0.028184223642223484,
+          "omitted_task": "predict-volcanic-eruptions-ingv-oe"
+        },
+        {
+          "gain": -0.022070235508779717,
+          "omitted_task": "random-acts-of-pizza"
+        },
+        {
+          "gain": -0.02192532769322726,
+          "omitted_task": "spooky-author-identification"
+        },
+        {
+          "gain": -0.02359793971560234,
+          "omitted_task": "stanford-covid-vaccine"
+        },
+        {
+          "gain": -0.021911261707599695,
+          "omitted_task": "statoil-iceberg-classifier-challenge"
+        },
+        {
+          "gain": -0.024677093668803125,
+          "omitted_task": "tabular-playground-series-dec-2021"
+        },
+        {
+          "gain": -0.02141273558099957,
+          "omitted_task": "tensorflow-speech-recognition-challenge"
+        },
+        {
+          "gain": -0.022706991927844564,
+          "omitted_task": "tgs-salt-identification-challenge"
+        },
+        {
+          "gain": -0.02237454404144174,
+          "omitted_task": "the-icml-2013-whale-challenge-right-whale-redux"
+        },
+        {
+          "gain": -0.022415597712891165,
+          "omitted_task": "tweet-sentiment-extraction"
+        },
+        {
+          "gain": -0.020840083163781834,
+          "omitted_task": "us-patent-phrase-to-phrase-matching"
+        },
+        {
+          "gain": -0.020234908892269275,
+          "omitted_task": "ventilator-pressure-prediction"
+        }
+      ],
+      "regret_gain": {
+        "bootstrap_seed": 20261108093,
+        "draws": 10000,
+        "gain": -0.021483032239581874,
+        "task_cluster_percentile_95": [
+          -0.062074074876483636,
+          0.012174487037274657
+        ],
+        "tasks_negative": 13,
+        "tasks_positive": 11,
+        "tasks_zero": 2
+      }
+    },
+    "coverage_random": {
+      "hit_gain": {
+        "bootstrap_seed": 20261108093,
+        "draws": 10000,
+        "gain": 0.004583333333333332,
+        "task_cluster_percentile_95": [
+          -0.008189102564102565,
+          0.017179887820512815
+        ],
+        "tasks_negative": 8,
+        "tasks_positive": 13,
+        "tasks_zero": 5
+      },
+      "leave_one_max": -0.005411047625947105,
+      "leave_one_min": -0.013474548768727142,
+      "leave_one_task_out": [
+        {
+          "gain": -0.010118790823621857,
+          "omitted_task": "aptos2019-blindness-detection"
+        },
+        {
+          "gain": -0.007741453240972463,
+          "omitted_task": "denoising-dirty-documents"
+        },
+        {
+          "gain": -0.010430812763972128,
+          "omitted_task": "detecting-insults-in-social-commentary"
+        },
+        {
+          "gain": -0.009214153598444885,
+          "omitted_task": "dog-breed-identification"
+        },
+        {
+          "gain": -0.009299552696497869,
+          "omitted_task": "google-quest-challenge"
+        },
+        {
+          "gain": -0.009214153598444885,
+          "omitted_task": "jigsaw-toxic-comment-classification-challenge"
+        },
+        {
+          "gain": -0.009116731296761993,
+          "omitted_task": "leaf-classification"
+        },
+        {
+          "gain": -0.009464396185537495,
+          "omitted_task": "learning-agency-lab-automated-essay-scoring-2"
+        },
+        {
+          "gain": -0.0071501720354627644,
+          "omitted_task": "lmsys-chatbot-arena"
+        },
+        {
+          "gain": -0.010470925720308928,
+          "omitted_task": "mlsp-2013-birds"
+        },
+        {
+          "gain": -0.00729448794071152,
+          "omitted_task": "new-york-city-taxi-fare-prediction"
+        },
+        {
+          "gain": -0.009214153598444885,
+          "omitted_task": "nomad2018-predict-transparent-conductors"
+        },
+        {
+          "gain": -0.009214153598444885,
+          "omitted_task": "petfinder-pawpularity-score"
+        },
+        {
+          "gain": -0.005411047625947105,
+          "omitted_task": "plant-pathology-2020-fgvc7"
+        },
+        {
+          "gain": -0.013474548768727142,
+          "omitted_task": "predict-volcanic-eruptions-ingv-oe"
+        },
+        {
+          "gain": -0.008809359162494791,
+          "omitted_task": "random-acts-of-pizza"
+        },
+        {
+          "gain": -0.008717620134473573,
+          "omitted_task": "spooky-author-identification"
+        },
+        {
+          "gain": -0.007581831218394698,
+          "omitted_task": "stanford-covid-vaccine"
+        },
+        {
+          "gain": -0.010155377489287827,
+          "omitted_task": "statoil-iceberg-classifier-challenge"
+        },
+        {
+          "gain": -0.011024394597383405,
+          "omitted_task": "tabular-playground-series-dec-2021"
+        },
+        {
+          "gain": -0.007881559257412702,
+          "omitted_task": "tensorflow-speech-recognition-challenge"
+        },
+        {
+          "gain": -0.00649035455492245,
+          "omitted_task": "tgs-salt-identification-challenge"
+        },
+        {
+          "gain": -0.005460124717096651,
+          "omitted_task": "the-icml-2013-whale-challenge-right-whale-redux"
+        },
+        {
+          "gain": -0.009078686754121542,
+          "omitted_task": "tweet-sentiment-extraction"
+        },
+        {
+          "gain": -0.009353215977861325,
+          "omitted_task": "us-patent-phrase-to-phrase-matching"
+        },
+        {
+          "gain": -0.008971782605372335,
+          "omitted_task": "ventilator-pressure-prediction"
+        }
+      ],
+      "regret_gain": {
+        "bootstrap_seed": 20261108093,
+        "draws": 10000,
+        "gain": -0.008859763075427773,
+        "task_cluster_percentile_95": [
+          -0.024962793466994752,
+          0.0074401855669603174
+        ],
+        "tasks_negative": 13,
+        "tasks_positive": 9,
+        "tasks_zero": 4
+      }
+    }
+  },
+  "coverage_effects_policy_minus_random": {
+    "all_best_zero_valid": {
+      "bootstrap_seed": 20261108093,
+      "draws": 10000,
+      "gain": -0.07980769230769232,
+      "task_cluster_percentile_95": [
+        -0.11057692307692307,
+        -0.05096153846153846
+      ],
+      "tasks_negative": 18,
+      "tasks_positive": 1,
+      "tasks_zero": 7
+    },
+    "best_mean_correct_direct_victories": {
+      "bootstrap_seed": 20261108093,
+      "draws": 10000,
+      "gain": -0.0019230769230769258,
+      "task_cluster_percentile_95": [
+        -0.0576923076923077,
+        0.04807692307692309
+      ],
+      "tasks_negative": 10,
+      "tasks_positive": 12,
+      "tasks_zero": 4
+    },
+    "best_mean_query_degree": {
+      "bootstrap_seed": 20261108093,
+      "draws": 10000,
+      "gain": 0.019230769230769267,
+      "task_cluster_percentile_95": [
+        -0.07019230769230765,
+        0.11156249999999969
+      ],
+      "tasks_negative": 10,
+      "tasks_positive": 11,
+      "tasks_zero": 5
+    },
+    "best_mean_valid_degree": {
+      "bootstrap_seed": 20261108093,
+      "draws": 10000,
+      "gain": -0.020192307692307707,
+      "task_cluster_percentile_95": [
+        -0.07884615384615387,
+        0.034615384615384624
+      ],
+      "tasks_negative": 11,
+      "tasks_positive": 9,
+      "tasks_zero": 6
+    },
+    "valid_edges": {
+      "bootstrap_seed": 20261108093,
+      "draws": 10000,
+      "gain": -0.1365384615384614,
+      "task_cluster_percentile_95": [
+        -0.2384615384615383,
+        -0.046153846153846004
+      ],
+      "tasks_negative": 16,
+      "tasks_positive": 7,
+      "tasks_zero": 3
+    },
+    "zero_valid_candidates": {
+      "bootstrap_seed": 20261108093,
+      "draws": 10000,
+      "gain": -0.75,
+      "task_cluster_percentile_95": [
+        -0.9125240384615385,
+        -0.5807692307692307
+      ],
+      "tasks_negative": 22,
+      "tasks_positive": 0,
+      "tasks_zero": 4
+    }
+  },
+  "coverage_task_macro": {
+    "C0": {
+      "all_best_zero_valid": 0.17307692307692307,
+      "best_mean_correct_direct_victories": 1.0355769230769232,
+      "best_mean_query_degree": 2.8028846153846154,
+      "best_mean_valid_degree": 1.5461538461538462,
+      "valid_edges": 6.025,
+      "zero_valid_candidates": 1.5009615384615385
+    },
+    "coverage_random": {
+      "all_best_zero_valid": 0.17403846153846156,
+      "best_mean_correct_direct_victories": 1.0375,
+      "best_mean_query_degree": 2.685576923076923,
+      "best_mean_valid_degree": 1.5048076923076923,
+      "valid_edges": 6.574999999999999,
+      "zero_valid_candidates": 1.6086538461538462
+    },
+    "valid_coverage_v1": {
+      "all_best_zero_valid": 0.09423076923076924,
+      "best_mean_correct_direct_victories": 1.0355769230769232,
+      "best_mean_query_degree": 2.7048076923076922,
+      "best_mean_valid_degree": 1.4846153846153847,
+      "valid_edges": 6.438461538461539,
+      "zero_valid_candidates": 0.8586538461538461
+    }
+  },
+  "denominators": {
+    "jobs": 850,
+    "pools": 425,
+    "tasks": 26
+  },
+  "development_scope": "26 previously inspected tasks; 850 paired jobs; 425 candidate pools",
+  "episode_outcomes_vs_random": {
+    "improved": 284,
+    "unchanged": 213,
+    "worsened": 353
+  },
+  "macro": {
+    "C0": {
+      "best_hit": 0.2367384004884005,
+      "budget_denials": 2.2490384615384618,
+      "cache_reads": 75.22115384615384,
+      "regret": 0.26416156273452185,
+      "unique_feedback_reads": 11.208653846153847
+    },
+    "coverage_random": {
+      "best_hit": 0.2097275641025641,
+      "budget_denials": 0.0,
+      "cache_reads": 0.0,
+      "regret": 0.276784831898676,
+      "unique_feedback_reads": 12.115384615384615
+    },
+    "valid_coverage_v1": {
+      "best_hit": 0.21431089743589743,
+      "budget_denials": 0.0,
+      "cache_reads": 0.0,
+      "regret": 0.2856445949741037,
+      "unique_feedback_reads": 12.115384615384615
+    }
+  },
+  "preregistration": "experiments/selection-frontier-02/protocol.json",
+  "protocol_sha256": "797f6c92ed5f2b824526017734017175e9cc624613d423c84893b1aa7aed9e37",
+  "selection_or_schedule": {
+    "same_full_schedule": 4,
+    "same_selected_set": 213
+  },
+  "total_unique_reads": {
+    "C0": 10574,
+    "coverage_random": 11004,
+    "valid_coverage_v1": 11004
+  }
+}

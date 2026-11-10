@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/reproduction/research_env_v1/__main__.py", line 47, in <module>
+    main()
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/reproduction/research_env_v1/__main__.py", line 28, in main
+    output=run_selection(args.output,args.policy,args.limit_jobs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/reproduction/research_env_v1/core.py", line 157, in run_selection
+    isolation = probe() if policy else {'mode':'trusted_frozen_baseline'}
+                ^^^^^^^
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/reproduction/research_env_v1/isolation.py", line 143, in probe
+    result = worker.request({'canary':str(secret)})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/reproduction/research_env_v1/isolation.py", line 80, in request
+    raise PolicyError('Worker exited: '+self.error())
+reproduction.research_env_v1.isolation.PolicyError: Worker exited: sandbox-exec: sandbox_apply: Operation not permitted
+

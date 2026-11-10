@@ -1,0 +1,18 @@
+{
+  "N_replicates": 32,
+  "banks": 4,
+  "checks": {
+    "C0_rows_verified": 3400,
+    "H_L_sealed_matches": 3400,
+    "unique_same_schedule_and_cost": 3400
+  },
+  "jobs": 3400,
+  "labels_loaded": false,
+  "original_C0_sealed_decisions_sha256": "848f6b26d39e0b9aafcc295ec6ceb512cad3f27b6353de0f4d11020b7bff5d59",
+  "original_C0_selection_seal_sha256": "1d083f7c2b881fe090bb6fdd7e447850955c15c14907a944a0f232ba99ed4181",
+  "protocol_sha256": "a917d39958175ae06ae55b1719ca9d71209f8658eeb22db7fa383140950d9d6a",
+  "script_sha256": "82c2991dbf7f3cdad947d80a5890929f4df38a2c5cadce1e9390106b2b47f7ca",
+  "sha256": "0a1261f966bbd020c3014f9f9d35bfc56e02591651ff1c744ddd2db02e8ea695",
+  "source_audit_sha256": "dea3b3871147a474eb3d2e8728573775fee540a378429fdf15afe734f577a607",
+  "supplement_sha256": "4faec342a37a371c81937231925bf60a1f081700110617e48ce5d872241b15fb"
+}

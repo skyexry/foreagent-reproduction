@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "experiments/selection-frontier-02/factorial/experiment.py",
+    "--out",
+    "ds_run_1"
+  ],
+  "cwd": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent",
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "script_sha256": "1291e05ad86a47aa1d28951118f61d4a5e5395c86104e13bdd36775669cfd669",
+  "git_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "started_utc": "2026-11-08T12:14:57.044284+00:00",
+  "max_seconds": 600
+}

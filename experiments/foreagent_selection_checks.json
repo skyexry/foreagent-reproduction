@@ -1,0 +1,43 @@
+{
+  "upstream_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "source_path": "mle-bench/agents/aide/aide/world_model.py",
+  "source_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+  "method": "Pinned source executed with package imports removed and Node/query replaced by local stubs. No network or candidate-code execution.",
+  "cache_reversal_check": {
+    "fake_api_calls": 1,
+    "AB_winner_slot": 0,
+    "BA_cached_winner_slot": 0,
+    "AB_winner_identity": "A",
+    "BA_cached_winner_identity": "B",
+    "expected_BA_slot_for_cached_A": 1
+  },
+  "fully_confident_tournament": {
+    "candidates": 10,
+    "fake_api_calls": 9,
+    "comparison_records": 9,
+    "top_rank_ids": [
+      "4"
+    ]
+  },
+  "all_low_confidence_check": {
+    "candidates": 2,
+    "fake_api_calls": 1,
+    "comparison_records": 10,
+    "last_round": 5,
+    "rank_meta": {
+      "A": {
+        "rank": 0,
+        "round": 5
+      },
+      "B": {
+        "rank": 0,
+        "round": 5
+      }
+    }
+  },
+  "execution_probability_check": {
+    "configured_probability": 0.2,
+    "draw_0_19": true,
+    "draw_0_21": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "builder.snapshot.py": "40f7fef7b0531a11ad3bfc709c25808c8c7c7db232e78f32a345a508d3dcacd0",
+  "deepseek-reasoner_0p0_pboost_cot_20251205_214840.json.gz": "c978f76a9a93cdf82d8771cab6459e356e625f4c8db845430dccc44aa417a0b2",
+  "deepseek-reasoner_0p0_pboost_cot_20251209_135057.json.gz": "8ec20920997a8fba110957f028eccaaf97c60d6b554d91742f961188fb1f7dbe",
+  "manifest.json": "cc6455f6fded7e5ac76b3edbeb4200a965f04c20c08dc3c44e88e48872fb81ee",
+  "mapping_audit.json": "92d2a6dc03f1863424f21db91bae841d60b601dbf595b49154071834f0a33c73",
+  "protocol.snapshot.json": "9b652a1813a1447169c033e607b31b0eb3bdd577a0f4d7b63ef0756038c8b1f9"
+}

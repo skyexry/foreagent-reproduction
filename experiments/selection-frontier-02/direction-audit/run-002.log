@@ -1,0 +1,10 @@
+Source audit sealed 71508
+All audit selections sealed before scoring 7ea71da482f6512d5a706e29c2c2f809283ba4820ba42440b8df42e82808c074
+Traceback (most recent call last):
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/direction-audit/audit.py", line 346, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent/experiments/selection-frontier-02/direction-audit/audit.py", line 315, in main
+    for k in ('regret','best_hit'):assert abs(prior[b][t][a][k]-per_task[b][t][a][k])<1e-12
+                                              ~~~~~^^^
+KeyError: 'DS'

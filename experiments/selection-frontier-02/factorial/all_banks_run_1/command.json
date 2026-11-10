@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "experiments/selection-frontier-02/factorial/experiment.py",
+    "--out",
+    "all_banks_run_1",
+    "--bank",
+    "experiments/selection-frontier-02/banks/gpt-5_1_1p0_pboost_cot_20251210_154406.json.gz",
+    "--bank",
+    "experiments/selection-frontier-02/banks/gpt-5_1_1p0_pboost_cot_20251211_161746.json.gz",
+    "--bank",
+    "experiments/selection-frontier-02/banks/gpt-5_1_1p0_pboost_cot_20251211_171620.json.gz"
+  ],
+  "cwd": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent",
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "script_sha256": "4b99b6b37185fbddd60f9f4ee1d160856221868804cacc7d8388fcd5e2c0f9d0",
+  "git_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "started_utc": "2026-11-08T12:15:52.689571+00:00",
+  "max_seconds": 600
+}

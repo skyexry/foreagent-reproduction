@@ -1,0 +1,29 @@
+{
+  "22280b9ccbc5b3b6b79e|830b02e1d103a1e1e594": {
+    "gap": 1.0,
+    "mean_delta": 0.0,
+    "mean_gap": 0.0,
+    "n": 0,
+    "shuffled": 1.0,
+    "terminal": 1.0,
+    "winner": "830b02e1d103a1e1e594"
+  },
+  "22280b9ccbc5b3b6b79e|87c7e67866102708eca4": {
+    "gap": 2.0,
+    "mean_delta": 1.0,
+    "mean_gap": 1.0,
+    "n": 2,
+    "shuffled": 2.0,
+    "terminal": 2.0,
+    "winner": "87c7e67866102708eca4"
+  },
+  "830b02e1d103a1e1e594|87c7e67866102708eca4": {
+    "gap": 1.117817016776729,
+    "mean_delta": 0.11781701677672894,
+    "mean_gap": 0.11781701677672894,
+    "n": 2,
+    "shuffled": 1.117817016776729,
+    "terminal": 1.117817016776729,
+    "winner": "87c7e67866102708eca4"
+  }
+}

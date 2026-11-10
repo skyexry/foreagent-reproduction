@@ -1,0 +1,56 @@
+completed 100/850 episodes
+completed 200/850 episodes
+completed 300/850 episodes
+completed 400/850 episodes
+completed 500/850 episodes
+completed 600/850 episodes
+completed 700/850 episodes
+completed 800/850 episodes
+{
+  "tasks": 26,
+  "jobs": 850,
+  "full_population": true,
+  "episode_status_counts": {
+    "ok": 850
+  },
+  "macro": {
+    "corrected_tournament": {
+      "regret": 0.26416156273452185,
+      "best_hit": 0.2367384004884005,
+      "unique_feedback_reads": 11.208653846153847,
+      "cache_reads": 75.22115384615384,
+      "budget_denials": 2.2490384615384618
+    },
+    "submitted_policy": {
+      "regret": 0.2856445949741037,
+      "best_hit": 0.21431089743589743,
+      "unique_feedback_reads": 12.115384615384615,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    }
+  },
+  "contrasts": {
+    "submitted_policy minus corrected_tournament": {
+      "regret": {
+        "delta": 0.021483032239581874,
+        "task_cluster_95": [
+          -0.012174487037274674,
+          0.06207407487648362
+        ],
+        "tasks_better": 11,
+        "tasks_equal": 2,
+        "tasks_worse": 13
+      },
+      "best_hit": {
+        "delta": -0.022427503052503055,
+        "task_cluster_95": [
+          -0.06934546703296704,
+          0.013530916132478631
+        ],
+        "tasks_better": 9,
+        "tasks_equal": 5,
+        "tasks_worse": 12
+      }
+    }
+  }
+}

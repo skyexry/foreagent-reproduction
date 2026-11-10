@@ -1,0 +1,15 @@
+{
+  "README.md": "8346c5e9b097d940f5a6100b69296d79f167943d835c6496ceb65531098a8ea0",
+  "diagnostics.json": "e5dc55cb16ac79d4d683302738af913431b02d69b15fa0bb9a5a068d2035cdc0",
+  "flags.sealed.jsonl.gz": "eea6781c8638b9453f50a137cfe097018693c5e8b0cbd7d9ded61d78fce8e54f",
+  "per_task.json": "db10992aa330f12407950db4045e6fbc63fee075ce8b80a0c872a7ffe2443f78",
+  "protocol.json": "e0d3ef5483ed4ed3f17087d8cc4bb189d704d0b8d60b8d1b0fe292051cb4f4fa",
+  "receipt.json": "479efeabb576ecaeaae588d1e795a275fa1bd5442635e36c95cf1fdfe36f7933",
+  "run.executed.py": "0d1edc072e875fda2ee92a7806ddbc74e708a8fba47259b137644560732741e6",
+  "run.py": "0d1edc072e875fda2ee92a7806ddbc74e708a8fba47259b137644560732741e6",
+  "scores.jsonl.gz": "f95eacb33d977d147f4c7869f4cacb813db146710700a96ee382b5ae9022cd11",
+  "selection_seal.json": "ad95b328226931aa1f1b5f22224f1b55c4727b2f3b196e2ac4fab0c35c20e36b",
+  "selections.sealed.jsonl.gz": "23014d095a6210a67185ddabf701bd3f5e789be2913d001a491409918ed07586",
+  "summary.json": "127d01133ecdcbf09361bb2ec806ad79dc9292e7cd0643a372ad9b928937737f",
+  "verify.py": "92d7dc38fe207ea03fba12aac8985f9adca9e5b0654cb2f63f4ff77bf54877a9"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "deepseek-transfer-04",
+  "registered_utc": "2026-11-08T12:20:16.939718+00:00",
+  "status_at_registration": "No temperature-zero report contents or resulting selection outcomes read. Directory-list metadata of one task available; two reports identified.",
+  "source": {
+    "dataset": "zjunlp/PredictBeforeExecute",
+    "revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+    "banks": [
+      "deepseek-reasoner_0p0_pboost_cot_20251205_214840",
+      "deepseek-reasoner_0p0_pboost_cot_20251209_135057"
+    ],
+    "reference": "deepseek-reasoner_1p0_pboost_cot_20251209_164656"
+  },
+  "population": "All 26 previously inspected development tasks; frozen 877 representative candidate IDs and 17877 admitted pair keys per bank; 850 jobs. Download metadata/verify filename, Git blob or LFS SHA256/size, map original pair order by code identity. Preserve failures/absent pairs as explicit abstentions with provenance; if availability only allows common-task subset, all DS1/GPT comparisons on matched subset reported separately. Never silently substitute judgments.",
+  "selection": "Reuse snapshotted c0-final-selection/experiment.py functions/select/load_world; each new bank independently runs actual C0 scheduling at .7 on same jobs/seed/budget; seal all C/H/L/T choices and revealed traces before loading execution score labels. H all candidates .7 raw legacy top_set; L all candidates .5 raw legacy top_set; T restricted to actual C top but using full L evidence against all opponents. Preserve failures/defaults by frozen response_values. Intervention is final postprocessing, does not feed upstream.",
+  "primary": "Each temperature-zero bank R(C)-R(L); average bank gains within each task then mean 26 tasks. Two gains positive, pooled gain>=.01, every leave-one pooled gain>0 required for same-model research lead. Report C-H,H-L,L-T ablations and best_hit/costs/edge direction accuracy/coverage.",
+  "secondary": "If primary modular change fails, compare each new bank actual C0 to original DS1 actual C0. Both gains positive, task-first pooled gain>=.01 and every leave-one pooled gain>0 constitute judge-setting research lead. Temperature, run order/time and setting are confounded; report as archived setting comparison. DS1 discovery, three GPT repeats separate; development scope persists.",
+  "inference": {
+    "gain": "baseline minus intervention normalized regret; positive favors intervention",
+    "ties": "uniform mean over all selected ties",
+    "bootstrap_unit": "paired complete task; bank repeats within task first",
+    "bootstrap_seed": 20261108093,
+    "bootstrap_repeats": 10000,
+    "CI": "percentile95; confidence separate from descriptive criterion",
+    "leave_one": "every included task"
+  },
+  "limits": {
+    "API": 0,
+    "GPU": 0,
+    "training": 0,
+    "max_seconds_per_analysis_or_download_attempt": 600,
+    "download_location": "/private/tmp/foreagent-deepseek-transfer-04",
+    "outputs": "fresh run directories; preserve failed attempts and negative results"
+  },
+  "prior_protocol_sha256": "85355f6e117dd6770e28ea813df2bbbc6715d7ea0bb87835ad51b144395744c2"
+}

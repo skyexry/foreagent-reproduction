@@ -1,0 +1,17 @@
+{
+  "exact_ast_filter_rechecked": true,
+  "fits": 104,
+  "folds": 26,
+  "heldout_label_or_credit_files_read": false,
+  "prediction_rows": 18224,
+  "prediction_seal_sha256": "6343009d9b35fc5f97d2dd0b06ee8eabaaf7762f20ccff8647c4009259a51300",
+  "status": "passed",
+  "ties": {
+    "gap_ties": 0,
+    "shuffled_ties": 0,
+    "terminal_ties": 0,
+    "uniform_ties": 0
+  },
+  "training_pairs_across_folds": 446775,
+  "verifier_sha256": "81503407d6f6cdd328b16c87bf266059fc7f4a90d994f20071d4f45d18044618"
+}

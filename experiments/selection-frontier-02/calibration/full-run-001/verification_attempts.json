@@ -1,0 +1,5 @@
+{
+  "initial_attempt": "ModuleNotFoundError: reproduction while loading nested experiment.snapshot.py in the standalone verifier",
+  "correction": "Verifier inserts project ROOT in sys.path before importing frozen fit function. Experiment, calibration decisions and predictions unchanged.",
+  "final_status": "passed"
+}

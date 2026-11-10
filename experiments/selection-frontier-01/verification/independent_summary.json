@@ -1,0 +1,234 @@
+{
+  "bootstrap": "paired task percentile; each value is [mean,lower95,upper95]",
+  "counts": {
+    "J_equal": 228,
+    "J_negative": 73,
+    "J_positive": 549,
+    "J_set_changes": 622,
+    "episodes_edges": 11004,
+    "flip_T": 290,
+    "flip_U": 271,
+    "invalid_T": 404,
+    "invalid_U": 395,
+    "invalid_edges": 5097,
+    "jobs_with_error": 769,
+    "same_next_edge": 9,
+    "strict_errors": 2210,
+    "strict_valid_edges": 5907
+  },
+  "d_tasks": {
+    "equal": 4,
+    "negative": 14,
+    "positive": 8
+  },
+  "effects": {
+    "D_harm": [
+      0.009582699277343532,
+      -0.002314740452194897,
+      0.027493292467821197
+    ],
+    "D_missed": [
+      -0.006690092340493226,
+      -0.013668947160774166,
+      0.0005804268921432161
+    ],
+    "G_T": [
+      -0.010440019323181464,
+      -0.046038558480149816,
+      0.012347120925869289
+    ],
+    "G_U": [
+      -0.007547412386331157,
+      -0.025619539259864824,
+      0.00461698148195974
+    ],
+    "J_corrected": [
+      0.0981461588134198,
+      0.06335285040254747,
+      0.14292376520572198
+    ],
+    "J_gain": [
+      0.17863867308525613,
+      0.11544985336311336,
+      0.2623697149244516
+    ],
+    "J_hit_gain": [
+      0.22064102564102564,
+      0.1491466346153846,
+      0.3090404647435897
+    ],
+    "J_original": [
+      0.276784831898676,
+      0.1974269273702605,
+      0.3667685836242155
+    ],
+    "S": [
+      0.29243066201900114,
+      0.2150501274196581,
+      0.37974791759279175
+    ],
+    "T": [
+      0.3028706813421826,
+      0.21611511324472638,
+      0.39927777418625343
+    ],
+    "T_minus_U": [
+      0.002892606936850305,
+      -0.013129629850422417,
+      0.02351634600922811
+    ],
+    "U": [
+      0.2999780744053323,
+      0.2189223418331661,
+      0.39092019600733
+    ],
+    "benefit_T": [
+      0.024230359504312102,
+      0.01723607235034886,
+      0.031390374783065327
+    ],
+    "benefit_U": [
+      0.017540267163818877,
+      0.011730038475287615,
+      0.023874127191012298
+    ],
+    "harm_T": [
+      0.03467037882749357,
+      0.014651993745282815,
+      0.0674196400467873
+    ],
+    "harm_U": [
+      0.025087679550150035,
+      0.014455503531504857,
+      0.04147144864839988
+    ],
+    "hit_J_corrected": [
+      0.4303685897435897,
+      0.3389391025641026,
+      0.5355929487179487
+    ],
+    "hit_J_original": [
+      0.2097275641025641,
+      0.12504807692307693,
+      0.31920753205128194
+    ],
+    "hit_S": [
+      0.2030448717948718,
+      0.11845953525641026,
+      0.31285536858974355
+    ],
+    "hit_T": [
+      0.18778846153846154,
+      0.10611738782051283,
+      0.29609054487179487
+    ],
+    "hit_U": [
+      0.19384615384615383,
+      0.11264383012820513,
+      0.3022996794871794
+    ],
+    "reads_S": [
+      8.0,
+      7.076923076923077,
+      8.73076923076923
+    ],
+    "reads_T": [
+      9.0,
+      8.076923076923077,
+      9.73076923076923
+    ],
+    "reads_U": [
+      9.0,
+      8.076923076923077,
+      9.73076923076923
+    ]
+  },
+  "examples": {
+    "equal": {
+      "after": [
+        "6458792e4d2669ebf528"
+      ],
+      "before": [
+        "6458792e4d2669ebf528"
+      ],
+      "corrected": 0.028210317624220407,
+      "direction_errors": 4,
+      "job_id": "aptos2019-blindness-detection:4:1",
+      "original": 0.028210317624220407
+    },
+    "negative": {
+      "after": [
+        "94b129e850d522cbb7cc"
+      ],
+      "before": [
+        "31d2e74fd1b930d03368",
+        "54f65111c7b0b50c0382",
+        "afb63a047597cb18e30e",
+        "fed1e7ef9dc3fccfc19e",
+        "6458792e4d2669ebf528"
+      ],
+      "corrected": 0.3674982445995621,
+      "direction_errors": 5,
+      "job_id": "aptos2019-blindness-detection:4:0",
+      "original": 0.3269175168311925
+    },
+    "positive": {
+      "after": [
+        "f587a441681f154f569a",
+        "71754f67b837dcaf148f"
+      ],
+      "before": [
+        "20f7b8fc48a65a86de3c",
+        "71754f67b837dcaf148f"
+      ],
+      "corrected": 0.01998854290273743,
+      "direction_errors": 1,
+      "job_id": "aptos2019-blindness-detection:0:0",
+      "original": 0.4705286632022587
+    }
+  },
+  "full_history_count": 1700,
+  "gate_D2": false,
+  "gate_stop": false,
+  "j_tasks": {
+    "equal": 2,
+    "positive": 24
+  },
+  "jobs": 850,
+  "leave_one": {
+    "aptos2019-blindness-detection": 0.003820881943803112,
+    "denoising-dirty-documents": 0.0021825273326685924,
+    "detecting-insults-in-social-commentary": 0.003256893511518206,
+    "dog-breed-identification": 0.0030083112143243175,
+    "google-quest-challenge": 0.004981427834944133,
+    "jigsaw-toxic-comment-classification-challenge": 0.0030083112143243175,
+    "leaf-classification": 0.003511089695899036,
+    "learning-agency-lab-automated-essay-scoring-2": 0.004513263960906889,
+    "lmsys-chatbot-arena": 0.0023855853716639,
+    "mlsp-2013-birds": 0.0037877817973778916,
+    "new-york-city-taxi-fare-prediction": -1.2409155800295682e-05,
+    "nomad2018-predict-transparent-conductors": 0.0030083112143243175,
+    "petfinder-pawpularity-score": -0.005087746741289367,
+    "plant-pathology-2020-fgvc7": 0.0030083112143243175,
+    "predict-volcanic-eruptions-ingv-oe": 0.0020132681462991745,
+    "random-acts-of-pizza": 0.0030828025115213725,
+    "spooky-author-identification": 0.003213061191620864,
+    "stanford-covid-vaccine": 0.0024944584380211794,
+    "statoil-iceberg-classifier-challenge": 0.0015796663166424377,
+    "tabular-playground-series-dec-2021": 0.00442569722544152,
+    "tensorflow-speech-recognition-challenge": 0.0034232499304223995,
+    "tgs-salt-identification-challenge": 0.0034474601620229674,
+    "the-icml-2013-whale-challenge-right-whale-redux": 0.0025600081491256297,
+    "tweet-sentiment-extraction": 0.003649826096017066,
+    "us-patent-phrase-to-phrase-matching": 0.005179576438000463,
+    "ventilator-pressure-prediction": 0.004766165343983498
+  },
+  "per_task_sha256": "cfd0c3ea8582093ce22496e1ae7a4327fa87e9dd2e8ea52cba6ce56b05969fea",
+  "pools": 425,
+  "protocol_sha256": "fbd9f027a7f2afdce09b24927825df21f8714e864ba1c996e1e0a2a010fe1100",
+  "registered_inputs_verified": 10,
+  "sha256_feedback_bank": "05cce565494e598d2b2820ee19a485c2351c5143b1660033323537839a040246",
+  "sha256_prefix_selections": "90f6859d1b5db1a2f8a2d3854de3ac52aed9abc39b6f58293ee4b3ab552acd26",
+  "source_traces_sha256": "e16781ad5e08120036ab8b5a8f176f5e8dfb0b6a4b6f25e313fb6699c98040ef",
+  "tasks": 26
+}

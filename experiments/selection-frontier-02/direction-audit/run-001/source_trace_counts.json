@@ -1,0 +1,36 @@
+{
+  "DS": {
+    "low_added_edge_episodes": 3624,
+    "low_added_evidence:archive_prediction_only": 1666,
+    "low_added_evidence:retained_reasoning_explicit_json_match": 1958,
+    "low_added_explicit_archive": 3624,
+    "low_added_explicit_raw": 1958,
+    "low_missing_confidence": 0,
+    "low_recorded_error_fallback": 0
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "low_added_edge_episodes": 2318,
+    "low_added_evidence:archive_prediction_only": 1754,
+    "low_added_evidence:full_raw_json_match": 564,
+    "low_added_explicit_archive": 2318,
+    "low_added_explicit_raw": 564,
+    "low_missing_confidence": 0,
+    "low_recorded_error_fallback": 0
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "low_added_edge_episodes": 2408,
+    "low_added_evidence:archive_prediction_only": 2408,
+    "low_added_explicit_archive": 2408,
+    "low_added_explicit_raw": 0,
+    "low_missing_confidence": 0,
+    "low_recorded_error_fallback": 0
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "low_added_edge_episodes": 2382,
+    "low_added_evidence:archive_prediction_only": 2382,
+    "low_added_explicit_archive": 2382,
+    "low_added_explicit_raw": 0,
+    "low_missing_confidence": 0,
+    "low_recorded_error_fallback": 0
+  }
+}

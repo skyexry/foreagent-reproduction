@@ -1,0 +1,23 @@
+{
+  "command.json": "60e4b0cd19fb8a9c7ff014bf04d1a301619954fa89779bbbb5902c645b92695b",
+  "diagnostics.json": "0ae6ab1eef0f64659dff255bc595dfdf0dcb57d04d2e4b92300b768e3b63f71a",
+  "environment_status.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "environment_status.stdout.json": "e8c509e674272a52981e98068a9e002f81a66b0740dd3cf2e9412b33b2cc3c2f",
+  "experiment.py": "ff8614f27bbc7ff5b5e758e69fbe5096ca960da6f0a6c6cea5dc5de0cc50076d",
+  "final_info.json": "326b3cb5bba2b32a1bbb05057683300442da102757caa3abfe98bd49c7285fe8",
+  "full_length_verification.json": "6e11872e66e2c2ebea88792884d89757625ecce0659fd007e46d4e3901910d94",
+  "input_manifest.json": "d482ae6418415b4012a4372f014c5705177a1a1d94a819ce7da98ef47916f648",
+  "leave_one_task_out.json": "bf46266d86e9448b27a8b3e91cc11348f17c97adab3ce685d1b188e2e2b9ddb6",
+  "notes.md": "e7a2fbc4ca5dd34be2a5882005a25269bb2072322d87650e7db40536937a07cd",
+  "per_job_evidence.jsonl": "4545af061657d23cc8de65527f42404cfa831cf73f5aca33ab9e1c3aa6845efd",
+  "per_task.jsonl": "1720144072a543acf6897e7a0318256ab830d429831d5b67ebf56d87db654581",
+  "projected_full_traces.jsonl": "366546d074e2448db4ea7655775fb3624299a0daaecff9f8c670fcffe0bcf567",
+  "sealed_selections.jsonl": "28ebf101ed0e29d8bd592ddcfc68004ab43b5f6c49c5340b1e627a7ec15e1d87",
+  "selection.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "selection.stdout.log": "ad6868a24ad88b8ae71e7a01d29c62102bbf50c54e630b17ae0cc8298720a532",
+  "selection_command.json": "ad9b00d0fa7d3bb66f641c7cdc2e53884facede2705c857613fffcfa75692b79",
+  "selection_seal.json": "7dc35a70fa8c95a25b9115d7e409a05c06bd4b8af867893e0ca1daefdbcf758b",
+  "stdout.log": "475232b6c52ff95447bfb61fbd9ae9432d8de094651a0b9ee9517386a50bf979",
+  "strata.json": "f12dbf25362b398fcd3352638cb343c773da1b31fda0059249e930c01d2389d8",
+  "summary.json": "da795b5e2b4a8b5c9684ef805d3ac350a12681775bbc07cc383f286c0fc27292"
+}

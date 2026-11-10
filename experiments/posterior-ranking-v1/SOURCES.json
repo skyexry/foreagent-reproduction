@@ -1,0 +1,29 @@
+{
+  "code_version": "7ae1b5b7d27353efe9ac71a0e0368881f6ba4efffd2a38f5a42c53b79d7e624a",
+  "completed_utc": "2026-11-08T13:51:05.806251+00:00",
+  "control_source": "experiments/selection-frontier-02/c0-final-selection/run-002, C and H only",
+  "decision": "retain_C0",
+  "experiment": "posterior-ranking-v1",
+  "git_head_at_registration": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "inputs": {
+    "experiments/clean-ranking-v1/prepared/evaluation_labels.json": "0e6df025a3634209ca63e7bf2bba64ef79c12e693946b1ee2afa2e560e13d7c7",
+    "experiments/clean-ranking-v1/prepared/jobs.jsonl": "0dceac7f9ff17f6f5842b66287a0864265b422c6abb2109be1567b14ffa28b3c",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/decisions.sealed.jsonl.gz": "848f6b26d39e0b9aafcc295ec6ceb512cad3f27b6353de0f4d11020b7bff5d59",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/per_episode.jsonl": "ca5ec391a6d9776e5e4a73a4693548e69367cacc129fdcbcd16f936a17580f7d",
+    "experiments/selection-frontier-02/c0-final-selection/run-002/summary.json": "e5a50ff92aad5f9915bb36f497eef500065d212ca0217edc7e804748b964f28d",
+    "experiments/trajectory-weighted-judge-v1/evaluation/run_1/decisions.sealed.jsonl.gz": "f62cdb5d7b332531076bdc909242bc67133244a7e21a78cb7f37a9590d9d02a3",
+    "reproduction/clean_ranking_v1/ranking.py": "6996654fd6fb2f45ca5a390ea4387dc45fbd2b473d76583b66f12db4310af16a",
+    "reproduction/clean_ranking_v1/run.py": "c17f55e233e858aad15f78e652158eacd4766f90a167d7c2518678e4c2de9cc9"
+  },
+  "main_trace_source": "experiments/trajectory-weighted-judge-v1/evaluation/run_1/decisions.sealed.jsonl.gz, C0 arms only",
+  "new_network_calls": 0,
+  "new_training": 0,
+  "protocol_sha256": "c0329efda4c2f015d48f650913028e1bda57b003298cb0986685782658e384f0",
+  "registered_utc": "2026-11-08T13:47:07.827785+00:00",
+  "runtime": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "sealed_utc": "2026-11-08T13:49:19.383298+00:00",
+  "source_data_status": "pre-existing archived offline development dataset"
+}

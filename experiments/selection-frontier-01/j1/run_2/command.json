@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "experiments/selection-frontier-01/j1/experiment.py",
+    "--out_dir=run_2"
+  ],
+  "shell_command": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3 -B experiments/selection-frontier-01/j1/experiment.py --out_dir=run_2",
+  "cwd": "/Users/shrinn81/Documents/Data Mining/PM Final Project/ML Agent",
+  "started_utc": "2026-11-08T12:00:14.822785+00:00",
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "max_seconds": 600,
+  "git_branch": "main",
+  "git_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "script_sha256": "3df6714ec1fa19cfca4b7d1b39bab21eca372bd9b56bcb827a713fa54ce1423a",
+  "snapshot_sha256": "3df6714ec1fa19cfca4b7d1b39bab21eca372bd9b56bcb827a713fa54ce1423a",
+  "execution_mode": "local CPU evaluator-only replay; AI Scientist organization; native launcher adaptation remains separate"
+}

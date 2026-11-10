@@ -1,0 +1,271 @@
+{
+  "contrasts": {
+    "A_minus_D": {
+      "best_hit": {
+        "ci95": [
+          -0.06712127976190477,
+          0.04588619791666665
+        ],
+        "every_leave_one_positive": false,
+        "gain": -0.011457093253968256,
+        "leave_one_max": 0.009247685185185182,
+        "leave_one_min": -0.033563436948853616,
+        "leave_one_task_out": {
+          "aptos2019-blindness-detection": -0.013100473985890652,
+          "denoising-dirty-documents": -0.007116677689594357,
+          "detecting-insults-in-social-commentary": 0.009247685185185182,
+          "dog-breed-identification": -0.012730103615520285,
+          "google-quest-challenge": -0.012498622134038804,
+          "jigsaw-toxic-comment-classification-challenge": -0.033563436948853616,
+          "leaf-classification": -0.006769455467372136,
+          "learning-agency-lab-automated-essay-scoring-2": -0.005878251763668435,
+          "lmsys-chatbot-arena": -0.014466214726631395,
+          "mlsp-2013-birds": -0.01769538139329806
+        },
+        "per_task_gain": {
+          "aptos2019-blindness-detection": 0.0033333333333332993,
+          "denoising-dirty-documents": -0.05052083333333335,
+          "detecting-insults-in-social-commentary": -0.1978000992063492,
+          "dog-breed-identification": -0.0,
+          "google-quest-challenge": -0.002083333333333326,
+          "jigsaw-toxic-comment-classification-challenge": 0.1875,
+          "leaf-classification": -0.05364583333333334,
+          "learning-agency-lab-automated-essay-scoring-2": -0.06166666666666665,
+          "lmsys-chatbot-arena": 0.015625,
+          "mlsp-2013-birds": 0.04468749999999999
+        },
+        "tasks_improved": 4,
+        "tasks_unchanged": 1,
+        "tasks_worsened": 5
+      },
+      "regret": {
+        "ci95": [
+          -0.038848706114846726,
+          0.024930361429885833
+        ],
+        "every_leave_one_positive": false,
+        "gain": -0.007114657843770961,
+        "leave_one_max": 0.0038485832939446065,
+        "leave_one_min": -0.016918999190981183,
+        "leave_one_task_out": {
+          "aptos2019-blindness-detection": -0.016918999190981183,
+          "denoising-dirty-documents": -0.004494637470538529,
+          "detecting-insults-in-social-commentary": 0.0038485832939446065,
+          "dog-breed-identification": -0.007905175381967734,
+          "google-quest-challenge": -0.0078063617283558075,
+          "jigsaw-toxic-comment-classification-challenge": -0.01572898146011536,
+          "leaf-classification": -0.00648425691559142,
+          "learning-agency-lab-automated-essay-scoring-2": -0.002127833963630698,
+          "lmsys-chatbot-arena": -0.00866236918315229,
+          "mlsp-2013-birds": -0.004866546437321195
+        },
+        "per_task_gain": {
+          "aptos2019-blindness-detection": 0.08112441428112105,
+          "denoising-dirty-documents": -0.030694841202862852,
+          "detecting-insults-in-social-commentary": -0.10578382808321107,
+          "dog-breed-identification": 0.0,
+          "google-quest-challenge": -0.0008893228825073429,
+          "jigsaw-toxic-comment-classification-challenge": 0.07041425470332863,
+          "leaf-classification": -0.012788266197386829,
+          "learning-agency-lab-automated-essay-scoring-2": -0.05199607276503333,
+          "lmsys-chatbot-arena": 0.006814744210661,
+          "mlsp-2013-birds": -0.02734766050181886
+        },
+        "tasks_improved": 3,
+        "tasks_unchanged": 1,
+        "tasks_worsened": 6
+      }
+    },
+    "O_minus_A": {
+      "best_hit": {
+        "ci95": [
+          0.007968489583333335,
+          0.10027937127976189
+        ],
+        "every_leave_one_positive": true,
+        "gain": 0.05413963293650794,
+        "leave_one_max": 0.07057181437389771,
+        "leave_one_min": 0.03725694444444445,
+        "leave_one_task_out": {
+          "aptos2019-blindness-detection": 0.0506644069664903,
+          "denoising-dirty-documents": 0.051069499559082895,
+          "detecting-insults-in-social-commentary": 0.03725694444444445,
+          "dog-breed-identification": 0.060155147707231044,
+          "google-quest-challenge": 0.05402088844797178,
+          "jigsaw-toxic-comment-classification-challenge": 0.07057181437389771,
+          "leaf-classification": 0.05199542548500882,
+          "learning-agency-lab-automated-essay-scoring-2": 0.04896301807760142,
+          "lmsys-chatbot-arena": 0.054946814373897715,
+          "mlsp-2013-birds": 0.06175236992945327
+        },
+        "per_task_gain": {
+          "aptos2019-blindness-detection": 0.0854166666666667,
+          "denoising-dirty-documents": 0.08177083333333335,
+          "detecting-insults-in-social-commentary": 0.20608382936507935,
+          "dog-breed-identification": -0.0,
+          "google-quest-challenge": 0.05520833333333336,
+          "jigsaw-toxic-comment-classification-challenge": -0.09375,
+          "leaf-classification": 0.07343749999999999,
+          "learning-agency-lab-automated-essay-scoring-2": 0.10072916666666665,
+          "lmsys-chatbot-arena": 0.046875,
+          "mlsp-2013-birds": -0.014374999999999999
+        },
+        "tasks_improved": 7,
+        "tasks_unchanged": 1,
+        "tasks_worsened": 2
+      },
+      "regret": {
+        "ci95": [
+          0.03779113710590146,
+          0.11015057700485133
+        ],
+        "every_leave_one_positive": true,
+        "gain": 0.0723598267191667,
+        "leave_one_max": 0.08039980746574077,
+        "leave_one_min": 0.058584101564470505,
+        "leave_one_task_out": {
+          "aptos2019-blindness-detection": 0.06678761473030309,
+          "denoising-dirty-documents": 0.07194214478743864,
+          "detecting-insults-in-social-commentary": 0.06579793346845707,
+          "dog-breed-identification": 0.08039980746574077,
+          "google-quest-challenge": 0.07681092334627106,
+          "jigsaw-toxic-comment-classification-challenge": 0.058584101564470505,
+          "leaf-classification": 0.07873236153304082,
+          "learning-agency-lab-automated-essay-scoring-2": 0.07172617666848013,
+          "lmsys-chatbot-arena": 0.0783073655054229,
+          "mlsp-2013-birds": 0.07450983812204191
+        },
+        "per_task_gain": {
+          "aptos2019-blindness-detection": 0.1225097346189391,
+          "denoising-dirty-documents": 0.0761189641047191,
+          "detecting-insults-in-social-commentary": 0.13141686597555327,
+          "dog-breed-identification": 0.0,
+          "google-quest-challenge": 0.0322999570752274,
+          "jigsaw-toxic-comment-classification-challenge": 0.19634135311143236,
+          "leaf-classification": 0.01500701339429951,
+          "learning-agency-lab-automated-essay-scoring-2": 0.07806267717534573,
+          "lmsys-chatbot-arena": 0.01883197764286075,
+          "mlsp-2013-birds": 0.05300972409328969
+        },
+        "tasks_improved": 9,
+        "tasks_unchanged": 1,
+        "tasks_worsened": 0
+      }
+    },
+    "O_minus_D": {
+      "best_hit": {
+        "ci95": [
+          0.02458878968253968,
+          0.06164087301587301
+        ],
+        "every_leave_one_positive": true,
+        "gain": 0.04268253968253968,
+        "leave_one_max": 0.04742504409171076,
+        "leave_one_min": 0.03700837742504409,
+        "leave_one_task_out": {
+          "aptos2019-blindness-detection": 0.03756393298059965,
+          "denoising-dirty-documents": 0.04395282186948854,
+          "detecting-insults-in-social-commentary": 0.04650462962962963,
+          "dog-breed-identification": 0.04742504409171076,
+          "google-quest-challenge": 0.04152226631393298,
+          "jigsaw-toxic-comment-classification-challenge": 0.03700837742504409,
+          "leaf-classification": 0.04522597001763669,
+          "learning-agency-lab-automated-essay-scoring-2": 0.04308476631393298,
+          "lmsys-chatbot-arena": 0.040480599647266316,
+          "mlsp-2013-birds": 0.0440569885361552
+        },
+        "per_task_gain": {
+          "aptos2019-blindness-detection": 0.08875,
+          "denoising-dirty-documents": 0.03125,
+          "detecting-insults-in-social-commentary": 0.008283730158730157,
+          "dog-breed-identification": -0.0,
+          "google-quest-challenge": 0.05312500000000003,
+          "jigsaw-toxic-comment-classification-challenge": 0.09375,
+          "leaf-classification": 0.019791666666666652,
+          "learning-agency-lab-automated-essay-scoring-2": 0.0390625,
+          "lmsys-chatbot-arena": 0.0625,
+          "mlsp-2013-birds": 0.030312499999999992
+        },
+        "tasks_improved": 9,
+        "tasks_unchanged": 1,
+        "tasks_worsened": 0
+      },
+      "regret": {
+        "ci95": [
+          0.019060014108605694,
+          0.12438014884461576
+        ],
+        "every_leave_one_positive": true,
+        "gain": 0.06524516887539573,
+        "leave_one_max": 0.07249463208377303,
+        "leave_one_min": 0.042855120104355146,
+        "leave_one_task_out": {
+          "aptos2019-blindness-detection": 0.049868615539321905,
+          "denoising-dirty-documents": 0.06744750731690012,
+          "detecting-insults-in-social-commentary": 0.06964651676240169,
+          "dog-breed-identification": 0.07249463208377303,
+          "google-quest-challenge": 0.06900456161791525,
+          "jigsaw-toxic-comment-classification-challenge": 0.042855120104355146,
+          "leaf-classification": 0.0722481046174494,
+          "learning-agency-lab-automated-essay-scoring-2": 0.06959834270484944,
+          "lmsys-chatbot-arena": 0.06964499632227061,
+          "mlsp-2013-birds": 0.06964329168472072
+        },
+        "per_task_gain": {
+          "aptos2019-blindness-detection": 0.20363414890006015,
+          "denoising-dirty-documents": 0.045424122901856254,
+          "detecting-insults-in-social-commentary": 0.025633037892342198,
+          "dog-breed-identification": 0.0,
+          "google-quest-challenge": 0.031410634192720055,
+          "jigsaw-toxic-comment-classification-challenge": 0.266755607814761,
+          "leaf-classification": 0.0022187471969126807,
+          "learning-agency-lab-automated-essay-scoring-2": 0.026066604410312402,
+          "lmsys-chatbot-arena": 0.02564672185352175,
+          "mlsp-2013-birds": 0.02566206359147083
+        },
+        "tasks_improved": 9,
+        "tasks_unchanged": 1,
+        "tasks_worsened": 0
+      }
+    }
+  },
+  "macro": {
+    "A": {
+      "altered_queried": 1.32375,
+      "best_hit": 0.32303447420634923,
+      "budget_denials": 1.421875,
+      "cache_reads": 57.24875000000001,
+      "comparison_records": 69.239375,
+      "eligible_queried": 2.62125,
+      "regret": 0.15157944394354803,
+      "selected_size": 1.384375,
+      "target_queried": 1.32375,
+      "unique_feedback_reads": 10.56875
+    },
+    "D": {
+      "altered_queried": 0.40750000000000003,
+      "best_hit": 0.31157738095238097,
+      "budget_denials": 2.83,
+      "cache_reads": 87.58874999999999,
+      "comparison_records": 101.384375,
+      "eligible_queried": 2.703125,
+      "regret": 0.158694101787319,
+      "selected_size": 1.799375,
+      "target_queried": 1.324375,
+      "unique_feedback_reads": 10.965625
+    },
+    "O": {
+      "altered_queried": 0.0,
+      "best_hit": 0.26889484126984126,
+      "budget_denials": 2.755,
+      "cache_reads": 85.7125,
+      "comparison_records": 99.3625,
+      "eligible_queried": 0.0,
+      "regret": 0.22393927066271474,
+      "selected_size": 1.8475000000000001,
+      "target_queried": 0.0,
+      "unique_feedback_reads": 10.895
+    }
+  },
+  "tasks": 10
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "experiments/selection-frontier-02/judge-intervention/experiment.py",
+    "--out",
+    "run_1"
+  ],
+  "git_head": "9442373ad020a06b691700592b0c83281b31d8c9",
+  "max_seconds": 600,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "protocol_sha256": "9f728217c5ad0e8ea13831f4d6084b00d88ba25f0ba465c754d048776e2d4af3",
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "script_sha256": "8378986ce97e6a52264458101c02a2d24da820ac4cbcfa01f96cb67bb198f09e",
+  "started_utc": "2026-11-08T12:33:20.568129+00:00"
+}

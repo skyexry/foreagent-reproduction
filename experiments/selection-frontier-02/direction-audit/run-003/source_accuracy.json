@@ -1,0 +1,40 @@
+{
+  "DS": {
+    "counts": {
+      "strict_correct": 2041,
+      "strict_total": 3624
+    },
+    "micro_strict_accuracy": 0.5631898454746137,
+    "nonempty_tasks": 24,
+    "task_macro_strict_accuracy_nonempty_tasks": 0.5565506111806077
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "counts": {
+      "explicit_strict_correct": 315,
+      "explicit_strict_total": 564,
+      "strict_correct": 1233,
+      "strict_total": 2318
+    },
+    "micro_strict_accuracy": 0.5319240724762726,
+    "nonempty_tasks": 23,
+    "task_macro_strict_accuracy_nonempty_tasks": 0.5241427919152918
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "counts": {
+      "strict_correct": 1227,
+      "strict_total": 2408
+    },
+    "micro_strict_accuracy": 0.5095514950166113,
+    "nonempty_tasks": 25,
+    "task_macro_strict_accuracy_nonempty_tasks": 0.5049393336410476
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "counts": {
+      "strict_correct": 1185,
+      "strict_total": 2382
+    },
+    "micro_strict_accuracy": 0.49748110831234255,
+    "nonempty_tasks": 24,
+    "task_macro_strict_accuracy_nonempty_tasks": 0.46182629625002797
+  }
+}

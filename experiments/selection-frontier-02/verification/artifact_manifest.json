@@ -1,0 +1,13 @@
+{
+  "sha256": {
+    "README.md": "0bd142c2b9b5b2f6e272eae8121899a495ea341d392c3bcda19783fa31a8f18d",
+    "audit_judge_ds1.log": "88ea6e2c329005b68be48ced6a1614278edfd200c4a432354df7953f584df282",
+    "audit_judge_ds1.py": "ace47071dd2ff674aa95ea61635f9dd9873699b35ee0785213de50a7137a20d2",
+    "audit_outputs-002.log": "587cd595ee4a9a25f5f86e864f16eb79c3cd5b044e897cdb64df213beae77f7d",
+    "audit_outputs.log": "853a6e25bc07e39af78f2bb16e7b90f87f4f578275807b5452cf330d8405e22d",
+    "audit_outputs.py": "ad3077eb3073e5af06103374c9b21d09173b903ff31dafd74697ae0a4a70023b",
+    "judge_DS1_receipt.json": "385a834134a2991acd80c56b1c213869df2b9c85eb23578cbcd5a7a6bd783956",
+    "receipt.json": "e2607e43d86001470ac4d60a709111b1275b2dc38a84654b7eb2502d6a6659e8"
+  },
+  "status": "passed"
+}

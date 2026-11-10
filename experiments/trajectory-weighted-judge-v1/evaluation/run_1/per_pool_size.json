@@ -1,0 +1,1430 @@
+{
+  "DS": {
+    "3": {
+      "jobs": 4,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.8333333333333333,
+          "accepted_edge_fraction": 0.5,
+          "accepted_reads": 1.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 5.5,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.6666666666666666,
+          "accepted_edge_fraction": 0.3333333333333333,
+          "accepted_reads": 1.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.27945425419418224,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.6666666666666666,
+          "accepted_edge_fraction": 0.3333333333333333,
+          "accepted_reads": 1.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.27945425419418224,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.6666666666666666,
+          "accepted_edge_fraction": 0.3333333333333333,
+          "accepted_reads": 1.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.27945425419418224,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.6666666666666666,
+          "accepted_edge_fraction": 0.3333333333333333,
+          "accepted_reads": 1.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.27945425419418224,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "tasks": 2
+    },
+    "5": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.8,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 3.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 18.5,
+          "read_edge_fraction": 0.6,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 6.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9,
+          "accepted_edge_fraction": 0.35,
+          "accepted_reads": 3.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 10.0,
+          "read_edge_fraction": 0.55,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 5.5
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9,
+          "accepted_edge_fraction": 0.35,
+          "accepted_reads": 3.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 10.0,
+          "read_edge_fraction": 0.55,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 5.5
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9,
+          "accepted_edge_fraction": 0.35,
+          "accepted_reads": 3.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 10.0,
+          "read_edge_fraction": 0.55,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 5.5
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9,
+          "accepted_edge_fraction": 0.35,
+          "accepted_reads": 3.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 10.0,
+          "read_edge_fraction": 0.55,
+          "regret": 0.7684515195369033,
+          "selected_size": 1.5,
+          "unique_reads": 5.5
+        }
+      },
+      "tasks": 1
+    },
+    "6": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 24.0,
+          "read_edge_fraction": 0.5666666666666667,
+          "regret": 0.3598891701443525,
+          "selected_size": 2.0,
+          "unique_reads": 8.5
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        }
+      },
+      "tasks": 1
+    },
+    "7": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 27.0,
+          "read_edge_fraction": 0.47619047619047616,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 10.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 14.0,
+          "read_edge_fraction": 0.4523809523809524,
+          "regret": 0.40480289778068423,
+          "selected_size": 1.0,
+          "unique_reads": 9.5
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 14.0,
+          "read_edge_fraction": 0.4523809523809524,
+          "regret": 0.40480289778068423,
+          "selected_size": 1.0,
+          "unique_reads": 9.5
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 14.0,
+          "read_edge_fraction": 0.4523809523809524,
+          "regret": 0.40480289778068423,
+          "selected_size": 1.0,
+          "unique_reads": 9.5
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.5,
+          "budget_denials": 0.0,
+          "cache_reads": 14.0,
+          "read_edge_fraction": 0.4523809523809524,
+          "regret": 0.40480289778068423,
+          "selected_size": 1.0,
+          "unique_reads": 9.5
+        }
+      },
+      "tasks": 1
+    },
+    "10": {
+      "jobs": 840,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.8236904761904762,
+          "accepted_edge_fraction": 0.1483068783068783,
+          "accepted_reads": 6.673809523809524,
+          "best_candidate_accepted_fraction": 0.7857142857142857,
+          "best_hit": 0.15024754346182917,
+          "budget_denials": 2.7845238095238094,
+          "cache_reads": 89.29761904761905,
+          "read_edge_fraction": 0.2782275132275132,
+          "regret": 0.27332666387696725,
+          "selected_size": 1.5214285714285714,
+          "unique_reads": 12.520238095238096
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.8248809523809525,
+          "accepted_edge_fraction": 0.14894179894179893,
+          "accepted_reads": 6.7023809523809526,
+          "best_candidate_accepted_fraction": 0.8130952380952381,
+          "best_hit": 0.0820285336356765,
+          "budget_denials": 2.7928571428571427,
+          "cache_reads": 89.4,
+          "read_edge_fraction": 0.27708994708994705,
+          "regret": 0.33880696983209047,
+          "selected_size": 1.5309523809523808,
+          "unique_reads": 12.46904761904762
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.8257142857142857,
+          "accepted_edge_fraction": 0.1491005291005291,
+          "accepted_reads": 6.70952380952381,
+          "best_candidate_accepted_fraction": 0.8154761904761905,
+          "best_hit": 0.08004440665154951,
+          "budget_denials": 2.794047619047619,
+          "cache_reads": 88.8702380952381,
+          "read_edge_fraction": 0.27714285714285714,
+          "regret": 0.3421719742149117,
+          "selected_size": 1.5285714285714287,
+          "unique_reads": 12.47142857142857
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.8253571428571428,
+          "accepted_edge_fraction": 0.1488888888888889,
+          "accepted_reads": 6.699999999999999,
+          "best_candidate_accepted_fraction": 0.8154761904761905,
+          "best_hit": 0.07776266061980348,
+          "budget_denials": 2.782142857142857,
+          "cache_reads": 89.41428571428571,
+          "read_edge_fraction": 0.27714285714285714,
+          "regret": 0.34269671829162734,
+          "selected_size": 1.532142857142857,
+          "unique_reads": 12.47142857142857
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.8242857142857142,
+          "accepted_edge_fraction": 0.14883597883597885,
+          "accepted_reads": 6.697619047619048,
+          "best_candidate_accepted_fraction": 0.8142857142857144,
+          "best_hit": 0.0822269463340892,
+          "budget_denials": 2.8059523809523808,
+          "cache_reads": 89.05833333333332,
+          "read_edge_fraction": 0.277037037037037,
+          "regret": 0.34413032108189484,
+          "selected_size": 1.5226190476190478,
+          "unique_reads": 12.466666666666667
+        }
+      },
+      "tasks": 21
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251210_154406": {
+    "3": {
+      "jobs": 4,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "tasks": 2
+    },
+    "5": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 3.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5264109985528223,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 3.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5264109985528223,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 3.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5264109985528223,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 3.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5264109985528223,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        }
+      },
+      "tasks": 1
+    },
+    "6": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.26666666666666666,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 41.0,
+          "read_edge_fraction": 0.4666666666666667,
+          "regret": 0.09181090511048769,
+          "selected_size": 1.0,
+          "unique_reads": 7.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        }
+      },
+      "tasks": 1
+    },
+    "7": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.75,
+          "budget_denials": 0.0,
+          "cache_reads": 12.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.25,
+          "selected_size": 1.5,
+          "unique_reads": 7.5
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        }
+      },
+      "tasks": 1
+    },
+    "10": {
+      "jobs": 840,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.9619047619047618,
+          "accepted_edge_fraction": 0.18875661375661376,
+          "accepted_reads": 8.494047619047619,
+          "best_candidate_accepted_fraction": 0.9773809523809524,
+          "best_hit": 0.21826530612244896,
+          "budget_denials": 0.6738095238095239,
+          "cache_reads": 37.16309523809524,
+          "read_edge_fraction": 0.25,
+          "regret": 0.2782991090454573,
+          "selected_size": 1.2511904761904762,
+          "unique_reads": 11.25
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9683333333333334,
+          "accepted_edge_fraction": 0.19153439153439153,
+          "accepted_reads": 8.619047619047619,
+          "best_candidate_accepted_fraction": 0.9833333333333333,
+          "best_hit": 0.0744047619047619,
+          "budget_denials": 0.6345238095238096,
+          "cache_reads": 30.120238095238093,
+          "read_edge_fraction": 0.24724867724867725,
+          "regret": 0.3474240187381733,
+          "selected_size": 1.1690476190476191,
+          "unique_reads": 11.126190476190477
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9671428571428571,
+          "accepted_edge_fraction": 0.19126984126984126,
+          "accepted_reads": 8.607142857142858,
+          "best_candidate_accepted_fraction": 0.9833333333333333,
+          "best_hit": 0.07261904761904761,
+          "budget_denials": 0.6369047619047619,
+          "cache_reads": 30.02261904761905,
+          "read_edge_fraction": 0.24743386243386242,
+          "regret": 0.3503287022653299,
+          "selected_size": 1.1678571428571427,
+          "unique_reads": 11.13452380952381
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9672619047619048,
+          "accepted_edge_fraction": 0.1910846560846561,
+          "accepted_reads": 8.598809523809523,
+          "best_candidate_accepted_fraction": 0.9821428571428571,
+          "best_hit": 0.07321428571428572,
+          "budget_denials": 0.6238095238095238,
+          "cache_reads": 30.18095238095238,
+          "read_edge_fraction": 0.2471428571428571,
+          "regret": 0.3474305553779512,
+          "selected_size": 1.1714285714285715,
+          "unique_reads": 11.121428571428572
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9663095238095238,
+          "accepted_edge_fraction": 0.191005291005291,
+          "accepted_reads": 8.595238095238095,
+          "best_candidate_accepted_fraction": 0.9821428571428571,
+          "best_hit": 0.07380952380952381,
+          "budget_denials": 0.6333333333333334,
+          "cache_reads": 30.385714285714286,
+          "read_edge_fraction": 0.24716931216931215,
+          "regret": 0.34579606807670754,
+          "selected_size": 1.1738095238095236,
+          "unique_reads": 11.122619047619047
+        }
+      },
+      "tasks": 21
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_161746": {
+    "3": {
+      "jobs": 4,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.75,
+          "budget_denials": 0.0,
+          "cache_reads": 5.5,
+          "read_edge_fraction": 0.8333333333333333,
+          "regret": 0.026184538653366816,
+          "selected_size": 1.0,
+          "unique_reads": 2.5
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.8333333333333333,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.5
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.8333333333333333,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.5
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.8333333333333333,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.5
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.8333333333333333,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.5
+        }
+      },
+      "tasks": 2
+    },
+    "5": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 3.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.25,
+          "budget_denials": 0.0,
+          "cache_reads": 17.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5142908827785829,
+          "selected_size": 2.0,
+          "unique_reads": 4.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        }
+      },
+      "tasks": 1
+    },
+    "6": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.8333333333333334,
+          "accepted_edge_fraction": 0.23333333333333334,
+          "accepted_reads": 3.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.16666666666666666,
+          "budget_denials": 0.0,
+          "cache_reads": 46.5,
+          "read_edge_fraction": 0.4666666666666667,
+          "regret": 0.3364347449317009,
+          "selected_size": 2.0,
+          "unique_reads": 7.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.0,
+          "read_edge_fraction": 0.4,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.0
+        }
+      },
+      "tasks": 1
+    },
+    "7": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.26190476190476186,
+          "accepted_reads": 5.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 13.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.38095238095238093,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 8.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.38095238095238093,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 8.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.38095238095238093,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 8.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.30952380952380953,
+          "accepted_reads": 6.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.38095238095238093,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 8.0
+        }
+      },
+      "tasks": 1
+    },
+    "10": {
+      "jobs": 840,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.9583333333333334,
+          "accepted_edge_fraction": 0.18671957671957673,
+          "accepted_reads": 8.402380952380954,
+          "best_candidate_accepted_fraction": 0.9642857142857143,
+          "best_hit": 0.23898809523809522,
+          "budget_denials": 0.719047619047619,
+          "cache_reads": 37.97142857142857,
+          "read_edge_fraction": 0.25002645502645504,
+          "regret": 0.2709256801341454,
+          "selected_size": 1.225,
+          "unique_reads": 11.251190476190477
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9602380952380952,
+          "accepted_edge_fraction": 0.1873015873015873,
+          "accepted_reads": 8.428571428571429,
+          "best_candidate_accepted_fraction": 0.9785714285714286,
+          "best_hit": 0.08333333333333333,
+          "budget_denials": 0.680952380952381,
+          "cache_reads": 37.061904761904756,
+          "read_edge_fraction": 0.24896825396825398,
+          "regret": 0.3432279479928145,
+          "selected_size": 1.2119047619047618,
+          "unique_reads": 11.20357142857143
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9598809523809523,
+          "accepted_edge_fraction": 0.1872751322751323,
+          "accepted_reads": 8.427380952380952,
+          "best_candidate_accepted_fraction": 0.9761904761904762,
+          "best_hit": 0.08115079365079365,
+          "budget_denials": 0.6630952380952382,
+          "cache_reads": 36.65357142857143,
+          "read_edge_fraction": 0.24886243386243384,
+          "regret": 0.3491832231329618,
+          "selected_size": 1.2071428571428573,
+          "unique_reads": 11.198809523809524
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9598809523809523,
+          "accepted_edge_fraction": 0.18722222222222223,
+          "accepted_reads": 8.425,
+          "best_candidate_accepted_fraction": 0.9773809523809524,
+          "best_hit": 0.08055555555555556,
+          "budget_denials": 0.675,
+          "cache_reads": 37.01904761904762,
+          "read_edge_fraction": 0.24875661375661373,
+          "regret": 0.346475491310713,
+          "selected_size": 1.2107142857142859,
+          "unique_reads": 11.194047619047618
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9596428571428571,
+          "accepted_edge_fraction": 0.18719576719576722,
+          "accepted_reads": 8.423809523809524,
+          "best_candidate_accepted_fraction": 0.9750000000000001,
+          "best_hit": 0.08174603174603175,
+          "budget_denials": 0.6726190476190477,
+          "cache_reads": 36.90119047619047,
+          "read_edge_fraction": 0.24875661375661373,
+          "regret": 0.34390380522713015,
+          "selected_size": 1.2059523809523809,
+          "unique_reads": 11.194047619047618
+        }
+      },
+      "tasks": 21
+    }
+  },
+  "gpt-5_1_1p0_pboost_cot_20251211_171620": {
+    "3": {
+      "jobs": 4,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 1.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.0,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.6666666666666666,
+          "accepted_reads": 2.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.6666666666666666,
+          "regret": 0.5589085083883645,
+          "selected_size": 1.0,
+          "unique_reads": 2.0
+        }
+      },
+      "tasks": 2
+    },
+    "5": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.35,
+          "accepted_reads": 3.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 8.5,
+          "read_edge_fraction": 0.4,
+          "regret": 0.7642908827785829,
+          "selected_size": 1.5,
+          "unique_reads": 4.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.4,
+          "accepted_reads": 4.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.0,
+          "read_edge_fraction": 0.4,
+          "regret": 1.0,
+          "selected_size": 1.0,
+          "unique_reads": 4.0
+        }
+      },
+      "tasks": 1
+    },
+    "6": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3666666666666667,
+          "accepted_reads": 5.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 28.0,
+          "read_edge_fraction": 0.6,
+          "regret": 0.4816993911199294,
+          "selected_size": 1.0,
+          "unique_reads": 9.0
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.5,
+          "read_edge_fraction": 0.43333333333333335,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.5
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.5,
+          "read_edge_fraction": 0.43333333333333335,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.5
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.5,
+          "read_edge_fraction": 0.43333333333333335,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.5
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9166666666666667,
+          "accepted_edge_fraction": 0.3,
+          "accepted_reads": 4.5,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 11.5,
+          "read_edge_fraction": 0.43333333333333335,
+          "regret": 0.5500444687692414,
+          "selected_size": 1.0,
+          "unique_reads": 6.5
+        }
+      },
+      "tasks": 1
+    },
+    "7": {
+      "jobs": 2,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "gap": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 1.0,
+          "accepted_edge_fraction": 0.2857142857142857,
+          "accepted_reads": 6.0,
+          "best_candidate_accepted_fraction": 1.0,
+          "best_hit": 0.0,
+          "budget_denials": 0.0,
+          "cache_reads": 0.5,
+          "read_edge_fraction": 0.3571428571428571,
+          "regret": 0.8096057955613685,
+          "selected_size": 1.0,
+          "unique_reads": 7.5
+        }
+      },
+      "tasks": 1
+    },
+    "10": {
+      "jobs": 840,
+      "task_macro": {
+        "C0": {
+          "accepted_candidate_fraction": 0.9585714285714285,
+          "accepted_edge_fraction": 0.18626984126984128,
+          "accepted_reads": 8.382142857142858,
+          "best_candidate_accepted_fraction": 0.9607142857142857,
+          "best_hit": 0.22324735449735447,
+          "budget_denials": 0.8178571428571428,
+          "cache_reads": 38.34285714285714,
+          "read_edge_fraction": 0.24904761904761902,
+          "regret": 0.2580819873809122,
+          "selected_size": 1.2154761904761904,
+          "unique_reads": 11.207142857142857
+        },
+        "gap": {
+          "accepted_candidate_fraction": 0.9602380952380952,
+          "accepted_edge_fraction": 0.18846560846560848,
+          "accepted_reads": 8.480952380952381,
+          "best_candidate_accepted_fraction": 0.9738095238095238,
+          "best_hit": 0.07612433862433862,
+          "budget_denials": 0.6595238095238095,
+          "cache_reads": 33.91428571428572,
+          "read_edge_fraction": 0.2491269841269841,
+          "regret": 0.36055377149213585,
+          "selected_size": 1.2154761904761904,
+          "unique_reads": 11.210714285714285
+        },
+        "shuffled": {
+          "accepted_candidate_fraction": 0.9602380952380952,
+          "accepted_edge_fraction": 0.18841269841269842,
+          "accepted_reads": 8.47857142857143,
+          "best_candidate_accepted_fraction": 0.9726190476190476,
+          "best_hit": 0.07374338624338625,
+          "budget_denials": 0.6738095238095239,
+          "cache_reads": 34.13928571428572,
+          "read_edge_fraction": 0.24907407407407406,
+          "regret": 0.365543301487073,
+          "selected_size": 1.2071428571428573,
+          "unique_reads": 11.208333333333334
+        },
+        "terminal": {
+          "accepted_candidate_fraction": 0.9603571428571429,
+          "accepted_edge_fraction": 0.1884920634920635,
+          "accepted_reads": 8.482142857142858,
+          "best_candidate_accepted_fraction": 0.9738095238095238,
+          "best_hit": 0.07374338624338625,
+          "budget_denials": 0.6726190476190477,
+          "cache_reads": 33.898809523809526,
+          "read_edge_fraction": 0.2491005291005291,
+          "regret": 0.3622276550613358,
+          "selected_size": 1.2047619047619047,
+          "unique_reads": 11.20952380952381
+        },
+        "uniform": {
+          "accepted_candidate_fraction": 0.9602380952380952,
+          "accepted_edge_fraction": 0.18828042328042327,
+          "accepted_reads": 8.472619047619048,
+          "best_candidate_accepted_fraction": 0.9726190476190476,
+          "best_hit": 0.07552910052910053,
+          "budget_denials": 0.6761904761904761,
+          "cache_reads": 33.99285714285715,
+          "read_edge_fraction": 0.24883597883597883,
+          "regret": 0.3640885151071061,
+          "selected_size": 1.2059523809523809,
+          "unique_reads": 11.197619047619048
+        }
+      },
+      "tasks": 21
+    }
+  }
+}

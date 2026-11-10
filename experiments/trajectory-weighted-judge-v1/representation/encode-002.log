@@ -1,0 +1,14 @@
+There was a problem when trying to write in your cache folder (/Users/shrinn81/.cache/huggingface/hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+12/6710 chunks; 5.9s
+612/6710 chunks; 10.1s
+1212/6710 chunks; 21.1s
+1812/6710 chunks; 33.0s
+2412/6710 chunks; 44.9s
+3012/6710 chunks; 56.9s
+3612/6710 chunks; 68.8s
+4212/6710 chunks; 80.7s
+4812/6710 chunks; 92.8s
+5412/6710 chunks; 104.7s
+6012/6710 chunks; 116.9s
+6612/6710 chunks; 128.8s
+{"code": {"records": 877, "original_tokens": 2949714, "kept_tokens": 1541538, "fraction": 0.5226059204383883, "docs_with_all_tokens": 215}, "context": {"records": 26, "original_tokens": 281019, "kept_tokens": 49625, "fraction": 0.17658948327337298, "docs_with_all_tokens": 0}}

@@ -1,0 +1,434 @@
+{
+  "branches": 1700,
+  "checks": [
+    "source winner/confidence/index",
+    "complete selected sets",
+    "saved job scores",
+    "complete query ledger",
+    "per-task historical summary",
+    "historical macro"
+  ],
+  "evaluation_started_utc": "2026-11-08T11:59:36.607124+00:00",
+  "per_task": {
+    "aptos2019-blindness-detection": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.31124999999999997,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.3184262131414184,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.18125,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.38089718029970865,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "denoising-dirty-documents": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.3416666666666667,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.10117297942682975,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.20833333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.11192387039393026,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "detecting-insults-in-social-commentary": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.06999999999999999,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1801542123786444,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.0975,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.18565736440245192,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "dog-breed-identification": {
+      "coverage_decision_sensitive": {
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "unique_feedback_reads": 3.0
+      },
+      "coverage_random": {
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "unique_feedback_reads": 3.0
+      }
+    },
+    "google-quest-challenge": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.20708333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1568778479032818,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.22083333333333335,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.18133507295361828,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "unique_feedback_reads": 10.0
+      },
+      "coverage_random": {
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 1.0,
+        "unique_feedback_reads": 10.0
+      }
+    },
+    "leaf-classification": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.1125,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0396571243576535,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.13625,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.03279542871531224,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.33333333333333337,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.14529615221415446,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.2245833333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1819618442982906,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "lmsys-chatbot-arena": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.14583333333333331,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.13981437302947564,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.22083333333333335,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.09034647283692204,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "mlsp-2013-birds": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.03125,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.2615815966776468,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.025,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.3107169181342999,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.25833333333333336,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.14076204908612153,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.24375,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1072543490718076,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "coverage_decision_sensitive": {
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "unique_feedback_reads": 3.0
+      },
+      "coverage_random": {
+        "best_hit": 1.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.0,
+        "unique_feedback_reads": 3.0
+      }
+    },
+    "petfinder-pawpularity-score": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.8096057955613685,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.5,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.40480289778068423,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "plant-pathology-2020-fgvc7": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1697338715194636,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.0,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1697338715194636,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.11666666666666667,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.6460477584457707,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.14791666666666667,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.559549703964871,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "random-acts-of-pizza": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.03333333333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.39092211053266274,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.05416666666666666,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.3740310758160371,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "spooky-author-identification": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.2,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.19510761987569203,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.20416666666666666,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.21413406787156036,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "stanford-covid-vaccine": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.075,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.20464498076801027,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.13125,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.17865131314548577,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.14666666666666667,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.22876162425523053,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.041666666666666664,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.30125278390682547,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "tabular-playground-series-dec-2021": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.013333333333333332,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.29807914356766824,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.01875,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.32565800000731915,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.008333333333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.39730545449093274,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.05708333333333333,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.36617336124179534,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "tgs-salt-identification-challenge": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.07583333333333334,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.22651547295068813,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.07291666666666666,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.21482681629861874,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.22083333333333335,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.5719668911371607,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.29166666666666663,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.48165528498390964,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "tweet-sentiment-extraction": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.013333333333333332,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.7400993639770225,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.01875,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.7571893516004896,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.1125,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.11331097048480196,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.12916666666666668,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.1436418612625087,
+        "unique_feedback_reads": 13.0
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "coverage_decision_sensitive": {
+        "best_hit": 0.18333333333333332,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.08316571594286604,
+        "unique_feedback_reads": 13.0
+      },
+      "coverage_random": {
+        "best_hit": 0.22708333333333336,
+        "budget_denials": 0.0,
+        "cache_reads": 0.0,
+        "regret": 0.12221673885966455,
+        "unique_feedback_reads": 13.0
+      }
+    }
+  },
+  "seal_sha256": "7dc35a70fa8c95a25b9115d7e409a05c06bd4b8af867893e0ca1daefdbcf758b",
+  "selection_sealed_before_evaluation": true,
+  "status": "passed",
+  "tasks": 26
+}

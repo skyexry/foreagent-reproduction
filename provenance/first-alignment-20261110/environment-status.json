@@ -1,0 +1,48 @@
+{
+  "acceptance": "experiments/research-env-v1/acceptance.json",
+  "acceptance_script_sha256": "59ad6257fafe504b954865cbe11aa904eccde68324e4558ab2ab7a1afb93094e",
+  "acceptance_sha256": "72b68e6cc19269dc12cdbc82e1a99d636cf86caa29cc6e5ced9936277061314f",
+  "baseline": "C0 corrected_tournament",
+  "completed": [
+    "Policy boundary and host-controlled query budget",
+    "Frozen scorer and independent evaluation",
+    "850 baseline + 850 random-control episodes reproduce saved results",
+    "17 contract/isolation tests",
+    "Module and primary-literature review; one conditional proposal with a matched-prefix diagnostic",
+    "Two preregistered offline diagnostics (D1, J1) completed; independent raw-data reconstruction and cross-check passed.",
+    "Second-wave cross-bank module comparisons, actual C0 reruns and partial-oracle prioritization; baseline retained.",
+    "Task-held-out four-arm training pilot: 104 fits and 17,000 selection episodes; 3,400 frozen C0 controls matched. Stop this representation/weight pilot.",
+    "Two registered offline final selectors on identical C0 traces: posterior reranking and archived rationale-direction tie-break, each across 3,400 episodes. Both gated out; C0 retained."
+  ],
+  "development_tasks": 26,
+  "environment_id": "foreagent-selection-replay-v1",
+  "jobs": 850,
+  "next": "本轮已结束。",
+  "research_review": {
+    "stage": "offline_selection_closed",
+    "summary": "research/离线候选选择.md",
+    "evidence": "research/selection-study-v1/baseline.md",
+    "literature": "research/selection-study-v1/literature.md",
+    "proposal": "research/selection-study-v1/proposal.md",
+    "proposal_scope": "Preregistered design for completed D1; its gate for D2 was not met.",
+    "results": "research/离线候选选择.md",
+    "verification": "experiments/posterior-ranking-v1/verification/selection_match.json",
+    "current_decision": "research/离线候选选择.md",
+    "priority": [],
+    "default_selection": "C0",
+    "priority_basis": "用户决定本轮收尾，保留 C0。",
+    "previous_wave": "experiments/trajectory-weighted-judge-v1/README.md",
+    "training_baseline": "ForeCritic-style pairwise execution supervision with uniform cross-entropy",
+    "signal_feasibility": "experiments/c0-judge-credit-check/run_1/summary.json",
+    "historical_training_design": "Weight truth-preserving pairwise loss by training-only differences in C0 terminal regret under forced correct/wrong outcomes.",
+    "rationale_results": "experiments/rationale-tiebreak-v1/summary.json",
+    "deferred_generation": "research/研究路线.md"
+  },
+  "pending": [
+    "AI Scientist pinned-version native adapter, isolated coder workspace and aggregate experiment budget",
+    "New-task confirmation and live end-to-end environment acceptance"
+  ],
+  "pools": 425,
+  "status": "离线 Environment 与 Evals 已验收",
+  "current_protected_files": "verified"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "run": "run_1",
+  "jobs": 850,
+  "tasks": 26,
+  "pools": 425,
+  "script_sha256": "6e1ad896f81251e4e7936dcbf98e9a57407b25c980a02af1a2084b6e31e384ee",
+  "run_manifest_sha256": "4a59a1210999dd9a27cce9f4fdf6af487d7eddbd35970fbc135de893c7521bfd",
+  "checks": [
+    "every output hash",
+    "all denominators",
+    "paired task macro from job evidence",
+    "exact seeded primary bootstrap",
+    "all n=3 natural controls",
+    "harm/missed identity",
+    "selection seal and evaluation time order",
+    "leave-one arithmetic",
+    "logical cost totals",
+    "D2 gate"
+  ]
+}

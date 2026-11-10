@@ -1,0 +1,66 @@
+{
+  "T": {
+    "S_top_tie_jobs": 482,
+    "branch_tie_jobs": 302,
+    "cache_reads_total": 0,
+    "counts": {
+      "changed": 290,
+      "touches_S_top": 850,
+      "valid": 446
+    },
+    "failures": 0,
+    "jobs_denominator": 850,
+    "judge_direction_counts": {
+      "abstained": 404,
+      "correct": 268,
+      "incorrect": 178
+    },
+    "logical_reads_total": 8448,
+    "opponent_degree_definition": "One incidence per endpoint in S top: degree of its opposite endpoint; both-top edges contribute two. Conditional incidence mean, all-job touch denominator reported.",
+    "opponent_degree_incidence_count": 862,
+    "opponent_degree_incidence_mean": 0.11832946635730858,
+    "task_macro_rates": {
+      "changed": 0.3153846153846154,
+      "touches_S_top": 1.0,
+      "valid": 0.5567307692307693
+    },
+    "tasks_denominator": 26,
+    "utility_outcome_counts": {
+      "equal": 560,
+      "improved": 164,
+      "worsened": 126
+    }
+  },
+  "U": {
+    "S_top_tie_jobs": 482,
+    "branch_tie_jobs": 437,
+    "cache_reads_total": 0,
+    "counts": {
+      "changed": 271,
+      "touches_S_top": 303,
+      "valid": 455
+    },
+    "failures": 0,
+    "jobs_denominator": 850,
+    "judge_direction_counts": {
+      "abstained": 395,
+      "correct": 286,
+      "incorrect": 169
+    },
+    "logical_reads_total": 8448,
+    "opponent_degree_definition": "One incidence per endpoint in S top: degree of its opposite endpoint; both-top edges contribute two. Conditional incidence mean, all-job touch denominator reported.",
+    "opponent_degree_incidence_count": 348,
+    "opponent_degree_incidence_mean": 0.7931034482758621,
+    "task_macro_rates": {
+      "changed": 0.27884615384615385,
+      "touches_S_top": 0.41923076923076924,
+      "valid": 0.5471153846153846
+    },
+    "tasks_denominator": 26,
+    "utility_outcome_counts": {
+      "equal": 579,
+      "improved": 149,
+      "worsened": 122
+    }
+  }
+}

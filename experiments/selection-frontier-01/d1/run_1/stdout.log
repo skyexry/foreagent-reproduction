@@ -1,0 +1,14 @@
+Sealed 2550 selections and 1700 projected traces before evaluator start
+Full-length 1700 branches/26 tasks verified against source, selections and scores
+{
+  "status": "success",
+  "wall_seconds": 2.8569455000106245,
+  "primary": {
+    "mean": 0.002892606936850305,
+    "task_cluster_95": [
+      -0.013129629850422417,
+      0.023516346009228105
+    ]
+  },
+  "decision": "Retain C0; end this development decision and inspect influential task evidence before any new strategy."
+}

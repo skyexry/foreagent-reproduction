@@ -1,0 +1,48 @@
+{
+  "tasks": 1,
+  "jobs": 3,
+  "full_population": false,
+  "episode_status_counts": {
+    "ok": 3
+  },
+  "macro": {
+    "corrected_tournament": {
+      "regret": 0.5148797418236136,
+      "best_hit": 0.0,
+      "unique_feedback_reads": 13.0,
+      "cache_reads": 140.33333333333334,
+      "budget_denials": 4.0
+    },
+    "submitted_policy": {
+      "regret": 0.3968375415153631,
+      "best_hit": 0.16666666666666666,
+      "unique_feedback_reads": 13.0,
+      "cache_reads": 0.0,
+      "budget_denials": 0.0
+    }
+  },
+  "contrasts": {
+    "submitted_policy minus corrected_tournament": {
+      "regret": {
+        "delta": -0.11804220030825052,
+        "task_cluster_95": [
+          -0.11804220030825052,
+          -0.11804220030825052
+        ],
+        "tasks_better": 1,
+        "tasks_equal": 0,
+        "tasks_worse": 0
+      },
+      "best_hit": {
+        "delta": 0.16666666666666666,
+        "task_cluster_95": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "tasks_better": 1,
+        "tasks_equal": 0,
+        "tasks_worse": 0
+      }
+    }
+  }
+}

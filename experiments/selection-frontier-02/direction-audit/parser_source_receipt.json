@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "reproduction/clean_ranking_v1/data.py": "29b6cea8d10e764e94f1cccb5b2ee25f1df1ee9bff7703decb5a0730debb510f",
+    "reproduction/clean_ranking_v1/correctness.py": "6b3c260a28d0b022feaf6d1df712739d41e4048b733a16144c0e52bc0b2885e9",
+    "vendor/foreagent_upstream/mle-bench/agents/aide/aide/world_model.py": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "experiments/selection-frontier-02/banks/build_banks.py": "db033f3f93264f0d0a127cd558ef80da1db2bb70c06d759900c2283f97a67990"
+  },
+  "verified_semantics": {
+    "prepare": "prediction.get(confidence, .5); all audited newly accepted archive rows contain that field, so this missing-field path is unused there",
+    "response_values": "index strict int 0/1 with exact string conversion; finite [0,1] confidence; malformed confidence removes direction",
+    "upstream_parse_pairwise_response": "missing or float-conversion-failed confidence becomes .5; source archive generator history requires direct raw evidence to identify actual fallback",
+    "backup_order": "all5013admitted backup rows preserve bank endpoint order",
+    "reasoning": "auxiliary only, possible intermediate reflection; no strict E admission"
+  }
+}

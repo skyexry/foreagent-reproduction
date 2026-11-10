@@ -1,0 +1,847 @@
+[
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/.DS_Store",
+    "bytes": 8196,
+    "sha256": "5e1dd0872d682159189be9b105d5e3805e0d18c53a47906d803081f77130e56f"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/DM_HW3_NeurIPS_Source_v2.zip",
+    "bytes": 20111,
+    "sha256": "c05d7532dc6ca31f693ca36efa8d726de1006634455e2e786106c230c3fe6ba1"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Author_Run_Audit.zip",
+    "bytes": 77042,
+    "sha256": "23dc6a05eb279f4e0d33c9fc52c63bcd0d695ef9d7c6afeddf817303e55d9eff"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Cache_Fix_Paired_Replay.zip",
+    "bytes": 10413496,
+    "sha256": "82bc8a5a09dca4db2b1da8bdcfc8c282f17fdd9bf1492fc7aba631370ce96ed7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Full_Execution_Paired_Replay_v2.zip",
+    "bytes": 10780881,
+    "sha256": "c3130b0484b901d53160ac7c9458aef850f599487a03b3f6d812156ad84cb354"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_HW3_TeX_Source.zip",
+    "bytes": 9480,
+    "sha256": "987fd7ed0dfa90b87ac125f86ddfe22a675404b93c8fd42fd6840accd5acdace"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Original_Tournament_Replay.zip",
+    "bytes": 5303718,
+    "sha256": "aec63428e24f90fce8840e2eceed5d64e501d77cefd000c58de1bdb8303f7492"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/ForeAgent_Real_Author_Batches_Replay.zip",
+    "bytes": 73612647,
+    "sha256": "9069e8161cbef6f159f5a2a9fe9fd205de9d30c6f98a7b19e551e7029d03bf84"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/FREEZE.json",
+    "bytes": 3038,
+    "sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/UPSTREAM_LICENSE",
+    "bytes": 1063,
+    "sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/agent_original.py",
+    "bytes": 42216,
+    "sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/artifact_manifest.json",
+    "bytes": 11299,
+    "sha256": "2d23771924aebf0135d314c07a3f30d40ac8f0f49f3fa05c2609fc976126b6b3"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/example_real_batch.json",
+    "bytes": 42770,
+    "sha256": "ec7e84559dbb86338dfd2e8690599147886addbd42fd5480aaf6e7a7efe87721"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/excluded_log_batches.json",
+    "bytes": 6282,
+    "sha256": "046a44b5b26ff3d1e9f14edd5d36dae8848f52378ccef6f8f2df941bdee39b0c"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/execution_policy.py",
+    "bytes": 4517,
+    "sha256": "636f172cfc0c017403c938303414050a8807ec5b1f4a63ef00c5966edd557675"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/per_run.csv",
+    "bytes": 1308,
+    "sha256": "6f16ac03c55fe480d7f83e38988feedeff83e389c08fcbf4c8776a30479d44cb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/replay_author.py",
+    "bytes": 14892,
+    "sha256": "8cdabe981a04c518ef775192350c6b07a474a1079fa065b10df36667b6a08e49"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/replay_results.json",
+    "bytes": 8082260,
+    "sha256": "5a1c336291a1a152565e04eca29963c8e64b86245b687cd7c62d4a9a1dd496e7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_manifest.json",
+    "bytes": 24518,
+    "sha256": "a28eeffc0f8750eaf8e3914b5064d05f37401846489228e775f90758a8e07b94"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/aide.log.gz",
+    "bytes": 1654603,
+    "sha256": "2dd923ac3ecc6a964c228e9452d7501c6625e843e61554622bea3f9b4f98dc8b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/journal.json.gz",
+    "bytes": 1057658,
+    "sha256": "00d73817b3a93acf792f477af5e4d143f5f0e55d2f0c5c86bf2f66df1038e925"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/aide.log.gz",
+    "bytes": 1689186,
+    "sha256": "3f6b572bb05274e1d0eb1528bef49f52d6937d96a7328d87fe527ac235b7abf9"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/journal.json.gz",
+    "bytes": 95946,
+    "sha256": "34cfaab1740b8cdde650ade38a30af010acf8d7abc2d6643d8c9b4c984708fdb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/aide.log.gz",
+    "bytes": 700596,
+    "sha256": "d6973d9e60752c5a7ca8c40ac6409f6b20ed6a068105a075aa082241abb9e151"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/journal.json.gz",
+    "bytes": 79710,
+    "sha256": "80137e7534c31c0187be52e026e92dc6d4c725bf94d330c8075ada242aca5e01"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2/aide.log.gz",
+    "bytes": 267116,
+    "sha256": "302f407f15df499471ce71729076f7f4aca9af3f499d85b2ed81e67c090c7e42"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2/config.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2/journal.json.gz",
+    "bytes": 22716,
+    "sha256": "b2cb84658617395ff8376d37e48a5b0e7370587328497fbf13b7607a904ee8ac"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733/aide.log.gz",
+    "bytes": 600651,
+    "sha256": "6863c5660ba77f7e563216336f97cfcc4fdf83a803456ac65dce4626dd18746b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733/config.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733/journal.json.gz",
+    "bytes": 27901,
+    "sha256": "56cfec614b6002c287e7d1cfb3d8272cf8336f62f4501a303b3fbaa129c8e1da"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d/aide.log.gz",
+    "bytes": 627387,
+    "sha256": "eb94b9c75e5cad3d9a220bc11850d50a0a7f3cb898f86d77b42fa8aca39174b4"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d/config.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d/journal.json.gz",
+    "bytes": 33813,
+    "sha256": "56759421d3a171a220e22c09e568f94153c3b254a6f916a08d2c7427ab61a8ab"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/aide.log.gz",
+    "bytes": 9496146,
+    "sha256": "0f96ff65fbf951f6615910e3dd9093d85cf1b8156cc85902f7538b931cec61bb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038/journal.json.gz",
+    "bytes": 1029191,
+    "sha256": "05964b9b7daabe3137fb80a495858cd32c527ac01b387769e11d8a6567b0fc17"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0/aide.log.gz",
+    "bytes": 7230488,
+    "sha256": "5047326ec379c54af2d1a7a8c0d261d3db4bdfe69e27344ae6927241e15e6981"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0/journal.json.gz",
+    "bytes": 1045021,
+    "sha256": "3be714d14af06f9b488b00947d819961c754c85b9e0e099e2914e6206f1fb866"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33/aide.log.gz",
+    "bytes": 7214853,
+    "sha256": "7e4b6f3752bd5db4d18c4ae49b9fbd32194339996abda1d9947be02de4dc9457"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33/journal.json.gz",
+    "bytes": 796015,
+    "sha256": "98abbcb8e3d229d0b8f6e2fee2c25abf167c3bfd4d75078b1c040d88138ccd49"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5/aide.log.gz",
+    "bytes": 8460819,
+    "sha256": "59360a228608dd718a8af50a8045286fee4ebcac032fc68f29bba48b4a544418"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5/journal.json.gz",
+    "bytes": 801405,
+    "sha256": "fef642a226b6a91142533c7a7e67e5a20d0c34897efbd5a97a35085b49ccb375"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24/aide.log.gz",
+    "bytes": 10656037,
+    "sha256": "247824a13f2a8755a4a59511ad58af60f45480bacd428937d545d5e4b6ca7d5e"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24/journal.json.gz",
+    "bytes": 535145,
+    "sha256": "d30fe36eedbda6b29d1fce41f36a8039e35afd143b7fb5b41278f9b7ecc68706"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411/aide.log.gz",
+    "bytes": 8111131,
+    "sha256": "2159f1142f28b8e3e616032e5e3a6853c36dbd1847a0542b9fdc0cb78f09b8c4"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411/config.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411/journal.json.gz",
+    "bytes": 501297,
+    "sha256": "b3bb2ff30d459c3740a3dd6ccc3d7683e64714928ef6e2024b39fbf83374a61d"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d/aide.log.gz",
+    "bytes": 1247947,
+    "sha256": "09c8fc9456180cd2750c68bafa40278eb0ceeb7cd952cf028fddace162c3463d"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d/config.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d/journal.json.gz",
+    "bytes": 1549657,
+    "sha256": "59508dd462f0e66522a27b7384fe093a33197210f7b68f72fe382bc1ba5e2e36"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc/aide.log.gz",
+    "bytes": 2924900,
+    "sha256": "bb8211af46ff8afa4e04dfb060ce58d058d2c6b950cabff5f14158ad8c536cfa"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc/config.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc/journal.json.gz",
+    "bytes": 2108902,
+    "sha256": "3b595c415ee00f2479943a78932718d08e9dede002fcf6918bb7db0f3c5008cf"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d/aide.log.gz",
+    "bytes": 3877602,
+    "sha256": "0286bbe2ee9f691818524bf1df4ca48638a5be72dd88e646b697d921869c9f21"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d/config.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/source_records/ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d/journal.json.gz",
+    "bytes": 2360603,
+    "sha256": "b9f23e6132d7d39344c9b54ae39d94e95eb38ab5e4805f4b8aee091e9b4c5724"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/summary.json",
+    "bytes": 8869,
+    "sha256": "9b14491bad67186a8964fcc8f66f0979d08bafd217d14b4fc3670ad776010c84"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/verification.json",
+    "bytes": 531,
+    "sha256": "2f9e58c5a0c2c89ed58fee2a9918c7d2b670f9e7ad34be298f6390a22f05ac6a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/verify_and_report.py",
+    "bytes": 8712,
+    "sha256": "54cd405ecbb12ceba981e4b596a20059f2614a60941ef75cda096fa0f34d6805"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/world_model_original.py",
+    "bytes": 24235,
+    "sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-real-batch-replay/作者真实批次原版重演结果.txt",
+    "bytes": 5838,
+    "sha256": "50a510f9ca394c4172f261867375b61d03c48ade74ecd121f6f51cf4ed90b6bd"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/UPSTREAM_LICENSE",
+    "bytes": 1063,
+    "sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/audit_summary.json",
+    "bytes": 5994,
+    "sha256": "a567d2bb11c4eac986b6c1d0ad0fa5286a441648432d4b749280ca8a51d733cb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/histopathologic-cancer-detection_8487414a-e775-4862-86e1-c4838a2e26c2.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/histopathologic-cancer-detection_ba43fc4d-fd5c-4595-891c-4f8a11081733.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/histopathologic-cancer-detection_db80a987-0c42-418d-a80a-3040b9290f4d.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411.yaml",
+    "bytes": 1104,
+    "sha256": "e2ecd766047ce56efb10dd0dd98b4a63781f621561663b4c448a68c2908db338"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/ventilator-pressure-prediction_13fffa7f-4669-42dd-b6a6-92ab4c69196d.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/ventilator-pressure-prediction_3531e37e-07b2-404b-9ab2-3bcda5e67bfc.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/configs/ventilator-pressure-prediction_6f6d4887-344c-4fd5-a24c-c75203f4fe2d.yaml",
+    "bytes": 1104,
+    "sha256": "98a52d565f6d9c69d20e0302a8fe8ee052b572a2d70fa780f058974f265a3b1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/execution_policy_erratum.json",
+    "bytes": 861,
+    "sha256": "da178245513f53289973e2163fe3961e8ec04de560a0a740cb3b747d6efff6ab"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/historical_rank_replay_check.json",
+    "bytes": 74905,
+    "sha256": "676862c1d8a660ace36075407333ecf54d2d69b1740284b88d14ac6d94559643"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/log_evidence.json",
+    "bytes": 4528,
+    "sha256": "54bb3f128a4a3073e169e8f7ea8111941ac9db5c4848a6c6736c2db2680509ab"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/observed_candidate_batches.json",
+    "bytes": 887601,
+    "sha256": "5e3b20910ced4fde6a5e74f17400a55d56f4517dff53b870b6b776d67a713fee"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/replay_observed.py",
+    "bytes": 2441,
+    "sha256": "d7eeb84674c4ee3b73e6f611802a3a743567f72d60acd8e54023597fb39ee18f"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/run_config_audit.json",
+    "bytes": 14375,
+    "sha256": "65282787d02b542ab77478412eeee474618d4eef2c03943713cea8210ce0a5bd"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/source_manifest.json",
+    "bytes": 33167,
+    "sha256": "fd4df8ae3e98daab035e745830419169c0c14f4e23fb1a8e2e4107b0fe5930f6"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/world_model_original.py",
+    "bytes": 24235,
+    "sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/author-run-audit/作者运行记录核查.txt",
+    "bytes": 5042,
+    "sha256": "bf82601b65fd986f2abbc79e2fb4cc9247356f532cc9aadc9ec0edb10b4489b7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/foreagent_hw3_sections/ForeAgent_HW3_Introduction_Baseline.pdf",
+    "bytes": 186056,
+    "sha256": "ad3b2ea89e96168f272f9893106be57648acb426dc29da4bdbf1c7135d8fa684"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/foreagent_hw3_sections/main.tex",
+    "bytes": 13307,
+    "sha256": "f5305b925e155a96e84f64c48078864510724c6dc048e693dccc847ed30b0d70"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/foreagent_hw3_sections/neurips_2025.sty",
+    "bytes": 13023,
+    "sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/AI_USAGE.txt",
+    "bytes": 1427,
+    "sha256": "f524f50c3126c1e3894c76f3aa85c148250292250a9ed4555914deb84baa424b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/DM_HW3_Baseline_Reproduction_v2.pdf",
+    "bytes": 200622,
+    "sha256": "292a8481e1fd136c93483c929c6840e9d7e2ce1ced28d55db351f49c58d24fd4"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_excluded_log_batches.json",
+    "bytes": 6282,
+    "sha256": "046a44b5b26ff3d1e9f14edd5d36dae8848f52378ccef6f8f2df941bdee39b0c"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_freeze.json",
+    "bytes": 3038,
+    "sha256": "13a9188898b45fdab573aaaf926c1dac75c2f45d3b7ea79eef344f832fae0697"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_per_run.csv",
+    "bytes": 1308,
+    "sha256": "6f16ac03c55fe480d7f83e38988feedeff83e389c08fcbf4c8776a30479d44cb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_reproduction.tex",
+    "bytes": 9088,
+    "sha256": "2d0312e50317edd4d6be4498c1d5f3cdf0c00a6042dc71cdbac4b15183f47542"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_summary.json",
+    "bytes": 8869,
+    "sha256": "9b14491bad67186a8964fcc8f66f0979d08bafd217d14b4fc3670ad776010c84"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/baseline_verification.json",
+    "bytes": 531,
+    "sha256": "2f9e58c5a0c2c89ed58fee2a9918c7d2b670f9e7ad34be298f6390a22f05ac6a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/delivery_verification.json",
+    "bytes": 412,
+    "sha256": "76a50fbc6f2fdc837100e825df869b8cef5143782628380e1b352a96a2feb96a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/main.tex",
+    "bytes": 13977,
+    "sha256": "a2ce5409831ee074e4f4888e8e3cf7ce5ede6e47e0c81d64a0fc16a62c6ad5cc"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/hw3_baseline_reproduction_v2/neurips_2025.sty",
+    "bytes": 13023,
+    "sha256": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/UPSTREAM_LICENSE",
+    "bytes": 1063,
+    "sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/applied_to_repository.json",
+    "bytes": 253,
+    "sha256": "89543f3ceef9a69827a4eda8f05f64d536a4c6e9146c503e4f1f1d6b23cf11e0"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/artifact_manifest.json",
+    "bytes": 2373,
+    "sha256": "004692f613039b9e32750ac5ba5adf0e1959f1654eb9528c3c1efe3472ea05eb"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/cache_direction.patch",
+    "bytes": 1825,
+    "sha256": "32b085d8d809f58f6638362a61e05fe7f4dd4b601c804fd7c90aeb5d3a450511"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/compare_and_verify.py",
+    "bytes": 13081,
+    "sha256": "95701b94cce1ff11432853327da448184c7e30a9384ea2d93ab52c45290798ce"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/example_leaf.json",
+    "bytes": 46675,
+    "sha256": "540fe85c472065503f10f46f9636538d599103a7be2cb3ef47cd7ffcc6b40932"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/fix_spec.json",
+    "bytes": 701,
+    "sha256": "9c13e752e089c1f1b228dd3bcb230bf15174aa9c1d4a45e0c4b37983e6d25757"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/paired_comparison.json",
+    "bytes": 11546,
+    "sha256": "3e0d016850892f5a102da0e5bf4e53ecf79b48e486992ff449ef75242a95db6c"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/paired_per_task.csv",
+    "bytes": 2968,
+    "sha256": "0cd52771c4eebf2a5dcf48bb3b61e67b220eb9c08f31bc463902ba32b0de569a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/per_task.csv",
+    "bytes": 10082,
+    "sha256": "6ae375b4cc08d2657949eb47ffd5325b886b4647ab1f42aad2d535917b2a2bd3"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/postrun_verification.json",
+    "bytes": 332,
+    "sha256": "24c0e7b523f77522d82df1a276189d567fc96c3b162dbd35c84b914b9f44f802"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/protocol.json",
+    "bytes": 4126109,
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/results.json",
+    "bytes": 34915,
+    "sha256": "db3d67e815d123657f721999c7aafa9395ee157fc9d239d109bcd0f84d4213c7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/run_fixed.py",
+    "bytes": 6034,
+    "sha256": "71d0e7a6f9221b77bd53a3bdbba7cb35bf7be6af3ecb1ebc8a5ba00ada731859"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/runs.jsonl",
+    "bytes": 29431510,
+    "sha256": "c6b758816e3311158f2f882e162bcf8cc012abb154ae6594e26abf08d44d938f"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/traces.jsonl.gz",
+    "bytes": 5344762,
+    "sha256": "b6d46cd6c151225a89f1b52baead0a6f3a64d4f1cd78098e62a0110b02a1457b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/verification.json",
+    "bytes": 437,
+    "sha256": "8853725746085b69a43499be89ed882a65efaa82efd0e0f6e65efd1b70deff61"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/world_model_cache_fixed.py",
+    "bytes": 25046,
+    "sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-cache-fixed/缓存修复配对结果.txt",
+    "bytes": 5224,
+    "sha256": "a1a23abe53a2b45c1dc88a4693ae2e08021a9a16ea232916be477b2c1636d3ed"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/UPSTREAM_LICENSE",
+    "bytes": 1063,
+    "sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/agent_original.py",
+    "bytes": 42216,
+    "sha256": "81cf3ddb60eea401f41eb1ccb0a069b3e28ee01debceeb224a6292f6f75063de"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/artifact_manifest.json",
+    "bytes": 3678,
+    "sha256": "5095083639e7ef7b6e96a655a722af5e95b1a866aeae3787a521fcdfa476f7d2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/example_leaf.json",
+    "bytes": 47186,
+    "sha256": "980bb6297e2a306c4472b8373f9dd11f2cf149a1263a68dd3c23c8facf8eedbd"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/per_task.csv",
+    "bytes": 10522,
+    "sha256": "4963b0e04bdc6e2b30e70d04a5ade7a34637cb5ec402de2bf121550cb1f423b0"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/protocol.json",
+    "bytes": 4126109,
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/results.json",
+    "bytes": 38771,
+    "sha256": "42d36067e919197b0af47e3a2349618c66eb35f3423714372771a4c4202952a7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/runs.jsonl",
+    "bytes": 33363092,
+    "sha256": "70c7bebc9deb20282f1d3ce1717a7232c32ce192a89afce14c07099e438005f0"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/traces.jsonl.gz",
+    "bytes": 5344762,
+    "sha256": "cad6edf769ba0163b3373f53116b5cf904fbcfa21fecec65e03ff0c7704ded4b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/cache-fixed/verification.json",
+    "bytes": 540,
+    "sha256": "184fdd0e8192a4af5923b534d17933e139fb6b8015c26092fa60ef8d0f0fdab2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/execution_policy.py",
+    "bytes": 4517,
+    "sha256": "636f172cfc0c017403c938303414050a8807ec5b1f4a63ef00c5966edd557675"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/example_leaf.json",
+    "bytes": 47186,
+    "sha256": "980bb6297e2a306c4472b8373f9dd11f2cf149a1263a68dd3c23c8facf8eedbd"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/per_task.csv",
+    "bytes": 10720,
+    "sha256": "ea07ffb09ab03748c1876608294c1ab23af5d65e697a631ad51c3cfc486e0c12"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/protocol.json",
+    "bytes": 4126109,
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/results.json",
+    "bytes": 38974,
+    "sha256": "2a1a131e33d3621e3b09691c4507b67d124f03501d656e4a5e62729748ede3b8"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/runs.jsonl",
+    "bytes": 33344447,
+    "sha256": "682e689fa6c1ce8a16d58fee7dd241eb1dbb391bda7b60e4ff45aa1e6f884b86"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/traces.jsonl.gz",
+    "bytes": 5483107,
+    "sha256": "d01f39d34767f2cdcf9a95b92757837c85bd8eec7f8410372a8443f7a29f924f"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/original/verification.json",
+    "bytes": 537,
+    "sha256": "229d8def781728871fc1bddf5e477237cce8b8f34c3e95c4274eecf6217cca81"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/paired_comparison.json",
+    "bytes": 16441,
+    "sha256": "37b8dc5fd6dfbc43f0965b107a1c951a288a7f3da98344c1902913b4db0c2bc2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/paired_per_task.csv",
+    "bytes": 4406,
+    "sha256": "338c0a0ce2ecb105d92e6a865de98c4b644ba8029aa0238e63677676e8e91e83"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/protocol.json",
+    "bytes": 4126109,
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/replay_full.py",
+    "bytes": 16552,
+    "sha256": "84c36605b845cbadb73df7d9529ba5f7ba006a9df0631a95f06ab38073f97494"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/v2_spec.json",
+    "bytes": 898,
+    "sha256": "0500fd6af081c585bec03d5a2e74ce795bb856b61dd6b0cc27850d9e809bafa7"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/verification.json",
+    "bytes": 882,
+    "sha256": "3d8e46393cc0b1aa7641a9b7dcab0f36ce142250cfcd3288d0bf9ad0e675025a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/verify_and_report.py",
+    "bytes": 16651,
+    "sha256": "f63334e84fb9f087291d6806de1534b30fd60ea5fa2ae8127623daefbb304bc5"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/world_model_cache_fixed.py",
+    "bytes": 25046,
+    "sha256": "2dbb569906d7525f35d7dd2e522c800f0e3fc1c585e9f4b69c5e20fefeb45536"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/world_model_original.py",
+    "bytes": 24235,
+    "sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-full-execution-v2/完整执行策略配对结果_v2.txt",
+    "bytes": 6583,
+    "sha256": "fe708da67c21f6dfc070ae64aa6b1b45797273f63eedb92ab07567a3a5d510c8"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/UPSTREAM_LICENSE",
+    "bytes": 1063,
+    "sha256": "379c3ae903e21a26b5280f83aedffbe6b98a2ecc95b7918952efa3e86c698a1b"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/artifact_manifest.json",
+    "bytes": 1562,
+    "sha256": "1b0220028edd471cdfa5cbca97c6859aa14d4ab11abc21ce2f5ef13ab95e6272"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/example_leaf.json",
+    "bytes": 46675,
+    "sha256": "540fe85c472065503f10f46f9636538d599103a7be2cb3ef47cd7ffcc6b40932"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/per_task.csv",
+    "bytes": 10203,
+    "sha256": "81056f149e023b0a9df8f1996ce15ea6979c2ee42eac7ae3fbbad720bdc438d2"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/postrun_verification.json",
+    "bytes": 402,
+    "sha256": "8e0a73e9d98ee2670118dd6dd362a45f805724eda6193b3242578bea86b7692a"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/protocol.json",
+    "bytes": 4126109,
+    "sha256": "a4ff81c44d0ea3169995f741802265baf2479af3bc385fdcee5a987a672c9907"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/replay.py",
+    "bytes": 20733,
+    "sha256": "b1a4a9032bb7c8760cc07b9f85503c8f9bfbc2560f132f462c6d74fb1b1315d6"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/results.json",
+    "bytes": 34733,
+    "sha256": "3b513037d405b83cc59d02a0e841cda6bf1943799eced90037f3e8280c9290d6"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/runs.jsonl",
+    "bytes": 29412877,
+    "sha256": "2be8cd99c627f1275f871c46dc34f99cc757f45d9319a23ce1b442ef902e2998"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/traces.jsonl.gz",
+    "bytes": 5483107,
+    "sha256": "13f55ee243278ac5076c1ef87ffff49ecddeca9ec7b116f7bbe8b416bd4b9057"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/verification.json",
+    "bytes": 206,
+    "sha256": "ea8bdb957dfa95345f9eabf217934f36e28c3d3265ec0cf908da5a232f553c91"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/world_model_original.py",
+    "bytes": 24235,
+    "sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79"
+  },
+  {
+    "source": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/outputs/tournament-replay/实验结果说明.txt",
+    "bytes": 6946,
+    "sha256": "3b06dffa2e9fad9d0a3bf87c06fb46f193ac39f386e1327b9c375e4305b64157"
+  }
+]

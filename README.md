@@ -1,14 +1,14 @@
 # ForeAgent：复现与研究
 
-**当前进度：原版复现已冻结，C0 修正与离线研究接口已验收。下一步是围绕现有模块读文献、形成研究方案。**
+**本轮离线候选选择研究已结束，保留 C0。** [离线结果、理由字段与后续决定](research/离线候选选择.md)
 
 ## 从这三个入口开始
 
 | 入口 | 你想知道什么 |
 |---|---|
 | **[当前研究状态](research/STATUS.md)** | 已完成什么、还差什么、现在先做哪一步 |
-| **[研究设计与实验接口](research/README.md)** | 模块怎么分、AI 能修改什么、Environment 与 Evals 怎么调用 |
-| **[最近实验结论](experiments/clean-ranking-v1/先读结果.md)** | C0 与主动比较先导的结果、证据和解释 |
+| **[项目交接与研究接口](research/README.md)** | 新聊天先读：已尝试方向、结果、暂缓原因、备选与下一步；按需展开 Environment 与 Evals |
+| **[最近实验结论](research/离线候选选择.md)** | 固定候选池的离线重排与理由信号；[此前静态裁判训练](experiments/trajectory-weighted-judge-v1/README.md) |
 
 ## HW3 提交入口
 

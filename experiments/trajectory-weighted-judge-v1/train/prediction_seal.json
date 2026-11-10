@@ -1,0 +1,237 @@
+{
+  "costs": {
+    "candidate_executions": 0,
+    "gpu_rentals": 0,
+    "paid_api_calls": 0
+  },
+  "credit_receipt_sha256": "8370503093bcc674b285a3b2150bac50dd7c31404e17802700c6da73d26373fc",
+  "embeddings": "experiments/trajectory-weighted-judge-v1/representation/run_1/embeddings.npz",
+  "embeddings_sha256": "e4289aff01d44ee4acd3877904763245d9575f6621cdca62ae2ad337549318a9",
+  "evaluation_labels_loaded_by_trainer": false,
+  "fits": 104,
+  "folds": [
+    {
+      "inference_pairs": 1176,
+      "manifest_sha256": "ef0196e6a8d43fabc7aef9cfee0abf3cf6708055cc4926b64ed9d1345df0794d",
+      "task": "aptos2019-blindness-detection",
+      "training_pairs": 16699
+    },
+    {
+      "inference_pairs": 990,
+      "manifest_sha256": "779f318732029c541e4ebdba158cc0422c53de9dee9026c2ffcf995309021f1e",
+      "task": "denoising-dirty-documents",
+      "training_pairs": 16897
+    },
+    {
+      "inference_pairs": 351,
+      "manifest_sha256": "5f873b9504d3e19c3a51ed31694b850151fae1fac3f007f4d4ce1fd0a3a4a4c8",
+      "task": "detecting-insults-in-social-commentary",
+      "training_pairs": 17521
+    },
+    {
+      "inference_pairs": 3,
+      "manifest_sha256": "ac4994db39968986cec1288eb6fc081e574420acdffab7740c4b5ada4ad5e98c",
+      "task": "dog-breed-identification",
+      "training_pairs": 17868
+    },
+    {
+      "inference_pairs": 1176,
+      "manifest_sha256": "c138c8d291eeea59a7d9912ac488b73f253324d81a7b200ede2ba1f2bc274c48",
+      "task": "google-quest-challenge",
+      "training_pairs": 16696
+    },
+    {
+      "inference_pairs": 10,
+      "manifest_sha256": "cc49828ac8e91f622e666b5e5b4a360b91e8ca7c43444d9d2acccd948488e850",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "training_pairs": 17861
+    },
+    {
+      "inference_pairs": 136,
+      "manifest_sha256": "ca83eac3aa88d3178dec1b0b34bacd9844e0de7c325b2c40483bab35598b39b7",
+      "task": "leaf-classification",
+      "training_pairs": 17735
+    },
+    {
+      "inference_pairs": 190,
+      "manifest_sha256": "7fb6f08a0a559d7469b38d7b529c5e76865dfe63801c8f31c8744a4e6de98d71",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "training_pairs": 17681
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "39a3964c52e42025249a06bb47f897d2a62edc57fe128afdc4f3ee7df09e8a30",
+      "task": "lmsys-chatbot-arena",
+      "training_pairs": 16651
+    },
+    {
+      "inference_pairs": 1176,
+      "manifest_sha256": "8c6c100d30f7c6c700b003d7273399d18a263e5958f0e52a952c8e3df9f94f9d",
+      "task": "mlsp-2013-birds",
+      "training_pairs": 16698
+    },
+    {
+      "inference_pairs": 435,
+      "manifest_sha256": "eaf5200d758d67a64380f4813a745a0415d3d0f728384c6c6c24555c4aad586c",
+      "task": "new-york-city-taxi-fare-prediction",
+      "training_pairs": 17442
+    },
+    {
+      "inference_pairs": 3,
+      "manifest_sha256": "c3cf370f620b84733d489e623525e8befd78cbdb90ff2c028060c1436962821b",
+      "task": "nomad2018-predict-transparent-conductors",
+      "training_pairs": 17868
+    },
+    {
+      "inference_pairs": 435,
+      "manifest_sha256": "7ccf6b0b5115a2ecd1c5c0816b7c9949bce6a51614fab2fd389b75d761569533",
+      "task": "petfinder-pawpularity-score",
+      "training_pairs": 17632
+    },
+    {
+      "inference_pairs": 15,
+      "manifest_sha256": "007332d946150cc235f53351de08221a81f5c2773526f0c13e2dc76b4421f8a7",
+      "task": "plant-pathology-2020-fgvc7",
+      "training_pairs": 17856
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "42b4654ac6380579ae72d9ee02de2484617ff3a100f534aba43d2885e1e1a6fc",
+      "task": "predict-volcanic-eruptions-ingv-oe",
+      "training_pairs": 16658
+    },
+    {
+      "inference_pairs": 1176,
+      "manifest_sha256": "364cb3f33ad0da0473ff3ade97e69f27b380080ffbe5d089bb1f02a3c9c57f6a",
+      "task": "random-acts-of-pizza",
+      "training_pairs": 16695
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "55829e2f8b13733425c52d7ca69181626db37ced4f959c8b591d9d0a4ef793ad",
+      "task": "spooky-author-identification",
+      "training_pairs": 16651
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "ea216f6eda37042ebfb0d66d04e3b8b5aac769f99fb367eaf3fc2a1ff9479f25",
+      "task": "stanford-covid-vaccine",
+      "training_pairs": 16649
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "10cda39c83442da0490ec778dd7284140d705b6f78d3e59ee364b161d6729e8d",
+      "task": "statoil-iceberg-classifier-challenge",
+      "training_pairs": 16648
+    },
+    {
+      "inference_pairs": 276,
+      "manifest_sha256": "ff6df314599b1267af153f99219328d7ce20632dac7f0cf7bd08e84861af5756",
+      "task": "tabular-playground-series-dec-2021",
+      "training_pairs": 17597
+    },
+    {
+      "inference_pairs": 990,
+      "manifest_sha256": "28651a80f3ba18a89c4078a0b0f2aa95f56308d57f8904a386bb32b038ccef38",
+      "task": "tensorflow-speech-recognition-challenge",
+      "training_pairs": 16905
+    },
+    {
+      "inference_pairs": 780,
+      "manifest_sha256": "aafe63976b640003ce77445ea1b6b7a94eb167a3645995fe69f1ef7321f02a0e",
+      "task": "tgs-salt-identification-challenge",
+      "training_pairs": 17158
+    },
+    {
+      "inference_pairs": 253,
+      "manifest_sha256": "308ad104c34d5fe37e6ae2ddaa0042951906a49c7859e5974273bc9cf943a7e3",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "training_pairs": 17619
+    },
+    {
+      "inference_pairs": 78,
+      "manifest_sha256": "4519241e2832ef57518f22495fb208b526a6fe8cfe2b4566ccfca15ab551bd80",
+      "task": "tweet-sentiment-extraction",
+      "training_pairs": 17793
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "aa42f54df07508cdecf36ce211474aea9152705d9b19f1bedcdc3d34a232d90d",
+      "task": "us-patent-phrase-to-phrase-matching",
+      "training_pairs": 16648
+    },
+    {
+      "inference_pairs": 1225,
+      "manifest_sha256": "866d778f3f637370f8d5a41285c0955fd0b6ed840d881c176b2817962adf77ab",
+      "task": "ventilator-pressure-prediction",
+      "training_pairs": 16649
+    }
+  ],
+  "id": "trajectory-weighted-judge-v1-encoder-linear-v1",
+  "input_features": 1024,
+  "inventory": {
+    "all_inference_pairs": 18224,
+    "code_bytes": 9426606,
+    "code_fingerprints_sha256": "88d7f2017cd4100c76d3be748107bbd82b42a25abed6277be88ec4fa45836cc4",
+    "codes": 877,
+    "exact_or_ast_cross_task_groups": {
+      "ast_sha256": [],
+      "byte_sha256": []
+    },
+    "policy": "Remove same-content supervised pairs and training pairs with either code byte/AST-identical to any heldout code; predict all heldout pairs.",
+    "residual_risk": "AST identity retains identifiers and literal values; renamed or structurally edited near-duplicates can remain.",
+    "task_candidate_counts": {
+      "aptos2019-blindness-detection": 49,
+      "denoising-dirty-documents": 45,
+      "detecting-insults-in-social-commentary": 27,
+      "dog-breed-identification": 3,
+      "google-quest-challenge": 49,
+      "jigsaw-toxic-comment-classification-challenge": 5,
+      "leaf-classification": 17,
+      "learning-agency-lab-automated-essay-scoring-2": 20,
+      "lmsys-chatbot-arena": 50,
+      "mlsp-2013-birds": 49,
+      "new-york-city-taxi-fare-prediction": 30,
+      "nomad2018-predict-transparent-conductors": 3,
+      "petfinder-pawpularity-score": 30,
+      "plant-pathology-2020-fgvc7": 6,
+      "predict-volcanic-eruptions-ingv-oe": 50,
+      "random-acts-of-pizza": 49,
+      "spooky-author-identification": 50,
+      "stanford-covid-vaccine": 50,
+      "statoil-iceberg-classifier-challenge": 50,
+      "tabular-playground-series-dec-2021": 24,
+      "tensorflow-speech-recognition-challenge": 45,
+      "tgs-salt-identification-challenge": 40,
+      "the-icml-2013-whale-challenge-right-whale-redux": 23,
+      "tweet-sentiment-extraction": 13,
+      "us-patent-phrase-to-phrase-matching": 50,
+      "ventilator-pressure-prediction": 50
+    },
+    "tasks": 26
+  },
+  "limitations": [
+    "26 development tasks reused; folds share training data.",
+    "Linear head on frozen compact public encoder; feature truncation belongs to representation receipt.",
+    "Exact and canonical AST filters leave renamed/edited near-duplicate risk.",
+    "Training labels and costs are archived execution outcomes; provenance confounding may persist."
+  ],
+  "machine": "arm64",
+  "model_spec_sha256": "63a6bda637ddc72e1384f1d49a82f5e3c39a60e25582a56ae86b4e91f5e383a2",
+  "numpy": "1.26.4",
+  "optimizer_steps": 8320,
+  "parameters_per_fit": 1024,
+  "prediction_rows": 18224,
+  "predictions": "experiments/trajectory-weighted-judge-v1/train/oof_predictions.jsonl.gz",
+  "predictions_sha256": "e1cab8fa722e081f8e465fbaf11fcb186c03088f5cba59c78483f732dc102161",
+  "processor": "arm",
+  "python": "3.12.5",
+  "scipy": "1.14.1",
+  "source_sha256": {
+    "data.py": "7aca7e29803ae603cb80554b910251e519a379743b8b730998ee0f4be59105e4",
+    "fit.py": "dce378776c49101cad6bdc3a084c9ed7857db867f865abb8e35570261f290d68"
+  },
+  "threads": 1,
+  "training_results_used_for_selection": false,
+  "wall_seconds": 17.116925954818726
+}
