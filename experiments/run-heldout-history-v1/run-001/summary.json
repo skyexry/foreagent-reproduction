@@ -1,0 +1,279 @@
+{
+  "advance": false,
+  "eligible_pools": 287,
+  "eligible_task_macro_diagnostics": {
+    "DS": {
+      "mixed_mean_nearest_cosine": 0.9885664726164595,
+      "mixed_share_from_target_run": 0.6395568717801448,
+      "strict_mean_nearest_cosine": 0.9861508584487778,
+      "strict_share_from_target_run": 0.0
+    },
+    "GPT": {
+      "mixed_mean_nearest_cosine": 0.9885149945493434,
+      "mixed_share_from_target_run": 0.6589249780991832,
+      "strict_mean_nearest_cosine": 0.9861173969901501,
+      "strict_share_from_target_run": 0.0
+    }
+  },
+  "eligible_tasks": 16,
+  "known_uuid_runs": 205,
+  "metrics": {
+    "all": {
+      "DS": {
+        "differences": {
+          "c0_minus_mixed": {
+            "ci95": [
+              -0.009219299482985433,
+              0.03400643805656459
+            ],
+            "gain": 0.008760611080681165,
+            "leave_one_task_out_gain_range": [
+              -0.001471342366532129,
+              0.011463446035425866
+            ],
+            "tasks_better": 8,
+            "tasks_tied": 11,
+            "tasks_worse": 7
+          },
+          "c0_minus_strict": {
+            "ci95": [
+              -0.021550277037938124,
+              0.02348719730365246
+            ],
+            "gain": -0.001204340431425463,
+            "leave_one_task_out_gain_range": [
+              -0.010721084417415616,
+              0.002658453694249148
+            ],
+            "tasks_better": 8,
+            "tasks_tied": 11,
+            "tasks_worse": 7
+          },
+          "mixed_minus_strict": {
+            "ci95": [
+              -0.019824497613648556,
+              -0.0012451769521311992
+            ],
+            "gain": -0.009964951512106626,
+            "leave_one_task_out_gain_range": [
+              -0.011362069990330128,
+              -0.007557873718627558
+            ],
+            "tasks_better": 5,
+            "tasks_tied": 11,
+            "tasks_worse": 10
+          }
+        },
+        "loss": {
+          "c0": 0.26416156273452185,
+          "mixed": 0.2554009516538407,
+          "strict": 0.2653659031659473
+        }
+      },
+      "GPT": {
+        "differences": {
+          "c0_minus_mixed": {
+            "ci95": [
+              -0.001910023167226618,
+              0.03934204551093062
+            ],
+            "gain": 0.017348244683953407,
+            "leave_one_task_out_gain_range": [
+              0.0113824147235976,
+              0.020400467419405138
+            ],
+            "tasks_better": 10,
+            "tasks_tied": 11,
+            "tasks_worse": 5
+          },
+          "c0_minus_strict": {
+            "ci95": [
+              -0.013718078877348182,
+              0.013794511693845156
+            ],
+            "gain": 4.5467438683362765e-05,
+            "leave_one_task_out_gain_range": [
+              -0.0028432947176186174,
+              0.0035767491022392927
+            ],
+            "tasks_better": 8,
+            "tasks_tied": 11,
+            "tasks_worse": 7
+          },
+          "mixed_minus_strict": {
+            "ci95": [
+              -0.03604699221177552,
+              -0.001881125530823877
+            ],
+            "gain": -0.017302777245270042,
+            "leave_one_task_out_gain_range": [
+              -0.01923562137946305,
+              -0.011549230972531847
+            ],
+            "tasks_better": 4,
+            "tasks_tied": 11,
+            "tasks_worse": 11
+          }
+        },
+        "loss": {
+          "c0": 0.27248646137638716,
+          "mixed": 0.25513821669243375,
+          "strict": 0.2724409939377038
+        }
+      }
+    },
+    "eligible": {
+      "DS": {
+        "differences": {
+          "c0_minus_mixed": {
+            "ci95": [
+              -0.015690856229494423,
+              0.05696769284453639
+            ],
+            "gain": 0.015326343701225417,
+            "leave_one_task_out_gain_range": [
+              -0.0022174752984131297,
+              0.020268784133836204
+            ],
+            "tasks_better": 8,
+            "tasks_tied": 1,
+            "tasks_worse": 7
+          },
+          "c0_minus_strict": {
+            "ci95": [
+              -0.03592771632626385,
+              0.041154806314380885
+            ],
+            "gain": -0.0012353788600597305,
+            "leave_one_task_out_gain_range": [
+              -0.017929264413420083,
+              0.005543609466693534
+            ],
+            "tasks_better": 8,
+            "tasks_tied": 1,
+            "tasks_worse": 7
+          },
+          "mixed_minus_strict": {
+            "ci95": [
+              -0.03181037643772726,
+              -0.002478025106398934
+            ],
+            "gain": -0.016561722561285144,
+            "leave_one_task_out_gain_range": [
+              -0.019330038094936216,
+              -0.012989710975431933
+            ],
+            "tasks_better": 5,
+            "tasks_tied": 1,
+            "tasks_worse": 10
+          }
+        },
+        "loss": {
+          "c0": 0.2827024701891721,
+          "mixed": 0.2673761264879467,
+          "strict": 0.28393784904923186
+        }
+      },
+      "GPT": {
+        "differences": {
+          "c0_minus_mixed": {
+            "ci95": [
+              -0.0012595923619929368,
+              0.06632150982858653
+            ],
+            "gain": 0.031147436964836413,
+            "leave_one_task_out_gain_range": [
+              0.022124333182968935,
+              0.037154421009314834
+            ],
+            "tasks_better": 10,
+            "tasks_tied": 1,
+            "tasks_worse": 5
+          },
+          "c0_minus_strict": {
+            "ci95": [
+              -0.022560058395519788,
+              0.02408512155976072
+            ],
+            "gain": 0.0013335617374319176,
+            "leave_one_task_out_gain_range": [
+              -0.0036487286271766825,
+              0.007304904129941705
+            ],
+            "tasks_better": 8,
+            "tasks_tied": 1,
+            "tasks_worse": 7
+          },
+          "mixed_minus_strict": {
+            "ci95": [
+              -0.05853921177441789,
+              -0.005019502056559839
+            ],
+            "gain": -0.029813875227404495,
+            "leave_one_task_out_gain_range": [
+              -0.033869355316535135,
+              -0.02105870463831647
+            ],
+            "tasks_better": 4,
+            "tasks_tied": 1,
+            "tasks_worse": 11
+          }
+        },
+        "loss": {
+          "c0": 0.28886657174434477,
+          "mixed": 0.25771913477950836,
+          "strict": 0.28753301000691284
+        }
+      }
+    }
+  },
+  "missing_uuid_codes": 3,
+  "references_available": [
+    [
+      0,
+      122
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      3,
+      27
+    ],
+    [
+      4,
+      33
+    ],
+    [
+      5,
+      34
+    ],
+    [
+      6,
+      39
+    ],
+    [
+      7,
+      51
+    ],
+    [
+      8,
+      31
+    ],
+    [
+      9,
+      36
+    ],
+    [
+      10,
+      36
+    ]
+  ],
+  "total_pools": 425,
+  "total_tasks": 26
+}
