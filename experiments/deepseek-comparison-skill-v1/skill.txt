@@ -1,0 +1,2 @@
+- Compare the two implementations directly. Find one or two differences that could change the task metric. For each difference, cite a short identifier or expression from each relevant solution and check how it is used in training or prediction.
+- Explain which difference is likely to matter most for this dataset, including a trade-off that could favor the other solution. Base your final choice on the implemented behavior you can verify in the code.

@@ -1,0 +1,247 @@
+{
+  "revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "seed": "foreagent-comparison-skill-v1-20261110",
+  "max_combined_code_bytes": 48000,
+  "pairs": [
+    {
+      "pair_id": "ecdd3352b824297b",
+      "task": "detecting-insults-in-social-commentary",
+      "a_id": "406fcfddfe03c04ed3b9",
+      "b_id": "40d4a75779662b97b80f",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_b204abbe7d504cf1b69bfe04d954c86c.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_5a4e15433076462a86b8b7ea0564c9b1.py",
+      "a_sha256": "406fcfddfe03c04ed3b996f90ddf1b1b10494bde54fbcfa833abe07ee51f5ed2",
+      "b_sha256": "40d4a75779662b97b80ffbdd178a29929f30c5f9055ffab07b9cdfbf8f3888de"
+    },
+    {
+      "pair_id": "008939f9e9d550da",
+      "task": "detecting-insults-in-social-commentary",
+      "a_id": "f668701b67b35d95b4f0",
+      "b_id": "fb7961a441e6b94592d2",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_e44879c54bef44b2b54e524eac584190.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/detecting-insults-in-social-commentary/code/solution_Automind_v3_detecting-insults-in-social-commentary_143fc8a5-358b-4db9-887e-22d751bbd316_run_a105f66b989b45c79e9f282ddca97cf0.py",
+      "a_sha256": "f668701b67b35d95b4f0a8e383f4f17dae27a15a3b0166e4b4ce594343df49be",
+      "b_sha256": "fb7961a441e6b94592d2825c7e164a65189845270d3d40b99cf4b31ba65bd9fb"
+    },
+    {
+      "pair_id": "89382d60b76890ce",
+      "task": "mlsp-2013-birds",
+      "a_id": "100fa123bfaf1ec0a8a1",
+      "b_id": "2eef5f55778d9d0811ee",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/mlsp-2013-birds/code/solution_Automind_o3_mini_mlsp-2013-birds_aff29c7c-0703-4f7d-8148-071b320783b3_run_6b5486c786794119a02c2ff5b006ea0f.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/mlsp-2013-birds/code/solution_Automind_o3_mini_mlsp-2013-birds_9a9d41c3-217c-4191-9470-f2a5a6017a85_run_e35cdb719ac04e8da0b8e035c4e15229.py",
+      "a_sha256": "100fa123bfaf1ec0a8a1b8eeb25cf7190bc5d08f16bc14db55302d1bf406e4c6",
+      "b_sha256": "2eef5f55778d9d0811eeae06d5d86679bd188758410999516d56fa36f41b0afa"
+    },
+    {
+      "pair_id": "f77d76cce11859fc",
+      "task": "mlsp-2013-birds",
+      "a_id": "1377af1a55965aaee19f",
+      "b_id": "84942fc7d94615faee39",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/mlsp-2013-birds/code/solution_Aide_o3mini_mlsp-2013-birds_dd821d93-c54a-4cc6-9da6-8eb7a8ae2d54_run_c0a824d0a4ba4ad48268d672607ad522.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/mlsp-2013-birds/code/solution_Aide_o3mini_mlsp-2013-birds_dd821d93-c54a-4cc6-9da6-8eb7a8ae2d54_run_e3a314df251545e39f31893d1ef75a1d.py",
+      "a_sha256": "1377af1a55965aaee19f966cfc33252c3c47f8e1b70119047c773cc6519d0e25",
+      "b_sha256": "84942fc7d94615faee39c8ccfa19e5254acae9a11a257ab3ad459204fbf796f4"
+    },
+    {
+      "pair_id": "1b7b813d15d2eede",
+      "task": "tabular-playground-series-dec-2021",
+      "a_id": "12ccc12219eee3d3179b",
+      "b_id": "54fccd9182663d240169",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tabular-playground-series-dec-2021/code/solution_Automind_v3_tabular-playground-series-dec-2021_2c014437-08cb-4f75-8e7a-50b3b3f2556f_run_496689cccf184f3da9d6e2e677bf5d31.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tabular-playground-series-dec-2021/code/solution_Automind_v3_tabular-playground-series-dec-2021_e682d49a-4cb6-41c2-a6bb-d796cdc24e61_run_5af3939555c34d818e6141a484f9cd38.py",
+      "a_sha256": "12ccc12219eee3d3179b0f7eada058ee0e58819786499112eb5d95894c7f1b38",
+      "b_sha256": "54fccd9182663d2401695940ffa44bb163c982e175fc1f14c3a33bfa729afb71"
+    },
+    {
+      "pair_id": "ad5efb548de8226e",
+      "task": "tabular-playground-series-dec-2021",
+      "a_id": "1c692338000d1410346c",
+      "b_id": "4e8e5db663f182503533",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tabular-playground-series-dec-2021/code/solution_Automind_v3_tabular-playground-series-dec-2021_e682d49a-4cb6-41c2-a6bb-d796cdc24e61_run_1b24a495ff7b4aeca8dd42ef74bfd8b2.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tabular-playground-series-dec-2021/code/solution_Automind_v3_tabular-playground-series-dec-2021_e682d49a-4cb6-41c2-a6bb-d796cdc24e61_run_5ccd1b4a79d1439a996758180f300765.py",
+      "a_sha256": "1c692338000d1410346cf94c65dc2e4f23e2c81dd4e93fa12d33f1c9484b9b67",
+      "b_sha256": "4e8e5db663f182503533dc26295a896d5ffd357615bcb87de0ae516b0c05c9b5"
+    },
+    {
+      "pair_id": "207cf6043a411376",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "a_id": "4a282df1f65e9404842d",
+      "b_id": "f6bfb1aaa357becad04e",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/code/solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_90f5e4f6-a191-4606-bd73-d0b746c5f8a7_run_dcdb3e8f022b4cbd95be79c64198a2e0.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/code/solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_e8ba6d50792349b692fd28df749b939b.py",
+      "a_sha256": "4a282df1f65e9404842dade57ebdcebed217453ccc7058704ef0a4a3e7b1fc29",
+      "b_sha256": "f6bfb1aaa357becad04ef5dffafcecd6b6ab3e83d08f09a7c5035dc39f9e8b6f"
+    },
+    {
+      "pair_id": "9383b0aaded420b5",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "a_id": "36f6499e533ef4b9272d",
+      "b_id": "3f24e7d81e9c4472e423",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/code/solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_57d35fc6b8a440e5b214cc978c546118.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/code/solution_Automind_v3_learning-agency-lab-automated-essay-scoring-2_76d047cb-ec98-40ec-9f86-7c0a340847e2_run_4d27455778364a51a2a1a8840567ccc0.py",
+      "a_sha256": "36f6499e533ef4b9272d45946142d2cd2a505b8363644bd3b8425cec3d3e0234",
+      "b_sha256": "3f24e7d81e9c4472e4233d5bdfd36f5e105c513bedd3a1b806c023825494f561"
+    },
+    {
+      "pair_id": "391fd17731b002dc",
+      "task": "spooky-author-identification",
+      "a_id": "81ff312f613563424379",
+      "b_id": "8f17a1bfbdee642e92a2",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/spooky-author-identification/code/solution_Aide_o3mini_spooky-author-identification_9db0cd24-2546-4fe8-a6e6-678f4fb37a29_run_dbf591c16ba7403fa9823c7bbc048501.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/spooky-author-identification/code/solution_Automind_o3_mini_spooky-author-identification_b41a6f10-1188-4322-90a4-e54eb1c7f9ea_run_a23934511eb24e5e9aa125946203569d.py",
+      "a_sha256": "81ff312f613563424379d09c1f946d68e6fecda769405ff630fbcbd3f06d8f55",
+      "b_sha256": "8f17a1bfbdee642e92a28c54ecf4b913a01cd61fca3aeb35b2faba006d597b52"
+    },
+    {
+      "pair_id": "03589b0626876be7",
+      "task": "spooky-author-identification",
+      "a_id": "5bbad7fed99b6ba00acc",
+      "b_id": "68cb3079c14a3956dda9",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/spooky-author-identification/code/solution_Aide_v3_spooky-author-identification_4788a3fd-3850-4d66-b09a-3d34b3b67050_run_0ba2c62dd65f4e558d7a8865784b4023.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/spooky-author-identification/code/solution_Automind_v3_spooky-author-identification_9d8f5cbf-a374-47a1-952b-746843a0af7c_run_eb16d10460534535bdc4cb632d36fa36.py",
+      "a_sha256": "5bbad7fed99b6ba00acc911c03177adc3b079c1f139078cab75ef1109be4482d",
+      "b_sha256": "68cb3079c14a3956dda91848856afb45d937a15d2812e92dc17738b0a1aa8066"
+    },
+    {
+      "pair_id": "c14ebb306bd4e977",
+      "task": "stanford-covid-vaccine",
+      "a_id": "599a9bf1f15945b78459",
+      "b_id": "d365a1784fdd95473d2c",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/stanford-covid-vaccine/code/solution_Automind_o3_mini_stanford-covid-vaccine_17a1c7e1-95b4-4cee-b7f4-1302fa50add0_run_2f5ddca57d4c40b18994c5cb51bbded5.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/stanford-covid-vaccine/code/solution_Automind_o3_mini_stanford-covid-vaccine_2bb6734d-60b2-463f-af9d-509ad3e7fb2f_run_bfc6cf46ee6141aba43495d163446eaf.py",
+      "a_sha256": "599a9bf1f15945b784594225123b08c3d0e1a148b64ca65f240543db59ddc291",
+      "b_sha256": "d365a1784fdd95473d2c241d7938e6e3b41530c91c79de6e8eea1bdc864989b4"
+    },
+    {
+      "pair_id": "2888bb1f3d722266",
+      "task": "stanford-covid-vaccine",
+      "a_id": "7ea8e1337b336045b092",
+      "b_id": "828f0cfaca3b36d5330a",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/stanford-covid-vaccine/code/solution_Automind_v3_stanford-covid-vaccine_46b7859a-aa3a-44f7-964e-04a2270a2f10_run_4636043798ce4d6498764964f55e8a8b.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/stanford-covid-vaccine/code/solution_Aide_o3mini_stanford-covid-vaccine_2993d6e6-d4d0-4243-afff-3625e59d0529_run_1d691ad4538e42449cfaaf1ebdeef094.py",
+      "a_sha256": "7ea8e1337b336045b09246bf2c93a6a322d03c7314f94188ff87619d9dc57f48",
+      "b_sha256": "828f0cfaca3b36d5330ab7c89d1e498eb378572d9e2c04ba4f45dbc99859b98f"
+    },
+    {
+      "pair_id": "f510c16303c4362d",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "a_id": "1c83e9cc6ed9c2ae7541",
+      "b_id": "6294a632eda6d89fd0ca",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/code/solution_Automind_v3_the-icml-2013-whale-challenge-right-whale-redux_520ca99d-19a0-4298-b78d-8c14eaf5cc1c_run_4aa7e26eb56a43da9ed3432aac85aaf3.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/code/solution_Automind_v3_the-icml-2013-whale-challenge-right-whale-redux_982ab386-a090-4cb0-873d-80ebfd003d80_run_c5968bffefcc4b6e9df3bd7e045a40f4.py",
+      "a_sha256": "1c83e9cc6ed9c2ae754150ad612ae424d953b95f1e40995b60a6454d2d2ea432",
+      "b_sha256": "6294a632eda6d89fd0ca16efc0c1260cd1b2cf32d78bd7f510b7e7cb62ba182d"
+    },
+    {
+      "pair_id": "bc514d112901baa7",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "a_id": "8ab49cfbc3824abe8b0e",
+      "b_id": "a19e9d9a654b78d48d75",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/code/solution_Automind_v3_the-icml-2013-whale-challenge-right-whale-redux_520ca99d-19a0-4298-b78d-8c14eaf5cc1c_run_f5d76a8541d24e1fb7d75e93b019a48f.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/code/solution_Automind_v3_the-icml-2013-whale-challenge-right-whale-redux_520ca99d-19a0-4298-b78d-8c14eaf5cc1c_run_92e973a7ed704d3da375f8b986790e7d.py",
+      "a_sha256": "8ab49cfbc3824abe8b0e203fd25d1fc72bde6d97ea7ce00a4e907199bc82b9fe",
+      "b_sha256": "a19e9d9a654b78d48d758889e1aa8039eebda2fd920c1f27c9a9ba5c1478c20d"
+    },
+    {
+      "pair_id": "17129645d237e09d",
+      "task": "petfinder-pawpularity-score",
+      "a_id": "85d4fc890ec6cf68c85e",
+      "b_id": "d3585a491d3319e32f02",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/petfinder-pawpularity-score/code/solution_Aide_v3_petfinder-pawpularity-score_141f32ab-478c-4a29-99f2-dee49b0a75d0_run_a81fe852fb154106a0a0b4c5b654135a.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/petfinder-pawpularity-score/code/solution_Aide_v3_petfinder-pawpularity-score_141f32ab-478c-4a29-99f2-dee49b0a75d0_run_933528ae6d424383a1a1f0c616533c8b.py",
+      "a_sha256": "85d4fc890ec6cf68c85e8f342982154b438927651321c4663b422519c8273d33",
+      "b_sha256": "d3585a491d3319e32f02bde2526d0746fd6920a15d67423bd608e9f138505cc0"
+    },
+    {
+      "pair_id": "6eac1f570c928359",
+      "task": "petfinder-pawpularity-score",
+      "a_id": "10e00c3203108137fad9",
+      "b_id": "8550462bbbf308e7f486",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/petfinder-pawpularity-score/code/solution_Aide_v3_petfinder-pawpularity-score_3e8f4a26-31f3-45d2-a785-2aa4a49f2ad4_run_52d04efff14246d0a1e9cfb01df67bf6.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/petfinder-pawpularity-score/code/solution_Aide_v3_petfinder-pawpularity-score_141f32ab-478c-4a29-99f2-dee49b0a75d0_run_0335d7472b0748a19b9b54b68c2add9a.py",
+      "a_sha256": "10e00c3203108137fad95559b9a19079b401490eeef37567254c28513a09567c",
+      "b_sha256": "8550462bbbf308e7f486e5ba76ae99d0bf4cc0591b85fac6ba4f2cd0e528a68a"
+    },
+    {
+      "pair_id": "7a1d134dcbd3c191",
+      "task": "tensorflow-speech-recognition-challenge",
+      "a_id": "9209409c57a7b17e55cf",
+      "b_id": "dd278b5e6f0c7d609a5e",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tensorflow-speech-recognition-challenge/code/solution_Aide_o3mini_tensorflow-speech-recognition-challenge_9961989c-9820-4e84-9c2a-18767382f5ba_run_69561a541def424ab294f36bb11805dc.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tensorflow-speech-recognition-challenge/code/solution_Automind_v3_tensorflow-speech-recognition-challenge_647fa308-113e-4dc6-92bd-2aa796a5d72b_run_6cd05ab0b48441348670dd8f97e01102.py",
+      "a_sha256": "9209409c57a7b17e55cf93719db49ba4a346c8f98fcff4af7a7870833884c0fe",
+      "b_sha256": "dd278b5e6f0c7d609a5e8b2f0ec0f863ca54f16d0acb9724bcfee01a5014c2ce"
+    },
+    {
+      "pair_id": "8e97ac4278467d56",
+      "task": "tensorflow-speech-recognition-challenge",
+      "a_id": "2dce067c147e7c06a827",
+      "b_id": "6191e47b47c20f650aa0",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tensorflow-speech-recognition-challenge/code/solution_Aide_o3mini_tensorflow-speech-recognition-challenge_62bb3c48-f44e-45ba-9396-27e23c18d570_run_70ed3ab6972f46f6a2ddca2d6491d92c.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tensorflow-speech-recognition-challenge/code/solution_Automind_o3_mini_tensorflow-speech-recognition-challenge_0323458b-8d0f-487b-af8e-9adc4cb17825_run_a1e26374cbf54f76a93b0ae19938f06b.py",
+      "a_sha256": "2dce067c147e7c06a827be23a3a36defceba3314ae31557fa2d7e9be2a22f087",
+      "b_sha256": "6191e47b47c20f650aa07368c16cc8dc88f5dffed84a115f3e7433e18658dce5"
+    },
+    {
+      "pair_id": "06ce18d6d3733f3b",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "a_id": "ce9ee137214aeda40a43",
+      "b_id": "fb9846835836775bcddd",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/code/solution_Automind_v3_jigsaw-toxic-comment-classification-challenge_1652fdb9-175f-4291-a2c7-d5b5bccb53fe_run_b3c157dcf3bf4e67a42ddf0af054667a.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/code/solution_Automind_v3_jigsaw-toxic-comment-classification-challenge_1652fdb9-175f-4291-a2c7-d5b5bccb53fe_run_586c6ff0ef894d0b8339d05d58611460.py",
+      "a_sha256": "ce9ee137214aeda40a43560c7a590fe0202b51e3d8b20173aac1abd9b0a07404",
+      "b_sha256": "fb9846835836775bcddd61fec71e786b787a965f5a5eaf8e567e6e20c78d6c4f"
+    },
+    {
+      "pair_id": "0f3581f62e60a5d7",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "a_id": "3909ab17cf68ff0e434b",
+      "b_id": "8ce70a64e3abef966916",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/code/solution_Automind_v3_jigsaw-toxic-comment-classification-challenge_1652fdb9-175f-4291-a2c7-d5b5bccb53fe_run_c66de655845a44d3864cd736ab1e859f.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/code/solution_Automind_v3_jigsaw-toxic-comment-classification-challenge_1652fdb9-175f-4291-a2c7-d5b5bccb53fe_run_96342aa60aa84f9aa2c72d436309fe08.py",
+      "a_sha256": "3909ab17cf68ff0e434bbdfdebb5c918b1eca37c147ff97f14490d1e80112b56",
+      "b_sha256": "8ce70a64e3abef966916eb21dfdf0d365a88f706b83cbbe63cb39609d1c05ba9"
+    },
+    {
+      "pair_id": "ef79f0c71ec8251b",
+      "task": "lmsys-chatbot-arena",
+      "a_id": "db5b719c8b3fc27a06a6",
+      "b_id": "ec2e178a1e9e46ab6b96",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/lmsys-chatbot-arena/code/solution_Automind_o3_mini_lmsys-chatbot-arena_50ee1132-48a6-4aa2-b1b5-5dcd0efc1bad_run_22c938ef68714c2f9de2ba8597760c31.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/lmsys-chatbot-arena/code/solution_Aide_v3_lmsys-chatbot-arena_13b158fd-a05d-422f-ac9a-863b65db6486_run_f4a1e25e2e1a42c6ab5d4c31766bedfc.py",
+      "a_sha256": "db5b719c8b3fc27a06a6a067bba19d5af5e90e77584783501232566bdad751a9",
+      "b_sha256": "ec2e178a1e9e46ab6b96ff5d99c40c38b0c73d6e8dce5563daa55b951fd346f3"
+    },
+    {
+      "pair_id": "a380c68fb1402f8c",
+      "task": "lmsys-chatbot-arena",
+      "a_id": "0390b432360464b8938a",
+      "b_id": "ed4e71f7af5c897c3ab1",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/lmsys-chatbot-arena/code/solution_Automind_v3_lmsys-chatbot-arena_9f84e00b-32c0-4e73-9bfc-2f24142820fe_run_963ff46c21c0456498e9915d36a65dce.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/lmsys-chatbot-arena/code/solution_Aide_v3_lmsys-chatbot-arena_13b158fd-a05d-422f-ac9a-863b65db6486_run_697ae1c7e07a4fdbb092e71c7fd7023c.py",
+      "a_sha256": "0390b432360464b8938a8959d8d44c249610d5ac0bfd3433aba8165550e2bb50",
+      "b_sha256": "ed4e71f7af5c897c3ab16dfbd7e933f2ce47cda1aa46cd4c51ed0fd4c6c60994"
+    },
+    {
+      "pair_id": "7a5cfd0f49c8725d",
+      "task": "new-york-city-taxi-fare-prediction",
+      "a_id": "2fdbb4a76b53742e0ca5",
+      "b_id": "591a6b2c4fb338b9a89c",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/new-york-city-taxi-fare-prediction/code/solution_Aide_o3mini_new-york-city-taxi-fare-prediction_28bb101e-57fb-47b7-a87f-e36860bb79f2_run_4589bc27dcb24fdc8fe2cd0f7a049492.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/new-york-city-taxi-fare-prediction/code/solution_Aide_o3mini_new-york-city-taxi-fare-prediction_cac18b73-7ad2-4b54-8433-ce3e7b25d888_run_427ffbdcd80b4074ace7dacaec1298e7.py",
+      "a_sha256": "2fdbb4a76b53742e0ca5e7c0a3e3d953fee4c90fe0218eae0966cb9995c7bb16",
+      "b_sha256": "591a6b2c4fb338b9a89c2d12cb38c997950b6321a010a4e61bd5120d35ce002b"
+    },
+    {
+      "pair_id": "424e947e38733fde",
+      "task": "new-york-city-taxi-fare-prediction",
+      "a_id": "3b5e22da4d32f6fe50a8",
+      "b_id": "76904ec3ab55e3d7e6f6",
+      "a_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/new-york-city-taxi-fare-prediction/code/solution_Automind_wo_knowledge_new-york-city-taxi-fare-prediction_475880e6-5c60-4afc-920a-b5820a2678e0_run_3df0b9218cef44c68df3ff6947206e53.py",
+      "b_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/new-york-city-taxi-fare-prediction/code/solution_Aide_v3_new-york-city-taxi-fare-prediction_370b7399-fe41-4fcb-abb8-c44a4f6daf55_run_85d1813bf801480c86340b0db2344e98.py",
+      "a_sha256": "3b5e22da4d32f6fe50a853d2ecc741ad88bed30003d67c11fec90d87337846f9",
+      "b_sha256": "76904ec3ab55e3d7e6f657e81bcd71cf4649a1cbd0e00cf403e1983f54b265f8"
+    }
+  ]
+}

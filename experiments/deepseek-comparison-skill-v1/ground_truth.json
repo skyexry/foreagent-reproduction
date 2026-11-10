@@ -1,0 +1,414 @@
+{
+  "revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "eligible_tasks": 24,
+  "filter_counts_by_task": {
+    "aptos2019-blindness-detection": {
+      "source_rows": 1225,
+      "eligible_rows": 1219,
+      "same_ast": 6
+    },
+    "denoising-dirty-documents": {
+      "source_rows": 974,
+      "eligible_rows": 974
+    },
+    "detecting-insults-in-social-commentary": {
+      "source_rows": 350,
+      "eligible_rows": 348,
+      "over_code_byte_cap": 2
+    },
+    "dog-breed-identification": {
+      "source_rows": 3,
+      "eligible_rows": 3
+    },
+    "google-quest-challenge": {
+      "source_rows": 1224,
+      "eligible_rows": 1175,
+      "nonfinite": 49
+    },
+    "jigsaw-toxic-comment-classification-challenge": {
+      "source_rows": 10,
+      "eligible_rows": 10
+    },
+    "leaf-classification": {
+      "source_rows": 136,
+      "eligible_rows": 136
+    },
+    "learning-agency-lab-automated-essay-scoring-2": {
+      "source_rows": 190,
+      "eligible_rows": 161,
+      "over_code_byte_cap": 29
+    },
+    "lmsys-chatbot-arena": {
+      "source_rows": 1220,
+      "eligible_rows": 1220
+    },
+    "mlsp-2013-birds": {
+      "source_rows": 1221,
+      "eligible_rows": 1211,
+      "over_code_byte_cap": 10
+    },
+    "new-york-city-taxi-fare-prediction": {
+      "source_rows": 429,
+      "eligible_rows": 429
+    },
+    "nomad2018-predict-transparent-conductors": {
+      "source_rows": 3,
+      "eligible_rows": 3
+    },
+    "petfinder-pawpularity-score": {
+      "source_rows": 239,
+      "eligible_rows": 239
+    },
+    "plant-pathology-2020-fgvc7": {
+      "source_rows": 15,
+      "eligible_rows": 15
+    },
+    "predict-volcanic-eruptions-ingv-oe": {
+      "source_rows": 1213,
+      "eligible_rows": 1213
+    },
+    "random-acts-of-pizza": {
+      "source_rows": 1225,
+      "eligible_rows": 1224,
+      "same_ast": 1
+    },
+    "spooky-author-identification": {
+      "source_rows": 1220,
+      "eligible_rows": 1220
+    },
+    "stanford-covid-vaccine": {
+      "source_rows": 1222,
+      "eligible_rows": 1200,
+      "over_code_byte_cap": 22
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "source_rows": 1223,
+      "eligible_rows": 1223
+    },
+    "tabular-playground-series-dec-2021": {
+      "source_rows": 275,
+      "eligible_rows": 274,
+      "same_ast": 1
+    },
+    "tensorflow-speech-recognition-challenge": {
+      "source_rows": 1011,
+      "eligible_rows": 1010,
+      "same_ast": 1
+    },
+    "tgs-salt-identification-challenge": {
+      "source_rows": 880,
+      "eligible_rows": 832,
+      "over_code_byte_cap": 33,
+      "same_ast": 15
+    },
+    "the-icml-2013-whale-challenge-right-whale-redux": {
+      "source_rows": 275,
+      "eligible_rows": 273,
+      "over_code_byte_cap": 1,
+      "same_ast": 1
+    },
+    "tweet-sentiment-extraction": {
+      "source_rows": 210,
+      "eligible_rows": 174,
+      "same_ast": 36
+    },
+    "us-patent-phrase-to-phrase-matching": {
+      "source_rows": 1223,
+      "eligible_rows": 1223
+    },
+    "ventilator-pressure-prediction": {
+      "source_rows": 1222,
+      "eligible_rows": 1222
+    }
+  },
+  "pairs": [
+    {
+      "pair_id": "ecdd3352b824297b",
+      "task": "detecting-insults-in-social-commentary",
+      "a_id": "406fcfddfe03c04ed3b9",
+      "b_id": "40d4a75779662b97b80f",
+      "score_a": 0.94642,
+      "score_b": 0.84379,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/detecting-insults-in-social-commentary/ground_truth/groups_detecting-insults-in-social-commentary_n2.json",
+      "source_index": 249
+    },
+    {
+      "pair_id": "008939f9e9d550da",
+      "task": "detecting-insults-in-social-commentary",
+      "a_id": "f668701b67b35d95b4f0",
+      "b_id": "fb7961a441e6b94592d2",
+      "score_a": 0.94828,
+      "score_b": 0.52102,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/detecting-insults-in-social-commentary/ground_truth/groups_detecting-insults-in-social-commentary_n2.json",
+      "source_index": 206
+    },
+    {
+      "pair_id": "89382d60b76890ce",
+      "task": "mlsp-2013-birds",
+      "a_id": "100fa123bfaf1ec0a8a1",
+      "b_id": "2eef5f55778d9d0811ee",
+      "score_a": 0.72076,
+      "score_b": 0.72618,
+      "is_lower_better": false,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/mlsp-2013-birds/ground_truth/groups_mlsp-2013-birds_n2.json",
+      "source_index": 768
+    },
+    {
+      "pair_id": "f77d76cce11859fc",
+      "task": "mlsp-2013-birds",
+      "a_id": "1377af1a55965aaee19f",
+      "b_id": "84942fc7d94615faee39",
+      "score_a": 0.79813,
+      "score_b": 0.64706,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/mlsp-2013-birds/ground_truth/groups_mlsp-2013-birds_n2.json",
+      "source_index": 186
+    },
+    {
+      "pair_id": "1b7b813d15d2eede",
+      "task": "tabular-playground-series-dec-2021",
+      "a_id": "12ccc12219eee3d3179b",
+      "b_id": "54fccd9182663d240169",
+      "score_a": 0.96144,
+      "score_b": 0.96194,
+      "is_lower_better": false,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tabular-playground-series-dec-2021/ground_truth/groups_tabular-playground-series-dec-2021_n2.json",
+      "source_index": 35
+    },
+    {
+      "pair_id": "ad5efb548de8226e",
+      "task": "tabular-playground-series-dec-2021",
+      "a_id": "1c692338000d1410346c",
+      "b_id": "4e8e5db663f182503533",
+      "score_a": 0.95542,
+      "score_b": 0.9241,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tabular-playground-series-dec-2021/ground_truth/groups_tabular-playground-series-dec-2021_n2.json",
+      "source_index": 219
+    },
+    {
+      "pair_id": "207cf6043a411376",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "a_id": "4a282df1f65e9404842d",
+      "b_id": "f6bfb1aaa357becad04e",
+      "score_a": 0.75695,
+      "score_b": 0.64408,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/ground_truth/groups_learning-agency-lab-automated-essay-scoring-2_n2.json",
+      "source_index": 175
+    },
+    {
+      "pair_id": "9383b0aaded420b5",
+      "task": "learning-agency-lab-automated-essay-scoring-2",
+      "a_id": "36f6499e533ef4b9272d",
+      "b_id": "3f24e7d81e9c4472e423",
+      "score_a": 0.70838,
+      "score_b": 0.71834,
+      "is_lower_better": false,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/learning-agency-lab-automated-essay-scoring-2/ground_truth/groups_learning-agency-lab-automated-essay-scoring-2_n2.json",
+      "source_index": 20
+    },
+    {
+      "pair_id": "391fd17731b002dc",
+      "task": "spooky-author-identification",
+      "a_id": "81ff312f613563424379",
+      "b_id": "8f17a1bfbdee642e92a2",
+      "score_a": 0.58562,
+      "score_b": 0.31626,
+      "is_lower_better": true,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/spooky-author-identification/ground_truth/groups_spooky-author-identification_n2.json",
+      "source_index": 192
+    },
+    {
+      "pair_id": "03589b0626876be7",
+      "task": "spooky-author-identification",
+      "a_id": "5bbad7fed99b6ba00acc",
+      "b_id": "68cb3079c14a3956dda9",
+      "score_a": 0.41585,
+      "score_b": 1.09861,
+      "is_lower_better": true,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/spooky-author-identification/ground_truth/groups_spooky-author-identification_n2.json",
+      "source_index": 246
+    },
+    {
+      "pair_id": "c14ebb306bd4e977",
+      "task": "stanford-covid-vaccine",
+      "a_id": "599a9bf1f15945b78459",
+      "b_id": "d365a1784fdd95473d2c",
+      "score_a": 0.28283,
+      "score_b": 0.29426,
+      "is_lower_better": true,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/stanford-covid-vaccine/ground_truth/groups_stanford-covid-vaccine_n2.json",
+      "source_index": 432
+    },
+    {
+      "pair_id": "2888bb1f3d722266",
+      "task": "stanford-covid-vaccine",
+      "a_id": "7ea8e1337b336045b092",
+      "b_id": "828f0cfaca3b36d5330a",
+      "score_a": 0.30461,
+      "score_b": 0.44716,
+      "is_lower_better": true,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/stanford-covid-vaccine/ground_truth/groups_stanford-covid-vaccine_n2.json",
+      "source_index": 25
+    },
+    {
+      "pair_id": "f510c16303c4362d",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "a_id": "1c83e9cc6ed9c2ae7541",
+      "b_id": "6294a632eda6d89fd0ca",
+      "score_a": 0.52851,
+      "score_b": 0.98361,
+      "is_lower_better": false,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/ground_truth/groups_the-icml-2013-whale-challenge-right-whale-redux_n2.json",
+      "source_index": 185
+    },
+    {
+      "pair_id": "bc514d112901baa7",
+      "task": "the-icml-2013-whale-challenge-right-whale-redux",
+      "a_id": "8ab49cfbc3824abe8b0e",
+      "b_id": "a19e9d9a654b78d48d75",
+      "score_a": 0.61051,
+      "score_b": 0.57432,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/the-icml-2013-whale-challenge-right-whale-redux/ground_truth/groups_the-icml-2013-whale-challenge-right-whale-redux_n2.json",
+      "source_index": 61
+    },
+    {
+      "pair_id": "17129645d237e09d",
+      "task": "petfinder-pawpularity-score",
+      "a_id": "85d4fc890ec6cf68c85e",
+      "b_id": "d3585a491d3319e32f02",
+      "score_a": 20.07284,
+      "score_b": 20.12512,
+      "is_lower_better": true,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/petfinder-pawpularity-score/ground_truth/groups_petfinder-pawpularity-score_n2.json",
+      "source_index": 64
+    },
+    {
+      "pair_id": "6eac1f570c928359",
+      "task": "petfinder-pawpularity-score",
+      "a_id": "10e00c3203108137fad9",
+      "b_id": "8550462bbbf308e7f486",
+      "score_a": 20.46501,
+      "score_b": 20.07284,
+      "is_lower_better": true,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/petfinder-pawpularity-score/ground_truth/groups_petfinder-pawpularity-score_n2.json",
+      "source_index": 139
+    },
+    {
+      "pair_id": "7a1d134dcbd3c191",
+      "task": "tensorflow-speech-recognition-challenge",
+      "a_id": "9209409c57a7b17e55cf",
+      "b_id": "dd278b5e6f0c7d609a5e",
+      "score_a": 0.04866,
+      "score_b": 0.35239,
+      "is_lower_better": false,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tensorflow-speech-recognition-challenge/ground_truth/groups_tensorflow-speech-recognition-challenge_n2.json",
+      "source_index": 888
+    },
+    {
+      "pair_id": "8e97ac4278467d56",
+      "task": "tensorflow-speech-recognition-challenge",
+      "a_id": "2dce067c147e7c06a827",
+      "b_id": "6191e47b47c20f650aa0",
+      "score_a": 0.05562,
+      "score_b": 0.0,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/tensorflow-speech-recognition-challenge/ground_truth/groups_tensorflow-speech-recognition-challenge_n2.json",
+      "source_index": 47
+    },
+    {
+      "pair_id": "06ce18d6d3733f3b",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "a_id": "ce9ee137214aeda40a43",
+      "b_id": "fb9846835836775bcddd",
+      "score_a": 0.97017,
+      "score_b": 0.9832,
+      "is_lower_better": false,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/ground_truth/groups_jigsaw-toxic-comment-classification-challenge_n2.json",
+      "source_index": 7
+    },
+    {
+      "pair_id": "0f3581f62e60a5d7",
+      "task": "jigsaw-toxic-comment-classification-challenge",
+      "a_id": "3909ab17cf68ff0e434b",
+      "b_id": "8ce70a64e3abef966916",
+      "score_a": 0.98399,
+      "score_b": 0.98326,
+      "is_lower_better": false,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/jigsaw-toxic-comment-classification-challenge/ground_truth/groups_jigsaw-toxic-comment-classification-challenge_n2.json",
+      "source_index": 6
+    },
+    {
+      "pair_id": "ef79f0c71ec8251b",
+      "task": "lmsys-chatbot-arena",
+      "a_id": "db5b719c8b3fc27a06a6",
+      "b_id": "ec2e178a1e9e46ab6b96",
+      "score_a": 1.09706,
+      "score_b": 1.05081,
+      "is_lower_better": true,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/lmsys-chatbot-arena/ground_truth/groups_lmsys-chatbot-arena_n2.json",
+      "source_index": 561
+    },
+    {
+      "pair_id": "a380c68fb1402f8c",
+      "task": "lmsys-chatbot-arena",
+      "a_id": "0390b432360464b8938a",
+      "b_id": "ed4e71f7af5c897c3ab1",
+      "score_a": 1.04087,
+      "score_b": 1.12894,
+      "is_lower_better": true,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/lmsys-chatbot-arena/ground_truth/groups_lmsys-chatbot-arena_n2.json",
+      "source_index": 965
+    },
+    {
+      "pair_id": "7a5cfd0f49c8725d",
+      "task": "new-york-city-taxi-fare-prediction",
+      "a_id": "2fdbb4a76b53742e0ca5",
+      "b_id": "591a6b2c4fb338b9a89c",
+      "score_a": 5.44244,
+      "score_b": 5.86856,
+      "is_lower_better": true,
+      "winner": "A",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/new-york-city-taxi-fare-prediction/ground_truth/groups_new-york-city-taxi-fare-prediction_n2.json",
+      "source_index": 61
+    },
+    {
+      "pair_id": "424e947e38733fde",
+      "task": "new-york-city-taxi-fare-prediction",
+      "a_id": "3b5e22da4d32f6fe50a8",
+      "b_id": "76904ec3ab55e3d7e6f6",
+      "score_a": 18.85687,
+      "score_b": 6.41784,
+      "is_lower_better": true,
+      "winner": "B",
+      "source_path": "data/reward-model/corpus-6b322cb-raw-v1/solutions_subset_50/new-york-city-taxi-fare-prediction/ground_truth/groups_new-york-city-taxi-fare-prediction_n2.json",
+      "source_index": 333
+    }
+  ]
+}
