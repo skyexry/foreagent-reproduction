@@ -1,0 +1,11 @@
+{
+  "input_switches_sha256": "b23c491a797b52e1623b949f1e3b161835a1340799185eca0629833cd21a781b",
+  "named_switched_pairs": 80,
+  "validation_score_available": {
+    "neither": 48,
+    "only_baseline": 28,
+    "only_fusion": 4,
+    "both": 0
+  },
+  "exactly_one": 32
+}

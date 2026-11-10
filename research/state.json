@@ -13,14 +13,15 @@
     "Second-wave cross-bank module comparisons, actual C0 reruns and partial-oracle prioritization; baseline retained.",
     "Task-held-out four-arm training pilot: 104 fits and 17,000 selection episodes; 3,400 frozen C0 controls matched. Stop this representation/weight pilot.",
     "Two registered offline final selectors on identical C0 traces: posterior reranking and archived rationale-direction tie-break, each across 3,400 episodes. Both gated out; C0 retained.",
-    "Chronological execution-memory audit: 16 runs, 136 batches, 13 strict observed sibling pairs."
+    "Chronological execution-memory audit: 16 runs, 136 batches, 13 strict observed sibling pairs.",
+    "CPU screen on 136 real batches: archived parsed judgments identify 128 full C0 top sets and graphs; 80 of 128 choices change with execution memory. A further switch is invariant to missing feedback."
   ],
   "development_tasks": 26,
   "environment_id": "foreagent-selection-replay-v1",
   "jobs": 850,
-  "next": "Review matched prospective evaluation of C0 versus retrieval from earlier in-run validation results.",
+  "next": "Review HW3 section 4; measure both selections on prespecified disagreements using the same scorer, split, seeds and training budget.",
   "research_review": {
-    "stage": "execution_memory_chronology_review",
+    "stage": "execution_memory_decision_screen_review",
     "summary": "research/离线候选选择.md",
     "evidence": "research/selection-study-v1/baseline.md",
     "literature": "research/selection-study-v1/literature.md",
@@ -28,12 +29,12 @@
     "proposal_scope": "Preregistered design for completed D1; its gate for D2 was not met.",
     "results": "research/离线候选选择.md",
     "verification": "experiments/posterior-ranking-v1/verification/selection_match.json",
-    "current_decision": "experiments/chronological-memory-v1/README.md",
+    "current_decision": "experiments/c0-memory-switch-v1/README.md",
     "priority": [
       "matched prospective execution on selector disagreements"
     ],
     "default_selection": "C0",
-    "priority_basis": "130/136 batches have at least three historical scores; only 6 batches yield observed sibling comparisons.",
+    "priority_basis": "Of 130 in-domain batches, 81 are definite switches, 48 agree and one depends on a missing vote; none of the 80 identified changed pairs has historical validation for both arms.",
     "previous_wave": "experiments/trajectory-weighted-judge-v1/README.md",
     "training_baseline": "ForeCritic-style pairwise execution supervision with uniform cross-entropy",
     "signal_feasibility": "experiments/c0-judge-credit-check/run_1/summary.json",

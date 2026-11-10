@@ -1,0 +1,661 @@
+{
+  "seed": "c0-memory-switch-v1/20261110",
+  "chronological_sha256": "54f4ae682fa4593648580e1fa6a6132865a92d738154b34295833a906ec72e6f",
+  "replay_sha256": "6a104bf0488346436d986d85d5135585ff63974c0ab8b5f4c7dc77f2ca136e75",
+  "all": {
+    "batches": 136,
+    "history_usable": 130,
+    "memory_distinguishes_siblings": 130,
+    "memory_span_on_usable": {
+      "min": 0.00024952932900002,
+      "median": 0.04315847307099996,
+      "max": 0.45012612659900003
+    },
+    "c0_top_identified": 128,
+    "c0_top_and_graph_identified": 128,
+    "c0_switch_identification": {
+      "c0_top_and_graph": 122,
+      "invariant_switch_across_alternatives": 1,
+      "outside_frozen_input_domain": 6,
+      "history_fallback": 6,
+      "switch_depends_on_unseen_vote": 1
+    },
+    "c0_switch": {
+      "total": 136,
+      "in_frozen_domain": 130,
+      "outside_domain": 6,
+      "identified": 129,
+      "unresolved_in_domain": 1,
+      "fixed_tie_order_switches": 81,
+      "fixed_tie_order_unchanged": 48,
+      "switched_batches_interval_in_domain": [
+        81,
+        82
+      ],
+      "top_set_relation_identified": 130,
+      "different_top_sets": 91,
+      "disjoint_top_sets": 48,
+      "partial_overlap": 42,
+      "uniform_probability_identified": 129,
+      "expected_switches_on_identified_probabilities": 78.3626984126984,
+      "expected_switches_in_domain_interval": [
+        78.8626984126984,
+        79.3626984126984
+      ]
+    },
+    "identified_c0_top_only_denominator": {
+      "total": 128,
+      "in_frozen_domain": 128,
+      "outside_domain": 0,
+      "identified": 128,
+      "unresolved_in_domain": 0,
+      "fixed_tie_order_switches": 80,
+      "fixed_tie_order_unchanged": 48,
+      "switched_batches_interval_in_domain": [
+        80,
+        80
+      ],
+      "top_set_relation_identified": 128,
+      "different_top_sets": 89,
+      "disjoint_top_sets": 47,
+      "partial_overlap": 42,
+      "uniform_probability_identified": 128,
+      "expected_switches_on_identified_probabilities": 77.3626984126984,
+      "expected_switches_in_domain_interval": [
+        77.3626984126984,
+        77.3626984126984
+      ]
+    },
+    "raw_parser_certified_subset": {
+      "total": 10,
+      "in_frozen_domain": 10,
+      "outside_domain": 0,
+      "identified": 10,
+      "unresolved_in_domain": 0,
+      "fixed_tie_order_switches": 9,
+      "fixed_tie_order_unchanged": 1,
+      "switched_batches_interval_in_domain": [
+        9,
+        9
+      ],
+      "top_set_relation_identified": 10,
+      "different_top_sets": 10,
+      "disjoint_top_sets": 0,
+      "partial_overlap": 10,
+      "uniform_probability_identified": 10,
+      "expected_switches_on_identified_probabilities": 9.0,
+      "expected_switches_in_domain_interval": [
+        9.0,
+        9.0
+      ]
+    },
+    "logged_order_proxy": {
+      "total": 136,
+      "in_frozen_domain": 136,
+      "outside_domain": 0,
+      "identified": 136,
+      "unresolved_in_domain": 0,
+      "fixed_tie_order_switches": 91,
+      "fixed_tie_order_unchanged": 45,
+      "switched_batches_interval_in_domain": [
+        91,
+        91
+      ],
+      "top_set_relation_identified": 136,
+      "different_top_sets": 105,
+      "disjoint_top_sets": 56,
+      "partial_overlap": 49,
+      "uniform_probability_identified": 136,
+      "expected_switches_on_identified_probabilities": 89.05714285714286,
+      "expected_switches_in_domain_interval": [
+        89.05714285714286,
+        89.05714285714286
+      ]
+    }
+  },
+  "by_task": {
+    "aerial-cactus-identification": {
+      "batches": 12,
+      "history_usable": 12,
+      "memory_distinguishes_siblings": 12,
+      "memory_span_on_usable": {
+        "min": 0.0013381516849999553,
+        "median": 0.03108222464249999,
+        "max": 0.24765623063799996
+      },
+      "c0_top_identified": 10,
+      "c0_top_and_graph_identified": 10,
+      "c0_switch_identification": {
+        "c0_top_and_graph": 10,
+        "invariant_switch_across_alternatives": 1,
+        "outside_frozen_input_domain": 1
+      },
+      "c0_switch": {
+        "total": 12,
+        "in_frozen_domain": 11,
+        "outside_domain": 1,
+        "identified": 11,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 9,
+        "fixed_tie_order_unchanged": 2,
+        "switched_batches_interval_in_domain": [
+          9,
+          9
+        ],
+        "top_set_relation_identified": 11,
+        "different_top_sets": 10,
+        "disjoint_top_sets": 7,
+        "partial_overlap": 3,
+        "uniform_probability_identified": 11,
+        "expected_switches_on_identified_probabilities": 8.916666666666666,
+        "expected_switches_in_domain_interval": [
+          8.916666666666666,
+          8.916666666666666
+        ]
+      },
+      "identified_c0_top_only_denominator": {
+        "total": 10,
+        "in_frozen_domain": 10,
+        "outside_domain": 0,
+        "identified": 10,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 8,
+        "fixed_tie_order_unchanged": 2,
+        "switched_batches_interval_in_domain": [
+          8,
+          8
+        ],
+        "top_set_relation_identified": 10,
+        "different_top_sets": 9,
+        "disjoint_top_sets": 6,
+        "partial_overlap": 3,
+        "uniform_probability_identified": 10,
+        "expected_switches_on_identified_probabilities": 7.916666666666667,
+        "expected_switches_in_domain_interval": [
+          7.916666666666667,
+          7.916666666666667
+        ]
+      },
+      "raw_parser_certified_subset": {
+        "total": 0,
+        "in_frozen_domain": 0,
+        "outside_domain": 0,
+        "identified": 0,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 0,
+        "fixed_tie_order_unchanged": 0,
+        "switched_batches_interval_in_domain": [
+          0,
+          0
+        ],
+        "top_set_relation_identified": 0,
+        "different_top_sets": 0,
+        "disjoint_top_sets": 0,
+        "partial_overlap": 0,
+        "uniform_probability_identified": 0,
+        "expected_switches_on_identified_probabilities": 0.0,
+        "expected_switches_in_domain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "logged_order_proxy": {
+        "total": 12,
+        "in_frozen_domain": 12,
+        "outside_domain": 0,
+        "identified": 12,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 9,
+        "fixed_tie_order_unchanged": 3,
+        "switched_batches_interval_in_domain": [
+          9,
+          9
+        ],
+        "top_set_relation_identified": 12,
+        "different_top_sets": 10,
+        "disjoint_top_sets": 8,
+        "partial_overlap": 2,
+        "uniform_probability_identified": 12,
+        "expected_switches_on_identified_probabilities": 9.25,
+        "expected_switches_in_domain_interval": [
+          9.25,
+          9.25
+        ]
+      }
+    },
+    "histopathologic-cancer-detection": {
+      "batches": 4,
+      "history_usable": 1,
+      "memory_distinguishes_siblings": 1,
+      "memory_span_on_usable": {
+        "min": 0.006950229030999955,
+        "median": 0.006950229030999955,
+        "max": 0.006950229030999955
+      },
+      "c0_top_identified": 4,
+      "c0_top_and_graph_identified": 4,
+      "c0_switch_identification": {
+        "history_fallback": 3,
+        "c0_top_and_graph": 1
+      },
+      "c0_switch": {
+        "total": 4,
+        "in_frozen_domain": 4,
+        "outside_domain": 0,
+        "identified": 4,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 1,
+        "fixed_tie_order_unchanged": 3,
+        "switched_batches_interval_in_domain": [
+          1,
+          1
+        ],
+        "top_set_relation_identified": 4,
+        "different_top_sets": 1,
+        "disjoint_top_sets": 1,
+        "partial_overlap": 0,
+        "uniform_probability_identified": 4,
+        "expected_switches_on_identified_probabilities": 1.0,
+        "expected_switches_in_domain_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "identified_c0_top_only_denominator": {
+        "total": 4,
+        "in_frozen_domain": 4,
+        "outside_domain": 0,
+        "identified": 4,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 1,
+        "fixed_tie_order_unchanged": 3,
+        "switched_batches_interval_in_domain": [
+          1,
+          1
+        ],
+        "top_set_relation_identified": 4,
+        "different_top_sets": 1,
+        "disjoint_top_sets": 1,
+        "partial_overlap": 0,
+        "uniform_probability_identified": 4,
+        "expected_switches_on_identified_probabilities": 1.0,
+        "expected_switches_in_domain_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "raw_parser_certified_subset": {
+        "total": 0,
+        "in_frozen_domain": 0,
+        "outside_domain": 0,
+        "identified": 0,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 0,
+        "fixed_tie_order_unchanged": 0,
+        "switched_batches_interval_in_domain": [
+          0,
+          0
+        ],
+        "top_set_relation_identified": 0,
+        "different_top_sets": 0,
+        "disjoint_top_sets": 0,
+        "partial_overlap": 0,
+        "uniform_probability_identified": 0,
+        "expected_switches_on_identified_probabilities": 0.0,
+        "expected_switches_in_domain_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "logged_order_proxy": {
+        "total": 4,
+        "in_frozen_domain": 4,
+        "outside_domain": 0,
+        "identified": 4,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 1,
+        "fixed_tie_order_unchanged": 3,
+        "switched_batches_interval_in_domain": [
+          1,
+          1
+        ],
+        "top_set_relation_identified": 4,
+        "different_top_sets": 1,
+        "disjoint_top_sets": 1,
+        "partial_overlap": 0,
+        "uniform_probability_identified": 4,
+        "expected_switches_on_identified_probabilities": 1.0,
+        "expected_switches_in_domain_interval": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "stanford-covid-vaccine": {
+      "batches": 49,
+      "history_usable": 49,
+      "memory_distinguishes_siblings": 49,
+      "memory_span_on_usable": {
+        "min": 0.0008859302249999423,
+        "median": 0.034593299104999975,
+        "max": 0.33373266065600005
+      },
+      "c0_top_identified": 47,
+      "c0_top_and_graph_identified": 47,
+      "c0_switch_identification": {
+        "c0_top_and_graph": 47,
+        "outside_frozen_input_domain": 2
+      },
+      "c0_switch": {
+        "total": 49,
+        "in_frozen_domain": 47,
+        "outside_domain": 2,
+        "identified": 47,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 32,
+        "fixed_tie_order_unchanged": 15,
+        "switched_batches_interval_in_domain": [
+          32,
+          32
+        ],
+        "top_set_relation_identified": 47,
+        "different_top_sets": 35,
+        "disjoint_top_sets": 14,
+        "partial_overlap": 21,
+        "uniform_probability_identified": 47,
+        "expected_switches_on_identified_probabilities": 29.7,
+        "expected_switches_in_domain_interval": [
+          29.7,
+          29.7
+        ]
+      },
+      "identified_c0_top_only_denominator": {
+        "total": 47,
+        "in_frozen_domain": 47,
+        "outside_domain": 0,
+        "identified": 47,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 32,
+        "fixed_tie_order_unchanged": 15,
+        "switched_batches_interval_in_domain": [
+          32,
+          32
+        ],
+        "top_set_relation_identified": 47,
+        "different_top_sets": 35,
+        "disjoint_top_sets": 14,
+        "partial_overlap": 21,
+        "uniform_probability_identified": 47,
+        "expected_switches_on_identified_probabilities": 29.7,
+        "expected_switches_in_domain_interval": [
+          29.7,
+          29.7
+        ]
+      },
+      "raw_parser_certified_subset": {
+        "total": 6,
+        "in_frozen_domain": 6,
+        "outside_domain": 0,
+        "identified": 6,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 6,
+        "fixed_tie_order_unchanged": 0,
+        "switched_batches_interval_in_domain": [
+          6,
+          6
+        ],
+        "top_set_relation_identified": 6,
+        "different_top_sets": 6,
+        "disjoint_top_sets": 0,
+        "partial_overlap": 6,
+        "uniform_probability_identified": 6,
+        "expected_switches_on_identified_probabilities": 5.4,
+        "expected_switches_in_domain_interval": [
+          5.4,
+          5.4
+        ]
+      },
+      "logged_order_proxy": {
+        "total": 49,
+        "in_frozen_domain": 49,
+        "outside_domain": 0,
+        "identified": 49,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 38,
+        "fixed_tie_order_unchanged": 11,
+        "switched_batches_interval_in_domain": [
+          38,
+          38
+        ],
+        "top_set_relation_identified": 49,
+        "different_top_sets": 41,
+        "disjoint_top_sets": 17,
+        "partial_overlap": 24,
+        "uniform_probability_identified": 49,
+        "expected_switches_on_identified_probabilities": 33.65,
+        "expected_switches_in_domain_interval": [
+          33.65,
+          33.65
+        ]
+      }
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "batches": 57,
+      "history_usable": 57,
+      "memory_distinguishes_siblings": 57,
+      "memory_span_on_usable": {
+        "min": 0.00024952932900002,
+        "median": 0.08465699050900011,
+        "max": 0.45012612659900003
+      },
+      "c0_top_identified": 54,
+      "c0_top_and_graph_identified": 54,
+      "c0_switch_identification": {
+        "c0_top_and_graph": 54,
+        "switch_depends_on_unseen_vote": 1,
+        "outside_frozen_input_domain": 2
+      },
+      "c0_switch": {
+        "total": 57,
+        "in_frozen_domain": 55,
+        "outside_domain": 2,
+        "identified": 54,
+        "unresolved_in_domain": 1,
+        "fixed_tie_order_switches": 31,
+        "fixed_tie_order_unchanged": 23,
+        "switched_batches_interval_in_domain": [
+          31,
+          32
+        ],
+        "top_set_relation_identified": 55,
+        "different_top_sets": 36,
+        "disjoint_top_sets": 22,
+        "partial_overlap": 13,
+        "uniform_probability_identified": 54,
+        "expected_switches_on_identified_probabilities": 30.823809523809523,
+        "expected_switches_in_domain_interval": [
+          31.323809523809523,
+          31.823809523809523
+        ]
+      },
+      "identified_c0_top_only_denominator": {
+        "total": 54,
+        "in_frozen_domain": 54,
+        "outside_domain": 0,
+        "identified": 54,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 31,
+        "fixed_tie_order_unchanged": 23,
+        "switched_batches_interval_in_domain": [
+          31,
+          31
+        ],
+        "top_set_relation_identified": 54,
+        "different_top_sets": 35,
+        "disjoint_top_sets": 22,
+        "partial_overlap": 13,
+        "uniform_probability_identified": 54,
+        "expected_switches_on_identified_probabilities": 30.823809523809523,
+        "expected_switches_in_domain_interval": [
+          30.823809523809523,
+          30.823809523809523
+        ]
+      },
+      "raw_parser_certified_subset": {
+        "total": 3,
+        "in_frozen_domain": 3,
+        "outside_domain": 0,
+        "identified": 3,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 2,
+        "fixed_tie_order_unchanged": 1,
+        "switched_batches_interval_in_domain": [
+          2,
+          2
+        ],
+        "top_set_relation_identified": 3,
+        "different_top_sets": 3,
+        "disjoint_top_sets": 0,
+        "partial_overlap": 3,
+        "uniform_probability_identified": 3,
+        "expected_switches_on_identified_probabilities": 2.7,
+        "expected_switches_in_domain_interval": [
+          2.7,
+          2.7
+        ]
+      },
+      "logged_order_proxy": {
+        "total": 57,
+        "in_frozen_domain": 57,
+        "outside_domain": 0,
+        "identified": 57,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 34,
+        "fixed_tie_order_unchanged": 23,
+        "switched_batches_interval_in_domain": [
+          34,
+          34
+        ],
+        "top_set_relation_identified": 57,
+        "different_top_sets": 42,
+        "disjoint_top_sets": 24,
+        "partial_overlap": 18,
+        "uniform_probability_identified": 57,
+        "expected_switches_on_identified_probabilities": 35.29047619047619,
+        "expected_switches_in_domain_interval": [
+          35.29047619047619,
+          35.29047619047619
+        ]
+      }
+    },
+    "ventilator-pressure-prediction": {
+      "batches": 14,
+      "history_usable": 11,
+      "memory_distinguishes_siblings": 11,
+      "memory_span_on_usable": {
+        "min": 0.0013957787719999226,
+        "median": 0.006706454335000056,
+        "max": 0.33136897953200006
+      },
+      "c0_top_identified": 13,
+      "c0_top_and_graph_identified": 13,
+      "c0_switch_identification": {
+        "history_fallback": 3,
+        "c0_top_and_graph": 10,
+        "outside_frozen_input_domain": 1
+      },
+      "c0_switch": {
+        "total": 14,
+        "in_frozen_domain": 13,
+        "outside_domain": 1,
+        "identified": 13,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 8,
+        "fixed_tie_order_unchanged": 5,
+        "switched_batches_interval_in_domain": [
+          8,
+          8
+        ],
+        "top_set_relation_identified": 13,
+        "different_top_sets": 9,
+        "disjoint_top_sets": 4,
+        "partial_overlap": 5,
+        "uniform_probability_identified": 13,
+        "expected_switches_on_identified_probabilities": 7.9222222222222225,
+        "expected_switches_in_domain_interval": [
+          7.9222222222222225,
+          7.9222222222222225
+        ]
+      },
+      "identified_c0_top_only_denominator": {
+        "total": 13,
+        "in_frozen_domain": 13,
+        "outside_domain": 0,
+        "identified": 13,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 8,
+        "fixed_tie_order_unchanged": 5,
+        "switched_batches_interval_in_domain": [
+          8,
+          8
+        ],
+        "top_set_relation_identified": 13,
+        "different_top_sets": 9,
+        "disjoint_top_sets": 4,
+        "partial_overlap": 5,
+        "uniform_probability_identified": 13,
+        "expected_switches_on_identified_probabilities": 7.9222222222222225,
+        "expected_switches_in_domain_interval": [
+          7.9222222222222225,
+          7.9222222222222225
+        ]
+      },
+      "raw_parser_certified_subset": {
+        "total": 1,
+        "in_frozen_domain": 1,
+        "outside_domain": 0,
+        "identified": 1,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 1,
+        "fixed_tie_order_unchanged": 0,
+        "switched_batches_interval_in_domain": [
+          1,
+          1
+        ],
+        "top_set_relation_identified": 1,
+        "different_top_sets": 1,
+        "disjoint_top_sets": 0,
+        "partial_overlap": 1,
+        "uniform_probability_identified": 1,
+        "expected_switches_on_identified_probabilities": 0.9,
+        "expected_switches_in_domain_interval": [
+          0.9,
+          0.9
+        ]
+      },
+      "logged_order_proxy": {
+        "total": 14,
+        "in_frozen_domain": 14,
+        "outside_domain": 0,
+        "identified": 14,
+        "unresolved_in_domain": 0,
+        "fixed_tie_order_switches": 9,
+        "fixed_tie_order_unchanged": 5,
+        "switched_batches_interval_in_domain": [
+          9,
+          9
+        ],
+        "top_set_relation_identified": 14,
+        "different_top_sets": 11,
+        "disjoint_top_sets": 6,
+        "partial_overlap": 5,
+        "uniform_probability_identified": 14,
+        "expected_switches_on_identified_probabilities": 9.866666666666667,
+        "expected_switches_in_domain_interval": [
+          9.866666666666667,
+          9.866666666666667
+        ]
+      }
+    }
+  }
+}
