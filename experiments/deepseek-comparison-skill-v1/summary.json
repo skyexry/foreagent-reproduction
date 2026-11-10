@@ -1,0 +1,226 @@
+{
+  "all_scheduled": {
+    "arms": {
+      "original": {
+        "both_correct": 14,
+        "both_valid": 24,
+        "consistent": 20,
+        "correct_by_order": {
+          "AB": 17,
+          "BA": 15
+        },
+        "num_correct": 32,
+        "task_macro_accuracy": 0.6666666666666666,
+        "valid": 48,
+        "valid_by_order": {
+          "AB": 24,
+          "BA": 24
+        }
+      },
+      "skill": {
+        "both_correct": 12,
+        "both_valid": 24,
+        "consistent": 17,
+        "correct_by_order": {
+          "AB": 15,
+          "BA": 16
+        },
+        "num_correct": 31,
+        "task_macro_accuracy": 0.6458333333333334,
+        "valid": 48,
+        "valid_by_order": {
+          "AB": 24,
+          "BA": 24
+        }
+      }
+    },
+    "pair_change": {
+      "improved": 3,
+      "unchanged": 17,
+      "worsened": 4
+    },
+    "paired_difference": {
+      "bootstrap_repetitions": 10000,
+      "exact_two_sided_task_sign_flip_p": 1.0,
+      "nonzero_task_differences": 7,
+      "skill_minus_original": -0.020833333333333332,
+      "task_bootstrap_95": [
+        -0.16666666666666666,
+        0.125
+      ]
+    },
+    "pairs": 24,
+    "per_task": {
+      "detecting-insults-in-social-commentary": {
+        "original": 0.25,
+        "skill": 0.25
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "original": 0.5,
+        "skill": 0.5
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "original": 1.0,
+        "skill": 1.0
+      },
+      "lmsys-chatbot-arena": {
+        "original": 0.75,
+        "skill": 1.0
+      },
+      "mlsp-2013-birds": {
+        "original": 0.75,
+        "skill": 0.25
+      },
+      "new-york-city-taxi-fare-prediction": {
+        "original": 1.0,
+        "skill": 0.75
+      },
+      "petfinder-pawpularity-score": {
+        "original": 1.0,
+        "skill": 1.0
+      },
+      "spooky-author-identification": {
+        "original": 0.25,
+        "skill": 0.75
+      },
+      "stanford-covid-vaccine": {
+        "original": 0.5,
+        "skill": 0.75
+      },
+      "tabular-playground-series-dec-2021": {
+        "original": 1.0,
+        "skill": 0.75
+      },
+      "tensorflow-speech-recognition-challenge": {
+        "original": 1.0,
+        "skill": 0.75
+      },
+      "the-icml-2013-whale-challenge-right-whale-redux": {
+        "original": 0.0,
+        "skill": 0.0
+      }
+    },
+    "tasks": 12
+  },
+  "complete_pairs": 24,
+  "completions_received": 96,
+  "dispatched_cells": 96,
+  "dispatched_without_final_record": 0,
+  "file_sha256": {
+    "blind_manifest.json": "5101ba7c3a54e100edad5922c7a4455553b0e7bf8e0ef5191a1e349bd27b9f0e",
+    "ground_truth.json": "72d6cdbbddb4874349cf072c30f9b75f025be70da20cfb6c799b55af13fec95c",
+    "judgments.jsonl": "f8479960c7710b4fa2d1dd04c5537423853ddb264ad71b9ff52426fdd0f1b53e"
+  },
+  "final_records_without_completion": 0,
+  "four_valid_judgments": {
+    "arms": {
+      "original": {
+        "both_correct": 14,
+        "both_valid": 24,
+        "consistent": 20,
+        "correct_by_order": {
+          "AB": 17,
+          "BA": 15
+        },
+        "num_correct": 32,
+        "task_macro_accuracy": 0.6666666666666666,
+        "valid": 48,
+        "valid_by_order": {
+          "AB": 24,
+          "BA": 24
+        }
+      },
+      "skill": {
+        "both_correct": 12,
+        "both_valid": 24,
+        "consistent": 17,
+        "correct_by_order": {
+          "AB": 15,
+          "BA": 16
+        },
+        "num_correct": 31,
+        "task_macro_accuracy": 0.6458333333333334,
+        "valid": 48,
+        "valid_by_order": {
+          "AB": 24,
+          "BA": 24
+        }
+      }
+    },
+    "pair_change": {
+      "improved": 3,
+      "unchanged": 17,
+      "worsened": 4
+    },
+    "paired_difference": {
+      "bootstrap_repetitions": 10000,
+      "exact_two_sided_task_sign_flip_p": 1.0,
+      "nonzero_task_differences": 7,
+      "skill_minus_original": -0.020833333333333332,
+      "task_bootstrap_95": [
+        -0.16666666666666666,
+        0.125
+      ]
+    },
+    "pairs": 24,
+    "per_task": {
+      "detecting-insults-in-social-commentary": {
+        "original": 0.25,
+        "skill": 0.25
+      },
+      "jigsaw-toxic-comment-classification-challenge": {
+        "original": 0.5,
+        "skill": 0.5
+      },
+      "learning-agency-lab-automated-essay-scoring-2": {
+        "original": 1.0,
+        "skill": 1.0
+      },
+      "lmsys-chatbot-arena": {
+        "original": 0.75,
+        "skill": 1.0
+      },
+      "mlsp-2013-birds": {
+        "original": 0.75,
+        "skill": 0.25
+      },
+      "new-york-city-taxi-fare-prediction": {
+        "original": 1.0,
+        "skill": 0.75
+      },
+      "petfinder-pawpularity-score": {
+        "original": 1.0,
+        "skill": 1.0
+      },
+      "spooky-author-identification": {
+        "original": 0.25,
+        "skill": 0.75
+      },
+      "stanford-covid-vaccine": {
+        "original": 0.5,
+        "skill": 0.75
+      },
+      "tabular-playground-series-dec-2021": {
+        "original": 1.0,
+        "skill": 0.75
+      },
+      "tensorflow-speech-recognition-challenge": {
+        "original": 1.0,
+        "skill": 0.75
+      },
+      "the-icml-2013-whale-challenge-right-whale-redux": {
+        "original": 0.0,
+        "skill": 0.0
+      }
+    },
+    "tasks": 12
+  },
+  "invalid_reasons": {},
+  "recorded": 96,
+  "response_models": {
+    "Pro/deepseek-ai/DeepSeek-V3.2": 96
+  },
+  "scheduled_judgments": 96,
+  "scheduled_pairs": 24,
+  "unsent_cells": 0
+}

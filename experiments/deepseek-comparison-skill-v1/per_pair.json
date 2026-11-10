@@ -1,0 +1,722 @@
+{
+  "008939f9e9d550da": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "fb7961a441e6b94592d2",
+          "fb7961a441e6b94592d2"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "fb7961a441e6b94592d2",
+          "fb7961a441e6b94592d2"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "detecting-insults-in-social-commentary",
+    "winner_id": "f668701b67b35d95b4f0"
+  },
+  "03589b0626876be7": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "68cb3079c14a3956dda9",
+          "68cb3079c14a3956dda9"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "5bbad7fed99b6ba00acc",
+          "5bbad7fed99b6ba00acc"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "spooky-author-identification",
+    "winner_id": "5bbad7fed99b6ba00acc"
+  },
+  "06ce18d6d3733f3b": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "ce9ee137214aeda40a43",
+          "ce9ee137214aeda40a43"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "ce9ee137214aeda40a43",
+          "ce9ee137214aeda40a43"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "jigsaw-toxic-comment-classification-challenge",
+    "winner_id": "fb9846835836775bcddd"
+  },
+  "0f3581f62e60a5d7": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "3909ab17cf68ff0e434b",
+          "3909ab17cf68ff0e434b"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "3909ab17cf68ff0e434b",
+          "3909ab17cf68ff0e434b"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "jigsaw-toxic-comment-classification-challenge",
+    "winner_id": "3909ab17cf68ff0e434b"
+  },
+  "17129645d237e09d": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "85d4fc890ec6cf68c85e",
+          "85d4fc890ec6cf68c85e"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "85d4fc890ec6cf68c85e",
+          "85d4fc890ec6cf68c85e"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "petfinder-pawpularity-score",
+    "winner_id": "85d4fc890ec6cf68c85e"
+  },
+  "1b7b813d15d2eede": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "54fccd9182663d240169",
+          "54fccd9182663d240169"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "54fccd9182663d240169",
+          "54fccd9182663d240169"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "tabular-playground-series-dec-2021",
+    "winner_id": "54fccd9182663d240169"
+  },
+  "207cf6043a411376": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "4a282df1f65e9404842d",
+          "4a282df1f65e9404842d"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "4a282df1f65e9404842d",
+          "4a282df1f65e9404842d"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "learning-agency-lab-automated-essay-scoring-2",
+    "winner_id": "4a282df1f65e9404842d"
+  },
+  "2888bb1f3d722266": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "7ea8e1337b336045b092",
+          "7ea8e1337b336045b092"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "7ea8e1337b336045b092",
+          "7ea8e1337b336045b092"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "stanford-covid-vaccine",
+    "winner_id": "7ea8e1337b336045b092"
+  },
+  "391fd17731b002dc": {
+    "arms": {
+      "original": {
+        "consistent": false,
+        "correct": [
+          false,
+          true
+        ],
+        "selected": [
+          "81ff312f613563424379",
+          "8f17a1bfbdee642e92a2"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          false,
+          true
+        ],
+        "selected": [
+          "81ff312f613563424379",
+          "8f17a1bfbdee642e92a2"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "spooky-author-identification",
+    "winner_id": "8f17a1bfbdee642e92a2"
+  },
+  "424e947e38733fde": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "76904ec3ab55e3d7e6f6",
+          "76904ec3ab55e3d7e6f6"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "76904ec3ab55e3d7e6f6",
+          "76904ec3ab55e3d7e6f6"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "new-york-city-taxi-fare-prediction",
+    "winner_id": "76904ec3ab55e3d7e6f6"
+  },
+  "6eac1f570c928359": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "8550462bbbf308e7f486",
+          "8550462bbbf308e7f486"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "8550462bbbf308e7f486",
+          "8550462bbbf308e7f486"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "petfinder-pawpularity-score",
+    "winner_id": "8550462bbbf308e7f486"
+  },
+  "7a1d134dcbd3c191": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "dd278b5e6f0c7d609a5e",
+          "dd278b5e6f0c7d609a5e"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          false,
+          true
+        ],
+        "selected": [
+          "9209409c57a7b17e55cf",
+          "dd278b5e6f0c7d609a5e"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "tensorflow-speech-recognition-challenge",
+    "winner_id": "dd278b5e6f0c7d609a5e"
+  },
+  "7a5cfd0f49c8725d": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "2fdbb4a76b53742e0ca5",
+          "2fdbb4a76b53742e0ca5"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          true,
+          false
+        ],
+        "selected": [
+          "2fdbb4a76b53742e0ca5",
+          "591a6b2c4fb338b9a89c"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "new-york-city-taxi-fare-prediction",
+    "winner_id": "2fdbb4a76b53742e0ca5"
+  },
+  "89382d60b76890ce": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "2eef5f55778d9d0811ee",
+          "2eef5f55778d9d0811ee"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "100fa123bfaf1ec0a8a1",
+          "100fa123bfaf1ec0a8a1"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "mlsp-2013-birds",
+    "winner_id": "2eef5f55778d9d0811ee"
+  },
+  "8e97ac4278467d56": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "2dce067c147e7c06a827",
+          "2dce067c147e7c06a827"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "2dce067c147e7c06a827",
+          "2dce067c147e7c06a827"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "tensorflow-speech-recognition-challenge",
+    "winner_id": "2dce067c147e7c06a827"
+  },
+  "9383b0aaded420b5": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "3f24e7d81e9c4472e423",
+          "3f24e7d81e9c4472e423"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "3f24e7d81e9c4472e423",
+          "3f24e7d81e9c4472e423"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "learning-agency-lab-automated-essay-scoring-2",
+    "winner_id": "3f24e7d81e9c4472e423"
+  },
+  "a380c68fb1402f8c": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "0390b432360464b8938a",
+          "0390b432360464b8938a"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "0390b432360464b8938a",
+          "0390b432360464b8938a"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "lmsys-chatbot-arena",
+    "winner_id": "0390b432360464b8938a"
+  },
+  "ad5efb548de8226e": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "1c692338000d1410346c",
+          "1c692338000d1410346c"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          false,
+          true
+        ],
+        "selected": [
+          "4e8e5db663f182503533",
+          "1c692338000d1410346c"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "tabular-playground-series-dec-2021",
+    "winner_id": "1c692338000d1410346c"
+  },
+  "bc514d112901baa7": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "a19e9d9a654b78d48d75",
+          "a19e9d9a654b78d48d75"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "a19e9d9a654b78d48d75",
+          "a19e9d9a654b78d48d75"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "the-icml-2013-whale-challenge-right-whale-redux",
+    "winner_id": "8ab49cfbc3824abe8b0e"
+  },
+  "c14ebb306bd4e977": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "d365a1784fdd95473d2c",
+          "d365a1784fdd95473d2c"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          true,
+          false
+        ],
+        "selected": [
+          "599a9bf1f15945b78459",
+          "d365a1784fdd95473d2c"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "stanford-covid-vaccine",
+    "winner_id": "599a9bf1f15945b78459"
+  },
+  "ecdd3352b824297b": {
+    "arms": {
+      "original": {
+        "consistent": false,
+        "correct": [
+          true,
+          false
+        ],
+        "selected": [
+          "406fcfddfe03c04ed3b9",
+          "40d4a75779662b97b80f"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          false,
+          true
+        ],
+        "selected": [
+          "40d4a75779662b97b80f",
+          "406fcfddfe03c04ed3b9"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "detecting-insults-in-social-commentary",
+    "winner_id": "406fcfddfe03c04ed3b9"
+  },
+  "ef79f0c71ec8251b": {
+    "arms": {
+      "original": {
+        "consistent": false,
+        "correct": [
+          true,
+          false
+        ],
+        "selected": [
+          "ec2e178a1e9e46ab6b96",
+          "db5b719c8b3fc27a06a6"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          true,
+          true
+        ],
+        "selected": [
+          "ec2e178a1e9e46ab6b96",
+          "ec2e178a1e9e46ab6b96"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "lmsys-chatbot-arena",
+    "winner_id": "ec2e178a1e9e46ab6b96"
+  },
+  "f510c16303c4362d": {
+    "arms": {
+      "original": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "1c83e9cc6ed9c2ae7541",
+          "1c83e9cc6ed9c2ae7541"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": true,
+        "correct": [
+          false,
+          false
+        ],
+        "selected": [
+          "1c83e9cc6ed9c2ae7541",
+          "1c83e9cc6ed9c2ae7541"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "the-icml-2013-whale-challenge-right-whale-redux",
+    "winner_id": "6294a632eda6d89fd0ca"
+  },
+  "f77d76cce11859fc": {
+    "arms": {
+      "original": {
+        "consistent": false,
+        "correct": [
+          true,
+          false
+        ],
+        "selected": [
+          "1377af1a55965aaee19f",
+          "84942fc7d94615faee39"
+        ],
+        "valid": 2
+      },
+      "skill": {
+        "consistent": false,
+        "correct": [
+          true,
+          false
+        ],
+        "selected": [
+          "1377af1a55965aaee19f",
+          "84942fc7d94615faee39"
+        ],
+        "valid": 2
+      }
+    },
+    "task": "mlsp-2013-birds",
+    "winner_id": "1377af1a55965aaee19f"
+  }
+}

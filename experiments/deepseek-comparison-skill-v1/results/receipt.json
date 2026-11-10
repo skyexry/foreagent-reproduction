@@ -1,0 +1,59 @@
+{
+  "requests": 96,
+  "valid_responses": 96,
+  "unique_response_ids": 96,
+  "all_returned_model": "Pro/deepseek-ai/DeepSeek-V3.2",
+  "all_reasoning_present": true,
+  "all_finish_reason_stop": true,
+  "worker_limit": 12,
+  "first_dispatch_utc": "2026-11-10T08:53:43.723211+00:00",
+  "last_response_utc": "2026-11-10T09:31:27.512668+00:00",
+  "elapsed_seconds": 2263.789,
+  "tokens": {
+    "in": 1599368,
+    "cached_in": 874496,
+    "out_including_reasoning": 227871,
+    "reasoning": 197476,
+    "total": 1827239,
+    "median_out_including_reasoning": 2228.5,
+    "mean_out_including_reasoning": 2373.65625,
+    "estimated_cny": 4.616512
+  },
+  "tokens_by_arm": {
+    "original": {
+      "in": 797692,
+      "cached_in": 456960,
+      "out_including_reasoning": 105236,
+      "reasoning": 92487,
+      "total": 902928,
+      "median_out_including_reasoning": 1947.0,
+      "mean_out_including_reasoning": 2192.4166666666665,
+      "estimated_cny": 2.177128
+    },
+    "skill": {
+      "in": 801676,
+      "cached_in": 417536,
+      "out_including_reasoning": 122635,
+      "reasoning": 104989,
+      "total": 924311,
+      "median_out_including_reasoning": 2402.0,
+      "mean_out_including_reasoning": 2554.8958333333335,
+      "estimated_cny": 2.439384
+    }
+  },
+  "estimated_price_per_million_cny": {
+    "input_cache_miss": 4,
+    "input_cache_hit": 0.4,
+    "output_including_reasoning": 6
+  },
+  "price_reference": "https://siliconflow.cn/pricing",
+  "fee_is_usage_estimate_not_invoice": true,
+  "hashes_sha256": {
+    "runner.py": "bcfb85f4e41b5584debffc854b1baacd658b5d0b9097321dbc4587a59c60d894",
+    "blind_manifest.json": "5101ba7c3a54e100edad5922c7a4455553b0e7bf8e0ef5191a1e349bd27b9f0e",
+    "protocol.md": "705e654372177ef05a6c64b70ea112f91048a82685bc8ace860c10f881bae42a",
+    "skill.txt": "0304960c75160be235c5ad80b58de601c043caa167f88adaaf328d33d203589a",
+    "dispatch.jsonl": "a05e86600744ac0cb42485ad4a845dba58738ad702c65f775dd0b0bc22cee7e7",
+    "judgments.jsonl": "f8479960c7710b4fa2d1dd04c5537423853ddb264ad71b9ff52426fdd0f1b53e"
+  }
+}
