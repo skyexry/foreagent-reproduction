@@ -1,0 +1,30 @@
+{
+  "ventilator-pressure-prediction": {
+    "member": "data/ventilator-pressure-prediction/prepared/private/test.csv",
+    "offset": 103563803,
+    "method": 8,
+    "compressed_bytes": 10393739,
+    "sha256": "4892efbed56c55a25a2fd02afcb73ab6a0c68c94279e97817563159cc88ccc51"
+  },
+  "aerial-cactus-identification": {
+    "member": "data/aerial-cactus-identification/prepared/private/test.csv",
+    "offset": 151426329,
+    "method": 8,
+    "compressed_bytes": 67339,
+    "sha256": "49b835b26ac6bae926fbd92ed508e8d9eb87989366b2cc76342b67ccde38b676"
+  },
+  "stanford-covid-vaccine": {
+    "member": "data/stanford-covid-vaccine/prepared/private/test.csv",
+    "offset": 23942297321,
+    "method": 8,
+    "compressed_bytes": 342490,
+    "sha256": "c94d12eead83ef96ced2daf7e68edbabc41404150d31c991ab967c79c87f019a"
+  },
+  "statoil-iceberg-classifier-challenge": {
+    "member": "data/statoil-iceberg-classifier-challenge/prepared/private/test.csv",
+    "offset": 32313739822,
+    "method": 8,
+    "compressed_bytes": 1839,
+    "sha256": "66f48e076d5a746f6bece64670b2585fe8d322a8ac1cc25df49c742c41606737"
+  }
+}

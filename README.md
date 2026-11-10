@@ -1,5 +1,7 @@
 # ForeAgent：复现与研究
 
+**2026-11-10 · 改选对补分与 HW3 润色**　[HW3 审阅稿](reports/hw3/HW3_Execution_Memory_Review.pdf) · [预测文件审计与 GPU 预算](experiments/paired-prediction-audit/README.md)。80 个已知改选对中，0 对两边都有预测；32 对重算出单边官方分数（28 个 C0、4 个记忆端点），48 对双方均缺。下一步供审阅：Stanford 与 Statoil 各 3 对，单边补跑 6 份约 0.24–0.45 卡时，或同条件重跑 12 份约 0.47–0.90 卡时（按历史中位数、上四分位数折算，不含准备）。报告第 1–3 节由 Claude Opus 5.5 润色，第 8 页 Future Plan 逐字及渲染像素核对一致。
+
 **2026-11-10 · C0 与执行记忆的 CPU 回放**　[HW3 审阅稿，第 8 页](reports/hw3/HW3_Execution_Memory_Review.pdf) · [逐批结果与复核](experiments/c0-memory-switch-v1/README.md)。16 次运行、136 批中，按归档裁判判断可完整还原 C0 的有 128 批，加入记忆后 80 批改选；另有 1 批虽无法还原唯一首选，仍可确定改选。接口可接受的 130 批合计 81 改、48 同、1 未知。80 个具体改选对中，双方都有可用旧验证分的为 0。下一步：审阅报告后，在预定任务、相同划分与训练预算下实测分歧对。
 
 **本轮离线候选选择研究已结束，保留 C0。** [离线结果、理由字段与后续决定](research/离线候选选择.md)

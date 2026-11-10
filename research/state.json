@@ -14,12 +14,13 @@
     "Task-held-out four-arm training pilot: 104 fits and 17,000 selection episodes; 3,400 frozen C0 controls matched. Stop this representation/weight pilot.",
     "Two registered offline final selectors on identical C0 traces: posterior reranking and archived rationale-direction tie-break, each across 3,400 episodes. Both gated out; C0 retained.",
     "Chronological execution-memory audit: 16 runs, 136 batches, 13 strict observed sibling pairs.",
-    "CPU screen on 136 real batches: archived parsed judgments identify 128 full C0 top sets and graphs; 80 of 128 choices change with execution memory. A further switch is invariant to missing feedback."
+    "CPU screen on 136 real batches: archived parsed judgments identify 128 full C0 top sets and graphs; 80 of 128 choices change with execution memory. A further switch is invariant to missing feedback.",
+    "Audited node predictions for all 80 fully identified switches; zero paired endpoints, 32 single-sided official CPU grades."
   ],
   "development_tasks": 26,
   "environment_id": "foreagent-selection-replay-v1",
   "jobs": 850,
-  "next": "Review HW3 section 4; measure both selections on prespecified disagreements using the same scorer, split, seeds and training budget.",
+  "next": "Review the six-pair Stanford and Statoil pilot budgets and endpoints before GPU execution.",
   "research_review": {
     "stage": "execution_memory_decision_screen_review",
     "summary": "research/离线候选选择.md",
@@ -29,7 +30,7 @@
     "proposal_scope": "Preregistered design for completed D1; its gate for D2 was not met.",
     "results": "research/离线候选选择.md",
     "verification": "experiments/posterior-ranking-v1/verification/selection_match.json",
-    "current_decision": "experiments/c0-memory-switch-v1/README.md",
+    "current_decision": "experiments/paired-prediction-audit/README.md",
     "priority": [
       "matched prospective execution on selector disagreements"
     ],

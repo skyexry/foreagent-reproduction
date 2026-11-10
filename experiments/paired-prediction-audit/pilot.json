@@ -1,0 +1,149 @@
+{
+  "per_task": {
+    "stanford-covid-vaccine": {
+      "executed": 56,
+      "successful": 46,
+      "median_s": 124.37677574157715,
+      "upper_quartile_s": 265.3746380209923,
+      "max_s": 1508.9904522895813,
+      "pilot_arm_cap_minutes": 30
+    },
+    "statoil-iceberg-classifier-challenge": {
+      "executed": 60,
+      "successful": 52,
+      "median_s": 158.70818722248077,
+      "upper_quartile_s": 271.95241618156433,
+      "max_s": 326.43325877189636,
+      "pilot_arm_cap_minutes": 10
+    }
+  },
+  "scenarios": {
+    "reuse_archived_side": {
+      "new_runs": 6,
+      "median_based_hours": 0.2359041358033816,
+      "upper_quartile_based_hours": 0.44777254516879716,
+      "training_cap_hours": 2.0,
+      "one_time_setup_allowance_hours": 0.5
+    },
+    "fresh_matched": {
+      "new_runs": 12,
+      "median_based_hours": 0.4718082716067632,
+      "upper_quartile_based_hours": 0.8955450903375943,
+      "training_cap_hours": 4.0,
+      "one_time_setup_allowance_hours": 0.5
+    }
+  },
+  "six_archived_arms_actual_hours": 0.4109106140004264,
+  "score_blind_one_archive_each": [
+    {
+      "task": "stanford-covid-vaccine",
+      "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+      "first_log_line": 669292,
+      "c0": "cd11ed1ac4db42c881d0565824bc3b7a",
+      "memory": "88d7ffe5100c49d38b99860e46d0d711",
+      "saved_arm": "memory",
+      "saved_arm_seconds": 112.00332117080688
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+      "first_log_line": 468858,
+      "c0": "e33a88bdaa804323b1e4ad9845b51859",
+      "memory": "a66549ae3f454c2eb966e2d0914c9610",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 741.6589276790619
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+      "first_log_line": 505965,
+      "c0": "fd941680ff0546959f07c7c3185e9561",
+      "memory": "7c79f4416c4747dc959245faca0d90bb",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 79.56739282608032
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "run": "statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5",
+      "first_log_line": 244633,
+      "c0": "c978acc8eeb24add86c50ebd42dbcebe",
+      "memory": "cff59e17167248d4b90150f029989f0d",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 285.8155026435852
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "run": "statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24",
+      "first_log_line": 274635,
+      "c0": "1321f37935bd44debc3b44a4bfdd2bb1",
+      "memory": "9fba3a4293bc4b5085dc7a18bdeaa3e3",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 71.74330163002014
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "run": "statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411",
+      "first_log_line": 293147,
+      "c0": "fa5c1c94fd824bc3ab999cc7a8212def",
+      "memory": "3c233d337cd1450eaf7aaebbf9f0b4d8",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 188.4897644519806
+    }
+  ],
+  "score_blind_fresh_sample": [
+    {
+      "task": "stanford-covid-vaccine",
+      "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+      "first_log_line": 591089,
+      "c0": "af685b9daf64484ca4bd5ee99a2af548",
+      "memory": "c20061c179734cb590c5952b169f4253",
+      "saved_arm": null,
+      "saved_arm_seconds": null
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+      "first_log_line": 523656,
+      "c0": "f2c467ccdd0945ef9cb8ff29dd07f8fe",
+      "memory": "91c5fc72632f4dcb9d2edf254429249c",
+      "saved_arm": null,
+      "saved_arm_seconds": null
+    },
+    {
+      "task": "stanford-covid-vaccine",
+      "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+      "first_log_line": 359549,
+      "c0": "4245b0214a554363b3263edf3328b901",
+      "memory": "9433f45af89f49eba6a4d6018c24be90",
+      "saved_arm": null,
+      "saved_arm_seconds": null
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "run": "statoil-iceberg-classifier-challenge_66214fc8-5021-4662-a19d-cad88a6223b5",
+      "first_log_line": 244633,
+      "c0": "c978acc8eeb24add86c50ebd42dbcebe",
+      "memory": "cff59e17167248d4b90150f029989f0d",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 285.8155026435852
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "run": "statoil-iceberg-classifier-challenge_75ef4810-56ab-49b7-8cab-b9a3fdf23a24",
+      "first_log_line": 274635,
+      "c0": "1321f37935bd44debc3b44a4bfdd2bb1",
+      "memory": "9fba3a4293bc4b5085dc7a18bdeaa3e3",
+      "saved_arm": "c0",
+      "saved_arm_seconds": 71.74330163002014
+    },
+    {
+      "task": "statoil-iceberg-classifier-challenge",
+      "run": "statoil-iceberg-classifier-challenge_e0aef3b3-e865-4188-a3df-612f605e5411",
+      "first_log_line": 638460,
+      "c0": "2009b715cbfd465088f3874440faf740",
+      "memory": "6c4384b3612f4cec9b4f51580dd3348b",
+      "saved_arm": null,
+      "saved_arm_seconds": null
+    }
+  ]
+}
