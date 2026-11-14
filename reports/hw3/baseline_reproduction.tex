@@ -1,72 +1,122 @@
 \section{Baseline Reproduction}
 \label{sec:reproduction}
 
-\subsection{Experimental setup}
+\subsection{Experimental setup and alignment}
+The original evaluation compares ForeAgent and AIDE on five MLE-bench tasks with three runs per task and a 12-hour budget \citep{zheng2026predict}. This reproduction executes the full ForeAgent loop once on Stanford COVID Vaccine. The task belongs to the paper's five-task suite, and its released submissions and journals provide direct references for both final performance and search behavior. The original implementation, comparison cache, and execution rules are retained.
 
-This experiment reproduces the Stanford COVID Vaccine component of ForeAgent's five-task MLE-bench evaluation \citep{zheng2026predict,chan2024mle}. It executes the complete workflow: candidate generation, predictive selection, model training and validation, and feedback-guided refinement. The reproduction uses the authors' implementation and preserves the original comparison, ranking, and execution rules \citep{foreagentcode}. It retains the paper's 12-hour budget and ten-candidate improvement batches, with one run on the selected task.
-
-The prepared dataset contains 2,160 training sequences and 240 test sequences. The modeling objective is to predict RNA reactivity and degradation measurements at individual sequence positions. The released data analysis report provides dataset context for candidate comparisons. The agent develops its own modeling pipeline and selects the final solution using internal validation feedback. The benchmark's private answers are used to score the final submission after search.
-
-Table~\ref{tab:setup} lists the model roles and search settings. Candidate programs execute on an AutoDL RTX 4090 in the authors' software environment. A Mac hosts the controller and model requests. DeepSeek generation and comparison requests use SiliconFlow, and the feedback model uses the official OpenAI endpoint. These deployment choices preserve the algorithm while introducing hardware and service conditions specific to this reproduction.
-
-\begin{table}[htbp]
-\centering
-\caption{Configuration of the end-to-end reproduction.}
-\label{tab:setup}
-\small
-\begin{tabular}{ll}
-\toprule
-Component & Setting \\
-\midrule
-Code generation & DeepSeek-V3.2 \\
-Candidate comparison & DeepSeek-V3.2-Thinking \\
-Execution feedback parsing & \texttt{gpt-4o-mini-2024-07-18} \\
-Improvement batch / confidence threshold & $m=10$ / $\tau=0.7$ \\
-Eligible rank / execution probability & $k=1$ / $p_{\mathrm{exec}}=0.2$ \\
-Training hardware & NVIDIA RTX 4090 \\
-Search budget & 43,200 seconds (12 hours) \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-The run uses a fixed 12-hour wall-clock budget. Candidate generation, comparisons, training, feedback parsing, and API waits and retries all consume this budget.
-
-\subsection{Reproduction results}
-
-The final submission is evaluated using mean columnwise root mean squared error (MCRMSE), with lower values indicating better predictions:
+The prepared data contain 2,160 training sequences and 240 private test sequences. Each test sequence has 107 positions, giving $240\times107=25{,}680$ prediction rows; the first 68 positions are scored, giving $n=240\times68=16{,}320$. The three evaluated targets are reactivity, degradation at pH 10 with magnesium, and degradation at $50^\circ$C with magnesium. The benchmark uses mean columnwise root mean squared error:
 \begin{equation}
- \mathrm{MCRMSE}=\frac{1}{3}\sum_{j=1}^{3}
- \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_{ij}-\widehat y_{ij})^2}.
+ \mathrm{MCRMSE}=\frac{1}{3}\sum_{l=1}^{3}
+ \sqrt{\frac{1}{n}\sum_{s=1}^{n}(y_{sl}-\widehat y_{sl})^2},
  \label{eq:mcrmse}
 \end{equation}
-The three columns are \texttt{reactivity}, \texttt{deg\_Mg\_pH10}, and \texttt{deg\_Mg\_50C}; $n=16{,}320$ denotes the scored sequence-position rows. Prediction IDs align the submission with the private answers.
-
-The reproduced agent achieves a private-set MCRMSE of \textbf{0.26640}. Table~\ref{tab:online-score} compares this result with the authors' three released final submissions, evaluated against the same private answers. Their mean is 0.25862. The reproduced error is 0.00778 higher, a relative difference of approximately 3.0\%, and falls within their observed range of 0.24320--0.27497.
-
-During the run, the agent completes 19 outer iterations and seven full ten-candidate comparison batches. Its journal contains 82 candidate nodes: 22 executed and 60 skipped. These counts reflect the distinction between considering a program and allocating training resources to it. Across the seven complete improvement batches, 70 candidates are generated and ten are executed. The remaining executed nodes arise outside those batches. The final selected solution produces a valid submission containing 25,680 prediction rows, of which 16,320 enter the private evaluation.
+where $s$ indexes scored positions and $l$ indexes targets. Lower is better. The agent selects its solution using internal validation; private answers are reserved for final grading.
 
 \begin{table}[htbp]
-\centering
-\caption{Final-submission comparison on Stanford COVID Vaccine. All four submissions are evaluated against the same private answers. Each row represents one run; lower MCRMSE is better. Author submissions come from the fixed public release \citep{foreagentdata}.}
-\label{tab:online-score}
-\begin{tabular}{lr}
+\centering\small
+\caption{Original setup and reproduction. Model roles and controller values in the author column are verified against released run configurations; hardware is reported in the paper's Appendix C.8. API-provider identity is not specified in those sources.}
+\label{tab:setup}
+\begin{tabular}{p{3.0cm}p{4.4cm}p{4.4cm}}
 \toprule
-Run & Private-set MCRMSE \\
+Item & Original study / released runs & This reproduction \\
 \midrule
-Author run 1 & 0.25768 \\
-Author run 2 & 0.24320 \\
-Author run 3 & 0.27497 \\
-\midrule
-Author mean & 0.25862 \\
-This reproduction & \textbf{0.26640} \\
+Tasks / runs per task & 5 / 3 & 1 / 1 \\
+Generator & DeepSeek-V3.2, temperature 0.5 & Same \\
+Comparator & DeepSeek-V3.2-Thinking, temperature 1.0 & Same model; thinking enabled \\
+Feedback parser & gpt-4o-mini-2024-07-18, temperature 0.5 & Same \\
+API providers & Not specified & SiliconFlow; OpenAI for parsing \\
+Execution hardware & One RTX 3090 per task worker & One RTX 4090; author image via PRoot \\
+Controller location & Local server setup & Mac controller; remote GPU execution \\
+Data report & Verified report supplied to comparator & Released task report reused \\
+$m,\tau,k,p_{\mathrm{exec}}$ & $10,0.7,1,0.2$ & Same \\
+Wall-clock limit & 12 hours & 12 hours, including a 3.75-hour feedback request \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\subsection{Comparison with the original study}
+Table~\ref{tab:setup} separates preserved algorithmic settings from deployment differences. Reusing the released data report fixes the comparator's dataset context; report construction is not rerun. The budget includes generation, selection, execution, feedback, and API waits. One feedback request with retries occupies 13,491.88 seconds (31.2\% of the budget). The remaining 8.25 hours include other API waits and control overhead, so they are not a measurement of productive compute time.
 
-The reproduction matches the original workflow at each main stage: multiple improvements are proposed from a parent solution, the predictive selector determines which candidates are executed, and measured feedback guides subsequent search. The final score lies within the variation observed across the authors' three same-task runs and is approximately 3.0\% above their mean. This places the reproduced solution at a similar observed performance level on this task. The comparison consists of one reproduced run and three author runs.
+\subsection{Final performance and validation semantics}
+The final submission achieves an official private-set MCRMSE of \textbf{0.26640}. The official scorer and an independent ID-aligned implementation agree to five decimal places. Table~\ref{tab:online-score} compares the authors' released final submissions under the same private scoring procedure \citep{foreagentdata}. Their mean and sample standard deviation are $0.25862\pm0.01591$. The reproduced error is 0.00778 higher: a relative difference of 3.0\%, or approximately 0.49 author-run standard deviations. It lies inside the observed range of 0.24320--0.27497 and meets MLE-bench's gold threshold of 0.34728 for this prepared task.
 
-A substantial operational difference is the time spent waiting for model responses. One feedback request, including retries, takes 13,491.88 seconds, approximately 3 hours 45 minutes or 31.2\% of the total budget. The experimenter reports Mac sleep and VPN disconnection during the run. This waiting interval consumes time that would otherwise be available for further search. Hardware and API service conditions also differ from the authors' setup. These observations help explain the available search time; the contribution of each condition to the final score has not been isolated.
+\begin{table}[htbp]
+\centering\small
+\caption{Same-task endpoints and retained search breadth. Scores use the same private answers. Node counts are taken from final journals; they exclude candidates in unfinished, unsaved batches. SD is the sample standard deviation across three author runs.}
+\label{tab:online-score}
+\begin{tabular}{lrrr}
+\toprule
+Run & Private MCRMSE & Retained nodes & Executed nodes \\
+\midrule
+Author run 1 & 0.25768 & 183 & 33 \\
+Author run 2 & 0.24320 & 142 & 34 \\
+Author run 3 & 0.27497 & 141 & 25 \\
+Author mean $\pm$ SD & $0.25862\pm0.01591$ & $155.33\pm23.97$ & $30.67\pm4.93$ \\
+\midrule
+This reproduction & \textbf{0.26640} & 82 & 22 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-Overall, the experiment reproduces ForeAgent's complete search process and obtains a valid solution within the authors' same-task score range. It provides the working baseline for the harness-evolution experiments proposed next.
+\FloatBarrier
+\paragraph{Why validation and test scores differ.}
+The selected program reports an internal validation error of 0.4378. Inspecting its code identifies concrete metric differences: it pads the 68 observed labels to 107 positions with zeros and computes its loss across all 107 positions. It uses the same three target columns as the benchmark, but averages batch-level RMSE values on an internal 80/20 split. Official grading aggregates errors over the private set's first 68 positions; submitted predictions are also clipped to $[-2,2]$. Thus the two numbers evaluate different data and calculations. These implementation details establish a mismatch in the agent-generated validation procedure; the individual contributions to the numerical gap are not separately measured.
+
+\subsection{Search trajectory and predictive-selection behavior}
+The run completes 19 outer iterations: three drafts, nine debugging steps, and seven improvement batches. Table~\ref{tab:nodes} separates proposals, executions, and outcomes. Each complete improvement batch contains ten candidates. Across those batches, ten candidates execute and 60 are skipped. Four batches have tied rank-0 groups; two execute more than one candidate, with execution counts of two and three. This accounts for the three executions beyond one per batch and matches the tie-sensitive rule in Eq.~\ref{eq:execute}. A final unfinished batch generates another ten candidates before the cutoff, bringing logged proposals to 92, while the final journal retains 82 nodes.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Node decomposition for completed iterations. Success and failure refer to the original controller's execution classification. The unfinished final batch is excluded.}
+\label{tab:nodes}
+\begin{tabular}{lrrrrr}
+\toprule
+Operation & Generated & Executed & Valid & Failed & Skipped \\
+\midrule
+Draft (3 steps) & 3 & 3 & 0 & 3 & 0 \\
+Debug (9 steps) & 9 & 9 & 5 & 4 & 0 \\
+Improve (7 batches) & 70 & 10 & 8 & 2 & 60 \\
+\midrule
+Total & 82 & 22 & 13 & 9 & 60 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/search_trajectory.pdf}
+\caption{Search dynamics from archived execution logs. (a) Successful executions and the running best parsed validation error; red crosses along the bottom mark failed executions. A score becomes available when feedback parsing finishes. (b) Cumulative creation times of nodes retained in final journals, using the same definition for all runs. Shading marks the long feedback-request interval, including retries, from 4.35 to 8.10 hours.}
+\label{fig:trajectory}
+\end{figure}
+
+The best reported validation score becomes available at \textbf{3.46 hours}, after execution and feedback parsing, and remains unchanged through the 12-hour cutoff (Figure~\ref{fig:trajectory}a). This is the time to the final observed validation best, corresponding to Eq.~\ref{eq:target} with the run's eventual best as an ex-post target. Because candidate programs can implement validation differently, the curve represents the controller's observed signal. The authors' paper instead presents temporal performance using test-based Beat Ratio; those curves have a different evaluation target.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Predictive-selector diagnostics. Completed-batch statistics count reused observations as comparison records. Fresh-call counts cover the entire 12-hour run, including the unfinished batch.}
+\label{tab:comparator}
+\begin{tabular}{lr}
+\toprule
+Quantity & Observed value \\
+\midrule
+Comparison records in seven complete batches & 1,841 \\
+Records with $\kappa\geq0.7$ & 51 (2.77\%) \\
+Cache-hit events within complete batches & 1,720 \\
+Pending-list entries across rounds (repeated candidates) & 1,308 \\
+Batches reaching the round cap & 7 / 7 \\
+Batches with multiple rank-0 candidates & 4 / 7 \\
+Completed comparator API calls, full run & 134 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Most recorded comparisons are inconclusive, and all seven completed tournaments reach the round cap (Table~\ref{tab:comparator}). The cache repeatedly returns the same pair judgments, so the confidence proportion describes the realized control flow rather than independent prediction accuracy. The resulting behavior explains why a simple knockout comparison count would mischaracterize this run. It also provides a concrete motivation for studying how confidence handling, memory, and search control interact.
+
+\subsection{Time allocation and comparison with the original findings}
+\begin{figure}[htbp]
+\centering\includegraphics[width=\linewidth]{figures/time_allocation.pdf}
+\caption{Accounting of the 12-hour budget. Generation and feedback use logged request durations, including retries; comparison uses elapsed tournament windows, including the unfinished final tournament, to avoid double-counting parallel requests. Execution is the sum of recorded worker execution durations. The residual covers transport and other unassigned overhead. Network waiting cannot be isolated from service processing within API intervals.}
+\label{fig:time}
+\end{figure}
+
+Generation requests account for 6.11 hours, tournament stages for 1.06 hours, and candidate execution for 0.90 hours (Figure~\ref{fig:time}). The long feedback request alone occupies 3.75 hours; other feedback requests use approximately 55 seconds. At the start of that request, the corresponding program has finished execution and the controller is awaiting its parsed result. The sequential loop starts no further candidate execution during this interval. Host sleep and VPN disconnection were reported after the run; the recorded interval includes processing and retries, rather than measuring the outage alone. Future runs will place the controller alongside the GPU worker to avoid dependence on a sleeping local host.
+
+The original paper reports broader exploration and faster convergence than AIDE, in addition to final task performance \citep[Section~6.4 and Appendix~C.4]{zheng2026predict}. This reproduction measures the corresponding search observables: retained node count and the time when its best validation signal becomes available. Its 82 retained nodes are below all three same-task author runs (141--183), while its final private score lies within their range. The trajectory therefore supports successful reproduction of the full predictive-search workflow and same-task endpoint performance, with lower observed breadth under this deployment. The 3.46-hour validation-best time is reported on its own metric; it does not estimate the paper's test-based convergence speedup over AIDE. The run's time allocation identifies API generation and feedback latency as substantial costs to include when evaluating an evolved harness.

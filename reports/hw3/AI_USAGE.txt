@@ -1,3 +1,5 @@
+2026-11-15 Proposal v3: Codex checked paper/code distinctions, analyzed archived online logs, constructed architecture and trajectory figures, and revised Sections 2 and 3 against the rubric. No new candidate execution, paid model call, or GPU run.
+
 # Current proposal revision: 2026-11-15
 
 OpenAI Codex rewrote the Introduction, Baseline Explanation, Baseline Reproduction, and Future Plan around the author-approved question: Can harness evolution make machine learning agents search more efficiently? The author requested that reproduction cover only real end-to-end execution. Sources used: pinned author code, published papers, online-stanford-v2 final-summary and archived scoring checks. No new model evaluation calls, paid training runs, or GPU experiments were performed for this writing revision. The historical usage record below is retained for provenance; offline experiments described there are excluded from the current proposal.
