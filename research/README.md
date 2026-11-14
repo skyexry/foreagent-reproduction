@@ -1,5 +1,8 @@
 # ML Agent 项目交接：ForeAgent / ForeCritic
 
+**2026-11-15 · Proposal v2。** 按用户意见重写 Baseline Explanation：任务目标、AIDE 基础、预测式筛选动机与输入、执行反馈闭环、可变状态与固定 harness。Reproduction 按实验设置、主要结果、与作者对比分节；报告 0.26640 相对作者均值 0.25862 高约 3.0%，删除效率对照待验证表述、哈希/源码数量/完整路径等归档细节。仅端到端复现，无新增实验。7 页 PDF 编译和分页检查通过，无引用或排版警告。当前下一步为用户审阅新版。 [PDF](../reports/hw3/HW3_Harness_Evolution_Proposal_20261115_v2.pdf)。
+
+
 **2026-11-15 · Harness evolution proposal 全文替换。** 主问题统一为 “Can harness evolution make machine learning agents search more efficiently?”；四节英文稿均已更新，复现正文仅报告 Stanford 12 小时真实端到端运行（MCRMSE 0.26640），移除旧离线回放与候选池实验；Future Plan 改为技能演化、生成—筛选协同、搜索控制及含适应成本的在线验证计划。NeurIPS 模板编译为 7 页，引用/交叉引用及排版检查通过；本轮新增实验、训练和付费模型调用均为 0。当前写作下一步：用户审阅全文，确定首个 harness 演化实验；历史研究记录继续保留。 [PDF](../reports/hw3/HW3_Harness_Evolution_Proposal_20261115.pdf) · [LaTeX](../reports/hw3/HW3_Harness_Evolution_Proposal_20261115_LaTeX.zip)。
 
 

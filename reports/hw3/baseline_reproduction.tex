@@ -3,9 +3,11 @@
 
 \subsection{Experimental setup}
 
-The reproduction runs the full ForeAgent workflow on the Stanford COVID Vaccine task from MLE-bench \citep{chan2024mle}. The agent generates candidate programs, makes predictive comparisons, selects experiments, executes training and validation, and incorporates the resulting feedback into subsequent search. The experiment, identified as \texttt{stanford-autodl-v2}, uses the original author implementation at commit \texttt{c4d52cf}, including its comparison cache, ranking rules, and execution fallback \citep{foreagentcode}.
+This experiment reproduces the Stanford COVID Vaccine component of ForeAgent's five-task MLE-bench evaluation \citep{zheng2026predict,chan2024mle}. It executes the complete workflow: candidate generation, predictive selection, model training and validation, and feedback-guided refinement. The reproduction uses the authors' implementation and preserves the original comparison, ranking, and execution rules \citep{foreagentcode}. It retains the paper's 12-hour budget and ten-candidate improvement batches, with one run on the selected task.
 
-The prepared dataset contains 2,160 training sequences and 240 test sequences. The task evaluates predictions of reactivity and two RNA degradation measurements. The released data analysis report supplies the predictor's dataset context. Table~\ref{tab:setup} summarizes the configuration. The controller and API requests run on a Mac, while candidate programs execute on an AutoDL RTX 4090 through PRoot using the pinned author OCI image. DeepSeek requests use SiliconFlow's model-name and thinking-mode mapping; feedback parsing uses the official OpenAI endpoint.
+The prepared dataset contains 2,160 training sequences and 240 test sequences. The modeling objective is to predict RNA reactivity and degradation measurements at individual sequence positions. The released data analysis report provides dataset context for candidate comparisons. The agent develops its own modeling pipeline and selects the final solution using internal validation feedback. The benchmark's private answers are used to score the final submission after search.
+
+Table~\ref{tab:setup} lists the model roles and search settings. Candidate programs execute on an AutoDL RTX 4090 in the authors' software environment. A Mac hosts the controller and model requests. DeepSeek generation and comparison requests use SiliconFlow, and the feedback model uses the official OpenAI endpoint. These deployment choices preserve the algorithm while introducing hardware and service conditions specific to this reproduction.
 
 \begin{table}[htbp]
 \centering
@@ -27,9 +29,9 @@ Search budget & 43,200 seconds (12 hours) \\
 \end{tabular}
 \end{table}
 
-The budget runs from November 8, 2026, 01:22:02 to 13:22:02 China Standard Time. Candidate generation, comparisons, training, feedback parsing, and API waits and retries all consume this wall-clock budget. The original agent selects the final solution using its internal validation metric. Private-set evaluation is performed after search has ended.
+The run uses a fixed 12-hour wall-clock budget. Candidate generation, comparisons, training, feedback parsing, and API waits and retries all consume this budget.
 
-\subsection{Evaluation and results}
+\subsection{Reproduction results}
 
 The final submission is evaluated using mean columnwise root mean squared error (MCRMSE), with lower values indicating better predictions:
 \begin{equation}
@@ -39,7 +41,9 @@ The final submission is evaluated using mean columnwise root mean squared error 
 \end{equation}
 The three columns are \texttt{reactivity}, \texttt{deg\_Mg\_pH10}, and \texttt{deg\_Mg\_50C}; $n=16{,}320$ denotes the scored sequence-position rows. Prediction IDs align the submission with the private answers.
 
-The run completes 19 outer iterations and seven full ten-candidate comparison batches. Its final journal contains 82 nodes, of which 22 were executed and 60 skipped. These counts describe distinct units: an improvement iteration can generate several candidate nodes. The selected node, \texttt{84c79a8d}, has a parsed internal validation value of 0.4378 and produces 25,680 valid prediction IDs. Its official private-set MCRMSE is \textbf{0.26640}; an independent ID-aligned calculation gives 0.2663989312. The internal validation value and private score use separate evaluation data and are reported separately.
+The reproduced agent achieves a private-set MCRMSE of \textbf{0.26640}. Table~\ref{tab:online-score} compares this result with the authors' three released final submissions, evaluated against the same private answers. Their mean is 0.25862. The reproduced error is 0.00778 higher, a relative difference of approximately 3.0\%, and falls within their observed range of 0.24320--0.27497.
+
+During the run, the agent completes 19 outer iterations and seven full ten-candidate comparison batches. Its journal contains 82 candidate nodes: 22 executed and 60 skipped. These counts reflect the distinction between considering a program and allocating training resources to it. Across the seven complete improvement batches, 70 candidates are generated and ten are executed. The remaining executed nodes arise outside those batches. The final selected solution produces a valid submission containing 25,680 prediction rows, of which 16,320 enter the private evaluation.
 
 \begin{table}[htbp]
 \centering
@@ -49,21 +53,20 @@ The run completes 19 outer iterations and seven full ten-candidate comparison ba
 \toprule
 Run & Private-set MCRMSE \\
 \midrule
-Author run \texttt{01abb886} & 0.25768 \\
-Author run \texttt{5d12c313} & 0.24320 \\
-Author run \texttt{cbb2a0b0} & 0.27497 \\
+Author run 1 & 0.25768 \\
+Author run 2 & 0.24320 \\
+Author run 3 & 0.27497 \\
 \midrule
+Author mean & 0.25862 \\
 This reproduction & \textbf{0.26640} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The reproduced score falls within the authors' same-task range of 0.24320--0.27497, whose mean is 0.25862. This result demonstrates that the reproduced system completes the full generation--selection--execution loop and produces a valid submission with performance within the observed author-run range. The evidence covers one run on one task. Measuring the contribution of predictive selection to efficiency will require matched runs against an execution-based search baseline.
+\subsection{Comparison with the original study}
 
-\subsection{Execution conditions and reproducibility}
+The reproduction matches the original workflow at each main stage: multiple improvements are proposed from a parent solution, the predictive selector determines which candidates are executed, and measured feedback guides subsequent search. The final score lies within the variation observed across the authors' three same-task runs and is approximately 3.0\% above their mean. This places the reproduced solution at a similar observed performance level on this task. The comparison consists of one reproduced run and three author runs.
 
-The archived logs record a feedback request that took 13,491.88 seconds, approximately 3 hours 45 minutes, including retries. After the run, the experimenter reported Mac sleep and VPN disconnection that disrupted API access. The logged duration measures the entire request and retry interval. This interval consumed the original 12-hour budget and reduced the remaining time available for search. Hardware, API service, and network conditions also differ from the authors' runs, so the endpoint comparison is descriptive. A subsequently initiated extension completed no additional nodes; the results above use the standard 12-hour endpoint.
+A substantial operational difference is the time spent waiting for model responses. One feedback request, including retries, takes 13,491.88 seconds, approximately 3 hours 45 minutes or 31.2\% of the total budget. The experimenter reports Mac sleep and VPN disconnection during the run. This waiting interval consumes time that would otherwise be available for further search. Hardware and API service conditions also differ from the authors' setup. These observations help explain the available search time; the contribution of each condition to the final score has not been isolated.
 
-Artifact checks verify 484 source files against the pinned author commit and the prepared data against their recorded checksums. The final prediction file is linked to the selected journal node and archived with a SHA-256 checksum. The official scorer and an independent ID-aligned implementation agree for this run and all three author submissions. Submission checks cover unique IDs, required columns, and finite predictions.
-
-The run configuration, journal, timing records, summary, and scoring checks are retained under \texttt{phase1-reproduction/experiments/online-stanford-v2/}; environment acceptance records are under \texttt{phase1-reproduction/experiments/environment-acceptance/}. The frozen reproduction package is available in the project's \href{https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1}{\texttt{hw3-phase1-v1} release}. These artifacts provide the baseline implementation and measurement pipeline for the proposed experiments.
+Overall, the experiment reproduces ForeAgent's complete search process and obtains a valid solution within the authors' same-task score range. It provides the working baseline for the harness-evolution experiments proposed next.

@@ -34,55 +34,67 @@ This proposal therefore asks: \textbf{Can harness evolution make machine learnin
 \section{Baseline Explanation: ForeAgent}
 \label{sec:baseline}
 
-\subsection{Problem formulation}
+\subsection{Task and optimization objective}
 
-ForeAgent automates the development of a machine learning solution under a computational budget \citep{zheng2026predict}. Given a task description $I$ and dataset $D$, the agent generates programs that implement preprocessing, model training, validation, and prediction. Executing a program $C$ produces runtime observations and a validation score $M(C)$. Let $u(C)=M(C)$ for a maximized metric and $u(C)=-M(C)$ for a minimized metric. An agent policy $\pi$ determines which programs to generate and execute. Its budgeted objective can be expressed as
+ForeAgent is an LLM-based system for autonomously developing machine learning solutions \citep{zheng2026predict}. Its input consists of a task description, a dataset, an evaluation metric, and a computational budget. Its output is a candidate program and the predictions produced by the selected solution. The program specifies a complete modeling pipeline, including data preprocessing, feature construction, model choice, training, validation, and inference. Search therefore operates over executable solutions whose modeling choices can change across iterations.
+
+Let $I$ denote the task description, $D$ the dataset, and $C$ a candidate program. Executing $C$ produces runtime observations and a validation metric $M(C)$. Define $u(C)=M(C)$ for a maximized metric and $u(C)=-M(C)$ for a minimized metric. A search policy $\pi$ determines which programs to generate and execute. Its budgeted objective can be expressed as
 \begin{equation}
  \max_{\pi}\;\mathbb{E}\!\left[\max_{C\in\mathcal{E}_{\pi}(B)}u(C)\right],
  \label{eq:objective}
 \end{equation}
-where $\mathcal{E}_{\pi}(B)$ is the set of valid programs evaluated within budget $B$. This notation makes the search objective explicit: the quality of the best discovered solution depends on both the candidates proposed and the resources spent evaluating them. Validation feedback guides search; the private test set is reserved for final evaluation.
+where $\mathcal{E}_{\pi}(B)$ contains the valid programs evaluated within budget $B$. This formulation describes the search objective: both the quality of proposed programs and the allocation of evaluation resources determine the best solution discovered. Validation feedback guides development, and the private test set evaluates the final submission.
 
-\subsection{Search architecture and information flow}
+\subsection{Foundation: AIDE's search over programs}
 
-\paragraph{Search tree and history.}
-ForeAgent inherits AIDE's tree of candidate programs \citep{jiang2025aide,zheng2026predict}. Each node records code, its parent, execution status, runtime output, and any extracted validation metric. A journal maintains this history. The controller chooses among three operations: \emph{draft} creates a new solution, \emph{debug} repairs a failed program using its error feedback, and \emph{improve} modifies a valid solution. The released configuration starts with three drafts, prioritizes eligible debugging with probability 1.0 up to depth 20, and otherwise improves the best valid node \citep{foreagentcode}. Thus, execution feedback changes the next program and parent selected for development.
+ForeAgent builds directly on AIDE's tree-based search architecture \citep{jiang2025aide,zheng2026predict}. Each node represents a candidate program, and a parent--child edge records a revision of an earlier solution. A journal stores the code, parent identity, execution status, runtime output, and extracted validation metric. This representation retains multiple development paths and connects each new revision to the evidence that motivated it.
 
-\paragraph{Task and data grounding.}
-Candidate comparisons also receive a textual data analysis report. The paper's Profile--Verify--Verbalize procedure executes profiling code, checks the resulting observations, and converts them into a report of dataset properties \citep{zheng2026predict}. This supplies evidence about the data distribution and task requirements before candidate training. The reproduction uses the released report for its task.
+Three operators expand the search tree. \emph{Drafting} generates an initial solution from the task and data context, providing starting points for exploration. \emph{Debugging} repairs an unsuccessful program using its code and execution errors. \emph{Improvement} develops a valid solution using its existing implementation, performance, and the history of previous attempts. A controller selects the operator and parent node. In the released configuration, the agent first creates three drafts, prioritizes eligible debugging with probability 1.0 up to a debugging depth of 20, and otherwise improves the best valid node \citep{foreagentcode}.
 
-\paragraph{Candidate generation.}
-Drafting and debugging produce programs for direct execution. During improvement, ForeAgent expands one parent into $m=10$ candidates before deciding which to run. The generator receives the parent solution, task context, and a summary of previous attempts. Previously generated plans within the batch provide additional context for proposing alternatives. Each candidate contains an improvement plan and executable code. This separates inexpensive proposal generation from the more expensive acquisition of measured performance.
+The generator receives summaries of prior attempts so that subsequent programs can incorporate earlier observations. After execution, a feedback model extracts success or failure information and the reported validation metric from the runtime output. The journal then supplies updated context for the next decision. AIDE thus combines code generation, tool execution, persistent history, and feedback-guided refinement in one search loop. Obtaining a new measured score requires executing the corresponding program, which makes training and validation a central resource cost.
 
-\paragraph{Predictive comparison.}
-For candidates $C_i$ and $C_j$, a fixed pretrained LLM produces a relative preference and self-reported confidence:
+\subsection{ForeAgent's extension: predict before execution}
+
+ForeAgent separates proposing an improvement from committing resources to evaluate it. For a selected parent solution, the agent generates several alternative programs and compares their expected performance using the task description, dataset analysis, and candidate code. The comparison results determine which candidates proceed to training and validation. Their observed outcomes are then added to the search history, providing evidence for subsequent debugging and improvement. This design allows the agent to consider a broader set of revisions while concentrating execution resources on selected candidates \citep{zheng2026predict}.
+
+\paragraph{Generating alternatives.}
+ForeAgent introduces predictive filtering in the improvement branch; drafting and debugging retain direct execution. An improvement step generates $m=10$ candidates from the selected parent. Each candidate contains an improvement plan and its code implementation. The generator uses the parent solution and journal summary, while previously generated plans within the batch provide context for proposing alternatives. The resulting batch is the input to predictive selection.
+
+\paragraph{Grounding predictions in data.}
+The comparison model receives a textual data analysis report in addition to the task description and programs. The paper constructs this report through a Profile--Verify--Verbalize pipeline: profiling code analyzes the dataset, verification checks the resulting observations, and verbalization converts the verified findings into a report \citep{zheng2026predict}. The task description specifies the prediction objective and evaluation requirements; the report supplies dataset properties; and the programs expose the modeling and training choices being compared. Together, these inputs allow the predictor to assess how well each proposed pipeline fits the task. The reproduction uses the released task report.
+
+\paragraph{Predicting relative performance.}
+For programs $C_i$ and $C_j$, the comparison LLM returns reasoning, a preferred candidate, and confidence:
 \begin{equation}
  (z_{ij},\widehat y_{ij},c_{ij})
- =f_{\theta}(I,D_{\mathrm{rep}},C_i,C_j;P),\qquad
- a_{ij}=\mathbf{1}\{c_{ij}\geq\tau\}.
+ =f_{\theta}(I,D_{\mathrm{rep}},C_i,C_j;P).
  \label{eq:predictor}
 \end{equation}
-Here $D_{\mathrm{rep}}$ is the data report, $P$ is the comparison prompt, $z_{ij}$ is the reasoning, $\widehat y_{ij}$ identifies the preferred candidate, and $c_{ij}$ is confidence in that comparison. The published threshold is $\tau=0.7$. The predictor estimates relative performance from task context and code before observing either candidate's new execution result. ForeAgent keeps model parameters fixed; its agent-level algorithm is specified by inference-time generation, selection, and execution rules.
+Here $D_{\mathrm{rep}}$ denotes the data report, $P$ the comparison prompt, $z_{ij}$ the reasoning, $\widehat y_{ij}$ the relative preference, and $c_{ij}$ the self-reported confidence. This produces an estimate of which program will perform better before its new training outcome is available. ForeAgent uses pretrained models with fixed parameters. Its agent-level method is therefore defined by inference-time decision rules; task models are trained when selected candidate programs execute.
 
-\subsection{Confidence-gated ranking and execution}
+\subsection{Selection, verification, and the next iteration}
 
-The released implementation aggregates pairwise judgments through a tournament \citep{foreagentcode}. Each round pairs adjacent active candidates, with a bye for an unpaired candidate. A confident winner advances and its opponent is eliminated. Inconclusive comparisons place candidates in a pending list. Pending candidates are then compared with randomly chosen advanced candidates; a pending winner or another inconclusive outcome allows the pending candidate to advance. An already-advanced opponent retains its place. If no candidate has advanced, a pending candidate is promoted directly. The process stops when one candidate remains or the round count exceeds $2m$.
-
-The resulting order prioritizes survivors, then the number of wins and later rounds. Candidates sharing the relevant win and round values can share a displayed rank. Let $r_i$ denote this zero-based rank. With $k=1$, the execution controller considers candidates satisfying $r_i<k$, independently samples an execution decision with probability $p_{\mathrm{exec}}=0.2$, and forces the first rank-0 candidate to execute if all sampled decisions are negative:
+\paragraph{Confidence-gated comparison.}
+A comparison is accepted when
 \begin{equation}
- E_0=\{i:r_i<k,\ b_i=1\},\quad b_i\sim\mathrm{Bernoulli}(0.2),\qquad
- E=\begin{cases}E_0,&E_0\ne\varnothing,\\\{i_0\},&E_0=\varnothing,\end{cases}
- \label{eq:execute}
+ a_{ij}=\mathbf{1}\{c_{ij}\geq\tau\},\qquad \tau=0.7.
+ \label{eq:gate}
 \end{equation}
-where $i_0$ is the first rank-0 candidate in sorted order. The fallback guarantees an execution for a completed improvement batch; tied ranks can lead to multiple executions.
+The gate determines whether a preference is strong enough to eliminate a candidate. Low-confidence candidates remain eligible for further comparison, allowing the controller to defer elimination when the predictor is uncertain.
 
-Selected programs run in the execution environment. A feedback model parses their outputs into success or failure information and validation metrics. These observations update the journal and guide subsequent drafting, repair, or refinement. Skipped candidates retain a search record without a measured outcome. The agent finally returns the solution selected using its internal validation criterion.
+The released tournament compares adjacent active candidates, with a bye for an unpaired candidate \citep{foreagentcode}. Confident winners advance, while inconclusive pairs enter a pending list. Pending candidates are compared with randomly chosen advanced candidates. A pending winner or another inconclusive outcome allows that candidate to advance, and its already-advanced opponent retains its place. If no candidate has advanced, a pending candidate is promoted directly. The tournament stops at one survivor or when the round count exceeds $2m$. The final ordering prioritizes survivors, then wins and later rounds; candidates can share a displayed rank.
 
-\subsection{Design implications for harness evolution}
+\paragraph{Allocating executions.}
+With $k=1$, candidates in the highest displayed rank group are eligible for execution. The released implementation applies an independent execution probability of 0.2 to each eligible candidate. If none is selected, it executes the first rank-0 candidate as a mandatory fallback. Consequently, every completed improvement batch receives execution feedback, and ties can result in multiple executions \citep{foreagentcode}.
 
-ForeAgent already adapts candidate code to execution feedback and uses history to guide solution development. Its comparison prompt, confidence threshold, tournament rules, and execution policy remain predefined. This creates a concrete target for harness evolution: update the procedures that interpret experience and allocate future experiments. The challenge is that only selected candidates produce execution feedback. Generator updates change the candidate distribution, while selector updates change the evidence subsequently available to the agent. These interactions make end-to-end evaluation central to assessing an evolved harness.
+\paragraph{Closing the feedback loop.}
+Selected programs run their training and validation procedures in the execution environment. Their outputs are parsed into errors, execution status, and validation scores, which are stored in the journal. A failed execution can become the parent of a debugging attempt; a successful solution can become a parent for further improvement. Skipped candidates retain records without measured outcomes. The next iteration uses this updated history to choose its operation, select a parent, and generate new code. Search continues until the budget is exhausted, after which the agent returns the solution chosen by its internal validation criterion.
 
-The original paper evaluates ForeAgent against AIDE on five MLE-bench tasks, with three runs per task and a 12-hour limit \citep{zheng2026predict,chan2024mle}. Its reported gains in search breadth and time to peak performance motivate the present baseline choice. The reproduction below focuses on the complete search loop for one task, providing an executable foundation for subsequent harness experiments.
+\subsection{Adaptive behavior and fixed harness components}
+
+Execution feedback changes candidate code, available parent solutions, and the historical context supplied to the LLM. The comparison prompt, confidence threshold, tournament procedure, and execution policy remain predefined. This distinction identifies the proposed project's intervention: use experience to update the procedures that govern future search. The modules also interact through feedback availability. Generator changes alter the candidates presented to the selector, and selector changes alter which candidates produce measured outcomes. Harness evolution can therefore target individual modules and their coordination across iterations.
+
+The original evaluation compares ForeAgent with AIDE on five MLE-bench tasks, using three runs per task and a 12-hour limit \citep{zheng2026predict,chan2024mle}. The next section reproduces the complete ForeAgent workflow on the Stanford COVID Vaccine task and compares its final score with the authors' released results.
 
 \input{baseline_reproduction}
 
