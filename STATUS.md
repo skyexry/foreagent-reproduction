@@ -1,5 +1,7 @@
 # 当前状态：作者原版单任务复现已完成
 
+**2026-11-14 · Proposal 两节初稿已完成。** [英文 Introduction 与 Baseline Explanation](reports/Proposal_Introduction_Baseline_20261114.md)按固定 GPU／墙钟预算定义研究问题，技术细节覆盖 ForeAgent 预测输入、数据报告、门控淘汰赛及执行规则。验证：两节标题、作业要求要点、本地代码链接和论文关键数字回读通过；新增模型调用、训练、GPU 租用均为 0。本轮写作下一步：用户审阅初稿并反馈修改意见。
+
 **2026-11-14 · baseline 论文精读已交付审阅。** [结构化笔记](reports/ForeAgent_论文精读_20261114.md)区分论文结果、证据评价和作者版代码细节；核对 34 页 PDF、Table 13–15 及本地实现。验证：笔记章节、PDF 链接与关键数字复算通过；新增模型调用、训练、GPU 租用均为 0。本轮写作下一步：用户审阅后撰写 proposal 的 Introduction 与 Baseline Explanation。
 
 **2026-11-10 · DeepSeek comparison skill 与 HW3 审阅稿。** 12 个任务各抽 2 对作者已评分代码，96 次真实判断全部有效。原提示判对 32/48，加 skill 为 31/48；换位后仍选同一份代码的为 20/24 和 17/24。继续使用原提示。这批数据上准确率差 −2.1 个百分点，95% 任务区间为 −16.7 至 +12.5。见[协议、实测与复核](experiments/deepseek-comparison-skill-v1/README.md)。[HW3 新审阅稿](reports/hw3/HW3_Research_Progress_Review.pdf)已更新前三节与当前研究进展。下一步是阅读相关论文，再从[老师的方向建议](research/advisor-suggestions.md)中选择有依据的方向；HW3 大改时围绕研究问题和有用的证据组织正文。

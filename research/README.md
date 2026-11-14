@@ -1,5 +1,7 @@
 # ML Agent 项目交接：ForeAgent / ForeCritic
 
+**2026-11-14 · Proposal 前两节英文稿待审阅。** 按用户确定的主问题——提高候选代码实际表现的预测与判断能力，在同样 GPU／墙钟预算下分配执行机会并争取更好的最终方案——完成[Introduction 与 Baseline Explanation](../reports/Proposal_Introduction_Baseline_20261114.md)。基线部分同时交代论文方法和作者发布代码中的淘汰赛、低置信度复赛、并列及执行回退。已核对章节要求、关键数字和本地证据链接；本轮写作下一步为用户审阅并据反馈定稿。
+
 **2026-11-14 · ForeAgent baseline 论文精读待审阅。** 已按 `paper-analyze` 结构核对 ACL 论文正文、附录、Table 13–15 与作者版筛选代码，形成[精读笔记](../reports/ForeAgent_论文精读_20261114.md)。本轮写作衔接为：用户审阅精读后，再写 proposal 的 Introduction 和 Baseline Explanation；研究实验的状态与下一步沿用下文当前记录。
 
 **2026-11-10 · DeepSeek comparison skill 与 HW3 审阅稿。** 12 个任务各抽 2 对作者已评分代码，96 次真实判断全部有效。原提示判对 32/48，加 skill 为 31/48；换位后仍选同一份代码的为 20/24 和 17/24。继续使用原提示。这批数据上准确率差 −2.1 个百分点，95% 任务区间为 −16.7 至 +12.5。见[协议、实测与复核](../experiments/deepseek-comparison-skill-v1/README.md)。[HW3 新审阅稿](../reports/hw3/HW3_Research_Progress_Review.pdf)已更新前三节与当前研究进展。下一步是阅读相关论文，再从[老师的方向建议](advisor-suggestions.md)中选择有依据的方向；HW3 大改时围绕研究问题和有用的证据组织正文。
