@@ -1,5 +1,7 @@
 # 当前状态：作者原版单任务复现已完成
 
+**2026-11-14 · World Reward Models 论文精读已形成 Word 版。** [精读文档](reports/World_Reward_Models_论文精读_20261114.docx)覆盖问题、理论、训练配方、配对实验、Agent 接入和本项目关联；关键数字按 21 页 PDF 正文与附录核对，Word 中文显示与分页已检查。本轮新增研究实验和模型调用为 0；研究下一步沿用 [当前交接](research/README.md)。
+
 **2026-11-14 · Proposal 两节初稿已完成。** [英文 Introduction 与 Baseline Explanation](reports/Proposal_Introduction_Baseline_20261114.md)及[可编辑 Word 版](reports/Proposal_Introduction_Baseline_20261114.docx)按固定 GPU／墙钟预算定义研究问题，技术细节覆盖 ForeAgent 预测输入、数据报告、门控淘汰赛及执行规则。Word 版含论文 Figure 2(e) 流程图。验证：三页渲染逐页检查，章节、公式文字、嵌入图片和关键数字回读通过；新增模型调用、训练、GPU 租用均为 0。本轮写作下一步：用户审阅初稿并反馈修改意见。
 
 **2026-11-14 · baseline 论文精读已交付审阅。** [结构化笔记](reports/ForeAgent_论文精读_20261114.md)区分论文结果、证据评价和作者版代码细节；核对 34 页 PDF、Table 13–15 及本地实现。验证：笔记章节、PDF 链接与关键数字复算通过；新增模型调用、训练、GPU 租用均为 0。本轮写作下一步：用户审阅后撰写 proposal 的 Introduction 与 Baseline Explanation。
