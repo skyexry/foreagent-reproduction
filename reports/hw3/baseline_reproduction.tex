@@ -34,7 +34,7 @@ Wall-clock limit & 12 hours & 12 hours, including a 3.75-hour feedback request \
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:setup} separates preserved algorithmic settings from deployment differences. Reusing the released data report fixes the comparator's dataset context; report construction is not rerun. The comparator requested temperature 1.0 through the gateway with thinking enabled; provider-side sampling could not be verified. The budget included generation, selection, execution, feedback, and API waits. One feedback request with retries occupies 13,491.88 seconds (31.2\% of the budget). Figure~\ref{fig:time} breaks down the remaining 8.25 hours into generation, comparison, execution, feedback, and overhead.
+Table~\ref{tab:setup} separates preserved algorithmic settings from deployment differences. Reusing the released data report fixes the comparator's dataset context; report construction is not rerun. The comparator requested temperature 1.0 through the gateway with thinking enabled; provider-side sampling could not be verified. The budget included generation, selection, execution, feedback, and API waits. One feedback request with retries occupies 13,491.88 seconds (31.2\% of the budget). Figure~\ref{fig:time} breaks down the full 12-hour budget, including the long request, into generation, comparison, execution, feedback, and overhead.
 
 \subsection{Final performance and validation semantics}
 \label{sec:validation-semantics}

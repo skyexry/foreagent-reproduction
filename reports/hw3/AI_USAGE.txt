@@ -1,3 +1,15 @@
+# Current submitted proposal: v6, 2026-11-15
+
+OpenAI Codex generated and substantially revised English drafts of the Introduction, Baseline Explanation, Baseline Reproduction, and Future Plan; assisted with paper/source inspection and archived execution-record analysis; and prepared LaTeX and figures. Anthropic Claude (including Claude Code) drafted an earlier Future Plan and provided review feedback incorporated into subsequent revisions. These contributions go beyond proofreading.
+
+The author specified the research question and experimental scope, reviewed revisions, and is responsible for verifying the analysis, interpretation, and final submission. This statement records tool use; it does not assert approval under an unavailable course-specific AI policy.
+
+The current report uses the end-to-end online baseline run and post-run analysis of its saved artifacts. No new training, paid inference, or candidate execution was performed for the v3–v6 writing revisions. Future Plan protocols describe proposed experiments, not completed results. In v6, Codex clarified the online revision protocol, static control, local seed pairing, pilot criteria, and evaluator-only held-out labels, and aligned this disclosure with the manuscript.
+
+# Historical records: earlier drafts and project activities
+
+The dated entries below are retained for provenance. References to offline replay, 129 historical batches, frozen pools, and other earlier experiments concern earlier project versions and are not experiments reported in the current proposal. The heading “Current proposal revision” below is a historical heading from that dated entry, not the current v6 status.
+
 2026-11-15 Proposal v5: Codex revised the report against the v4 review, recomputed tie-group expectations and an exploratory Fisher test, checked the benchmark split, and linked the proposed experiments to observed bottlenecks. Only archived end-to-end evidence was analyzed; no new training or paid inference. The author retains responsibility for interpretation and submission.
 
 2026-11-15 Proposal v4: Codex corrected notation and diagrams, audited online logs and cache-free first rounds, and retrospectively scored 13 saved submissions with existing private answers and leaderboard data. No new training, candidate generation, or paid inference; original validation-selected submission remains unchanged.

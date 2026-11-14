@@ -28,3 +28,11 @@ Run `python3 reports/hw3/analysis/audit_v5.py` to regenerate `figures/audit_v5.j
 The pinned task `prepare.py` samples 240 SN_filter-positive sequences from original Kaggle training data, not the Kaggle test set behind the historical leaderboard. ForeAgent paper Table 13 reports same-task Beat Ratio 1.000 ± 0.000. Accordingly, v5 compares the saturated ForeAgent endpoint and explains the cross-split numerical threshold; it does not infer an exact author saturation time.
 
 Author run cbb2a0b0's log continues after its last journal-retained node (9.394h), ending with an execution launch around 10.336h. The journal plateau cannot establish a service interruption. No new candidate execution, training, or paid inference was run for this revision. Proposed shared metric/cache fixes and future experimental sizes are plans, not implemented results.
+
+## Revision v6: writing and prospective protocol
+
+No new experimental results. Future Plan now specifies within-run revision, next-batch acceptance using pre-execution candidate-versus-parent predictions and standardized outcomes, at most two update attempts, static initialization shared with the evolving arm, and three-pair pilot criteria. Labels for standardized validation are evaluator-only. All trial/update costs consume the run allowance; initial construction and target pilot count in aggregate costs. The primary contrast is evolving versus shared-fix baseline; static is the mechanism control.
+
+AI disclosure now records substantial Codex drafting, Claude/Claude Code's earlier Future Plan and review feedback, and author responsibility. AI_USAGE separates current report scope from historical offline work. Course-specific AI policy and instructor approval have not been supplied or verified.
+
+2026-11-15 reference check: arXiv abstract pages 2610.38439 explicitly name ForeCritic and its executed-pair supervision/integration; 2607.27687 describes Rehearse as a lightweight skill using focused outcome memory; 2609.26457 describes AIDE² code-rewrite evaluation and retained search/memory improvements; 2608.15071 describes frozen-agent online harness learning across tasks; 2610.37175 describes terminal-output prediction and five TTS policies. This pass confirms these high-level descriptions; earlier full-text/source checks remain the basis for detailed implementation statements.
