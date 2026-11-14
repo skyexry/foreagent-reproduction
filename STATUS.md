@@ -1,5 +1,8 @@
 # 当前状态：作者原版单任务复现已完成
 
+**2026-11-15 · Harness evolution proposal 全文替换。** 主问题统一为 “Can harness evolution make machine learning agents search more efficiently?”；四节英文稿均已更新，复现正文仅报告 Stanford 12 小时真实端到端运行（MCRMSE 0.26640），移除旧离线回放与候选池实验；Future Plan 改为技能演化、生成—筛选协同、搜索控制及含适应成本的在线验证计划。NeurIPS 模板编译为 7 页，引用/交叉引用及排版检查通过；本轮新增实验、训练和付费模型调用均为 0。当前写作下一步：用户审阅全文，确定首个 harness 演化实验；历史研究记录继续保留。 [PDF](reports/hw3/HW3_Harness_Evolution_Proposal_20261115.pdf) · [LaTeX](reports/hw3/HW3_Harness_Evolution_Proposal_20261115_LaTeX.zip)。
+
+
 **2026-11-14 · World Reward Models 论文精读已形成 Word 版。** [精读文档](reports/World_Reward_Models_论文精读_20261114.docx)覆盖问题、理论、训练配方、配对实验、Agent 接入和本项目关联；关键数字按 21 页 PDF 正文与附录核对，Word 中文显示与分页已检查。本轮新增研究实验和模型调用为 0；研究下一步沿用 [当前交接](research/README.md)。
 
 **2026-11-14 · Proposal 两节初稿已完成。** [英文 Introduction 与 Baseline Explanation](reports/Proposal_Introduction_Baseline_20261114.md)及[可编辑 Word 版](reports/Proposal_Introduction_Baseline_20261114.docx)按固定 GPU／墙钟预算定义研究问题，技术细节覆盖 ForeAgent 预测输入、数据报告、门控淘汰赛及执行规则。Word 版含论文 Figure 2(e) 流程图。验证：三页渲染逐页检查，章节、公式文字、嵌入图片和关键数字回读通过；新增模型调用、训练、GPU 租用均为 0。本轮写作下一步：用户审阅初稿并反馈修改意见。

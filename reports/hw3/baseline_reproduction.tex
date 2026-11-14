@@ -1,158 +1,69 @@
 \section{Baseline Reproduction}
 \label{sec:reproduction}
 
-\subsection{Objectives and experiment scope}
+\subsection{Experimental setup}
 
-Three experiments address complementary questions: whether the released controller reproduces archived decisions, how well it selects candidates from fixed pools, and what final task performance it achieves in a live run. All use the original implementation at commit \texttt{c4d52cf} and retain its cache behavior, confidence gate, execution probability, and mandatory execution fallback. The historical experiment is described first; the offline and online results follow in Sections~\ref{sec:offline-selection} and~\ref{sec:online-run}.
+The reproduction runs the full ForeAgent workflow on the Stanford COVID Vaccine task from MLE-bench \citep{chan2024mle}. The agent generates candidate programs, makes predictive comparisons, selects experiments, executes training and validation, and incorporates the resulting feedback into subsequent search. The experiment, identified as \texttt{stanford-autodl-v2}, uses the original author implementation at commit \texttt{c4d52cf}, including its comparison cache, ranking rules, and execution fallback \citep{foreagentcode}.
 
-The historical reproduction examines whether ForeAgent's released ranking and execution control logic reproduces its recorded historical outputs when supplied with the original candidate batches, generation order, and saved observations. The baseline is the original implementation at commit \texttt{c4d52cf}, with the original cache implementation preserved \citep{foreagentcode}. The comparison backend supplies recorded responses by batch position, and the execution branch receives the probability outcomes recorded in the logs. The resulting experiment is a \emph{conditional historical-trace replay}: it verifies the state updates produced from those observations.
-
-The experiment is frozen as \texttt{foreagent\_original\_historical\_replay\_v1}, dated November~7, 2026. The freeze record binds the source snapshots, input manifests, scripts, verification outputs, and archive using SHA-256 checksums. Subsequent cache corrections and alternative aggregation methods belong to separately versioned experiments. The frozen historical result concerns agreement with the original control logic; the later subsections assess selection quality and live task performance separately.
-
-\subsection{Released records and experimental setup}
-
-The inputs come from the authors' public \texttt{agent\_runs/ForeAgent/} release, fixed at dataset revision \texttt{6b322cb} \citep{foreagentdata}. All 15 released ForeAgent runs were inspected: three runs for each of five MLE-bench tasks. For each run, the inputs include its actual \texttt{config.yaml}, full \texttt{journal.json}, and full \texttt{aide.log}. These 45 original text files were checked against their recorded sizes and hashes. Table~\ref{tab:coverage} summarizes recovery coverage.
+The prepared dataset contains 2,160 training sequences and 240 test sequences. The task evaluates predictions of reactivity and two RNA degradation measurements. The released data analysis report supplies the predictor's dataset context. Table~\ref{tab:setup} summarizes the configuration. The controller and API requests run on a Mac, while candidate programs execute on an AutoDL RTX 4090 through PRoot using the pinned author OCI image. DeepSeek requests use SiliconFlow's model-name and thinking-mode mapping; feedback parsing uses the official OpenAI endpoint.
 
 \begin{table}[htbp]
-  \centering
-  \caption{Coverage of the released historical runs. Logged batches include interrupted generation and batches with final-journal gaps. Each recovered batch contains ten candidates.}
-  \label{tab:coverage}
-  \small
-  \begin{tabular}{lrrrr}
-    \toprule
-    Task & Runs & Logged batches & Recovered & Candidates \\
-    \midrule
-    Aerial Cactus Identification & 3 & 14 & 12 & 120 \\
-    Histopathologic Cancer Detection & 3 & 5 & 4 & 40 \\
-    Stanford COVID Vaccine & 3 & 45 & 42 & 420 \\
-    Statoil Iceberg Classification & 3 & 60 & 57 & 570 \\
-    Ventilator Pressure Prediction & 3 & 16 & 14 & 140 \\
-    \midrule
-    Total & 15 & 140 & 129 & 1,290 \\
-    \bottomrule
-  \end{tabular}
+\centering
+\caption{Configuration of the end-to-end reproduction.}
+\label{tab:setup}
+\small
+\begin{tabular}{ll}
+\toprule
+Component & Setting \\
+\midrule
+Code generation & DeepSeek-V3.2 \\
+Candidate comparison & DeepSeek-V3.2-Thinking \\
+Execution feedback parsing & \texttt{gpt-4o-mini-2024-07-18} \\
+Improvement batch / confidence threshold & $m=10$ / $\tau=0.7$ \\
+Eligible rank / execution probability & $k=1$ / $p_{\mathrm{exec}}=0.2$ \\
+Training hardware & NVIDIA RTX 4090 \\
+Search budget & 43,200 seconds (12 hours) \\
+\bottomrule
+\end{tabular}
 \end{table}
 
-The saved configurations agree on the relevant settings: ten improvement candidates, confidence threshold $0.7$, Top-$k=1$, execution probability $0.2$, and a 12-hour agent time limit. The comparison-model label is DeepSeek-V3.2-Thinking with temperature $1.0$. These model settings describe the source runs; this replay consumes their saved responses. Local callbacks record execution decisions, while training and inference observations come from the archived runs. Additional model API calls and candidate-training runs both equal zero.
+The budget runs from November 8, 2026, 01:22:02 to 13:22:02 China Standard Time. Candidate generation, comparisons, training, feedback parsing, and API waits and retries all consume this wall-clock budget. The original agent selects the final solution using its internal validation metric. Private-set evaluation is performed after search has ended.
 
-Recovery uses record availability as the eligibility criterion. Of 140 logged batches, 129 have completed comparison histories and corresponding final-journal nodes. The remaining 11 are retained in a separate coverage ledger: six end during generation, and five contain generated nodes absent from the final journal. This rule was applied using structural completeness, independently of candidate scores or agreement results.
+\subsection{Evaluation and results}
 
-\subsection{Recovery and replay procedure}
-
-\paragraph{Candidate identity, grouping, and order.}
-Messages of the form \texttt{Generated improvement candidate i/10} identify the original generation order. Candidate IDs are resolved to their full journal entries and actual source code. The \texttt{node2parent} map verifies a shared parent within each recovered batch. Creation-time ordering provides a second check on the logged sequence. The journal's stored list reflects post-selection saving and re-appending, so generation logs and timestamps establish the replay input order.
-
-\paragraph{Historical comparisons.}
-Each candidate in a batch stores the same \texttt{wm\_comparison\_results} sequence, containing winner position, confidence, round, and validity. A local provider supplies these archived results to the original \texttt{tournament\_rank()} calls in their recorded order. The replay checks response counts, round indices, and agreement between confidence and the $0.7$ validity gate. It also checks 8,725 ordinary comparisons against the logged participant IDs and outcomes, and 15,148 revival comparisons against the logged pending-candidate identities and outcomes.
-
-The original controller's random seed or RNG state remains an open recovery item. For revival matches, the advanced opponent is represented by an explicitly marked placeholder choice generated with demonstration seed~0. Responses are supplied by recorded batch position. The checked historical information identifies the pending candidate and outcome; it supplies partial evidence about the advanced opponent. Consequently, the agreement claim concerns control-flow replay conditional on the recorded responses, with exact original revival-pair reconstruction reserved for further log analysis.
-
-\paragraph{Execution decisions and mandatory fallback.}
-The original execution statements are extracted directly from \texttt{agent.py}, lines 700--767, and checked for AST equality. Logged probability-trigger outcomes drive the eligible candidates' execution tests. The original code then applies its mandatory fallback: whenever this stage selects an empty execution set, the first rank-0 candidate in sorted order is executed. Local callbacks record selected identities. The resulting execution set is checked against journal \texttt{is\_skipped} flags, and its order is checked against execution-parsing log messages. Supplying observed probability outcomes conditions this check on the historical draws; the verified behavior is Top-$k$ handling, candidate selection, and fallback processing.
-
-\subsection{Results and agreement with the released traces}
-
-For all 129 recovered batches, the original implementation reproduces the recorded candidate ranks, round metadata, sorted order, and final execution decisions. Table~\ref{tab:agreement} reports the comparison units explicitly. Across these batches, the replay consumes 23,873 comparison records, including repeated rounds and cached observations. These records are observations from the historical trajectory, with repeated comparisons contributing to the recorded control flow.
-
-\begin{table}[htbp]
-  \centering
-  \caption{Agreement conditional on archived comparison responses and logged probability outcomes. Candidate-level and batch-level denominators measure different units.}
-  \label{tab:agreement}
-  \begin{tabular}{lrr}
-    \toprule
-    Checked output & Agreement & Rate \\
-    \midrule
-    Candidate displayed rank & 1,290 / 1,290 & 100\% \\
-    Candidate round metadata & 1,290 / 1,290 & 100\% \\
-    Complete sorted candidate order & 129 / 129 batches & 100\% \\
-    Final execution set & 129 / 129 batches & 100\% \\
-    Final execution order & 129 / 129 batches & 100\% \\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
-Mandatory execution fallback occurs in 87 of the recovered batches, matching the log events. For example, in the first recovered batch of the Aerial Cactus run with UUID prefix \texttt{c5d8f2ae}, candidate \texttt{69daaf39} receives rank~0. Its probability test is recorded as skipped, after which the original fallback selects that candidate. Both the resulting execution identity and the final journal flag agree with the replay.
-
-The 100\% values represent \emph{historical-output agreement}. The recorded winner positions are supplied as observations; true candidate-performance scores play no role in recovering ranks. Thus the result establishes faithful processing of these observed histories. Pairwise prediction accuracy, selection quality against executed scores, and end-to-end agent efficiency are separate evaluation questions.
-
-\subsection{Interpretation and reproducibility artifacts}
-
-The replay establishes an implementation baseline for the candidate-selection component: the recovered historical observations lead to the same ranking and execution outputs under the released control rules. The paper's full-corpus prediction accuracy and its five-task online performance results provide broader reference experiments, while this section contributes a direct consistency check against the released agent trajectories \citep{zheng2026predict}. The archived responses already reflect the source runs' inference and cache behavior; fresh model judgments and original revival-opponent reconstruction require their own experimental conditions.
-
-The accompanying \texttt{baseline\_freeze.json} pins the source, data, scripts, and verified outputs by SHA-256. The archive contains full logs and journals, the coverage ledger, and per-batch comparisons. Its \texttt{replay\_author.py} and \texttt{verify\_and\_report.py} scripts reproduce and check these results.
-
-
-\subsection{Offline selection quality: \texttt{corpus26-v2}}
-\label{sec:offline-selection}
-
-\paragraph{Setup.}
-This experiment asks whether the original tournament selects candidates with better recorded execution scores than uniform random choice. It uses candidates and one set of published pairwise judgments from the Preference Corpus. Each task contributes 100 candidate-pool instances, each replayed three times with fixed orders and seeds: 2,600 pool instances, 2,164 distinct candidate sets, and 7,800 original-controller replays across 26 tasks. Twenty-one tasks use pools of ten candidates; the other five use pools of 3, 3, 5, 6, and 8. Pool construction uses finite-score availability and pairwise-feedback coverage; score magnitude and candidate rank are reserved for evaluation after selection.
-
-The settings are confidence threshold 0.7, Top-$k=1$, and execution probability 0.2. The original cache is retained and cleared before each replay; comparisons run serially for deterministic replay. Saved judgments replace new LLM responses, and candidate filenames serve as identity stubs in the cache. Actual execution is represented by recording selected identities and looking up their existing scores. Both the probability stage and the original mandatory fallback are included. Additional API calls and candidate-training runs equal zero.
-
-\paragraph{Metrics.}
-Let $S$ be the displayed rank-0 group, $B=\operatorname*{arg\,max}_{i\in P}u_i$ the best candidates in pool $P$, and $E$ the final simulated execution set. The selection metric averages a uniform single choice within $S$:
+The final submission is evaluated using mean columnwise root mean squared error (MCRMSE), with lower values indicating better predictions:
 \begin{equation}
-  H=\frac{|S\cap B|}{|S|},\qquad
-  R=\frac{\max_{i\in P}u_i-|S|^{-1}\sum_{i\in S}u_i}
-  {\max_{i\in P}u_i-\min_{i\in P}u_i}.
-  \label{eq:offline-metrics}
+ \mathrm{MCRMSE}=\frac{1}{3}\sum_{j=1}^{3}
+ \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_{ij}-\widehat y_{ij})^2}.
+ \label{eq:mcrmse}
 \end{equation}
-Here $R$ is normalized regret for a pool with a nonzero utility range; lower is better. The random reference chooses uniformly from the same pool, with hit probability $|B|/|P|$. We average repeats within a pool, pools within a task, and then the 26 tasks equally. The execution diagnostic is $\mathbf{1}\{E\cap B\ne\varnothing\}$ under the complete original policy. This separates single-choice selection quality from a policy that may execute several tied candidates.
+The three columns are \texttt{reactivity}, \texttt{deg\_Mg\_pH10}, and \texttt{deg\_Mg\_50C}; $n=16{,}320$ denotes the scored sequence-position rows. Prediction IDs align the submission with the private answers.
+
+The run completes 19 outer iterations and seven full ten-candidate comparison batches. Its final journal contains 82 nodes, of which 22 were executed and 60 skipped. These counts describe distinct units: an improvement iteration can generate several candidate nodes. The selected node, \texttt{84c79a8d}, has a parsed internal validation value of 0.4378 and produces 25,680 valid prediction IDs. Its official private-set MCRMSE is \textbf{0.26640}; an independent ID-aligned calculation gives 0.2663989312. The internal validation value and private score use separate evaluation data and are reported separately.
 
 \begin{table}[htbp]
-  \centering
-  \caption{Original ForeAgent offline selection quality on the fixed corpus pools. Values are task-macro averages. Uniform random choice uses the same candidate pools.}
-  \label{tab:offline-quality}
-  \begin{tabular}{lrr}
-    \toprule
-    Metric & Original ForeAgent & Uniform random choice \\
-    \midrule
-    Uniform-tie best-hit ($H$, higher better) & 20.43\% & 12.53\% \\
-    Normalized regret ($R$, lower better) & 0.2810 & 0.3674 \\
-    \bottomrule
-  \end{tabular}
+\centering
+\caption{Final-submission comparison on Stanford COVID Vaccine. All four submissions are evaluated against the same private answers. Each row represents one run; lower MCRMSE is better. Author submissions come from the fixed public release \citep{foreagentdata}.}
+\label{tab:online-score}
+\begin{tabular}{lr}
+\toprule
+Run & Private-set MCRMSE \\
+\midrule
+Author run \texttt{01abb886} & 0.25768 \\
+Author run \texttt{5d12c313} & 0.24320 \\
+Author run \texttt{cbb2a0b0} & 0.27497 \\
+\midrule
+This reproduction & \textbf{0.26640} \\
+\bottomrule
+\end{tabular}
 \end{table}
 
-\paragraph{Results and interpretation.}
-Table~\ref{tab:offline-quality} shows a descriptive 7.89 percentage-point advantage in best-hit probability over random choice, together with lower regret. The complete execution simulation includes a best candidate in 21.60\% of replays and executes 1.028 candidates per replay on average. Every replay has a final execution; the mandatory fallback is used in 74.05\% of replays. These values describe this fixed-feedback offline experiment.
+The reproduced score falls within the authors' same-task range of 0.24320--0.27497, whose mean is 0.25862. This result demonstrates that the reproduced system completes the full generation--selection--execution loop and produces a valid submission with performance within the observed author-run range. The evidence covers one run on one task. Measuring the contribution of predictive selection to efficiency will require matched runs against an execution-based search baseline.
 
-The task pools overlap and reuse judgments, so the 7,800 replays are dependent observations. Candidates are assembled from the corpus rather than recovered as siblings generated in one live improvement step. Benchmark judgments and the serial, identity-stub adaptation also differ from fresh judgments under the live Agent prompt. The results therefore support a fixed-pool selection comparison; live search efficiency and robustness across fresh judgments have their own evaluation scope. The original result is retained separately from cache-corrected and alternative-ranking experiments. Evidence is in \texttt{experiments/corpus26-v2/}, including the protocol, complete-execution specification, original results, and verification records. Earlier probability-stage-only execution results are archived as superseded; the table uses the complete-policy version.
+\subsection{Execution conditions and reproducibility}
 
-\subsection{Single-task end-to-end reproduction}
-\label{sec:online-run}
+The archived logs record a feedback request that took 13,491.88 seconds, approximately 3 hours 45 minutes, including retries. After the run, the experimenter reported Mac sleep and VPN disconnection that disrupted API access. The logged duration measures the entire request and retry interval. This interval consumed the original 12-hour budget and reduced the remaining time available for search. Hardware, API service, and network conditions also differ from the authors' runs, so the endpoint comparison is descriptive. A subsequently initiated extension completed no additional nodes; the results above use the standard 12-hour endpoint.
 
-\paragraph{Task and environment.}
-Run \texttt{stanford-autodl-v2} executes the original ForeAgent on Stanford COVID Vaccine. The task predicts RNA degradation-related measurements. The prepared data contain 2,160 training sequences and 240 test sequences; the Kaggle archive and four prepared files match the fixed release's recorded MD5 checksums. The released task data report is reused. The runtime uses the pinned author OCI image through PRoot on an AutoDL RTX 4090, with the controller and model requests on a Mac. DeepSeek-V3.2 generates code, DeepSeek-V3.2-Thinking compares candidates, and \texttt{gpt-4o-mini-2024-07-18} parses execution feedback. The DeepSeek requests use the SiliconFlow service with model-name and thinking-mode mapping; the feedback requests use the official OpenAI endpoint.
+Artifact checks verify 484 source files against the pinned author commit and the prepared data against their recorded checksums. The final prediction file is linked to the selected journal node and archived with a SHA-256 checksum. The official scorer and an independent ID-aligned implementation agree for this run and all three author submissions. Submission checks cover unique IDs, required columns, and finite predictions.
 
-The run retains ten improvement candidates, confidence 0.70, Top-$k=1$, execution probability 0.20, and the original cache and fallback. The 43,200-second wall-clock budget ran from November~8, 2026, 01:22:02 to 13:22:02, China Standard Time. Generation, API waits and retries, selection, execution, and feedback all consume this budget. The original algorithm selects its final submission by its internal validation metric. External evaluation uses the official private-answer scorer after the run.
-
-\paragraph{Run outputs.}
-The completed journal contains 82 nodes: 22 executed and 60 skipped. There are 19 completed outer iterations and seven complete tournament batches. An outer iteration may generate several nodes; these counts use different units. The retained node is \texttt{84c79a8d}, with parsed internal validation value 0.4378. Its submission contains 25,680 valid prediction IDs. The official private-set error is \textbf{0.26640}; an independent, ID-aligned calculation gives 0.2663989312. The scored subset contains 16,320 sequence-position rows. The metric is mean columnwise root mean squared error (MCRMSE) across reactivity, deg\_Mg\_pH10, and deg\_Mg\_50C; lower is better. The internal validation value and private-set score represent separate evaluations.
-
-\begin{table}[htbp]
-  \centering
-  \caption{Same-task endpoint comparison. The authors' three released final submissions and this run are scored against the same private answers. Each entry is a single run; lower MCRMSE is better.}
-  \label{tab:online-score}
-  \begin{tabular}{lr}
-    \toprule
-    Stanford COVID Vaccine submission & Private-set MCRMSE \\
-    \midrule
-    Author run \texttt{01abb886} & 0.25768 \\
-    Author run \texttt{5d12c313} & 0.24320 \\
-    Author run \texttt{cbb2a0b0} & 0.27497 \\
-    \midrule
-    This reproduction (one 12-hour run) & \textbf{0.26640} \\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
-\paragraph{Comparison and operating conditions.}
-The score lies within the range of the authors' three same-task endpoints (Table~\ref{tab:online-score}); their mean is 0.25862. The paper evaluates five tasks with three runs per task, whereas this reproduction contributes one run on one of those tasks. This provides evidence that the complete original loop produces a valid submission with a comparable same-task score. Repeated-run variability and the online contribution of filtering require repeated runs and a matched execution-based baseline.
-
-Hardware, model services, and network latency differ from the historical runs. After the run, the experimenter reported that Mac screen sleep and VPN disconnection disrupted model API access. One feedback request, including retries, took 13,491.88 seconds (about 3 hours 45 minutes); this elapsed request time includes processing and retries as well as interruption-related waiting. The entire interval counts toward the standard 12-hour budget. The saved evidence supplies the request elapsed time; the VPN outage duration has a separate measurement gap. This operating condition reduces the time available for productive search and is retained in the reported result. A separately initiated extension was stopped at the user's request with zero new completed nodes; its retained prediction hash matches the standard submission. Table~\ref{tab:online-score} reports the standard 12-hour outcome.
-
-\paragraph{Scoring and artifact checks.}
-The original scorer and an independent ID-aligned MCRMSE calculation agree for this submission and all three author submissions. A row-shuffle diagnostic revealed index-sensitive behavior in the original pandas-based scorer: shuffling the same predictions changes its score, while ID-aligned evaluation remains invariant. The archived inputs have been checked for unique IDs, required columns, finite predictions, and agreement between both scoring methods. The original scorer is preserved, and the verification records make its ordering condition explicit.
-
-The source check verifies 484 Git files against the pinned commit. The final prediction file is tied to the retained journal node and archived with its SHA-256 checksum. Run counts, timing, submission hashes, and author references are recorded in \texttt{experiments/online-stanford-v2/}; the independent source, data, artifact, and scoring checks are recorded in \texttt{experiments/environment-acceptance/}. Together with historical replay and fixed-pool evaluation, these results establish three distinct pieces of baseline evidence: faithful control processing, measurable offline selection quality, and a completed single-task Agent run.
+The run configuration, journal, timing records, summary, and scoring checks are retained under \texttt{phase1-reproduction/experiments/online-stanford-v2/}; environment acceptance records are under \texttt{phase1-reproduction/experiments/environment-acceptance/}. The frozen reproduction package is available in the project's \href{https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1}{\texttt{hw3-phase1-v1} release}. These artifacts provide the baseline implementation and measurement pipeline for the proposed experiments.

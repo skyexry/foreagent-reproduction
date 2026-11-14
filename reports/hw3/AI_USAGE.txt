@@ -1,3 +1,7 @@
+# Current proposal revision: 2026-11-15
+
+OpenAI Codex rewrote the Introduction, Baseline Explanation, Baseline Reproduction, and Future Plan around the author-approved question: Can harness evolution make machine learning agents search more efficiently? The author requested that reproduction cover only real end-to-end execution. Sources used: pinned author code, published papers, online-stanford-v2 final-summary and archived scoring checks. No new model evaluation calls, paid training runs, or GPU experiments were performed for this writing revision. The historical usage record below is retained for provenance; offline experiments described there are excluded from the current proposal.
+
 生成式 AI 使用记录（本次冻结的原版历史重演与 HW3 第1—3节）
 工具：OpenAI Codex。
 用途：作者源码与公开运行日志检查、Python回放和验证脚本、实验结果核对、英文撰写、TeX排版及PDF检查。
@@ -23,3 +27,8 @@
 工具：OpenAI Codex。
 原始用户请求：那你把 phase1-reproduction 推送到 GitHub，完整日志作为附件上传，README 里加上下载链接。然后README也要更新，里面的文件整理一下，这个repo最终需要提交HW3
 用途：整理 README/目录与来源映射、日志附件打包、标准库恢复/核验工具和回归检查、GitHub 上传及下载回读。报告正文、NeurIPS 样式和 PDF 复用既有 v3。新增实验模型 API 调用和候选训练均为 0。
+
+2026-11-10 Future Plan 诊断、先导实验与报告第 4 节（v4 草稿，待用户审阅）
+工具：Anthropic Claude（Claude Code）。
+原始用户请求：读一下https://github.com/skyexry/foreagent-reproduction ，两个任务：确认future plan之后，写进HW3 report，然后我 review；开始按优先级顺序实现 future plan。你需要对我的 research project 有全局的知识，做我的导师。（过程中补充：不要过早把方向限制得过窄）
+用途：阅读仓库；登记并运行 experiments/loss-localization-v1 与 experiments/execution-memory-v1（纯 CPU 离线分析）；撰写 reports/hw3/future_plan.tex 并编译 v4 草稿。新增模型 API 调用、训练和候选执行均为 0。

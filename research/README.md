@@ -1,5 +1,8 @@
 # ML Agent 项目交接：ForeAgent / ForeCritic
 
+**2026-11-15 · Harness evolution proposal 全文替换。** 主问题统一为 “Can harness evolution make machine learning agents search more efficiently?”；四节英文稿均已更新，复现正文仅报告 Stanford 12 小时真实端到端运行（MCRMSE 0.26640），移除旧离线回放与候选池实验；Future Plan 改为技能演化、生成—筛选协同、搜索控制及含适应成本的在线验证计划。NeurIPS 模板编译为 7 页，引用/交叉引用及排版检查通过；本轮新增实验、训练和付费模型调用均为 0。当前写作下一步：用户审阅全文，确定首个 harness 演化实验；历史研究记录继续保留。 [PDF](../reports/hw3/HW3_Harness_Evolution_Proposal_20261115.pdf) · [LaTeX](../reports/hw3/HW3_Harness_Evolution_Proposal_20261115_LaTeX.zip)。
+
+
 **2026-11-14 · World Reward Models 论文精读。** [Word 精读](../reports/World_Reward_Models_论文精读_20261114.docx)核对 21 页正文与附录，梳理 ForeCritic 的监督目标、同任务配对结果、置信度与 Agent 接入证据。79.44% 来自共享 26 任务的测试拆分，501 对双新程序为 71.46%；十任务集成结果每配置各一次运行。与本项目相关的裁判训练和比较—执行预算仍作为研究候选，当前唯一下一步沿用下文交接。验证：PDF 原文关键数字回读、Word 中文显示与分页检查；本轮新增研究实验和模型调用为 0。
 
 **2026-11-14 · Proposal 前两节英文稿待审阅。** 按用户确定的主问题——提高候选代码实际表现的预测与判断能力，在同样 GPU／墙钟预算下分配执行机会并争取更好的最终方案——完成[Introduction 与 Baseline Explanation](../reports/Proposal_Introduction_Baseline_20261114.md)及[可编辑 Word 版](../reports/Proposal_Introduction_Baseline_20261114.docx)。基线部分同时交代论文方法和作者发布代码中的淘汰赛、低置信度复赛、并列及执行回退；Word 版插入论文 Figure 2(e) 并逐页检查。本轮写作下一步为用户审阅并据反馈定稿。

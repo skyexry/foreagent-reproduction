@@ -9,92 +9,86 @@
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
 
-\title{Reliable Candidate Selection for\\Budget-Constrained Machine Learning Agents}
-\author{DATS-SHU-200 Data Mining\\Homework 3: Baseline Reproduction Draft}
+\title{Harness Evolution for Efficient Search\\in Machine Learning Agents}
+\author{Skye Xi\\DATS-SHU-200 Data Mining\\Final Project Proposal}
 
 \begin{document}
 \maketitle
 
 \section{Introduction}
 
-Large language model (LLM) agents can automate parts of machine learning engineering, including writing training code, debugging failures, and improving existing solutions. A central difficulty is deciding which proposed solution deserves an expensive execution. For example, an agent may generate several modifications to a training pipeline, while only a small number can be trained and evaluated within the available time. Executing every proposal consumes resources; discarding proposals prematurely can remove the best solution. This project studies how an agent can use imperfect predictions of candidate quality to make better selection decisions under a limited comparison budget.
+LLM-based machine learning (ML) agents automate model development by searching over candidate solutions through iterative cycles of code generation, execution, and refinement. Although agents can propose candidates quickly and cheaply, evaluating each one requires computationally expensive training and validation \citep{jiang2025aide,zheng2026predict}. This asymmetry limits how many experiments an agent can run within a fixed budget, so the quality of its search decisions matters for both resource efficiency and final performance. Poor decisions are costly in two ways. In terms of efficiency, repeated failures and revisions that bring only marginal gains consume time and compute, delaying progress toward a target level of performance. In terms of solution quality, fixating on a narrow family of approaches or continuing to refine a stalled solution can keep the agent from finding stronger alternatives before its budget runs out. These challenges raise a broader question: how can ML agents learn from past experiments to improve how they generate candidates, assess alternatives, and choose subsequent search directions?
 
-Existing agent systems provide two complementary approaches to this problem. AIDE formulates machine learning engineering as tree search over code solutions: the agent drafts, debugs, and improves programs using execution feedback \citep{jiang2025aide}. This makes observed performance available for subsequent decisions, but requires running candidate programs. ForeAgent instead introduces a \emph{Predict-then-Verify} loop \citep{zheng2026predict}. During improvement, it generates multiple candidates and asks an LLM to compare their code using the task description and a data analysis report. A confidence-gated selection procedure then filters candidates before execution. This approach reduces reliance on running every proposal while retaining execution feedback for the candidates that are actually verified.
+AIDE \citep{jiang2025aide} structures this search as a tree whose nodes contain candidate programs and their execution results. Drafting, debugging, and improvement operators expand the tree, while a search policy determines which node to develop next. Summaries of previous attempts provide context for subsequent code generation, allowing the agent to build on promising solutions and repair unsuccessful attempts. However, each new candidate must be executed before its measured performance can inform further search. Consequently, the cost of training and validation constrains how broadly the agent can explore.
 
-However, a useful pairwise judgment does not automatically produce a reliable decision among many candidates. Judgments can conflict, and one mistaken comparison can eliminate a strong candidate. Confidence expresses the model's certainty about a particular comparison; it is neither a candidate's performance score nor a guarantee of correctness. Consequently, the rules for collecting and combining pairwise evidence are a distinct part of the agent's decision process. This motivates the research question: \emph{With the candidate pool and comparison feedback held fixed, can a different aggregation rule select better machine learning solutions than ForeAgent's confidence-gated tournament?} A subsequent extension would examine which comparisons to request under a shared budget. Neither improvement is assumed in advance.
+ForeAgent \citep{zheng2026predict} builds directly on AIDE's architecture and addresses this bottleneck by redesigning the improvement stage. It generates multiple candidate solutions and uses an LLM to compare their expected performance based on their code, the task description, and a verified data analysis report. Confidence-gated comparisons filter the candidates before selected solutions are executed. This \emph{predict-then-verify} workflow allows the agent to consider more alternatives without training every candidate, while retaining real execution feedback to verify progress. In the authors' evaluation on five MLE-bench tasks, ForeAgent explored more candidates and reached peak performance faster than AIDE. These results demonstrate the promise of predictive selection for improving search efficiency.
 
-The baseline for this project is ForeAgent's candidate-selection component. Its released agent trajectories support a direct check of the original control logic using historical candidate batches and observations. Section~\ref{sec:reproduction} reports three complementary experiments: conditional historical replay, offline selection-quality evaluation, and a single-task end-to-end run. The public Preference Corpus, containing 18,438 candidate pairs across 26 tasks, supplies saved judgments and recorded execution scores for the offline evaluation \citep{zheng2026predict}. MLE-bench provides the broader machine learning engineering task setting \citep{chan2024mle}. Historical-output agreement, prediction accuracy, and end-to-end task performance each supply a different level of evidence.
+Subsequent work seeks more informative and reliable evidence for predictive decisions. MLE-World \citep{ko2026mleworld} predicts execution outputs, including errors, training logs, and validation scores, and uses them to support both candidate selection and code revision. Its pairwise selection strategy extends ForeAgent by incorporating predicted terminal outputs into candidate comparisons. ForeCritic \citep{lee2026forecritic} takes a training-based approach, learning preferences from executed program pairs to directly predict which candidate will perform better. The authors evaluate this selector within AIDE, ML-Master, and ForeAgent. Rehearse \citep{ji2026rehearse} instead retrieves similar modifications and their observed outcomes from the current task to inform comparisons between new proposals, then adds subsequent execution results to its memory. These methods ground selection in predicted execution feedback, outcome-supervised preferences, or relevant historical evidence.
 
-\section{Baseline Explanation}
+A separate line of work makes the agent's own operating procedures a target for improvement. Inspired by recursive self-improvement (RSI), \emph{harness evolution} updates the prompts, reusable skills, memory mechanisms, and control logic surrounding an LLM. AIDE$^2$ \citep{srikanth2026aide2} implements an outer optimization loop that modifies a research agent's code, evaluates the resulting versions on a task suite, and retains changes that improve performance under fixed evaluation budgets. Its discovered modifications include search policies and context-management mechanisms. Evo-Harness \citep{wei2026evoharness} instead adapts through reusable guidance: it converts execution experience into skills and updates the external harness across tasks while keeping the underlying model frozen. These studies provide empirical support for improving agent behavior through changes to its harness.
 
-\subsection{Problem formulation and notation}
+Applying harness evolution to predictive search introduces a specific challenge: candidate generation, predictive selection, and execution feedback jointly determine which experiments the agent observes and learns from. Changes to the generator alter the candidates presented to the selector, while changes to the selector alter which candidates receive execution feedback. An improvement to any individual component must therefore be evaluated by its effect on the full search process. AIDE$^2$ evolves an AIDE-based search driven by execution feedback; its reported design does not include ForeAgent's pre-execution predictive filter \citep[Sections~2.2 and~3.5]{srikanth2026aide2}. ForeAgent introduces this additional selection stage while retaining predefined comparison prompts and selection rules \citep{zheng2026predict,foreagentcode}. This makes ForeAgent a natural testbed for studying how experience-driven updates to the harness affect both the quality of search decisions and the resources required to make them.
 
-Let $I$ denote a task description, $D$ its dataset, and $C$ a candidate program implementing a machine learning workflow. Let $M(C;I,D)$ denote its task-specific evaluation metric after execution. Define an oriented utility $u(C)$ so that higher values are always better: $u(C)=M(C;I,D)$ for a maximized metric such as AUC, and $u(C)=-M(C;I,D)$ for a minimized metric such as log loss. The underlying engineering objective is to find
+This proposal therefore asks: \textbf{Can harness evolution make machine learning agents search more efficiently?} Using ForeAgent as the baseline, the following sections explain its predict-then-verify workflow and present a reproduction that includes candidate generation, experiment selection, and actual model training and validation. The end-to-end run provides the foundation for studying adaptations to individual components and their interactions. Planned evaluations will assess whether evolved harnesses find better solutions within a fixed total budget or reach comparable solution quality with fewer resources, with the cost of harness adaptation counted toward the total budget.
+
+\section{Baseline Explanation: ForeAgent}
+\label{sec:baseline}
+
+\subsection{Problem formulation}
+
+ForeAgent automates the development of a machine learning solution under a computational budget \citep{zheng2026predict}. Given a task description $I$ and dataset $D$, the agent generates programs that implement preprocessing, model training, validation, and prediction. Executing a program $C$ produces runtime observations and a validation score $M(C)$. Let $u(C)=M(C)$ for a maximized metric and $u(C)=-M(C)$ for a minimized metric. An agent policy $\pi$ determines which programs to generate and execute. Its budgeted objective can be expressed as
 \begin{equation}
-  C^* \in \operatorname*{arg\,max}_{C\in\mathcal{C}} u(C),
-  \label{eq:objective}
+ \max_{\pi}\;\mathbb{E}\!\left[\max_{C\in\mathcal{E}_{\pi}(B)}u(C)\right],
+ \label{eq:objective}
 \end{equation}
-where $\mathcal{C}$ is the space of possible programs. Because obtaining $u(C)$ requires execution, ForeAgent predicts relative quality before spending this cost. This notation describes the optimization objective; the true utility is unavailable to the predictor at decision time.
+where $\mathcal{E}_{\pi}(B)$ is the set of valid programs evaluated within budget $B$. This notation makes the search objective explicit: the quality of the best discovered solution depends on both the candidates proposed and the resources spent evaluating them. Validation feedback guides search; the private test set is reserved for final evaluation.
 
-For candidates $C_i$ and $C_j$, the comparison input consists of $I$, a data analysis report $D_{\mathrm{rep}}$, the two programs, and a prompt $P$. A pretrained LLM with fixed parameters $\theta$ returns
+\subsection{Search architecture and information flow}
+
+\paragraph{Search tree and history.}
+ForeAgent inherits AIDE's tree of candidate programs \citep{jiang2025aide,zheng2026predict}. Each node records code, its parent, execution status, runtime output, and any extracted validation metric. A journal maintains this history. The controller chooses among three operations: \emph{draft} creates a new solution, \emph{debug} repairs a failed program using its error feedback, and \emph{improve} modifies a valid solution. The released configuration starts with three drafts, prioritizes eligible debugging with probability 1.0 up to depth 20, and otherwise improves the best valid node \citep{foreagentcode}. Thus, execution feedback changes the next program and parent selected for development.
+
+\paragraph{Task and data grounding.}
+Candidate comparisons also receive a textual data analysis report. The paper's Profile--Verify--Verbalize procedure executes profiling code, checks the resulting observations, and converts them into a report of dataset properties \citep{zheng2026predict}. This supplies evidence about the data distribution and task requirements before candidate training. The reproduction uses the released report for its task.
+
+\paragraph{Candidate generation.}
+Drafting and debugging produce programs for direct execution. During improvement, ForeAgent expands one parent into $m=10$ candidates before deciding which to run. The generator receives the parent solution, task context, and a summary of previous attempts. Previously generated plans within the batch provide additional context for proposing alternatives. Each candidate contains an improvement plan and executable code. This separates inexpensive proposal generation from the more expensive acquisition of measured performance.
+
+\paragraph{Predictive comparison.}
+For candidates $C_i$ and $C_j$, a fixed pretrained LLM produces a relative preference and self-reported confidence:
 \begin{equation}
-  (z_{ij},\widehat{y}_{ij},c_{ij})
-  = f_{\theta}(I,D_{\mathrm{rep}},C_i,C_j;P),
-  \label{eq:predictor}
+ (z_{ij},\widehat y_{ij},c_{ij})
+ =f_{\theta}(I,D_{\mathrm{rep}},C_i,C_j;P),\qquad
+ a_{ij}=\mathbf{1}\{c_{ij}\geq\tau\}.
+ \label{eq:predictor}
 \end{equation}
-where $z_{ij}$ is the generated reasoning, $\widehat{y}_{ij}\in\{0,1\}$ identifies the preferred input position, and $c_{ij}\in[0,1]$ is the reported confidence. The evaluation label identifies which candidate achieved the better recorded score. The index is relative to the presented pair, so it must be mapped back to candidate identity when comparisons are reused. Crucially, $c_{ij}$ concerns this particular judgment; confidence values from unrelated pairs cannot be treated as a global ranking of candidates.
+Here $D_{\mathrm{rep}}$ is the data report, $P$ is the comparison prompt, $z_{ij}$ is the reasoning, $\widehat y_{ij}$ identifies the preferred candidate, and $c_{ij}$ is confidence in that comparison. The published threshold is $\tau=0.7$. The predictor estimates relative performance from task context and code before observing either candidate's new execution result. ForeAgent keeps model parameters fixed; its agent-level algorithm is specified by inference-time generation, selection, and execution rules.
 
-\subsection{System architecture: prediction followed by verification}
+\subsection{Confidence-gated ranking and execution}
 
-ForeAgent builds on AIDE's search over program nodes. Executed nodes provide code, runtime observations, and measured performance that can inform later drafting, debugging, or improvement. ForeAgent modifies the \emph{improvement} stage by inserting prediction-based filtering between generation and execution \citep[Section~6.2]{zheng2026predict}:
-\begin{center}
-\small
-Executed parent $\longrightarrow$ Candidate generation $\longrightarrow$ LLM comparisons\\[2pt]
-$\longrightarrow$ Confidence-gated selection $\longrightarrow$ Execution and feedback.
-\end{center}
-The published setup proposes $m=10$ improvements to a parent solution, applies a confidence threshold $\tau=0.7$, and selects the top rank group with $k=1$. The selected candidates are subject to the execution policy described below. Actual execution trains and evaluates a candidate program; it is distinct from calling the LLM to compare code. Successful verification returns measured feedback to the search process, so the full agent retains interaction with its computational environment.
+The released implementation aggregates pairwise judgments through a tournament \citep{foreagentcode}. Each round pairs adjacent active candidates, with a bye for an unpaired candidate. A confident winner advances and its opponent is eliminated. Inconclusive comparisons place candidates in a pending list. Pending candidates are then compared with randomly chosen advanced candidates; a pending winner or another inconclusive outcome allows the pending candidate to advance. An already-advanced opponent retains its place. If no candidate has advanced, a pending candidate is promoted directly. The process stops when one candidate remains or the round count exceeds $2m$.
 
-The predictor is grounded in task and dataset context rather than code alone. The paper constructs its data reports through a profiling, verification, and verbalization pipeline: generated analysis code is executed, the resulting logs are checked, and the observations are turned into a textual report \citep[Section~3.4]{zheng2026predict}. The report provides information with which the LLM can assess whether a pipeline suits the data. It is part of the prediction input, not the candidate's hidden evaluation score. For the offline baseline, the released reports are reused rather than regenerated.
-
-\subsection{Inference-time selection and execution rules}
-
-The core method uses pretrained LLM inference without fitting an additional reward model or updating model parameters. Accordingly, the relevant technical specification is its decision rule, not a new training loss. The confidence gate accepts a comparison when
+The resulting order prioritizes survivors, then the number of wins and later rounds. Candidates sharing the relevant win and round values can share a displayed rank. Let $r_i$ denote this zero-based rank. With $k=1$, the execution controller considers candidates satisfying $r_i<k$, independently samples an execution decision with probability $p_{\mathrm{exec}}=0.2$, and forces the first rank-0 candidate to execute if all sampled decisions are negative:
 \begin{equation}
-  a_{ij}=\mathbf{1}\{c_{ij}\geq\tau\},\qquad \tau=0.7.
-  \label{eq:gate}
+ E_0=\{i:r_i<k,\ b_i=1\},\quad b_i\sim\mathrm{Bernoulli}(0.2),\qquad
+ E=\begin{cases}E_0,&E_0\ne\varnothing,\\\{i_0\},&E_0=\varnothing,\end{cases}
+ \label{eq:execute}
 \end{equation}
-A high-confidence winner can advance; an inconclusive judgment does not immediately establish a loser. This is a gate on self-reported confidence, rather than a calibrated probability model fitted by this project.
+where $i_0$ is the first rank-0 candidate in sorted order. The fallback guarantees an execution for a completed improvement batch; tied ranks can lead to multiple executions.
 
-\paragraph{Tournament aggregation.}
-In the fixed released implementation, each round compares adjacent active candidates; an odd candidate receives a bye. Confident winners advance and losers are eliminated. Inconclusive pairs enter a pending list. Pending candidates are compared with randomly chosen advanced candidates; if none has advanced, one pending candidate advances directly. A pending winner advances without removing its already-advanced opponent; another inconclusive outcome also advances the pending candidate. The process stops at one survivor or after the round count exceeds $2m$. Final ordering prioritizes survivors, then wins and later rounds; equal consecutive $(\text{wins},\text{round})$ groups share a displayed rank \citep{foreagentcode}.
+Selected programs run in the execution environment. A feedback model parses their outputs into success or failure information and validation metrics. These observations update the journal and guide subsequent drafting, repair, or refinement. Skipped candidates retain a search record without a measured outcome. The agent finally returns the solution selected using its internal validation criterion.
 
-\paragraph{Selection and probabilistic execution.}
-Let $r_i$ be the zero-based displayed rank. The multi-candidate branch marks $r_i<k$ candidates eligible and independently applies an execution probability $p_{\mathrm{exec}}=0.2$ to each. If these tests produce an empty execution set, the original code forces execution of the first rank-0 candidate in sorted order \citep{foreagentcode}. Formally, let $B_i\sim\mathrm{Bernoulli}(p_{\mathrm{exec}})$ and let $i_0$ index that first rank-0 candidate. The preliminary and final execution indicators are
-\begin{equation}
-  q_i=\mathbf{1}\{r_i<k\}\,B_i,\qquad
-  e_i=q_i+\mathbf{1}\!\left\{\sum_jq_j=0\right\}\mathbf{1}\{i=i_0\}.
-  \label{eq:execute}
-\end{equation}
-Thus the original multi-candidate policy executes at least one candidate, while ties may permit several executions. The probability gate and mandatory fallback together specify the execution decision used in Section~\ref{sec:reproduction}.
+\subsection{Design implications for harness evolution}
 
-\subsection{Baseline evaluation and the scope of this project}
+ForeAgent already adapts candidate code to execution feedback and uses history to guide solution development. Its comparison prompt, confidence threshold, tournament rules, and execution policy remain predefined. This creates a concrete target for harness evolution: update the procedures that interpret experience and allocate future experiments. The challenge is that only selected candidates produce execution feedback. Generator updates change the candidate distribution, while selector updates change the evidence subsequently available to the agent. These interactions make end-to-end evaluation central to assessing an evolved harness.
 
-The paper evaluates two different capabilities. First, its \emph{Data-centric Solution Preference} task measures how well an LLM predicts pairwise winners. The Preference Corpus contains 895 curated solutions and 18,438 pairs from 26 tasks spanning computer vision, natural language processing, and data science. The principal metric is micro-averaged pairwise accuracy,
-\begin{equation}
-  \operatorname{Acc}_{\mathrm{pair}}
-  =\frac{1}{N}\sum_{\ell=1}^{N}
-    \mathbf{1}\{\widehat{y}_{\ell}=y_{\ell}\},
-  \label{eq:accuracy}
-\end{equation}
-where $N$ counts the evaluated pairs and $y_\ell$ is the recorded better-candidate label. The paper reports 61.5\% accuracy for DeepSeek-V3.2-Thinking, averaged over three full-corpus runs \citep[Table~2]{zheng2026predict}. This is a published reference result, not a result achieved by this project.
-
-Second, the full ForeAgent system is evaluated against AIDE on five MLE-bench tasks under a 12-hour limit, with three runs per task. That evaluation measures final task performance through Beat Ratio, the proportion of human leaderboard contestants outperformed, alongside execution-time and search-breadth analyses \citep[Sections~6.3--6.4]{zheng2026predict}. Pairwise accuracy does not establish these end-to-end outcomes: a predictor can make locally correct comparisons yet select poorly within a candidate pool, and a good offline selection does not establish actual training-time savings.
-
-This project treats the pairwise predictor and candidate-selection controller as related baseline components. Earlier exploratory prediction runs used a fixed sample of 246 pairs across 26 tasks. The reproduction reported next evaluates the original ranking and complete execution-control logic at three levels. Historical replay checks agreement with recorded decisions, conditional on archived responses and probability outcomes. Fixed-pool offline evaluation measures the quality of the selected candidates using their recorded scores. A 12-hour Stanford COVID Vaccine run tests the complete generation, selection, execution, and feedback loop. These experiments establish implementation consistency, offline selection quality, and single-run task performance, respectively.
+The original paper evaluates ForeAgent against AIDE on five MLE-bench tasks, with three runs per task and a 12-hour limit \citep{zheng2026predict,chan2024mle}. Its reported gains in search breadth and time to peak performance motivate the present baseline choice. The reproduction below focuses on the complete search loop for one task, providing an executable foundation for subsequent harness experiments.
 
 \input{baseline_reproduction}
 
-\begin{thebibliography}{9}
+\input{future_plan}
+
+\begin{thebibliography}{99}
 
 \bibitem[Jiang et~al.(2025)]{jiang2025aide}
 Zhengyao Jiang, Dominik Schmidt, Dhruv Srikanth, Dixing Xu, Ian Kaplan, Deniss Jacenko, and Yuxiang Wu.
@@ -128,9 +122,40 @@ ForeAgent authors.
 \newblock Hugging Face dataset, fixed revision \texttt{6b322cb}; subdirectory \texttt{agent\_runs/ForeAgent/}.
 \newblock \url{https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent}.
 
+\bibitem[Lee et~al.(2026)]{lee2026forecritic}
+Yuxiao Lee, Zherui Yang, Fan Liu, and Hao Liu.
+\newblock Predict the Reward, Not the World: World Reward Models for ML Agents.
+\newblock \emph{arXiv:2610.38439}, 2026.
+\newblock \url{https://arxiv.org/abs/2610.38439}.
+
+
+\bibitem[Ko et~al.(2026)]{ko2026mleworld}
+Brian Ko, Han Wang, Hejia Geng, Li Erran Li, and Sherry Yang.
+\newblock MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model.
+\newblock \emph{arXiv:2610.37175}, 2026.
+\newblock \url{https://arxiv.org/abs/2610.37175}.
+
+\bibitem[Ji and Ding(2026)]{ji2026rehearse}
+Jiazhen Ji and Shouhong Ding.
+\newblock Rehearse: Stepping Back from the Confidence Cliff in Self-Improving Autoresearch.
+\newblock \emph{arXiv:2607.27687}, 2026.
+\newblock \url{https://arxiv.org/abs/2607.27687}.
+
+\bibitem[Srikanth et~al.(2026)]{srikanth2026aide2}
+Dhruv Srikanth, Bingchen Zhao, Dixing Xu, Yuxiang Wu, and Zhengyao Jiang.
+\newblock Recursive self-improvement of AI research agents.
+\newblock \emph{arXiv:2609.26457}, 2026.
+\newblock \url{https://arxiv.org/abs/2609.26457}.
+
+\bibitem[Wei et~al.(2026)]{wei2026evoharness}
+Tianxin Wei et~al.
+\newblock Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents.
+\newblock \emph{arXiv:2608.15071}, 2026.
+\newblock \url{https://arxiv.org/abs/2608.15071}.
+
 \end{thebibliography}
 
 \paragraph{Generative AI use.}
-OpenAI Codex assisted with source and log inspection, Python replay and verification tooling, English drafting, and LaTeX typesetting. Requests included (translated from Chinese): ``Replay the original version using the authors' real candidate groups, order, and saved judgments, and check agreement'' and ``Freeze this part and add it to HW3's Baseline Reproduction using the previous NeurIPS template.'' A further request was to incorporate the \texttt{corpus26-v2} offline selection results and the new end-to-end run while retaining the 129-batch historical replay. Original prompts and affected components are recorded in the accompanying \texttt{AI\_USAGE.txt}.
+OpenAI Codex assisted with paper and source inspection, verification of archived execution records, English drafting, and LaTeX typesetting. The author specified the research question, experimental scope, and revisions. The current writing request was to replace the proposal sections, retain only the end-to-end baseline reproduction, and frame future work around harness evolution. Supporting usage records are retained in \texttt{AI\_USAGE.txt}.
 
 \end{document}
