@@ -20,3 +20,11 @@ The first-round confidence rate is an auditable subset, not the full new-call ra
 Breadth counts at 4.35/8.10/12 hours are 62/62/82 for the reproduction, versus 54/112/183, 52/95/142, and 69/118/141 for the authors. First-round fresh high-confidence rates: reproduction 1/35; authors 16/85, 15/60, 10/65. No logged eliminated candidate received rank zero. Final validation-selected node is a debug repair.
 
 The post-hoc best private error is 0.25669 at 2.69h; it does not replace the original validation-selected endpoint (0.26640). Best observed Beat Ratio reaches 100% at 0.44h; it uses 1,636 leaderboard scores and saturates for all subsequent valid programs. The plot is a test-oracle diagnostic of visited nodes, not a private-label-driven agent trajectory or an AIDE speedup estimate.
+
+## Revision v5 checks
+
+Run `python3 reports/hw3/analysis/audit_v5.py` to regenerate `figures/audit_v5.json` from the v4 online audit (requires SciPy). Rank-zero counts are [2,1,1,10,10,1,10], independently totaling 35; expected executions sum to 10.3621 versus 10 observed. Fisher's two-sided p=0.01375 is exploratory because calls are clustered within batches/runs. The observed final-selection gap is 0.00971156 MCRMSE; the test-best node reported validation 0.4638 versus the selected node's 0.4378, without establishing a causal decomposition.
+
+The pinned task `prepare.py` samples 240 SN_filter-positive sequences from original Kaggle training data, not the Kaggle test set behind the historical leaderboard. ForeAgent paper Table 13 reports same-task Beat Ratio 1.000 ± 0.000. Accordingly, v5 compares the saturated ForeAgent endpoint and explains the cross-split numerical threshold; it does not infer an exact author saturation time.
+
+Author run cbb2a0b0's log continues after its last journal-retained node (9.394h), ending with an execution launch around 10.336h. The journal plateau cannot establish a service interruption. No new candidate execution, training, or paid inference was run for this revision. Proposed shared metric/cache fixes and future experimental sizes are plans, not implemented results.

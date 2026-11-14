@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[preprint]{neurips_2025}
+\makeatletter\renewcommand{\@notice}{}\makeatother
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb}
@@ -24,9 +25,9 @@ LLM-based machine learning (ML) agents automate model development by searching o
 
 AIDE \citep{jiang2025aide} structures this search as a tree whose nodes contain candidate programs and their execution results. Drafting, debugging, and improvement operators expand the tree, while a search policy determines which node to develop next. Summaries of previous attempts provide context for subsequent code generation, allowing the agent to build on promising solutions and repair unsuccessful attempts. However, each new candidate must be executed before its measured performance can inform further search. Consequently, the cost of training and validation constrains how broadly the agent can explore.
 
-ForeAgent \citep{zheng2026predict} builds directly on AIDE's architecture and addresses this bottleneck by redesigning the improvement stage. It generates multiple candidate solutions and uses an LLM to compare their expected performance based on their code, the task description, and a verified data analysis report. Confidence-gated comparisons filter the candidates before selected solutions are executed. This \emph{predict-then-verify} workflow allows the agent to consider more alternatives without training every candidate, while retaining real execution feedback to verify progress. In the authors' evaluation on five MLE-bench tasks, ForeAgent explored more candidates and reached peak performance faster than AIDE. These results demonstrate the promise of predictive selection for improving search efficiency.
+ForeAgent \citep{zheng2026predict} builds directly on AIDE's architecture and addresses this bottleneck by redesigning the improvement stage. It generates multiple candidate solutions and uses an LLM to compare their expected performance based on their code, the task description, and a verified data analysis report. Confidence-gated comparisons filter the candidates before selected solutions are executed. This \emph{predict-then-verify} workflow allows the agent to consider more alternatives without training every candidate, while retaining real execution feedback to verify progress. In the authors' evaluation on five MLE-bench tasks \citep{chan2024mle}, ForeAgent explored more candidates and reached peak performance faster than AIDE. These results demonstrate the promise of predictive selection for improving search efficiency.
 
-Subsequent work seeks more informative and reliable evidence for predictive decisions. MLE-World \citep{ko2026mleworld} predicts execution outputs, including errors, training logs, and validation scores, and uses them to support both candidate selection and code revision. Its pairwise selection strategy extends ForeAgent by incorporating predicted terminal outputs into candidate comparisons. ForeCritic \citep{lee2026forecritic} takes a training-based approach, learning preferences from executed program pairs to directly predict which candidate will perform better. The authors evaluate this selector within AIDE, ML-Master, and ForeAgent. Rehearse \citep{ji2026rehearse} instead retrieves similar modifications and their observed outcomes from the current task to inform comparisons between new proposals, then adds subsequent execution results to its memory. These methods ground selection in predicted execution feedback, outcome-supervised preferences, or relevant historical evidence.
+Subsequent work seeks more informative and reliable evidence for predictive decisions. MLE-World \citep{ko2026mleworld} predicts execution outputs, including errors, training logs, and validation scores, and uses them to support both candidate selection and code revision. Its pairwise selection strategy extends ForeAgent by incorporating predicted terminal outputs into candidate comparisons. ForeCritic \citep{lee2026forecritic} takes a training-based approach, learning preferences from executed program pairs to directly predict which candidate will perform better. The authors evaluate this selector within AIDE, ML-Master, and ForeAgent. Rehearse \citep{ji2026rehearse} instead retrieves similar modifications and their observed outcomes from the current task to inform comparisons between new proposals, then adds subsequent execution results to its memory. These methods ground selection in predicted execution feedback, outcome-supervised preferences, or relevant historical evidence. Rehearse augments a prescribed comparison procedure with retrieved cases, while ForeCritic trains the selector. This proposal extends the focus to experience-driven revision of the surrounding generation, comparison, and resource-allocation procedures.
 
 A separate line of work makes the agent's own operating procedures a target for improvement. Inspired by recursive self-improvement (RSI), \emph{harness evolution} updates the prompts, reusable skills, memory mechanisms, and control logic surrounding an LLM. AIDE$^2$ \citep{srikanth2026aide2} implements an outer optimization loop that modifies a research agent's code, evaluates the resulting versions on a task suite, and retains changes that improve performance under fixed evaluation budgets. Its discovered modifications include search policies and context-management mechanisms. Evo-Harness \citep{wei2026evoharness} instead adapts through reusable guidance: it converts execution experience into skills and updates the external harness across tasks while keeping the underlying model frozen. These studies provide empirical support for improving agent behavior through changes to its harness.
 
@@ -63,7 +64,7 @@ Jun Shern Chan et~al.
 \newblock \url{https://arxiv.org/abs/2410.07095}.
 
 \bibitem[ForeAgent authors(2026a)]{foreagentcode}
-ForeAgent authors.
+ForeAgent authors. 2026a.
 \newblock Released implementation of Predict Before Execute.
 \newblock GitHub repository, fixed commit \texttt{c4d52cf} (full identifier in the URL below).
 \newblock Relevant files: \texttt{world\_model.py}, \texttt{agent.py}, and \texttt{config.yaml} under \texttt{mle-bench/agents/aide/}.
@@ -71,7 +72,7 @@ ForeAgent authors.
 
 
 \bibitem[ForeAgent authors(2026b)]{foreagentdata}
-ForeAgent authors.
+ForeAgent authors. 2026b.
 \newblock PredictBeforeExecute: released ForeAgent execution records.
 \newblock Hugging Face dataset, fixed revision \texttt{6b322cb}; subdirectory \texttt{agent\_runs/ForeAgent/}.
 \newblock \url{https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent}.
@@ -110,7 +111,7 @@ Tianxin Wei et~al.
 \end{thebibliography}
 
 \paragraph{Generative AI use.}
-OpenAI Codex assisted with paper and source inspection, verification of archived execution records, English drafting, and LaTeX typesetting. The author specified the research question, experimental scope, and revisions. The current writing request was to replace the proposal sections, retain only the end-to-end baseline reproduction, and frame future work around harness evolution. Supporting usage records are retained in \texttt{AI\_USAGE.txt}.
+OpenAI Codex assisted with paper and source inspection, verification of archived execution records, English drafting, and LaTeX typesetting. The author specified the research question, experimental scope, and revisions. The author is responsible for the analysis, interpretation, and final submitted content. Supporting usage records are retained in \texttt{AI\_USAGE.txt}.
 
 \endgroup
 \end{document}

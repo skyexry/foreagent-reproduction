@@ -1,3 +1,5 @@
+2026-11-15 Proposal v5: Codex revised the report against the v4 review, recomputed tie-group expectations and an exploratory Fisher test, checked the benchmark split, and linked the proposed experiments to observed bottlenecks. Only archived end-to-end evidence was analyzed; no new training or paid inference. The author retains responsibility for interpretation and submission.
+
 2026-11-15 Proposal v4: Codex corrected notation and diagrams, audited online logs and cache-free first rounds, and retrospectively scored 13 saved submissions with existing private answers and leaderboard data. No new training, candidate generation, or paid inference; original validation-selected submission remains unchanged.
 
 2026-11-15 Proposal v3: Codex checked paper/code distinctions, analyzed archived online logs, constructed architecture and trajectory figures, and revised Sections 2 and 3 against the rubric. No new candidate execution, paid model call, or GPU run.

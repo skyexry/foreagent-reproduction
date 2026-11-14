@@ -4,7 +4,7 @@
 \subsection{Problem formulation and notation}
 ForeAgent develops executable ML pipelines from a task description $I$, dataset $D$, evaluation metric, and budget $B$ \citep{zheng2026predict}. Candidate programs specify preprocessing, features, model architecture, training, validation, and prediction. ForeAgent combines LLM planning through improvement plans and tree search, memory through a journal and attempt summaries, and environment interaction through code execution and feedback.
 
-Let $M_{\mathrm{val}}(C)$ be the validation metric extracted from program $C$, and let $u_{\mathrm{val}}(C)$ orient that metric so larger is better. A program is eligible for selection when the released controller marks it non-buggy: no execution exception, a numeric parsed metric, and a submission file reported by the parser and present on disk. Final submission validity is checked separately by the benchmark. Let $\mathcal{E}_{\pi}(t)$ contain these executed, eligible programs under policy $\pi$ by time $t$. A budgeted search objective is
+Let $M_{\mathrm{val}}(C)$ be the validation metric extracted from program $C$, and let $u_{\mathrm{val}}(C)$ orient that metric so larger is better. This metric is program-defined, so cross-program comparisons depend on consistent validation implementations; Section~\ref{sec:validation-semantics} documents a mismatch. A program is eligible for selection when the released controller marks it non-buggy: no execution exception, a numeric parsed metric, and a submission file reported by the parser and present on disk. Final submission validity is checked separately by the benchmark. Let $\mathcal{E}_{\pi}(t)$ contain these executed, eligible programs under policy $\pi$ by time $t$. A budgeted search objective is
 \begin{equation}
  \max_{\pi}\mathbb{E}\!\left[\max_{C\in\mathcal{E}_{\pi}(B)}u_{\mathrm{val}}(C)\right],\qquad
  C^\star_\pi\in\arg\max_{C\in\mathcal{E}_{\pi}(B)}u_{\mathrm{val}}(C).
@@ -15,7 +15,7 @@ The expectation covers LLM sampling, stochastic controller decisions, and model 
  T_\pi(\delta)=\inf\{t:\max_{C\in\mathcal{E}_{\pi}(t)}u_{\mathrm{val}}(C)\geq\delta\},
  \label{eq:target}
 \end{equation}
-with $T_\pi(\delta)=\infty$ if the target is not reached. An efficiency objective is to maximize $\Pr[T_\pi(\delta)\leq B]$, the probability of reaching the target within budget. These equations formalize the proposal's quality and efficiency criteria. ForeAgent instantiates a hand-designed policy $\pi$; harness evolution searches over modifications to that policy. The extracted validation metric is program-defined, so cross-program comparisons depend on consistent validation implementations.
+with $T_\pi(\delta)=\infty$ if the target is not reached. An efficiency objective is to maximize $\Pr[T_\pi(\delta)\leq B]$, the probability of reaching the target within budget. These equations formalize the proposal's quality and efficiency criteria. ForeAgent instantiates a hand-designed policy $\pi$; harness evolution searches over modifications to that policy.
 
 \begin{table}[t]
 \centering\small
@@ -53,6 +53,7 @@ ForeAgent inherits AIDE's search tree, where nodes contain candidate programs an
 \node[inf,left=of exec] (parse) {Feedback parser\\errors and metric};
 \node[box,above=of parse] (journal) {Journal\\code, plans, outcomes};
 \draw[->] (controller)--(gen);
+\draw[->] (journal.east)--node[above,sloped,font=\scriptsize]{summary}(gen.south west);
 \draw[->] (gen)--node[above,yshift=5mm,font=\scriptsize]{improve: $m$ proposals}(compare);
 \draw[->] (compare)--(rank);\draw[->] (rank)--(gate);\draw[->] (gate)--(exec);\draw[->] (exec)--(parse);\draw[->] (parse)--(journal);\draw[->] (journal)--(controller);
 \draw[->] (gen)--node[right,font=\scriptsize]{draft/debug}(exec);
@@ -65,7 +66,7 @@ ForeAgent inherits AIDE's search tree, where nodes contain candidate programs an
 Drafting creates initial solutions; debugging repairs failed leaves using their errors; improvement develops a valid parent using its code, measured performance, and prior attempts. The released configuration requests three drafts, always chooses an eligible failed leaf for debugging when one exists below debug depth 20, and otherwise improves the best valid node \citep{foreagentcode}. Execution feedback therefore determines which node is expanded next and how. The journal preserves the search history; its generation summary includes successful executed nodes' plans, analyses, and metrics. Skipped nodes are stored but excluded from this summary.
 
 \paragraph{Generating and grounding alternatives.}
-The paper's main extension is an improvement batch of $m=10$ proposals followed by predictive selection \citep[Section~6.2]{zheng2026predict}. This expands the set considered before training resources are committed. Drafting and debugging retain direct execution. The comparison model receives the task description, a verified data report, and the two candidate programs. The report's Profile--Verify--Verbalize pipeline runs profiling code, checks the observations, and summarizes dataset properties, grounding judgments in the interaction between data and modeling choices. Pairwise preference directly answers the selection question without requiring an absolute score estimate on each task's metric scale. This is the functional rationale for the design; an advantage over absolute scoring is not separately tested here.
+The paper's main extension is an improvement batch of $m=10$ proposals followed by predictive selection \citep[Section~6.2]{zheng2026predict}. This expands the set considered before training resources are committed. Drafting and debugging retain direct execution. The comparison model receives the task description, a verified data report, and the two candidate programs. The report's Profile--Verify--Verbalize pipeline runs profiling code, checks the observations, and summarizes dataset properties, grounding judgments in the interaction between data and modeling choices. Pairwise preference directly answers the selection question without requiring an absolute score estimate on each task's metric scale.
 
 \paragraph{Paper specification and implementation.}
 The paper specifies $m=10$, $\tau=0.7$, and $k=1$; its Top-$k$ ablation supports $k=1$ within the tested settings \citep[Appendix~C.6]{zheng2026predict}. Debug depth, pending-candidate rematches, caching, and the probabilistic execution fallback below come from the released code \citep{foreagentcode}. The paper describes parallel candidate proposal, while the released improvement loop generates candidates sequentially and includes earlier plans as context. Comparisons within each tournament round are parallelized. The comparator prompt has no explicit parent-outcome or journal input, and the implementation performs no systematic order-swapped second judgment.
@@ -129,7 +130,7 @@ Sample $b_i\sim\mathrm{Bernoulli}(p_{\mathrm{exec}})$ independently for eligible
  \mathcal{X}=\begin{cases}\mathcal{X}_0,&\mathcal{X}_0\ne\varnothing,\\\{i_1\},&\mathcal{X}_0=\varnothing.\end{cases}
  \label{eq:execute}
 \end{equation}
-For $k=1$ and $n_0$ tied rank-0 candidates, $\mathbb{E}[|\mathcal{X}|]=0.2n_0+0.8^{n_0}$: sampled executions contribute $0.2n_0$, and an all-negative draw triggers one fallback. A unique winner is therefore always executed. Execution produces logs and a validation metric; the parser updates the journal, and the next iteration repairs or expands a node. At termination, Eq.~\ref{eq:objective} selects the final program by validation utility.
+For $k=1$ and $n_0$ tied rank-0 candidates, $\mathbb{E}[|\mathcal{X}|]=0.2n_0+0.8^{n_0}$: sampled executions contribute $0.2n_0$, and an all-negative draw triggers one fallback. A unique winner is therefore always executed. When the complete sorting keys tie, stable ordering preserves generation order, so the fallback favors the earliest-generated candidate in that group. Execution produces logs and a validation metric; the parser updates the journal, and the next iteration repairs or expands a node. At termination, Eq.~\ref{eq:objective} selects the final program by validation utility.
 
 \subsection{Connection to harness evolution}
 As discussed in Section~1, candidate programs and historical context adapt during search, while comparison prompts and selection rules remain fixed. These rules, and the way generation uses execution experience, provide concrete targets for harness evolution. The next section examines the full baseline loop through its observed search trajectory and final task performance.

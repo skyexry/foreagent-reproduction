@@ -2,7 +2,7 @@
 \label{sec:reproduction}
 
 \subsection{Experimental setup and alignment}
-The original evaluation compares ForeAgent and AIDE on five MLE-bench tasks with three runs per task and a 12-hour budget \citep{zheng2026predict}. This reproduction executed the full ForeAgent loop once on Stanford COVID Vaccine. The task belongs to the paper's five-task suite, and its released submissions and journals provide direct references for both final performance and search behavior. The original implementation, comparison cache, and execution rules are retained.
+The original evaluation compares ForeAgent and AIDE on five MLE-bench tasks with three runs per task and a 12-hour budget \citep{zheng2026predict,chan2024mle}. This reproduction executed the full ForeAgent loop once on Stanford COVID Vaccine. The task belongs to the paper's five-task suite, and its released submissions and journals provide direct references for both final performance and search behavior. The original implementation, comparison cache, and execution rules are retained.
 
 The prepared data contain 2,160 training sequences and 240 private test sequences. Each test sequence has 107 positions, giving $240\times107=25{,}680$ prediction rows; the first 68 positions are scored, giving $n=240\times68=16{,}320$. The three evaluated targets are reactivity, degradation at pH 10 with magnesium, and degradation at $50^\circ$C with magnesium. The benchmark uses mean columnwise root mean squared error:
 \begin{equation}
@@ -34,9 +34,10 @@ Wall-clock limit & 12 hours & 12 hours, including a 3.75-hour feedback request \
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:setup} separates preserved algorithmic settings from deployment differences. Reusing the released data report fixes the comparator's dataset context; report construction is not rerun. The comparator backend passed temperature 1.0 through the gateway with thinking enabled; this is the requested setting, rather than an independent measurement of provider-side sampling. The budget included generation, selection, execution, feedback, and API waits. One feedback request with retries occupies 13,491.88 seconds (31.2\% of the budget). The remaining 8.25 hours include other API waits and control overhead, so they are not a measurement of productive compute time.
+Table~\ref{tab:setup} separates preserved algorithmic settings from deployment differences. Reusing the released data report fixes the comparator's dataset context; report construction is not rerun. The comparator requested temperature 1.0 through the gateway with thinking enabled; provider-side sampling could not be verified. The budget included generation, selection, execution, feedback, and API waits. One feedback request with retries occupies 13,491.88 seconds (31.2\% of the budget). Figure~\ref{fig:time} breaks down the remaining 8.25 hours into generation, comparison, execution, feedback, and overhead.
 
 \subsection{Final performance and validation semantics}
+\label{sec:validation-semantics}
 The final submission achieved an official private-set MCRMSE of \textbf{0.26640}. The official scorer and an independent ID-aligned implementation agree to five decimal places. Table~\ref{tab:online-score} compares the authors' released final submissions under the same private scoring procedure \citep{foreagentdata}. Their mean and sample standard deviation are $0.25862\pm0.01591$. The reproduced error was 0.00778 higher: a relative difference of 3.0\%, or approximately 0.49 author-run standard deviations. It lies inside the observed range of 0.24320--0.27497 and meets MLE-bench's gold threshold of 0.34728 for this prepared task. All four final submissions cleared that threshold by a wide margin, so the medal criterion does not distinguish them.
 
 \begin{table}[htbp]
@@ -62,7 +63,7 @@ This reproduction & \textbf{0.26640} & 82 & 22 \\
 The selected program reports an internal validation error of 0.4378. Inspecting its code identifies concrete metric differences: it pads the 68 observed labels to 107 positions with zeros and computes its loss across all 107 positions. It uses the same three target columns as the benchmark, but averages batch-level RMSE values on an internal 80/20 split. Official grading aggregates errors over the private set's first 68 positions; submitted predictions are also clipped to $[-2,2]$. Thus the two numbers evaluate different data and calculations. These implementation details establish a mismatch in the agent-generated validation procedure; the individual contributions to the numerical gap are not separately measured.
 
 \subsection{Search trajectory and predictive-selection behavior}
-The run completed 19 outer iterations: three drafts, nine debugging steps, and seven improvement batches. Table~\ref{tab:nodes} separates proposals, executions, and outcomes. Each complete improvement batch contains ten candidates. Across those batches, ten candidates executed and 60 were skipped. Four batches had tied rank-0 groups; two executed more than one candidate, with execution counts of two and three. This accounts for the three executions beyond one per batch and matches the tie-sensitive rule in Eq.~\ref{eq:execute}. A final unfinished batch generated another ten candidates before the cutoff, bringing logged proposals to 92, while the final journal retained 82 nodes. All three drafts failed; valid outcomes came from debugging (5/9 executions) and selected improvements (8/10). These descriptive rates reflect different candidate stages and selection histories.
+The run completed 19 outer iterations: three drafts, nine debugging steps, and seven improvement batches. Table~\ref{tab:nodes} separates proposals, executions, and outcomes. Each complete improvement batch contains ten candidates. Across those batches, ten candidates executed and 60 were skipped. Four batches had tied rank-0 groups; two executed more than one candidate, with execution counts of two and three. This accounts for the three executions beyond one per batch and matches the tie-sensitive rule in Eq.~\ref{eq:execute}. A final unfinished batch generated another ten candidates before the cutoff, bringing logged proposals to 92, while the final journal retained 82 nodes. All three drafts failed; valid outcomes came from debugging (5/9 executions) and selected improvements (8/10).
 
 \begin{table}[htbp]
 \centering\small
@@ -83,7 +84,7 @@ Total & 82 & 22 & 13 & 9 & 60 \\
 
 \begin{figure}[htbp]
 \centering\includegraphics[width=\linewidth]{figures/search_trajectory.pdf}
-\caption{Search dynamics from archived execution logs. (a) Successful debug executions (circles), selected improvements (triangles), and the running best parsed validation error; red crosses along the bottom mark failed executions. A score becomes available when feedback parsing finishes. (b) Cumulative creation times of nodes retained in final journals, using the same definition for all runs. Shading marks only the reproduction's long feedback-request interval, including retries, from 4.35 to 8.10 hours; it denotes no interruption in the author runs.}
+\caption{Search dynamics from archived execution logs. (a) Successful debug executions (circles), selected improvements (triangles), and the running best parsed validation error; red crosses along the bottom mark failed executions. A score becomes available when feedback parsing finishes. (b) Cumulative creation times of nodes retained in final journals, using the same definition for all runs. Shading marks the long feedback-request interval, including retries, from 4.35 to 8.10 hours and applies to the reproduction only.}
 \label{fig:trajectory}
 \end{figure}
 
@@ -97,12 +98,14 @@ The best reported validation score became available at \textbf{3.46 hours}, afte
 \toprule
 Quantity & Observed value \\
 \midrule
+\multicolumn{2}{l}{\emph{Control flow}} \\
 Comparison records in seven complete batches & 1,841 \\
 Records with $\kappa\geq0.7$ & 51 (2.77\%) \\
 Cache-hit events within complete batches & 1,720 \\
-Pending-list entries across rounds (repeated candidates) & 1,308 \\
 Batches reaching the round cap & 7 / 7 \\
 Batches with multiple rank-0 candidates & 4 / 7 \\
+\midrule
+\multicolumn{2}{l}{\emph{Fresh predictions}} \\
 Completed comparator API calls, full run & 134 \\
 Fresh first-round calls with $\kappa\geq0.7$, reproduction & 1/35 (2.86\%) \\
 Fresh first-round calls with $\kappa\geq0.7$, authors pooled & 41/210 (19.52\%) \\
@@ -110,9 +113,9 @@ Fresh first-round calls with $\kappa\geq0.7$, authors pooled & 41/210 (19.52\%) 
 \end{tabular}
 \end{table}
 
-Most recorded comparisons were inconclusive, and all seven completed tournaments reached the round cap (Table~\ref{tab:comparator}). To examine fresh predictions, the first five comparisons from each complete batch were matched to logs confirming five new requests and zero cache hits. This subset yielded one high-confidence response in 35 calls (2.86\%), compared with 16/85, 15/60, and 10/65 in the three author runs, or 41/210 pooled (19.52\%). Confidence was substantially lower in this directly auditable subset. Different candidate trajectories and service conditions both remain possible contributors; the comparison does not isolate an API-provider effect. The full-call confidence rate cannot be reconstructed reliably because response bodies and per-record request identifiers were not retained.
+Most recorded comparisons were inconclusive, and all seven completed tournaments reached the round cap (Table~\ref{tab:comparator}). To examine fresh predictions, the first five comparisons from each complete batch were matched to logs confirming five new requests and zero cache hits. This subset yielded one high-confidence response in 35 calls (2.86\%), compared with 16/85, 15/60, and 10/65 in the three author runs, or 41/210 pooled (19.52\%). Confidence was substantially lower in this directly auditable subset. An exploratory two-sided Fisher exact test gives $p=0.0137$ (odds ratio 0.121); calls are clustered within batches and runs, so this call-level test is descriptive evidence rather than a run-level replication test. Different candidate trajectories and service conditions both remain possible contributors; the comparison does not isolate an API-provider effect. The full-call confidence rate cannot be reconstructed reliably because response bodies and per-record request identifiers were not retained.
 
-The rank-boundary audit found zero eliminated candidates among the 35 rank-0 candidates in the seven batches, including the four tied batches. Cache-hit logs expose unordered code hashes but omit ordered candidate identities, while rematch logs omit opponent identities. Consequently, the number of reversed-order cache hits, and their high-confidence subset, cannot be recovered exactly from this archive.
+The rank-boundary audit independently confirmed 35 rank-0 candidates, with group sizes $(2,1,1,10,10,1,10)$ across the seven batches; none had been eliminated. Thus three batches left all ten candidates tied at the top. Summing Eq.~\ref{eq:execute} over these groups gives 10.36 expected executions, close to the ten observed (per-batch counts: $1,1,1,2,3,1,1$). With few confident judgments, ranking offered little discrimination in these batches: the stochastic gate determined which tied candidates executed, with generation order relevant when fallback was triggered. Cache-hit logs expose unordered code hashes but omit ordered candidate identities, while rematch logs omit opponent identities. Consequently, the number of reversed-order cache hits, and their high-confidence subset, cannot be recovered exactly from this archive.
 
 \subsection{Retrospective private-test trajectory}
 All 13 valid executions had saved submission files that could be matched to their execution records. They were scored against the prepared private answers after the run, without new training or any change to the validation-selected final solution. Beat Ratio was computed as the proportion of 1,636 leaderboard teams with strictly worse scores, following the authors' implementation. Figure~\ref{fig:private} presents both the private errors and their leaderboard-relative trajectory.
@@ -123,7 +126,11 @@ All 13 valid executions had saved submission files that could be matched to thei
 \label{fig:private}
 \end{figure}
 
-Beat Ratio reached 100\% at 0.44 hours, with the second valid debug solution, and stayed at that level for every subsequent valid program. The best private MCRMSE was 0.25669 at 2.69 hours, also from debugging; the actual validation-selected final submission scored 0.26640. Thus the leaderboard-relative curve saturates early on this prepared task, while raw test error continues to distinguish solutions. The retrospective curve supplies the paper's evaluation metric for this run, but does not constitute a matched speedup comparison with AIDE.
+Beat Ratio reached 100\% at 0.44 hours, with the second valid debug solution, and stayed at that level for every subsequent valid program. The paper likewise reports a same-task ForeAgent endpoint of $1.000\pm0.000$ across three runs \citep[Table~13]{zheng2026predict}. The reproduction matches this saturated endpoint; the published endpoint alone does not identify an exact author time to saturation.
+
+The ceiling reflects the scoring reference. MLE-bench constructs this task's 240-sequence private set by sampling high-quality sequences from the original Kaggle training data, whereas the historical leaderboard was scored on Kaggle's original test set \citep{chan2024mle,foreagentcode}. Beat Ratio compares errors on the prepared split with those historical numerical thresholds. Consequently, 100\% indicates crossing all leaderboard score thresholds across different test sets. Raw MCRMSE remains informative after this threshold-based measure saturates.
+
+The best private MCRMSE was 0.25669 at 2.69 hours, from debug node \texttt{e36668b9}, whose reported validation error was 0.4638. The controller preferred the final program's lower reported validation error of 0.4378; its private error was 0.26640. The observed selection gap is therefore 0.00971 MCRMSE. Together with the metric mismatch in Section~\ref{sec:validation-semantics}, this discrepancy motivates a common validation procedure. The archive identifies the ranking reversal but does not isolate how much of the gap the metric mismatch caused.
 
 \subsection{Time allocation and comparison with the original findings}
 \begin{figure}[htbp]
@@ -133,21 +140,21 @@ Beat Ratio reached 100\% at 0.44 hours, with the second valid debug solution, an
 \end{figure}
 
 \paragraph{Where the budget went.}
-Generation requests occupied 6.11 hours (50.9\%), tournament stages 1.06 hours, and candidate execution 0.90 hours (7.5\%; Figure~\ref{fig:time}). Aggregate generation time was 6.8 times executed-program time. This deployment was therefore dominated by proposal and API costs rather than training. The totals cover 92 proposals and 22 executions; the runtime of skipped candidates is unknown, so they do not establish the cost of executing every proposal. For harness evolution, the observed cost profile motivates adapting batch size, proposal complexity, and generation frequency alongside predictive selection.
+Generation requests occupied 6.11 hours (50.9\%), tournament stages 1.06 hours, and candidate execution 0.90 hours (7.5\%; Figure~\ref{fig:time}). Aggregate generation time was 6.8 times executed-program time. This deployment was therefore dominated by proposal and API costs rather than training. Across 92 proposals and 22 executions, mean logged generation cost was 4.0 minutes per proposal and execution cost was 2.5 minutes per executed program; skipped candidates have unknown runtimes, so this unit-cost comparison describes the observed workload. For harness evolution, the observed cost profile motivates adapting batch size, proposal complexity, and generation frequency alongside predictive selection.
 
 The long feedback request occupied 3.75 hours; other feedback requests used approximately 55 seconds. When it started, the program had finished execution and the controller was awaiting its parsed result. The sequential loop began no further execution during that interval. Host sleep and VPN disconnection were reported after the run; the logged interval includes service processing and retries. Future runs will place the controller alongside the GPU worker, with an uninterrupted repeat planned if resources permit.
 
 \paragraph{When the breadth gap emerged.}
 At 4.35 hours, immediately before the long request, the reproduction had 62 retained nodes, compared with 54, 52, and 69 for the author runs at the same elapsed time. At 8.10 hours, these counts were 62 versus 112, 95, and 118. The search breadth was initially within the authors' range, and the long wait accounted for a flat interval during which their runs continued expanding. From 8.10 to 12 hours, the reproduction added 20 retained nodes, versus 71, 47, and 23 in the author runs.
 
-Recovery did not restore the earlier proposal rate. Mean completed generation-request duration increased from 195 seconds before the wait to 330 seconds afterward; mean output length increased from 4,591 to 5,506 tokens. The authors' requests after the same elapsed time averaged 142, 203, and 154 seconds, with 5,426, 7,955, and 5,546 output tokens. Thus slower post-wait generation is directly observed, and output length alone does not explain it. Request durations combine service processing and retries, so their individual contributions remain unseparated. Both the stalled interval and subsequent request latency contributed to the lower observed breadth.
+Within the reproduction, completed generation requests were slower after the wait. Mean completed generation-request duration increased from 195 seconds before the wait to 330 seconds afterward; mean output length increased from 4,591 to 5,506 tokens. The authors' requests after the same elapsed time averaged 142, 203, and 154 seconds, with 5,426, 7,955, and 5,546 output tokens. Post-wait request latency increased beyond the change in output length, while service processing and retries remain combined in the recorded durations. The authors' third run also added only 23 retained nodes in the final interval, compared with 20 in the reproduction and 47--71 in the other author runs. Its public log continues beyond its last retained journal node, so the journal plateau alone does not identify an interruption. The long wait and later request durations explain identifiable parts of the reproduction's breadth trajectory.
 
 \paragraph{Match to the original findings.}
-Table~\ref{tab:match} summarizes the evidence against the original study's endpoint, exploration, and convergence results \citep{zheng2026predict}. The reproduced system matched the authors' observed same-task performance range and showed comparable breadth before the long wait. Its final breadth was lower. The saved predictions support a test-based trajectory, whose early Beat Ratio saturation limits discrimination on this task. The original end-to-end logs and baseline package are available in the project's \href{https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1}{\texttt{hw3-phase1-v1} release}.
+Table~\ref{tab:match} summarizes the evidence against the original study's endpoint, exploration, and convergence results \citep{zheng2026predict}. The reproduced system matched the authors' observed same-task performance range and showed comparable breadth before the long wait. Its final breadth was lower. The saved predictions support a test-based trajectory, whose early Beat Ratio saturation limits discrimination on this task. The reproduction's logs and baseline package are available in the project's \href{https://github.com/skyexry/foreagent-reproduction/releases/tag/hw3-phase1-v1}{\texttt{hw3-phase1-v1} release}.
 
 \begin{table}[htbp]
 \centering\small
-\caption{Summary of reproduction agreement. Author endpoint statistics and retained node counts are computed from public same-task records; the relative speedup claim is from the paper's AIDE comparison.}
+\caption{Summary of reproduction agreement. Author endpoint statistics and retained node counts use public same-task records. The paper's AIDE-relative speedup is a comparative claim outside the scope of this single-method reproduction.}
 \label{tab:match}
 \begin{tabular}{>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{2.2cm}}
 \toprule
@@ -155,8 +162,12 @@ Aspect & Original evidence & Reproduction evidence & Assessment \\
 \midrule
 Final performance & MCRMSE $0.25862\pm0.01591$ & 0.26640; $+0.49$ author-run SD & Within observed range \\
 Search breadth & 141--183 retained nodes & 62 vs.\ 52--69 before wait; 82 at cutoff & Early agreement; lower endpoint \\
-Convergence over AIDE & Relative test Beat Ratio curves & Test curve recovered; 100\% at 0.44 h; no matched AIDE run & Relative speedup untested \\
-Control mechanism & Confidence ranking and execution fallback & Seven batches; tied ranks yielded 1--3 executions; no eliminated rank-0 nodes & Observed rules confirmed \\
+Beat Ratio trajectory & ForeAgent endpoint $1.000\pm0.000$ (Table 13) & 100\% at 0.44 h; early ceiling & Endpoint matched; limited resolution \\
+Rule fidelity & Ranking and execution fallback & 10 executions vs.\ 10.36 expected; no eliminated rank-0 nodes & Audited rules confirmed \\
+Comparator confidence & Fresh subset: 41/210 (19.52\%) & Fresh subset: 1/35 (2.86\%); three fully tied batches & Substantially lower; cause not isolated \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+
+The reproduction places final performance within the authors' observed range, matches their early search breadth, and confirms the audited control rules. It also exposes three practical bottlenecks: low comparator confidence with weak rank discrimination, generation-dominated elapsed cost, and inconsistent validation signals associated with a measurable selection gap. The cache-order bug adds a shared implementation issue. These findings define the priorities for the harness-evolution study below.

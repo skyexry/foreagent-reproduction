@@ -1,0 +1,51 @@
+{
+  "rank_zero_counts": [
+    2,
+    1,
+    1,
+    10,
+    10,
+    1,
+    10
+  ],
+  "rank_zero_total": 35,
+  "expected_executions_by_batch": [
+    1.04,
+    1.0,
+    1.0,
+    2.1073741824,
+    2.1073741824,
+    1.0,
+    2.1073741824
+  ],
+  "expected_executions_total": 10.3621225472,
+  "actual_executions_by_batch": [
+    1,
+    1,
+    1,
+    2,
+    3,
+    1,
+    1
+  ],
+  "fresh_confidence_contingency": [
+    [
+      1,
+      34
+    ],
+    [
+      41,
+      169
+    ]
+  ],
+  "fisher_two_sided": {
+    "odds_ratio": 0.1212338593974175,
+    "p_value": 0.01374854025954747
+  },
+  "fisher_one_sided_less": {
+    "odds_ratio": 0.1212338593974175,
+    "p_value": 0.007662973106259676
+  },
+  "test_selection_gap": 0.009711563730000039,
+  "caveat": "Fisher is exploratory at call level; calls are clustered by batch/run. The selection gap is descriptive, not a causal metric-mismatch effect."
+}
