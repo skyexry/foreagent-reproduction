@@ -1,6 +1,6 @@
 # ML Agent 项目交接：ForeAgent / ForeCritic
 
-**2026-11-14 · Proposal 前两节英文稿待审阅。** 按用户确定的主问题——提高候选代码实际表现的预测与判断能力，在同样 GPU／墙钟预算下分配执行机会并争取更好的最终方案——完成[Introduction 与 Baseline Explanation](../reports/Proposal_Introduction_Baseline_20261114.md)。基线部分同时交代论文方法和作者发布代码中的淘汰赛、低置信度复赛、并列及执行回退。已核对章节要求、关键数字和本地证据链接；本轮写作下一步为用户审阅并据反馈定稿。
+**2026-11-14 · Proposal 前两节英文稿待审阅。** 按用户确定的主问题——提高候选代码实际表现的预测与判断能力，在同样 GPU／墙钟预算下分配执行机会并争取更好的最终方案——完成[Introduction 与 Baseline Explanation](../reports/Proposal_Introduction_Baseline_20261114.md)及[可编辑 Word 版](../reports/Proposal_Introduction_Baseline_20261114.docx)。基线部分同时交代论文方法和作者发布代码中的淘汰赛、低置信度复赛、并列及执行回退；Word 版插入论文 Figure 2(e) 并逐页检查。本轮写作下一步为用户审阅并据反馈定稿。
 
 **2026-11-14 · ForeAgent baseline 论文精读待审阅。** 已按 `paper-analyze` 结构核对 ACL 论文正文、附录、Table 13–15 与作者版筛选代码，形成[精读笔记](../reports/ForeAgent_论文精读_20261114.md)。本轮写作衔接为：用户审阅精读后，再写 proposal 的 Introduction 和 Baseline Explanation；研究实验的状态与下一步沿用下文当前记录。
 
