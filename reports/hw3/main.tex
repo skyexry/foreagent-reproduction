@@ -4,7 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb}
 \usepackage{microtype}
-\usepackage{booktabs}
+\usepackage{booktabs,array}
 \usepackage{graphicx,tikz,algorithm,algpseudocode,placeins}
 \usetikzlibrary{positioning,arrows.meta}
 \usepackage{xurl}
@@ -16,10 +16,11 @@
 
 \begin{document}
 \maketitle
+\raggedbottom
 
 \section{Introduction}
 
-LLM-based machine learning (ML) agents automate model development by searching over candidate solutions through iterative cycles of code generation, execution, and refinement. Although agents can propose candidates quickly and cheaply, evaluating each one requires computationally expensive training and validation \citep{jiang2025aide,zheng2026predict}. This asymmetry limits how many experiments an agent can run within a fixed budget, so the quality of its search decisions matters for both resource efficiency and final performance. Poor decisions are costly in two ways. In terms of efficiency, repeated failures and revisions that bring only marginal gains consume time and compute, delaying progress toward a target level of performance. In terms of solution quality, fixating on a narrow family of approaches or continuing to refine a stalled solution can keep the agent from finding stronger alternatives before its budget runs out. These challenges raise a broader question: how can ML agents learn from past experiments to improve how they generate candidates, assess alternatives, and choose subsequent search directions?
+LLM-based machine learning (ML) agents automate model development by searching over candidate solutions through iterative cycles of code generation, execution, and refinement. Candidate evaluation requires training and validation, which can make broad exploration computationally expensive \citep{jiang2025aide,zheng2026predict}. Generation and predictive comparison also consume resources, and their cost relative to execution depends on the task and deployment. Together, these costs limit how many experiments an agent can run within a fixed budget, making search decisions consequential for both resource efficiency and final performance. Poor decisions are costly in two ways. In terms of efficiency, repeated failures and revisions that bring only marginal gains consume time and compute, delaying progress toward a target level of performance. In terms of solution quality, fixating on a narrow family of approaches or continuing to refine a stalled solution can keep the agent from finding stronger alternatives before its budget runs out. These challenges raise a broader question: how can ML agents learn from past experiments to improve how they generate candidates, assess alternatives, and choose subsequent search directions?
 
 AIDE \citep{jiang2025aide} structures this search as a tree whose nodes contain candidate programs and their execution results. Drafting, debugging, and improvement operators expand the tree, while a search policy determines which node to develop next. Summaries of previous attempts provide context for subsequent code generation, allowing the agent to build on promising solutions and repair unsuccessful attempts. However, each new candidate must be executed before its measured performance can inform further search. Consequently, the cost of training and validation constrains how broadly the agent can explore.
 

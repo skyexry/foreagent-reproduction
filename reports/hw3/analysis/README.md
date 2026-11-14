@@ -10,3 +10,13 @@
 - Author endpoint means and sample standard deviations use the three released final-submission scores. No AIDE run was executed for this revision.
 
 The final program's loss pads labels from 68 to 107 positions, averages batch losses on an internal split, and uses the same three scored columns. Official grading uses the first 68 positions on private data. This code-level mismatch is documented without attributing the entire observed gap to one cause.
+
+## Revision v4 checks
+
+Run `audit_v4.py --answers PATH_TO_PREPARED_PRIVATE_TEST_CSV --leaderboard PATH_TO_MATERIALIZED_LEADERBOARD_CSV` after `build_figures.py`. It requires local benchmark data; a Git LFS pointer is not the materialized leaderboard. No private labels are included in this package. The program validates the 13 saved submissions against task-level submission digests and scores them retrospectively with ID alignment. It also checks first-round comparator calls for zero cache hits and exactly five new requests per completed batch, and checks logged eliminations against rank-zero candidates.
+
+The first-round confidence rate is an auditable subset, not the full new-call rate. API receipts retain usage rather than response bodies. Cache-hit events omit ordered candidate identities; rematch results omit opponent identity. Exact reversed-cache counts and their high-confidence subset are therefore not identified.
+
+Breadth counts at 4.35/8.10/12 hours are 62/62/82 for the reproduction, versus 54/112/183, 52/95/142, and 69/118/141 for the authors. First-round fresh high-confidence rates: reproduction 1/35; authors 16/85, 15/60, 10/65. No logged eliminated candidate received rank zero. Final validation-selected node is a debug repair.
+
+The post-hoc best private error is 0.25669 at 2.69h; it does not replace the original validation-selected endpoint (0.26640). Best observed Beat Ratio reaches 100% at 0.44h; it uses 1,636 leaderboard scores and saturates for all subsequent valid programs. The plot is a test-oracle diagnostic of visited nodes, not a private-label-driven agent trajectory or an AIDE speedup estimate.

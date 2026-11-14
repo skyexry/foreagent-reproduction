@@ -52,7 +52,11 @@ plt.rcParams.update({'font.size':9,'axes.spines.top':False,'axes.spines.right':F
 fig,axs=plt.subplots(1,2,figsize=(7,2.55),layout='constrained')
 a=axs[0];ts=[t/3600 for t,_,_ in traj];vals=[v for _,v,_ in traj];bv=[];cur=float('inf')
 for v in vals:cur=min(cur,v);bv.append(cur)
-a.scatter(ts,vals,s=16,color='#8a9caf',label='Successful execution');a.step(ts+[12],bv+[bv[-1]],where='post',color='#126782',label='Best reported validation');a.axvspan(long['start']/3600,long['end']/3600,color='#e8b45a',alpha=.3);a.axvline(peak/3600,color='#126782',ls=':',lw=1);a.set(xlabel='Wall-clock time (hours)',ylabel='Reported validation error',xlim=(0,12),title='(a) Reproduction search trajectory');a.legend(fontsize=7,loc='upper right')
+
+for stage,marker,color in [('debug','o','#317e96'),('improve','^','#b67f31')]:
+ selected=[(t,v) for t,v,nid in traj if ('improve' if next(n for n in ns if n['id']==nid).get('wm_comparison_results') else 'debug')==stage]
+ a.scatter([t/3600 for t,v in selected],[v for t,v in selected],s=19,marker=marker,color=color,label=stage.capitalize())
+a.step(ts+[12],bv+[bv[-1]],where='post',color='#126782',label='Best validation');a.axvspan(long['start']/3600,long['end']/3600,color='#e8b45a',alpha=.3);a.axvline(peak/3600,color='#126782',ls=':',lw=1);a.set(xlabel='Wall-clock time (hours)',ylabel='Reported validation error',xlim=(0,12),title='(a) Reproduction search trajectory');a.legend(fontsize=7,loc='upper right')
 for n in executed:
  if n['is_buggy']:a.plot(parsed[n['id']]/3600,.02,'x',transform=a.get_xaxis_transform(),color='#a24747',markersize=3)
 a.annotate(f'Best at {peak/3600:.2f} h',xy=(peak/3600,best),xytext=(4.5,best+.07),fontsize=7,arrowprops={'arrowstyle':'->','lw':.7})

@@ -10,12 +10,12 @@ Let $M_{\mathrm{val}}(C)$ be the validation metric extracted from program $C$, a
  C^\star_\pi\in\arg\max_{C\in\mathcal{E}_{\pi}(B)}u_{\mathrm{val}}(C).
  \label{eq:objective}
 \end{equation}
-The expectation covers LLM sampling, stochastic controller decisions, and model training. $B$ is elapsed wall-clock time in seconds, including generation, comparison, execution, feedback parsing, and API waits. Final evaluation reports $M_{\mathrm{test}}(C^\star_\pi)$ on private answers. For a fixed quality target $\delta$, an efficiency objective is to minimize
+The expectation covers LLM sampling, stochastic controller decisions, and model training. $B$ is elapsed wall-clock time in seconds, including generation, comparison, execution, feedback parsing, and API waits. Final evaluation reports $M_{\mathrm{test}}(C^\star_\pi)$ on private answers. For a fixed quality target $\delta$, define the random hitting time
 \begin{equation}
  T_\pi(\delta)=\inf\{t:\max_{C\in\mathcal{E}_{\pi}(t)}u_{\mathrm{val}}(C)\geq\delta\},
  \label{eq:target}
 \end{equation}
-with $T_\pi(\delta)=\infty$ if the target is not reached. These equations formalize the proposal's quality and efficiency criteria. ForeAgent instantiates a hand-designed policy $\pi$; harness evolution searches over modifications to that policy. The extracted validation metric is program-defined, so cross-program comparisons depend on consistent validation implementations.
+with $T_\pi(\delta)=\infty$ if the target is not reached. An efficiency objective is to maximize $\Pr[T_\pi(\delta)\leq B]$, the probability of reaching the target within budget. These equations formalize the proposal's quality and efficiency criteria. ForeAgent instantiates a hand-designed policy $\pi$; harness evolution searches over modifications to that policy. The extracted validation metric is program-defined, so cross-program comparisons depend on consistent validation implementations.
 
 \begin{table}[t]
 \centering\small
@@ -28,11 +28,12 @@ Symbol & Meaning \\
 $I,D,D_{\mathrm{rep}}$ & Task description, dataset, and textual data analysis report.\\
 $C_i,\pi,B$ & Candidate program, search policy, and wall-clock budget ($43{,}200$ seconds).\\
 $M_{\mathrm{val}},M_{\mathrm{test}},u_{\mathrm{val}}$ & Parsed validation metric, private test metric, and oriented validation utility.\\
-$\mathcal{E}_{\pi}(t),T_\pi(\delta)$ & Eligible executed programs by $t$, and time to target utility $\delta$.\\
+$t,\delta,\mathcal{E}_{\pi}(t),T_\pi(\delta)$ & Elapsed time, target utility, eligible executed programs, and target hitting time.\\
 $m,\tau,k,p_{\mathrm{exec}}$ & Batch size 10, confidence gate 0.7, eligible rank count 1, execution probability 0.2.\\
+$P,f_\theta,z_{ij}$ & Comparison prompt, comparator with frozen parameters $\theta$, and generated reasoning.\\
 $\hat w_{ij},\kappa_{ij},a_{ij}$ & Preferred candidate, confidence, and acceptance indicator for a comparison.\\
-$s_i,v_i,\ell_i,r_i$ & Survival indicator, recorded wins, last/elimination round, and displayed rank.\\
-$b_i,\mathcal{X}$ & Bernoulli execution draw and final execution set.\\
+$s_i,v_i,\ell_i,r_i,\rho$ & Survival indicator, wins, last/elimination round, displayed rank, and tournament round counter.\\
+$b_i,\mathcal{X},n_0$ & Bernoulli draw, execution set, and number of tied rank-0 candidates.\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -46,17 +47,17 @@ ForeAgent inherits AIDE's search tree, where nodes contain candidate programs an
 \node[box] (controller) {Controller\\operator and parent};
 \node[inf,right=of controller] (gen) {Generator\\plan and code};
 \node[inf,right=of gen] (compare) {Comparator\\task, report, code pair};
-\node[inf,below=of compare] (rank) {Confidence gate\\tournament and rank};
-\node[inf,below=of rank] (gate) {Execution gate\\and fallback};
+\node[box,below=of compare] (rank) {Confidence gate\\tournament and rank};
+\node[box,below=of rank] (gate) {Execution gate\\and fallback};
 \node[run,left=of gate] (exec) {Execution environment\\training and validation};
 \node[inf,left=of exec] (parse) {Feedback parser\\errors and metric};
 \node[box,above=of parse] (journal) {Journal\\code, plans, outcomes};
 \draw[->] (controller)--(gen);
-\draw[->] (gen)--node[above]{improve: $m$}(compare);
+\draw[->] (gen)--node[above,yshift=5mm,font=\scriptsize]{improve: $m$ proposals}(compare);
 \draw[->] (compare)--(rank);\draw[->] (rank)--(gate);\draw[->] (gate)--(exec);\draw[->] (exec)--(parse);\draw[->] (parse)--(journal);\draw[->] (journal)--(controller);
-\draw[->] (gen)--node[right]{draft/debug}(exec);
+\draw[->] (gen)--node[right,font=\scriptsize]{draft/debug}(exec);
 \end{tikzpicture}
-\caption{ForeAgent's predict-then-verify loop. Blue blocks perform LLM inference or controller operations; orange denotes program execution. Prediction aims to avoid unnecessary training, while API latency also consumes the budget. Journal summaries condition subsequent generation.}
+\caption{ForeAgent's predict-then-verify loop. Blue blocks are LLM calls, white blocks are control logic or state, and orange denotes program execution. Prediction aims to avoid unnecessary training, while API latency also consumes the budget. Journal summaries condition subsequent generation.}
 \label{fig:architecture}
 \end{figure}
 
@@ -70,27 +71,27 @@ The paper's main extension is an improvement batch of $m=10$ proposals followed 
 The paper specifies $m=10$, $\tau=0.7$, and $k=1$; its Top-$k$ ablation supports $k=1$ within the tested settings \citep[Appendix~C.6]{zheng2026predict}. Debug depth, pending-candidate rematches, caching, and the probabilistic execution fallback below come from the released code \citep{foreagentcode}. The paper describes parallel candidate proposal, while the released improvement loop generates candidates sequentially and includes earlier plans as context. Comparisons within each tournament round are parallelized. The comparator prompt has no explicit parent-outcome or journal input, and the implementation performs no systematic order-swapped second judgment.
 
 \subsection{Inference-time decision and scoring rules}
-The agent LLMs remain frozen; the following rules define inference-time search. Selected programs train their own task models. For each code pair,
+The agent LLMs remain frozen; the following rules define inference-time search. Only candidate programs train task models, using task-specific losses. For each code pair,
 \begin{equation}
  (z_{ij},\hat w_{ij},\kappa_{ij})=f_\theta(I,D_{\mathrm{rep}},C_i,C_j;P),\qquad
  a_{ij}=\mathbf{1}\{\kappa_{ij}\geq\tau\},
  \label{eq:predictor}
 \end{equation}
-where $P$ is the prompt, $z_{ij}$ the reasoning, and $\hat w_{ij}$ the preferred input position. A confident judgment ($a_{ij}=1$) permits elimination; a low-confidence judgment defers it. Algorithm~\ref{alg:tournament} summarizes the released tournament.
+where $\theta$ denotes frozen LLM parameters, $P$ the prompt, $z_{ij}$ the reasoning, and $\hat w_{ij}$ the preferred input position. A confident judgment ($a_{ij}=1$) permits elimination; a low-confidence judgment defers it. Algorithm~\ref{alg:tournament} summarizes the released tournament.
 
 \begin{algorithm}[H]
 \caption{Confidence-gated tournament (released implementation)}\label{alg:tournament}
 \small
 \begin{algorithmic}[1]
 \Require Ordered candidates $A=(C_1,\ldots,C_m)$ and threshold $\tau$
-\State Initialize $s_i=1,v_i=0,\ell_i=0$ for all candidates; $r\gets0$
+\State Initialize $s_i=1,v_i=0,\ell_i=0$ for all candidates; $\rho\gets0$
 \While{$|A|>1$}
-\State $r\gets r+1$; advanced list $N\gets[\,]$; pending list $Q\gets[\,]$
+\State $\rho\gets\rho+1$; advanced list $N\gets[\,]$; pending list $Q\gets[\,]$
 \State Pair adjacent candidates in $A$; append any unpaired candidate to $N$
 \State Compare paired candidates in parallel (consulting the cache)
 \For{each pair $(i,j)$}
 \If{$a_{ij}=1$}
-\State Append winner $w$ to $N$; $v_w\gets v_w+1$; mark loser $l$: $s_l\gets0,\ell_l\gets r$
+\State Append winner $w$ to $N$; $v_w\gets v_w+1$; mark loser $e$: $s_e\gets0,\ell_e\gets\rho$
 \Else\State Append both candidates to $Q$
 \EndIf
 \EndFor
@@ -99,12 +100,12 @@ where $P$ is the prompt, $z_{ij}$ the reasoning, and $\hat w_{ij}$ the preferred
 \For{each pending candidate $q$ and its result}
 \If{inconclusive or $q$ wins}
 \State Append $q$ to $N$; increment $v_q$ only for a confident win
-\Else\State $s_q\gets0$; $\ell_q\gets r$
+\Else\State $s_q\gets0$; $\ell_q\gets\rho$
 \EndIf
 \EndFor
-\State $A\gets N$; \textbf{break} if $r>2m$
+\State $A\gets N$; \textbf{break} if $\rho>2m$
 \EndWhile
-\State Set surviving candidates' $\ell_i\gets r$; sort and assign displayed ranks using Eq.~\ref{eq:rank}
+\State Set surviving candidates' $\ell_i\gets\rho$; sort and assign displayed ranks using Eq.~\ref{eq:rank}
 \State \Return ranked candidates and comparison records
 \end{algorithmic}
 \end{algorithm}
@@ -119,7 +120,7 @@ Sort by $(s_i,v_i,\ell_i)$ in descending lexicographic order, with stable orderi
 Thus survival affects sorting, while the displayed-rank grouping uses wins and round alone. Pending rematches never remove the already-advanced opponent.
 
 \paragraph{Comparison cost and cache.}
-A decisive knockout tournament requires $m-1$ comparisons rather than the $m(m-1)/2$ of a round robin. The implemented rematches can preserve many candidates for up to $2m+1$ rounds, giving an $O(m^2)$ worst-case count of comparison records. The cache reuses results for an unordered pair of code hashes. It stores position-relative winners without reversing their indices when input order reverses, an implementation limitation retained in the reproduction. Comparison records therefore include cached observations and should be distinguished from fresh model calls.
+A decisive knockout tournament requires $m-1$ comparisons rather than the $m(m-1)/2$ of a round robin. The implemented rematches can preserve many candidates for up to $2m+1$ rounds, giving an $O(m^2)$ worst-case count of comparison records. The cache reuses results for an unordered pair of code hashes. It stores position-relative winners without reversing their indices when input order reverses, so a reversed query can credit the wrong program as winner and change elimination. This cache bug is retained in the reproduction. Comparison records therefore include cached observations and should be distinguished from fresh model calls.
 
 \paragraph{Execution and final selection.}
 Sample $b_i\sim\mathrm{Bernoulli}(p_{\mathrm{exec}})$ independently for eligible candidates, then apply
@@ -128,7 +129,7 @@ Sample $b_i\sim\mathrm{Bernoulli}(p_{\mathrm{exec}})$ independently for eligible
  \mathcal{X}=\begin{cases}\mathcal{X}_0,&\mathcal{X}_0\ne\varnothing,\\\{i_1\},&\mathcal{X}_0=\varnothing.\end{cases}
  \label{eq:execute}
 \end{equation}
-For $k=1$ and $t$ tied rank-0 candidates, $\mathbb{E}[|\mathcal{X}|]=0.2t+0.8^t$: sampled executions contribute $0.2t$, and an all-negative draw triggers one fallback. A unique winner is therefore always executed. Execution produces logs and a validation metric; the parser updates the journal, and the next iteration repairs or expands a node. At termination, Eq.~\ref{eq:objective} selects the final program by validation utility.
+For $k=1$ and $n_0$ tied rank-0 candidates, $\mathbb{E}[|\mathcal{X}|]=0.2n_0+0.8^{n_0}$: sampled executions contribute $0.2n_0$, and an all-negative draw triggers one fallback. A unique winner is therefore always executed. Execution produces logs and a validation metric; the parser updates the journal, and the next iteration repairs or expands a node. At termination, Eq.~\ref{eq:objective} selects the final program by validation utility.
 
 \subsection{Connection to harness evolution}
 As discussed in Section~1, candidate programs and historical context adapt during search, while comparison prompts and selection rules remain fixed. These rules, and the way generation uses execution experience, provide concrete targets for harness evolution. The next section examines the full baseline loop through its observed search trajectory and final task performance.
