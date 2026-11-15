@@ -1,8 +1,44 @@
+# Current proposal — process-based reward, 2026-11-15
+
+Report: HW3_Process_Reward_Proposal_20261115.pdf
+Title: Process-Based Reward for Candidate Selection in Machine Learning Agents
+Author: Skye Xi
+
+## AI tools and contributions
+
+OpenAI Codex generated and substantially revised English drafts of all four sections, helped inspect the ForeAgent paper and released implementation, checked citations and archived reproduction results, and prepared LaTeX and the architecture figure. Codex also translated the four sections into Chinese for the author's review and discussed the meaning of the research design and evaluation metrics. The author-requested academic-humanizer skill (version 0.3.3, https://github.com/AIScientists-Dev/academic-humanizer) guided a prose revision. This skill is a writing workflow used by Codex.
+
+Anthropic Claude, including Claude Code, drafted an earlier Future Plan and supplied review feedback used in later revisions. The dated records below describe those contributions in their original project stages.
+
+The author selected the process-reward research direction, specified the scope, reviewed the drafts and explanations, and takes responsibility for the correctness, interpretation, and final submission.
+
+## Main author requests for the current proposal
+
+The following are selected original requests and instructions from the conversation. They document the main drafting, revision, and review uses of AI.
+
+1. Research direction: “保持 ForeAgent 的搜索与执行框架，探索 process-based reward 能否改善候选选择，并提升相同预算下的最终成绩。” The author also selected “整份提案转向 process reward”.
+2. Content and source checking: “那把你刚才说的必要细节补进 introduction、baseline explanation 和 baseline reproduction，保持现在的结构和单作者口吻，再更新 PDF。检查所有citation是否必要且正确”.
+3. Single-author voice: “所有都不用We，因为author只有我自己”.
+4. Architecture: “生成一个完整架构图” and “你确定这个图真实反映了ForeAgent?”
+5. Language revision: “能不能避免用：和；用https://github.com/AIScientists-Dev/academic-humanizer润色一版”.
+6. Translation and understanding: “分部分翻译report”, “继续翻译第二部分 Baseline Explanation。”, “继续翻译第三部分 Baseline Reproduction。”, and “翻译第四部分”.
+7. Design and assignment review: “这部分make sense吧” and “目前proposal是否符合他给的格式要求”.
+
+## Experimental scope and verification
+
+The current report presents static pairwise prediction on 246 sampled pairs and one 12-hour end-to-end ForeAgent run on each of Stanford COVID Vaccine and Aerial Cactus Identification. Writing and review used saved experimental artifacts and author-released references. The proposed process-only, outcome-only, and joint-supervision training and comparisons belong to Future Plan. Experimental models and their roles are documented in Section 3 of the report.
+
+Codex assisted with checking figures, numerical references, citations, and the eight-page PDF against the report sources and saved records. The current AI-use update documents these activities and the author's requests.
+
+# Archive of earlier AI-use records
+
+The entries below preserve the history of writing and project work. Statements about v3–v6, harness evolution, historical replay, and execution memory refer to their dated stages. The current report and research direction are identified at the top of this file.
+
 # 2026-11-15 Process-reward proposal language revision
 
 OpenAI Codex applied the author-requested academic-humanizer SKILL.md, version 0.3.3, from https://github.com/AIScientists-Dev/academic-humanizer to the current process-reward proposal. This pass revised English prose in all four sections and architecture labels, replaced colon- and semicolon-linked clauses, and retained the single-author voice. Numerical values, equations, citation commands, source URLs, paragraph structure, and algorithm semantics were checked against the saved pre-edit version. Codex compiled and visually checked the eight-page PDF and architecture figure. This was a writing and typesetting pass with zero new training runs, candidate executions, or experimental API calls. Earlier contributions and disclosures are retained below.
 
-# Current submitted proposal: v6, 2026-11-15
+# Historical harness-evolution proposal v6, 2026-11-15
 
 OpenAI Codex generated and substantially revised English drafts of the Introduction, Baseline Explanation, Baseline Reproduction, and Future Plan; assisted with paper/source inspection and archived execution-record analysis; and prepared LaTeX and figures. Anthropic Claude (including Claude Code) drafted an earlier Future Plan and provided review feedback incorporated into subsequent revisions. These contributions go beyond proofreading.
 
@@ -12,7 +48,7 @@ The current report uses the end-to-end online baseline run and post-run analysis
 
 # Historical records: earlier drafts and project activities
 
-The dated entries below are retained for provenance. References to offline replay, 129 historical batches, frozen pools, and other earlier experiments concern earlier project versions and are not experiments reported in the current proposal. The heading “Current proposal revision” below is a historical heading from that dated entry, not the current v6 status.
+The dated entries below are retained for provenance. References to offline replay, 129 historical batches, frozen pools, and other earlier experiments concern earlier project versions and are not experiments reported in the current proposal. The dated harness-evolution rewrite below records an earlier proposal scope.
 
 2026-11-15 Proposal v5: Codex revised the report against the v4 review, recomputed tie-group expectations and an exploratory Fisher test, checked the benchmark split, and linked the proposed experiments to observed bottlenecks. Only archived end-to-end evidence was analyzed; no new training or paid inference. The author retains responsibility for interpretation and submission.
 
@@ -20,7 +56,7 @@ The dated entries below are retained for provenance. References to offline repla
 
 2026-11-15 Proposal v3: Codex checked paper/code distinctions, analyzed archived online logs, constructed architecture and trajectory figures, and revised Sections 2 and 3 against the rubric. No new candidate execution, paid model call, or GPU run.
 
-# Current proposal revision: 2026-11-15
+# Historical harness-evolution proposal rewrite, 2026-11-15
 
 OpenAI Codex rewrote the Introduction, Baseline Explanation, Baseline Reproduction, and Future Plan around the author-approved question: Can harness evolution make machine learning agents search more efficiently? The author requested that reproduction cover only real end-to-end execution. Sources used: pinned author code, published papers, online-stanford-v2 final-summary and archived scoring checks. No new model evaluation calls, paid training runs, or GPU experiments were performed for this writing revision. The historical usage record below is retained for provenance; offline experiments described there are excluded from the current proposal.
 

@@ -1,5 +1,7 @@
 # 当前状态：Cactus 原版 12 小时复现完成
 
+**2026-11-15 · 当前提案 AI 使用记录已更新。** [AI_USAGE.txt](reports/hw3/AI_USAGE.txt) 明确当前 process-reward 报告、Codex / Claude 贡献、7 项主要请求及两层复现与 Future Plan 的范围。旧 harness-evolution v6 等记录保留为历史归档。已回读当前说明、核对报告路径，并校验历史正文仅调整归档标签。下一步为用户核对更新后的披露记录。
+
 **2026-11-15 · GitHub 首页已对齐当前 HW3 报告。** 更新根 `README.md`，将[最新八页报告](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf)、LaTeX、架构图、固定作者代码及两层复现入口置于首页。明确静态 136/246 = 55.28%，Stanford / Aerial 各一次 12 小时的测试分及 Beat Ratio。旧 v3、`hw3-phase1-v1` 和 11 月 10 日研究记录归入首页历史区。31 个相对链接已核对文件存在且纳入 Git，正文指标与当前报告一致。HW3 文档下一步为对齐独立提交说明与版本索引，当前提交以根 README 为入口。
 
 **2026-11-15 · 最新 HW3 报告已推送，仓库提交入口检查完成。** 用户授权后将报告及架构图提交 `18f1e0f`、`36a49d0` 推送到 `main`。GitHub API 回读确认远端为 `36a49d042332dbbedd7e8b473806c0db08c73ace`，[当前 PDF](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf) 与本地 Git blob `12245b093023629adf1a6ce402cf551787acb693` 一致。目录结构可沿用，首页 `README.md`、`reports/hw3/SUBMISSION.md` 与版本说明仍以 v3 / Stanford 单任务为入口，建议对齐当前 process-reward 报告、pairwise 子样本和 Stanford / Cactus 两任务复现。HW3 唯一下一步为更新这三个导航入口，历史报告和冻结版本继续留存。
