@@ -1,5 +1,7 @@
 # ML Agent 项目交接：ForeAgent / ForeCritic
 
+**2026-11-15 · 仓库首页导航已更新。** [根 README](../README.md) 优先展示当前 process-reward 报告、源码与架构图，以及 pairwise、Stanford、Aerial Cactus 复现证据。旧报告和阶段快照按历史入口保留，31 个相对链接通过 Git 路径核验，指标已与报告正文对照。HW3 文档下一步为对齐独立提交说明与版本索引，当前提交以根 README 为入口。
+
 **2026-11-15 · HW3 报告已同步 GitHub。** 用户授权推送当前报告，远端 `main` 已回读核对至 `36a49d0`，[最新 PDF](../reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf) 的 Git blob 与本地一致。仓库检查结果为提交导航需要更新，首页、`reports/hw3/SUBMISSION.md`、版本说明仍指向旧报告及 Stanford 单任务。现有代码、证据和历史目录可沿用。HW3 唯一下一步为将这三个入口对齐当前报告与两层复现，研究任务继续按各自交接推进。
 
 **2026-11-15 · HW3 英文润色完成。** 按 academic-humanizer 0.3.3 逐段润色四节正文与架构图标签，将正文 16 处冒号、43 处分号改为自然句式，保留段落结构和单作者口吻。数值、3 个展示公式、数学记号、引文与来源链接逐项对照一致，7 条参考文献解析通过。桌面编译及 TeX Live 编译通过，8 页 PDF 与架构图已检查，最终日志零警告。交付[PDF](../reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf)及[润色核查记录](../reports/hw3/analysis/academic_humanizer_review_20261115.md)。本轮文件保留本地。HW3 下一步为用户审阅润色稿，研究任务沿用现有交接。

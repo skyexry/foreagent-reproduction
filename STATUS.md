@@ -1,5 +1,7 @@
 # 当前状态：Cactus 原版 12 小时复现完成
 
+**2026-11-15 · GitHub 首页已对齐当前 HW3 报告。** 更新根 `README.md`，将[最新八页报告](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf)、LaTeX、架构图、固定作者代码及两层复现入口置于首页。明确静态 136/246 = 55.28%，Stanford / Aerial 各一次 12 小时的测试分及 Beat Ratio。旧 v3、`hw3-phase1-v1` 和 11 月 10 日研究记录归入首页历史区。31 个相对链接已核对文件存在且纳入 Git，正文指标与当前报告一致。HW3 文档下一步为对齐独立提交说明与版本索引，当前提交以根 README 为入口。
+
 **2026-11-15 · 最新 HW3 报告已推送，仓库提交入口检查完成。** 用户授权后将报告及架构图提交 `18f1e0f`、`36a49d0` 推送到 `main`。GitHub API 回读确认远端为 `36a49d042332dbbedd7e8b473806c0db08c73ace`，[当前 PDF](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf) 与本地 Git blob `12245b093023629adf1a6ce402cf551787acb693` 一致。目录结构可沿用，首页 `README.md`、`reports/hw3/SUBMISSION.md` 与版本说明仍以 v3 / Stanford 单任务为入口，建议对齐当前 process-reward 报告、pairwise 子样本和 Stanford / Cactus 两任务复现。HW3 唯一下一步为更新这三个导航入口，历史报告和冻结版本继续留存。
 
 **2026-11-15 · HW3 英文润色完成。** 按 academic-humanizer 0.3.3 逐段润色四节正文与架构图标签，将正文 16 处冒号、43 处分号改为自然句式，保留段落结构和单作者口吻。数值、3 个展示公式、数学记号、引文与来源链接逐项对照一致，7 条参考文献解析通过。桌面编译及 TeX Live 编译通过，8 页 PDF 与架构图已检查，最终日志零警告。交付[PDF](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf)及[润色核查记录](reports/hw3/analysis/academic_humanizer_review_20261115.md)。本轮文件保留本地。HW3 下一步为用户审阅润色稿，研究任务沿用现有交接。
