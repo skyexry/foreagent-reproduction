@@ -1,3 +1,7 @@
+# 2026-11-15 Process-reward proposal language revision
+
+OpenAI Codex applied the author-requested academic-humanizer SKILL.md, version 0.3.3, from https://github.com/AIScientists-Dev/academic-humanizer to the current process-reward proposal. This pass revised English prose in all four sections and architecture labels, replaced colon- and semicolon-linked clauses, and retained the single-author voice. Numerical values, equations, citation commands, source URLs, paragraph structure, and algorithm semantics were checked against the saved pre-edit version. Codex compiled and visually checked the eight-page PDF and architecture figure. This was a writing and typesetting pass with zero new training runs, candidate executions, or experimental API calls. Earlier contributions and disclosures are retained below.
+
 # Current submitted proposal: v6, 2026-11-15
 
 OpenAI Codex generated and substantially revised English drafts of the Introduction, Baseline Explanation, Baseline Reproduction, and Future Plan; assisted with paper/source inspection and archived execution-record analysis; and prepared LaTeX and figures. Anthropic Claude (including Claude Code) drafted an earlier Future Plan and provided review feedback incorporated into subsequent revisions. These contributions go beyond proofreading.
