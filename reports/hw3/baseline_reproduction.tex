@@ -2,14 +2,16 @@
 \label{sec:reproduction}
 
 \subsection{Experimental Setup}
-I reproduced two components of ForeAgent: its static pairwise predictions and its end-to-end code-search workflow. For the pairwise evaluation, I sampled up to ten pairs from each of the 26 tasks in the released 18,438-pair corpus, obtaining 246 pairs. I used the released prompts and data reports, queried DeepSeek-V3.2 through SiliconFlow with thinking enabled and temperature 1.0, and measured micro-accuracy against execution-derived preference labels.
+I reproduced two components of ForeAgent: its static pairwise predictions and its end-to-end code-search workflow. For the pairwise evaluation, I sampled up to ten pairs from each of the 26 tasks in the released 18,438-pair corpus, obtaining 246 pairs (sampling seed 20261021). I used the released prompts and data reports, preserved candidate order, queried DeepSeek-V3.2 through SiliconFlow with thinking enabled and temperature 1.0, and measured micro-accuracy: the fraction of sampled pairs for which the predicted winner matched the execution-derived label.
 
-For the system evaluation, I ran the author-released ForeAgent search logic once on each of two tasks: Stanford COVID Vaccine (seen) and Aerial Cactus Identification (unseen). Here, ``seen'' means included in the paper's 26-task preference corpus, while ``unseen'' means held out from that corpus for out-of-distribution evaluation \citep[Appendix~B.1--B.3]{zheng2026predict}. Each run had a 12-hour wall-clock limit. I retained the released settings of ten improvement candidates ($m=10$), confidence threshold $\tau=0.7$, top-rank selection ($k=1$), and execution probability $p_{\mathrm{exec}}=0.2$. DeepSeek-V3.2 generated code, its thinking mode compared candidates, and \texttt{gpt-4o-mini-2024-07-18} parsed execution feedback. For Stanford, the GPU execution worker used an RTX 4090 and the ForeAgent controller ran on a Mac; for Aerial, the controller and the RTX 3090 execution worker both ran on AutoDL. In both runs, the agent selected its final program using internal validation feedback; I then evaluated that program on the private task split.
+For the system evaluation, I ran the author-released ForeAgent search logic once on each of two tasks: Stanford COVID Vaccine (seen) and Aerial Cactus Identification (unseen). Here, \emph{seen} means included in the paper's 26-task preference corpus, while \emph{unseen} means held out from its main predictive evaluation; the terms describe task coverage, since ForeAgent's LLM judge is used without task-specific training \citep[Appendices~B.1 and B.3]{zheng2026predict}. Stanford requires predicting RNA reactivity and degradation from sequence and structural information. Its metric is mean columnwise root mean squared error (MCRMSE), averaged over the three scored targets; lower is better. Aerial requires classifying whether an aerial image contains a cactus and is evaluated by area under the receiver operating characteristic curve (ROC AUC); higher is better. These definitions follow the task specifications bundled with the released benchmark code \citep{foreagentcode}.
+
+Each run had a 12-hour wall-clock limit. I retained the released settings of ten improvement candidates ($m=10$), confidence threshold $\tau=0.7$, top-rank selection ($k=1$), and execution probability $p_{\mathrm{exec}}=0.2$. DeepSeek-V3.2 generated code, its thinking mode compared candidates, and \texttt{gpt-4o-mini-2024-07-18} parsed execution feedback. The implementation was fixed at commit \texttt{c4d52cf} \citep{foreagentcode}. For Stanford, the GPU execution worker used an RTX 4090 and the ForeAgent controller ran on a Mac; for Aerial, the controller and the RTX 3090 execution worker both ran on AutoDL. In both runs, the agent selected its final program using internal validation feedback; I then evaluated that program on the private task split.
 
 The original paper evaluated ForeAgent on five tasks, running each task three times under a 12-hour limit and reporting mean Beat Ratio \citep[Section~6.3]{zheng2026predict}. The reproduced system results are one run on each of two tasks, so the tables below identify the original and reproduced scopes separately.
 
 \subsection{Results}
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \caption{Static pairwise prediction. The paper reference covers all 18,438 pairs and is a three-run mean; the released author run uses the same ordered 246 pairs as this reproduction. Differences are percentage points (pp).}
 \label{tab:repro-pairwise}
@@ -23,9 +25,9 @@ Author, same 246 pairs & 246 & 52.85\% & 55.28\% & $+2.44$ \\
 \end{tabular}
 \end{table}
 
-The judge selected the execution-labeled winner in 136 of the 246 sampled pairs, giving 55.28\% accuracy. Table~\ref{tab:repro-pairwise} repeats this result in two rows to compare it with the paper's full-corpus result and an archived author run on the same sample. The paper's full-corpus result appears in Table~2 of \citet{zheng2026predict}; the fixed sample and adopted responses are in the \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/coverage_manifest.json}{sampling manifest} and \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/coverage_retry_results.json}{result record}.
+The judge selected the execution-labeled winner in 136 of the 246 sampled pairs, giving 55.28\% accuracy; the archived author predictions were correct on 130 of these pairs. Table~\ref{tab:repro-pairwise} repeats the reproduced result in two rows to distinguish the full-corpus and matched-sample references. The paper's full-corpus result appears in Table~2 of \citet{zheng2026predict}; the fixed sample and adopted responses are in the \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/coverage_manifest.json}{sampling manifest} and \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/coverage_retry_results.json}{result record}.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \caption{End-to-end ForeAgent outcomes. Paper Beat Ratios are three-run means; each reproduction is one run. Task-score references are means of three released author endpoints. Lower MCRMSE and higher ROC AUC are better.}
 \label{tab:repro-system}
@@ -39,13 +41,31 @@ Aerial Cactus Identification (unseen) & $0.877\pm0.000$ & 0.87715 & ROC AUC: $0.
 \end{tabular}
 \end{table}
 
-Beat Ratio is the fraction of contestants on the reference leaderboard whose scores the final program surpasses. Both reproduced Beat Ratios agree with the paper at its reported precision (Table~13 of \citet{zheng2026predict}). The final-run records are available for \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/online-stanford-v2/final-summary.json}{Stanford} and \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/online-cactus-v1/final-summary.json}{Aerial}.
+Beat Ratio is the fraction of contestants on the reference leaderboard whose scores the final program surpasses. Both reproduced Beat Ratios agree with the paper at its reported precision (Table~13 of \citet{zheng2026predict}). The final-run records are available for \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/online-stanford-v2/final-summary.json}{Stanford} and \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/online-cactus-v1/final-summary.json}{Aerial}. The task-score means are calculated from the released author endpoints, documented separately in the \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/online-stanford-v2/author-final-reference.json}{Stanford reference} and \href{https://github.com/skyexry/foreagent-reproduction/blob/a80ae9cb0ea15a6f2c3d5666528a01a3006009c5/experiments/online-cactus-v1/evidence/cactus-author-comparison-reference.json}{Aerial reference}.
 
 \subsection{Comparison with the Original Work}
 The pairwise result depends on which reference is used. The reproduced accuracy of 55.28\% is 6.22 percentage points below the paper's full-corpus mean, but that comparison changes both the number of pairs and their task weights. On the same 246 ordered pairs, the reproduced result is 2.44 points above one archived author run. The matched-subset comparison gives a closer check of this reproduction; the remaining difference is descriptive because model-service snapshots and repeated-run variation have not been established for this sample.
 
-Both end-to-end runs reproduce the paper's final Beat Ratio at reported precision, while their task scores show finer differences. Stanford's MCRMSE is 0.00778 higher than the author-endpoint mean, or approximately 3.0\% worse, but remains within the three author runs' observed range. Aerial's rounded AUC is 0.00002 higher. These score differences leave both tasks in the same Beat Ratio ranges on their fixed reference leaderboards.
+Both end-to-end runs reproduce the paper's final Beat Ratio at reported precision, while their task scores show finer differences. Stanford's MCRMSE is 0.00778 higher than the author-endpoint mean, or approximately 3.0\% worse, but remains within the three author runs' observed range. Its Beat Ratio is already saturated at 1.000: all these scores surpass the best score on the fixed reference leaderboard, so MCRMSE is needed to distinguish them. Aerial's rounded AUC is 0.00002 higher, leaving it in the same Beat Ratio interval.
 
-Search behavior varied more than the final Beat Ratios. The reproduced Stanford and Aerial runs each saved 82 journal nodes, compared with means of 155.33 and 49.33 in the released author journals under the same saved-node definition. The paper's Figure~4(c) reports 158.67 nodes for Stanford, so that published count and the released-journal mean still require reconciliation. The final programs selected in the reproduction became available after 3.46 and 6.86 hours, compared with author-run means of 7.34 and 1.02 hours. These times describe when each run's own final selection became available; they do not measure the paper's common-target convergence speedup.
+Search behavior varied more than the final Beat Ratios (Table~\ref{tab:repro-search}). Saved-node counts include skipped candidates retained in the final journal and exclude unfinished candidates absent from it. Availability time runs from the log start to completion of feedback parsing for the final selected program. Both quantities were reconstructed from the archived journals and logs \citep{foreagentdata}. The paper's Figure~4(c) reports 158.67 Stanford nodes, compared with 155.33 in the released journals; this counting discrepancy remains unresolved. Availability times refer to each run's own final selection, rather than time to a shared performance target, so they serve as descriptive timing diagnostics.
 
-The logs also document conditions relevant to interpreting the differences: one Stanford feedback request with retries consumed 31.2\% of its 12-hour budget; Stanford's internal validation calculation differed from its official task scoring; and Aerial encountered worker-start and metric-parsing failures. Their separate effects on final performance have not been isolated. Overall, the two final Beat Ratios support a partial reproduction of the reported endpoints. Establishing run-to-run consistency, results across all five tasks, and the paper's AIDE-relative acceleration would require repeated runs and an AIDE comparison under matched conditions.
+\begin{table}[H]
+\centering\small
+\caption{Archived search and timing comparison. Author columns average three runs; reproduced columns report one run. Availability time concerns the final selected program, not the full 12-hour run or an AIDE-relative speedup.}
+\label{tab:repro-search}
+\begin{tabular}{p{3.6cm}rrrr}
+\toprule
+ & \multicolumn{2}{c}{Saved journal nodes} & \multicolumn{2}{c}{Availability time (h)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Task & Author & Reproduced & Author & Reproduced \\
+\midrule
+Stanford COVID Vaccine & 155.33 & 82 & 7.34 & 3.46 \\
+Aerial Cactus Identification & 49.33 & 82 & 1.02 & 6.86 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The logs also document conditions relevant to interpreting the differences: one Stanford feedback request with retries consumed 31.2\% of its 12-hour budget; Stanford's internal validation calculation differed from its official task scoring; and Aerial encountered worker-start and metric-parsing failures. Their separate effects on final performance have not been isolated. The Stanford validation mismatch supplies a concrete target for process-quality assessment: checking that a candidate's validation procedure measures the intended task objective. Whether supervising such checks improves candidate selection remains the proposed research question, rather than a result of this reproduction.
+
+Overall, the two final Beat Ratios support a partial reproduction of the reported endpoints. Establishing run-to-run consistency, results across all five tasks, and the paper's AIDE-relative acceleration would require repeated runs and an AIDE comparison under matched conditions.

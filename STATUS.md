@@ -1,6 +1,6 @@
 # 当前状态：Cactus 原版 12 小时复现完成
 
-**2026-11-15 · HW3 proposal 已转向 process-based reward。** 修改 `reports/hw3/main.tex` 与 `future_plan.tex`：保持 ForeAgent baseline 和现有复现，研究父程序到候选修改的过程质量监督对 Improvement 筛选及等预算最终成绩的作用；ForeCritic 式结果监督为对照。已核对 ForeAgent、ForeCritic、AdaPRA 原文，桌面 LaTeX 编译成功；[七页 PDF](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf) 已导出并核对。新增实验、训练和付费推理均为 0。正文与表格已统一单作者口吻（I / this project / reproduced），七页 PDF 已同步并回读核对。HW3 下一步：用户审阅过程标签来源与对照设计。项目研究其余任务按现有研究交接继续。
+**2026-11-15 · HW3 proposal 已转向 process-based reward。** 修改 `reports/hw3/main.tex` 与 `future_plan.tex`：保持 ForeAgent baseline 和现有复现，研究父程序到候选修改的过程质量监督对 Improvement 筛选及等预算最终成绩的作用；ForeCritic 式结果监督为对照。已核对 ForeAgent、ForeCritic、AdaPRA 原文，桌面 LaTeX 编译成功；[七页 PDF](reports/hw3/HW3_Process_Reward_Proposal_20261115.pdf) 已导出并核对。新增实验、训练和付费推理均为 0。正文与表格已统一单作者口吻（I / this project / reproduced），七页 PDF 已同步并回读核对。 本轮补齐前三节的过程/结果监督同输入对照、data report 来源、controller 与完整锦标赛规则、复现任务指标及节点/时间比较表；逐项核对 7 条参考文献与固定代码/数据链接，区分论文结果、作者归档与本次计算。修正 cot 文本类型；桌面编译和七页逐页检查通过。 HW3 下一步：用户审阅过程标签来源与对照设计。项目研究其余任务按现有研究交接继续。
 
 **2026-11-15 · Proposal第三部分：两层复现事实核对完成。** 回读原论文、GitHub和原始响应/journal后形成独立英文草稿及两张结果表：静态DeepSeek思考模式136/246=55.28%，论文全量61.5%（范围差异−6.22pp），同246对作者一次归档52.85%（+2.44pp）；Stanford/Aerial单次12h的Beat Ratio分别1.000/0.87715，与论文各任务三次均值精度吻合。新增只读核验补齐Aerial BR=1071/1221；86次在线比较中双侧均留存CSV的对数为0，在线测试准确率保持未定义。区分论文、作者归档与单次复现，披露重试/指标失配/部署差异及单次覆盖范围。新增训练/模型调用/候选私有评分均0，现有报告正文保持。当前唯一下一步：用户审阅第三部分并确认整合。 [英文正文](reports/reproduction-section3-20261115/Proposal_Section3_Reproduction.md)。
 
