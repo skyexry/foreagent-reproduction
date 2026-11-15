@@ -12,7 +12,7 @@
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
 
-\title{Harness Evolution for Efficient Search\\in Machine Learning Agents}
+\title{Process-Based Reward for Candidate Selection\\in Machine Learning Agents}
 \author{Skye Xi\\DATS-SHU-200 Data Mining\\Final Project Proposal}
 
 \begin{document}
@@ -21,19 +21,14 @@
 
 \section{Introduction}
 
-LLM-based machine learning (ML) agents automate model development by searching over candidate solutions through iterative cycles of code generation, execution, and refinement. Candidate evaluation requires training and validation, which can make broad exploration computationally expensive \citep{jiang2025aide,zheng2026predict}. Generation and predictive comparison also consume resources, and their cost relative to execution depends on the task and deployment. Together, these costs limit how many experiments an agent can run within a fixed budget, making search decisions consequential for both resource efficiency and final performance. Poor decisions are costly in two ways. In terms of efficiency, repeated failures and revisions that bring only marginal gains consume time and compute, delaying progress toward a target level of performance. In terms of solution quality, fixating on a narrow family of approaches or continuing to refine a stalled solution can keep the agent from finding stronger alternatives before its budget runs out. These challenges raise a broader question: how can ML agents learn from past experiments to improve how they generate candidates, assess alternatives, and choose subsequent search directions?
+Search-based machine-learning (ML) agents frame ML engineering tasks as a search over executable candidate programs. Each program embodies choices about data processing, model architecture, and training configuration. The agent proposes a program, runs it, inspects the resulting feedback, and uses that evidence to guide subsequent revisions \citep{jiang2025aide,lee2026forecritic}.
 
-AIDE \citep{jiang2025aide} structures this search as a tree whose nodes contain candidate programs and their execution results. Drafting, debugging, and improvement operators expand the tree, while a search policy determines which node to develop next. Summaries of previous attempts provide context for subsequent code generation, allowing the agent to build on promising solutions and repair unsuccessful attempts. However, each new candidate must be executed before its measured performance can inform further search. Consequently, the cost of training and validation constrains how broadly the agent can explore.
+Execution gives the agent evidence about a candidate: errors reveal implementation failures, while validation scores indicate its measured performance. In AIDE, this feedback guides the expansion of a tree of candidate programs \citep{jiang2025aide}. Obtaining that evidence can require hours of model training and evaluation on MLE-bench tasks \citep{chan2024mle,lee2026forecritic}. With limited GPU and wall-clock time, an agent can test only a fraction of its proposed programs; time spent on candidates later discarded leaves fewer opportunities to explore other ideas \citep{lee2026forecritic}.
 
-ForeAgent \citep{zheng2026predict} builds directly on AIDE's architecture and addresses this bottleneck by redesigning the improvement stage. It generates multiple candidate solutions and uses an LLM to compare their expected performance based on their code, the task description, and a verified data analysis report. Confidence-gated comparisons filter the candidates before selected solutions are executed. This \emph{predict-then-verify} workflow allows the agent to consider more alternatives without training every candidate, while retaining real execution feedback to verify progress. In the authors' evaluation on five MLE-bench tasks \citep{chan2024mle}, ForeAgent explored more candidates and reached peak performance faster than AIDE. These results demonstrate the promise of predictive selection for improving search efficiency.
+ForeAgent reduces this cost by using an LLM to compare candidate revisions before execution. Within AIDE's improvement stage, its Predict-then-Verify loop proposes multiple programs, predicts their relative performance through pairwise judgments, and executes selected candidates \citep{zheng2026predict}. Across five MLE-bench tasks, the authors report 3.2 times as many explored nodes, a 6-fold speedup in reaching peak performance, and an approximately 6\% relative gain in average Beat Ratio over AIDE. The benefit depends on reliable predictions: on the paper's pairwise corpus, the LLM judge selects the execution-labeled winner in 61.5\% of comparisons, so errors can remove promising revisions before they are verified \citep{zheng2026predict}. More recent work, ForeCritic, trains a reward model on execution-labeled program pairs and uses it in place of ForeAgent's LLM judge while retaining its pairwise selection loop \citep{lee2026forecritic}.
 
-Subsequent work seeks more informative and reliable evidence for predictive decisions. MLE-World \citep{ko2026mleworld} predicts execution outputs, including errors, training logs, and validation scores, and uses them to support both candidate selection and code revision. Its pairwise selection strategy extends ForeAgent by incorporating predicted terminal outputs into candidate comparisons. ForeCritic \citep{lee2026forecritic} takes a training-based approach, learning preferences from executed program pairs to directly predict which candidate will perform better. The authors evaluate this selector within AIDE, ML-Master, and ForeAgent. Rehearse \citep{ji2026rehearse} implements a lightweight skill that retrieves similar modifications and their observed outcomes from the current task to inform comparisons between new proposals, then adds subsequent execution results to its memory. These methods ground selection in predicted execution feedback, outcome-supervised preferences, or relevant historical evidence. Rehearse augments a prescribed comparison procedure with retrieved cases, while ForeCritic trains the selector. This proposal extends the focus to experience-driven revision of the surrounding generation, comparison, and resource-allocation procedures.
+These outcome-labeled comparisons establish which completed program performed better, but provide no direct supervision about the quality of the modification that produced it. Process errors in ML work include unsound validation, data leakage, and revisions that fail to address an observed problem; AdaPRA demonstrates that rubric-guided review of agent trajectories and artifacts can identify such errors \citep{naik2026adapra}. This proposal studies a different use of process feedback: scoring a proposed revision \emph{before} executing it. We ask whether a process-quality reward model, given a parent program, its observed feedback, and a proposed child, can improve ForeAgent's candidate selection and final task performance under the same GPU and wall-clock budget. ForeCritic provides the direct outcome-supervised comparison, while ForeAgent's generator, search tree, and execution rules remain fixed.
 
-A separate line of work makes the agent's own operating procedures a target for improvement. Inspired by recursive self-improvement (RSI), \emph{harness evolution} updates the prompts, reusable skills, memory mechanisms, and control logic surrounding an LLM. AIDE$^2$ \citep{srikanth2026aide2} implements an outer optimization loop that modifies a research agent's code, evaluates the resulting versions on a task suite, and retains changes that improve performance under fixed evaluation budgets. Its discovered modifications include search policies and context-management mechanisms. Evo-Harness \citep{wei2026evoharness} instead adapts through reusable guidance: it converts execution experience into skills and updates the external harness across tasks while keeping the underlying model frozen. These studies provide empirical support for improving agent behavior through changes to its harness.
-
-Applying harness evolution to predictive search introduces a specific challenge: candidate generation, predictive selection, and execution feedback jointly determine which experiments the agent observes and learns from. Changes to the generator alter the candidates presented to the selector, while changes to the selector alter which candidates receive execution feedback. An improvement to any individual component must therefore be evaluated by its effect on the full search process. AIDE$^2$ evolves an AIDE-based search driven by execution feedback; its reported design does not include ForeAgent's pre-execution predictive filter \citep[Sections~2.2 and~3.5]{srikanth2026aide2}. ForeAgent introduces this additional selection stage while retaining predefined comparison prompts and selection rules \citep{zheng2026predict,foreagentcode}. This makes ForeAgent a natural testbed for studying how experience-driven updates to the harness affect both the quality of search decisions and the resources required to make them.
-
-This proposal therefore asks: \textbf{Can harness evolution make machine learning agents search more efficiently?} Using ForeAgent as the baseline, the following sections explain its predict-then-verify workflow and present a reproduction that includes candidate generation, experiment selection, and actual model training and validation. The end-to-end run provides the foundation for studying adaptations to individual components and their interactions. Planned evaluations will assess whether evolved harnesses find better solutions under standardized validation within a fixed total budget or reach comparable solution quality with fewer resources, with the cost of harness adaptation counted toward the total budget.
 
 \input{baseline_explanation}
 
@@ -63,19 +58,13 @@ Jun Shern Chan et~al.
 \newblock \emph{arXiv:2410.07095}, 2024.
 \newblock \url{https://arxiv.org/abs/2410.07095}.
 
-\bibitem[ForeAgent authors(2026a)]{foreagentcode}
-ForeAgent authors. 2026a.
+\bibitem[ForeAgent authors(2026)]{foreagentcode}
+ForeAgent authors. 2026.
 \newblock Released implementation of Predict Before Execute.
 \newblock GitHub repository, fixed commit \texttt{c4d52cf} (full identifier in the URL below).
 \newblock Relevant files: \texttt{world\_model.py}, \texttt{agent.py}, and \texttt{config.yaml} under \texttt{mle-bench/agents/aide/}.
 \newblock \url{https://github.com/zjunlp/predict-before-execute/tree/c4d52cf99bd870d830b456ac7c0684aec1aef375}.
 
-
-\bibitem[ForeAgent authors(2026b)]{foreagentdata}
-ForeAgent authors. 2026b.
-\newblock PredictBeforeExecute: released ForeAgent execution records.
-\newblock Hugging Face dataset, fixed revision \texttt{6b322cb}; subdirectory \texttt{agent\_runs/ForeAgent/}.
-\newblock \url{https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/tree/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent}.
 
 \bibitem[Lee et~al.(2026)]{lee2026forecritic}
 Yuxiao Lee, Zherui Yang, Fan Liu, and Hao Liu.
@@ -83,30 +72,12 @@ Yuxiao Lee, Zherui Yang, Fan Liu, and Hao Liu.
 \newblock \emph{arXiv:2610.38439}, 2026.
 \newblock \url{https://arxiv.org/abs/2610.38439}.
 
+\bibitem[Naik et~al.(2026)]{naik2026adapra}
+Atharva Naik, Vivek Chari, Pol Llado, Daniel Fried, Carolyn Ros\'{e}, Benjamin Van Durme, Sam Thomson, and Justin Svegliato.
+\newblock AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science.
+\newblock \emph{arXiv:2610.33245}, 2026.
+\newblock \url{https://arxiv.org/abs/2610.33245}.
 
-\bibitem[Ko et~al.(2026)]{ko2026mleworld}
-Brian Ko, Han Wang, Hejia Geng, Li Erran Li, and Sherry Yang.
-\newblock MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model.
-\newblock \emph{arXiv:2610.37175}, 2026.
-\newblock \url{https://arxiv.org/abs/2610.37175}.
-
-\bibitem[Ji and Ding(2026)]{ji2026rehearse}
-Jiazhen Ji and Shouhong Ding.
-\newblock Rehearse: Stepping Back from the Confidence Cliff in Self-Improving Autoresearch.
-\newblock \emph{arXiv:2607.27687}, 2026.
-\newblock \url{https://arxiv.org/abs/2607.27687}.
-
-\bibitem[Srikanth et~al.(2026)]{srikanth2026aide2}
-Dhruv Srikanth, Bingchen Zhao, Dixing Xu, Yuxiang Wu, and Zhengyao Jiang.
-\newblock Recursive self-improvement of AI research agents.
-\newblock \emph{arXiv:2609.26457}, 2026.
-\newblock \url{https://arxiv.org/abs/2609.26457}.
-
-\bibitem[Wei et~al.(2026)]{wei2026evoharness}
-Tianxin Wei et~al.
-\newblock Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents.
-\newblock \emph{arXiv:2608.15071}, 2026.
-\newblock \url{https://arxiv.org/abs/2608.15071}.
 
 \end{thebibliography}
 
