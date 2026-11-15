@@ -1,0 +1,44 @@
+{
+  "task": "aerial-cactus-identification",
+  "pinned_pointer_source": "phase1-reproduction/code/author/mle-bench/mlebench/competitions/aerial-cactus-identification/leaderboard.csv",
+  "materialization": "SHA-verified existing leaderboard copy; canonical bytes preserved with proposal audit",
+  "sha256": "cdb280161eca63c9ab1f937dcfb715b710fd222afe4c65f13a763d64e4c48318",
+  "size": 63555,
+  "ours": {
+    "score": 0.99994,
+    "beaten": 1071,
+    "teams": 1221,
+    "beat_ratio": 0.8771498771498771,
+    "ties": 0
+  },
+  "authors": [
+    {
+      "score": 0.99992,
+      "beaten": 1071,
+      "teams": 1221,
+      "beat_ratio": 0.8771498771498771,
+      "ties": 0
+    },
+    {
+      "score": 0.99993,
+      "beaten": 1071,
+      "teams": 1221,
+      "beat_ratio": 0.8771498771498771,
+      "ties": 0
+    },
+    {
+      "score": 0.99991,
+      "beaten": 1071,
+      "teams": 1221,
+      "beat_ratio": 0.8771498771498771,
+      "ties": 0
+    }
+  ],
+  "min_score": 0.3363,
+  "max_score": 1.0,
+  "definition": "strictly better than leaderboard score; original scorer rounds metric to 5 decimals",
+  "derivation": "post-hoc frozen leaderboard calculation after completed run; no new training/inference/test grading",
+  "raw_auc": 0.9999375316002257,
+  "rounded_mlebench_auc": 0.99994,
+  "method_evidence": "../../reports/reproduction-section3-20261115/evidence/beat-ratio-verification.json"
+}

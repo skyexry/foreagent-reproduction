@@ -1,0 +1,141 @@
+{
+  "source_revision": "a80ae9cb0ea15a6f2c3d5666528a01a3006009c5",
+  "upstream": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "paper_pdf_sha256": "205f6b15953c3d8df84add30a00516a01531bd5a7fa96858df4bf3924ab4f4d2",
+  "github_blob_checks": [
+    {
+      "path": "experiments/coverage_retry_results.json",
+      "github_blob": "353a8542f60b9e1595ba8d1747a1c4614d869f9e",
+      "matches": true
+    },
+    {
+      "path": "experiments/online-stanford-v2/final-summary.json",
+      "github_blob": "44a278dca4d7463fc0fa2eaca2de6b87c8db3690",
+      "matches": true
+    },
+    {
+      "path": "experiments/online-cactus-v1/final-summary.json",
+      "github_blob": "a3d957635f3ec5d5372f30383c6e3adb6ed9b91e",
+      "matches": true
+    }
+  ],
+  "pairwise": {
+    "model": "Pro/deepseek-ai/DeepSeek-V3.2, enable_thinking=true",
+    "server_model_snapshot": "未记录",
+    "tasks": 26,
+    "source_pool_pairs": 18438,
+    "selected_pairs": 246,
+    "sampling_seed": 20261021,
+    "correct": 136,
+    "accuracy_percent": 55.28455284552845,
+    "author_matched_correct": 130,
+    "author_matched_accuracy_percent": 52.84552845528455,
+    "paper_accuracy_percent": 61.5,
+    "paper_std_pp": 0.2,
+    "difference_from_paper_pp": -6.215447154471548,
+    "difference_from_matched_pp": 2.4390243902439024,
+    "first_pass_valid": 226,
+    "first_pass_correct": 123,
+    "first_pass_accuracy_all_percent": 50.0,
+    "first_pass_accuracy_valid_percent": 54.424778761061944,
+    "total_api_calls": 266,
+    "failed_only_retry_calls": 20,
+    "winning_index_counts": {
+      "0": 131,
+      "1": 115
+    },
+    "constant_index0_accuracy_percent": 53.2520325203252,
+    "gpt51_reproduction_accuracy": "未记录",
+    "all_selected_score_labels_finite_and_unequal": true,
+    "metric_direction_labels_recomputed": 246,
+    "provider": "SiliconFlow",
+    "temperature": 1.0,
+    "max_tokens": 8192,
+    "thinking_budget": 32768,
+    "hardware": "client Python3.12.5; inference GPU/CPU hardware未记录"
+  },
+  "foreagent": {
+    "stanford": {
+      "status": "seen",
+      "replications": 1,
+      "paper_replications": 3,
+      "budget_seconds": 43200,
+      "ours_beat_ratio": 1.0,
+      "paper_beat_ratio": 1.0,
+      "paper_beat_ratio_sd": 0.0,
+      "ours_official_metric": 0.2664,
+      "author_mean_metric": 0.25862,
+      "raw_metric_difference": 0.007780000000000009,
+      "relative_error_difference_percent": 3.008274688732504,
+      "retained_nodes": 82,
+      "author_archived_retained_nodes": 155.33333333333334,
+      "paper_figure4_nodes": 158.67,
+      "selected_available_hours": 3.4605719444444443,
+      "author_selected_available_hours_mean": 7.344562685185186,
+      "gpu": "RTX4090 24GB",
+      "worker": "original pinned OCI/PRoot",
+      "controller": "Mac"
+    },
+    "aerial": {
+      "status": "unseen",
+      "replications": 1,
+      "paper_replications": 3,
+      "budget_seconds": 43200,
+      "ours_beat_ratio": 0.8771498771498771,
+      "paper_beat_ratio": 0.877,
+      "paper_beat_ratio_sd": 0.0,
+      "ours_raw_auc": 0.9999375316002257,
+      "ours_official_rounded_auc": 0.99994,
+      "author_mean_rounded_auc": 0.99992,
+      "raw_metric_difference_at_released_precision": 2e-05,
+      "retained_nodes": 82,
+      "author_archived_retained_nodes": 49.333333333333336,
+      "paper_figure4_nodes": 49.33,
+      "selected_available_hours": 6.855498055555556,
+      "author_selected_available_hours_mean": 1.0222500925925926,
+      "gpu": "RTX3090 24GB",
+      "cpu_quota_cores": 15,
+      "worker": "Python3.11.13 torch2.2.0+cu121 original OCI/PRoot",
+      "controller": "AutoDL Python3.12",
+      "selected_time_log_origin": "2026-11-15 03:34:06,031",
+      "selected_time_log_event": "2026-11-15 10:25:25,824"
+    }
+  },
+  "analysis_scope": "Only read/reparsed saved records and verified frozen leaderboard copies. New model calls=0; new training=0; no new candidate test grading.",
+  "paper_references": {
+    "main_accuracy": "Table2 physicalPDFp5 printed3945;18438pairs;3runmean61.5±0.2",
+    "models_temperature": "Section4.1 physicalPDFp4 printed3944",
+    "seen_unseen_and_budget": "Table5/Section6.3 physicalPDFp8 printed3948",
+    "beat_ratio": "Table13 physicalPDFp27 printed3967",
+    "infrastructure": "AppendixC.8 physicalPDFp22 printed3962",
+    "node_plot": "Figure4c physicalPDFp8 printed3948"
+  },
+  "confirmed_log_findings": {
+    "stanford_feedback_wait_seconds_including_retry": 13491.88,
+    "budget_share": 0.312312037037037,
+    "network_cause_attribution": "Mac screen/VPN interruption confirmed by experimenter after run; elapsed request/retries proved by logs; exact outage duration未记录",
+    "stanford_internal_metric": 0.4378,
+    "stanford_internal_validation_semantics": "zero-pad68labels to107 and compute per-batch three-column loss over107; official masks first68",
+    "cactus_integer_metric_rejections": 2,
+    "cactus_ready10s_failures": 4,
+    "cactus_pending_execution_at_deadline": 1
+  },
+  "runtime_comparisons": {
+    "scope": "Cactus 86 fresh saved comparator API responses; exact code SHA association",
+    "calls": 86,
+    "above_confidence_gate": 16,
+    "unique_code_identity_calls": 67,
+    "both_original_agent_valid": 0,
+    "both_valid_nontied_validation": 0,
+    "correct_against_validation": 0,
+    "conditional_validation_agreement": null,
+    "high_confidence_validation_pairs": 0,
+    "correct_high_confidence_against_validation": 0,
+    "unobserved_or_tied_pairs": 86,
+    "test_based_runtime_accuracy": "not recorded: full same-run private-test labels for all compared programs unavailable",
+    "interpretation": "Selected tiny subset and heterogeneous internal validation procedures; agreement is not paper-style held-out-test pairwise accuracy. No private answers read, no grading/training/inference.",
+    "source_sha256": "df85087f0a23e5d95cb507fadc36fd5694f6abafe80d9ae2a841cdb838915d79",
+    "pairs_with_both_saved_submissions": 0,
+    "note_identity": "19 requests have repeated exact code across node IDs; all request-code hashes map to saved nodes. Even at exact-program-code level, no comparison has submissions for both sides."
+  }
+}

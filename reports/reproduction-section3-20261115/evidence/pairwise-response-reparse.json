@@ -1,0 +1,8 @@
+{
+  "reparsed_adopted_responses": 246,
+  "historical_api_calls": 266,
+  "new_api_calls": 0,
+  "correct": 136,
+  "denominator": 246,
+  "expected_summary": "exact match"
+}

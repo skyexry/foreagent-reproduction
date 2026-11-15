@@ -1,0 +1,82 @@
+[
+  {
+    "task": "stanford-covid-vaccine",
+    "pinned_pointer_source": "/Users/shrinn81/Documents/Data Mining/Final Project/ML Agent/phase1-reproduction/code/author/mle-bench/mlebench/competitions/stanford-covid-vaccine/leaderboard.csv",
+    "materialization": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/environment-author/mle-bench/mlebench/competitions/stanford-covid-vaccine/leaderboard.csv",
+    "sha256": "5c3700fe1f674aef5c506de558711174fe15b085860ce2d1563e4b119ed581c1",
+    "size": 88407,
+    "ours": {
+      "score": 0.2664,
+      "beaten": 1636,
+      "teams": 1636,
+      "beat_ratio": 1.0,
+      "ties": 0
+    },
+    "authors": [
+      {
+        "score": 0.25768,
+        "beaten": 1636,
+        "teams": 1636,
+        "beat_ratio": 1.0,
+        "ties": 0
+      },
+      {
+        "score": 0.2432,
+        "beaten": 1636,
+        "teams": 1636,
+        "beat_ratio": 1.0,
+        "ties": 0
+      },
+      {
+        "score": 0.27497,
+        "beaten": 1636,
+        "teams": 1636,
+        "beat_ratio": 1.0,
+        "ties": 0
+      }
+    ],
+    "min_score": 0.34198,
+    "max_score": 0.77561,
+    "definition": "strictly better than leaderboard score; original scorer rounds metric to 5 decimals"
+  },
+  {
+    "task": "aerial-cactus-identification",
+    "pinned_pointer_source": "/Users/shrinn81/Documents/Data Mining/Final Project/ML Agent/phase1-reproduction/code/author/mle-bench/mlebench/competitions/aerial-cactus-identification/leaderboard.csv",
+    "materialization": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/environment-author/mle-bench/mlebench/competitions/aerial-cactus-identification/leaderboard.csv",
+    "sha256": "cdb280161eca63c9ab1f937dcfb715b710fd222afe4c65f13a763d64e4c48318",
+    "size": 63555,
+    "ours": {
+      "score": 0.99994,
+      "beaten": 1071,
+      "teams": 1221,
+      "beat_ratio": 0.8771498771498771,
+      "ties": 0
+    },
+    "authors": [
+      {
+        "score": 0.99992,
+        "beaten": 1071,
+        "teams": 1221,
+        "beat_ratio": 0.8771498771498771,
+        "ties": 0
+      },
+      {
+        "score": 0.99993,
+        "beaten": 1071,
+        "teams": 1221,
+        "beat_ratio": 0.8771498771498771,
+        "ties": 0
+      },
+      {
+        "score": 0.99991,
+        "beaten": 1071,
+        "teams": 1221,
+        "beat_ratio": 0.8771498771498771,
+        "ties": 0
+      }
+    ],
+    "min_score": 0.3363,
+    "max_score": 1.0,
+    "definition": "strictly better than leaderboard score; original scorer rounds metric to 5 decimals"
+  }
+]

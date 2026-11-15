@@ -1,0 +1,19 @@
+{
+  "new_model_calls": 0,
+  "new_training": 0,
+  "new_candidate_test_grades": 0,
+  "adopted_pairwise_responses_reparsed": 246,
+  "recomputed_label_directions": 246,
+  "pairwise_original_correct": 136,
+  "matched_author_correct": 130,
+  "github_result_blobs_matched": 3,
+  "pinned_leaderboards_sha_verified": 2,
+  "aerial_fresh_comparator_responses_audited": 86,
+  "aerial_two_saved_submission_pairs": 0,
+  "english_table_count": 2,
+  "english_required_subheadings": [
+    "Experimental Setup",
+    "Results",
+    "Comparison with the Original Work"
+  ]
+}

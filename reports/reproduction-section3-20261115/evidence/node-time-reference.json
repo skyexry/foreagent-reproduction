@@ -1,0 +1,104 @@
+{
+  "stanford-covid-vaccine": {
+    "runs": [
+      {
+        "run": "stanford-covid-vaccine_01abb886-c4d4-4db9-a3a9-176aab3cb038",
+        "retained_nodes": 183,
+        "executed": 33,
+        "selected_node": "f35059cb7c4249cf9d541ebebd2b327e",
+        "selected_feedback_time_hours": 5.524996944444445,
+        "time_origin_log": "2025-12-23 02:59:18,409",
+        "feedback_log": "2025-12-23 08:30:48,398",
+        "selection_metric": {
+          "value": 0.1645,
+          "maximize": false
+        }
+      },
+      {
+        "run": "stanford-covid-vaccine_5d12c313-c5f1-47fe-b4fe-7351e96ce9b0",
+        "retained_nodes": 142,
+        "executed": 34,
+        "selected_node": "e33a88bdaa804323b1e4ad9845b51859",
+        "selected_feedback_time_hours": 8.706889166666667,
+        "time_origin_log": "2025-12-23 03:46:05,193",
+        "feedback_log": "2025-12-23 12:28:29,994",
+        "selection_metric": {
+          "value": 0.3054,
+          "maximize": false
+        }
+      },
+      {
+        "run": "stanford-covid-vaccine_cbb2a0b0-d576-40fe-b948-3e05d7d00f33",
+        "retained_nodes": 141,
+        "executed": 25,
+        "selected_node": "c1e0beac30724c2087d05ae3f323b620",
+        "selected_feedback_time_hours": 7.801801944444445,
+        "time_origin_log": "2025-12-23 02:59:22,511",
+        "feedback_log": "2025-12-23 10:47:28,998",
+        "selection_metric": {
+          "value": 0.4202,
+          "maximize": false
+        }
+      }
+    ],
+    "retained_nodes_mean": 155.33333333333334,
+    "selected_time_mean_hours": 7.344562685185186
+  },
+  "aerial-cactus-identification": {
+    "runs": [
+      {
+        "run": "aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d",
+        "retained_nodes": 59,
+        "executed": 14,
+        "selected_node": "b27fcefb61394703af714e82fbcc193d",
+        "selected_feedback_time_hours": 0.9187583333333333,
+        "time_origin_log": "2025-12-24 05:55:31,827",
+        "feedback_log": "2025-12-24 06:50:39,357",
+        "selection_metric": {
+          "value": 0.9999,
+          "maximize": true
+        }
+      },
+      {
+        "run": "aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720",
+        "retained_nodes": 60,
+        "executed": 15,
+        "selected_node": "3cc56b00650f4079bfe3b8dd048e47e5",
+        "selected_feedback_time_hours": 1.009603611111111,
+        "time_origin_log": "2025-12-24 05:55:53,215",
+        "feedback_log": "2025-12-24 06:56:27,788",
+        "selection_metric": {
+          "value": 1.0,
+          "maximize": true
+        }
+      },
+      {
+        "run": "aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a",
+        "retained_nodes": 29,
+        "executed": 11,
+        "selected_node": "c212e33de2e149709a1808952638d212",
+        "selected_feedback_time_hours": 1.1383883333333333,
+        "time_origin_log": "2025-12-24 05:55:31,861",
+        "feedback_log": "2025-12-24 07:03:50,059",
+        "selection_metric": {
+          "value": 1.0,
+          "maximize": true
+        }
+      }
+    ],
+    "retained_nodes_mean": 49.333333333333336,
+    "selected_time_mean_hours": 1.0222500925925926
+  },
+  "stanford_reproduction_files": {
+    "journal_sha256": "1c93416a4b769c12e39d0ed4cb59c27b6fd62afb811305f12cdc73b460244397",
+    "nodes": 82,
+    "selected_node": "84c79a8dae404c0dae2bcd09d38d9daa",
+    "first_log_line": "[2026-11-08 01:22:02,252] INFO: Starting run \"exp\""
+  },
+  "aerial_reproduction": {
+    "time_origin_log": "2026-11-15 03:34:06,031",
+    "selected_feedback_log": "2026-11-15 10:25:25,824",
+    "selected_feedback_time_hours": 6.855498055555556,
+    "selected_node": "cf5dfdccf9ab47eab8cee08d7727e2b7"
+  }
+}
