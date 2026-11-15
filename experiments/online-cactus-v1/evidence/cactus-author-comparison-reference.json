@@ -1,0 +1,238 @@
+{
+  "purpose": "Read-only comparison reference from authors three public archived ForeAgent Cactus runs; current formal private labels and scoring untouched",
+  "dataset_revision": "6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06",
+  "count_definitions": {
+    "retained_journal_nodes": "len(journal.nodes), includes skipped candidates",
+    "retained_executed_nodes": "journal nodes with is_skipped != true; includes buggy executions",
+    "retained_valid_executed_nodes": "executed retained nodes with is_buggy false and finite numeric metric",
+    "scope_limit": "Final published journal and comparable persisted prefix; in-flight or discarded unfinished candidates excluded. Count of valid nodes is distinct from any saved CSV count."
+  },
+  "author_official_auc_mean": 0.99992,
+  "runs": [
+    {
+      "run": "aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d",
+      "author_published_final_official_auc": 0.99992,
+      "author_published_final_beat_ratio": 0.8771498771498771,
+      "save12_auc_matches": true,
+      "final_selected_node_id": "b27fcefb61394703af714e82fbcc193d",
+      "final_selected_internal_validation_metric": {
+        "value": 0.9999,
+        "maximize": true
+      },
+      "final_retained_journal_counts": {
+        "retained_journal_nodes": 59,
+        "retained_executed_nodes": 14,
+        "retained_valid_executed_nodes": 8,
+        "best_internal_validation_metric": 0.9999
+      },
+      "elapsed_6h50_checkpoint": {
+        "elapsed_seconds": 24600,
+        "start_timestamp_in_author_log": "2025-12-24T05:55:31.827000",
+        "target_timestamp_in_author_log": "2025-12-24T12:45:31.827000",
+        "last_outer_step_start": {
+          "timestamp": "2025-12-24T12:13:10.494000",
+          "label": 39,
+          "line": 101507,
+          "text": "[2025-12-24 12:13:10,494] INFO: Step 39/5000"
+        },
+        "seconds_since_last_step_boundary": 1941.333,
+        "next_outer_step_start": {
+          "timestamp": "2025-12-24T13:18:14.917000",
+          "label": 40,
+          "line": 103416,
+          "text": "[2025-12-24 13:18:14,917] INFO: Step 40/5000"
+        },
+        "persisted_journal_prefix_length": 38,
+        "counts": {
+          "retained_journal_nodes": 38,
+          "retained_executed_nodes": 11,
+          "retained_valid_executed_nodes": 5,
+          "best_internal_validation_metric": 0.9999
+        },
+        "precision": "Persisted complete-outer-step journal count inferred exactly from Step N label as N-1. Current in-flight batch or execution is excluded. Validation flags are from the immutable final journal prefix."
+      },
+      "artifacts": {
+        "logs/journal.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/logs/journal.json",
+          "sha256": "dcbef0e265db8a3ef4f23e4e6ece358f0e4080863db3962c50ba71abc6841a41",
+          "frozen_source_identity_type": "LFS SHA256",
+          "frozen_source_identity": "dcbef0e265db8a3ef4f23e4e6ece358f0e4080863db3962c50ba71abc6841a41",
+          "local_decompressed_copy_matches_fixed_revision": true
+        },
+        "logs/aide.log": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/logs/aide.log",
+          "sha256": "3acf22616e57bb6382e97dccc02131973d245d217fcebe0765e5ce509c401908",
+          "frozen_source_identity_type": "Git blob SHA1",
+          "frozen_source_identity": "7bc56ee42197ce7cbc523c1aad3b5b464754dbb7",
+          "local_decompressed_copy_matches_fixed_revision": true
+        },
+        "submission/eval_output.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/submission/eval_output.json",
+          "sha256": "b50b11af1ca511e7c65fb6e191c4710cd545aab0c6be17d5a645b9c35f5ac81e"
+        },
+        "save_12/submission/eval_output.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/save_12/submission/eval_output.json",
+          "sha256": "ca57a99a667593ad5dc556c43c333906f9787c00bd5d780e7752503cee746446"
+        },
+        "code/node_info.txt": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/code/node_info.txt",
+          "sha256": "47fd879cde4680c1e09dc2bf08f80d96777d4a8171ed808c8ec0422ee3aa5040"
+        }
+      }
+    },
+    {
+      "run": "aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720",
+      "author_published_final_official_auc": 0.99993,
+      "author_published_final_beat_ratio": 0.8771498771498771,
+      "save12_auc_matches": true,
+      "final_selected_node_id": "3cc56b00650f4079bfe3b8dd048e47e5",
+      "final_selected_internal_validation_metric": {
+        "value": 1.0,
+        "maximize": true
+      },
+      "final_retained_journal_counts": {
+        "retained_journal_nodes": 60,
+        "retained_executed_nodes": 15,
+        "retained_valid_executed_nodes": 8,
+        "best_internal_validation_metric": 1.0
+      },
+      "elapsed_6h50_checkpoint": {
+        "elapsed_seconds": 24600,
+        "start_timestamp_in_author_log": "2025-12-24T05:55:53.215000",
+        "target_timestamp_in_author_log": "2025-12-24T12:45:53.215000",
+        "last_outer_step_start": {
+          "timestamp": "2025-12-24T12:05:44.225000",
+          "label": 48,
+          "line": 136188,
+          "text": "[2025-12-24 12:05:44,225] INFO: Step 48/5000"
+        },
+        "seconds_since_last_step_boundary": 2408.99,
+        "next_outer_step_start": {
+          "timestamp": "2025-12-24T13:42:46.726000",
+          "label": 58,
+          "line": 171960,
+          "text": "[2025-12-24 13:42:46,726] INFO: Step 58/5000"
+        },
+        "persisted_journal_prefix_length": 47,
+        "counts": {
+          "retained_journal_nodes": 47,
+          "retained_executed_nodes": 11,
+          "retained_valid_executed_nodes": 7,
+          "best_internal_validation_metric": 1.0
+        },
+        "precision": "Persisted complete-outer-step journal count inferred exactly from Step N label as N-1. Current in-flight batch or execution is excluded. Validation flags are from the immutable final journal prefix."
+      },
+      "artifacts": {
+        "logs/journal.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/logs/journal.json",
+          "sha256": "36c5b38f59e26b64878f389ca66125537a93f9b29c539d491b9dced03bd1c6af",
+          "frozen_source_identity_type": "Git blob SHA1",
+          "frozen_source_identity": "1eac48ba11ea5776fb301428c14631166d2fc04d",
+          "local_decompressed_copy_matches_fixed_revision": true
+        },
+        "logs/aide.log": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/logs/aide.log",
+          "sha256": "e41d6b84853c01162b26ffde479892c66766443ccf0e183efbcc2c437c0dd1bc",
+          "frozen_source_identity_type": "Git blob SHA1",
+          "frozen_source_identity": "f4ff7523f79825f0f9a11b989e08e798d0e8929d",
+          "local_decompressed_copy_matches_fixed_revision": true
+        },
+        "submission/eval_output.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/submission/eval_output.json",
+          "sha256": "d1040106acea071a0ae95aea8834269d29d53b53790160457207111ca3b0acc3"
+        },
+        "save_12/submission/eval_output.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/save_12/submission/eval_output.json",
+          "sha256": "4798fde55b8a4b1b3a64f7b6110fa9f5b9df40faa80393cba8032398e0e3f910"
+        },
+        "code/node_info.txt": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/code/node_info.txt",
+          "sha256": "92e3b9ca46ff3f1e8f7aea3c5dee919d4172dec6a1495df7d0efd83e1dd833fc"
+        }
+      }
+    },
+    {
+      "run": "aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a",
+      "author_published_final_official_auc": 0.99991,
+      "author_published_final_beat_ratio": 0.8771498771498771,
+      "save12_auc_matches": true,
+      "final_selected_node_id": "c212e33de2e149709a1808952638d212",
+      "final_selected_internal_validation_metric": {
+        "value": 1.0,
+        "maximize": true
+      },
+      "final_retained_journal_counts": {
+        "retained_journal_nodes": 29,
+        "retained_executed_nodes": 11,
+        "retained_valid_executed_nodes": 4,
+        "best_internal_validation_metric": 1.0
+      },
+      "elapsed_6h50_checkpoint": {
+        "elapsed_seconds": 24600,
+        "start_timestamp_in_author_log": "2025-12-24T05:55:31.861000",
+        "target_timestamp_in_author_log": "2025-12-24T12:45:31.861000",
+        "last_outer_step_start": {
+          "timestamp": "2025-12-24T11:15:24.432000",
+          "label": 28,
+          "line": 74501,
+          "text": "[2025-12-24 11:15:24,432] INFO: Step 28/5000"
+        },
+        "seconds_since_last_step_boundary": 5407.429,
+        "next_outer_step_start": {
+          "timestamp": "2025-12-24T14:05:00.876000",
+          "label": 29,
+          "line": 76751,
+          "text": "[2025-12-24 14:05:00,876] INFO: Step 29/5000"
+        },
+        "persisted_journal_prefix_length": 27,
+        "counts": {
+          "retained_journal_nodes": 27,
+          "retained_executed_nodes": 9,
+          "retained_valid_executed_nodes": 4,
+          "best_internal_validation_metric": 1.0
+        },
+        "precision": "Persisted complete-outer-step journal count inferred exactly from Step N label as N-1. Current in-flight batch or execution is excluded. Validation flags are from the immutable final journal prefix."
+      },
+      "artifacts": {
+        "logs/journal.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/logs/journal.json",
+          "sha256": "ff4f39708077e13185a74ca233305de5adb9639d2f0f19b077c502abc26d321c",
+          "frozen_source_identity_type": "Git blob SHA1",
+          "frozen_source_identity": "f2112d9460ee56e52b582d406f558cc7ec50d027",
+          "local_decompressed_copy_matches_fixed_revision": true
+        },
+        "logs/aide.log": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/logs/aide.log",
+          "sha256": "03bf6b120cf37d538e99c69b824e04f8dc93e4c5d803af22ad4739c4a74d0866",
+          "frozen_source_identity_type": "Git blob SHA1",
+          "frozen_source_identity": "ff52a981bca9126fe667cd3a5013217e323605cc",
+          "local_decompressed_copy_matches_fixed_revision": true
+        },
+        "submission/eval_output.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/submission/eval_output.json",
+          "sha256": "b588fa4fa2cacf6aa438205758283e76263c1c9726dd349657be664de0ec042f"
+        },
+        "save_12/submission/eval_output.json": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/save_12/submission/eval_output.json",
+          "sha256": "707ddfe644684feb5d5276c4914befdf5cb0f04f2e5a27725099e29459c3500c"
+        },
+        "code/node_info.txt": {
+          "url": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb88bdbcb2b2d3897ec7d0ded94a5bb2d06/agent_runs/ForeAgent/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/code/node_info.txt",
+          "sha256": "a697f8ca402eec37b2cc151a3a8e40ee12dffd7a0b276cea28e053f6b2d3ceb7"
+        }
+      }
+    }
+  ],
+  "current_snapshot_provided_by_root": {
+    "elapsed_approx_seconds": 24600,
+    "retained_journal_nodes": 39,
+    "valid_executed_nodes": 5,
+    "saved_csv_count": 7,
+    "completed_tournaments": 2,
+    "best_internal_validation_metric": 0.999907,
+    "official_score": "pending scheduled final evaluation"
+  },
+  "comparability": "Current internal validation score is comparable only descriptively to author internal node metrics; it is not the same measurement as author official held-out AUC. Node throughput comparisons are descriptive across hardware/provider/network and generated-model differences.",
+  "private_current_labels_read": false,
+  "current_scoring_performed": false
+}

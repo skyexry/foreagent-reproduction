@@ -1,0 +1,140 @@
+{
+  "experiment_id": "cactus-autodl-original-v1",
+  "scope": "cactus-formal-v1",
+  "status": "formal wall-clock budget ended",
+  "budget_seconds": 43200,
+  "started_china": "2026-11-15 03:34:06",
+  "deadline_china": "2026-11-15 15:34:06",
+  "observed_controller_elapsed_seconds": 43199.619012117386,
+  "source_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "journal_nodes": 82,
+  "original_agent_valid_nodes": 11,
+  "preserved_node_submissions": 13,
+  "completed_tournaments": 6,
+  "execution_jobs": 32,
+  "completed_execution_results": 31,
+  "budget_censored_jobs": [
+    "f4d5be06c2a345bbb4ac1bad7d1f012e"
+  ],
+  "selected_node_id": "cf5dfdccf9ab47eab8cee08d7727e2b7",
+  "selected_submission_sha256": "a1e1bfbe71323039d4a535d56b710a5993196b003a718e7919dc9fbc731045e5",
+  "best_validation_auc": 0.999926,
+  "raw_official_test_auc": 0.9999375316002257,
+  "independent_id_aligned_test_auc": 0.9999375316002257,
+  "mlebench_rounded_score": 0.99994,
+  "author_three_released_scores": [
+    0.99992,
+    0.99993,
+    0.99991
+  ],
+  "api": {
+    "request_start_count": 200,
+    "response_count": 200,
+    "http_status_counts": {
+      "200": 200
+    },
+    "request_error_count": 0,
+    "pending_request_ids": [],
+    "response_roles": {
+      "DeepSeek-V3.2": 83,
+      "gpt-4o-mini-2024-07-18": 31,
+      "DeepSeek-V3.2-Thinking": 86
+    },
+    "latency_seconds": {
+      "median": 94.5522243976593,
+      "max": 178.77408480644226
+    },
+    "raw_api_file_count": 600
+  },
+  "backups": {
+    "cycle_count": 143,
+    "successful_cycles": 143,
+    "failed_cycles": 0,
+    "last_backup": {
+      "event": "backup",
+      "scope": "cactus-formal-v1",
+      "elapsed_seconds": 3.176906108856201,
+      "success": true,
+      "results": [
+        {
+          "path": "runs/cactus-formal-v1",
+          "exit": 0
+        },
+        {
+          "path": "supervision/cactus-formal-v1",
+          "exit": 0
+        },
+        {
+          "path": "workers/cactus-formal-v1/jobs",
+          "exit": 0
+        }
+      ],
+      "time": 1794728236.409499,
+      "utc": "2026-11-15T07:37:16.409531+00:00"
+    },
+    "ended": [
+      {
+        "event": "backup_ended",
+        "reason": "supervisor_completed",
+        "time": 1794728236.4110038,
+        "utc": "2026-11-15T07:37:16.411005+00:00"
+      }
+    ]
+  },
+  "verified_record_files": 1263,
+  "server_local_checksum_exact_match": true,
+  "ready_window_exceptions": [
+    {
+      "job_id": "519e99c5719b4033af9d91e0034f2014",
+      "exception_type": "RuntimeError",
+      "author_exec_seconds": 0,
+      "classification": "author_interpreter_ready_window"
+    },
+    {
+      "job_id": "91c5759f5664446897488e891de883bc",
+      "exception_type": "RuntimeError",
+      "author_exec_seconds": 0,
+      "classification": "author_interpreter_ready_window"
+    },
+    {
+      "job_id": "b71fdc38156f4cef8e36a64aabda5381",
+      "exception_type": "RuntimeError",
+      "author_exec_seconds": 0,
+      "classification": "author_interpreter_ready_window"
+    },
+    {
+      "job_id": "c4d08b7c66d44c61aa67fa5186b44782",
+      "exception_type": "RuntimeError",
+      "author_exec_seconds": 0,
+      "classification": "author_interpreter_ready_window"
+    }
+  ],
+  "recording_policy": "Retain all 13 schema-valid CSVs and original flags: 11 accepted; 2 rejected by original float-only parser after integer metric=1. Grade only original-selected best after run.",
+  "environment": "Author algorithm and parameters retained. RTX3090, reused original Python3.11.13/torch2.2.0+cu121 worker via PRoot; separate Python3.12 controller; DeepSeek through SiliconFlow, OpenAI via Mac Cisco VPN relay.",
+  "shutdown": {
+    "worker_pid_records": 32,
+    "live_scope_worker_count": 0,
+    "gpu_compute_processes": {
+      "exit": 0,
+      "lines": []
+    },
+    "controller": {
+      "pid": 6696,
+      "alive": false
+    },
+    "supervisor": {
+      "pid": 6691,
+      "alive": false
+    }
+  },
+  "input_restoration": "Raw inputs and transient model weights restore separately using fixed source/checksum references.",
+  "conclusion_scope": "Single adapted end-to-end original run; compare author scores descriptively.",
+  "record_archive": {
+    "name": "complete-records.tar.gz",
+    "sha256": "44b6a2a8cc37d716e1e35eff4c521e1bc0251a3c51dec96eff9abd87bf71938c",
+    "bytes": 14730919,
+    "delivery_directory": "outputs/cactus-original-12h-20261115",
+    "local_chat_directory": "Documents/Codex/2026-11-15/new-chat-3",
+    "contents": "Full records and audit evidence; per-node CSVs, API originals, timing, resources, runtime snapshots. Credentials and raw private answers remain separately managed."
+  }
+}

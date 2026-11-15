@@ -1,0 +1,16 @@
+{
+  "scope": "cactus-formal-v1",
+  "raw_official_grade_function_auc": 0.9999375316002257,
+  "independent_id_aligned_auc": 0.9999375316002257,
+  "mlebench_rounded_score": 0.99994,
+  "round_decimal_places": 5,
+  "author_released_scores": [
+    0.99992,
+    0.99993,
+    0.99991
+  ],
+  "author_mean_released_score": 0.99992,
+  "grade_helper_sha256": "7d55512a893699b2e17041f3cd3bd0c2aba955c73f50872b3c69238546b87005",
+  "rounding_source": "frozen author mlebench/grade_helpers.py Grader.__call__, rounded_score = round(score, 5)",
+  "note": "Compare author released eval_output scores at their five-decimal precision; raw current AUC separately retained. Beat ratio left uncomputed; local leaderboard is an LFS pointer."
+}

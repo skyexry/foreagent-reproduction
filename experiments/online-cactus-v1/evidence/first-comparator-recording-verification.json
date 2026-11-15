@@ -1,0 +1,2293 @@
+{
+  "observed": 1794698379.8999138,
+  "scope": "cactus-formal-v1",
+  "first_comparator": {
+    "request_id": "506923898e2a4c1fa6b44c51d0492478",
+    "role": "DeepSeek-V3.2-Thinking",
+    "status": "responded",
+    "archives_present": {
+      "request": true,
+      "routed-request": true,
+      "response": true
+    },
+    "messages_equal_after_routing": true,
+    "exact_original_thinking_route": true,
+    "http": 200,
+    "elapsed_seconds": 63.53964018821716,
+    "response_id": "01a1dc561eb1d745ccb37585fdb0923f",
+    "provider_request_id": null,
+    "trace_headers": {},
+    "usage": {
+      "prompt_tokens": 11207,
+      "completion_tokens": 1429,
+      "total_tokens": 12636,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1136
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 11207
+    },
+    "response_id_matches_archive": true,
+    "sha256": {
+      "request": "ca7542252e31b1ef38cc3ea1727e6f9fd47cead41015b3073b25992a7f016d79",
+      "routed-request": "bd34c8e8fcce0665490b9afacd39771056175c3daf8661c3f2885ad9dec95e0c",
+      "response": "78cbf5a9b8c77dfc9d6aee187473e43d6113430c5027c41cd874187950e6d75a"
+    },
+    "reasoning_characters": 5296,
+    "answer_characters": 1474,
+    "combined_response_sha256": "d9777b40596dd16d36cdca54569540d2fa5209a4433d5acad3383afe3a417438",
+    "final_json": {
+      "predicted_best_index": 0,
+      "confidence": 0.65
+    },
+    "finish_reason": "stop",
+    "ordered_solution_code_sha256": [
+      "f2778bfc0e088d40648940d4346527914bc2e531da6632f28a65c9e7f71b5057",
+      "a2d8a68727c02c4e7b830efcd0dc80ce7acbfe0d7c2b8cd5855f94575e4e6b11"
+    ],
+    "ordered_solution_node_ids": [
+      [
+        "7ef661df05824a0f8295d18e6f751ae9"
+      ],
+      [
+        "c0dcd517d7574d4e9eff0e1a573ab79a"
+      ]
+    ]
+  },
+  "request_count": 51,
+  "response_count": 51,
+  "error_count": 0,
+  "pending_count": 0,
+  "thinking_response_count": 13,
+  "missing_archive_failures": [],
+  "first_and_later_api_checks": [
+    {
+      "request_id": "7f0ef511741d4a658abe2d9228a81483",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 107.28759527206421,
+      "response_id": "01a1db8d64db487ef40bc978fcb44296",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 2730,
+        "completion_tokens": 2660,
+        "total_tokens": 5390,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2730
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "9c2d85b897ef7636bd81e6d6105ac6fee52e30bd95dc7cff8272177b11ec1ee2",
+        "routed-request": "0112eaff7aa62031e537315c73037700c7afbddb36abcf7fd77cb12c7f754894",
+        "response": "5408c30d8a4a0785f1822548d73d9ae5581a2fb9f109886d1eae4f340507c6cd"
+      }
+    },
+    {
+      "request_id": "01c8807e69a74945ab9f9983c0cd6a33",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 4.78338885307312,
+      "response_id": "chatcmpl-EkDq6cSa2pBT1boij33yihsfHQpch",
+      "provider_request_id": "req_c2185d8359fe415fa4a0ca3274984c04",
+      "trace_headers": {
+        "x-request-id": "req_c2185d8359fe415fa4a0ca3274984c04",
+        "cf-ray": "a5a8773aecf0e399-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4720,
+        "completion_tokens": 64,
+        "total_tokens": 4784,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "d8cdbac2cdba4d656872259c4cb7ca93e3c1d91164a744505647e1b2d3aa4cd5",
+        "routed-request": "d8cdbac2cdba4d656872259c4cb7ca93e3c1d91164a744505647e1b2d3aa4cd5",
+        "response": "e1ad0cc8c05338c75e033dcc139f9570d27b20dd8fff9a340f748a92ef8fa0ab"
+      }
+    },
+    {
+      "request_id": "8541935ae3f24cd4ae3fa60a5da99477",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 107.09938144683838,
+      "response_id": "01a1db8dd8281958c56ffa717781266d",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 2730,
+        "completion_tokens": 2558,
+        "total_tokens": 5288,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2730
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "9bc03f2e892f7656a6d161140bec7a00ce36c523c1e94efd5ea495af1480a3c9",
+        "routed-request": "5601cf519381bfd2bc42cfd7d62c5a1611c059bcb605655cda60382162bf07d0",
+        "response": "fe4ace9b3d5f0d37a31deebb31557ea9110e336ec89adb53f187f571c76899b1"
+      }
+    },
+    {
+      "request_id": "2cb21e70122f4a0182084ccad456797e",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 2.6362202167510986,
+      "response_id": "chatcmpl-EkDsOpoNDiVPzl1toQmiONs0w2j92",
+      "provider_request_id": "req_755fe92cf7474745873af42b608ad93b",
+      "trace_headers": {
+        "x-request-id": "req_755fe92cf7474745873af42b608ad93b",
+        "cf-ray": "a5a87ab168bb6c77-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 6074,
+        "completion_tokens": 84,
+        "total_tokens": 6158,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "66a9e4bd3321d5d4f9f50407b27ba09565ba8eb24045e7f967794f76f77e934a",
+        "routed-request": "66a9e4bd3321d5d4f9f50407b27ba09565ba8eb24045e7f967794f76f77e934a",
+        "response": "b7375fb6adc7c92f9b00afe1ac051efae641c88e7b95b1ed0388ac1d23fcf290"
+      }
+    },
+    {
+      "request_id": "2ea793d8ab0a402d995e9791dd3ca43b",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 115.16368079185486,
+      "response_id": "01a1db8ffa8145d3eca2651b7a2338cf",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 2730,
+        "completion_tokens": 2710,
+        "total_tokens": 5440,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2730
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "dc6dfe95ce928e58b4247ec45abf2076bd273c6e8d3fbb2988fe7b433794f5c8",
+        "routed-request": "92a5527cb2bc03f3b9d9cc70d84de8d10bb686b4e05820e4c38455093072d94e",
+        "response": "5e085066e99108f7b884583d9938a31c10ce099e3e66b46acf96a4fb507fe255"
+      }
+    },
+    {
+      "request_id": "9e4f1ad2b2cd462a9e5b6246806b74a2",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 2.804537296295166,
+      "response_id": "chatcmpl-EkDuhyVXiXyKO22wiaw0q9gv0lDFz",
+      "provider_request_id": "req_aa15ec6a297a42e19b03ec54e8c22a91",
+      "trace_headers": {
+        "x-request-id": "req_aa15ec6a297a42e19b03ec54e8c22a91",
+        "cf-ray": "a5a87e2c2dd5e0a0-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4749,
+        "completion_tokens": 66,
+        "total_tokens": 4815,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "ec880a82c25548caa8c739335903e6c56656eaa6ffe4238d34c7b9933befa51b",
+        "routed-request": "ec880a82c25548caa8c739335903e6c56656eaa6ffe4238d34c7b9933befa51b",
+        "response": "4e6874ada93a0f94dec40bb476cb7637715891fe5e0386fd538bdd8834b93ce3"
+      }
+    },
+    {
+      "request_id": "80f81f919f3c492eab9f69e1385988af",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 109.07100486755371,
+      "response_id": "01a1db92661f7ac8fb583ca18de2ac1d",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5899,
+        "completion_tokens": 2702,
+        "total_tokens": 8601,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5899
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "d12232f98478d3eb7522e0a9d9701ce2888f0e87e0956acd5224d1029fcb8267",
+        "routed-request": "d9c83430eb00ee454e6f05398246cc59cde8049d2bf9bc73b56337a646383088",
+        "response": "da1c1194ce8f70c554dee621aa36e9f305bed862aaf1c9c47ebe59f7c5fdbbf1"
+      }
+    },
+    {
+      "request_id": "d7c62fd9c731427790a704163abbe4ed",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 4.191167593002319,
+      "response_id": "chatcmpl-EkEK54kVx1xA09YVDn0HIYSFQxFBc",
+      "provider_request_id": "req_c15589cb8e174e1c8245fbcbf0fe1bcb",
+      "trace_headers": {
+        "x-request-id": "req_c15589cb8e174e1c8245fbcbf0fe1bcb",
+        "cf-ray": "a5a8a498c864d483-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 6574,
+        "completion_tokens": 87,
+        "total_tokens": 6661,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "da685d6ebd35497bf4851a573e602ec7e878a4ae148f76ad78f16ed7d8ec62c5",
+        "routed-request": "da685d6ebd35497bf4851a573e602ec7e878a4ae148f76ad78f16ed7d8ec62c5",
+        "response": "f4cd0fa4b4c269a475d9206b15cf82dba3d86440f708de4616188a6cce65c500"
+      }
+    },
+    {
+      "request_id": "f6ccf7a0e7064434a551a302e4c4c0f0",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 115.47664666175842,
+      "response_id": "01a1dbabc7c34cda32282c4e86f98edb",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 6019,
+        "completion_tokens": 2729,
+        "total_tokens": 8748,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 6019
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "73cc9725a581adb28125f9f0adb8351c6dfb9cc2f9733734505b1c337ea5215d",
+        "routed-request": "cc7639d15ec040c372a1bc867ec99ddc01cd45d883c7acd12c6228e3c5499f78",
+        "response": "47a3a45def8049ea1617bed2513b3c1888db88d8d55bc1cf1a450c5c44f25fcc"
+      }
+    },
+    {
+      "request_id": "4acd960421c24741a0d276cf1be4f029",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 2.2787535190582275,
+      "response_id": "chatcmpl-EkEMOKI2KJwEUwssNzpomvQpSBzUQ",
+      "provider_request_id": "req_d876098d2d9b4dc896279ff9a7596aaa",
+      "trace_headers": {
+        "x-request-id": "req_d876098d2d9b4dc896279ff9a7596aaa",
+        "cf-ray": "a5a8a81f9eb5269d-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4528,
+        "completion_tokens": 72,
+        "total_tokens": 4600,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "48282407190dce445266f76b20ea462a5f65c972b9f13cc520766b0d3b29f9dc",
+        "routed-request": "48282407190dce445266f76b20ea462a5f65c972b9f13cc520766b0d3b29f9dc",
+        "response": "358c7358a7305ebf3bd1f2ed2cec586b362fb7f6ab9affe7c812e8f0389d5ac0"
+      }
+    },
+    {
+      "request_id": "d3a1055ef9dc46169ffc59686cb34536",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 112.4849579334259,
+      "response_id": "01a1dbac9c184da96e7121ce028f84a5",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5723,
+        "completion_tokens": 2728,
+        "total_tokens": 8451,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5723
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "dd529a995d75c207da5a8f19d6bcb91ce2e30c03a4aaf2fe7af76bcfe81e2076",
+        "routed-request": "39362e82c3a86fda87476e4098fed4a96dfb3431fbac52efcf39aea0befa6e93",
+        "response": "13533cc86acccda421c8a2bc725ec10e98235d7914f5f11516704ac4ec5ec678"
+      }
+    },
+    {
+      "request_id": "f14636f97626411ba867a009010d69a0",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.2934579849243164,
+      "response_id": "chatcmpl-EkEOZEm3sEAGReWTf4PI2OBp3CDnq",
+      "provider_request_id": "req_137ac91dfe6e468e9074ed06a35ee353",
+      "trace_headers": {
+        "x-request-id": "req_137ac91dfe6e468e9074ed06a35ee353",
+        "cf-ray": "a5a8ab613c87c535-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4212,
+        "completion_tokens": 65,
+        "total_tokens": 4277,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "1b5ab7716b5d44ba178e4131c6c37771a0ed4ad8e5fd8397060bc8e5c424cb24",
+        "routed-request": "1b5ab7716b5d44ba178e4131c6c37771a0ed4ad8e5fd8397060bc8e5c424cb24",
+        "response": "3b4cc4d088a34797c559985ff2466f0ce5b78edc2554097c0018ae866939eb0a"
+      }
+    },
+    {
+      "request_id": "9a2034a374174f119cd582889dd45b14",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 110.53692936897278,
+      "response_id": "01a1dbae6a604a9c20ee3f5b9b8bc5b3",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5581,
+        "completion_tokens": 2720,
+        "total_tokens": 8301,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5581
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "357045085650986fb32efad88cc12361377fe5107c79bcb719950fda63a81fde",
+        "routed-request": "870b5ad386e93fb2d2b65fc2af25f80880db72a25cda6c481aab26fe3370e596",
+        "response": "3d39819399a3a14f3eb76d6d6e5a9cb75dffa5ecb3dfb7976ae17864279cec12"
+      }
+    },
+    {
+      "request_id": "4e44df6276504cb7857503226add7b3c",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.4615893363952637,
+      "response_id": "chatcmpl-EkEq8so8tRmnBekHjG15lDByTn6si",
+      "provider_request_id": "req_ed69af158e704f2b8802bc8c485e6936",
+      "trace_headers": {
+        "x-request-id": "req_ed69af158e704f2b8802bc8c485e6936",
+        "cf-ray": "a5a8d51b6ed3dee3-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 6603,
+        "completion_tokens": 94,
+        "total_tokens": 6697,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "5939e2dfbd344b3bfed5a6cfe1956a0d0d3e64e13fff9d9b9432a0c5dbe149ce",
+        "routed-request": "5939e2dfbd344b3bfed5a6cfe1956a0d0d3e64e13fff9d9b9432a0c5dbe149ce",
+        "response": "b3e9547c6fd12662f4c70e69385f6ef0f2a7081156e9dd83bd493fdfd50b961a"
+      }
+    },
+    {
+      "request_id": "ad3557d932f646e19e93b79e8e23b18e",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 121.91618204116821,
+      "response_id": "01a1dbca2cf8e62bf102b4a771a72ed6",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 6049,
+        "completion_tokens": 3067,
+        "total_tokens": 9116,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 6049
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "b7ddead5c110f6f1b1b8ec3fa19fec0c7ebc01a4a3265f99f1be6f496c6c5ee6",
+        "routed-request": "17d49f0622002135d1b9c8234d7c714cb599d12f0e71caddb6ea72c941a98c75",
+        "response": "9ca2048bbc07ba9420a32f03132d8dbedb231a05ea5bc80c59aafc463d6631b0"
+      }
+    },
+    {
+      "request_id": "67c8f1bdc10d4f89a66fe076e222046c",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.8992347717285156,
+      "response_id": "chatcmpl-EkFYwxMSNaJKGZ0t0mtMpsjer1oTo",
+      "provider_request_id": "req_3074b740cc5a4d0baba2dbf125eacfa8",
+      "trace_headers": {
+        "x-request-id": "req_3074b740cc5a4d0baba2dbf125eacfa8",
+        "cf-ray": "a5a918efc9132623-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 6820,
+        "completion_tokens": 71,
+        "total_tokens": 6891,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "b8a2dc6a7fde22c00f289cbd031fe413d7ffe474ab8ca35a7ef1704bed7e83e7",
+        "routed-request": "b8a2dc6a7fde22c00f289cbd031fe413d7ffe474ab8ca35a7ef1704bed7e83e7",
+        "response": "29633cf46bf3ae88f1d6c57679de60a3d140e9a9887eeed5b725d7a7f1338bb0"
+      }
+    },
+    {
+      "request_id": "75085dcd29834a8b802abdcf3ddbf854",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 106.00066709518433,
+      "response_id": "01a1dbf3bc357fa4d0a467ddb63ef661",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5235,
+        "completion_tokens": 2751,
+        "total_tokens": 7986,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5235
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "b8cad9df4ccf468bfb24c130e26f3f1627485f3f9ad60fe2e3e1aa0963a13a77",
+        "routed-request": "9d279465cd481c3f4f3d900a24acd056f2b94f9894d4078f63b7159a6cabb228",
+        "response": "d011a4ebe76f474f5b83b833b194692eeb6d6c405a539f2965b5f0e201ecf41c"
+      }
+    },
+    {
+      "request_id": "f4c62592487c42f6b6c3fd435a61cba4",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.1774590015411377,
+      "response_id": "chatcmpl-EkFb3CF0LfFVsu3YhJV7scR9jj3oK",
+      "provider_request_id": "req_6f323c34e3df442fb07b78968fcd80cf",
+      "trace_headers": {
+        "x-request-id": "req_6f323c34e3df442fb07b78968fcd80cf",
+        "cf-ray": "a5a91c20ea2f27f4-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4569,
+        "completion_tokens": 68,
+        "total_tokens": 4637,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "f4f33d82bfb8dac3c672cf5e6ab7815199a7b876b95201c7a8df1a4a8fc81f44",
+        "routed-request": "f4f33d82bfb8dac3c672cf5e6ab7815199a7b876b95201c7a8df1a4a8fc81f44",
+        "response": "ff5a4364ee2884bfb95291cded06c2c6000ce3308d5030586389b353d9255e7b"
+      }
+    },
+    {
+      "request_id": "b24633cc7924429e92e72e056e7ade6a",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 109.53470826148987,
+      "response_id": "01a1dbf52be99a2437a68e524f238db7",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5732,
+        "completion_tokens": 2727,
+        "total_tokens": 8459,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5732
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "034dafc9a230a5559e6564f25e4dc380a1069d4379401aecaf9fa43f1774ca2a",
+        "routed-request": "c974d92f3ddb38d1f0f727ea75a99ca81223fd75320cd99ec895b3f8411aef67",
+        "response": "df0dfd41a6667f9a8fabe9a59279e02b6961a1e2fb49534216d6924164a0fa1b"
+      }
+    },
+    {
+      "request_id": "19a7f3a4333848b2ab30870497d19faf",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.1601951122283936,
+      "response_id": "chatcmpl-EkFjOSOfTVvY1qCVnkCbqGENVT5kR",
+      "provider_request_id": "req_e92cae875af74fd3b4a6a9a134fe3a2e",
+      "trace_headers": {
+        "x-request-id": "req_e92cae875af74fd3b4a6a9a134fe3a2e",
+        "cf-ray": "a5a928c60f00af61-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 5530,
+        "completion_tokens": 72,
+        "total_tokens": 5602,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "22849d23df7a720c574e3b9760c3cdac3dfdd9f35b95fe945fc8f2c5843ac292",
+        "routed-request": "22849d23df7a720c574e3b9760c3cdac3dfdd9f35b95fe945fc8f2c5843ac292",
+        "response": "f1eeebd02c3d7380b08ddf2a1e34d8e0eb72606c135b9b7a6ac098edbf7a9742"
+      }
+    },
+    {
+      "request_id": "1b772ff926af42589d40d359944cd571",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 113.89271783828735,
+      "response_id": "01a1dbfd47c1f54b8cc0cb8bff29b386",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5618,
+        "completion_tokens": 2835,
+        "total_tokens": 8453,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5618
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "be6ce4d328ad6273147411cd5653f6c65705e965689ff9d955fb99a2f9aff6aa",
+        "routed-request": "8d3e44eeadf5b101c7fe3d1d67beef310c720f27c671a36e5e5e075b41f07354",
+        "response": "28b59e780f010b1c7ac873438c87ed08d39995dd1e08a058985ab8a1b5ad5b90"
+      }
+    },
+    {
+      "request_id": "bbe28bc80cac45b8a6d2952f10aa3a71",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 2.9143216609954834,
+      "response_id": "chatcmpl-EkFlalup1sExotuQOy6pXYojSsHKG",
+      "provider_request_id": "req_bc62d95ab9f54d6ca8a7647fa75dc695",
+      "trace_headers": {
+        "x-request-id": "req_bc62d95ab9f54d6ca8a7647fa75dc695",
+        "cf-ray": "a5a92c10a9c49d71-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4967,
+        "completion_tokens": 64,
+        "total_tokens": 5031,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "e5a63576f69eb5578067d83aeceae640c396c20002b40ac175d8db4ce928344a",
+        "routed-request": "e5a63576f69eb5578067d83aeceae640c396c20002b40ac175d8db4ce928344a",
+        "response": "0127be1846ffd4b632975f0ef8c2958b3050e6f77eb2e2fe43ffda0b6a1cf72d"
+      }
+    },
+    {
+      "request_id": "9d45e9d8b19c46209ae80cc36bf38b85",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 103.86787271499634,
+      "response_id": "01a1dbfed67638773e13820d69f539bf",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5929,
+        "completion_tokens": 2676,
+        "total_tokens": 8605,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5929
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "2c1cde4d4f64b2070bb5fa642f3a3675b287d5906e75870764f2877fed5e4968",
+        "routed-request": "13308d3347113ad4cbfb9e595cafdb7653fc6dd720119b21f0edec29cf4db53c",
+        "response": "e089c326d48371818f336650ce0a585337ef75a69e98dac57020ab5fb81f56c4"
+      }
+    },
+    {
+      "request_id": "fc77be3e558842e8bdacfb77a41a0499",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.1450486183166504,
+      "response_id": "chatcmpl-EkGGYPzBY6NBE3Y44rn0AkUuDZH2F",
+      "provider_request_id": "req_21ac2daece454681b4f6eb13ff27731b",
+      "trace_headers": {
+        "x-request-id": "req_21ac2daece454681b4f6eb13ff27731b",
+        "cf-ray": "a5a95af3ccfedc2a-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 6383,
+        "completion_tokens": 66,
+        "total_tokens": 6449,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "88839c33cc939c0ab8133b7649d1bc79c985dd6c658002ee5ef917afd30167b1",
+        "routed-request": "88839c33cc939c0ab8133b7649d1bc79c985dd6c658002ee5ef917afd30167b1",
+        "response": "19232f30ea55c802ca09fc1eaa6f2a60f619d2fb91b47d0a5dccab19e5d55743"
+      }
+    },
+    {
+      "request_id": "ed6a67245313416bb83d3b27b51b0d02",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 111.65446186065674,
+      "response_id": "01a1dc1dade69db9c67ce6a710b73bc1",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5898,
+        "completion_tokens": 2908,
+        "total_tokens": 8806,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5898
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "8292bc1046cda38d4e808b99d7a37b1195854364d84e69922622bf85014c7be3",
+        "routed-request": "fc159333e20f2b9174fc81f1e5f27bd97def9e2cdf3a13247d510c796788b12f",
+        "response": "9f4f7a6b888a3d5e23c46d322fb6bd84a59aca4bc98a27a0178357ec8ce115f1"
+      }
+    },
+    {
+      "request_id": "20632095c82a4d4c853a52304b8f9eea",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 2.180776357650757,
+      "response_id": "chatcmpl-EkGIld5ADf1ey5fBWgzd7qmH1dAQE",
+      "provider_request_id": "req_1464d3c2474a46b88556332bbaf36e60",
+      "trace_headers": {
+        "x-request-id": "req_1464d3c2474a46b88556332bbaf36e60",
+        "cf-ray": "a5a95e50f8d3e373-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 4993,
+        "completion_tokens": 64,
+        "total_tokens": 5057,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "e6a5e7277165eef37cad3e1fde1d816a1cb29c58fc340fdc9ccec89164375191",
+        "routed-request": "e6a5e7277165eef37cad3e1fde1d816a1cb29c58fc340fdc9ccec89164375191",
+        "response": "dac48dfd359afb55d4faee77bbabadc65e3ed826d7aa38214e13df96dab03fe8"
+      }
+    },
+    {
+      "request_id": "ceb0450e284043faade2d07944a69e24",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 112.35402083396912,
+      "response_id": "01a1dc1eba6a0214698ceaa1001153d8",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5927,
+        "completion_tokens": 2909,
+        "total_tokens": 8836,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5927
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "74191e75be170dbf9c952f8f51d4d92dcdb40e6a0bcae8f8a900b7e3cae87478",
+        "routed-request": "2fd830b4e86cc2a98595ab13a295c1496d2d7d2029c3427f27488d24e43eb8a5",
+        "response": "25b5d640d13d9ac262995f1f3da360709303e34bab487a82a01a49bbcf89c943"
+      }
+    },
+    {
+      "request_id": "208e1c2678584c27abe23a925f4fec8f",
+      "role": "gpt-4o-mini-2024-07-18",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 3.2482688426971436,
+      "response_id": "chatcmpl-EkGsZeHW3krPhJOTvOuQPRR3bfGq4",
+      "provider_request_id": "req_69799673bc2b4528b66883557d26bc1a",
+      "trace_headers": {
+        "x-request-id": "req_69799673bc2b4528b66883557d26bc1a",
+        "cf-ray": "a5a994800a15da46-NRT"
+      },
+      "usage": {
+        "prompt_tokens": 6510,
+        "completion_tokens": 80,
+        "total_tokens": 6590,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "c506038e581ac018732a8dc8557aef68fdb897088d040dc77f4c87f372374e18",
+        "routed-request": "c506038e581ac018732a8dc8557aef68fdb897088d040dc77f4c87f372374e18",
+        "response": "248a77a78d562f6898412d25c44fbc3a2f4d816a3ab3d8f11c3be78feefc3c32"
+      }
+    },
+    {
+      "request_id": "84d249a1a0f54dcab22758766775ca25",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 124.52483034133911,
+      "response_id": "01a1dc4158bc0ac8add587d952be2dec",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5303,
+        "completion_tokens": 3223,
+        "total_tokens": 8526,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5303
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "2903494a0789dbfdc7f9cd37feb239f9223a8393095665fd72b2ecafc6b43e15",
+        "routed-request": "d23ced843d708b7dacbfd24bb630071d67cb9a6c5536c8cffcc9babf4ff2af5e",
+        "response": "26a653947fc17d63db3febd0aa927d32883be5061229c89651f6f9d05c21310a"
+      }
+    },
+    {
+      "request_id": "d09c8fea850f4501b54c7da0a4e82256",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 132.5178985595703,
+      "response_id": "01a1dc43a1a04ed6ed01560c01a54ebd",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5366,
+        "completion_tokens": 3408,
+        "total_tokens": 8774,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "prompt_cache_hit_tokens": 2048,
+        "prompt_cache_miss_tokens": 3318
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "4a9a43050890879d731d35a946aa5185be4fac24466bc3ce2e7cb1cec35571f8",
+        "routed-request": "1b46a2e406e67e560a64fda88d76d5775a9fd2a7cb0a0c3f40610fe9676b9cf8",
+        "response": "a509f3ce1593944e513d20faf68875174c18329351a499f696fd9c780aca9c90"
+      }
+    },
+    {
+      "request_id": "5b9f8a4f358749e3b0c77cd5e6660441",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 118.78858923912048,
+      "response_id": "01a1dc445460471a406feeddd5f6f13d",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5401,
+        "completion_tokens": 3115,
+        "total_tokens": 8516,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "prompt_cache_hit_tokens": 2176,
+        "prompt_cache_miss_tokens": 3225
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "89caea4d4d44f32fd6d6fa5addf1d5682de936176c6e47db4b1f149e33334971",
+        "routed-request": "ab48a445ee179b4da12e58a442fb3324907c6b7c68f75de74e71c6cbffe51b0d",
+        "response": "9ab7b2019b43b8afb740ab8b683d18fef610137878679c6cb28b41ddc8059893"
+      }
+    },
+    {
+      "request_id": "f79f68b730a645d0a3c5c5341d238fd0",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 125.98555731773376,
+      "response_id": "01a1dc477c7ff2d69273af1eac162d1c",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5436,
+        "completion_tokens": 3163,
+        "total_tokens": 8599,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "prompt_cache_hit_tokens": 2176,
+        "prompt_cache_miss_tokens": 3260
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "82294333563e32ee7745afa51b63f6411e80618c9f4eb1c162e9aa61ea8e1ff7",
+        "routed-request": "00af8c6234417961295893342dc13e9adab158424ba11f9a2f3e0d994db28487",
+        "response": "83c330d347eb1b460ce7565cf36457fd47996f2e870c2e644f03ac4256d33cda"
+      }
+    },
+    {
+      "request_id": "2508ab64bf7a48efa3af1057ddec9a25",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 132.85186076164246,
+      "response_id": "01a1dc480617d65356568467c2f7f3ef",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5471,
+        "completion_tokens": 3436,
+        "total_tokens": 8907,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "prompt_cache_hit_tokens": 2176,
+        "prompt_cache_miss_tokens": 3295
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "b7cda8662e7b2aa0894a2133fa5bd6c46e1a8d68df16d2c51bc5dc87b7e08edf",
+        "routed-request": "43a7b29c040958a1e0014292c2925f6d992d85b6594df537e72a9289c0cca635",
+        "response": "bed4f559d45196778bc2b6f91c2c65517b196cac2db36a4ad3c9c132efc72e62"
+      }
+    },
+    {
+      "request_id": "a8a673e76e5e487884848f5cd6c46531",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 123.32591462135315,
+      "response_id": "01a1dc4a0e217edc90fcc63371de5aab",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5505,
+        "completion_tokens": 3155,
+        "total_tokens": 8660,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 3201
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "3b13acba8f59c6fecdb8152327657631ffc2743a1ce9c00a2b490e7356ff0411",
+        "routed-request": "d34a34ac000de5220ca7969d6e880e555398d838ba012f60736a12cc3020ffe6",
+        "response": "a466f70acd3ea9fcdc977c97f3854d4b04db6ccdcc25313f63e4789c8c238777"
+      }
+    },
+    {
+      "request_id": "89e9a0d7fdee4514814f34b4454e3094",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 147.3852870464325,
+      "response_id": "01a1dc4d5d9811d2c21049eb52b27ba1",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5540,
+        "completion_tokens": 3850,
+        "total_tokens": 9390,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 3236
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "5558194672f3c6852d20a873e9091c87e23f94049bb5e2e8c9e0aa60106cf1af",
+        "routed-request": "58deab084638fb9cef42d48da764400b28ff0f6eb86b6c329fa147feb3626dc1",
+        "response": "58d54e5703fc4f5e7a3444f2e9f0d65579847f04d49385e50b05c42487d2e15e"
+      }
+    },
+    {
+      "request_id": "abc7457c93ab4eb7bb23685d245eeb89",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 138.46082258224487,
+      "response_id": "01a1dc4f9110a7858066e8caf6f7c148",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5574,
+        "completion_tokens": 3499,
+        "total_tokens": 9073,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 3270
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "915c27fe4536b2bff4308481c74efe0a7acf30da6c05ec8f42309d6c2933b3f2",
+        "routed-request": "31dbc9f885142913a6ffda3c73199d925c906b07c9d10301d3037609d02f0fca",
+        "response": "9224fce42668e355a0b0924983b1ed66893fe3408c4d58dcc511b03eb4478b38"
+      }
+    },
+    {
+      "request_id": "f37fbac875eb4306b037d45f9224dbd8",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 123.40896582603455,
+      "response_id": "01a1dc50e6679c9ec3a1a60f1686b71e",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5613,
+        "completion_tokens": 3105,
+        "total_tokens": 8718,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 3309
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "6b0d10c43d29cda1c2a56ef0a49e5c815af1910969b37a18af77e792f37734bd",
+        "routed-request": "d1bd541fb53abf90ef53a0e86f397fe6d2584c5be4b5270a01eea731f902af52",
+        "response": "b382ee1414a1972f8d9a0227e4fd26c5d0b5ebe912012b58f689d65cf15402f9"
+      }
+    },
+    {
+      "request_id": "6dd0a886b2e94f479b9764bf8b0d33ef",
+      "role": "DeepSeek-V3.2",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "http": 200,
+      "elapsed_seconds": 143.0461208820343,
+      "response_id": "01a1dc5390cf8d990192f8ddc31d83f1",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 5648,
+        "completion_tokens": 3730,
+        "total_tokens": 9378,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 2432
+        },
+        "prompt_cache_hit_tokens": 2432,
+        "prompt_cache_miss_tokens": 3216
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "fcc40699987c455e81d9a0b4be9f9c6f71f9bafd3fbdf2de2c9904828294750d",
+        "routed-request": "c5c00c57fcd3378148952c75a7e30b661d67c52add7732acd72bb9c9cc4c608a",
+        "response": "714b56b85850903560737c41df267bdcca6182de73b2e4a7ff39c88caa7deacb"
+      }
+    },
+    {
+      "request_id": "4ade0079784d4e7b92c665be92ef9682",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 91.23571228981018,
+      "response_id": "01a1dc561e696696ffa5b41d9e27e984",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11004,
+        "completion_tokens": 2146,
+        "total_tokens": 13150,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1958
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 11004
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "122a097be501ab90128c3a15bd2d3eb2b5e10142335098b43156a11be428cdb2",
+        "routed-request": "3616968b231cb4fc2eb09c8e8c7534d7a373e9215d373ca5970280c19028adef",
+        "response": "6d22a7c25c494622df651586f138f2bb13ea4a4e4267d36c66e22914ea3125bf"
+      },
+      "reasoning_characters": 8904,
+      "answer_characters": 920,
+      "combined_response_sha256": "75812524d3900cabbcb4b67a7e4085fe487da2d486ae935a462ac1b5e5723338",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1",
+        "b684767ddac23228423d751bd8446820e4900eea49d9465b0afcac100c98e20b"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ],
+        [
+          "7d660a7802984652bafc83ed26b96cc4"
+        ]
+      ]
+    },
+    {
+      "request_id": "8b953273531f4a5da0f8faf0a3c86221",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 81.43589282035828,
+      "response_id": "01a1dc561ec76251dfe9e4f3fbf14518",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 10647,
+        "completion_tokens": 1931,
+        "total_tokens": 12578,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1742
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 10647
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "2279fe1228b4f6fe7be8e10d4a69eceb04d0caae8973631826b9603fa2a5f0d6",
+        "routed-request": "43d2fbc12a1a090c953d9890d70edd455cc5a072d48ac26c38d7f4917f0577ff",
+        "response": "8d25fa20f25736467404806f08c55a27f34f0f6b886fe8825b655e94ff9bff89"
+      },
+      "reasoning_characters": 8032,
+      "answer_characters": 991,
+      "combined_response_sha256": "d3bf024b97a5661513fc52962576439b9268e9f51ce1c6cc5e3230a8d89ee571",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.55
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "a6f6f751dee5d8c46aa944e1ac14da73044bd2188fc72d6ccca195c6420c6384",
+        "89ef610961fb5a1ce154a514aca8117b01be29c8393f49f22b3a17956014a44b"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "5287c027491f4b5b8d4624ef09618f26"
+        ],
+        [
+          "86ace75eba984d03a2adb1ecab7637fb"
+        ]
+      ]
+    },
+    {
+      "request_id": "1af9132a1d80460da41bfcf364c5c1d2",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 89.7165744304657,
+      "response_id": "01a1dc561ee3393278707ec90eaf487e",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11729,
+        "completion_tokens": 2034,
+        "total_tokens": 13763,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1642
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 11729
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "a8a8e8f3b9e1e20dfbf20db8dfc3123d51ed07920f5bb23be7cde8e6158006cf",
+        "routed-request": "7cd8e8564c9a906255373b76d61a66870948317320871891155c5a3b0801893a",
+        "response": "643b67377965a812158eed8e747daf3c50c38644cb0ce7c008fbc208b576514b"
+      },
+      "reasoning_characters": 7794,
+      "answer_characters": 2087,
+      "combined_response_sha256": "85d03b9f544e8b1380af4c66525211650a6a9614a51eccbc89d38b4adfaf4428",
+      "final_json": {
+        "predicted_best_index": 1,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "be49f010b270b98f4235013e6b9f6d7646d6e1302e49da3315a1b781cf201375",
+        "68a491a22d25bc27e17637bba9e0f3b545f079dd49820800cb8ebb47db3996c9"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "218a94de89694aad8ee5cfd83033125c"
+        ],
+        [
+          "2be232b7b39c4796b12f02bdebcdb199"
+        ]
+      ]
+    },
+    {
+      "request_id": "cec5a1d594e348268bd1c4ee9d712320",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 71.67895936965942,
+      "response_id": "01a1dc561ec9cbae6c8ae3cfb51448d7",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 10969,
+        "completion_tokens": 1583,
+        "total_tokens": 12552,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1370
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 10969
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "234377211286b1a4ee4f1aea764145a7ab0673d6be4d0290b5a3e4d22553e939",
+        "routed-request": "2cd7f634b499fe50319bcbbdf0710a676c68156a73e708dd0802278ee628f5d8",
+        "response": "0f45bf4007efde46f14b4b0eaae459d178d5793de1944669c61f59afff60cefa"
+      },
+      "reasoning_characters": 6901,
+      "answer_characters": 1116,
+      "combined_response_sha256": "e46652da03148a6d15a0f568ee5e8d6f8e7d5a6ec20e86e7efd0fe34232af0c4",
+      "final_json": {
+        "predicted_best_index": 1,
+        "confidence": 0.6
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "fbbd65206984fceb7faf1649611676f5094a4f4abc6c249a341286b3e4990125",
+        "0c10dd2e7fd6c522e9dab048726b49aa51ec542c80034f8ad18195bf728d1969"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "b5502d8e72d0412fa157926a87c523f2"
+        ],
+        [
+          "bb1c05bb99d24cd4a44a8b84fa106f8c"
+        ]
+      ]
+    },
+    {
+      "request_id": "506923898e2a4c1fa6b44c51d0492478",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 63.53964018821716,
+      "response_id": "01a1dc561eb1d745ccb37585fdb0923f",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11207,
+        "completion_tokens": 1429,
+        "total_tokens": 12636,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1136
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 11207
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "ca7542252e31b1ef38cc3ea1727e6f9fd47cead41015b3073b25992a7f016d79",
+        "routed-request": "bd34c8e8fcce0665490b9afacd39771056175c3daf8661c3f2885ad9dec95e0c",
+        "response": "78cbf5a9b8c77dfc9d6aee187473e43d6113430c5027c41cd874187950e6d75a"
+      },
+      "reasoning_characters": 5296,
+      "answer_characters": 1474,
+      "combined_response_sha256": "d9777b40596dd16d36cdca54569540d2fa5209a4433d5acad3383afe3a417438",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "f2778bfc0e088d40648940d4346527914bc2e531da6632f28a65c9e7f71b5057",
+        "a2d8a68727c02c4e7b830efcd0dc80ce7acbfe0d7c2b8cd5855f94575e4e6b11"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "7ef661df05824a0f8295d18e6f751ae9"
+        ],
+        [
+          "c0dcd517d7574d4e9eff0e1a573ab79a"
+        ]
+      ]
+    },
+    {
+      "request_id": "0456ce63bbba43c6a12b999a99275c1a",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 75.26852941513062,
+      "response_id": "01a1dc578115898bc8e50b7c19bafe0b",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 10692,
+        "completion_tokens": 1759,
+        "total_tokens": 12451,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1576
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 8064
+        },
+        "prompt_cache_hit_tokens": 8064,
+        "prompt_cache_miss_tokens": 2628
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "ef5c3a78c06db6a40be44ff1e01782d61d01d0a5d9579c59e47c79d45cb41ebd",
+        "routed-request": "6fa3579a9706c8117c05979ec6b46130342c19fc3347b84106f3a94e7e57dc1f",
+        "response": "8582885891e31f82930e0846f33954475442b1208299976436b8d86bbddc8d67"
+      },
+      "reasoning_characters": 7483,
+      "answer_characters": 944,
+      "combined_response_sha256": "28558cfe162a5218451099975c942706f8e7d29646f8f461f3a4b1b9ba982576",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.7
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "a6f6f751dee5d8c46aa944e1ac14da73044bd2188fc72d6ccca195c6420c6384",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "5287c027491f4b5b8d4624ef09618f26"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "57ba5def747d4b1781aa095f219e5eb4",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 55.644644260406494,
+      "response_id": "01a1dc57812179f14e3b2bf8620a6921",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11014,
+        "completion_tokens": 1320,
+        "total_tokens": 12334,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1162
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 8448
+        },
+        "prompt_cache_hit_tokens": 8448,
+        "prompt_cache_miss_tokens": 2566
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "516734575a9a8e01c06411d75476340b34597c2b8030a9286c7bdb7c43007059",
+        "routed-request": "211aecb5ee330b0d9dfe4541df6909cc951e5cc0f7ba8958ba0da1505ee1fa95",
+        "response": "73b30112503912c483c9cdf6874a6b5c0769796599ee99e976e6fb21d71f80f6"
+      },
+      "reasoning_characters": 5268,
+      "answer_characters": 841,
+      "combined_response_sha256": "a8988a68efbf989158e7caea77b458fae1474163811ee64822ab0e61f1a1d53e",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "fbbd65206984fceb7faf1649611676f5094a4f4abc6c249a341286b3e4990125",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "b5502d8e72d0412fa157926a87c523f2"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "d489711208914d43a706dace4f84b241",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 81.58004117012024,
+      "response_id": "01a1dc578152ed7d698b017173df0d86",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 10755,
+        "completion_tokens": 1876,
+        "total_tokens": 12631,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1575
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 4992
+        },
+        "prompt_cache_hit_tokens": 4992,
+        "prompt_cache_miss_tokens": 5763
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "fecfeec443f69a96ced47e3fed7e454c094754079228e4d5213c12a521b3a376",
+        "routed-request": "86f726482870d4dbf4ab20087265afe4627756238e4d45f3498ea14f937cb6d7",
+        "response": "a635766d2dde2cd01527c8d9777e26ef8c14458ea3ec12b2c0611d345efd1d06"
+      },
+      "reasoning_characters": 7429,
+      "answer_characters": 1630,
+      "combined_response_sha256": "a81cbfe80a01b43fcebc88a911ee4a0b4489452c11e703e009de6df4be5cd9d5",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "89ef610961fb5a1ce154a514aca8117b01be29c8393f49f22b3a17956014a44b",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "86ace75eba984d03a2adb1ecab7637fb"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "a8c6d3f6b5464551814328d5057b1504",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 73.97613954544067,
+      "response_id": "01a1dc57819476d6befdc3ed56d0b885",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 10755,
+        "completion_tokens": 1749,
+        "total_tokens": 12504,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1393
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 4992
+        },
+        "prompt_cache_hit_tokens": 4992,
+        "prompt_cache_miss_tokens": 5763
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "07e908a2d1849a4607887255d131a701ae7bf30c2870f0f22cb1e74dd83a2368",
+        "routed-request": "dc5c64b74c8fb62de8de2e89774dc8aeebcdb76b7605bc62220e3bf75428a806",
+        "response": "be706347649fe3b93272a0811e39f12c94a92260472884dbc6d80f2346d35ab7"
+      },
+      "reasoning_characters": 6391,
+      "answer_characters": 1887,
+      "combined_response_sha256": "cd99f60d067a5f22b7f551ecee872b6d52c07330ddc7a841cbba435b0edc5176",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "0c10dd2e7fd6c522e9dab048726b49aa51ec542c80034f8ad18195bf728d1969",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "bb1c05bb99d24cd4a44a8b84fa106f8c"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "f9b4cee9c21348e6b4ac264c371f82cb",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 75.08123970031738,
+      "response_id": "01a1dc57819c083ed20a5bf46468812a",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11425,
+        "completion_tokens": 1767,
+        "total_tokens": 13192,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1561
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 8832
+        },
+        "prompt_cache_hit_tokens": 8832,
+        "prompt_cache_miss_tokens": 2593
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "acfbb9d51b50d6e9e23a56a7ecb255bafaa175815ec4857ca91111e2ee1f45b8",
+        "routed-request": "9d57551993a2c3ed1f2968582fddd036332e24cae862ab8d297eaafc70c60e21",
+        "response": "b16990c0a1dfab8c5c52cdf4fa508722410afa725b941cee37abfe0ae6fd2298"
+      },
+      "reasoning_characters": 7322,
+      "answer_characters": 1130,
+      "combined_response_sha256": "52bacc28353a53a39562ba73ce86c00be0e86743705affeac9669dc509388846",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.7
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "be49f010b270b98f4235013e6b9f6d7646d6e1302e49da3315a1b781cf201375",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "218a94de89694aad8ee5cfd83033125c"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "4a810e6f20dd41788447d34d443b3f10",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 81.73300266265869,
+      "response_id": "01a1dc5781865e7993cd8b63792c0c06",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11104,
+        "completion_tokens": 1934,
+        "total_tokens": 13038,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1580
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 5248
+        },
+        "prompt_cache_hit_tokens": 5248,
+        "prompt_cache_miss_tokens": 5856
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "123273dce11f3440dec8e7268c793747fb1767cf17c4de2f411d89cef8336b49",
+        "routed-request": "ba782eced1739d3f7e4095f166a8654319e887a5161a8d5f39d0648c426362a1",
+        "response": "59fb3f11e853905e915d12912f6d5559b5a8b04ac9abb230e46624b42ae7d3e6"
+      },
+      "reasoning_characters": 7133,
+      "answer_characters": 1770,
+      "combined_response_sha256": "9bbec0c0081a7d475401d0ff968b6681495c1ee548498bd37e6a190559204d07",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "68a491a22d25bc27e17637bba9e0f3b545f079dd49820800cb8ebb47db3996c9",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "2be232b7b39c4796b12f02bdebcdb199"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "310bb34e28714ea8a004f845bc03946e",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 75.71707677841187,
+      "response_id": "01a1dc578182b1d7f5357946a9f07cb4",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 10682,
+        "completion_tokens": 1735,
+        "total_tokens": 12417,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1161
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "prompt_cache_hit_tokens": 7552,
+        "prompt_cache_miss_tokens": 3130
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "4b576afb3097589bce093363dcbed85cf17b0617e7c4206353ed771a03bb7a05",
+        "routed-request": "21acde176029c42792133e2a9c97d61215d7fb84ad279840e5af1564da838560",
+        "response": "1ddc613642beec6f83df117cc09738517372d1a7305e7ba45c699301e2892e4e"
+      },
+      "reasoning_characters": 5619,
+      "answer_characters": 2777,
+      "combined_response_sha256": "186c41f8a6b8c66abfcbcf601edc8541149db8e2d4b004953f5c870d40db3254",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "f2778bfc0e088d40648940d4346527914bc2e531da6632f28a65c9e7f71b5057",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "7ef661df05824a0f8295d18e6f751ae9"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    },
+    {
+      "request_id": "66fd5669162540ce894d59227bae3349",
+      "role": "DeepSeek-V3.2-Thinking",
+      "status": "responded",
+      "archives_present": {
+        "request": true,
+        "routed-request": true,
+        "response": true
+      },
+      "messages_equal_after_routing": true,
+      "exact_original_thinking_route": true,
+      "http": 200,
+      "elapsed_seconds": 58.630494594573975,
+      "response_id": "01a1dc578154f07bfc4012d3428bbe78",
+      "provider_request_id": null,
+      "trace_headers": {},
+      "usage": {
+        "prompt_tokens": 11325,
+        "completion_tokens": 1393,
+        "total_tokens": 12718,
+        "completion_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 4864
+        },
+        "prompt_cache_hit_tokens": 4864,
+        "prompt_cache_miss_tokens": 6461
+      },
+      "response_id_matches_archive": true,
+      "sha256": {
+        "request": "159e50746c72af7f956d9960d87a4fb9b02d95099fc0b763cfe1f1c99d669ab9",
+        "routed-request": "caa0f0db9a2bff0a2fffc718ec66ddeaf79684469b15a6698c7e012ff182e063",
+        "response": "51909b03adc95c3e595e9bd1ef4f4a352f94cf75478408ddd432b44ed8194f6b"
+      },
+      "reasoning_characters": 267,
+      "answer_characters": 5806,
+      "combined_response_sha256": "49b35b7985e97ebbe2979fdb198505b3f1e8b35c3da07068aafb24458d9a4956",
+      "final_json": {
+        "predicted_best_index": 0,
+        "confidence": 0.65
+      },
+      "finish_reason": "stop",
+      "ordered_solution_code_sha256": [
+        "a2d8a68727c02c4e7b830efcd0dc80ce7acbfe0d7c2b8cd5855f94575e4e6b11",
+        "b484a6c334e42749c8ed5650d34dab66e6690201d63a7d123ca78c404dca05b1"
+      ],
+      "ordered_solution_node_ids": [
+        [
+          "c0dcd517d7574d4e9eff0e1a573ab79a"
+        ],
+        [
+          "184e518bc7d84e529ffb775881e22210"
+        ]
+      ]
+    }
+  ],
+  "related_original_log_lines": [
+    "[2026-11-15 07:16:06,672] INFO: Cache hit for pair: (-7295335698237675221, -4108012363107873319)",
+    "[2026-11-15 07:16:06,672] INFO: Cache hit for pair: (-7295335698237675221, 5135797989347906117)",
+    "[2026-11-15 07:16:06,672] INFO: Cache hit for pair: (-7295335698237675221, 6012907904975379551)",
+    "[2026-11-15 07:16:06,672] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,673] INFO: Cache hit for pair: (6504545230379294090, 6766030946728135498)",
+    "[2026-11-15 07:16:06,673] INFO: Cache hit for pair: (3187227297891193351, 4351638559802858498)",
+    "[2026-11-15 07:16:06,673] INFO: Cache hit for pair: (-4108012363107873319, -1242432995902886357)",
+    "[2026-11-15 07:16:06,673] INFO: Cache hit for pair: (5135797989347906117, 6012907904975379551)",
+    "[2026-11-15 07:16:06,673] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,673] INFO: Cache hit for pair: (-7295335698237675221, 6766030946728135498)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, 6504545230379294090)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, 3187227297891193351)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, 4351638559802858498)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, -1242432995902886357)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, -4108012363107873319)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, 5135797989347906117)",
+    "[2026-11-15 07:16:06,674] INFO: Cache hit for pair: (-7295335698237675221, 6012907904975379551)",
+    "[2026-11-15 07:16:06,675] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,675] INFO: Cache hit for pair: (6504545230379294090, 6766030946728135498)",
+    "[2026-11-15 07:16:06,675] INFO: Cache hit for pair: (3187227297891193351, 4351638559802858498)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (-4108012363107873319, -1242432995902886357)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (5135797989347906117, 6012907904975379551)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (-7295335698237675221, 6766030946728135498)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (-7295335698237675221, 6504545230379294090)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (-7295335698237675221, 3187227297891193351)",
+    "[2026-11-15 07:16:06,676] INFO: Cache hit for pair: (-7295335698237675221, 4351638559802858498)",
+    "[2026-11-15 07:16:06,677] INFO: Cache hit for pair: (-7295335698237675221, -1242432995902886357)",
+    "[2026-11-15 07:16:06,677] INFO: Cache hit for pair: (-7295335698237675221, -4108012363107873319)",
+    "[2026-11-15 07:16:06,677] INFO: Cache hit for pair: (-7295335698237675221, 5135797989347906117)",
+    "[2026-11-15 07:16:06,677] INFO: Cache hit for pair: (-7295335698237675221, 6012907904975379551)",
+    "[2026-11-15 07:16:06,677] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,678] INFO: Cache hit for pair: (6504545230379294090, 6766030946728135498)",
+    "[2026-11-15 07:16:06,678] INFO: Cache hit for pair: (3187227297891193351, 4351638559802858498)",
+    "[2026-11-15 07:16:06,678] INFO: Cache hit for pair: (-4108012363107873319, -1242432995902886357)",
+    "[2026-11-15 07:16:06,678] INFO: Cache hit for pair: (5135797989347906117, 6012907904975379551)",
+    "[2026-11-15 07:16:06,678] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, 6766030946728135498)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, 6504545230379294090)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, 3187227297891193351)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, 4351638559802858498)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, -1242432995902886357)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, -4108012363107873319)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, 5135797989347906117)",
+    "[2026-11-15 07:16:06,679] INFO: Cache hit for pair: (-7295335698237675221, 6012907904975379551)",
+    "[2026-11-15 07:16:06,680] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,680] INFO: Cache hit for pair: (6504545230379294090, 6766030946728135498)",
+    "[2026-11-15 07:16:06,680] INFO: Cache hit for pair: (3187227297891193351, 4351638559802858498)",
+    "[2026-11-15 07:16:06,680] INFO: Cache hit for pair: (-4108012363107873319, -1242432995902886357)",
+    "[2026-11-15 07:16:06,680] INFO: Cache hit for pair: (5135797989347906117, 6012907904975379551)",
+    "[2026-11-15 07:16:06,681] INFO: Cache hit for pair: (-7295335698237675221, 7974430385999722545)",
+    "[2026-11-15 07:16:06,681] INFO: Cache hit for pair: (-7295335698237675221, 6766030946728135498)",
+    "[2026-11-15 07:16:06,681] INFO: Cache hit for pair: (-7295335698237675221, 6504545230379294090)",
+    "[2026-11-15 07:16:06,681] INFO: Cache hit for pair: (-7295335698237675221, 3187227297891193351)",
+    "[2026-11-15 07:16:06,681] INFO: Cache hit for pair: (-7295335698237675221, 4351638559802858498)",
+    "[2026-11-15 07:16:06,682] INFO: Cache hit for pair: (-7295335698237675221, -1242432995902886357)",
+    "[2026-11-15 07:16:06,682] INFO: Cache hit for pair: (-7295335698237675221, -4108012363107873319)",
+    "[2026-11-15 07:16:06,682] INFO: Cache hit for pair: (-7295335698237675221, 5135797989347906117)",
+    "[2026-11-15 07:16:06,682] INFO: Cache hit for pair: (-7295335698237675221, 6012907904975379551)",
+    "[2026-11-15 07:16:06,683] WARNING: Tournament exceeded maximum rounds, breaking"
+  ],
+  "private_labels_read": false,
+  "scoring_performed": false,
+  "run_modifications": false,
+  "first_comparator_original_log_matches": [
+    {
+      "line": 40457,
+      "text": "[2026-11-15 07:14:17,174] INFO: DeepSeek Thinking response parsed (reasoning: 5296 chars, answer: 1474 chars)"
+    },
+    {
+      "line": 40458,
+      "text": "[2026-11-15 07:14:17,175] INFO: Query completed in 63.55s. Input tokens: 11207, output tokens: 1429."
+    },
+    {
+      "line": 48863,
+      "text": "[2026-11-15 07:16:06,683] WARNING: Tournament exceeded maximum rounds, breaking"
+    }
+  ],
+  "all_request_messages_preserved": true,
+  "all_response_ids_match_raw": true,
+  "all_thinking_routes_exact": true,
+  "all_thinking_reasoning_and_content_present": true,
+  "first_raw_archive_matches_mac_backup": {
+    "request": true,
+    "routed-request": true,
+    "response": true
+  },
+  "observed_Asia_Shanghai": "2026-11-15T07:19:39.899914+08:00",
+  "original_confidence_classification": {
+    "threshold": 0.7,
+    "confidence": 0.65,
+    "adopted_pairwise_winner": null,
+    "is_valid": false,
+    "basis": "unchanged original WorldModel uses confidence >= threshold; same batch metadata retains null-winner/invalid 0.65 entries",
+    "raw_predicted_best_index_retained": 0
+  }
+}

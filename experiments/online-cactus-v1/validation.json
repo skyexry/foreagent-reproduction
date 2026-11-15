@@ -1,0 +1,13 @@
+{
+  "run_record_validation": "server/local1263exactSHAandtarentriespassed",
+  "source_params_runtime": "16params/6criticalsource/14runtimeunchanged",
+  "node_csvs": "13schema-valid/11originalAgentaccepted/oneoriginalselected",
+  "grading": "raworiginal0.9999375316002257 independentexact;MLEbenchround5=0.99994",
+  "checks": [
+    "git diff --check passed",
+    "newexperimentREADME relative links passed",
+    "python3 -B -m reproduction.research_env_v1 status --json: current_protected_files verified",
+    "31 preparedexperimentfiles checked; connectiondetailsandcredentialsoutsideGit"
+  ],
+  "validation_scope": "Final original end-to-end run and archive, no new training or API inference after budget."
+}

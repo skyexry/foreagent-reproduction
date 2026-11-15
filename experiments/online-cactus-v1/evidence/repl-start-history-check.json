@@ -1,0 +1,78 @@
+{
+  "phrase": "REPL child process failed to start execution",
+  "method": "distinct journal node IDs with exact phrase in _term_out; raw log occurrences include repeated prompts",
+  "records": [
+    {
+      "run": "aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d",
+      "journal_nodes": 59,
+      "journal_distinct_failure_nodes": 0,
+      "failure_nodes": [],
+      "log_phrase_occurrences_including_prompt_repeats": 0,
+      "critical_error_lines": [],
+      "critical_error_line_count": 0,
+      "contexts": [],
+      "source_journal": "data/historical/source_records/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/journal.json.gz",
+      "source_log": "data/historical/source_records/aerial-cactus-identification_3e9b1168-7fb7-4ac8-9784-23abaa2a1f7d/aide.log.gz"
+    },
+    {
+      "run": "aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720",
+      "journal_nodes": 60,
+      "journal_distinct_failure_nodes": 0,
+      "failure_nodes": [],
+      "log_phrase_occurrences_including_prompt_repeats": 0,
+      "critical_error_lines": [],
+      "critical_error_line_count": 0,
+      "contexts": [],
+      "source_journal": "data/historical/source_records/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/journal.json.gz",
+      "source_log": "data/historical/source_records/aerial-cactus-identification_6d8df1bf-cfd7-4912-82be-d94795a5f720/aide.log.gz"
+    },
+    {
+      "run": "aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a",
+      "journal_nodes": 29,
+      "journal_distinct_failure_nodes": 0,
+      "failure_nodes": [],
+      "log_phrase_occurrences_including_prompt_repeats": 0,
+      "critical_error_lines": [],
+      "critical_error_line_count": 0,
+      "contexts": [],
+      "source_journal": "data/historical/source_records/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/journal.json.gz",
+      "source_log": "data/historical/source_records/aerial-cactus-identification_c5d8f2ae-8fb5-46a0-a177-73282cc3e29a/aide.log.gz"
+    },
+    {
+      "run": "stanford-autodl-v1",
+      "journal_nodes": 3,
+      "journal_distinct_failure_nodes": 0,
+      "failure_nodes": [],
+      "log_phrase_occurrences_including_prompt_repeats": 0,
+      "critical_error_lines": [],
+      "critical_error_line_count": 0,
+      "contexts": [],
+      "source_journal": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v1/logs/exp/journal.json",
+      "source_log": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v1/logs/exp/aide.log"
+    },
+    {
+      "run": "stanford-autodl-v2",
+      "journal_nodes": 82,
+      "journal_distinct_failure_nodes": 0,
+      "failure_nodes": [],
+      "log_phrase_occurrences_including_prompt_repeats": 0,
+      "critical_error_lines": [],
+      "critical_error_line_count": 0,
+      "contexts": [],
+      "source_journal": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v2/logs/exp/journal.json",
+      "source_log": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v2/logs/exp/aide.log"
+    },
+    {
+      "run": "stanford-autodl-v2-plus4h",
+      "journal_nodes": 82,
+      "journal_distinct_failure_nodes": 0,
+      "failure_nodes": [],
+      "log_phrase_occurrences_including_prompt_repeats": 0,
+      "critical_error_lines": [],
+      "critical_error_line_count": 0,
+      "contexts": [],
+      "source_journal": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v2-plus4h/logs/exp/journal.json",
+      "source_log": "/Users/shrinn81/Documents/Codex/2026-11-01/read-this-folder-and-my-current/work/foreagent-local-preflight/autodl/runs/stanford-autodl-v2-plus4h/logs/exp/aide.log"
+    }
+  ]
+}

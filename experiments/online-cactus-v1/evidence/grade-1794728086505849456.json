@@ -1,0 +1,20 @@
+{
+  "scope": "cactus-formal-v1",
+  "time": 1794728086.5056808,
+  "rows": 3325,
+  "columns": [
+    "id",
+    "has_cactus"
+  ],
+  "id_unique": true,
+  "id_sets_match": true,
+  "finite_predictions": true,
+  "official_roc_auc": 0.9999375316002257,
+  "independent_id_aligned_roc_auc": 0.9999375316002257,
+  "absolute_grade_difference": 0.0,
+  "selected_submission_sha256": "a1e1bfbe71323039d4a535d56b710a5993196b003a718e7919dc9fbc731045e5",
+  "answer_sha256": "49b835b26ac6bae926fbd92ed508e8d9eb87989366b2cc76342b67ccde38b676",
+  "official_grade_source_sha256": "6917b9bc9f753c0b403187eccff1074e8b5405b7ff457571c67a9eb6a3dc7fa1",
+  "selected_submission": "/root/autodl-tmp/foreagent/cactus-20261115/runs/cactus-formal-v1/workspaces/exp/best_submission/submission.csv",
+  "evaluation_policy": "external only; retain agent-selected best; no feedback to agent"
+}

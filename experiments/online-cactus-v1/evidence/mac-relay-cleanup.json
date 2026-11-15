@@ -1,0 +1,27 @@
+{
+  "time": 1794728436.610067,
+  "processes": [
+    {
+      "pid": 922,
+      "status": "SIGTERM",
+      "alive_after": false
+    },
+    {
+      "pid": 87683,
+      "status": "SIGTERM",
+      "alive_after": false
+    },
+    {
+      "pid": 87570,
+      "status": "SIGTERM",
+      "alive_after": false
+    },
+    {
+      "pid": 93945,
+      "status": "SIGTERM",
+      "alive_after": false
+    }
+  ],
+  "scope": "only this run relay/maintenance/timedawake; unrelated caffeinate preserved",
+  "connection_details": "Full local process-identity evidence retained in the private delivery archive; endpoint/account configuration stays outside Git."
+}

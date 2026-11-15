@@ -1,0 +1,7 @@
+{
+  "keys_dir": "/root/.config/foreagent",
+  "providers": {
+    "openai": {"url": "https://api.openai.com/v1/chat/completions", "proxy": null},
+    "siliconflow": {"url": "https://api.siliconflow.cn/v1/chat/completions", "proxy": null}
+  }
+}

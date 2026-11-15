@@ -1,0 +1,123 @@
+{
+  "status": "CSV recording and public-schema checks passed; original Agent labels node buggy",
+  "node": {
+    "node_id": "9f9f0bf65c044d48ad8f5c71e82f6ce4",
+    "stage": "debug",
+    "is_buggy": true,
+    "is_skipped": false,
+    "metric": "Metric?(nan)",
+    "exec_time": 1446.7335817813873,
+    "exc_type": null,
+    "files": [
+      "code.py",
+      "metadata.json",
+      "plan.txt",
+      "submission.csv",
+      "terminal_output.txt"
+    ],
+    "exact_execution_matches": [
+      {
+        "job_id": "e732b2985fd941888c00b083d2bafa1c",
+        "scope": "cactus-formal-v1",
+        "requested": 1794685389.9410415,
+        "code_sha256": "e97fa8a960eda4713a8471878c1f98db1b8b6507a5accf86e6214cfbc3770954",
+        "status": "result archived",
+        "worker_started": 1794685390.2784421,
+        "command": [
+          "timeout",
+          "--kill-after=8",
+          "42655",
+          "bash",
+          "/root/autodl-tmp/foreagent/cactus-20261115/guest.sh",
+          "cactus-formal-v1",
+          "/opt/conda/envs/agent/bin/python",
+          "/worker.py",
+          "/jobs/e732b2985fd941888c00b083d2bafa1c"
+        ],
+        "worker_ended": 1794686851.690429,
+        "returncode": 0,
+        "worker_wall_seconds": 1461.4119868278503,
+        "author_exec_seconds": 1446.7335817813873,
+        "exception_type": null,
+        "submission_sha256": "6d0bd0f704a4ba23dd4313a4d81b1e95f3af31e639465dcff628474bcf10e0fe",
+        "submission_saved": true,
+        "completed": 1794686851.7044942,
+        "node_id": "9f9f0bf65c044d48ad8f5c71e82f6ce4",
+        "feedback_started": 1794686851.7049549,
+        "feedback_ended": 1794686855.8998437,
+        "feedback_wall_seconds": 4.1948888301849365
+      }
+    ],
+    "code_sha256": "e97fa8a960eda4713a8471878c1f98db1b8b6507a5accf86e6214cfbc3770954",
+    "code_matches_execution": true,
+    "execution_archive_checks": [
+      {
+        "job_id": "e732b2985fd941888c00b083d2bafa1c",
+        "task_files": [
+          "execution.json",
+          "request.json",
+          "result.json",
+          "submission.csv",
+          "submission.sha256"
+        ],
+        "result_matches_worker": true,
+        "submission_sha256": "6d0bd0f704a4ba23dd4313a4d81b1e95f3af31e639465dcff628474bcf10e0fe",
+        "submission_matches_node": true,
+        "hash_matches_execution": true
+      }
+    ],
+    "submission": {
+      "rows": 3325,
+      "ids_unique": true,
+      "ids_match_public_sample": true,
+      "finite_values": true,
+      "sha256": "6d0bd0f704a4ba23dd4313a4d81b1e95f3af31e639465dcff628474bcf10e0fe"
+    }
+  },
+  "feedback_api": {
+    "local_request_id": "d7c62fd9c731427790a704163abbe4ed",
+    "role": "gpt-4o-mini-2024-07-18",
+    "http": 200,
+    "response_id": "chatcmpl-EkEK54kVx1xA09YVDn0HIYSFQxFBc",
+    "provider_request_id": "req_c15589cb8e174e1c8245fbcbf0fe1bcb",
+    "elapsed_seconds": 4.191167593002319,
+    "full_archives": {
+      "request": true,
+      "routed-request": true,
+      "response": true
+    },
+    "archive_sha256": {
+      "request": "da685d6ebd35497bf4851a573e602ec7e878a4ae148f76ad78f16ed7d8ec62c5",
+      "routed-request": "da685d6ebd35497bf4851a573e602ec7e878a4ae148f76ad78f16ed7d8ec62c5",
+      "response": "f4cd0fa4b4c269a475d9206b15cf82dba3d86440f708de4616188a6cce65c500"
+    },
+    "response_id_matches": true,
+    "request_model_matches": true,
+    "message_count": 2,
+    "routed_model": "gpt-4o-mini-2024-07-18",
+    "routed_enable_thinking": null,
+    "choices": 1,
+    "tool_call_count": 1,
+    "answer_characters": 0,
+    "reasoning_characters": 0
+  },
+  "feedback_original_arguments": {
+    "is_bug": false,
+    "has_csv_submission": true,
+    "summary": "The script executed successfully, completing 5-fold cross-validation with excellent performance. The mean AUC score from cross-validation was 0.9998, and the final model was trained on the full dataset, achieving a validation AUC of 1.0000. A submission file was generated and saved correctly.",
+    "metric": 1,
+    "lower_is_better": false
+  },
+  "metric_json_type": "integer",
+  "source_mechanism": {
+    "path": "agents/aide/aide/agent.py",
+    "lines_860_861": [
+      "if not isinstance(response.get(\"metric\", None), float):",
+      "    response[\"metric\"] = None"
+    ],
+    "line_873": "cond_metric_none = response[\"metric\"] is None"
+  },
+  "private_labels_read": false,
+  "scoring_performed": false,
+  "run_modifications": false
+}

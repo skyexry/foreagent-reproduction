@@ -1,0 +1,89 @@
+{
+  "experiment_id": "cactus-autodl-original-v1",
+  "registered_date": "2026-11-15 Asia/Shanghai",
+  "question": "Can the unchanged published ForeAgent pipeline complete Aerial Cactus Identification end to end on the reused AutoDL environment?",
+  "prediction": "At least one valid submission and a completed original ten-candidate tournament; score target is unspecified.",
+  "author_commit": "c4d52cf99bd870d830b456ac7c0684aec1aef375",
+  "author_image_manifest": "sha256:451d8519af279052a9edfdd499267a2f3df5f969a8439d9192a1f9265fb5c220",
+  "source_check": "400 non-bytecode files match frozen author files exactly; shipped Python bytecode excluded from executable-source comparison.",
+  "competition": "aerial-cactus-identification",
+  "controller_worker_location": "same AutoDL server",
+  "server_base": "/root/autodl-tmp/foreagent/cactus-20261115",
+  "gpu": "NVIDIA GeForce RTX 3090 24GiB",
+  "worker_python": "3.11.13",
+  "worker_torch": "2.2.0+cu121",
+  "configuration": "mle-bench/agents/aide/config.yaml#ForeAgent/DeepSeek-V3.2",
+  "parameters": {
+    "agent.time_limit": 43200,
+    "agent.steps": 5000,
+    "exec.timeout": 32400,
+    "agent.search.num_drafts": 3,
+    "agent.search.max_debug_depth": 20,
+    "agent.search.debug_prob": 1,
+    "agent.code.temp": 0.5,
+    "agent.feedback.temp": 0.5,
+    "agent.world_model_temp": 1.0,
+    "agent.world_model_confidence_threshold": 0.7,
+    "agent.world_model_exec_probability": 0.2,
+    "agent.improve_num_candidates": 10,
+    "agent.improve_top_k": 1,
+    "agent.k_fold_validation": 5
+  },
+  "seed": "upstream defaults; no added seed setting",
+  "models": {
+    "code": "DeepSeek-V3.2 via SiliconFlow",
+    "compare": "DeepSeek-V3.2-Thinking via SiliconFlow",
+    "feedback": "gpt-4o-mini-2024-07-18 via OpenAI"
+  },
+  "smoke": {
+    "scope": "cactus-smoke-v1",
+    "external_cap_seconds": 7200,
+    "prompt_and_author_budget_seconds": 43200,
+    "stop": "next outer step boundary after >=3 draft nodes and >=1 completed original ten-candidate tournament",
+    "pass": "three role API parsing; CUDA/worker/previews; complete tournament; original journal; valid selected CSV with 3325 IDs and finite predictions; official and independent ID-aligned ROC AUC agree; archive coverage verified",
+    "network": "OpenAI via restricted loopback SSH CONNECT relay over Mac Cisco VPN; SiliconFlow direct from server",
+    "network_authorization": "User explicitly approved this path for the smoke run; Mac must remain online.",
+    "status": "Stopped on user instruction; preserve partial records separately; do not merge into formal journal or budget."
+  },
+  "formal": {
+    "scope": "cactus-formal-v1",
+    "wall_budget_seconds": 43200,
+    "journal": "fresh; smoke artifacts and labels are outside inputs",
+    "clock": "includes generation, feedback, comparison, training, network waiting and retries",
+    "launch_gate": "Environment, data and three role API preflight passed; user explicitly waived smoke gate.",
+    "stop": "published wall/step budget or terminal infrastructure failure; outcome score does not alter stopping",
+    "network": "Existing OpenAI via Mac Cisco VPN relay; SiliconFlow direct; controller and worker on AutoDL. User directs continuation to full run on this established path."
+  },
+  "data": {
+    "source": "author official HF fixed 6b322cb tasks/data.zip entry",
+    "raw_zip_md5": "72018554bfbb009f2145f56121380078",
+    "preparation": "unchanged author prepare.py; test_size=.19 random_state=0",
+    "train_rows": 14175,
+    "heldout_rows": 3325,
+    "private_access": "root-only data-source tree; public copy only in task/"
+  },
+  "adaptations": [
+    "server-local transport replaces Mac SSH bridge",
+    "separate Cactus public data and output paths",
+    "original worker remains byte-identical",
+    "actual worker GPU and data preview",
+    "same prior provider mapping",
+    "observability and immutable per-execution submission archives"
+  ],
+  "algorithm": "original ranking, cache, confidence gate, probability, fallback, debugging and best-node saving retained",
+  "evaluation": "official ROC AUC plus independent ID-aligned ROC AUC; private results remain external and do not guide the agent",
+  "required_records": [
+    "every executed candidate request/result/full console",
+    "every available execution submission.csv and SHA256",
+    "per-valid-node original all_nodes artifacts and explicit coverage manifest",
+    "full comparator API request and response bodies",
+    "local request UUID, provider response ID and provider request headers when supplied",
+    "request-start/response/error time and latency",
+    "candidate execution time and node mappings",
+    "original journal/verbose logs/effective config/source and runtime hashes",
+    "30-second GPU/CPU/RAM/disk/API wait observations",
+    "supervisor exit/deadline/worker cleanup records"
+  ],
+  "user_scope_revision": "User explicitly requests direct full 12h run, removing the preliminary smoke requirement.",
+  "server_connection": "User-owned AutoDL; private connection settings remain outside Git."
+}

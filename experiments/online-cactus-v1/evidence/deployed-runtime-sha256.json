@@ -1,0 +1,15 @@
+{
+  "README.md": "f063bc6764cbeafbdbbb3e0f3c414ad2e5a135a03611d631abb60e2b77c55cc4",
+  "baked-instructions.txt": "06e667de751ff7e4f24e22b03984bfc3e1734dd748e33b079e5746b3c6520a69",
+  "bridge.py": "df2b266e4af23e223dc43e1bb95521fb456333a330524ac275c1b1438b8e8dd9",
+  "controller.py": "92cb296721294343683c67740fdd6ac0ca606a05f48e85a986f3e2c4409e48ac",
+  "grade_run.py": "c4c98b41b0fdcd29e4fc22b699c627c1671dcf430607aa62659c499d81c0f06e",
+  "guest.sh": "748fee79b09ad2989f781984dd69f6b1eeb19473619c3d3b5b8cc46a6aedb3bf",
+  "model-config.example.json": "0ffd3a92e51f9d62584295099b2a1f6889806af1bddafdc38ff3858a5ff7c805",
+  "monitor.py": "5f92cc1d2a778dde9b5a37f3c0e0e26cbf0241ae53be77c0ce4f6edb798b61cd",
+  "preparation-validation.json": "cda8fc526dc1ea746e90d91e6d31a3a9a1fdd06ad85912dd972a49e55df436ff",
+  "probe_models.py": "8a8a85e39adad0ad1732427ecf38e8b3e49dab5f04b63dd53b5fc76ffa52a71c",
+  "requirements-controller.in": "9c86be9fa827675d76f6b8f24ea8bb66edace3b712826402578c4c93afa225f2",
+  "supervisor.py": "83fd21fe73d48acd198df9ad217545cb37d20561b81f65bfaa70fe2123f8bb3f",
+  "worker.py": "42fdad8e0b205e269cae8004e6243ce30a528cbaaa3f3fd7066100cd2c61017e"
+}

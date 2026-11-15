@@ -1,0 +1,16 @@
+{
+  "source": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/main/tasks/data.zip",
+  "outer_archive_lfs_sha256": "f3315856b9da5705e05ecc9b876aa7ac346c2675ef7db382ba77ee4d1b90de91",
+  "range_start": 151493785,
+  "range_end": 164038332,
+  "entry": "data/aerial-cactus-identification/aerial-cactus-identification.zip",
+  "size": 12543547,
+  "md5": "72018554bfbb009f2145f56121380078",
+  "expected_md5": "72018554bfbb009f2145f56121380078",
+  "sha256": "b41166e9d3c282f7cb52a5c705bf6c35bf439f1eba99fc47a93d5e1ecc3330c4",
+  "crc32": 631183571,
+  "verification": "matches pinned upstream checksums.yaml competition ZIP",
+  "pinned_equivalent_source": "https://huggingface.co/datasets/zjunlp/PredictBeforeExecute/resolve/6b322cb/tasks/data.zip",
+  "pinned_tree_lfs_verified": true,
+  "da_report_sha256": "7be9dfb326b68d51c462f7e6024dde6448068d32623b2fa51799ba7d0aa0fdaf"
+}

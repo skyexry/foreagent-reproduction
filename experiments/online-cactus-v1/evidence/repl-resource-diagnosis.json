@@ -1,0 +1,137 @@
+{
+  "observed": 1794703391.0130558,
+  "observed_china": "2026-11-15T08:43:11.013056+08:00",
+  "conclusion": "Fixed 10-second ready timeout recurs; current records support startup timing risk, without a confirmed external blocker or exhausted hard resource limit. Original run continues unchanged.",
+  "confirmed_external_blocker": null,
+  "confirmed_memory_or_pid_exhaustion": false,
+  "failed_jobs": [
+    {
+      "job_id": "b71fdc38156f4cef8e36a64aabda5381",
+      "start_china": "2026-11-15T04:11:51.552234+08:00",
+      "wall_seconds": 18.092716932296753,
+      "author_exec_seconds": 0.0,
+      "exception": "RuntimeError",
+      "saved_stack": [],
+      "console_proot_sigterm_lines": 65
+    },
+    {
+      "job_id": "c4d08b7c66d44c61aa67fa5186b44782",
+      "start_china": "2026-11-15T08:16:11.718930+08:00",
+      "wall_seconds": 20.83447527885437,
+      "author_exec_seconds": 0.0,
+      "exception": "RuntimeError",
+      "saved_stack": [],
+      "console_proot_sigterm_lines": 65
+    },
+    {
+      "job_id": "91c5759f5664446897488e891de883bc",
+      "start_china": "2026-11-15T08:37:54.975550+08:00",
+      "wall_seconds": 19.094350337982178,
+      "author_exec_seconds": 0.0,
+      "exception": "RuntimeError",
+      "saved_stack": [],
+      "console_proot_sigterm_lines": 65
+    }
+  ],
+  "comparison": {
+    "entered_execution_neighbor_jobs": [
+      {
+        "job_id": "1369a23b27204872af0d1926f91cfd06",
+        "exec_time": 6.892458915710449,
+        "setup_plus_cleanup_seconds": 17.344667673110962,
+        "candidate_exc_type": "FileNotFoundError"
+      },
+      {
+        "job_id": "faed97a7ec774741b84f7cfa154b6141",
+        "exec_time": 1575.4751608371735,
+        "setup_plus_cleanup_seconds": 19.04322338104248,
+        "candidate_exc_type": null
+      },
+      {
+        "job_id": "8324e340c7004a9795c5eb4ba8e9ae0c",
+        "exec_time": 2051.379598379135,
+        "setup_plus_cleanup_seconds": 17.909804821014404,
+        "candidate_exc_type": null
+      },
+      {
+        "job_id": "34b48ef5cc9e46218fbf53f60e74c6a8",
+        "exec_time": 434.0268671512604,
+        "setup_plus_cleanup_seconds": 18.049418449401855,
+        "candidate_exc_type": "RuntimeError"
+      },
+      {
+        "job_id": "e5e13bc5e99040ac946b212863558fec",
+        "exec_time": 409.02031564712524,
+        "setup_plus_cleanup_seconds": 16.126072645187378,
+        "candidate_exc_type": "TypeError"
+      },
+      {
+        "job_id": "d56aedb489424432b51b683693d774e7",
+        "exec_time": 5.162803888320923,
+        "setup_plus_cleanup_seconds": 19.744547367095947,
+        "candidate_exc_type": "FileNotFoundError"
+      }
+    ],
+    "neighbor_setup_plus_cleanup_range_seconds": [
+      16.126072645187378,
+      19.744547367095947
+    ],
+    "failure_total_wall_range_seconds": [
+      18.092716932296753,
+      20.83447527885437
+    ],
+    "meaning": "Positive exec_time proves ready succeeded; a later candidate exception is distinct from startup failure. Total-minus-exec includes parent imports and cleanup, rather than exact child startup latency."
+  },
+  "current_resources": {
+    "cpu_quota_cores": 15,
+    "affinity_logical_cpus": 128,
+    "memory_current_bytes": 2450763776,
+    "memory_limit_bytes": 96636764160,
+    "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\n",
+    "pids_current": 507,
+    "pids_limit": 20480,
+    "pids_events": "max 0\n",
+    "disk_free_bytes": 24495796224,
+    "cpu_nr_periods": 203066,
+    "cpu_nr_throttled": 3123,
+    "cpu_pressure": "some avg10=0.00 avg60=0.06 avg300=0.15 total=124981806\nfull avg10=0.00 avg60=0.06 avg300=0.15 total=124937724\n"
+  },
+  "startup_window_evidence": "Existing 30-second monitor samples around failures show GPU idle at 1 MiB and 0%, approximately 24.5 GB free disk, and host load/memory ranges overlapping entered-execution neighbors. Monitor cadence can miss the exact 10-second child-ready interval. Host load/memory do not directly measure cgroup-local consumption.",
+  "signal_interpretation": "Original interpreter logs ready failure, calls cleanup_session()->Process.terminate(), then returns RuntimeError with exec_time=0 and empty stack. The subsequent 65 PRoot SIGTERM lines are consistent with that cleanup, rather than independent proof of external termination.",
+  "prior_minimal_tests": [
+    {
+      "variant": "original",
+      "threads": null,
+      "wall_seconds": 17.686692476272583,
+      "returncode": 0,
+      "console_bytes": 0,
+      "exec_time": 0.40074634552001953,
+      "exc_type": null
+    },
+    {
+      "variant": "blas-one-v1",
+      "threads": 1,
+      "wall_seconds": 18.928823471069336,
+      "returncode": 0,
+      "console_bytes": 384,
+      "exec_time": 0.4517996311187744,
+      "exc_type": null
+    },
+    {
+      "variant": "blas-quota15-v1",
+      "threads": 15,
+      "wall_seconds": 17.843050956726074,
+      "returncode": 0,
+      "console_bytes": 1056,
+      "exec_time": 0.4052457809448242,
+      "exc_type": null
+    }
+  ],
+  "uncertainty": [
+    "Per-failure cgroup cpu.stat/pressure snapshots and child import/ready timestamps were not recorded; present counters are cumulative and cannot locate a failure-specific throttle event.",
+    "CPU quota throttling has occurred during the full run; causation for the three startup failures remains unresolved.",
+    "Original, one-thread and 15-thread minimal CUDA checks all passed with similar 17.7\u201318.9s wall times; thread limiting has no measured startup advantage here."
+  ],
+  "scope": "Read-only existing logs/proc/cgroup; no candidate/probe execution, private-label access, parameter/env/ACL/process/runtime changes.",
+  "raw_evidence": "repl-resource-snapshot.json"
+}

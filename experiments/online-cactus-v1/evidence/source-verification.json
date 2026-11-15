@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "source_files": 400,
+  "scope": "all non-bytecode files in pinned author source",
+  "excluded": "84 shipped Python bytecode files; runtime imports compile current Python bytecode",
+  "missing": [],
+  "extra": [],
+  "different": []
+}

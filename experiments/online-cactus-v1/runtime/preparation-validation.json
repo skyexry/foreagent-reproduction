@@ -1,0 +1,36 @@
+{
+  "state": "prepared; server runtime validation pending",
+  "python_syntax": "passed",
+  "shell_syntax": "passed",
+  "worker_sha256": "42fdad8e0b205e269cae8004e6243ce30a528cbaaa3f3fd7066100cd2c61017e",
+  "routes": [
+    {
+      "model": "DeepSeek-V3.2",
+      "provider": "siliconflow",
+      "thinking": false
+    },
+    {
+      "model": "DeepSeek-V3.2-Thinking",
+      "provider": "siliconflow",
+      "thinking": true
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "provider": "openai",
+      "thinking": null
+    }
+  ],
+  "formal_outer_wall_cap_seconds": 43200,
+  "smoke_diagnostic_wall_cap_seconds": 7200,
+  "signal_deadline": "SIGALRM default termination",
+  "smoke_stop": "three drafts and one complete ten-candidate tournament; outer step saved first",
+  "node_archive_checks": {
+    "exact_code_hash_to_job_join": "passed",
+    "valid_node_submission_sha": "passed",
+    "missing_valid_submission_detection": "passed"
+  },
+  "supervisor_syntax": "passed",
+  "external_grade_syntax": "passed",
+  "exact_node_job_association": "passed with two identical-code nodes",
+  "parse_wrapper_return_and_exception_passthrough": "passed"
+}

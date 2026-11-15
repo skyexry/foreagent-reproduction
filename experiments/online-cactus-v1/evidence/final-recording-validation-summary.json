@@ -1,0 +1,66 @@
+{
+  "status": "passed final read-only archive validation",
+  "observed": 1794728443.308476,
+  "server_archive_checks_pass": true,
+  "local_archive_checks_pass": true,
+  "issues": [],
+  "server_local_comparison": {
+    "missing_local": [],
+    "extra_local": [],
+    "different": [],
+    "exact_match": true
+  },
+  "stable_manifest_file_count": 1263,
+  "canonical_manifest_sha256": "b99037e3b3f31e4571ad1aeb5f200a7219acc2754e305da6e9ecdd6f7efe1fc6",
+  "changed_during_server_read": [],
+  "changed_during_local_read": [],
+  "nodes": 82,
+  "original_agent_valid_nodes": 11,
+  "node_csv_count": 13,
+  "execution_jobs": 32,
+  "completed_execution_result_count": 31,
+  "budget_censored_execution_jobs": [
+    "f4d5be06c2a345bbb4ac1bad7d1f012e"
+  ],
+  "api_completed_count": 200,
+  "api_role_counts": {
+    "DeepSeek-V3.2": 83,
+    "gpt-4o-mini-2024-07-18": 31,
+    "DeepSeek-V3.2-Thinking": 86
+  },
+  "api_error_count": 0,
+  "api_pending_count": 0,
+  "all_16_original_kwargs_frozen": true,
+  "all_6_author_source_hashes_frozen": true,
+  "all_14_runtime_hashes_frozen": true,
+  "original_best": {
+    "node_id": "cf5dfdccf9ab47eab8cee08d7727e2b7",
+    "submission": {
+      "sha256": "a1e1bfbe71323039d4a535d56b710a5993196b003a718e7919dc9fbc731045e5",
+      "rows": 3325,
+      "checks": {
+        "columns_match": true,
+        "rows_3325": true,
+        "ids_unique": true,
+        "ids_match_public_sample": true,
+        "finite_predictions": true
+      },
+      "passed": true
+    },
+    "solution_sha256": "dd6e83a91486e16747d364b61a71ef4eed23bd88c458eabb1c4aa9e03292bea2",
+    "code_matches_original_node": true,
+    "csv_matches_original_node": true
+  },
+  "supervisor_budget_ended": "formal wall-clock budget ended",
+  "controller_returncode": -14,
+  "workers_after_grace_all_stopped": true,
+  "local_duplicate_history_preservation_receipt": "backup-only-stale-files/preservation-receipt.json",
+  "private_labels_read": false,
+  "scoring_performed": false,
+  "server_modified": false,
+  "report_sha256": {
+    "server-final-recording-audit.json": "4df62d1101f28b6bb353dc3d6fd05f2ca76c35c06c618d5f8c83cde29c025bb0",
+    "local-final-recording-audit.json": "47301c21b1398048c4445b975af2b85eac617e56fb265309c580db616b7c5837",
+    "formal-recording-final-frozen-check.json": "1e3a7b141ebb4f7afa6c1ab4ebddfc8b4d51a220f5f4236b75f0da39b3204d86"
+  }
+}
